@@ -3,13 +3,20 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
-    <File Name="Ratios.h"/>
-    <File Name="Printingfunctions.h"/>
-    <File Name="IncomestatementClasses.cpp"/>
+    <File Name="Sharesfloat.cpp"/>
+    <File Name="Sharesfloat.h"/>
+    <File Name="keyratios.cpp"/>
+    <File Name="Keyratios.h"/>
+    <File Name="HistoryStockPrice.cpp"/>
+    <File Name="HistoryStockPrices.h"/>
+    <File Name="Historicalprice.cpp"/>
+    <File Name="HistoricalPrice.h"/>
+    <File Name="IntrinsicValueCalculation.h"/>
+    <File Name="Balancesheet.cpp"/>
+    <File Name="Balancesheet.h"/>
+    <File Name="incomestatement.cpp"/>
+    <File Name="Incomestatement.h"/>
     <File Name="Responseparsing.h"/>
-    <File Name="ComprehensiveIncomeStatementClasses.cpp"/>
-    <File Name="CashFlowStatementClasses.cpp"/>
-    <File Name="BalancesheetClasses.cpp"/>
     <File Name="Getfunctions.h"/>
     <VirtualDirectory Name="nlohmann">
       <File Name="../../../Downloads/json-develop/include/nlohmann/ordered_map.hpp"/>
@@ -18,24 +25,12 @@
       <File Name="../../../Downloads/json-develop/include/nlohmann/byte_container_with_subtype.hpp"/>
       <File Name="../../../Downloads/json-develop/include/nlohmann/adl_serializer.hpp"/>
     </VirtualDirectory>
-    <File Name="Response.cpp"/>
-    <File Name="Response.h"/>
-    <File Name="Financials.cpp"/>
-    <File Name="Financials.h"/>
-    <File Name="ComprehensiveIncome.cpp"/>
-    <File Name="ComprehensiveIncome.h"/>
-    <File Name="ComprehensiveIncomeClasses.h"/>
     <File Name="Cashflowstatement.h"/>
     <File Name="Cashflowstatment.cpp"/>
-    <File Name="incomestatement.cpp"/>
-    <File Name="Incomestatement.h"/>
-    <File Name="Balancesheet.cpp"/>
-    <File Name="Balancesheet.h"/>
-    <File Name="CashflowStatementClasses.h"/>
-    <File Name="IncomestatementClasses.h"/>
-    <File Name="BalancesheetClasses.h"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -88,13 +83,15 @@
       </Completion>
     </Configuration>
     <Configuration Name="Release" CompilerType="GCC" DebuggerType="lldb-vscode" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
-      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="1">
+      <Compiler Options="-O2;-std=c++17;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="1">
         <IncludePath Value="."/>
         <Preprocessor Value="NDEBUG"/>
       </Compiler>
-      <Linker Options="" Required="yes"/>
+      <Linker Options="" Required="yes">
+        <Library Value="libcurl"/>
+      </Linker>
       <ResourceCompiler Options="" Required="no"/>
-      <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(ProjectPath)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
       <BuildSystem Name="CodeLite Makefile Generator"/>
       <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
         <![CDATA[]]>
@@ -128,6 +125,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

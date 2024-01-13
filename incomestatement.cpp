@@ -1,205 +1,356 @@
 #include "Incomestatement.h"
+#include "nlohmann/json.hpp"
+#include <string>
 
-#include <iostream>
-
-Income_tax_expense_benefit Incomestatement::get_income_tax_expense_benefit() { return income_tax_expense_benefit; }
-Participating_securities_distributed_and_undistributed_earnings_loss_basic
-Incomestatement::get_participating_securities_distributed_and_undistributed_earnings_loss_basic()
-{
-    return participating_securities_distributed_and_undistributed_earnings_loss_basic;
+std::string Income_statement::get_date() const {
+    return date;
 }
-Cost_of_revenue Incomestatement::get_cost_of_revenue() { return cost_of_revenue; }
-Preferred_stock_dividends_and_other_adjustments Incomestatement::get_preferred_stock_dividends_and_other_adjustments()
-{
-    return preferred_stock_dividends_and_other_adjustments;
-}
-Research_and_development Incomestatement::get_research_and_development() { return research_and_development; }
-Diluted_earnings_per_share Incomestatement::get_diluted_earnings_per_share() { return diluted_earnings_per_share; }
-Operating_income_loss Incomestatement::get_operating_income_loss() { return operating_income_loss; }
-Gross_profit Incomestatement::get_gross_profit() { return gross_profit; }
-Operating_expenses Incomestatement::get_operating_expenses() { return operating_expenses; }
-Diluted_average_shares Incomestatement::get_diluted_average_shares() { return diluted_average_shares; }
-Net_income_loss_attributable_to_parent Incomestatement::get_net_income_loss_attributable_to_parent()
-{
-    return net_income_loss_attributable_to_parent;
-}
-Selling_general_and_administrative_expenses Incomestatement::get_selling_general_and_administrative_expenses()
-{
-    return selling_general_and_administrative_expenses;
-}
-Revenues Incomestatement::get_revenues() { return revenues; }
-Interest_expense_operating Incomestatement::get_interest_expense_operating() { return interest_expense_operating; }
-Net_income_loss_attributable_to_noncontrolling_interest
-Incomestatement::get_net_income_loss_attributable_to_noncontrolling_interest()
-{
-    return net_income_loss_attributable_to_noncontrolling_interest;
-}
-Benefits_costs_expenses Incomestatement::get_benefits_costs_expenses() { return benefits_costs_expenses; }
-Net_income_loss_available_to_common_stockholders_basic
-Incomestatement::get_net_income_loss_available_to_common_stockholders_basic()
-{
-    return net_income_loss_available_to_common_stockholders_basic;
-}
-Costs_and_expenses Incomestatement::get_costs_and_expenses() { return costs_and_expenses; }
-Net_income_loss Incomestatement::get_net_income_loss() { return net_income_loss; }
-Basic_average_shares Incomestatement::get_basic_average_shares() { return basic_average_shares; }
-Income_loss_from_continuing_operations_before_tax
-Incomestatement::get_income_loss_from_continuing_operations_before_tax()
-{
-    return income_loss_from_continuing_operations_before_tax;
-}
-Basic_earnings_per_share Incomestatement::get_basic_earnings_per_share() { return basic_earnings_per_share; }
-Income_loss_from_continuing_operations_after_tax Incomestatement::get_income_loss_from_continuing_operations_after_tax()
-{
-    return income_loss_from_continuing_operations_after_tax;
-}
-Nonoperating_income_loss Incomestatement::get_nonoperating_income_loss() { return nonoperating_income_loss; }
-
-void from_json(const nlohmann::json& j, Incomestatement& i)
-{
-    if(j.contains("income_tax_expense_benefit") && !j["income_tax_expense_benefit"].empty()) {
-        j.at("income_tax_expense_benefit").get_to(i.income_tax_expense_benefit);
-    } else {
-        i.income_tax_expense_benefit = Income_tax_expense_benefit();
-    }
-
-    if(j.contains("participating_securities_distributed_and_undistributed_earnings_loss_basic") && !j["participating_securities_distributed_and_undistributed_earnings_loss_basic"].empty()) {
-        j.at("participating_securities_distributed_and_undistributed_earnings_loss_basic").get_to(i.participating_securities_distributed_and_undistributed_earnings_loss_basic);
-    } else {
-        i.participating_securities_distributed_and_undistributed_earnings_loss_basic = Participating_securities_distributed_and_undistributed_earnings_loss_basic();
-    }
-
-    if(j.contains("cost_of_revenue") && !j["cost_of_revenue"].empty()) {
-        j.at("cost_of_revenue").get_to(i.cost_of_revenue);
-    } else {
-        i.cost_of_revenue = Cost_of_revenue();
-    }
-
-    if(j.contains("preferred_stock_dividends_and_other_adjustments") && !j["preferred_stock_dividends_and_other_adjustments"].empty()) {
-        j.at("preferred_stock_dividends_and_other_adjustments").get_to(i.preferred_stock_dividends_and_other_adjustments);
-    } else {
-        i.preferred_stock_dividends_and_other_adjustments = Preferred_stock_dividends_and_other_adjustments();
-    }
-
-    if(j.contains("research_and_development") && !j["research_and_development"].empty()) {
-        j.at("research_and_development").get_to(i.research_and_development);
-    } else {
-        i.research_and_development = Research_and_development();
-    }
-
-    if(j.contains("diluted_earnings_per_share") && !j["diluted_earnings_per_share"].empty()) {
-        j.at("diluted_earnings_per_share").get_to(i.diluted_earnings_per_share);
-    } else {
-        i.diluted_earnings_per_share = Diluted_earnings_per_share();
-    }
-
-    if(j.contains("operating_income_loss") && !j["operating_income_loss"].empty()) {
-        j.at("operating_income_loss").get_to(i.operating_income_loss);
-    } else {
-        i.operating_income_loss = Operating_income_loss();
-    }
-
-    if(j.contains("gross_profit") && !j["gross_profit"].is_null()) {
-        j.at("gross_profit").get_to(i.gross_profit);
-    } else {
-        i.gross_profit = Gross_profit();
-    }
-
-    if(j.contains("operating_expenses") && !j["operating_expenses"].empty()) {
-        j.at("operating_expenses").get_to(i.operating_expenses);
-    } else {
-        i.operating_expenses = Operating_expenses();
-    }
-
-    if(j.contains("diluted_average_shares") && !j["diluted_average_shares"].empty()) {
-        j.at("diluted_average_shares").get_to(i.diluted_average_shares);
-    } else {
-        i.diluted_average_shares = Diluted_average_shares();
-    }
-
-    if(j.contains("net_income_loss_attributable_to_parent") && !j["net_income_loss_attributable_to_parent"].empty()) {
-        j.at("net_income_loss_attributable_to_parent").get_to(i.net_income_loss_attributable_to_parent);
-    } else {
-        i.net_income_loss_attributable_to_parent = Net_income_loss_attributable_to_parent();
-    }
-
-    if(j.contains("selling_general_and_administrative_expenses") && !j["selling_general_and_administrative_expenses"].empty()) {
-        j.at("selling_general_and_administrative_expenses").get_to(i.selling_general_and_administrative_expenses);
-    } else {
-        i.selling_general_and_administrative_expenses = Selling_general_and_administrative_expenses();
-    }
-
-    if(j.contains("revenues") && !j["revenues"].empty()) {
-        j.at("revenues").get_to(i.revenues);
-    } else {
-        i.revenues = Revenues();
-    }
-
-    if(j.contains("interest_expense_operating") && !j["interest_expense_operating"].empty()) {
-        j.at("interest_expense_operating").get_to(i.interest_expense_operating);
-    } else {
-        i.interest_expense_operating = Interest_expense_operating();
-    }
-
-    if(j.contains("net_income_loss_attributable_to_noncontrolling_interest") && !j["net_income_loss_attributable_to_noncontrolling_interest"].empty()) {
-        j.at("net_income_loss_attributable_to_noncontrolling_interest").get_to(i.net_income_loss_attributable_to_noncontrolling_interest);
-    } else {
-        i.net_income_loss_attributable_to_noncontrolling_interest = Net_income_loss_attributable_to_noncontrolling_interest();
-    }
+std::string Income_statement::get_symbol() const {
+    return symbol;
     
-    if(j.contains("benefits_costs_expenses") && !j["benefits_costs_expenses"].empty()) {
-        j.at("benefits_costs_expenses").get_to(i.benefits_costs_expenses);
-    } else {
-        i.benefits_costs_expenses = Benefits_costs_expenses();
-    }
+}
+std::string Income_statement::get_reported_currency() const {
+    return reportedCurrency;
+}
+std::string Income_statement::get_cik()const{
+    return cik;
+}
+std::string Income_statement::get_filling_date() const{
+    return fillingDate;
+}
 
-    if(j.contains("net_income_loss_available_to_common_stockholders_basic") && !j["net_income_loss_available_to_common_stockholders_basic"].empty()) {
-        j.at("net_income_loss_available_to_common_stockholders_basic").get_to(i.net_income_loss_available_to_common_stockholders_basic);
-    } else {
-        i.net_income_loss_available_to_common_stockholders_basic = Net_income_loss_available_to_common_stockholders_basic();
-    }
+std::string Income_statement::get_accepted_date()const {
+    return acceptedDate;
+}
+std::string Income_statement::get_calendar_year()const{
+    return calendarYear;
+}
+std::string Income_statement::get_period()const{
+    return period;
+}
+long long Income_statement::get_revenue()const{
+    return revenue;
+}
+long long Income_statement::get_cost_of_revenue()const{
+    return costOfRevenue;
+}
+long long Income_statement::get_gross_profit()const{
+    return grossProfit;
+}
+double Income_statement::get_gross_profit_ratio()const{
+    return grossProfitRatio;
+}
+long long Income_statement::get_research_and_development_expenses()const{
+    return researchAndDevelopmentExpenses;
+}
+long long Income_statement::get_general_and_administrative_expenses()const{
+    return generalAndAdministrativeExpenses;
+}
+long long Income_statement::get_selling_and_marketing_expenses()const{
+    return sellingAndMarketingExpenses;
+}
+long long Income_statement::get_selling_general_and_administrative_expenses()const{
+    return sellingGeneralAndAdministrativeExpenses;
     
-    if(j.contains("costs_and_expenses") && !j["costs_and_expenses"].empty()) {
-        j.at("costs_and_expenses").get_to(i.costs_and_expenses);
-    } else {
-        i.costs_and_expenses = Costs_and_expenses();
-    }
+}
+long long Income_statement::get_other_expenses()const{
+    return otherExpenses;
+}
+long long Income_statement::get_operating_expenses()const{
+    return operatingExpenses;
+}
+long long Income_statement::get_cost_and_expenses()const{
+    return costAndExpenses;
+}
+long long Income_statement::get_interest_income()const{
+    return interestIncome;
+}
+long long Income_statement::get_interest_expense()const{
+    return interestExpense;
+}
+long long Income_statement::get_depreciation_and_amortization()const{
+    return depreciationAndAmortization;
+}
+long long Income_statement::get_ebitda()const{
+    return ebitda;
+}
+double Income_statement::get_ebitda_ratio()const{
+    return ebitdaratio;
+}
+long long Income_statement::get_operating_income()const{
+    return operatingIncome;
+}
+double Income_statement::get_operating_income_ratio()const{
+    return operatingIncomeRatio;
+}
+long long Income_statement::get_total_other_income_expensesNet()const{
+    return totalOtherIncomeExpensesNet;
+}
+long long Income_statement::get_income_before_tax()const{
+    return  incomeBeforeTax;
+}
+double Income_statement::get_income_before_tax_ratio()const{
+    return incomeBeforeTaxRatio;
+}
+long long Income_statement::get_income_tax_expense()const{
+    return incomeTaxExpense;
+}
+long long Income_statement::get_net_income()const{
+    return netIncome;
+}
+long long Income_statement::get_net_income_ratio()const{
+    return netIncomeRatio;
+}
+double  Income_statement::get_eps()const{
+    return eps;
+}
+double Income_statement::get_eps_diluted()const{
+    return epsdiluted;
+}
+long long Income_statement::get_weighted_average_shs_out()const{
+    return weightedAverageShsOut;
+}
 
-    if(j.contains("net_income_loss") && !j["net_income_loss"].empty()) {
-        j.at("net_income_loss").get_to(i.net_income_loss);
-    } else {
-        i.net_income_loss = Net_income_loss();
-    }
-    
-    if(j.contains("basic_average_shares") && !j["basic_average_shares"].empty()) {
-        j.at("basic_average_shares").get_to(i.basic_average_shares);
-    } else {
-        i.basic_average_shares = Basic_average_shares();
-    }
+long long  Income_statement::get_weighted_average_dhs_out_dil()const{
+    return weightedAverageShsOutDil;
+}
 
-    if(j.contains("income_loss_from_continuing_operations_before_tax") && !j["income_loss_from_continuing_operations_before_tax"].empty()) {
-        j.at("income_loss_from_continuing_operations_before_tax").get_to(i.income_loss_from_continuing_operations_before_tax);
-    } else {
-        i.income_loss_from_continuing_operations_before_tax = Income_loss_from_continuing_operations_before_tax();
-    }
-    
-    if(j.contains("basic_earnings_per_share") && !j["basic_earnings_per_share"].empty()) {
-        j.at("basic_earnings_per_share").get_to(i.basic_earnings_per_share);
-    } else {
-        i.basic_earnings_per_share = Basic_earnings_per_share();
-    }
+std::string Income_statement::get_link()const{
+    return link;
+}
 
-    if(j.contains("income_loss_from_continuing_operations_after_tax") && !j["income_loss_from_continuing_operations_after_tax"].empty()) {
-        j.at("income_loss_from_continuing_operations_after_tax").get_to(i.income_loss_from_continuing_operations_after_tax);
-    } else {
-        i.income_loss_from_continuing_operations_after_tax = Income_loss_from_continuing_operations_after_tax();
-    }
-    
-    if(j.contains("nonoperating_income_loss") && !j["nonoperating_income_loss"].empty()) {
-        j.at("nonoperating_income_loss").get_to(i.nonoperating_income_loss);
-    } else {
-        i.nonoperating_income_loss = Nonoperating_income_loss();
-    }
+std::string Income_statement::get_finalLink()const{
+    return finalLink;
+}
 
-    
+void from_json(const nlohmann::json &j, Income_statement &i){
+  
+    if(j.contains("date") && !j["date"].empty()){
+          j.at("date").get_to(i.date);
+    } else {
+          i.date = "none";
+    }
+  
+   if(j.contains("symbol") && !j["symbol"].empty()){
+          j.at("symbol").get_to(i.symbol);
+    } else {
+          i.symbol = "none";
+    }
+  
+  
+  if(j.contains("reportedCurrency") && !j["reportedCurrency"].empty()){
+          j.at("reportedCurrency").get_to(i.reportedCurrency);
+   }else{
+          i.reportedCurrency = "none";
+   }
+  
+  
+  if(j.contains("cik") && !j["cik"].empty()){
+     j.at("cik").get_to(i.cik);
+   } else {
+     i.cik = "none";
+  }
+  
+  
+  if(j.contains("fillingDate") && !j["fillingDate"].empty()){
+        j.at("fillingDate").get_to(i.fillingDate);
+   } else {
+        i.fillingDate = "none";
+   }
+  
+  if(j.contains("acceptedDate") && !j["acceptedDate"].empty()){
+       j.at("acceptedDate").get_to(i.acceptedDate);
+   } else {
+       i.acceptedDate = "none";
+   }
+ 
+  
+   if(j.contains("calendarYear") && !j["calendarYear"].empty()){
+          j.at("calendarYear").get_to(i.calendarYear);
+    } else {
+          i.calendarYear = "none";
+    }
+  
+   if(j.contains("period") && !j["period"].empty()){
+          j.at("period").get_to(i.period);
+    } else {
+          i.period = "none";
+    }
+  
+  
+  if(j.contains("revenue") && !j["revenue"].empty()){
+          j.at("revenue").get_to(i.revenue);
+   }else{
+          i.revenue = 0;
+   }
+  
+  
+  if(j.contains("costOfRevenue") && !j["costOfRevenue"].empty()){
+     j.at("costOfRevenue").get_to(i.costOfRevenue);
+   } else {
+     i.costOfRevenue = 0;
+  }
+  
+  
+  if(j.contains("grossProfit") && !j["grossProfit"].empty()){
+        j.at("grossProfit").get_to(i.grossProfit);
+   } else {
+        i.grossProfit = 0;
+   }
+  
+  if(j.contains("grossProfitRatio") && !j["grossProfitRatio"].empty()){
+       j.at("grossProfitRatio").get_to(i.grossProfitRatio);
+   } else {
+       i.grossProfitRatio = 0.0;
+   }
+ 
+  
+  if(j.contains("researchAndDevelopmentExpenses") && !j["researchAndDevelopmentExpenses"].empty()){
+        j.at("researchAndDevelopmentExpenses").get_to(i.researchAndDevelopmentExpenses);
+  }else {
+        i.researchAndDevelopmentExpenses = 0;
+  }
+  
+   if(j.contains("generalAndAdministrativeExpenses") && !j["generalAndAdministrativeExpenses"].empty()){
+          j.at("generalAndAdministrativeExpenses").get_to(i.generalAndAdministrativeExpenses);
+    } else {
+          i.generalAndAdministrativeExpenses = 0;
+    }
+  
+   if(j.contains("sellingAndMarketingExpenses") && !j["sellingAndMarketingExpenses"].empty()){
+          j.at("sellingAndMarketingExpenses").get_to(i.sellingAndMarketingExpenses);
+    } else {
+          i.sellingAndMarketingExpenses = 0;
+    }
+  
+  
+  if(j.contains("sellingGeneralAndAdministrativeExpenses") && !j["sellingGeneralAndAdministrativeExpenses"].empty()){
+          j.at("sellingGeneralAndAdministrativeExpenses").get_to(i.sellingGeneralAndAdministrativeExpenses);
+   }else{
+          i.sellingGeneralAndAdministrativeExpenses = 0;
+   }
+  
+  
+  if(j.contains("operatingExpenses") && !j["operatingExpenses"].empty()){
+     j.at("operatingExpenses").get_to(i.operatingExpenses);
+   } else {
+     i.operatingExpenses = 0;
+  }
+  
+  
+  if(j.contains("otherExpenses") && !j["otherExpenses"].empty()){
+        j.at("otherExpenses").get_to(i.otherExpenses);
+   } else {
+        i.otherExpenses = 0;
+   }
+  
+  if(j.contains("costAndExpenses") && !j["costAndExpenses"].empty()){
+       j.at("costAndExpenses").get_to(i.costAndExpenses);
+   } else {
+       i.costAndExpenses = 0;
+   }
+ 
+  
+  if(j.contains("interestIncome") && !j["interestIncome"].empty()){
+        j.at("interestIncome").get_to(i.interestIncome);
+  }else {
+        i.interestIncome = 0;
+  }
+  
+    if(j.contains("interestExpense") && !j["interestExpense"].empty()){
+        j.at("interestExpense").get_to(i.interestExpense);
+  }else {
+        i.interestExpense = 0;
+  }
+    if(j.contains("depreciationAndAmortization") && !j["depreciationAndAmortization"].empty()){
+        j.at("depreciationAndAmortization").get_to(i.depreciationAndAmortization);
+  }else {
+        i.depreciationAndAmortization = 0;
+  }
+    if(j.contains("ebitda") && !j["ebitda"].empty()){
+        j.at("ebitda").get_to(i.ebitda);
+  }else {
+        i.ebitda = 0;
+  }
+    if(j.contains("ebitdaratio") && !j["ebitdaratio"].empty()){
+        j.at("ebitdaratio").get_to(i.ebitdaratio);
+  }else {
+        i.ebitdaratio = 0.0;
+  }
+    if(j.contains("operatingIncome") && !j["operatingIncome"].empty()){
+        j.at("operatingIncome").get_to(i.operatingIncome);
+  }else {
+       i.operatingIncome = 0; 
+  }
+    if(j.contains("operatingIncomeRatio") && !j["operatingIncomeRatio"].empty()){
+        j.at("operatingIncomeRatio").get_to(i.operatingIncomeRatio);
+  }else {
+        i.operatingIncomeRatio = 0.0;
+  } 
+
+ if(j.contains("totalOtherIncomeExpensesNet") && !j["totalOtherIncomeExpensesNet"].empty()){
+        j.at("totalOtherIncomeExpensesNet").get_to(i.totalOtherIncomeExpensesNet);
+  }else {
+        i.totalOtherIncomeExpensesNet = 0;
+  }  
+  if(j.contains("incomeBeforeTax") && !j["incomeBeforeTax"].empty()){
+        j.at("incomeBeforeTax").get_to(i.incomeBeforeTax);
+  }else {
+        i.incomeBeforeTax = 0;
+  }  
+  
+  if(j.contains("incomeBeforeTaxRatio") && !j["incomeBeforeTaxRatio"].empty()){
+        j.at("incomeBeforeTaxRatio").get_to(i.incomeBeforeTaxRatio);
+  }else {
+        i.incomeBeforeTaxRatio = 0;
+  }  
+  if(j.contains("incomeTaxExpense") && !j["incomeTaxExpense"].empty()){
+        j.at("incomeTaxExpense").get_to(i.incomeTaxExpense);
+  }else {
+        i.incomeTaxExpense = 0;
+  } 
+  
+  if(j.contains("netIncome") && !j["netIncome"].empty()){
+        j.at("netIncome").get_to(i.netIncome);
+  }else {
+        i.netIncome = 0;
+  }  
+  if(j.contains("netIncomeRatio") && !j["netIncomeRatio"].empty()){
+        j.at("netIncomeRatio").get_to(i.netIncomeRatio);
+  }else {
+        i.netIncomeRatio = 0.0;
+  }  
+  if(j.contains("eps") && !j["eps"].empty()){
+        j.at("eps").get_to(i.eps);
+  }else {
+        i.eps = 0.0;
+  }  
+  if(j.contains("epsdiluted") && !j["epsdiluted"].empty()){
+        j.at("epsdiluted").get_to(i.epsdiluted);
+  }else {
+        i.epsdiluted = 0.0;
+  }
+    if(j.contains("weightedAverageShsOut") && !j["weightedAverageShsOut"].empty()){
+        j.at("weightedAverageShsOut").get_to(i.weightedAverageShsOut);
+  }else {
+        i.weightedAverageShsOut = 0;
+  }
+  
+  if(j.contains("weightedAverageShsOutDil") && !j["weightedAverageShsOutDil"].empty()){
+        j.at("weightedAverageShsOutDil").get_to(i.weightedAverageShsOutDil);
+  }else {
+        i.weightedAverageShsOutDil = 0;
+  }
+  if(j.contains("link") && !j["link"].empty()){
+        j.at("link").get_to(i.link);
+  }else {
+        i.link = "none";
+  }
+  if(j.contains("finalLink") && !j["finalLink"].empty()){
+        j.at("finalLink").get_to(i.finalLink);
+  }else {
+        i.finalLink = "none";
+  }
+  
+  
 }

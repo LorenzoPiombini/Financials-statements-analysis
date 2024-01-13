@@ -3,8 +3,11 @@
 #include <string>
 #include <vector>
 #include "Getfunctions.h"
+#include "Incomestatement.h"
+#include "Balancesheet.h"
+#include "IntrinsicValueCalculation.h"
 #include "Responseparsing.h"
-#include "Printingfunctions.h"
+
 
 using std::cout;
 using std::cin;
@@ -32,17 +35,36 @@ int main()
      std::getline(cin,ticker);
      safeTyping(ticker);
      
-     string responseStr= get_company_data(ticker);
-    
      
-     vector<Response> responses;
-     responses = parsingJsonFromTheAPI(responseStr);
+       //double value = median_historical_pe(ticker);
+       //cout << value << "\n";
+      
      
-     //display a result to confirm that the parsing happened correctcly
-      
-      /* print_income_statement(responses); */
-      
-      print_income_statement_ratios(responses);
+      double value_of_company = get_pe_evaluetion(ticker);
+      cout << ticker <<" value according to P/E valuetion is: "<< value_of_company << "\n";
+      double dfc = get_dcf_model(ticker);
+      cout << ticker<<" value according to DFC is: "<< dfc << "\n";
+       
+      past_performance_five_years(ticker);
+     
+//       std::string is = get_company_income_statement(ticker);
+//       cout<<is;
+//       std::vector<Income_statement> responses = parsing_json_from_api<Income_statement>(is,ticker);
+//     std::string response= get_company_key_ratios(ticker);
+//     std::string response1 = get_company_income_statement(ticker);
+//      
+//    cout<< response << "\n";
+//    cout<< response1 << "\n";
+     
+//     vector<Balancesheet> responses;
+//     std::string response_json = get_company_balance_sheet(ticker,"quarter");
+//     responses = parsing_json_from_api<Balancesheet>(response_json,ticker);
+//     cout<<response_json;
+//     //display a result to confirm that the parsing happened correctcly
+//      
+//      for(size_t i{0}; i < responses.size(); ++i){
+//      cout << responses[i].get_revenue()<< "\n";
+//      }
       return 0;
 
 }

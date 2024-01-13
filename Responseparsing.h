@@ -1,56 +1,73 @@
 #ifndef _RESPONSEPARSING_H_
 #define _RESPONSEPARSING_H_
 
+
+#include "HistoryStockPrices.h"
 #include "nlohmann/json.hpp"
-#include "Response.h"
 #include <string>
 #include <iostream>
 #include <vector>
 
-using std::string;
-using std::cerr;
-using std::vector;
 
-vector<Response> parsingJsonFromTheAPI(string responseJson){
+
+
+template <typename T>
+std::vector<T> parsing_json_from_api(const std::string& responseJson, std::string ticker){
     
-     vector<Response> responses;
+     std::vector<T> responses;
     try{
             
           auto json_obj = nlohmann::json::parse(responseJson);
+        
+             try{
+                    for(const auto& item : json_obj){
+                        T response = item.get<T>();
+                        responses.push_back(response);
+                    }
+             } catch (const nlohmann::json::exception &e){
+                     std::cerr << "Error parsing json. " << e.what() <<"\n";
+                     std::cerr << "Exception id: " << e.id <<"\n";
+             }
+             
+       if (responses.empty()) {
+            std::cout << "No result for " << ticker << "\n";
+        }
+                
+              
           
-          if(json_obj.contains("results") && !json_obj["results"].empty()){
-                
-              
-                 auto &result = json_obj["results"];
-                 
-                 for(size_t i{0}; i < result.size(); ++i){
-                    
-                     Response response = result[i].get<Response>();
-                     responses.push_back(response);
-                     std::cout << "parsing attepmpt nr: "<< i<<"\n";
-                 }
-                
-                    
-                return responses;
-              
-            } else {
-                std::cout<< "there is no results array.";
-                
-            }
             
-            
-            
-            //from_json(json_obj,response);
+        
             
     } catch (const nlohmann::json::exception &e){
-          cerr << "Error parsing json. " << e.what() <<"\n";
-          cerr << "Exception id: " << e.id <<"\n";
+          std::cerr << "Error parsing json. " << e.what() <<"\n";
+          std::cerr << "Exception id: " << e.id <<"\n";
+          
           
         }
     
     
     return responses;
 }
+
+
+/*
+ * define the fucntion to parse historical data
+ * 
+ * */
+
+//History_stock_prices parse_json_from_api_for_history_prices(const std::string &jsonResponse, std::string ticker){
+//    try{
+//        
+//         auto json_obj = nlohmann::json::parse(jsonResponse);
+//         
+//         return json_obj.get<History_stock_prices>();
+//        
+//    } catch (const nlohmann::json::exception &e){
+//        std::cerr << "Error parsing JSON " << e.what() << "\n";
+//    }
+//    
+//} 
+
 
 
 #endif

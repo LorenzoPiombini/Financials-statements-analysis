@@ -2,10 +2,10 @@
 ## Auto Generated makefile by CodeLite IDE
 ## any manual changes will be erased      
 ##
-## Debug
+## Release
 ProjectName            :=CppHTTPrequests
-ConfigurationName      :=Debug
-WorkspaceConfiguration :=Debug
+ConfigurationName      :=Release
+WorkspaceConfiguration :=Release
 WorkspacePath          :=/Users/stephaniepsiaki/CppWorkspaces/Workspace1
 ProjectPath            :=/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/CppHTTPrequests
@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Stephanie Psiaki
-Date                   :=30/12/2023
+Date                   :=12/01/2024
 CodeLitePath           :=/Users/stephaniepsiaki/.codelite
 MakeDirCommand         :=mkdir -p
 LinkerName             :=/usr/bin/g++
@@ -31,7 +31,7 @@ PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
 OutputDirectory        :=/Users/stephaniepsiaki/CppWorkspaces/Workspace1/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=../build-$(WorkspaceConfiguration)/bin/$(ProjectName)
-Preprocessors          :=
+Preprocessors          :=$(PreprocessorSwitch)NDEBUG 
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
@@ -52,8 +52,8 @@ LibPath                := $(LibraryPathSwitch).
 AR       := /usr/bin/ar rcu
 CXX      := /usr/bin/g++
 CC       := /usr/bin/gcc
-CXXFLAGS :=  -O0 -gdwarf-2 -std=c++17 -Wall $(Preprocessors)
-CFLAGS   :=  -gdwarf-2 -O0 -Wall $(Preprocessors)
+CXXFLAGS :=  -O2 -std=c++17 -Wall $(Preprocessors)
+CFLAGS   :=  -O2 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := /usr/bin/as
 
@@ -62,8 +62,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/Applications/codelite.app/Contents/SharedSupport/
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IntermediateDirectory)/CashFlowStatementClasses.cpp$(ObjectSuffix) $(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IntermediateDirectory)/BalancesheetClasses.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IntermediateDirectory)/ComprehensiveIncome.cpp$(ObjectSuffix) $(IntermediateDirectory)/Response.cpp$(ObjectSuffix) $(IntermediateDirectory)/Financials.cpp$(ObjectSuffix) $(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(ObjectSuffix) \
-	$(IntermediateDirectory)/IncomestatementClasses.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix) $(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix) $(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IntermediateDirectory)/keyratios.cpp$(ObjectSuffix) $(IntermediateDirectory)/Sharesfloat.cpp$(ObjectSuffix) 
 
 
 
@@ -90,11 +89,6 @@ $(IntermediateDirectory)/.d:
 
 PreBuild:
 
-# PreCompiled Header
-/Users/stephaniepsiaki/Downloads/json-develop/single_include/nlohmann/json_fwd.hpp.gch: /Users/stephaniepsiaki/Downloads/json-develop/single_include/nlohmann/json_fwd.hpp
-	$(CXX) $(SourceSwitch) /Users/stephaniepsiaki/Downloads/json-develop/single_include/nlohmann/json_fwd.hpp $(PCHCompileFlags) $(CXXFLAGS) $(IncludePath)
-
-
 
 ##
 ## Objects
@@ -107,21 +101,13 @@ $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
-$(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix): Balancesheet.cpp $(IntermediateDirectory)/Balancesheet.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Balancesheet.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Balancesheet.cpp$(DependSuffix): Balancesheet.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Balancesheet.cpp$(DependSuffix) -MM Balancesheet.cpp
+$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix): Cashflowstatment.cpp $(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Cashflowstatment.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix): Cashflowstatment.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix) -MM Cashflowstatment.cpp
 
-$(IntermediateDirectory)/Balancesheet.cpp$(PreprocessSuffix): Balancesheet.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Balancesheet.cpp$(PreprocessSuffix) Balancesheet.cpp
-
-$(IntermediateDirectory)/CashFlowStatementClasses.cpp$(ObjectSuffix): CashFlowStatementClasses.cpp $(IntermediateDirectory)/CashFlowStatementClasses.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/CashFlowStatementClasses.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/CashFlowStatementClasses.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/CashFlowStatementClasses.cpp$(DependSuffix): CashFlowStatementClasses.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/CashFlowStatementClasses.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/CashFlowStatementClasses.cpp$(DependSuffix) -MM CashFlowStatementClasses.cpp
-
-$(IntermediateDirectory)/CashFlowStatementClasses.cpp$(PreprocessSuffix): CashFlowStatementClasses.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/CashFlowStatementClasses.cpp$(PreprocessSuffix) CashFlowStatementClasses.cpp
+$(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix): Cashflowstatment.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix) Cashflowstatment.cpp
 
 $(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix): incomestatement.cpp $(IntermediateDirectory)/incomestatement.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/incomestatement.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IncludePath)
@@ -131,61 +117,45 @@ $(IntermediateDirectory)/incomestatement.cpp$(DependSuffix): incomestatement.cpp
 $(IntermediateDirectory)/incomestatement.cpp$(PreprocessSuffix): incomestatement.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/incomestatement.cpp$(PreprocessSuffix) incomestatement.cpp
 
-$(IntermediateDirectory)/BalancesheetClasses.cpp$(ObjectSuffix): BalancesheetClasses.cpp $(IntermediateDirectory)/BalancesheetClasses.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/BalancesheetClasses.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/BalancesheetClasses.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/BalancesheetClasses.cpp$(DependSuffix): BalancesheetClasses.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/BalancesheetClasses.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/BalancesheetClasses.cpp$(DependSuffix) -MM BalancesheetClasses.cpp
+$(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix): Historicalprice.cpp $(IntermediateDirectory)/Historicalprice.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Historicalprice.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Historicalprice.cpp$(DependSuffix): Historicalprice.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Historicalprice.cpp$(DependSuffix) -MM Historicalprice.cpp
 
-$(IntermediateDirectory)/BalancesheetClasses.cpp$(PreprocessSuffix): BalancesheetClasses.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/BalancesheetClasses.cpp$(PreprocessSuffix) BalancesheetClasses.cpp
+$(IntermediateDirectory)/Historicalprice.cpp$(PreprocessSuffix): Historicalprice.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Historicalprice.cpp$(PreprocessSuffix) Historicalprice.cpp
 
-$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix): Cashflowstatment.cpp $(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Cashflowstatment.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix): Cashflowstatment.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix) -MM Cashflowstatment.cpp
+$(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix): HistoryStockPrice.cpp $(IntermediateDirectory)/HistoryStockPrice.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/HistoryStockPrice.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/HistoryStockPrice.cpp$(DependSuffix): HistoryStockPrice.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/HistoryStockPrice.cpp$(DependSuffix) -MM HistoryStockPrice.cpp
 
-$(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix): Cashflowstatment.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix) Cashflowstatment.cpp
+$(IntermediateDirectory)/HistoryStockPrice.cpp$(PreprocessSuffix): HistoryStockPrice.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/HistoryStockPrice.cpp$(PreprocessSuffix) HistoryStockPrice.cpp
 
-$(IntermediateDirectory)/ComprehensiveIncome.cpp$(ObjectSuffix): ComprehensiveIncome.cpp $(IntermediateDirectory)/ComprehensiveIncome.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/ComprehensiveIncome.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/ComprehensiveIncome.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/ComprehensiveIncome.cpp$(DependSuffix): ComprehensiveIncome.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/ComprehensiveIncome.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/ComprehensiveIncome.cpp$(DependSuffix) -MM ComprehensiveIncome.cpp
+$(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix): Balancesheet.cpp $(IntermediateDirectory)/Balancesheet.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Balancesheet.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Balancesheet.cpp$(DependSuffix): Balancesheet.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Balancesheet.cpp$(DependSuffix) -MM Balancesheet.cpp
 
-$(IntermediateDirectory)/ComprehensiveIncome.cpp$(PreprocessSuffix): ComprehensiveIncome.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/ComprehensiveIncome.cpp$(PreprocessSuffix) ComprehensiveIncome.cpp
+$(IntermediateDirectory)/Balancesheet.cpp$(PreprocessSuffix): Balancesheet.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Balancesheet.cpp$(PreprocessSuffix) Balancesheet.cpp
 
-$(IntermediateDirectory)/Response.cpp$(ObjectSuffix): Response.cpp $(IntermediateDirectory)/Response.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Response.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Response.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Response.cpp$(DependSuffix): Response.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Response.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Response.cpp$(DependSuffix) -MM Response.cpp
+$(IntermediateDirectory)/keyratios.cpp$(ObjectSuffix): keyratios.cpp $(IntermediateDirectory)/keyratios.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/keyratios.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/keyratios.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/keyratios.cpp$(DependSuffix): keyratios.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/keyratios.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/keyratios.cpp$(DependSuffix) -MM keyratios.cpp
 
-$(IntermediateDirectory)/Response.cpp$(PreprocessSuffix): Response.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Response.cpp$(PreprocessSuffix) Response.cpp
+$(IntermediateDirectory)/keyratios.cpp$(PreprocessSuffix): keyratios.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/keyratios.cpp$(PreprocessSuffix) keyratios.cpp
 
-$(IntermediateDirectory)/Financials.cpp$(ObjectSuffix): Financials.cpp $(IntermediateDirectory)/Financials.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Financials.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Financials.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Financials.cpp$(DependSuffix): Financials.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Financials.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Financials.cpp$(DependSuffix) -MM Financials.cpp
+$(IntermediateDirectory)/Sharesfloat.cpp$(ObjectSuffix): Sharesfloat.cpp $(IntermediateDirectory)/Sharesfloat.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Sharesfloat.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Sharesfloat.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Sharesfloat.cpp$(DependSuffix): Sharesfloat.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Sharesfloat.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Sharesfloat.cpp$(DependSuffix) -MM Sharesfloat.cpp
 
-$(IntermediateDirectory)/Financials.cpp$(PreprocessSuffix): Financials.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Financials.cpp$(PreprocessSuffix) Financials.cpp
-
-$(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(ObjectSuffix): ComprehensiveIncomeStatementClasses.cpp $(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/ComprehensiveIncomeStatementClasses.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(DependSuffix): ComprehensiveIncomeStatementClasses.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(DependSuffix) -MM ComprehensiveIncomeStatementClasses.cpp
-
-$(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(PreprocessSuffix): ComprehensiveIncomeStatementClasses.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/ComprehensiveIncomeStatementClasses.cpp$(PreprocessSuffix) ComprehensiveIncomeStatementClasses.cpp
-
-$(IntermediateDirectory)/IncomestatementClasses.cpp$(ObjectSuffix): IncomestatementClasses.cpp $(IntermediateDirectory)/IncomestatementClasses.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/IncomestatementClasses.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/IncomestatementClasses.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/IncomestatementClasses.cpp$(DependSuffix): IncomestatementClasses.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/IncomestatementClasses.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/IncomestatementClasses.cpp$(DependSuffix) -MM IncomestatementClasses.cpp
-
-$(IntermediateDirectory)/IncomestatementClasses.cpp$(PreprocessSuffix): IncomestatementClasses.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/IncomestatementClasses.cpp$(PreprocessSuffix) IncomestatementClasses.cpp
+$(IntermediateDirectory)/Sharesfloat.cpp$(PreprocessSuffix): Sharesfloat.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Sharesfloat.cpp$(PreprocessSuffix) Sharesfloat.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
@@ -194,6 +164,5 @@ $(IntermediateDirectory)/IncomestatementClasses.cpp$(PreprocessSuffix): Incomest
 ##
 clean:
 	$(RM) -r $(IntermediateDirectory)
-	$(RM) /Users/stephaniepsiaki/Downloads/json-develop/single_include/nlohmann/json_fwd.hpp.gch
 
 

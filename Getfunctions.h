@@ -6,20 +6,16 @@
 #include <curl/curl.h>
 
 using std::cout;
-using std::string;
 using std:: cerr;
 
-size_t writeCallback(void *ptr, size_t size, size_t nmemb, string *data){
+size_t writeCallback(void *ptr, size_t size, size_t nmemb, std::string *data){
     data -> append((char*)ptr, size * nmemb);
     return size*nmemb;
 }
 
-string get_company_data(string ticker){
+
+std::string perform_get_request(std::string url){
     
-    string base_url = "https://api.polygon.io/vX/reference/financials?";
-    string company = "ticker=";
-    string apiKey = "&apiKey=ZHogS3Ewx7wCAHAqXMNoPoKhhuj8ph1h";
-    string url = base_url + company + ticker + apiKey;
     const char* cStyleUrl = url.c_str();
     
     
@@ -30,8 +26,8 @@ string get_company_data(string ticker){
     CURL *curlHandle = curl_easy_init();
     
     if(curlHandle){
-        string responseString;
-        string headerString;
+        std::string responseString;
+        std::string headerString;
         
         //set the URL 
         curl_easy_setopt(curlHandle, CURLOPT_URL, cStyleUrl);
@@ -48,25 +44,132 @@ string get_company_data(string ticker){
         //perform the request
         CURLcode res = curl_easy_perform(curlHandle);
         
+         //cleanup
+         curl_easy_cleanup(curlHandle);
+        
         if(res != CURLE_OK){
-               string error(curl_easy_strerror(res));
-               string message = "curl_easy_perform() failed: ";
+               std::string error(curl_easy_strerror(res));
+               std::string message = "curl_easy_perform() failed: ";
                return message+error;
                
          }else{
-                //cleanup
-                curl_easy_cleanup(curlHandle);
-                //global clean up;
-                curl_global_cleanup();
                 return responseString;
          }
 
     } else{
-        string error = "Error initializing curl\n";
+        std::string error = "Error initializing curl\n";
         return error;
     }
-        
+    
+    
+}      
+
+
+
+
+std::string get_company_income_statement(const std::string &ticker, const std::string &period){
+    
+      std::string response {""};
+
+      std::string base_url = "https://financialmodelingprep.com/api/v3/income-statement/";
+      std::string annual = "?period=annual";
+      std::string quarter = "?period=quarter";
+      std::string api_key = "&apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw";
+     
+     
+     
+     if(period == "annual") {
+            std::string url = base_url+ ticker + annual + api_key;
+            response = perform_get_request(url);
+            
+        } else {
+            std::string url = base_url+ ticker + quarter + api_key;
+            response = perform_get_request(url); 
+            
+      }
+      
+      return response;
+}
+
+std::string get_company_balance_sheet(const std::string &ticker, const std::string &period){
+    
+    std::string response {""};
+    
+    std::string base_url = "https://financialmodelingprep.com/api/v3/balance-sheet-statement/";
+    std::string annual = "?period=annual";
+    std::string quarter = "?period=quarter";
+    std::string api_key = "&apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw";
+    
+    
+    
+     if(period == "annual") {
+      std::string url = base_url+ ticker + annual + api_key;
+      response = perform_get_request(url);
+    
+    } else {
+      std::string url = base_url+ ticker + quarter + api_key;
+      response = perform_get_request(url);
+      
+    }
+    
+    
+    return response;
 }
 
 
+std::string get_company_historical_price(std::string ticker){
+    std::string base_url = "https://financialmodelingprep.com/api/v3/historical-price-full/";
+    std::string api_key ="&apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw";
+    
+    std::string url = base_url+ticker+api_key;
+
+    
+    return  perform_get_request(url);
+    
+}
+
+
+std::string get_company_key_ratios(std::string ticker){
+   std::string base_url = "https://financialmodelingprep.com/api/v3/key-metrics/";
+   std::string api_key = "&apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw";
+   std::string annual = "?period=annual";
+   std::string quarter = "?period=quarter";
+   
+   std::string url = base_url+ ticker + annual + api_key;
+   
+   
+   return perform_get_request(url);
+    
+}
+
+std::string get_company_cash_flow(const std::string &ticker, const std::string &period){
+   
+   std::string response {""};
+    
+   std::string base_url = "https://financialmodelingprep.com/api/v3/cash-flow-statement/";
+   std::string api_key = "&apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw";
+   std::string annual = "?period=annual";
+   std::string quarter = "?period=quarter";
+   
+   if(period == "annual") {
+      std::string url = base_url+ ticker + annual + api_key;
+      response = perform_get_request(url);
+      
+    } else {
+      std::string url = base_url+ ticker + quarter + api_key;
+      response = perform_get_request(url);
+     
+    }
+   
+   
+   return response;
+    
+    
+}
+
+
+
+      
+      
+      
 #endif
