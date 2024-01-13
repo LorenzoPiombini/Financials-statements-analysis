@@ -140,7 +140,7 @@ void past_performance_five_years(std::string ticker){
     std::vector<Cashflowstatement> cashflow_statement = parsing_json_from_api<Cashflowstatement>(get_company_cash_flow(ticker,"annual"),ticker);
      
     double growth_avarage_last_five_years{0.0};
-    double grow_chat_gpt = get_growth_rate(income_statement);  
+     
     
     
     
@@ -163,7 +163,7 @@ void past_performance_five_years(std::string ticker){
         }
     
      std::cout<< "avarage grow rate past 5 years " << growth_avarage_last_five_years / (income_statement.size() -1) << "\n";
-     std::cout<< "grow_rate using gpt method:  " << grow_chat_gpt << "\n"; 
+     //std::cout<< "grow_rate using gpt method:  " << grow_chat_gpt << "\n"; 
       
       
       
