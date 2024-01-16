@@ -3,6 +3,11 @@
 
 #include <iostream>
 #include <string>
+#include "Balancesheet.h"
+#include "Incomestatement.h"
+#include "Keyratios.h"
+#include "Cashflowstatement.h"
+#include "Responseparsing.h"
 #include <curl/curl.h>
 
 using std::cout;
@@ -167,6 +172,39 @@ std::string get_company_cash_flow(const std::string &ticker, const std::string &
     
 }
 
+
+void get_company_financials_statements(
+     std::string ticker,
+     std::vector<Balancesheet*> &banace_sheets,
+     std::vector<Cashflowstatement*> &cashflow_statements,  
+     std::vector<Income_statement*> &income_statements,
+     std::vector<Key_ratios*> &ratios){
+     
+     std::string bs_response = get_company_balance_sheet(ticker, "annual");
+     std::string cfs_response = get_company_cash_flow(ticker,"annual");
+     std::string is_response = get_company_income_statement(ticker,"annual");
+     std::string ratio_response = get_company_key_ratios(ticker);
+     
+     banace_sheets= parsing_json_from_api<Balancesheet>(bs_response,ticker);
+     cashflow_statements = parsing_json_from_api<Cashflowstatement>(cfs_response,ticker);
+     income_statements = parsing_json_from_api<Income_statement>(is_response,ticker);
+     
+    
+    
+}
+
+
+void read_financials_from_file(std::string &ticker,
+     std::vector<Balancesheet*> &banace_sheets,
+     std::vector<Cashflowstatement*> &cashflow_statements,  
+     std::vector<Income_statement*> &income_statements){
+     
+     
+      
+      
+        
+    
+}
 
 
       

@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Stephanie Psiaki
-Date                   :=13/01/2024
+Date                   :=16/01/2024
 CodeLitePath           :=/Users/stephaniepsiaki/.codelite
 MakeDirCommand         :=mkdir -p
 LinkerName             :=/usr/bin/g++
@@ -62,7 +62,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/Applications/codelite.app/Contents/SharedSupport/
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix) $(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix) $(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IntermediateDirectory)/keyratios.cpp$(ObjectSuffix) $(IntermediateDirectory)/Sharesfloat.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix) $(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix) $(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IntermediateDirectory)/keyratios.cpp$(ObjectSuffix) $(IntermediateDirectory)/Sharesfloat.cpp$(ObjectSuffix) 
 
 
 
@@ -109,14 +109,6 @@ $(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix): Cashflowstatment.c
 $(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix): Cashflowstatment.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix) Cashflowstatment.cpp
 
-$(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix): incomestatement.cpp $(IntermediateDirectory)/incomestatement.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/incomestatement.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/incomestatement.cpp$(DependSuffix): incomestatement.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/incomestatement.cpp$(DependSuffix) -MM incomestatement.cpp
-
-$(IntermediateDirectory)/incomestatement.cpp$(PreprocessSuffix): incomestatement.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/incomestatement.cpp$(PreprocessSuffix) incomestatement.cpp
-
 $(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix): Historicalprice.cpp $(IntermediateDirectory)/Historicalprice.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Historicalprice.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Historicalprice.cpp$(DependSuffix): Historicalprice.cpp
@@ -124,6 +116,14 @@ $(IntermediateDirectory)/Historicalprice.cpp$(DependSuffix): Historicalprice.cpp
 
 $(IntermediateDirectory)/Historicalprice.cpp$(PreprocessSuffix): Historicalprice.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Historicalprice.cpp$(PreprocessSuffix) Historicalprice.cpp
+
+$(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix): incomestatement.cpp $(IntermediateDirectory)/incomestatement.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/incomestatement.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/incomestatement.cpp$(DependSuffix): incomestatement.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/incomestatement.cpp$(DependSuffix) -MM incomestatement.cpp
+
+$(IntermediateDirectory)/incomestatement.cpp$(PreprocessSuffix): incomestatement.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/incomestatement.cpp$(PreprocessSuffix) incomestatement.cpp
 
 $(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix): HistoryStockPrice.cpp $(IntermediateDirectory)/HistoryStockPrice.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/HistoryStockPrice.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix) $(IncludePath)

@@ -3,6 +3,7 @@
 
 #include "nlohmann/json.hpp"
 #include <string>
+#include <fstream>
 
 class Income_statement{
  
@@ -85,6 +86,10 @@ class Income_statement{
 		 long long  get_weighted_average_dhs_out_dil()const;
 		 std::string get_link()const;
 		 std::string get_finalLink()const;
+         std::string get_class_name()const;
+         std::string create_file_name(std::string ticker)const;
+         void save_to_file(std::ofstream &out);
+         void read_from_file(std::ifstream &in);
      
      friend void from_json(const nlohmann::json &j, Income_statement &i);
 };

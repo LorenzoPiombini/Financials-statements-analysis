@@ -12,16 +12,16 @@
 
 
 template <typename T>
-std::vector<T> parsing_json_from_api(const std::string& responseJson, std::string ticker){
+std::vector<T*> parsing_json_from_api(const std::string& responseJson, std::string ticker){
     
-     std::vector<T> responses;
+     std::vector<T*> responses;
     try{
             
           auto json_obj = nlohmann::json::parse(responseJson);
         
              try{
                     for(const auto& item : json_obj){
-                        T response = item.get<T>();
+                        T* response = new T(item.get<T>());
                         responses.push_back(response);
                     }
              } catch (const nlohmann::json::exception &e){

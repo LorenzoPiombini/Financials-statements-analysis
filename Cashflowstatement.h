@@ -2,6 +2,7 @@
 #define _CASHFLOWSTATEMENT_H_
 
 #include "nlohmann/json.hpp"
+#include <fstream>
 #include <string>
 
 class Cashflowstatement{
@@ -12,7 +13,7 @@ class Cashflowstatement{
         std::string reportedCurrency; 
         std::string cik; 
 		std::string fillingDate;
-		std::string acceptedDat;
+		std::string acceptedDate;
 		std::string calendarYear;
 		std::string period;
         long long netIncome;
@@ -54,7 +55,7 @@ class Cashflowstatement{
         std::string get_reported_currency() const;
         std::string get_cik() const;
         std::string get_filling_date() const;
-        std::string get_accepted_dat() const;
+        std::string get_accepted_date() const;
         std::string get_calendar_year() const;
         std::string get_period() const;
         long long get_net_income() const;
@@ -89,6 +90,10 @@ class Cashflowstatement{
         long long get_free_cash_flow() const;
         std::string get_link() const;
         std::string get_final_link() const;
+        std::string get_class_name() const;     
+        std::string create_file_name(std::string ticker)const;
+        void save_to_file(std::ofstream &out);
+        void read_from_file(std::ifstream &in);
 
         friend void from_json(const nlohmann::json &j, Cashflowstatement &c);
     

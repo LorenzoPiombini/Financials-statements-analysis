@@ -3,6 +3,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="Savingdataoperations.h"/>
     <File Name="Sharesfloat.cpp"/>
     <File Name="Sharesfloat.h"/>
     <File Name="keyratios.cpp"/>

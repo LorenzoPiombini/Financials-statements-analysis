@@ -2,6 +2,8 @@
 #include <curl/curl.h>
 #include <string>
 #include <vector>
+#include <fstream>
+#include "Savingdataoperations.h"
 #include "Getfunctions.h"
 #include "Incomestatement.h"
 #include "Balancesheet.h"
@@ -27,44 +29,82 @@ void safeTyping(string &str){
 
 int main()
 {
-    
-    
-     cout<< "financials statement of company: ";
+     vector<Balancesheet*> balance_sheets;
+     vector<Cashflowstatement*> cashflow_statements;
+     vector<Income_statement*> income_statements;
+     std::vector<Key_ratios*> ratios;
+     
+     std::unordered_set<string> tickers;
+     
+     
+      if (is_file("history_user_research.bin")){
+         
+          read_user_input(tickers,"history_user_research.bin");
+          
+         }
+     
+     do{
+     
+     cout<< "financials statement of company (write exit to quit): ";
      
      string ticker{};
      std::getline(cin,ticker);
      safeTyping(ticker);
-     
-     
-       //double value = median_historical_pe(ticker);
-       //cout << value << "\n";
+    
+     if(ticker == "EXIT" || ticker == "QUIT")
+                  break;
       
-     
-      double value_of_company = get_pe_evaluetion(ticker);
+      
+      if (!organize_user_input(ticker,tickers)){
+          get_company_financials_statements(ticker,balance_sheets,cashflow_statements,income_statements,ratios);
+      } else {
+          load_data(ticker,balance_sheets,income_statements,cashflow_statements);
+          
+      }
+      
+      
+      double value_of_company = get_pe_evaluetion(ticker, income_statements, ratios);
       cout << ticker <<" value according to P/E valuetion is: "<< value_of_company << "\n";
-      double dfc = get_dcf_model(ticker);
+      double dfc = get_dcf_model(ticker,cashflow_statements,balance_sheets,income_statements);
       cout << ticker<<" value according to DFC is: "<< dfc << "\n";
        
-      past_performance_five_years(ticker);
+      past_performance_five_years(ticker, cashflow_statements,balance_sheets,income_statements);
+      
+      
+      save_data(balance_sheets,income_statements,cashflow_statements);
+      
+      
+        
+       /*******************FREEING THE MEMORY****************************/
      
-//       std::string is = get_company_income_statement(ticker);
-//       cout<<is;
-//       std::vector<Income_statement> responses = parsing_json_from_api<Income_statement>(is,ticker);
-//     std::string response= get_company_key_ratios(ticker);
-//     std::string response1 = get_company_income_statement(ticker);
-//      
-//    cout<< response << "\n";
-//    cout<< response1 << "\n";
+       
+     for(auto &ptr : balance_sheets){ 
+          delete ptr;
+      }
      
-//     vector<Balancesheet> responses;
-//     std::string response_json = get_company_balance_sheet(ticker,"quarter");
-//     responses = parsing_json_from_api<Balancesheet>(response_json,ticker);
-//     cout<<response_json;
-//     //display a result to confirm that the parsing happened correctcly
-//      
-//      for(size_t i{0}; i < responses.size(); ++i){
-//      cout << responses[i].get_revenue()<< "\n";
-//      }
+      
+     for(auto &ptr : income_statements){ 
+          delete ptr;
+      }
+      
+      for(auto &ptr : cashflow_statements){ 
+          delete ptr;
+       }
+       
+       for(auto &ptr : ratios) delete ptr;
+       
+       balance_sheets.clear();
+       income_statements.clear();
+       cashflow_statements.clear();
+       ratios.clear();
+     
+     /***************************************************************/
+     
+     }while(true);
+     
+     cout<< "\nThank you for using our application. exiting...\n";
+     write_user_input_to_file(tickers,"history_user_research.bin");
+     
       return 0;
 
 }

@@ -1,5 +1,6 @@
 #include "Balancesheet.h"
 #include "nlohmann/json.hpp"
+#include <iostream>
 #include <string>
 
 std::string Balancesheet::get_date() const{
@@ -165,7 +166,18 @@ std::string Balancesheet::get_link() const{
 std::string Balancesheet::get_final_link() const{
     return finalLink;
 }
+
+std::string Balancesheet::get_class_name() const {
+   return  "balance_sheet";   
+}
         
+std::string Balancesheet::create_file_name(std::string ticker)const{
+   if(ticker.size()==0){
+        return  symbol + "_" + get_class_name() +".bin";
+    } else {
+        return  ticker + "_" + get_class_name() +".bin";    
+    }
+}
 
 void from_json(const nlohmann::json &j, Balancesheet &i){
         
@@ -496,4 +508,214 @@ void from_json(const nlohmann::json &j, Balancesheet &i){
      }
      
       
+}
+
+
+
+void Balancesheet::save_to_file(std::ofstream &out){
+    //(create_file_name(""), std::ios::binary | std::ios::app);
+    
+  
+
+     size_t date_len = date.size();
+     out.write(reinterpret_cast<const char*>(&date_len), sizeof(date_len));
+     out.write(date.c_str(), date_len);
+     
+      size_t symbol_len = symbol.size();
+   out.write(reinterpret_cast<const char*>(&symbol_len), sizeof(symbol_len));
+   out.write(symbol.c_str(), symbol_len);
+    
+     size_t reported_currency_len = reportedCurrency.size();
+   out.write(reinterpret_cast<const char*>(&reported_currency_len), sizeof(reported_currency_len));
+   out.write(reportedCurrency.c_str(), reported_currency_len);
+    
+     size_t cik_len = cik.size();
+   out.write(reinterpret_cast<const char*>(&cik_len), sizeof(cik_len));
+   out.write(cik.c_str(), cik_len);
+    
+     size_t filling_date_len = fillingDate.size();
+   out.write(reinterpret_cast<const char*>(&filling_date_len), sizeof(filling_date_len));
+   out.write(fillingDate.c_str(), filling_date_len);
+    
+     size_t accepted_date_len = acceptedDate.size();
+   out.write(reinterpret_cast<const char*>(&accepted_date_len), sizeof(accepted_date_len));
+   out.write(acceptedDate.c_str(), accepted_date_len);
+   
+   
+     size_t calendar_year_len = calendarYear.size();
+   out.write(reinterpret_cast<const char*>(&calendar_year_len), sizeof(calendar_year_len));
+   out.write(calendarYear.c_str(), calendar_year_len);
+    
+     size_t period_len = period.size();
+   out.write(reinterpret_cast<const char*>(&period_len), sizeof(period_len));
+   out.write(period.c_str(), period_len);
+
+   
+    out.write(reinterpret_cast<const char*>(&cashAndCashEquivalents), sizeof(cashAndCashEquivalents));
+    out.write(reinterpret_cast<const char*>(&shortTermInvestments), sizeof(shortTermInvestments)); 
+    out.write(reinterpret_cast<const char*>(&cashAndShortTermInvestments), sizeof(cashAndShortTermInvestments));
+    out.write(reinterpret_cast<const char*>(&netReceivables), sizeof(netReceivables)); 
+    out.write(reinterpret_cast<const char*>(&inventory), sizeof(inventory));
+    out.write(reinterpret_cast<const char*>(&otherCurrentAssets), sizeof(otherCurrentAssets)); 
+   out.write(reinterpret_cast<const char*>(&totalCurrentAssets), sizeof(totalCurrentAssets)); 
+    out.write(reinterpret_cast<const char*>(&propertyPlantEquipmentNet), sizeof(propertyPlantEquipmentNet));
+    out.write(reinterpret_cast<const char*>(&goodwill), sizeof(goodwill));
+    out.write(reinterpret_cast<const char*>(&intangibleAssets), sizeof(intangibleAssets)); 
+    out.write(reinterpret_cast<const char*>(&goodwillAndIntangibleAssets), sizeof(goodwillAndIntangibleAssets));
+    out.write(reinterpret_cast<const char*>(&longTermInvestments), sizeof(longTermInvestments)); 
+	out.write(reinterpret_cast<const char*>(&taxAssets), sizeof(taxAssets));
+    out.write(reinterpret_cast<const char*>(&otherNonCurrentAssets), sizeof(otherNonCurrentAssets));
+    out.write(reinterpret_cast<const char*>(&totalNonCurrentAssets), sizeof(totalNonCurrentAssets));
+   out.write(reinterpret_cast<const char*>(&otherAssets), sizeof(otherAssets)); 
+	out.write(reinterpret_cast<const char*>(&totalAssets), sizeof(totalAssets)); 
+    out.write(reinterpret_cast<const char*>(&accountPayables), sizeof(accountPayables));
+   out.write(reinterpret_cast<const char*>(&shortTermDebt), sizeof(shortTermDebt)); 
+   out.write(reinterpret_cast<const char*>(&taxPayables), sizeof(taxPayables)); 
+    out.write(reinterpret_cast<const char*>(&deferredRevenue), sizeof(deferredRevenue)); 
+	out.write(reinterpret_cast<const char*>(&otherCurrentLiabilities), sizeof(otherCurrentLiabilities));
+   out.write(reinterpret_cast<const char*>(&totalCurrentLiabilities), sizeof(totalCurrentLiabilities));
+    out.write(reinterpret_cast<const char*>(&longTermDebt), sizeof(longTermDebt));
+    out.write(reinterpret_cast<const char*>(&deferredRevenueNonCurrent), sizeof(deferredRevenueNonCurrent)); 
+    out.write(reinterpret_cast<const char*>(&deferredTaxLiabilitiesNonCurrent), sizeof(deferredTaxLiabilitiesNonCurrent)); 
+    out.write(reinterpret_cast<const char*>(&otherNonCurrentLiabilities), sizeof(otherNonCurrentLiabilities));
+    out.write(reinterpret_cast<const char*>(&totalNonCurrentLiabilities), sizeof(totalNonCurrentLiabilities)); 
+   out.write(reinterpret_cast<const char*>(&otherLiabilities), sizeof(otherLiabilities)); 
+   out.write(reinterpret_cast<const char*>(&capitalLeaseObligations), sizeof(capitalLeaseObligations)); 
+	out.write(reinterpret_cast<const char*>(&totalLiabilities), sizeof(totalLiabilities)); 
+	out.write(reinterpret_cast<const char*>(&preferredStock), sizeof(preferredStock));
+    out.write(reinterpret_cast<const char*>(&commonStock), sizeof(commonStock));
+    out.write(reinterpret_cast<const char*>(&retainedEarnings), sizeof(retainedEarnings)); 
+    out.write(reinterpret_cast<const char*>(&accumulatedOtherComprehensiveIncomeLoss), sizeof(accumulatedOtherComprehensiveIncomeLoss)); 
+    out.write(reinterpret_cast<const char*>(&othertotalStockholdersEquity), sizeof(othertotalStockholdersEquity)); 
+    out.write(reinterpret_cast<const char*>(&totalStockholdersEquity), sizeof(totalStockholdersEquity)); 
+	out.write(reinterpret_cast<const char*>(&totalEquity), sizeof(totalEquity));
+	out.write(reinterpret_cast<const char*>(&totalLiabilitiesAndStockholdersEquity), sizeof(totalLiabilitiesAndStockholdersEquity)); 
+	out.write(reinterpret_cast<const char*>(&minorityInterest), sizeof(minorityInterest));
+    out.write(reinterpret_cast<const char*>(&totalLiabilitiesAndTotalEquity), sizeof(totalLiabilitiesAndTotalEquity));
+    out.write(reinterpret_cast<const char*>(&totalInvestments), sizeof(totalInvestments));
+    out.write(reinterpret_cast<const char*>(&totalDebt), sizeof(totalDebt)); 
+    out.write(reinterpret_cast<const char*>(&netDebt), sizeof(netDebt)); 
+   
+    size_t link_len = link.size();
+    out.write(reinterpret_cast<const char*>(&link_len), sizeof(link_len));
+    out.write(link.c_str(), link_len);
+   
+    size_t final_link_len = finalLink.size();
+    out.write(reinterpret_cast<const char*>(&final_link_len), sizeof(final_link_len));
+    out.write(finalLink.c_str(), final_link_len);
+
+
+    
+    out.close();
+}
+
+void Balancesheet::read_from_file(std::ifstream &in){
+    //std::ifstream in (create_file_name(ticker), std::ios::binary);
+    
+//    if(!in){
+//        std::cout << "I could not open the file " + create_file_name(ticker);
+//        return;
+//    }
+    
+     size_t date_len;
+     in.read(reinterpret_cast<char*>(&date_len), sizeof(date_len));
+     std::string date(date_len, '\0');
+     in.read(&date[0],date_len);
+     
+     size_t symbol_len;
+     in.read(reinterpret_cast<char*>(&symbol_len), sizeof(symbol_len));
+     std::string symbol(symbol_len, '\0');
+     in.read(&symbol[0],symbol_len);
+    
+     size_t reported_currency_len;
+     in.read(reinterpret_cast<char*>(&reported_currency_len), sizeof(reported_currency_len));
+     std::string reportedCurrency(reported_currency_len,'\0');
+     in.read(&reportedCurrency[0], reported_currency_len);
+    
+     size_t cik_len;
+     in.read(reinterpret_cast<char*>(&cik_len), sizeof(cik_len));
+     std::string cik (cik_len,'\0');
+     in.read(&cik[0],cik_len);
+    
+     size_t filling_date_len;
+     in.read(reinterpret_cast<char*>(&filling_date_len), sizeof(filling_date_len));
+     std::string fillingDate (filling_date_len,'\0');
+     in.read(&fillingDate[0],filling_date_len);
+    
+     size_t accepted_date_len;
+     in.read(reinterpret_cast<char*>(&accepted_date_len), sizeof(accepted_date_len));
+     std::string acceptedDate(accepted_date_len,'\0');
+     in.read(&acceptedDate[0],accepted_date_len);
+   
+   
+     size_t calendar_year_len;
+     in.read(reinterpret_cast<char*>(&calendar_year_len), sizeof(calendar_year_len));
+     std::string calendarYear(calendar_year_len,'\0');
+     in.read(&calendarYear[0], calendar_year_len);
+    
+     size_t period_len;
+     in.read(reinterpret_cast<char*>(&period_len), sizeof(period_len));
+     std::string period(period_len,'\0');
+     in.read(&period[0],period_len);
+
+   
+    in.read(reinterpret_cast<char*>(&cashAndCashEquivalents), sizeof(cashAndCashEquivalents));
+    in.read(reinterpret_cast<char*>(&shortTermInvestments), sizeof(shortTermInvestments)); 
+    in.read(reinterpret_cast<char*>(&cashAndShortTermInvestments), sizeof(cashAndShortTermInvestments));
+    in.read(reinterpret_cast<char*>(&netReceivables), sizeof(netReceivables)); 
+    in.read(reinterpret_cast<char*>(&inventory), sizeof(inventory));
+    in.read(reinterpret_cast<char*>(&otherCurrentAssets), sizeof(otherCurrentAssets)); 
+    in.read(reinterpret_cast<char*>(&totalCurrentAssets), sizeof(totalCurrentAssets)); 
+    in.read(reinterpret_cast<char*>(&propertyPlantEquipmentNet), sizeof(propertyPlantEquipmentNet));
+    in.read(reinterpret_cast<char*>(&goodwill), sizeof(goodwill));
+    in.read(reinterpret_cast<char*>(&intangibleAssets), sizeof(intangibleAssets)); 
+    in.read(reinterpret_cast<char*>(&goodwillAndIntangibleAssets), sizeof(goodwillAndIntangibleAssets));
+    in.read(reinterpret_cast<char*>(&longTermInvestments), sizeof(longTermInvestments)); 
+	in.read(reinterpret_cast<char*>(&taxAssets), sizeof(taxAssets));
+    in.read(reinterpret_cast<char*>(&otherNonCurrentAssets), sizeof(otherNonCurrentAssets));
+    in.read(reinterpret_cast<char*>(&totalNonCurrentAssets), sizeof(totalNonCurrentAssets));
+    in.read(reinterpret_cast<char*>(&otherAssets), sizeof(otherAssets)); 
+	in.read(reinterpret_cast<char*>(&totalAssets), sizeof(totalAssets)); 
+    in.read(reinterpret_cast<char*>(&accountPayables), sizeof(accountPayables));
+    in.read(reinterpret_cast<char*>(&shortTermDebt), sizeof(shortTermDebt)); 
+    in.read(reinterpret_cast<char*>(&taxPayables), sizeof(taxPayables)); 
+    in.read(reinterpret_cast<char*>(&deferredRevenue), sizeof(deferredRevenue)); 
+	in.read(reinterpret_cast<char*>(&otherCurrentLiabilities), sizeof(otherCurrentLiabilities));
+    in.read(reinterpret_cast<char*>(&totalCurrentLiabilities), sizeof(totalCurrentLiabilities));
+    in.read(reinterpret_cast<char*>(&longTermDebt), sizeof(longTermDebt));
+    in.read(reinterpret_cast<char*>(&deferredRevenueNonCurrent), sizeof(deferredRevenueNonCurrent)); 
+    in.read(reinterpret_cast<char*>(&deferredTaxLiabilitiesNonCurrent), sizeof(deferredTaxLiabilitiesNonCurrent)); 
+    in.read(reinterpret_cast<char*>(&otherNonCurrentLiabilities), sizeof(otherNonCurrentLiabilities));
+    in.read(reinterpret_cast<char*>(&totalNonCurrentLiabilities), sizeof(totalNonCurrentLiabilities)); 
+    in.read(reinterpret_cast<char*>(&otherLiabilities), sizeof(otherLiabilities)); 
+    in.read(reinterpret_cast<char*>(&capitalLeaseObligations), sizeof(capitalLeaseObligations)); 
+	in.read(reinterpret_cast<char*>(&totalLiabilities), sizeof(totalLiabilities)); 
+	in.read(reinterpret_cast<char*>(&preferredStock), sizeof(preferredStock));
+    in.read(reinterpret_cast<char*>(&commonStock), sizeof(commonStock));
+    in.read(reinterpret_cast<char*>(&retainedEarnings), sizeof(retainedEarnings)); 
+    in.read(reinterpret_cast<char*>(&accumulatedOtherComprehensiveIncomeLoss), sizeof(accumulatedOtherComprehensiveIncomeLoss)); 
+    in.read(reinterpret_cast<char*>(&othertotalStockholdersEquity), sizeof(othertotalStockholdersEquity)); 
+    in.read(reinterpret_cast<char*>(&totalStockholdersEquity), sizeof(totalStockholdersEquity)); 
+	in.read(reinterpret_cast<char*>(&totalEquity), sizeof(totalEquity));
+	in.read(reinterpret_cast<char*>(&totalLiabilitiesAndStockholdersEquity), sizeof(totalLiabilitiesAndStockholdersEquity)); 
+	in.read(reinterpret_cast<char*>(&minorityInterest), sizeof(minorityInterest));
+    in.read(reinterpret_cast<char*>(&totalLiabilitiesAndTotalEquity), sizeof(totalLiabilitiesAndTotalEquity));
+    in.read(reinterpret_cast<char*>(&totalInvestments), sizeof(totalInvestments));
+    in.read(reinterpret_cast<char*>(&totalDebt), sizeof(totalDebt)); 
+    in.read(reinterpret_cast<char*>(&netDebt), sizeof(netDebt)); 
+   
+    size_t link_len;
+    in.read(reinterpret_cast<char*>(&link_len), sizeof(link_len));
+    std::string link(link_len,'\0');
+    in.read(&link[0],link_len);
+   
+    size_t final_link_len;
+    in.read(reinterpret_cast<char*>(&final_link_len), sizeof(final_link_len));
+    std::string finalLink(final_link_len,'\0');
+    in.read(&finalLink[0],final_link_len);
+
+
+    
+    
+    
 }

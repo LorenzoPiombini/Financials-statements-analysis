@@ -2,12 +2,13 @@
 #define _BALANCESHEET_H_
 
 #include <string>
+#include <fstream>
 #include "nlohmann/json.hpp"
 
 
 class Balancesheet {
     private:
-         std::string date;
+        std::string date;
         std::string symbol;
         std::string reportedCurrency;
         std::string cik;
@@ -61,6 +62,7 @@ class Balancesheet {
 		long long netDebt;
 		std::string link; 
 		std::string finalLink;
+        
     
      public:
         std::string get_date() const;
@@ -117,7 +119,10 @@ class Balancesheet {
 		long long get_net_debt() const;
 		std::string get_link() const; 
 		std::string get_final_link() const;
-        
+        std::string get_class_name()const;
+        std::string create_file_name(std::string ticker)const;
+        void save_to_file(std::ofstream &out);
+        void read_from_file(std::ifstream &in);
         
         friend void from_json(const nlohmann::json &j, Balancesheet &b);
     

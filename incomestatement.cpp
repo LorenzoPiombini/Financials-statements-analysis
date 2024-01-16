@@ -1,5 +1,7 @@
 #include "Incomestatement.h"
 #include "nlohmann/json.hpp"
+#include <fstream>
+#include <iostream>
 #include <string>
 
 std::string Income_statement::get_date() const {
@@ -353,4 +355,192 @@ void from_json(const nlohmann::json &j, Income_statement &i){
   }
   
   
+}
+
+
+std::string Income_statement::get_class_name()const{
+    return "income_statement";  
+}
+
+std::string Income_statement::create_file_name(std::string ticker)const{
+    if(ticker.size()==0){
+        return  symbol + "_" + get_class_name() +".bin";
+    } else {
+        return  ticker + "_" + get_class_name() +".bin";    
+    }
+             
+}
+
+void Income_statement::save_to_file(std::ofstream &out){
+     //(create_file_name(""), std::ios::binary | std::ios::app);
+    
+     size_t date_len = date.size();
+     out.write(reinterpret_cast<const char*>(&date_len), sizeof(date_len));
+     out.write(date.c_str(), date_len);
+     
+      size_t symbol_len = symbol.size();
+   out.write(reinterpret_cast<const char*>(&symbol_len), sizeof(symbol_len));
+   out.write(symbol.c_str(), symbol_len);
+    
+     size_t reported_currency_len = reportedCurrency.size();
+   out.write(reinterpret_cast<const char*>(&reported_currency_len), sizeof(reported_currency_len));
+   out.write(reportedCurrency.c_str(), reported_currency_len);
+    
+     size_t cik_len = cik.size();
+   out.write(reinterpret_cast<const char*>(&cik_len), sizeof(cik_len));
+   out.write(cik.c_str(), cik_len);
+    
+     size_t filling_date_len = fillingDate.size();
+   out.write(reinterpret_cast<const char*>(&filling_date_len), sizeof(filling_date_len));
+   out.write(fillingDate.c_str(), filling_date_len);
+    
+     size_t accepted_date_len = acceptedDate.size();
+   out.write(reinterpret_cast<const char*>(&accepted_date_len), sizeof(accepted_date_len));
+   out.write(acceptedDate.c_str(), accepted_date_len);
+   
+   
+     size_t calendar_year_len = calendarYear.size();
+   out.write(reinterpret_cast<const char*>(&calendar_year_len), sizeof(calendar_year_len));
+   out.write(calendarYear.c_str(), calendar_year_len);
+    
+     size_t period_len = period.size();
+   out.write(reinterpret_cast<const char*>(&period_len), sizeof(period_len));
+   out.write(period.c_str(), period_len);
+   
+   out.write(reinterpret_cast<const char*>(&revenue), sizeof(revenue));
+   out.write(reinterpret_cast<const char*>(&costOfRevenue), sizeof(costOfRevenue));
+   out.write(reinterpret_cast<const char*>(&grossProfit), sizeof(grossProfit));
+   out.write(reinterpret_cast<const char*>(&grossProfitRatio), sizeof(grossProfitRatio));
+   out.write(reinterpret_cast<const char*>(&researchAndDevelopmentExpenses), sizeof(researchAndDevelopmentExpenses));
+   out.write(reinterpret_cast<const char*>(&generalAndAdministrativeExpenses), sizeof(generalAndAdministrativeExpenses));
+   out.write(reinterpret_cast<const char*>(&sellingAndMarketingExpenses), sizeof(sellingAndMarketingExpenses));
+   out.write(reinterpret_cast<const char*>(&sellingGeneralAndAdministrativeExpenses), sizeof(sellingGeneralAndAdministrativeExpenses));
+   out.write(reinterpret_cast<const char*>(&otherExpenses), sizeof(otherExpenses));
+   out.write(reinterpret_cast<const char*>(&costAndExpenses), sizeof(costAndExpenses));
+   out.write(reinterpret_cast<const char*>(&interestIncome), sizeof(interestIncome));
+   out.write(reinterpret_cast<const char*>(&interestExpense), sizeof(interestExpense));
+   out.write(reinterpret_cast<const char*>(&depreciationAndAmortization), sizeof(depreciationAndAmortization));
+   out.write(reinterpret_cast<const char*>(&ebitda), sizeof(ebitda));
+   out.write(reinterpret_cast<const char*>(&ebitdaratio), sizeof(ebitdaratio));
+   out.write(reinterpret_cast<const char*>(&operatingIncome), sizeof(operatingIncome));
+   out.write(reinterpret_cast<const char*>(&operatingIncomeRatio), sizeof(operatingIncomeRatio));
+   out.write(reinterpret_cast<const char*>(&totalOtherIncomeExpensesNet), sizeof(totalOtherIncomeExpensesNet));
+   out.write(reinterpret_cast<const char*>(&incomeBeforeTax), sizeof(incomeBeforeTax));
+   out.write(reinterpret_cast<const char*>(&incomeBeforeTaxRatio), sizeof(incomeBeforeTaxRatio));
+   out.write(reinterpret_cast<const char*>(&incomeTaxExpense), sizeof(incomeTaxExpense));
+   out.write(reinterpret_cast<const char*>(&netIncome), sizeof(netIncome));
+   out.write(reinterpret_cast<const char*>(&netIncomeRatio), sizeof(netIncomeRatio));
+   out.write(reinterpret_cast<const char*>(&eps), sizeof(eps));
+   out.write(reinterpret_cast<const char*>(&epsdiluted), sizeof(epsdiluted));
+   out.write(reinterpret_cast<const char*>(&weightedAverageShsOut), sizeof(weightedAverageShsOut));
+   out.write(reinterpret_cast<const char*>(&weightedAverageShsOutDil), sizeof(weightedAverageShsOutDil));
+   
+   size_t link_size = link.size();
+   out.write(reinterpret_cast<const char*>(&link_size), sizeof(link_size));
+   out.write(link.c_str(), sizeof(link_size));
+        
+   size_t final_link_size = finalLink.size();
+   out.write(reinterpret_cast<const char*>(&final_link_size), sizeof(final_link_size));
+   out.write(finalLink.c_str(), sizeof(final_link_size));
+          
+   //out.close();
+ 
+}
+
+
+void Income_statement::read_from_file(std::ifstream &in){
+//      std::ifstream in (create_file_name(ticker), std::ios::binary);
+//    
+//    if(!in){
+//        std::cout << "I could not open the file " + create_file_name(ticker);
+//        return;
+//    }
+//    
+     size_t date_len;
+     in.read(reinterpret_cast<char*>(&date_len), sizeof(date_len));
+     std::string date(date_len, '\0');
+     in.read(&date[0],date_len);
+     
+     size_t symbol_len;
+     in.read(reinterpret_cast<char*>(&symbol_len), sizeof(symbol_len));
+     std::string symbol(symbol_len, '\0');
+     in.read(&symbol[0],symbol_len);
+    
+     size_t reported_currency_len;
+     in.read(reinterpret_cast<char*>(&reported_currency_len), sizeof(reported_currency_len));
+     std::string reportedCurrency(reported_currency_len,'\0');
+     in.read(&reportedCurrency[0], reported_currency_len);
+    
+     size_t cik_len;
+     in.read(reinterpret_cast<char*>(&cik_len), sizeof(cik_len));
+     std::string cik (cik_len,'\0');
+     in.read(&cik[0],cik_len);
+    
+     size_t filling_date_len;
+     in.read(reinterpret_cast<char*>(&filling_date_len), sizeof(filling_date_len));
+     std::string fillingDate (filling_date_len,'\0');
+     in.read(&fillingDate[0],filling_date_len);
+    
+     size_t accepted_date_len;
+     in.read(reinterpret_cast<char*>(&accepted_date_len), sizeof(accepted_date_len));
+     std::string acceptedDate(accepted_date_len,'\0');
+     in.read(&acceptedDate[0],accepted_date_len);
+   
+   
+     size_t calendar_year_len;
+     in.read(reinterpret_cast<char*>(&calendar_year_len), sizeof(calendar_year_len));
+     std::string calendarYear(calendar_year_len,'\0');
+     in.read(&calendarYear[0], calendar_year_len);
+    
+     size_t period_len;
+     in.read(reinterpret_cast<char*>(&period_len), sizeof(period_len));
+     std::string period(period_len,'\0');
+     in.read(&period[0],period_len);
+      
+     in.read(reinterpret_cast<char*>(&revenue), sizeof(revenue));
+     in.read(reinterpret_cast<char*>(&costOfRevenue), sizeof(costOfRevenue));
+     in.read(reinterpret_cast<char*>(&grossProfit), sizeof(grossProfit));
+     in.read(reinterpret_cast<char*>(&grossProfitRatio), sizeof(grossProfitRatio));
+     in.read(reinterpret_cast<char*>(&researchAndDevelopmentExpenses), sizeof(researchAndDevelopmentExpenses));
+     in.read(reinterpret_cast<char*>(&generalAndAdministrativeExpenses), sizeof(generalAndAdministrativeExpenses));
+     in.read(reinterpret_cast<char*>(&sellingAndMarketingExpenses), sizeof(sellingAndMarketingExpenses));
+     in.read(reinterpret_cast<char*>(&sellingGeneralAndAdministrativeExpenses), sizeof(sellingGeneralAndAdministrativeExpenses));
+     in.read(reinterpret_cast<char*>(&otherExpenses), sizeof(otherExpenses));
+     in.read(reinterpret_cast<char*>(&costAndExpenses), sizeof(costAndExpenses));
+     in.read(reinterpret_cast<char*>(&interestIncome), sizeof(interestIncome));
+     in.read(reinterpret_cast<char*>(&interestExpense), sizeof(interestExpense));
+     in.read(reinterpret_cast<char*>(&depreciationAndAmortization), sizeof(depreciationAndAmortization));
+     in.read(reinterpret_cast<char*>(&ebitda), sizeof(ebitda));
+     in.read(reinterpret_cast<char*>(&ebitdaratio), sizeof(ebitdaratio));
+     in.read(reinterpret_cast<char*>(&operatingIncome), sizeof(operatingIncome));
+     in.read(reinterpret_cast<char*>(&operatingIncomeRatio), sizeof(operatingIncomeRatio));
+     in.read(reinterpret_cast<char*>(&totalOtherIncomeExpensesNet), sizeof(totalOtherIncomeExpensesNet));
+     in.read(reinterpret_cast<char*>(&incomeBeforeTax), sizeof(incomeBeforeTax));
+     in.read(reinterpret_cast<char*>(&incomeBeforeTaxRatio), sizeof(incomeBeforeTaxRatio));
+     in.read(reinterpret_cast<char*>(&incomeTaxExpense), sizeof(incomeTaxExpense));
+     in.read(reinterpret_cast<char*>(&netIncome), sizeof(netIncome));
+     in.read(reinterpret_cast<char*>(&netIncomeRatio), sizeof(netIncomeRatio));
+     in.read(reinterpret_cast<char*>(&eps), sizeof(eps));
+     in.read(reinterpret_cast<char*>(&epsdiluted), sizeof(epsdiluted));
+     in.read(reinterpret_cast<char*>(&weightedAverageShsOut), sizeof(weightedAverageShsOut));
+     in.read(reinterpret_cast<char*>(&weightedAverageShsOutDil), sizeof(weightedAverageShsOutDil));
+      
+         
+         
+         
+     size_t link_len;
+     in.read(reinterpret_cast<char*>(&link_len), sizeof(link_len));
+     std::string link(link_len,'\0');
+     in.read(&link[0],link_len);
+   
+     size_t final_link_len;
+     in.read(reinterpret_cast<char*>(&final_link_len), sizeof(final_link_len));
+     std::string finalLink(final_link_len,'\0');
+     in.read(&finalLink[0],final_link_len);
+
+
+    
+     //in.close();
+    
+    
 }
