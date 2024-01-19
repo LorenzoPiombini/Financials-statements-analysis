@@ -325,11 +325,11 @@ void Cashflowstatement::save_to_file(std::ofstream &out){
 		 
         size_t link_size = link.size();
         out.write(reinterpret_cast<const char*>(&link_size), sizeof(link_size));
-        out.write(link.c_str(), sizeof(link_size));
+        out.write(link.c_str(), link_size);
         
          size_t final_link_size = finalLink.size();
         out.write(reinterpret_cast<const char*>(&final_link_size), sizeof(final_link_size));
-        out.write(finalLink.c_str(), sizeof(final_link_size));
+        out.write(finalLink.c_str(), final_link_size);
           
        
  

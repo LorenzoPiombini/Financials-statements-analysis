@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <fstream>
+#include <iomanip>
 #include "Savingdataoperations.h"
 #include "Getfunctions.h"
 #include "Incomestatement.h"
@@ -25,10 +26,24 @@ void safeTyping(string &str){
         c = toupper(c);
         }
 }
+void printFileContents(const std::string& filename) {
+    std::ifstream file(filename, std::ios::binary);
+    if (!file) {
+        std::cerr << "Cannot open file " << filename << std::endl;
+        return;
+    }
 
+    char byte;
+    while (file.read(&byte, sizeof(byte))) {
+        std::cout << std::hex << std::setw(2) << std::setfill('0') << (0xff & static_cast<unsigned int>(byte)) << " ";
+    }
+    std::cout << std::endl;
+}
 
 int main()
-{
+{    
+//     std::string filename = "KO_income_statement.bin"; // Replace with your file name
+//      printFileContents(filename);
      vector<Balancesheet*> balance_sheets;
      vector<Cashflowstatement*> cashflow_statements;
      vector<Income_statement*> income_statements;
@@ -123,5 +138,10 @@ int main()
       return 0;
 
 }
-   
+
+
+
+
+
+
 	

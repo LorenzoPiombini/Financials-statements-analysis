@@ -100,7 +100,7 @@ void save_data(std::vector<Balancesheet*> &balance_sheets,
             for (auto &ptr : income_statements){
               ptr->save_to_file(out_is);
             }           
-            std::cout<< income_statements[0]->create_file_name("") << " written succesfully";
+            std::cout<< income_statements[0]->create_file_name("") << " written succesfully\n";
             out_is.close(); 
        }
      
@@ -117,7 +117,7 @@ void save_data(std::vector<Balancesheet*> &balance_sheets,
               ptr->save_to_file(out_cfs);
           }  
          
-        std::cout<< cashflow_statements[0]->create_file_name("") << " written succesfully";
+        std::cout<< cashflow_statements[0]->create_file_name("") << " written succesfully\n";
         out_cfs.close();
         }
     

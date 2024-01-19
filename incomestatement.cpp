@@ -451,6 +451,7 @@ void Income_statement::save_to_file(std::ofstream &out){
    out.write(reinterpret_cast<const char*>(&sellingAndMarketingExpenses), sizeof(sellingAndMarketingExpenses));
    out.write(reinterpret_cast<const char*>(&sellingGeneralAndAdministrativeExpenses), sizeof(sellingGeneralAndAdministrativeExpenses));
    out.write(reinterpret_cast<const char*>(&otherExpenses), sizeof(otherExpenses));
+   out.write(reinterpret_cast<const char*>(&operatingExpenses), sizeof(otherExpenses));
    out.write(reinterpret_cast<const char*>(&costAndExpenses), sizeof(costAndExpenses));
    out.write(reinterpret_cast<const char*>(&interestIncome), sizeof(interestIncome));
    out.write(reinterpret_cast<const char*>(&interestExpense), sizeof(interestExpense));
@@ -472,11 +473,11 @@ void Income_statement::save_to_file(std::ofstream &out){
    
    size_t link_size = link.size();
    out.write(reinterpret_cast<const char*>(&link_size), sizeof(link_size));
-   out.write(link.c_str(), sizeof(link_size));
+   out.write(link.c_str(), link_size);
         
    size_t final_link_size = finalLink.size();
    out.write(reinterpret_cast<const char*>(&final_link_size), sizeof(final_link_size));
-   out.write(finalLink.c_str(), sizeof(final_link_size));
+   out.write(finalLink.c_str(), final_link_size);
           
   
  
@@ -540,7 +541,7 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
         std::cerr<< "Couldn't read object size from the file regrading class "<< get_class_name()<<"\n";
         return false;
     }
-    std::cout << "Object size read (INcome statement): " << obj_size << std::endl;
+    std::cout << "Object size read (Income statement): " << obj_size << std::endl;
     
     Income_statement* statement = new Income_statement();
      std::vector<char> buffer(obj_size);
@@ -550,7 +551,8 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
          return false;
       }
        
-           size_t bytes_read = in.gcount();
+        size_t bytes_read = in.gcount();
+        
         if (bytes_read != obj_size) {
             delete statement; // Clean up on error
             return false;
@@ -611,6 +613,9 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
             }
             if(!read_number_values_from_buffer_income(buffer, pos,statement -> otherExpenses )){
              std::cerr << "Error reading 'otherExpenses' in " << get_class_name() << std::endl;
+            }
+            if(!read_number_values_from_buffer_income(buffer, pos,statement -> operatingExpenses)){
+             std::cerr << "Error reading 'operatingExpenses' in " << get_class_name() << std::endl;
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->costAndExpenses )){
              std::cerr << "Error reading 'costAndExpenses' in " << get_class_name() << std::endl;
@@ -679,17 +684,20 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
              statement -> finalLink ="nf";
             }
      
+          std::cout << "Reading completed for " << statement->symbol << " at position " << pos << std::endl;
     
-       statements.push_back(statement);
-      //if EOF 
-      
-        if(bytes_read  < buffer.size()){
-           
-            
-            std::cerr<<"Reached EOF! no more data to read in for "<<get_class_name()<<".\n";
+    
+       // Check if entire object was read
+        if (pos != obj_size) {
+            std::cerr << "Mismatch in object size and bytes read for " << get_class_name() << std::endl;
+            delete statement;
             return false;
-            
-            }
+        }
+        
+       statements.push_back(statement);
+      
+      
+        
      
      
      
