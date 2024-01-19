@@ -188,23 +188,13 @@ void get_company_financials_statements(
      banace_sheets= parsing_json_from_api<Balancesheet>(bs_response,ticker);
      cashflow_statements = parsing_json_from_api<Cashflowstatement>(cfs_response,ticker);
      income_statements = parsing_json_from_api<Income_statement>(is_response,ticker);
-     
+     ratios = parsing_json_from_api<Key_ratios>(ratio_response,ticker);
     
     
 }
 
 
-void read_financials_from_file(std::string &ticker,
-     std::vector<Balancesheet*> &banace_sheets,
-     std::vector<Cashflowstatement*> &cashflow_statements,  
-     std::vector<Income_statement*> &income_statements){
-     
-     
-      
-      
-        
-    
-}
+
 
 
       

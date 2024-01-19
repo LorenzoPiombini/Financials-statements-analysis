@@ -67,6 +67,10 @@ double Key_ratios::get_inventory_turnover() const { return inventoryTurnover; }
 double Key_ratios::get_roe() const { return roe; }
 double Key_ratios::get_capex_per_share() const { return capexPerShare; }
 
+
+std::string Key_ratios::get_class_name() const {
+   return  "key_ratios";   
+}
 // from_json implementation
 
 void from_json(const nlohmann::json &j, Key_ratios& k) {

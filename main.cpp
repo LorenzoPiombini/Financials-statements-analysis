@@ -63,6 +63,13 @@ int main()
       }
       
       
+      
+      
+      cout<< "i loaded the file content\n";
+      cout<<income_statements.size() <<"\n";
+      cout<<cashflow_statements.size()<<"\n";
+      cout<<balance_sheets.size()<<"\n";
+      
       double value_of_company = get_pe_evaluetion(ticker, income_statements, ratios);
       cout << ticker <<" value according to P/E valuetion is: "<< value_of_company << "\n";
       double dfc = get_dcf_model(ticker,cashflow_statements,balance_sheets,income_statements);
@@ -77,26 +84,34 @@ int main()
         
        /*******************FREEING THE MEMORY****************************/
      
-       
+       if(!balance_sheets.empty()){
      for(auto &ptr : balance_sheets){ 
           delete ptr;
-      }
+       }}
      
-      
+      if(!income_statements.empty()){
      for(auto &ptr : income_statements){ 
           delete ptr;
-      }
+      }}
       
+      if(!cashflow_statements.empty()){
       for(auto &ptr : cashflow_statements){ 
           delete ptr;
+      }}
+       
+       if(!ratios.empty()){
+       for(auto &ptr : ratios) delete ptr;
        }
        
-       for(auto &ptr : ratios) delete ptr;
        
        balance_sheets.clear();
        income_statements.clear();
        cashflow_statements.clear();
        ratios.clear();
+       
+       
+      /*SAVING USER INPUT*/
+      write_user_input_to_file(tickers,"history_user_research.bin");
      
      /***************************************************************/
      

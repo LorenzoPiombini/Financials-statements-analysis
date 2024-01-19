@@ -89,7 +89,8 @@ class Income_statement{
          std::string get_class_name()const;
          std::string create_file_name(std::string ticker)const;
          void save_to_file(std::ofstream &out);
-         void read_from_file(std::ifstream &in);
+         bool read_from_file(std::ifstream &in, std::vector<Income_statement*> &statements );
+         size_t compute_object_size() const;
      
      friend void from_json(const nlohmann::json &j, Income_statement &i);
 };

@@ -167,15 +167,16 @@ std::string Cashflowstatement::get_final_link() const {
 void from_json(const nlohmann::json &j, Cashflowstatement &c){
 
     c.date = j.contains("date") && !j["date"].empty() ? j["date"].get<std::string>() : "none";
-    c.symbol = j.contains("symbol") && !j["symbol"].empty() ? j["symbol"].get<std::string>() : "none";
+   c.symbol = j.contains("symbol") && !j["symbol"].empty() ? j["symbol"].get<std::string>() : "none";
     c.reportedCurrency = j.contains("reportedCurrency") && !j["reportedCurrency"].empty() ? j["reportedCurrency"].get<std::string>() : "none";
     c.cik = j.contains("cik") && !j["cik"].empty() ? j["cik"].get<std::string>() : "none";
     c.fillingDate = j.contains("fillingDate") && !j["fillingDate"].empty() ? j["fillingDate"].get<std::string>() : "none";
-    c.acceptedDate = j.contains("acceptedDate") && !j["acceptedDate"].empty() ? j["acceptedDat"].get<std::string>() : "none";
-    c.calendarYear = j.contains("calendarYear") && !j["calendarYear"].empty() ? j["calendarYear"].get<std::string>() : "none";
+   c.acceptedDate = j.contains("acceptedDate") && !j["acceptedDate"].empty() ? j["acceptedDate"].get<std::string>() : "none";
+   c.calendarYear = j.contains("calendarYear") && !j["calendarYear"].empty() ? j["calendarYear"].get<std::string>() : "none";
     c.period = j.contains("period") && !j["period"].empty() ? j["period"].get<std::string>() : "none";
 
     // Numeric members
+    
     c.netIncome = j.contains("netIncome") && !j["netIncome"].empty() ? j["netIncome"].get<long long>() : 0;
     c.depreciationAndAmortization = j.contains("depreciationAndAmortization") && !j["depreciationAndAmortization"].empty() ? j["depreciationAndAmortization"].get<long long>() : 0;
     c.deferredIncomeTax = j.contains("deferredIncomeTax") && !j["deferredIncomeTax"].empty() ? j["deferredIncomeTax"].get<long long>() : 0;
@@ -224,11 +225,39 @@ std::string Cashflowstatement::create_file_name(std::string ticker)const{
     }
 }
 
+size_t Cashflowstatement::compute_object_size() const {
+      size_t total_size {0};
 
+      total_size += date.size() * sizeof(char);
+      total_size += symbol.size() * sizeof(char);
+      total_size += reportedCurrency.size() * sizeof(char);
+      total_size += cik.size() * sizeof(char);
+      total_size += fillingDate.size() * sizeof(char);
+      total_size += acceptedDate.size() * sizeof(char);
+      total_size += calendarYear.size() * sizeof(char);
+      total_size += period.size() * sizeof(char);
+      total_size += link.size() * sizeof(char);
+      total_size += finalLink.size() * sizeof(char);
+      
+      // Include the size of each string length (assuming size_t for length)
+      total_size += sizeof(size_t) * 10;
+      
+      total_size += sizeof(long long)  * 30;// 30 is the number of long long memebrs
+      return total_size;
+     
+    }
 
 
 void Cashflowstatement::save_to_file(std::ofstream &out){
+//     if (!out) {
+//        std::cerr << "File stream is not open or has encountered an error." << std::endl;
+//        return;
+//        }
     
+    
+     size_t obj_size = this-> compute_object_size();
+     out.write(reinterpret_cast<const char*>(&obj_size), sizeof(obj_size));
+     
      size_t date_len = date.size();
      out.write(reinterpret_cast<const char*>(&date_len), sizeof(date_len));
      out.write(date.c_str(), date_len);
@@ -306,95 +335,228 @@ void Cashflowstatement::save_to_file(std::ofstream &out){
  
 }
 
-void Cashflowstatement::read_from_file(std::ifstream &in){
 
-     size_t date_len;
-     in.read(reinterpret_cast<char*>(&date_len), sizeof(date_len));
-     std::string date(date_len, '\0');
-     in.read(&date[0],date_len);
+bool read_size_from_buffer(const std::vector<char> &buffer, size_t &pos, size_t &value){
+        
+        if(pos+sizeof(size_t)> buffer.size()) return false;
+        std::memcpy(&value, buffer.data() + pos, sizeof(size_t));
+        pos += sizeof(size_t);
+        
+        return true;
+    
+}
+
+bool reading_string_from_buffer(const std::vector<char> &buffer, size_t &pos, std::string &value){
+    size_t lenght;
+    
+    if(!read_size_from_buffer(buffer,pos,lenght)) return false;
+    
+    if(pos + lenght > buffer.size())return false;
+    
+    value.assign(buffer.data() + pos, lenght);
+    pos += lenght;
+    
+    return true;
+    
+}
+
+template <typename T>
+bool read_number_values_from_buffer(std::vector<char> &buffer, size_t &pos, T &value){
+    if(pos + sizeof(T) > buffer.size()) return false;
+    
+    std::memcpy(&value, buffer.data() + pos, sizeof(T));
+    
+    pos += sizeof(T);
+    return true;
+    
+}
+
+bool Cashflowstatement::read_from_file(std::ifstream &in, std::vector<Cashflowstatement*> &statements){
+
+     if (!in){
+      std::cerr<< "IO stream it is not open or some error with it.\n";   
+    }
+    
+    
+    while(in && !in.eof()){
+ 
+    size_t obj_size;
+    
+    if(!in.read(reinterpret_cast<char*>(&obj_size), sizeof(obj_size))){
+        if(in.eof()){
+            break;
+        }  
+        std::cerr<< "Couldn't read object size from the file regrading class "<< get_class_name()<<"\n";
+        return false;
+    }
+    
+    
+    Cashflowstatement* statement = new Cashflowstatement();
+     std::vector<char> buffer(obj_size);
      
-     size_t symbol_len;
-     in.read(reinterpret_cast<char*>(&symbol_len), sizeof(symbol_len));
-     std::string symbol(symbol_len, '\0');
-     in.read(&symbol[0],symbol_len);
+     if(!in.read(buffer.data(),obj_size)){
+         std::cerr<< "failed to read object data from file class "<< get_class_name()<<"\n";
+         return false;
+      }
+       
+         size_t bytes_read = in.gcount();
+        if (bytes_read != obj_size) {
+            delete statement; // Clean up on error
+            return false;
+        }
+
+        size_t pos = 0;
+        
+       
+        if(!reading_string_from_buffer(buffer, pos,statement ->date)){
+            std::cerr << "Error reading 'date' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer(buffer, pos,statement ->symbol)){
+             std::cerr << "Error reading 'symbol' in " << get_class_name() << std::endl;
+             }
+        if(!reading_string_from_buffer(buffer, pos,statement ->reportedCurrency)){
+             std::cerr << "Error reading 'reportedCurrency' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer(buffer, pos,statement ->cik)){
+             std::cerr << "Error reading 'cik' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer(buffer, pos,statement ->fillingDate)){
+             std::cerr << "Error reading 'fillingDate' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer(buffer, pos,statement ->acceptedDate)){
+             std::cerr << "Error reading 'acceptedDate' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer(buffer, pos,statement ->calendarYear)){
+             std::cerr << "Error reading 'calendarYear' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer(buffer, pos,statement ->period)){
+             std::cerr << "Error reading 'period' in " << get_class_name() << std::endl;
+            }
+            
+            
+            //numbers values
     
-     size_t reported_currency_len;
-     in.read(reinterpret_cast<char*>(&reported_currency_len), sizeof(reported_currency_len));
-     std::string reportedCurrency(reported_currency_len,'\0');
-     in.read(&reportedCurrency[0], reported_currency_len);
-    
-     size_t cik_len;
-     in.read(reinterpret_cast<char*>(&cik_len), sizeof(cik_len));
-     std::string cik (cik_len,'\0');
-     in.read(&cik[0],cik_len);
-    
-     size_t filling_date_len;
-     in.read(reinterpret_cast<char*>(&filling_date_len), sizeof(filling_date_len));
-     std::string fillingDate (filling_date_len,'\0');
-     in.read(&fillingDate[0],filling_date_len);
-    
-     size_t accepted_date_len;
-     in.read(reinterpret_cast<char*>(&accepted_date_len), sizeof(accepted_date_len));
-     std::string acceptedDate(accepted_date_len,'\0');
-     in.read(&acceptedDate[0],accepted_date_len);
-   
-   
-     size_t calendar_year_len;
-     in.read(reinterpret_cast<char*>(&calendar_year_len), sizeof(calendar_year_len));
-     std::string calendarYear(calendar_year_len,'\0');
-     in.read(&calendarYear[0], calendar_year_len);
-    
-     size_t period_len;
-     in.read(reinterpret_cast<char*>(&period_len), sizeof(period_len));
-     std::string period(period_len,'\0');
-     in.read(&period[0],period_len);
+             if(!read_number_values_from_buffer(buffer, pos,statement -> netIncome)){
+             std::cerr << "Error reading 'netIncome' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->depreciationAndAmortization )){
+             std::cerr << "Error reading 'depreciationAndAmortization' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->deferredIncomeTax )){
+             std::cerr << "Error reading 'deferredIncomeTax' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> stockBasedCompensation)){
+             std::cerr << "Error reading 'stockBasedCompensation' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->changeInWorkingCapital )){
+             std::cerr << "Error reading 'changeInWorkingCapital' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->accountsReceivables )){
+             std::cerr << "Error reading 'accountsReceivables' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->inventory )){
+             std::cerr << "Error reading 'inventory' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->accountsPayables )){
+             std::cerr << "Error reading 'accountsPayables' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->otherWorkingCapital )){
+             std::cerr << "Error reading 'otherWorkingCapital' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->otherNonCashItems )){
+             std::cerr << "Error reading 'otherNonCashItems' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->netCashProvidedByOperatingActivities )){
+             std::cerr << "Error reading 'netCashProvidedByOperatingActivities' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> investmentsInPropertyPlantAndEquipment)){
+             std::cerr << "Error reading 'investmentsInPropertyPlantAndEquipment' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->acquisitionsNet )){
+             std::cerr << "Error reading 'acquisitionsNet' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> purchasesOfInvestments)){
+             std::cerr << "Error reading 'purchasesOfInvestments' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> salesMaturitiesOfInvestments)){
+             std::cerr << "Error reading 'salesMaturitiesOfInvestments' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> otherInvestingActivites)){
+             std::cerr << "Error reading 'otherInvestingActivites' in " << get_class_name() << std::endl;
+            }
+            
+                  if(!read_number_values_from_buffer(buffer, pos,statement -> netCashUsedForInvestingActivites)){
+             std::cerr << "Error reading 'netCashUsedForInvestingActivites' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> debtRepayment)){
+             std::cerr << "Error reading 'debtRepayment' in " << get_class_name() << std::endl;
+            }
+            
+             if(!read_number_values_from_buffer(buffer, pos,statement -> commonStockIssued)){
+             std::cerr << "Error reading 'commonStockIssued' in " << get_class_name() << std::endl;
+            }
      
-     in.read(reinterpret_cast<char*>(&netIncome), sizeof(netIncome));   
-     in.read(reinterpret_cast<char*>(&depreciationAndAmortization), sizeof(depreciationAndAmortization));   
-     in.read(reinterpret_cast<char*>(&deferredIncomeTax), sizeof(deferredIncomeTax));   
-     in.read(reinterpret_cast<char*>(&stockBasedCompensation), sizeof(stockBasedCompensation));   
-     in.read(reinterpret_cast<char*>(&changeInWorkingCapital), sizeof(changeInWorkingCapital));
-     in.read(reinterpret_cast<char*>(&accountsReceivables), sizeof(accountsReceivables));
-     in.read(reinterpret_cast<char*>(&inventory), sizeof(inventory));  
-     in.read(reinterpret_cast<char*>(&accountsPayables), sizeof(accountsPayables)); 
-     in.read(reinterpret_cast<char*>(&otherWorkingCapital), sizeof(otherWorkingCapital)); 
-     in.read(reinterpret_cast<char*>(&otherNonCashItems), sizeof(otherNonCashItems));
-     in.read(reinterpret_cast<char*>(&netCashProvidedByOperatingActivities), sizeof(netCashProvidedByOperatingActivities));
-     in.read(reinterpret_cast<char*>(&investmentsInPropertyPlantAndEquipment), sizeof(investmentsInPropertyPlantAndEquipment));
-     in.read(reinterpret_cast<char*>(&acquisitionsNet), sizeof(acquisitionsNet));   
-     in.read(reinterpret_cast<char*>(&purchasesOfInvestments), sizeof(purchasesOfInvestments));
-     in.read(reinterpret_cast<char*>(&salesMaturitiesOfInvestments), sizeof(salesMaturitiesOfInvestments));
-     in.read(reinterpret_cast<char*>(&otherInvestingActivites), sizeof(otherInvestingActivites));
-     in.read(reinterpret_cast<char*>(&netCashUsedForInvestingActivites), sizeof(netCashUsedForInvestingActivites));
-     in.read(reinterpret_cast<char*>(&debtRepayment), sizeof(debtRepayment));
-     in.read(reinterpret_cast<char*>(&commonStockIssued), sizeof(commonStockIssued)); 
-     in.read(reinterpret_cast<char*>(&commonStockRepurchased), sizeof(commonStockRepurchased));
-     in.read(reinterpret_cast<char*>(&dividendsPaid), sizeof(dividendsPaid));  
-     in.read(reinterpret_cast<char*>(&otherFinancingActivites), sizeof(otherFinancingActivites)); 
-     in.read(reinterpret_cast<char*>(&netCashUsedProvidedByFinancingActivities), sizeof(netCashUsedProvidedByFinancingActivities));
-     in.read(reinterpret_cast<char*>(&effectOfForexChangesOnCash), sizeof(effectOfForexChangesOnCash));
-     in.read(reinterpret_cast<char*>(&netChangeInCash), sizeof(netChangeInCash));
-     in.read(reinterpret_cast<char*>(&cashAtEndOfPeriod), sizeof(cashAtEndOfPeriod));
-     in.read(reinterpret_cast<char*>(&cashAtBeginningOfPeriod), sizeof(cashAtBeginningOfPeriod));
-     in.read(reinterpret_cast<char*>(&operatingCashFlow), sizeof(operatingCashFlow)); 
-     in.read(reinterpret_cast<char*>(&capitalExpenditure), sizeof(capitalExpenditure));
-     in.read(reinterpret_cast<char*>(&freeCashFlow), sizeof(freeCashFlow));
-		
+             if(!read_number_values_from_buffer(buffer, pos,statement -> commonStockRepurchased)){
+             std::cerr << "Error reading 'commonStockRepurchased' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> dividendsPaid)){
+             std::cerr << "Error reading 'dividendsPaid' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->otherFinancingActivites )){
+             std::cerr << "Error reading 'otherFinancingActivites' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> netCashUsedProvidedByFinancingActivities)){
+             std::cerr << "Error reading 'netCashUsedProvidedByFinancingActivities' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> effectOfForexChangesOnCash )){
+             std::cerr << "Error reading 'effectOfForexChangesOnCash' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement ->netChangeInCash )){
+             std::cerr << "Error reading 'netChangeInCash' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> cashAtEndOfPeriod)){
+             std::cerr << "Error reading 'cashAtEndOfPeriod' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> cashAtBeginningOfPeriod)){
+             std::cerr << "Error reading 'cashAtBeginningOfPeriod' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> operatingCashFlow)){
+             std::cerr << "Error reading 'operatingCashFlow' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> capitalExpenditure)){
+             std::cerr << "Error reading 'capitalExpenditure' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer(buffer, pos,statement -> freeCashFlow)){
+             std::cerr << "Error reading 'freeCashFlow' in " << get_class_name() << std::endl;
+            }
+           
+      
+     
+		if(!reading_string_from_buffer(buffer, pos,statement ->link)){
+             std::cerr << "Error reading 'link' in " << get_class_name() << std::endl;
+            }
+            
+            if(!reading_string_from_buffer(buffer, pos,statement ->finalLink)){
+             std::cerr << "Error reading 'finalLink' in " << get_class_name() << std::endl;
+             statement ->finalLink= "nf";
+            }
 
-     size_t link_len;
-     in.read(reinterpret_cast<char*>(&link_len), sizeof(link_len));
-     std::string link(link_len,'\0');
-     in.read(&link[0],link_len);
-   
-     size_t final_link_len;
-     in.read(reinterpret_cast<char*>(&final_link_len), sizeof(final_link_len));
-     std::string finalLink(final_link_len,'\0');
-     in.read(&finalLink[0],final_link_len);
+           statements.push_back(statement);
+           
+          if(bytes_read  < buffer.size()){
+           
+            
+            std::cerr<<"Reached EOF! no more data to read in for "<<get_class_name()<<".\n";
+            return false;
+            
+            }
+       
+     }
 
 
+    return true;
     
-    
-    
+
 }
 
     

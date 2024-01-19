@@ -126,69 +126,49 @@ void save_data(std::vector<Balancesheet*> &balance_sheets,
 
 
 
-void load_data(std::string ticker,
+void load_data(std::string &ticker,
                std::vector<Balancesheet*> &balance_sheets,
                std::vector<Income_statement*> &income_statements,
                std::vector<Cashflowstatement*> &cashflow_statements){
     
+ 
+  Balancesheet mock_obj;
+  std::string file_name_BS = ticker + "_balance_sheet.bin";
+  std::ifstream in_bs (file_name_BS, std::ios::binary);
+  
+  if(!mock_obj.read_from_file(in_bs,balance_sheets)){
+        std::cout << "Failed to read the file "<< file_name_BS<<"\n";
+        in_bs.close();
+    }else {
+        std::cout<< file_name_BS << " read succesfully\n";
+        in_bs.close();
+        }
+  
+    Income_statement mock_income;
+    std::string file_name_IS = ticker + "_income_statement.bin";
+    std::ifstream in_is (file_name_IS, std::ios::binary);
     
-    std::ifstream in_bs (balance_sheets[0]->create_file_name(ticker), std::ios::binary);
-    
-    if(!in_bs){
-        
-       std::cout << "Failed to open the file "<< balance_sheets[0]->create_file_name(ticker) <<"\n";
-        
-        }else{
-             
-            while(!in_bs.eof()){
-                Balancesheet* sheet = new Balancesheet();
-                sheet->read_from_file(in_bs);
-                balance_sheets.push_back(sheet);
-                
-                }
-                
-            std::cout<< balance_sheets[0]->create_file_name(ticker) << " read succesfully\n";
-            in_bs.close();
-            }
-    
-    std::ifstream in_is (income_statements[0]->create_file_name(ticker), std::ios::binary);
-    
-    if(!in_is){
-        std::cout << "Failed to open the file "<< income_statements[0]->create_file_name(ticker) <<"\n";
-        }else{
-            
-            while(!in_is.eof()){
-                Income_statement* income = new Income_statement();
-                income->read_from_file(in_is);
-                income_statements.push_back(income);
-                
-                }
-                
-            std::cout<< income_statements[0]->create_file_name(ticker) << " read succesfully\n";
+    if(!mock_income.read_from_file(in_is,income_statements)){
+           std::cout << "Failed to read the file "<< file_name_IS<<"\n";
+           in_is.close();
+        } else {  
+            std::cout<< file_name_IS << " read succesfully\n";
             in_is.close();
-            
-            }
+        }
+        
     
-    
-    std::ifstream in_cfs (cashflow_statements[0]->create_file_name(ticker), std::ios::binary);
-    
-    if(!in_cfs){
-        std::cout << "Failed to open the file "<< cashflow_statements[0]->create_file_name(ticker) <<"\n";
-        }else{
-            
-            while(!in_cfs.eof()){
-                Cashflowstatement* cash = new Cashflowstatement();
-                cash->read_from_file(in_cfs);
-                cashflow_statements.push_back(cash);
-
-                }
-                
-            std::cout<< cashflow_statements[0]->create_file_name(ticker) << " read succesfully\n";
+    Cashflowstatement mock_cash;
+    std::string file_name_CFS = ticker + "_cashflow_statement.bin";
+    std::ifstream in_cfs (file_name_CFS, std::ios::binary);
+    if(!mock_cash.read_from_file(in_cfs, cashflow_statements)){
+          std::cout << "Failed to open the file "<< file_name_CFS <<"\n";
+          in_cfs.close();
+        }else {
+               std::cout<< file_name_CFS << " read succesfully\n";
             in_cfs.close();
-            
-            
-            
-            }
+        }
+    
+    
 }
 
 

@@ -136,6 +136,9 @@ public:
     double get_inventory_turnover() const;
     double get_roe() const;
     double get_capex_per_share() const;
+    std::string get_class_name() const;
+     
+
     
     friend void from_json(const nlohmann::json &j, Key_ratios &k);
 };

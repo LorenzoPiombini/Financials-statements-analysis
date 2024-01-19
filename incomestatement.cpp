@@ -362,6 +362,31 @@ std::string Income_statement::get_class_name()const{
     return "income_statement";  
 }
 
+
+
+
+size_t Income_statement::compute_object_size() const {
+      size_t total_size {0};
+
+      total_size += date.size() * sizeof(char);
+      total_size += symbol.size() * sizeof(char);
+      total_size += reportedCurrency.size() * sizeof(char);
+      total_size += cik.size() * sizeof(char);
+      total_size += fillingDate.size() * sizeof(char);
+      total_size += acceptedDate.size() * sizeof(char);
+      total_size += calendarYear.size() * sizeof(char);
+      total_size += period.size() * sizeof(char);
+      total_size += link.size() * sizeof(char);
+      total_size += finalLink.size() * sizeof(char);
+      // Include the size of each string length (assuming size_t for length)
+      total_size += sizeof(size_t) * 10;
+      
+      total_size += sizeof(long long)  * 22;// 22 is the number of long long memebrs
+      total_size += sizeof(double) * 6; // 6 is the number of double memebers;
+      
+      return total_size;
+     
+    }
 std::string Income_statement::create_file_name(std::string ticker)const{
     if(ticker.size()==0){
         return  symbol + "_" + get_class_name() +".bin";
@@ -372,7 +397,17 @@ std::string Income_statement::create_file_name(std::string ticker)const{
 }
 
 void Income_statement::save_to_file(std::ofstream &out){
-     //(create_file_name(""), std::ios::binary | std::ios::app);
+    
+//    if (!out) {
+//        std::cerr << "File stream is not open or has encountered an error." << std::endl;
+//        return;
+//        }
+    
+    
+     size_t obj_size = this-> compute_object_size();
+     std::cout<< "income statement obj size: "<< obj_size <<std::endl;
+     out.write(reinterpret_cast<const char*>(&obj_size), sizeof(obj_size));
+    
     
      size_t date_len = date.size();
      out.write(reinterpret_cast<const char*>(&date_len), sizeof(date_len));
@@ -443,104 +478,222 @@ void Income_statement::save_to_file(std::ofstream &out){
    out.write(reinterpret_cast<const char*>(&final_link_size), sizeof(final_link_size));
    out.write(finalLink.c_str(), sizeof(final_link_size));
           
-   //out.close();
+  
  
 }
 
 
-void Income_statement::read_from_file(std::ifstream &in){
-//      std::ifstream in (create_file_name(ticker), std::ios::binary);
-//    
-//    if(!in){
-//        std::cout << "I could not open the file " + create_file_name(ticker);
-//        return;
-//    }
-//    
-     size_t date_len;
-     in.read(reinterpret_cast<char*>(&date_len), sizeof(date_len));
-     std::string date(date_len, '\0');
-     in.read(&date[0],date_len);
+bool read_size_from_buffer_income(const std::vector<char> &buffer, size_t &pos, size_t &value){
+        
+        if(pos+sizeof(size_t)> buffer.size()) return false;
+        std::memcpy(&value, buffer.data() + pos, sizeof(size_t));
+        pos += sizeof(size_t);
+        
+        return true;
+    
+}
+
+bool reading_string_from_buffer_income(const std::vector<char> &buffer, size_t &pos, std::string &value){
+    size_t lenght;
+    
+    if(!read_size_from_buffer_income(buffer,pos,lenght)) return false;
+    
+    if(pos + lenght > buffer.size())return false;
+    
+    value.assign(buffer.data() + pos, lenght);
+    pos += lenght;
+    
+    return true;
+    
+}
+
+template <typename T>
+bool read_number_values_from_buffer_income(std::vector<char> &buffer, size_t &pos, T &value){
+    if(pos + sizeof(T) > buffer.size()) return false;
+    
+    std::memcpy(&value, buffer.data() + pos, sizeof(T));
+    
+    pos += sizeof(T);
+    return true;
+    
+}
+
+
+    
+    
+bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_statement*> &statements ){
+
+   
+    if (!in){
+      std::cerr<< "IO stream it is not open or some error with it.\n";   
+    }
+    
+    
+    while(in && !in.eof()){
+ 
+    size_t obj_size;
+    
+    if(!in.read(reinterpret_cast<char*>(&obj_size), sizeof(obj_size))){
+        if(in.eof()){
+            break;
+        }  
+        std::cerr<< "Couldn't read object size from the file regrading class "<< get_class_name()<<"\n";
+        return false;
+    }
+    std::cout << "Object size read (INcome statement): " << obj_size << std::endl;
+    
+    Income_statement* statement = new Income_statement();
+     std::vector<char> buffer(obj_size);
      
-     size_t symbol_len;
-     in.read(reinterpret_cast<char*>(&symbol_len), sizeof(symbol_len));
-     std::string symbol(symbol_len, '\0');
-     in.read(&symbol[0],symbol_len);
-    
-     size_t reported_currency_len;
-     in.read(reinterpret_cast<char*>(&reported_currency_len), sizeof(reported_currency_len));
-     std::string reportedCurrency(reported_currency_len,'\0');
-     in.read(&reportedCurrency[0], reported_currency_len);
-    
-     size_t cik_len;
-     in.read(reinterpret_cast<char*>(&cik_len), sizeof(cik_len));
-     std::string cik (cik_len,'\0');
-     in.read(&cik[0],cik_len);
-    
-     size_t filling_date_len;
-     in.read(reinterpret_cast<char*>(&filling_date_len), sizeof(filling_date_len));
-     std::string fillingDate (filling_date_len,'\0');
-     in.read(&fillingDate[0],filling_date_len);
-    
-     size_t accepted_date_len;
-     in.read(reinterpret_cast<char*>(&accepted_date_len), sizeof(accepted_date_len));
-     std::string acceptedDate(accepted_date_len,'\0');
-     in.read(&acceptedDate[0],accepted_date_len);
-   
-   
-     size_t calendar_year_len;
-     in.read(reinterpret_cast<char*>(&calendar_year_len), sizeof(calendar_year_len));
-     std::string calendarYear(calendar_year_len,'\0');
-     in.read(&calendarYear[0], calendar_year_len);
-    
-     size_t period_len;
-     in.read(reinterpret_cast<char*>(&period_len), sizeof(period_len));
-     std::string period(period_len,'\0');
-     in.read(&period[0],period_len);
-      
-     in.read(reinterpret_cast<char*>(&revenue), sizeof(revenue));
-     in.read(reinterpret_cast<char*>(&costOfRevenue), sizeof(costOfRevenue));
-     in.read(reinterpret_cast<char*>(&grossProfit), sizeof(grossProfit));
-     in.read(reinterpret_cast<char*>(&grossProfitRatio), sizeof(grossProfitRatio));
-     in.read(reinterpret_cast<char*>(&researchAndDevelopmentExpenses), sizeof(researchAndDevelopmentExpenses));
-     in.read(reinterpret_cast<char*>(&generalAndAdministrativeExpenses), sizeof(generalAndAdministrativeExpenses));
-     in.read(reinterpret_cast<char*>(&sellingAndMarketingExpenses), sizeof(sellingAndMarketingExpenses));
-     in.read(reinterpret_cast<char*>(&sellingGeneralAndAdministrativeExpenses), sizeof(sellingGeneralAndAdministrativeExpenses));
-     in.read(reinterpret_cast<char*>(&otherExpenses), sizeof(otherExpenses));
-     in.read(reinterpret_cast<char*>(&costAndExpenses), sizeof(costAndExpenses));
-     in.read(reinterpret_cast<char*>(&interestIncome), sizeof(interestIncome));
-     in.read(reinterpret_cast<char*>(&interestExpense), sizeof(interestExpense));
-     in.read(reinterpret_cast<char*>(&depreciationAndAmortization), sizeof(depreciationAndAmortization));
-     in.read(reinterpret_cast<char*>(&ebitda), sizeof(ebitda));
-     in.read(reinterpret_cast<char*>(&ebitdaratio), sizeof(ebitdaratio));
-     in.read(reinterpret_cast<char*>(&operatingIncome), sizeof(operatingIncome));
-     in.read(reinterpret_cast<char*>(&operatingIncomeRatio), sizeof(operatingIncomeRatio));
-     in.read(reinterpret_cast<char*>(&totalOtherIncomeExpensesNet), sizeof(totalOtherIncomeExpensesNet));
-     in.read(reinterpret_cast<char*>(&incomeBeforeTax), sizeof(incomeBeforeTax));
-     in.read(reinterpret_cast<char*>(&incomeBeforeTaxRatio), sizeof(incomeBeforeTaxRatio));
-     in.read(reinterpret_cast<char*>(&incomeTaxExpense), sizeof(incomeTaxExpense));
-     in.read(reinterpret_cast<char*>(&netIncome), sizeof(netIncome));
-     in.read(reinterpret_cast<char*>(&netIncomeRatio), sizeof(netIncomeRatio));
-     in.read(reinterpret_cast<char*>(&eps), sizeof(eps));
-     in.read(reinterpret_cast<char*>(&epsdiluted), sizeof(epsdiluted));
-     in.read(reinterpret_cast<char*>(&weightedAverageShsOut), sizeof(weightedAverageShsOut));
-     in.read(reinterpret_cast<char*>(&weightedAverageShsOutDil), sizeof(weightedAverageShsOutDil));
-      
-         
-         
-         
-     size_t link_len;
-     in.read(reinterpret_cast<char*>(&link_len), sizeof(link_len));
-     std::string link(link_len,'\0');
-     in.read(&link[0],link_len);
-   
-     size_t final_link_len;
-     in.read(reinterpret_cast<char*>(&final_link_len), sizeof(final_link_len));
-     std::string finalLink(final_link_len,'\0');
-     in.read(&finalLink[0],final_link_len);
+     if(!in.read(buffer.data(),obj_size)){
+         std::cerr<< "failed to read object data from file class "<< get_class_name()<<"\n";
+         return false;
+      }
+       
+           size_t bytes_read = in.gcount();
+        if (bytes_read != obj_size) {
+            delete statement; // Clean up on error
+            return false;
+        }
 
-
+        size_t pos = 0;
+        
+       
+        if(!reading_string_from_buffer_income(buffer, pos,statement ->date)){
+            std::cerr << "Error reading 'date' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer_income(buffer, pos,statement ->symbol)){
+             std::cerr << "Error reading 'symbol' in " << get_class_name() << std::endl;
+             }
+        if(!reading_string_from_buffer_income(buffer, pos,statement ->reportedCurrency)){
+             std::cerr << "Error reading 'reportedCurrency' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer_income(buffer, pos,statement ->cik)){
+             std::cerr << "Error reading 'cik' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer_income(buffer, pos,statement ->fillingDate)){
+             std::cerr << "Error reading 'fillingDate' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer_income(buffer, pos,statement ->acceptedDate)){
+             std::cerr << "Error reading 'acceptedDate' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer_income(buffer, pos,statement ->calendarYear)){
+             std::cerr << "Error reading 'calendarYear' in " << get_class_name() << std::endl;
+            }
+        if(!reading_string_from_buffer_income(buffer, pos,statement ->period)){
+             std::cerr << "Error reading 'period' in " << get_class_name() << std::endl;
+            }
+            
+        //number values
+       if(!read_number_values_from_buffer_income(buffer, pos,statement -> revenue )){
+             std::cerr << "Error reading 'revenue' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement ->costOfRevenue )){
+             std::cerr << "Error reading 'costOfRevenue' in " << get_class_name() << std::endl;
+            }
+        if(!read_number_values_from_buffer_income(buffer, pos,statement ->grossProfit )){
+             std::cerr << "Error reading 'grossProfit' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement -> grossProfitRatio )){
+             std::cerr << "Error reading 'grossProfitRatio' in " << get_class_name() << std::endl;
+            }
+            if(!read_number_values_from_buffer_income(buffer, pos,statement -> researchAndDevelopmentExpenses)){
+             std::cerr << "Error reading 'researchAndDevelopmentExpenses' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement -> generalAndAdministrativeExpenses)){
+             std::cerr << "Error reading 'generalAndAdministrativeExpenses' in " << get_class_name() << std::endl;
+            }
+        if(!read_number_values_from_buffer_income(buffer, pos,statement -> sellingAndMarketingExpenses)){
+             std::cerr << "Error reading 'sellingAndMarketingExpenses' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement -> sellingGeneralAndAdministrativeExpenses)){
+             std::cerr << "Error reading 'sellingGeneralAndAdministrativeExpenses' in " << get_class_name() << std::endl;
+            }
+            if(!read_number_values_from_buffer_income(buffer, pos,statement -> otherExpenses )){
+             std::cerr << "Error reading 'otherExpenses' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement ->costAndExpenses )){
+             std::cerr << "Error reading 'costAndExpenses' in " << get_class_name() << std::endl;
+            }
+        if(!read_number_values_from_buffer_income(buffer, pos,statement -> interestIncome)){
+             std::cerr << "Error reading 'interestIncome' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement ->interestExpense )){
+             std::cerr << "Error reading 'interestExpense' in " << get_class_name() << std::endl;
+            }
+            if(!read_number_values_from_buffer_income(buffer, pos,statement -> depreciationAndAmortization)){
+             std::cerr << "Error reading 'depreciationAndAmortization' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement ->ebitda )){
+             std::cerr << "Error reading 'ebitda' in " << get_class_name() << std::endl;
+            }
+        if(!read_number_values_from_buffer_income(buffer, pos,statement ->ebitdaratio )){
+             std::cerr << "Error reading 'ebitdaratio' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement -> operatingIncome )){
+             std::cerr << "Error reading 'operatingIncome' in " << get_class_name() << std::endl;
+            }
+        if(!read_number_values_from_buffer_income(buffer, pos,statement -> operatingIncomeRatio)){
+             std::cerr << "Error reading 'operatingIncomeRatio' in " << get_class_name() << std::endl;
+            }
+        if(!read_number_values_from_buffer_income(buffer, pos,statement ->totalOtherIncomeExpensesNet )){
+             std::cerr << "Error reading 'totalOtherIncomeExpensesNet' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement ->incomeBeforeTax )){
+             std::cerr << "Error reading 'incomeBeforeTax' in " << get_class_name() << std::endl;
+            }
+            if(!read_number_values_from_buffer_income(buffer, pos,statement ->incomeBeforeTaxRatio )){
+             std::cerr << "Error reading 'incomeBeforeTaxRatio' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement ->incomeTaxExpense )){
+             std::cerr << "Error reading 'incomeTaxExpense' in " << get_class_name() << std::endl;
+            }
+        if(!read_number_values_from_buffer_income(buffer, pos,statement ->netIncome )){
+             std::cerr << "Error reading 'netIncome' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement -> netIncomeRatio)){
+             std::cerr << "Error reading 'netIncomeRatio' in " << get_class_name() << std::endl;
+            }
+            
+             if(!read_number_values_from_buffer_income(buffer, pos,statement ->eps )){
+             std::cerr << "Error reading 'eps' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement ->epsdiluted )){
+             std::cerr << "Error reading 'epsdiluted' in " << get_class_name() << std::endl;
+            }
+             if(!read_number_values_from_buffer_income(buffer, pos,statement -> weightedAverageShsOut )){
+             std::cerr << "Error reading 'weightedAverageShsOut' in " << get_class_name() << std::endl;
+            }
+       if(!read_number_values_from_buffer_income(buffer, pos,statement ->weightedAverageShsOutDil)){
+             std::cerr << "Error reading 'weightedAverageShsOutDil' in " << get_class_name() << std::endl;
+            }
+                 
+         
+         
+         if(!reading_string_from_buffer_income(buffer, pos,statement ->link)){
+             std::cerr << "Error reading 'link' in " << get_class_name() << std::endl;
+            }
+            
+            if(!reading_string_from_buffer_income(buffer, pos,statement ->finalLink)){
+             std::cerr << "Error reading 'finalLink' in " << get_class_name() << std::endl;
+             statement -> finalLink ="nf";
+            }
+     
     
-     //in.close();
-    
+       statements.push_back(statement);
+      //if EOF 
+      
+        if(bytes_read  < buffer.size()){
+           
+            
+            std::cerr<<"Reached EOF! no more data to read in for "<<get_class_name()<<".\n";
+            return false;
+            
+            }
+     
+     
+     
+     }
+    return true;
     
 }

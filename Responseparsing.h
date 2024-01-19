@@ -21,12 +21,15 @@ std::vector<T*> parsing_json_from_api(const std::string& responseJson, std::stri
         
              try{
                     for(const auto& item : json_obj){
+                       // std::cout << item;
                         T* response = new T(item.get<T>());
                         responses.push_back(response);
+                        
                     }
              } catch (const nlohmann::json::exception &e){
                      std::cerr << "Error parsing json. " << e.what() <<"\n";
                      std::cerr << "Exception id: " << e.id <<"\n";
+                     
              }
              
        if (responses.empty()) {
