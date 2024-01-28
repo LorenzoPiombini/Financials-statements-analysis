@@ -2,7 +2,7 @@
 #define _KEYRATIOS_H_
 
 #include <string>
-#include "nlohmann/json.hpp"
+
 
 class Key_ratios{
  
@@ -44,7 +44,7 @@ class Key_ratios{
     double payoutRatio;
     double salesGeneralAndAdministrativeToRevenue;
     double researchAndDdevelopementToRevenue;
-    double intangiblesToTotalAssets;
+    long long intangiblesToTotalAssets;
     double capexToOperatingCashFlow;
     double capexToRevenue;
     double capexToDepreciation;
@@ -53,13 +53,13 @@ class Key_ratios{
     double roic;
     double returnOnTangibleAssets;
     double grahamNetNet;
-    double workingCapital;
-    double tangibleAssetValue;
-    double netCurrentAssetValue;
+    long long workingCapital;
+    long long tangibleAssetValue;
+    long long netCurrentAssetValue;
     double investedCapital;
-    double averageReceivables;
-    double averagePayables;
-    double averageInventory;
+    long long averageReceivables;
+    long  long averagePayables;
+    long long averageInventory;
     double daysSalesOutstanding;
     double daysPayablesOutstanding;
     double daysOfInventoryOnHand;
@@ -121,13 +121,13 @@ public:
     double get_roic() const;
     double get_return_on_tangible_assets() const;
     double get_graham_net_net() const;
-    double get_working_capital() const;
-    double get_tangible_asset_value() const;
-    double get_net_current_asset_value() const;
+    long long get_working_capital() const;
+    long long get_tangible_asset_value() const;
+    long long get_net_current_asset_value() const;
     double get_invested_capital() const;
-    double get_average_receivables() const;
-    double get_average_payables() const;
-    double get_average_inventory() const;
+    long long get_average_receivables() const;
+    long long get_average_payables() const;
+    long long get_average_inventory() const;
     double get_days_sales_outstanding() const;
     double get_days_payables_outstanding() const;
     double get_days_of_inventory_on_hand() const;
@@ -136,11 +136,18 @@ public:
     double get_inventory_turnover() const;
     double get_roe() const;
     double get_capex_per_share() const;
-    std::string get_class_name() const;
+    std::string get_class_name()const;
+    std::string create_file_name(std::string ticker)const;
+    void save_to_file(std::ofstream &out);
+    bool read_from_file(std::ifstream &in,std::vector<Key_ratios*> &ratios);
+    size_t compute_object_size() const;
+    bool read_size_from_buffer_ratios(const std::vector<char> &buffer, size_t &pos, size_t &value);
+    bool reading_string_from_buffer_ratios(const std::vector<char> &buffer, size_t &pos, std::string &value);
+    void deserialize(std::string &json_string);
      
 
     
-    friend void from_json(const nlohmann::json &j, Key_ratios &k);
+   // friend void from_json(const nlohmann::json &j, Key_ratios &k);
 };
 
 #endif // KEY_RATIOS_H

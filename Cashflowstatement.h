@@ -1,7 +1,7 @@
 #ifndef _CASHFLOWSTATEMENT_H_
 #define _CASHFLOWSTATEMENT_H_
 
-#include "nlohmann/json.hpp"
+
 #include <fstream>
 #include <string>
 
@@ -95,9 +95,10 @@ class Cashflowstatement{
         void save_to_file(std::ofstream &out);
         bool read_from_file(std::ifstream &in, std::vector<Cashflowstatement*> &statements);
         size_t compute_object_size() const;
+        void deserialize(std::string &json_string);
+        
 
-        friend void from_json(const nlohmann::json &j, Cashflowstatement &c);
-    
+       // friend void from_json(const nlohmann::json &j, Cashflowstatement &c);
 };
 
 

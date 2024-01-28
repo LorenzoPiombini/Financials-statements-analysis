@@ -3,6 +3,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="Trim.h"/>
     <File Name="Savingdataoperations.h"/>
     <File Name="Sharesfloat.cpp"/>
     <File Name="Sharesfloat.h"/>
@@ -19,13 +20,6 @@
     <File Name="Incomestatement.h"/>
     <File Name="Responseparsing.h"/>
     <File Name="Getfunctions.h"/>
-    <VirtualDirectory Name="nlohmann">
-      <File Name="../../../Downloads/json-develop/include/nlohmann/ordered_map.hpp"/>
-      <File Name="../../../Downloads/json-develop/include/nlohmann/json.hpp"/>
-      <File Name="../../../Downloads/json-develop/include/nlohmann/json_fwd.hpp"/>
-      <File Name="../../../Downloads/json-develop/include/nlohmann/byte_container_with_subtype.hpp"/>
-      <File Name="../../../Downloads/json-develop/include/nlohmann/adl_serializer.hpp"/>
-    </VirtualDirectory>
     <File Name="Cashflowstatement.h"/>
     <File Name="Cashflowstatment.cpp"/>
     <File Name="main.cpp"/>

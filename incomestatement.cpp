@@ -1,7 +1,7 @@
 #include "Incomestatement.h"
-#include "nlohmann/json.hpp"
 #include <fstream>
 #include <iostream>
+#include <sstream>
 #include <string>
 
 std::string Income_statement::get_date() const {
@@ -125,237 +125,327 @@ std::string Income_statement::get_finalLink()const{
     return finalLink;
 }
 
-void from_json(const nlohmann::json &j, Income_statement &i){
-  
-    if(j.contains("date") && !j["date"].empty()){
-          j.at("date").get_to(i.date);
-    } else {
-          i.date = "none";
-    }
-  
-   if(j.contains("symbol") && !j["symbol"].empty()){
-          j.at("symbol").get_to(i.symbol);
-    } else {
-          i.symbol = "none";
-    }
-  
-  
-  if(j.contains("reportedCurrency") && !j["reportedCurrency"].empty()){
-          j.at("reportedCurrency").get_to(i.reportedCurrency);
-   }else{
-          i.reportedCurrency = "none";
-   }
-  
-  
-  if(j.contains("cik") && !j["cik"].empty()){
-     j.at("cik").get_to(i.cik);
-   } else {
-     i.cik = "none";
-  }
-  
-  
-  if(j.contains("fillingDate") && !j["fillingDate"].empty()){
-        j.at("fillingDate").get_to(i.fillingDate);
-   } else {
-        i.fillingDate = "none";
-   }
-  
-  if(j.contains("acceptedDate") && !j["acceptedDate"].empty()){
-       j.at("acceptedDate").get_to(i.acceptedDate);
-   } else {
-       i.acceptedDate = "none";
-   }
- 
-  
-   if(j.contains("calendarYear") && !j["calendarYear"].empty()){
-          j.at("calendarYear").get_to(i.calendarYear);
-    } else {
-          i.calendarYear = "none";
-    }
-  
-   if(j.contains("period") && !j["period"].empty()){
-          j.at("period").get_to(i.period);
-    } else {
-          i.period = "none";
-    }
-  
-  
-  if(j.contains("revenue") && !j["revenue"].empty()){
-          j.at("revenue").get_to(i.revenue);
-   }else{
-          i.revenue = 0;
-   }
-  
-  
-  if(j.contains("costOfRevenue") && !j["costOfRevenue"].empty()){
-     j.at("costOfRevenue").get_to(i.costOfRevenue);
-   } else {
-     i.costOfRevenue = 0;
-  }
-  
-  
-  if(j.contains("grossProfit") && !j["grossProfit"].empty()){
-        j.at("grossProfit").get_to(i.grossProfit);
-   } else {
-        i.grossProfit = 0;
-   }
-  
-  if(j.contains("grossProfitRatio") && !j["grossProfitRatio"].empty()){
-       j.at("grossProfitRatio").get_to(i.grossProfitRatio);
-   } else {
-       i.grossProfitRatio = 0.0;
-   }
- 
-  
-  if(j.contains("researchAndDevelopmentExpenses") && !j["researchAndDevelopmentExpenses"].empty()){
-        j.at("researchAndDevelopmentExpenses").get_to(i.researchAndDevelopmentExpenses);
-  }else {
-        i.researchAndDevelopmentExpenses = 0;
-  }
-  
-   if(j.contains("generalAndAdministrativeExpenses") && !j["generalAndAdministrativeExpenses"].empty()){
-          j.at("generalAndAdministrativeExpenses").get_to(i.generalAndAdministrativeExpenses);
-    } else {
-          i.generalAndAdministrativeExpenses = 0;
-    }
-  
-   if(j.contains("sellingAndMarketingExpenses") && !j["sellingAndMarketingExpenses"].empty()){
-          j.at("sellingAndMarketingExpenses").get_to(i.sellingAndMarketingExpenses);
-    } else {
-          i.sellingAndMarketingExpenses = 0;
-    }
-  
-  
-  if(j.contains("sellingGeneralAndAdministrativeExpenses") && !j["sellingGeneralAndAdministrativeExpenses"].empty()){
-          j.at("sellingGeneralAndAdministrativeExpenses").get_to(i.sellingGeneralAndAdministrativeExpenses);
-   }else{
-          i.sellingGeneralAndAdministrativeExpenses = 0;
-   }
-  
-  
-  if(j.contains("operatingExpenses") && !j["operatingExpenses"].empty()){
-     j.at("operatingExpenses").get_to(i.operatingExpenses);
-   } else {
-     i.operatingExpenses = 0;
-  }
-  
-  
-  if(j.contains("otherExpenses") && !j["otherExpenses"].empty()){
-        j.at("otherExpenses").get_to(i.otherExpenses);
-   } else {
-        i.otherExpenses = 0;
-   }
-  
-  if(j.contains("costAndExpenses") && !j["costAndExpenses"].empty()){
-       j.at("costAndExpenses").get_to(i.costAndExpenses);
-   } else {
-       i.costAndExpenses = 0;
-   }
- 
-  
-  if(j.contains("interestIncome") && !j["interestIncome"].empty()){
-        j.at("interestIncome").get_to(i.interestIncome);
-  }else {
-        i.interestIncome = 0;
-  }
-  
-    if(j.contains("interestExpense") && !j["interestExpense"].empty()){
-        j.at("interestExpense").get_to(i.interestExpense);
-  }else {
-        i.interestExpense = 0;
-  }
-    if(j.contains("depreciationAndAmortization") && !j["depreciationAndAmortization"].empty()){
-        j.at("depreciationAndAmortization").get_to(i.depreciationAndAmortization);
-  }else {
-        i.depreciationAndAmortization = 0;
-  }
-    if(j.contains("ebitda") && !j["ebitda"].empty()){
-        j.at("ebitda").get_to(i.ebitda);
-  }else {
-        i.ebitda = 0;
-  }
-    if(j.contains("ebitdaratio") && !j["ebitdaratio"].empty()){
-        j.at("ebitdaratio").get_to(i.ebitdaratio);
-  }else {
-        i.ebitdaratio = 0.0;
-  }
-    if(j.contains("operatingIncome") && !j["operatingIncome"].empty()){
-        j.at("operatingIncome").get_to(i.operatingIncome);
-  }else {
-       i.operatingIncome = 0; 
-  }
-    if(j.contains("operatingIncomeRatio") && !j["operatingIncomeRatio"].empty()){
-        j.at("operatingIncomeRatio").get_to(i.operatingIncomeRatio);
-  }else {
-        i.operatingIncomeRatio = 0.0;
-  } 
 
- if(j.contains("totalOtherIncomeExpensesNet") && !j["totalOtherIncomeExpensesNet"].empty()){
-        j.at("totalOtherIncomeExpensesNet").get_to(i.totalOtherIncomeExpensesNet);
-  }else {
-        i.totalOtherIncomeExpensesNet = 0;
-  }  
-  if(j.contains("incomeBeforeTax") && !j["incomeBeforeTax"].empty()){
-        j.at("incomeBeforeTax").get_to(i.incomeBeforeTax);
-  }else {
-        i.incomeBeforeTax = 0;
-  }  
+std::string trim_income(const std::string &str){
+  size_t first = str.find_first_not_of(" \t\n\r");
   
-  if(j.contains("incomeBeforeTaxRatio") && !j["incomeBeforeTaxRatio"].empty()){
-        j.at("incomeBeforeTaxRatio").get_to(i.incomeBeforeTaxRatio);
-  }else {
-        i.incomeBeforeTaxRatio = 0;
-  }  
-  if(j.contains("incomeTaxExpense") && !j["incomeTaxExpense"].empty()){
-        j.at("incomeTaxExpense").get_to(i.incomeTaxExpense);
-  }else {
-        i.incomeTaxExpense = 0;
-  } 
+   if(first == std::string::npos) return "";    
   
-  if(j.contains("netIncome") && !j["netIncome"].empty()){
-        j.at("netIncome").get_to(i.netIncome);
-  }else {
-        i.netIncome = 0;
-  }  
-  if(j.contains("netIncomeRatio") && !j["netIncomeRatio"].empty()){
-        j.at("netIncomeRatio").get_to(i.netIncomeRatio);
-  }else {
-        i.netIncomeRatio = 0.0;
-  }  
-  if(j.contains("eps") && !j["eps"].empty()){
-        j.at("eps").get_to(i.eps);
-  }else {
-        i.eps = 0.0;
-  }  
-  if(j.contains("epsdiluted") && !j["epsdiluted"].empty()){
-        j.at("epsdiluted").get_to(i.epsdiluted);
-  }else {
-        i.epsdiluted = 0.0;
-  }
-    if(j.contains("weightedAverageShsOut") && !j["weightedAverageShsOut"].empty()){
-        j.at("weightedAverageShsOut").get_to(i.weightedAverageShsOut);
-  }else {
-        i.weightedAverageShsOut = 0;
-  }
-  
-  if(j.contains("weightedAverageShsOutDil") && !j["weightedAverageShsOutDil"].empty()){
-        j.at("weightedAverageShsOutDil").get_to(i.weightedAverageShsOutDil);
-  }else {
-        i.weightedAverageShsOutDil = 0;
-  }
-  if(j.contains("link") && !j["link"].empty()){
-        j.at("link").get_to(i.link);
-  }else {
-        i.link = "none";
-  }
-  if(j.contains("finalLink") && !j["finalLink"].empty()){
-        j.at("finalLink").get_to(i.finalLink);
-  }else {
-        i.finalLink = "none";
-  }
-  
-  
+   size_t last = str.find_last_not_of(" \t\n\r");
+   return str.substr(first, (last - first +1));
 }
+
+void Income_statement::deserialize(std::string &json_string){
+    std::string token;
+    
+    std::string trimmed_json = trim_income(json_string);
+    
+    
+    if(!trimmed_json.empty() && trimmed_json.back() =='}'){
+        trimmed_json.pop_back();
+        }
+    
+    std::istringstream json_stream(trimmed_json);
+    
+    if(json_stream.peek() == '{'){
+            json_stream.get();
+    }
+    
+    while(getline(json_stream, token, ',')){
+         auto separator_pos = token.find(':');
+         if (separator_pos == std::string::npos) continue; 
+         
+         auto key = trim_income(token.substr(0, separator_pos));
+         auto value = trim_income(token.substr(separator_pos + 1));
+         
+        
+        
+          
+          if (!key.empty() && key.front() == '"' && key.back() == '"') {
+            key = key.substr(1, key.size() - 2);
+          }
+         if(!value.empty() && value.front() == '"' && value.back() =='"'){
+             value = value.substr(1, value.size() - 2);
+             }
+
+//this line is for debugging 
+ //         std::cout <<"Key is long : " << key.length() << "and it looks like"+key<< std::endl;
+         
+         if(key == "date"){date = value;}
+         if(key == "symbol"){symbol = value;}
+         if(key == "reportedCurrency"){reportedCurrency = value;}
+         if(key == "cik"){cik = value;}
+         if(key == "fillingDate"){fillingDate = value;}
+         if(key == "acceptedDate"){acceptedDate = value;}
+         if(key == "calendarYear"){calendarYear = value;}
+         if(key == "period"){period = value;}
+         if(key == "revenue"){ revenue= std::stoll(value);}
+         if(key == "costOfRevenue"){ costOfRevenue= std::stoll(value);}
+         if(key == "grossProfit"){grossProfit = std::stoll(value);}
+         if(key == "grossProfitRatio"){ grossProfitRatio= std::stod(value);}
+         if(key == "researchAndDevelopmentExpenses"){ researchAndDevelopmentExpenses= std::stoll(value);}
+         if(key == "generalAndAdministrativeExpenses"){ generalAndAdministrativeExpenses= std::stoll(value);}
+         if(key == "sellingAndMarketingExpenses"){ sellingAndMarketingExpenses = std::stoll(value);}
+         if(key == "sellingGeneralAndAdministrativeExpenses"){ sellingGeneralAndAdministrativeExpenses= std::stoll(value);}
+         if(key == "otherExpenses"){ otherExpenses= std::stoll(value);}
+         if(key == "operatingExpenses"){ operatingExpenses= std::stoll(value);}
+         if(key == "costAndExpenses"){ costAndExpenses = std::stoll(value);}
+         if(key == "interestIncome"){ interestIncome= std::stoll(value);}
+         if(key == "interestExpense"){interestExpense = std::stoll(value);}
+         if(key == "depreciationAndAmortization"){ depreciationAndAmortization= std::stoll(value);}
+         if(key == "ebitda"){ebitda = std::stoll(value);}
+         if(key == "ebitdaratio"){ebitdaratio = std::stod(value);}
+         if(key == "operatingIncome"){ operatingIncome= std::stoll(value);}
+         if(key == "operatingIncomeRatio"){ operatingIncomeRatio= std::stod(value);}
+         if(key == "totalOtherIncomeExpensesNet"){totalOtherIncomeExpensesNet = std::stoll(value);}
+         if(key == "incomeBeforeTax"){ incomeBeforeTax= std::stoll(value);}
+         if(key == "incomeBeforeTaxRatio"){ incomeBeforeTaxRatio= std::stod(value);}
+         if(key == "incomeTaxExpense"){ incomeTaxExpense = std::stoll(value);}
+         if(key == "netIncome"){ netIncome = std::stoll(value);}
+         if(key == "netIncomeRatio"){ netIncomeRatio= std::stoll(value);}
+         if(key == "eps"){ eps= std::stod(value);}
+         if(key == "epsdiluted"){ epsdiluted= std::stod(value);}
+         if(key == "weightedAverageShsOut"){weightedAverageShsOut = std::stoll(value);}
+         if(key == "weightedAverageShsOutDil"){weightedAverageShsOutDil = std::stoll(value);}
+         if(key == "link"){ link= value;}
+         if(key == "finalLink"){ finalLink= value;}
+         
+    }
+    
+}
+
+
+//void from_json(const nlohmann::json &j, Income_statement &i){
+//  
+//    if(j.contains("date") && !j["date"].empty()){
+//          j.at("date").get_to(i.date);
+//    } else {
+//          i.date = "none";
+//    }
+//  
+//   if(j.contains("symbol") && !j["symbol"].empty()){
+//          j.at("symbol").get_to(i.symbol);
+//    } else {
+//          i.symbol = "none";
+//    }
+//  
+//  
+//  if(j.contains("reportedCurrency") && !j["reportedCurrency"].empty()){
+//          j.at("reportedCurrency").get_to(i.reportedCurrency);
+//   }else{
+//          i.reportedCurrency = "none";
+//   }
+//  
+//  
+//  if(j.contains("cik") && !j["cik"].empty()){
+//     j.at("cik").get_to(i.cik);
+//   } else {
+//     i.cik = "none";
+//  }
+//  
+//  
+//  if(j.contains("fillingDate") && !j["fillingDate"].empty()){
+//        j.at("fillingDate").get_to(i.fillingDate);
+//   } else {
+//        i.fillingDate = "none";
+//   }
+//  
+//  if(j.contains("acceptedDate") && !j["acceptedDate"].empty()){
+//       j.at("acceptedDate").get_to(i.acceptedDate);
+//   } else {
+//       i.acceptedDate = "none";
+//   }
+// 
+//  
+//   if(j.contains("calendarYear") && !j["calendarYear"].empty()){
+//          j.at("calendarYear").get_to(i.calendarYear);
+//    } else {
+//          i.calendarYear = "none";
+//    }
+//  
+//   if(j.contains("period") && !j["period"].empty()){
+//          j.at("period").get_to(i.period);
+//    } else {
+//          i.period = "none";
+//    }
+//  
+//  
+//  if(j.contains("revenue") && !j["revenue"].empty()){
+//          j.at("revenue").get_to(i.revenue);
+//   }else{
+//          i.revenue = 0;
+//   }
+//  
+//  
+//  if(j.contains("costOfRevenue") && !j["costOfRevenue"].empty()){
+//     j.at("costOfRevenue").get_to(i.costOfRevenue);
+//   } else {
+//     i.costOfRevenue = 0;
+//  }
+//  
+//  
+//  if(j.contains("grossProfit") && !j["grossProfit"].empty()){
+//        j.at("grossProfit").get_to(i.grossProfit);
+//   } else {
+//        i.grossProfit = 0;
+//   }
+//  
+//  if(j.contains("grossProfitRatio") && !j["grossProfitRatio"].empty()){
+//       j.at("grossProfitRatio").get_to(i.grossProfitRatio);
+//   } else {
+//       i.grossProfitRatio = 0.0;
+//   }
+// 
+//  
+//  if(j.contains("researchAndDevelopmentExpenses") && !j["researchAndDevelopmentExpenses"].empty()){
+//        j.at("researchAndDevelopmentExpenses").get_to(i.researchAndDevelopmentExpenses);
+//  }else {
+//        i.researchAndDevelopmentExpenses = 0;
+//  }
+//  
+//   if(j.contains("generalAndAdministrativeExpenses") && !j["generalAndAdministrativeExpenses"].empty()){
+//          j.at("generalAndAdministrativeExpenses").get_to(i.generalAndAdministrativeExpenses);
+//    } else {
+//          i.generalAndAdministrativeExpenses = 0;
+//    }
+//  
+//   if(j.contains("sellingAndMarketingExpenses") && !j["sellingAndMarketingExpenses"].empty()){
+//          j.at("sellingAndMarketingExpenses").get_to(i.sellingAndMarketingExpenses);
+//    } else {
+//          i.sellingAndMarketingExpenses = 0;
+//    }
+//  
+//  
+//  if(j.contains("sellingGeneralAndAdministrativeExpenses") && !j["sellingGeneralAndAdministrativeExpenses"].empty()){
+//          j.at("sellingGeneralAndAdministrativeExpenses").get_to(i.sellingGeneralAndAdministrativeExpenses);
+//   }else{
+//          i.sellingGeneralAndAdministrativeExpenses = 0;
+//   }
+//  
+//  
+//  if(j.contains("operatingExpenses") && !j["operatingExpenses"].empty()){
+//     j.at("operatingExpenses").get_to(i.operatingExpenses);
+//   } else {
+//     i.operatingExpenses = 0;
+//  }
+//  
+//  
+//  if(j.contains("otherExpenses") && !j["otherExpenses"].empty()){
+//        j.at("otherExpenses").get_to(i.otherExpenses);
+//   } else {
+//        i.otherExpenses = 0;
+//   }
+//  
+//  if(j.contains("costAndExpenses") && !j["costAndExpenses"].empty()){
+//       j.at("costAndExpenses").get_to(i.costAndExpenses);
+//   } else {
+//       i.costAndExpenses = 0;
+//   }
+// 
+//  
+//  if(j.contains("interestIncome") && !j["interestIncome"].empty()){
+//        j.at("interestIncome").get_to(i.interestIncome);
+//  }else {
+//        i.interestIncome = 0;
+//  }
+//  
+//    if(j.contains("interestExpense") && !j["interestExpense"].empty()){
+//        j.at("interestExpense").get_to(i.interestExpense);
+//  }else {
+//        i.interestExpense = 0;
+//  }
+//    if(j.contains("depreciationAndAmortization") && !j["depreciationAndAmortization"].empty()){
+//        j.at("depreciationAndAmortization").get_to(i.depreciationAndAmortization);
+//  }else {
+//        i.depreciationAndAmortization = 0;
+//  }
+//    if(j.contains("ebitda") && !j["ebitda"].empty()){
+//        j.at("ebitda").get_to(i.ebitda);
+//  }else {
+//        i.ebitda = 0;
+//  }
+//    if(j.contains("ebitdaratio") && !j["ebitdaratio"].empty()){
+//        j.at("ebitdaratio").get_to(i.ebitdaratio);
+//  }else {
+//        i.ebitdaratio = 0.0;
+//  }
+//    if(j.contains("operatingIncome") && !j["operatingIncome"].empty()){
+//        j.at("operatingIncome").get_to(i.operatingIncome);
+//  }else {
+//       i.operatingIncome = 0; 
+//  }
+//    if(j.contains("operatingIncomeRatio") && !j["operatingIncomeRatio"].empty()){
+//        j.at("operatingIncomeRatio").get_to(i.operatingIncomeRatio);
+//  }else {
+//        i.operatingIncomeRatio = 0.0;
+//  } 
+//
+// if(j.contains("totalOtherIncomeExpensesNet") && !j["totalOtherIncomeExpensesNet"].empty()){
+//        j.at("totalOtherIncomeExpensesNet").get_to(i.totalOtherIncomeExpensesNet);
+//  }else {
+//        i.totalOtherIncomeExpensesNet = 0;
+//  }  
+//  if(j.contains("incomeBeforeTax") && !j["incomeBeforeTax"].empty()){
+//        j.at("incomeBeforeTax").get_to(i.incomeBeforeTax);
+//  }else {
+//        i.incomeBeforeTax = 0;
+//  }  
+//  
+//  if(j.contains("incomeBeforeTaxRatio") && !j["incomeBeforeTaxRatio"].empty()){
+//        j.at("incomeBeforeTaxRatio").get_to(i.incomeBeforeTaxRatio);
+//  }else {
+//        i.incomeBeforeTaxRatio = 0;
+//  }  
+//  if(j.contains("incomeTaxExpense") && !j["incomeTaxExpense"].empty()){
+//        j.at("incomeTaxExpense").get_to(i.incomeTaxExpense);
+//  }else {
+//        i.incomeTaxExpense = 0;
+//  } 
+//  
+//  if(j.contains("netIncome") && !j["netIncome"].empty()){
+//        j.at("netIncome").get_to(i.netIncome);
+//  }else {
+//        i.netIncome = 0;
+//  }  
+//  if(j.contains("netIncomeRatio") && !j["netIncomeRatio"].empty()){
+//        j.at("netIncomeRatio").get_to(i.netIncomeRatio);
+//  }else {
+//        i.netIncomeRatio = 0.0;
+//  }  
+//  if(j.contains("eps") && !j["eps"].empty()){
+//        j.at("eps").get_to(i.eps);
+//  }else {
+//        i.eps = 0.0;
+//  }  
+//  if(j.contains("epsdiluted") && !j["epsdiluted"].empty()){
+//        j.at("epsdiluted").get_to(i.epsdiluted);
+//  }else {
+//        i.epsdiluted = 0.0;
+//  }
+//    if(j.contains("weightedAverageShsOut") && !j["weightedAverageShsOut"].empty()){
+//        j.at("weightedAverageShsOut").get_to(i.weightedAverageShsOut);
+//  }else {
+//        i.weightedAverageShsOut = 0;
+//  }
+//  
+//  if(j.contains("weightedAverageShsOutDil") && !j["weightedAverageShsOutDil"].empty()){
+//        j.at("weightedAverageShsOutDil").get_to(i.weightedAverageShsOutDil);
+//  }else {
+//        i.weightedAverageShsOutDil = 0;
+//  }
+//  if(j.contains("link") && !j["link"].empty()){
+//        j.at("link").get_to(i.link);
+//  }else {
+//        i.link = "none";
+//  }
+//  if(j.contains("finalLink") && !j["finalLink"].empty()){
+//        j.at("finalLink").get_to(i.finalLink);
+//  }else {
+//        i.finalLink = "none";
+//  }
+//  
+//  
+//}
 
 
 std::string Income_statement::get_class_name()const{
@@ -405,7 +495,7 @@ void Income_statement::save_to_file(std::ofstream &out){
     
     
      size_t obj_size = this-> compute_object_size();
-     std::cout<< "income statement obj size: "<< obj_size <<std::endl;
+     //std::cout<< "income statement obj size: "<< obj_size <<std::endl;
      out.write(reinterpret_cast<const char*>(&obj_size), sizeof(obj_size));
     
     
@@ -538,10 +628,10 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
         if(in.eof()){
             break;
         }  
-        std::cerr<< "Couldn't read object size from the file regrading class "<< get_class_name()<<"\n";
+      std::cerr<< "Couldn't read object size from the file regrading class "<< get_class_name()<<"\n";
         return false;
     }
-    std::cout << "Object size read (Income statement): " << obj_size << std::endl;
+    //std::cout << "Object size read (Income statement): " << obj_size << std::endl;
     
     Income_statement* statement = new Income_statement();
      std::vector<char> buffer(obj_size);
@@ -684,7 +774,7 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
              statement -> finalLink ="nf";
             }
      
-          std::cout << "Reading completed for " << statement->symbol << " at position " << pos << std::endl;
+          //std::cout << "Reading completed for " << statement->symbol << " at position " << pos << std::endl;
     
     
        // Check if entire object was read

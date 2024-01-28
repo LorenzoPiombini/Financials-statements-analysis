@@ -1,6 +1,7 @@
 #include "Balancesheet.h"
-#include "nlohmann/json.hpp"
+#include "Trim.h"
 #include <iostream>
+#include <sstream>
 #include <string>
 
 
@@ -182,336 +183,432 @@ std::string Balancesheet::create_file_name(std::string ticker)const{
     }
 }
 
-void from_json(const nlohmann::json &j, Balancesheet &i){
+void Balancesheet::deserialize(std::string &json_string){
+    std::string token;
+    
+    std::string trimmed_json = trim(json_string);
+    
+    
+    if(!trimmed_json.empty() && trimmed_json.back() =='}'){
+        trimmed_json.pop_back();
+        }
+    
+    std::istringstream json_stream(trimmed_json);
+    
+    if(json_stream.peek() == '{'){
+            json_stream.get();
+    }
+    
+    while(getline(json_stream, token, ',')){
+         auto separator_pos = token.find(':');
+         if (separator_pos == std::string::npos) continue; 
+         
+         auto key = trim(token.substr(0, separator_pos));
+         auto value = trim(token.substr(separator_pos + 1));
+         
         
-     if(j.contains("date") && !j["date"].empty()){
-         j.at("date").get_to(i.date);
-     }else {
-         i.date= "none";
-     }
-      
-     if(j.contains("symbol") && !j["symbol"].empty()){
-         j.at("symbol").get_to(i.symbol);
-     }else {
-         i.symbol = "none";
-     }
-     if(j.contains("reportedCurrency") && !j["reportedCurrency"].empty()){
-         j.at("reportedCurrency").get_to(i.reportedCurrency);
-     }else {
-         i.reportedCurrency = "none";
-     }
-      
+        
+          
+          if (!key.empty() && key.front() == '"' && key.back() == '"') {
+            key = key.substr(1, key.size() - 2);
+          }
+         if(!value.empty() && value.front() == '"' && value.back() =='"'){
+             value = value.substr(1, value.size() - 2);
+             }
+
+//this line is for debugging 
+//          std::cout <<"Key is long : " << key.length() << "and it looks like"+key<< std::endl;
+          
+          
+         if(key == "date"){date = value;}
+         if(key == "symbol"){symbol = value;}
+         if(key == "reportedCurrency"){reportedCurrency = value;}
+         if(key == "cik"){cik = value;}
+         if(key == "fillingDate"){fillingDate = value;}
+         if(key == "acceptedDate"){acceptedDate = value;}
+         if(key == "calendarYear"){calendarYear = value;}
+         if(key == "period"){period = value;}
+         if(key == "cashAndCashEquivalents"){cashAndCashEquivalents = std::stoll(value);}
+         if(key == "shortTermInvestments"){shortTermInvestments = std::stoll(value);}
+         if(key == "cashAndShortTermInvestments"){cashAndShortTermInvestments = std::stoll(value);}
+         if(key == "netReceivables"){netReceivables = std::stoll(value);}
+         if(key == "inventory"){inventory = std::stoll(value);}
+         if(key == "otherCurrentAssets"){otherCurrentAssets = std::stoll(value);}
+         if(key == "totalCurrentAssets"){totalCurrentAssets = std::stoll(value);}
+         if(key == "propertyPlantEquipmentNet"){propertyPlantEquipmentNet = std::stoll(value);}
+         if(key == "goodwill"){goodwill = std::stoll(value);}
+         if(key == "intangibleAssets"){intangibleAssets = std::stoll(value);}
+         if(key == "goodwillAndIntangibleAssets"){goodwillAndIntangibleAssets = std::stoll(value);}
+         if(key == "longTermInvestments"){longTermInvestments = std::stoll(value);}
+         if(key == "taxAssets"){taxAssets = std::stoll(value);}
+         if(key == "otherNonCurrentAssets"){ otherNonCurrentAssets= std::stoll(value);}
+         if(key == "totalNonCurrentAssets"){ totalNonCurrentAssets= std::stoll(value);}
+         if(key == "otherAssets"){ otherAssets= std::stoll(value);}
+         if(key == "totalAssets"){ totalAssets= std::stoll(value);}
+         if(key == "accountPayables"){ accountPayables = std::stoll(value);}
+         if(key == "shortTermDebt"){ shortTermDebt= std::stoll(value);}
+         if(key == "taxPayables"){ taxPayables= std::stoll(value);}
+         if(key == "deferredRevenue"){ deferredRevenue= std::stoll(value);}
+         if(key == "otherCurrentLiabilities"){ otherCurrentLiabilities = std::stoll(value);}
+         if(key == "totalCurrentLiabilities"){ totalCurrentLiabilities = std::stoll(value);}
+         if(key == "longTermDebt"){ longTermDebt= std::stoll(value);}
+         if(key == "deferredRevenueNonCurrent"){deferredRevenueNonCurrent = std::stoll(value);}
+         if(key == "deferredTaxLiabilitiesNonCurrent"){deferredTaxLiabilitiesNonCurrent= std::stoll(value);}
+         if(key == "otherNonCurrentLiabilities"){otherNonCurrentLiabilities= std::stoll(value);}
+         if(key == "totalNonCurrentLiabilities"){totalNonCurrentLiabilities= std::stoll(value);}
+         if(key == "otherLiabilities"){otherLiabilities= std::stoll(value);}
+         if(key == "capitalLeaseObligations"){capitalLeaseObligations= std::stoll(value);}
+         if(key == "totalLiabilities"){totalLiabilities= std::stoll(value);}
+         if(key == "preferredStock"){preferredStock= std::stoll(value);}
+         if(key == "commonStock"){commonStock= std::stoll(value);}
+         if(key == "retainedEarnings"){retainedEarnings= std::stoll(value);}
+         if(key == "accumulatedOtherComprehensiveIncomeLoss"){accumulatedOtherComprehensiveIncomeLoss= std::stoll(value);}
+         if(key == "othertotalStockholdersEquity"){othertotalStockholdersEquity= std::stoll(value);}
+         if(key == "totalStockholdersEquity"){totalStockholdersEquity= std::stoll(value);}
+         if(key == "totalEquity"){ totalEquity= std::stoll(value);}
+         if(key == "totalLiabilitiesAndStockholdersEquity"){totalLiabilitiesAndStockholdersEquity= std::stoll(value);}
+         if(key == "minorityInterest"){minorityInterest= std::stoll(value);}
+         if(key == "totalLiabilitiesAndTotalEquity"){totalLiabilitiesAndTotalEquity = std::stoll(value);}
+         if(key == "totalInvestments"){totalInvestments = std::stoll(value);}
+         if(key == "totalDebt"){totalDebt = std::stoll(value);}
+         if(key == "netDebt"){netDebt = std::stoll(value);}
+         if(key == "link"){link = value;}
+         if(key == "finalLink"){finalLink = value;}
     
-     if(j.contains("cik") && !j["cik"].empty()){
-         j.at("cik").get_to(i.cik);
-     }else {
-         i.cik = "none" ;
-     }
-      
-     if(j.contains("fillingDate") && !j["fillingDate"].empty()){
-         j.at("fillingDate").get_to(i.fillingDate);
-     }else {
-         i.fillingDate = "none" ;
-     }
-      if(j.contains("acceptedDate") && !j["acceptedDate"].empty()){
-         j.at("acceptedDate").get_to(i.acceptedDate);
-     }else {
-         i.acceptedDate = "none";
-     }
-      
-     if(j.contains("calendarYear") && !j["calendarYear"].empty()){
-         j.at("calendarYear").get_to(i.calendarYear);
-     }else {
-         i.calendarYear = "none";
-     }
-      if(j.contains("period") && !j["period"].empty()){
-         j.at("period").get_to(i.period);
-     }else {
-         i.period = "none";
-     }
-      
-     if(j.contains("cashAndCashEquivalents") && !j["cashAndCashEquivalents"].empty()){
-         j.at("cashAndCashEquivalents").get_to(i.cashAndCashEquivalents);
-     }else {
-         i.cashAndCashEquivalents = 0;
-     }
-      if(j.contains("shortTermInvestments") && !j["shortTermInvestments"].empty()){
-         j.at("shortTermInvestments").get_to(i.shortTermInvestments);
-     }else {
-         i.shortTermInvestments = 0;
-     }
-      
-     if(j.contains("cashAndShortTermInvestments") && !j["cashAndShortTermInvestments"].empty()){
-         j.at("cashAndShortTermInvestments").get_to(i.cashAndShortTermInvestments);
-     }else {
-         i.cashAndShortTermInvestments = 0 ;
-     }
-      if(j.contains("netReceivables") && !j["netReceivables"].empty()){
-         j.at("netReceivables").get_to(i.netReceivables);
-     }else {
-         i.netReceivables = 0 ;
-     }
-      
-     if(j.contains("inventory") && !j["inventory"].empty()){
-         j.at("inventory").get_to(i.inventory);
-     }else {
-         i.inventory = 0;
-     }
-      if(j.contains("otherCurrentAssets") && !j["otherCurrentAssets"].empty()){
-         j.at("otherCurrentAssets").get_to(i.otherCurrentAssets);
-     }else {
-         i.otherCurrentAssets = 0;
-     }
-      
+        }
     
-      if(j.contains("totalCurrentAssets") && !j["totalCurrentAssets"].empty()){
-         j.at("totalCurrentAssets").get_to(i.totalCurrentAssets);
-     }else {
-         i.totalCurrentAssets = 0 ;
-     }
-      
-     if(j.contains("propertyPlantEquipmentNet") && !j["propertyPlantEquipmentNet"].empty()){
-         j.at("propertyPlantEquipmentNet").get_to(i.propertyPlantEquipmentNet);
-     }else {
-         i.propertyPlantEquipmentNet = 0 ;
-     }
-      if(j.contains("goodwill") && !j["goodwill"].empty()){
-         j.at("goodwill").get_to(i.goodwill);
-     }else {
-         i.goodwill = 0;
-     }
-      
-     if(j.contains("intangibleAssets") && !j["intangibleAssets"].empty()){
-         j.at("intangibleAssets").get_to(i.intangibleAssets);
-     }else {
-         i.intangibleAssets = 0;
-     }
-    
-    if(j.contains("goodwillAndIntangibleAssets") && !j["goodwillAndIntangibleAssets"].empty()){
-         j.at("goodwillAndIntangibleAssets").get_to(i.goodwillAndIntangibleAssets);
-     }else {
-         i.goodwillAndIntangibleAssets = 0 ;
-     }
-     
-      
-    if(j.contains("longTermInvestments") && !j["longTermInvestments"].empty()){
-         j.at("longTermInvestments").get_to(i.longTermInvestments);
-     }else {
-         i.longTermInvestments = 0;
-     }
-     
-      if(j.contains("taxAssets") && !j["taxAssets"].empty()){
-         j.at("taxAssets").get_to(i.taxAssets);
-     }else {
-         i.taxAssets = 0 ;
-     }
-    
-    if(j.contains("otherNonCurrentAssets") && !j["otherNonCurrentAssets"].empty()){
-         j.at("otherNonCurrentAssets").get_to(i.otherNonCurrentAssets);
-     }else {
-         i.otherNonCurrentAssets = 0;
-     }
-     
-    if(j.contains("totalNonCurrentAssets") && !j["totalNonCurrentAssets"].empty()){
-         j.at("totalNonCurrentAssets").get_to(i.totalNonCurrentAssets);
-     }else {
-         i.totalNonCurrentAssets = 0;
-     }
-      if(j.contains("otherAssets") && !j["otherAssets"].empty()){
-         j.at("otherAssets").get_to(i.otherAssets);
-     }else {
-         i.otherAssets = 0;
-     }
-    
-    if(j.contains("totalAssets") && !j["totalAssets"].empty()){
-         j.at("totalAssets").get_to(i.totalAssets);
-     }else {
-         i.totalAssets = 0;
-     }
-     
-      
-    if(j.contains("accountPayables") && !j["accountPayables"].empty()){
-         j.at("accountPayables").get_to(i.accountPayables);
-     }else {
-         i.accountPayables = 0 ;
-     }
-      if(j.contains("shortTermDebt") && !j["shortTermDebt"].empty()){
-         j.at("shortTermDebt").get_to(i.shortTermDebt);
-     }else {
-         i.shortTermDebt = 0;
-     }
-    
-    if(j.contains("taxPayables") && !j["taxPayables"].empty()){
-         j.at("taxPayables").get_to(i.taxPayables);
-     }else {
-         i.taxPayables = 0 ;
-     }
-     
-      
-    if(j.contains("deferredRevenue") && !j["deferredRevenue"].empty()){
-         j.at("deferredRevenue").get_to(i.deferredRevenue);
-     }else {
-         i.deferredRevenue =0 ;
-     }
-     
-      if(j.contains("otherCurrentLiabilities") && !j["otherCurrentLiabilities"].empty()){
-         j.at("otherCurrentLiabilities").get_to(i.otherCurrentLiabilities);
-     }else {
-         i.otherCurrentLiabilities = 0;
-     }
-    
-    if(j.contains("totalCurrentLiabilities") && !j["totalCurrentLiabilities"].empty()){
-         j.at("totalCurrentLiabilities").get_to(i.totalCurrentLiabilities);
-     }else {
-         i.totalCurrentLiabilities = 0;
-     }
-     
-      
-    if(j.contains("longTermDebt") && !j["longTermDebt"].empty()){
-         j.at("longTermDebt").get_to(i.longTermDebt);
-     }else {
-         i.longTermDebt = 0;
-     }
-     
-      if(j.contains("deferredRevenueNonCurrent") && !j["deferredRevenueNonCurrent"].empty()){
-         j.at("deferredRevenueNonCurrent").get_to(i.deferredRevenueNonCurrent);
-     }else {
-         i.deferredRevenueNonCurrent = 0 ;
-     }
-    
-    if(j.contains("deferredTaxLiabilitiesNonCurrent") && !j["deferredTaxLiabilitiesNonCurrent"].empty()){
-         j.at("deferredTaxLiabilitiesNonCurrent").get_to(i.deferredTaxLiabilitiesNonCurrent);
-     }else {
-         i.deferredTaxLiabilitiesNonCurrent = 0;
-     }
-     
-      
-    if(j.contains("otherNonCurrentLiabilities") && !j["otherNonCurrentLiabilities"].empty()){
-         j.at("otherNonCurrentLiabilities").get_to(i.otherNonCurrentLiabilities);
-     }else {
-         i.otherNonCurrentLiabilities = 0;
-     }
-       
-    if(j.contains("totalNonCurrentLiabilities") && !j["totalNonCurrentLiabilities"].empty()){
-         j.at("totalNonCurrentLiabilities").get_to(i.totalNonCurrentLiabilities);
-     }else {
-         i.totalNonCurrentLiabilities = 0;
-     }
-     
-      if(j.contains("otherLiabilities") && !j["otherLiabilities"].empty()){
-         j.at("otherLiabilities").get_to(i.otherLiabilities);
-     }else {
-         i.otherLiabilities =0 ;
-     }
-    
-    if(j.contains("capitalLeaseObligations") && !j["capitalLeaseObligations"].empty()){
-         j.at("capitalLeaseObligations").get_to(i.capitalLeaseObligations);
-     }else {
-         i.capitalLeaseObligations = 0 ;
-     }
-     
-      
-    if(j.contains("totalLiabilities") && !j["totalLiabilities"].empty()){
-         j.at("totalLiabilities").get_to(i.totalLiabilities);
-     }else {
-         i.totalLiabilities = 0;
-     }
-       
-    if(j.contains("preferredStock") && !j["preferredStock"].empty()){
-         j.at("preferredStock").get_to(i.preferredStock);
-     }else {
-         i.preferredStock = 0;
-     }
-     
-      if(j.contains("commonStock") && !j["commonStock"].empty()){
-         j.at("commonStock").get_to(i.commonStock);
-     }else {
-         i.commonStock = 0;
-     }
-    
-    if(j.contains("retainedEarnings") && !j["retainedEarnings"].empty()){
-         j.at("retainedEarnings").get_to(i.retainedEarnings);
-     }else {
-         i.retainedEarnings = 0;
-     }
-     
-      
-    if(j.contains("accumulatedOtherComprehensiveIncomeLoss") && !j["accumulatedOtherComprehensiveIncomeLoss"].empty()){
-         j.at("accumulatedOtherComprehensiveIncomeLoss").get_to(i.accumulatedOtherComprehensiveIncomeLoss);
-     }else {
-         i.accumulatedOtherComprehensiveIncomeLoss = 0;
-     }
-       
-    if(j.contains("othertotalStockholdersEquity") && !j["othertotalStockholdersEquity"].empty()){
-         j.at("othertotalStockholdersEquity").get_to(i.othertotalStockholdersEquity);
-     }else {
-         i.othertotalStockholdersEquity = 0;
-     }
-     
-      if(j.contains("totalStockholdersEquity") && !j["totalStockholdersEquity"].empty()){
-         j.at("totalStockholdersEquity").get_to(i.totalStockholdersEquity);
-     }else {
-         i.totalStockholdersEquity = 0 ;
-     }
-    
-    if(j.contains("totalEquity") && !j["totalEquity"].empty()){
-         j.at("totalEquity").get_to(i.totalEquity);
-     }else {
-         i.totalEquity = 0;
-     }
-     
-      
-    if(j.contains("totalLiabilitiesAndStockholdersEquity") && !j["totalLiabilitiesAndStockholdersEquity"].empty()){
-         j.at("totalLiabilitiesAndStockholdersEquity").get_to(i.totalLiabilitiesAndStockholdersEquity);
-     }else {
-         i.totalLiabilitiesAndStockholdersEquity = 0;
-     }
-       
-    if(j.contains("minorityInterest") && !j["minorityInterest"].empty()){
-         j.at("minorityInterest").get_to(i.minorityInterest);
-     }else {
-         i.minorityInterest = 0;
-     }
-     
-      if(j.contains("totalLiabilitiesAndTotalEquity") && !j["totalLiabilitiesAndTotalEquity"].empty()){
-         j.at("totalLiabilitiesAndTotalEquity").get_to(i.totalLiabilitiesAndTotalEquity);
-     }else {
-         i.totalLiabilitiesAndTotalEquity = 0;
-     }
-    
-    if(j.contains("totalInvestments") && !j["totalInvestments"].empty()){
-         j.at("totalInvestments").get_to(i.totalInvestments);
-     }else {
-         i.totalInvestments = 0;
-     }
-     
-      
-    if(j.contains("totalDebt") && !j["totalDebt"].empty()){
-         j.at("totalDebt").get_to(i.totalDebt);
-     }else {
-         i.totalDebt = 0;
-     }
-     
-     if(j.contains("netDebt") && !j["netDebt"].empty()){
-         j.at("netDebt").get_to(i.netDebt);
-     }else {
-         i.netDebt = 0;
-     }
-     
-     if(j.contains("link") && !j["link"].empty()){
-         j.at("link").get_to(i.link);
-     }else {
-         i.link = "nf" ;
-     }
-     
-     if(j.contains("finalLink") && !j["finalLink"].empty()){
-         j.at("finalLink").get_to(i.finalLink);
-     }else {
-         i.finalLink = "nf";
-     }
-     
-      
 }
+
+//void from_json(const nlohmann::json &j, Balancesheet &i){
+//        
+//     if(j.contains("date") && !j["date"].empty()){
+//         j.at("date").get_to(i.date);
+//     }else {
+//         i.date= "none";
+//     }
+//      
+//     if(j.contains("symbol") && !j["symbol"].empty()){
+//         j.at("symbol").get_to(i.symbol);
+//     }else {
+//         i.symbol = "none";
+//     }
+//     if(j.contains("reportedCurrency") && !j["reportedCurrency"].empty()){
+//         j.at("reportedCurrency").get_to(i.reportedCurrency);
+//     }else {
+//         i.reportedCurrency = "none";
+//     }
+//      
+//    
+//     if(j.contains("cik") && !j["cik"].empty()){
+//         j.at("cik").get_to(i.cik);
+//     }else {
+//         i.cik = "none" ;
+//     }
+//      
+//     if(j.contains("fillingDate") && !j["fillingDate"].empty()){
+//         j.at("fillingDate").get_to(i.fillingDate);
+//     }else {
+//         i.fillingDate = "none" ;
+//     }
+//      if(j.contains("acceptedDate") && !j["acceptedDate"].empty()){
+//         j.at("acceptedDate").get_to(i.acceptedDate);
+//     }else {
+//         i.acceptedDate = "none";
+//     }
+//      
+//     if(j.contains("calendarYear") && !j["calendarYear"].empty()){
+//         j.at("calendarYear").get_to(i.calendarYear);
+//     }else {
+//         i.calendarYear = "none";
+//     }
+//      if(j.contains("period") && !j["period"].empty()){
+//         j.at("period").get_to(i.period);
+//     }else {
+//         i.period = "none";
+//     }
+//      
+//     if(j.contains("cashAndCashEquivalents") && !j["cashAndCashEquivalents"].empty()){
+//         j.at("cashAndCashEquivalents").get_to(i.cashAndCashEquivalents);
+//     }else {
+//         i.cashAndCashEquivalents = 0;
+//     }
+//      if(j.contains("shortTermInvestments") && !j["shortTermInvestments"].empty()){
+//         j.at("shortTermInvestments").get_to(i.shortTermInvestments);
+//     }else {
+//         i.shortTermInvestments = 0;
+//     }
+//      
+//     if(j.contains("cashAndShortTermInvestments") && !j["cashAndShortTermInvestments"].empty()){
+//         j.at("cashAndShortTermInvestments").get_to(i.cashAndShortTermInvestments);
+//     }else {
+//         i.cashAndShortTermInvestments = 0 ;
+//     }
+//      if(j.contains("netReceivables") && !j["netReceivables"].empty()){
+//         j.at("netReceivables").get_to(i.netReceivables);
+//     }else {
+//         i.netReceivables = 0 ;
+//     }
+//      
+//     if(j.contains("inventory") && !j["inventory"].empty()){
+//         j.at("inventory").get_to(i.inventory);
+//     }else {
+//         i.inventory = 0;
+//     }
+//      if(j.contains("otherCurrentAssets") && !j["otherCurrentAssets"].empty()){
+//         j.at("otherCurrentAssets").get_to(i.otherCurrentAssets);
+//     }else {
+//         i.otherCurrentAssets = 0;
+//     }
+//      
+//    
+//      if(j.contains("totalCurrentAssets") && !j["totalCurrentAssets"].empty()){
+//         j.at("totalCurrentAssets").get_to(i.totalCurrentAssets);
+//     }else {
+//         i.totalCurrentAssets = 0 ;
+//     }
+//      
+//     if(j.contains("propertyPlantEquipmentNet") && !j["propertyPlantEquipmentNet"].empty()){
+//         j.at("propertyPlantEquipmentNet").get_to(i.propertyPlantEquipmentNet);
+//     }else {
+//         i.propertyPlantEquipmentNet = 0 ;
+//     }
+//      if(j.contains("goodwill") && !j["goodwill"].empty()){
+//         j.at("goodwill").get_to(i.goodwill);
+//     }else {
+//         i.goodwill = 0;
+//     }
+//      
+//     if(j.contains("intangibleAssets") && !j["intangibleAssets"].empty()){
+//         j.at("intangibleAssets").get_to(i.intangibleAssets);
+//     }else {
+//         i.intangibleAssets = 0;
+//     }
+//    
+//    if(j.contains("goodwillAndIntangibleAssets") && !j["goodwillAndIntangibleAssets"].empty()){
+//         j.at("goodwillAndIntangibleAssets").get_to(i.goodwillAndIntangibleAssets);
+//     }else {
+//         i.goodwillAndIntangibleAssets = 0 ;
+//     }
+//     
+//      
+//    if(j.contains("longTermInvestments") && !j["longTermInvestments"].empty()){
+//         j.at("longTermInvestments").get_to(i.longTermInvestments);
+//     }else {
+//         i.longTermInvestments = 0;
+//     }
+//     
+//      if(j.contains("taxAssets") && !j["taxAssets"].empty()){
+//         j.at("taxAssets").get_to(i.taxAssets);
+//     }else {
+//         i.taxAssets = 0 ;
+//     }
+//    
+//    if(j.contains("otherNonCurrentAssets") && !j["otherNonCurrentAssets"].empty()){
+//         j.at("otherNonCurrentAssets").get_to(i.otherNonCurrentAssets);
+//     }else {
+//         i.otherNonCurrentAssets = 0;
+//     }
+//     
+//    if(j.contains("totalNonCurrentAssets") && !j["totalNonCurrentAssets"].empty()){
+//         j.at("totalNonCurrentAssets").get_to(i.totalNonCurrentAssets);
+//     }else {
+//         i.totalNonCurrentAssets = 0;
+//     }
+//      if(j.contains("otherAssets") && !j["otherAssets"].empty()){
+//         j.at("otherAssets").get_to(i.otherAssets);
+//     }else {
+//         i.otherAssets = 0;
+//     }
+//    
+//    if(j.contains("totalAssets") && !j["totalAssets"].empty()){
+//         j.at("totalAssets").get_to(i.totalAssets);
+//     }else {
+//         i.totalAssets = 0;
+//     }
+//     
+//      
+//    if(j.contains("accountPayables") && !j["accountPayables"].empty()){
+//         j.at("accountPayables").get_to(i.accountPayables);
+//     }else {
+//         i.accountPayables = 0 ;
+//     }
+//      if(j.contains("shortTermDebt") && !j["shortTermDebt"].empty()){
+//         j.at("shortTermDebt").get_to(i.shortTermDebt);
+//     }else {
+//         i.shortTermDebt = 0;
+//     }
+//    
+//    if(j.contains("taxPayables") && !j["taxPayables"].empty()){
+//         j.at("taxPayables").get_to(i.taxPayables);
+//     }else {
+//         i.taxPayables = 0 ;
+//     }
+//     
+//      
+//    if(j.contains("deferredRevenue") && !j["deferredRevenue"].empty()){
+//         j.at("deferredRevenue").get_to(i.deferredRevenue);
+//     }else {
+//         i.deferredRevenue =0 ;
+//     }
+//     
+//      if(j.contains("otherCurrentLiabilities") && !j["otherCurrentLiabilities"].empty()){
+//         j.at("otherCurrentLiabilities").get_to(i.otherCurrentLiabilities);
+//     }else {
+//         i.otherCurrentLiabilities = 0;
+//     }
+//    
+//    if(j.contains("totalCurrentLiabilities") && !j["totalCurrentLiabilities"].empty()){
+//         j.at("totalCurrentLiabilities").get_to(i.totalCurrentLiabilities);
+//     }else {
+//         i.totalCurrentLiabilities = 0;
+//     }
+//     
+//      
+//    if(j.contains("longTermDebt") && !j["longTermDebt"].empty()){
+//         j.at("longTermDebt").get_to(i.longTermDebt);
+//     }else {
+//         i.longTermDebt = 0;
+//     }
+//     
+//      if(j.contains("deferredRevenueNonCurrent") && !j["deferredRevenueNonCurrent"].empty()){
+//         j.at("deferredRevenueNonCurrent").get_to(i.deferredRevenueNonCurrent);
+//     }else {
+//         i.deferredRevenueNonCurrent = 0 ;
+//     }
+//    
+//    if(j.contains("deferredTaxLiabilitiesNonCurrent") && !j["deferredTaxLiabilitiesNonCurrent"].empty()){
+//         j.at("deferredTaxLiabilitiesNonCurrent").get_to(i.deferredTaxLiabilitiesNonCurrent);
+//     }else {
+//         i.deferredTaxLiabilitiesNonCurrent = 0;
+//     }
+//     
+//      
+//    if(j.contains("otherNonCurrentLiabilities") && !j["otherNonCurrentLiabilities"].empty()){
+//         j.at("otherNonCurrentLiabilities").get_to(i.otherNonCurrentLiabilities);
+//     }else {
+//         i.otherNonCurrentLiabilities = 0;
+//     }
+//       
+//    if(j.contains("totalNonCurrentLiabilities") && !j["totalNonCurrentLiabilities"].empty()){
+//         j.at("totalNonCurrentLiabilities").get_to(i.totalNonCurrentLiabilities);
+//     }else {
+//         i.totalNonCurrentLiabilities = 0;
+//     }
+//     
+//      if(j.contains("otherLiabilities") && !j["otherLiabilities"].empty()){
+//         j.at("otherLiabilities").get_to(i.otherLiabilities);
+//     }else {
+//         i.otherLiabilities =0 ;
+//     }
+//    
+//    if(j.contains("capitalLeaseObligations") && !j["capitalLeaseObligations"].empty()){
+//         j.at("capitalLeaseObligations").get_to(i.capitalLeaseObligations);
+//     }else {
+//         i.capitalLeaseObligations = 0 ;
+//     }
+//     
+//      
+//    if(j.contains("totalLiabilities") && !j["totalLiabilities"].empty()){
+//         j.at("totalLiabilities").get_to(i.totalLiabilities);
+//     }else {
+//         i.totalLiabilities = 0;
+//     }
+//       
+//    if(j.contains("preferredStock") && !j["preferredStock"].empty()){
+//         j.at("preferredStock").get_to(i.preferredStock);
+//     }else {
+//         i.preferredStock = 0;
+//     }
+//     
+//      if(j.contains("commonStock") && !j["commonStock"].empty()){
+//         j.at("commonStock").get_to(i.commonStock);
+//     }else {
+//         i.commonStock = 0;
+//     }
+//    
+//    if(j.contains("retainedEarnings") && !j["retainedEarnings"].empty()){
+//         j.at("retainedEarnings").get_to(i.retainedEarnings);
+//     }else {
+//         i.retainedEarnings = 0;
+//     }
+//     
+//      
+//    if(j.contains("accumulatedOtherComprehensiveIncomeLoss") && !j["accumulatedOtherComprehensiveIncomeLoss"].empty()){
+//         j.at("accumulatedOtherComprehensiveIncomeLoss").get_to(i.accumulatedOtherComprehensiveIncomeLoss);
+//     }else {
+//         i.accumulatedOtherComprehensiveIncomeLoss = 0;
+//     }
+//       
+//    if(j.contains("othertotalStockholdersEquity") && !j["othertotalStockholdersEquity"].empty()){
+//         j.at("othertotalStockholdersEquity").get_to(i.othertotalStockholdersEquity);
+//     }else {
+//         i.othertotalStockholdersEquity = 0;
+//     }
+//     
+//      if(j.contains("totalStockholdersEquity") && !j["totalStockholdersEquity"].empty()){
+//         j.at("totalStockholdersEquity").get_to(i.totalStockholdersEquity);
+//     }else {
+//         i.totalStockholdersEquity = 0 ;
+//     }
+//    
+//    if(j.contains("totalEquity") && !j["totalEquity"].empty()){
+//         j.at("totalEquity").get_to(i.totalEquity);
+//     }else {
+//         i.totalEquity = 0;
+//     }
+//     
+//      
+//    if(j.contains("totalLiabilitiesAndStockholdersEquity") && !j["totalLiabilitiesAndStockholdersEquity"].empty()){
+//         j.at("totalLiabilitiesAndStockholdersEquity").get_to(i.totalLiabilitiesAndStockholdersEquity);
+//     }else {
+//         i.totalLiabilitiesAndStockholdersEquity = 0;
+//     }
+//       
+//    if(j.contains("minorityInterest") && !j["minorityInterest"].empty()){
+//         j.at("minorityInterest").get_to(i.minorityInterest);
+//     }else {
+//         i.minorityInterest = 0;
+//     }
+//     
+//      if(j.contains("totalLiabilitiesAndTotalEquity") && !j["totalLiabilitiesAndTotalEquity"].empty()){
+//         j.at("totalLiabilitiesAndTotalEquity").get_to(i.totalLiabilitiesAndTotalEquity);
+//     }else {
+//         i.totalLiabilitiesAndTotalEquity = 0;
+//     }
+//    
+//    if(j.contains("totalInvestments") && !j["totalInvestments"].empty()){
+//         j.at("totalInvestments").get_to(i.totalInvestments);
+//     }else {
+//         i.totalInvestments = 0;
+//     }
+//     
+//      
+//    if(j.contains("totalDebt") && !j["totalDebt"].empty()){
+//         j.at("totalDebt").get_to(i.totalDebt);
+//     }else {
+//         i.totalDebt = 0;
+//     }
+//     
+//     if(j.contains("netDebt") && !j["netDebt"].empty()){
+//         j.at("netDebt").get_to(i.netDebt);
+//     }else {
+//         i.netDebt = 0;
+//     }
+//     
+//     if(j.contains("link") && !j["link"].empty()){
+//         j.at("link").get_to(i.link);
+//     }else {
+//         i.link = "nf" ;
+//     }
+//     
+//     if(j.contains("finalLink") && !j["finalLink"].empty()){
+//         j.at("finalLink").get_to(i.finalLink);
+//     }else {
+//         i.finalLink = "nf";
+//     }
+//     
+//      
+//}
 
 
 size_t Balancesheet::compute_object_size() const {
@@ -639,7 +736,7 @@ void Balancesheet::save_to_file(std::ofstream &out){
     
 }
 
-bool read_size_from_buffer_balance(const std::vector<char> &buffer, size_t &pos, size_t &value){
+bool Balancesheet::read_size_from_buffer_balance(const std::vector<char> &buffer, size_t &pos, size_t &value){
         
         if(pos+sizeof(size_t)> buffer.size()) return false;
         std::memcpy(&value, buffer.data() + pos, sizeof(size_t));
@@ -649,7 +746,7 @@ bool read_size_from_buffer_balance(const std::vector<char> &buffer, size_t &pos,
     
 }
 
-bool reading_string_from_buffer_balance(const std::vector<char> &buffer, size_t &pos, std::string &value){
+bool Balancesheet::reading_string_from_buffer_balance(const std::vector<char> &buffer, size_t &pos, std::string &value){
     size_t lenght;
     
     if(!read_size_from_buffer_balance(buffer,pos,lenght)) return false;

@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include "HistoricalPrice.h"
-#include "nlohmann/json.hpp"
+
 
 class History_stock_prices {
 
@@ -15,7 +15,7 @@ class History_stock_prices {
         std::string get_symbol()const;
         std::vector<Historical_price> get_historical() const&; 
         
-        friend void from_json(nlohmann::json &j, History_stock_prices &h);
+       //friend void from_json(nlohmann::json &j, History_stock_prices &h);
         
     
 };

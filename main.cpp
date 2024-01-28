@@ -8,6 +8,8 @@
 #include "Getfunctions.h"
 #include "Incomestatement.h"
 #include "Balancesheet.h"
+#include "Keyratios.h"
+#include  "Cashflowstatement.h"
 #include "IntrinsicValueCalculation.h"
 #include "Responseparsing.h"
 
@@ -26,6 +28,8 @@ void safeTyping(string &str){
         c = toupper(c);
         }
 }
+
+//this funtion is to debug a file proccesing 
 void printFileContents(const std::string& filename) {
     std::ifstream file(filename, std::ios::binary);
     if (!file) {
@@ -44,6 +48,8 @@ int main()
 {    
 //     std::string filename = "KO_income_statement.bin"; // Replace with your file name
 //      printFileContents(filename);
+
+
      vector<Balancesheet*> balance_sheets;
      vector<Cashflowstatement*> cashflow_statements;
      vector<Income_statement*> income_statements;
@@ -51,6 +57,8 @@ int main()
      
      std::unordered_set<string> tickers;
      
+     
+     bool _save;
      
       if (is_file("history_user_research.bin")){
          
@@ -72,19 +80,16 @@ int main()
       
       if (!organize_user_input(ticker,tickers)){
           get_company_financials_statements(ticker,balance_sheets,cashflow_statements,income_statements,ratios);
+          _save = true;
       } else {
-          load_data(ticker,balance_sheets,income_statements,cashflow_statements);
-          
+          load_data(ticker,balance_sheets,income_statements,cashflow_statements,ratios);
+          _save = false;
       }
-      
-      
-      
-      
-      cout<< "i loaded the file content\n";
-      cout<<income_statements.size() <<"\n";
-      cout<<cashflow_statements.size()<<"\n";
-      cout<<balance_sheets.size()<<"\n";
-      
+       
+       
+      if(!balance_sheets.empty() && !income_statements.empty() && !cashflow_statements.empty()){
+          
+          
       double value_of_company = get_pe_evaluetion(ticker, income_statements, ratios);
       cout << ticker <<" value according to P/E valuetion is: "<< value_of_company << "\n";
       double dfc = get_dcf_model(ticker,cashflow_statements,balance_sheets,income_statements);
@@ -92,8 +97,16 @@ int main()
        
       past_performance_five_years(ticker, cashflow_statements,balance_sheets,income_statements);
       
+      //cout << "mine ROIC is : " << get_ROIC(balance_sheets,income_statements,cashflow_statements)<< std::endl;
+      cout << "ROIC is : " << ratios[0]->get_roic() * 100<< std::endl;
+      cout << "P/B is : " <<ratios[0]->get_pb_ratio()<< std::endl;
+      cout <<  "Owner Earnings: " << get_owner_earnings(balance_sheets,income_statements,cashflow_statements) <<std::endl;
+      //cout << ticker + " statment link:" << balance_sheets[0]->get_final_link() << std::endl;
       
-      save_data(balance_sheets,income_statements,cashflow_statements);
+      if(_save){
+            save_data(balance_sheets,income_statements,cashflow_statements,ratios);
+          }
+      
       
       
         
@@ -115,7 +128,8 @@ int main()
       }}
        
        if(!ratios.empty()){
-       for(auto &ptr : ratios) delete ptr;
+       for(auto &ptr : ratios)
+           delete ptr;
        }
        
        
@@ -124,12 +138,14 @@ int main()
        cashflow_statements.clear();
        ratios.clear();
        
+       /***************************************************************/
+       
        
       /*SAVING USER INPUT*/
       write_user_input_to_file(tickers,"history_user_research.bin");
      
-     /***************************************************************/
      
+      }
      }while(true);
      
      cout<< "\nThank you for using our application. exiting...\n";

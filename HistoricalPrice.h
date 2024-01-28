@@ -2,7 +2,7 @@
 #define  _HISTORICALPRICE_H_
 
 #include <string>
-#include "nlohmann/json.hpp"
+
 
 class Historical_price{
     
@@ -36,7 +36,7 @@ class Historical_price{
       std::string get_label();
       double get_change_over_time();
       
-      friend void from_json(const nlohmann::json &json, Historical_price &h);
+      //friend void from_json(const nlohmann::json &json, Historical_price &h);
  
 };
 

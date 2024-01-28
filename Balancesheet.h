@@ -3,7 +3,6 @@
 
 #include <string>
 #include <fstream>
-#include "nlohmann/json.hpp"
 
 
 class Balancesheet {
@@ -125,9 +124,12 @@ class Balancesheet {
         void save_to_file(std::ofstream &out);
         bool read_from_file(std::ifstream &in,std::vector<Balancesheet*> &statements);
         size_t compute_object_size() const ;
+        bool read_size_from_buffer_balance(const std::vector<char> &buffer, size_t &pos, size_t &value);
+        bool reading_string_from_buffer_balance(const std::vector<char> &buffer, size_t &pos, std::string &value);
+        void deserialize(std::string &json_string);
         
-        friend void from_json(const nlohmann::json &j, Balancesheet &b);
-    
+       // friend void from_json(const nlohmann::json &j, Balancesheet &b);
+        
     
     
     

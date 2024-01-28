@@ -1,7 +1,8 @@
 #include <iostream>
 #include "Cashflowstatement.h"
 #include <fstream>
-#include "nlohmann/json.hpp"
+#include <sstream>
+
 
 std::string Cashflowstatement::get_date() const {
     return date;
@@ -164,54 +165,144 @@ std::string Cashflowstatement::get_final_link() const {
 }
 
 
-void from_json(const nlohmann::json &j, Cashflowstatement &c){
-
-    c.date = j.contains("date") && !j["date"].empty() ? j["date"].get<std::string>() : "none";
-   c.symbol = j.contains("symbol") && !j["symbol"].empty() ? j["symbol"].get<std::string>() : "none";
-    c.reportedCurrency = j.contains("reportedCurrency") && !j["reportedCurrency"].empty() ? j["reportedCurrency"].get<std::string>() : "none";
-    c.cik = j.contains("cik") && !j["cik"].empty() ? j["cik"].get<std::string>() : "none";
-    c.fillingDate = j.contains("fillingDate") && !j["fillingDate"].empty() ? j["fillingDate"].get<std::string>() : "none";
-   c.acceptedDate = j.contains("acceptedDate") && !j["acceptedDate"].empty() ? j["acceptedDate"].get<std::string>() : "none";
-   c.calendarYear = j.contains("calendarYear") && !j["calendarYear"].empty() ? j["calendarYear"].get<std::string>() : "none";
-    c.period = j.contains("period") && !j["period"].empty() ? j["period"].get<std::string>() : "none";
-
-    // Numeric members
-    
-    c.netIncome = j.contains("netIncome") && !j["netIncome"].empty() ? j["netIncome"].get<long long>() : 0;
-    c.depreciationAndAmortization = j.contains("depreciationAndAmortization") && !j["depreciationAndAmortization"].empty() ? j["depreciationAndAmortization"].get<long long>() : 0;
-    c.deferredIncomeTax = j.contains("deferredIncomeTax") && !j["deferredIncomeTax"].empty() ? j["deferredIncomeTax"].get<long long>() : 0;
-    c.stockBasedCompensation = j.contains("stockBasedCompensation") && !j["stockBasedCompensation"].empty() ? j["stockBasedCompensation"].get<long long>() : 0;
-    c.changeInWorkingCapital = j.contains("changeInWorkingCapital") && !j["changeInWorkingCapital"].empty() ? j["changeInWorkingCapital"].get<long long>() : 0;
-    c.accountsReceivables = j.contains("accountsReceivables") && !j["accountsReceivables"].empty() ? j["accountsReceivables"].get<long long>() : 0;
-    c.inventory = j.contains("inventory") && !j["inventory"].empty() ? j["inventory"].get<long long>() : 0;
-    c.accountsPayables = j.contains("accountsPayables") && !j["accountsPayables"].empty() ? j["accountsPayables"].get<long long>() : 0;
-    c.otherWorkingCapital = j.contains("otherWorkingCapital") && !j["otherWorkingCapital"].empty() ? j["otherWorkingCapital"].get<long long>() : 0;
-    c.otherNonCashItems = j.contains("otherNonCashItems") && !j["otherNonCashItems"].empty() ? j["otherNonCashItems"].get<long long>() : 0;
-    c.netCashProvidedByOperatingActivities = j.contains("netCashProvidedByOperatingActivities") && !j["netCashProvidedByOperatingActivities"].empty() ? j["netCashProvidedByOperatingActivities"].get<long long>() : 0;
-    c.investmentsInPropertyPlantAndEquipment = j.contains("investmentsInPropertyPlantAndEquipment") && !j["investmentsInPropertyPlantAndEquipment"].empty() ? j["investmentsInPropertyPlantAndEquipment"].get<long long>() : 0;
-    c.acquisitionsNet = j.contains("acquisitionsNet") && !j["acquisitionsNet"].empty() ? j["acquisitionsNet"].get<long long>() : 0;
-    c.purchasesOfInvestments = j.contains("purchasesOfInvestments") && !j["purchasesOfInvestments"].empty() ? j["purchasesOfInvestments"].get<long long>() : 0;
-    c.salesMaturitiesOfInvestments = j.contains("salesMaturitiesOfInvestments") && !j["salesMaturitiesOfInvestments"].empty() ? j["salesMaturitiesOfInvestments"].get<long long>() : 0;
-    c.otherInvestingActivites = j.contains("otherInvestingActivites") && !j["otherInvestingActivites"].empty() ? j["otherInvestingActivites"].get<long long>() : 0;
-    c.netCashUsedForInvestingActivites = j.contains("netCashUsedForInvestingActivites") && !j["netCashUsedForInvestingActivites"].empty() ? j["netCashUsedForInvestingActivites"].get<long long>() : 0;
-    c.debtRepayment = j.contains("debtRepayment") && !j["debtRepayment"].empty() ? j["debtRepayment"].get<long long>() : 0;
-    c.commonStockIssued = j.contains("commonStockIssued") && !j["commonStockIssued"].empty() ? j["commonStockIssued"].get<long long>() : 0;
-    c.commonStockRepurchased = j.contains("commonStockRepurchased") && !j["commonStockRepurchased"].empty() ? j["commonStockRepurchased"].get<long long>() : 0;
-    c.dividendsPaid = j.contains("dividendsPaid") && !j["dividendsPaid"].empty() ? j["dividendsPaid"].get<long long>() : 0;
-    c.otherFinancingActivites = j.contains("otherFinancingActivites") && !j["otherFinancingActivites"].empty() ? j["otherFinancingActivites"].get<long long>() : 0;
-    c.netCashUsedProvidedByFinancingActivities = j.contains("netCashUsedProvidedByFinancingActivities") && !j["netCashUsedProvidedByFinancingActivities"].empty() ? j["netCashUsedProvidedByFinancingActivities"].get<long long>() : 0;
-    c.effectOfForexChangesOnCash = j.contains("effectOfForexChangesOnCash") && !j["effectOfForexChangesOnCash"].empty() ? j["effectOfForexChangesOnCash"].get<long long>() : 0;
-    c.netChangeInCash = j.contains("netChangeInCash") && !j["netChangeInCash"].empty() ? j["netChangeInCash"].get<long long>() : 0;
-    c.cashAtEndOfPeriod = j.contains("cashAtEndOfPeriod") && !j["cashAtEndOfPeriod"].empty() ? j["cashAtEndOfPeriod"].get<long long>() : 0;
-    c.cashAtBeginningOfPeriod = j.contains("cashAtBeginningOfPeriod") && !j["cashAtBeginningOfPeriod"].empty() ? j["cashAtBeginningOfPeriod"].get<long long>() : 0;
-    c.operatingCashFlow = j.contains("operatingCashFlow") && !j["operatingCashFlow"].empty() ? j["operatingCashFlow"].get<long long>() : 0;
-    c.capitalExpenditure = j.contains("capitalExpenditure") && !j["capitalExpenditure"].empty() ? j["capitalExpenditure"].get<long long>() : 0;
-    c.freeCashFlow = j.contains("freeCashFlow") && !j["freeCashFlow"].empty() ? j["freeCashFlow"].get<long long>() : 0;
-    
-    // String members without a numeric counterpart
-    c.link = j.contains("link") && !j["link"].empty() ? j["link"].get<std::string>() : "none";
-    c.finalLink = j.contains("finalLink") && !j["finalLink"].empty() ? j["finalLink"].get<std::string>() : "none";
+std::string trim_cashflow(const std::string &str){
+  size_t first = str.find_first_not_of(" \t\n\r");
+  
+  if(first == std::string::npos) return "";    
+  
+   size_t last = str.find_last_not_of(" \t\n\r");
+   return str.substr(first, (last - first +1));
 }
+
+void Cashflowstatement::deserialize(std::string &json_string){
+    std::string token;
+    
+    std::string trimmed_json = trim_cashflow(json_string);
+    
+    
+    if(!trimmed_json.empty() && trimmed_json.back() =='}'){
+        trimmed_json.pop_back();
+        }
+    
+    std::istringstream json_stream(trimmed_json);
+    
+    if(json_stream.peek() == '{'){
+            json_stream.get();
+    }
+    
+    while(getline(json_stream, token, ',')){
+         auto separator_pos = token.find(':');
+         if (separator_pos == std::string::npos) continue; 
+         
+         auto key = trim_cashflow(token.substr(0, separator_pos));
+         auto value = trim_cashflow(token.substr(separator_pos + 1));
+         
+        
+        
+          
+          if (!key.empty() && key.front() == '"' && key.back() == '"') {
+            key = key.substr(1, key.size() - 2);
+          }
+         if(!value.empty() && value.front() == '"' && value.back() =='"'){
+             value = value.substr(1, value.size() - 2);
+             }
+
+//this line is for debugging 
+ //         std::cout <<"Key is long : " << key.length() << "and it looks like"+key<< std::endl;
+         
+         if(key == "date"){date = value;}
+         if(key == "symbol"){symbol = value;}
+         if(key == "reportedCurrency"){reportedCurrency = value;}
+         if(key == "cik"){cik = value;}
+         if(key == "fillingDate"){fillingDate = value;}
+         if(key == "acceptedDate"){acceptedDate = value;}
+         if(key == "calendarYear"){calendarYear = value;}
+         if(key == "period"){period = value;}
+         if(key == "netIncome"){ netIncome= std::stoll(value);}
+         if(key == "depreciationAndAmortization"){ depreciationAndAmortization= std::stoll(value);}
+         if(key == "deferredIncomeTax"){deferredIncomeTax = std::stoll(value);}
+         if(key == "stockBasedCompensation"){ stockBasedCompensation= std::stoll(value);}
+         if(key == "changeInWorkingCapital"){ changeInWorkingCapital= std::stoll(value);}
+         if(key == "accountsReceivables"){ accountsReceivables= std::stoll(value);}
+         if(key == "inventory"){ accountsPayables = std::stoll(value);}
+         if(key == "otherWorkingCapital"){otherWorkingCapital = std::stoll(value);}
+         if(key == "otherNonCashItems"){otherNonCashItems = std::stoll(value);}
+         if(key == "netCashProvidedByOperatingActivities"){netCashProvidedByOperatingActivities = std::stoll(value);}
+         if(key == "investmentsInPropertyPlantAndEquipment"){investmentsInPropertyPlantAndEquipment = std::stoll(value);}
+         if(key == "acquisitionsNet"){ acquisitionsNet= std::stoll(value);}
+         if(key == "purchasesOfInvestments"){ purchasesOfInvestments= std::stoll(value);}
+         if(key == "salesMaturitiesOfInvestments"){ salesMaturitiesOfInvestments= std::stoll(value);}
+         if(key == "otherInvestingActivites"){otherInvestingActivites = std::stoll(value);}
+         if(key == "netCashUsedForInvestingActivites"){netCashUsedForInvestingActivites = std::stoll(value);}
+         if(key == "debtRepayment"){debtRepayment = std::stoll(value);}
+         if(key == "commonStockIssued"){ commonStockIssued= std::stoll(value);}
+         if(key == "commonStockRepurchased"){ commonStockRepurchased= std::stoll(value);}
+         if(key == "dividendsPaid"){ dividendsPaid= std::stoll(value);}
+         if(key == "dividendsPaid"){ dividendsPaid= std::stoll(value);}
+         if(key == "otherFinancingActivites"){ otherFinancingActivites= std::stoll(value);}
+         if(key == "netCashUsedProvidedByFinancingActivities"){ netCashUsedProvidedByFinancingActivities= std::stoll(value);}
+         if(key == "effectOfForexChangesOnCash"){ effectOfForexChangesOnCash= std::stoll(value);}
+         if(key == "netChangeInCash"){ netChangeInCash= std::stoll(value);}
+         if(key == "cashAtEndOfPeriod"){ cashAtEndOfPeriod= std::stoll(value);}
+         if(key == "cashAtBeginningOfPeriod"){ cashAtBeginningOfPeriod= std::stoll(value);}
+         if(key == "operatingCashFlow"){operatingCashFlow = std::stoll(value);}
+         if(key == "capitalExpenditure"){capitalExpenditure = std::stoll(value);}
+         if(key == "freeCashFlow"){ freeCashFlow= std::stoll(value);}
+         if(key == "link"){ link= value;}
+         if(key == "finalLink"){ finalLink= value;}
+         
+    }
+    
+}
+
+//void from_json(const nlohmann::json &j, Cashflowstatement &c){
+//
+//    c.date = j.contains("date") && !j["date"].empty() ? j["date"].get<std::string>() : "none";
+//   c.symbol = j.contains("symbol") && !j["symbol"].empty() ? j["symbol"].get<std::string>() : "none";
+//    c.reportedCurrency = j.contains("reportedCurrency") && !j["reportedCurrency"].empty() ? j["reportedCurrency"].get<std::string>() : "none";
+//    c.cik = j.contains("cik") && !j["cik"].empty() ? j["cik"].get<std::string>() : "none";
+//    c.fillingDate = j.contains("fillingDate") && !j["fillingDate"].empty() ? j["fillingDate"].get<std::string>() : "none";
+//   c.acceptedDate = j.contains("acceptedDate") && !j["acceptedDate"].empty() ? j["acceptedDate"].get<std::string>() : "none";
+//   c.calendarYear = j.contains("calendarYear") && !j["calendarYear"].empty() ? j["calendarYear"].get<std::string>() : "none";
+//    c.period = j.contains("period") && !j["period"].empty() ? j["period"].get<std::string>() : "none";
+//
+//    // Numeric members
+//    
+//    c.netIncome = j.contains("netIncome") && !j["netIncome"].empty() ? j["netIncome"].get<long long>() : 0;
+//    c.depreciationAndAmortization = j.contains("depreciationAndAmortization") && !j["depreciationAndAmortization"].empty() ? j["depreciationAndAmortization"].get<long long>() : 0;
+//    c.deferredIncomeTax = j.contains("deferredIncomeTax") && !j["deferredIncomeTax"].empty() ? j["deferredIncomeTax"].get<long long>() : 0;
+//    c.stockBasedCompensation = j.contains("stockBasedCompensation") && !j["stockBasedCompensation"].empty() ? j["stockBasedCompensation"].get<long long>() : 0;
+//    c.changeInWorkingCapital = j.contains("changeInWorkingCapital") && !j["changeInWorkingCapital"].empty() ? j["changeInWorkingCapital"].get<long long>() : 0;
+//    c.accountsReceivables = j.contains("accountsReceivables") && !j["accountsReceivables"].empty() ? j["accountsReceivables"].get<long long>() : 0;
+//    c.inventory = j.contains("inventory") && !j["inventory"].empty() ? j["inventory"].get<long long>() : 0;
+//    c.accountsPayables = j.contains("accountsPayables") && !j["accountsPayables"].empty() ? j["accountsPayables"].get<long long>() : 0;
+//    c.otherWorkingCapital = j.contains("otherWorkingCapital") && !j["otherWorkingCapital"].empty() ? j["otherWorkingCapital"].get<long long>() : 0;
+//    c.otherNonCashItems = j.contains("otherNonCashItems") && !j["otherNonCashItems"].empty() ? j["otherNonCashItems"].get<long long>() : 0;
+//    c.netCashProvidedByOperatingActivities = j.contains("netCashProvidedByOperatingActivities") && !j["netCashProvidedByOperatingActivities"].empty() ? j["netCashProvidedByOperatingActivities"].get<long long>() : 0;
+//    c.investmentsInPropertyPlantAndEquipment = j.contains("investmentsInPropertyPlantAndEquipment") && !j["investmentsInPropertyPlantAndEquipment"].empty() ? j["investmentsInPropertyPlantAndEquipment"].get<long long>() : 0;
+//    c.acquisitionsNet = j.contains("acquisitionsNet") && !j["acquisitionsNet"].empty() ? j["acquisitionsNet"].get<long long>() : 0;
+//    c.purchasesOfInvestments = j.contains("purchasesOfInvestments") && !j["purchasesOfInvestments"].empty() ? j["purchasesOfInvestments"].get<long long>() : 0;
+//    c.salesMaturitiesOfInvestments = j.contains("salesMaturitiesOfInvestments") && !j["salesMaturitiesOfInvestments"].empty() ? j["salesMaturitiesOfInvestments"].get<long long>() : 0;
+//    c.otherInvestingActivites = j.contains("otherInvestingActivites") && !j["otherInvestingActivites"].empty() ? j["otherInvestingActivites"].get<long long>() : 0;
+//    c.netCashUsedForInvestingActivites = j.contains("netCashUsedForInvestingActivites") && !j["netCashUsedForInvestingActivites"].empty() ? j["netCashUsedForInvestingActivites"].get<long long>() : 0;
+//    c.debtRepayment = j.contains("debtRepayment") && !j["debtRepayment"].empty() ? j["debtRepayment"].get<long long>() : 0;
+//    c.commonStockIssued = j.contains("commonStockIssued") && !j["commonStockIssued"].empty() ? j["commonStockIssued"].get<long long>() : 0;
+//    c.commonStockRepurchased = j.contains("commonStockRepurchased") && !j["commonStockRepurchased"].empty() ? j["commonStockRepurchased"].get<long long>() : 0;
+//    c.dividendsPaid = j.contains("dividendsPaid") && !j["dividendsPaid"].empty() ? j["dividendsPaid"].get<long long>() : 0;
+//    c.otherFinancingActivites = j.contains("otherFinancingActivites") && !j["otherFinancingActivites"].empty() ? j["otherFinancingActivites"].get<long long>() : 0;
+//    c.netCashUsedProvidedByFinancingActivities = j.contains("netCashUsedProvidedByFinancingActivities") && !j["netCashUsedProvidedByFinancingActivities"].empty() ? j["netCashUsedProvidedByFinancingActivities"].get<long long>() : 0;
+//    c.effectOfForexChangesOnCash = j.contains("effectOfForexChangesOnCash") && !j["effectOfForexChangesOnCash"].empty() ? j["effectOfForexChangesOnCash"].get<long long>() : 0;
+//    c.netChangeInCash = j.contains("netChangeInCash") && !j["netChangeInCash"].empty() ? j["netChangeInCash"].get<long long>() : 0;
+//    c.cashAtEndOfPeriod = j.contains("cashAtEndOfPeriod") && !j["cashAtEndOfPeriod"].empty() ? j["cashAtEndOfPeriod"].get<long long>() : 0;
+//    c.cashAtBeginningOfPeriod = j.contains("cashAtBeginningOfPeriod") && !j["cashAtBeginningOfPeriod"].empty() ? j["cashAtBeginningOfPeriod"].get<long long>() : 0;
+//    c.operatingCashFlow = j.contains("operatingCashFlow") && !j["operatingCashFlow"].empty() ? j["operatingCashFlow"].get<long long>() : 0;
+//    c.capitalExpenditure = j.contains("capitalExpenditure") && !j["capitalExpenditure"].empty() ? j["capitalExpenditure"].get<long long>() : 0;
+//    c.freeCashFlow = j.contains("freeCashFlow") && !j["freeCashFlow"].empty() ? j["freeCashFlow"].get<long long>() : 0;
+//    
+//    // String members without a numeric counterpart
+//    c.link = j.contains("link") && !j["link"].empty() ? j["link"].get<std::string>() : "none";
+//    c.finalLink = j.contains("finalLink") && !j["finalLink"].empty() ? j["finalLink"].get<std::string>() : "none";
+//}
 
 std::string Cashflowstatement::get_class_name() const {
    return  "cashflow_statement";   
@@ -374,7 +465,7 @@ bool read_number_values_from_buffer(std::vector<char> &buffer, size_t &pos, T &v
 bool Cashflowstatement::read_from_file(std::ifstream &in, std::vector<Cashflowstatement*> &statements){
 
      if (!in){
-      std::cerr<< "IO stream it is not open or some error with it.\n";   
+      std::cerr<< "IO stream it is not open or some error with it inside " + get_class_name() + ".\n";   
     }
     
     

@@ -10,6 +10,7 @@
 #include "Balancesheet.h"
 #include "Incomestatement.h"
 #include "Cashflowstatement.h"
+#include "Keyratios.h"
 
 
 bool organize_user_input(const std::string &user_input, std::unordered_set<std::string> &user_inputs){
@@ -70,10 +71,35 @@ bool is_file(std::string filename){
     
 }
 
+/*
+ * this fucntions return a tuple with the index of the item that is 
+ * differrent from the items in the file, so we can easily 
+ * acces the item that we need to write to the file
+ * 
+ * */
+template <typename T>
+bool is_different(std::vector<T*> new_data, std::vector<T*> old_data){
+        if (new_data.empty()) {
+        return false; // No new data to compare
+        }    
+    
+         const auto &newest_entry = new_data.front();
+            
+         for(const auto& old_entry : old_data){
+              if(newest_entry->date == old_entry->date){
+                  return false;
+                  }
+        }
+
+        return true; 
+}
+
+
 
 void save_data(std::vector<Balancesheet*> &balance_sheets,
                std::vector<Income_statement*> &income_statements,
-               std::vector<Cashflowstatement*> &cashflow_statements){
+               std::vector<Cashflowstatement*> &cashflow_statements,
+               std::vector<Key_ratios*> &ratios){
                    
       std::ofstream out_bs (balance_sheets[0]->create_file_name(""),
                             std::ios::binary | std::ios::app);
@@ -120,16 +146,38 @@ void save_data(std::vector<Balancesheet*> &balance_sheets,
         std::cout<< cashflow_statements[0]->create_file_name("") << " written succesfully\n";
         out_cfs.close();
         }
+        
+        
+        std::ofstream out_rt (ratios[0]->create_file_name(""),
+                            std::ios::binary | std::ios::app);
+                            
+        if(!out_rt){
+            
+            std::cout << "Failed to open the file "<< ratios[0]->create_file_name("") <<"\n";
+            
+            }else{
+            
+       for (auto &ptr : ratios){
+              ptr->save_to_file(out_rt);
+          }  
+         
+        std::cout<< ratios[0]->create_file_name("") << " written succesfully\n";
+        out_rt.close();
+        }
+       
     
     
 }
 
 
 
+
+
 void load_data(std::string &ticker,
                std::vector<Balancesheet*> &balance_sheets,
                std::vector<Income_statement*> &income_statements,
-               std::vector<Cashflowstatement*> &cashflow_statements){
+               std::vector<Cashflowstatement*> &cashflow_statements,
+               std::vector<Key_ratios*> &ratios){
     
  
   Balancesheet mock_obj;
@@ -168,6 +216,17 @@ void load_data(std::string &ticker,
             in_cfs.close();
         }
     
+    
+    Key_ratios mock_ratio;
+    std::string file_name_RT = ticker + "_key_ratios.bin";
+    std::ifstream in_rt (file_name_RT, std::ios::binary);
+    if(!mock_ratio.read_from_file(in_rt, ratios)){
+          std::cout << "Failed to open the file "<< file_name_RT <<"\n";
+          in_rt.close();
+        }else {
+               std::cout<< file_name_RT << " read succesfully\n";
+            in_rt.close();
+        }
     
 }
 

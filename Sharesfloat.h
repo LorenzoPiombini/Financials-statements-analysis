@@ -2,7 +2,7 @@
 #define _SHARESFLOAT_H_
 
 #include <string>
-#include "nlohmann/json.hpp"
+
 class Shares_float{
     
     private:
@@ -20,7 +20,7 @@ class Shares_float{
 		std::string get_source() const;
         std::string get_date() const;
         
-        friend void from_json(const nlohmann::json &j, Shares_float &s);
+        //friend void from_json(const nlohmann::json &j, Shares_float &s);
 };
 		
 

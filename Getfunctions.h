@@ -185,10 +185,10 @@ void get_company_financials_statements(
      std::string is_response = get_company_income_statement(ticker,"annual");
      std::string ratio_response = get_company_key_ratios(ticker);
      
-     banace_sheets= parsing_json_from_api<Balancesheet>(bs_response,ticker);
-     cashflow_statements = parsing_json_from_api<Cashflowstatement>(cfs_response,ticker);
-     income_statements = parsing_json_from_api<Income_statement>(is_response,ticker);
-     ratios = parsing_json_from_api<Key_ratios>(ratio_response,ticker);
+     banace_sheets= parsing_atempt<Balancesheet>(bs_response,ticker);
+     cashflow_statements = parsing_atempt<Cashflowstatement>(cfs_response,ticker);
+     income_statements = parsing_atempt<Income_statement>(is_response,ticker);
+     ratios = parsing_atempt<Key_ratios>(ratio_response,ticker);
     
     
 }
