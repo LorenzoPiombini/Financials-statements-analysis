@@ -1,0 +1,14 @@
+{
+  "ticker": "IBP",
+  "valuation": {
+    "PE_valuation": 701.839651, 
+    "DFC_valuation": 3936.787069
+  },
+  "ratios": {
+    "ROIC": 16.692141,
+    "PB": 4.979583
+  },
+  "ownerEarnings": 440504000,
+  "growth_rate_revenue": 36.950006,
+  "growth_rate_net_income": -57.434625
+}

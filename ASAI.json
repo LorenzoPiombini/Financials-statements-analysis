@@ -1,0 +1,14 @@
+{
+  "ticker": "ASAI",
+  "valuation": {
+    "PE_valuation": 70.554070, 
+    "DFC_valuation": 44.792684
+  },
+  "ratios": {
+    "ROIC": 7.843209,
+    "PB": 6.794106
+  },
+  "ownerEarnings": 9794000000,
+  "growth_rate_revenue": 30.264697,
+  "growth_rate_net_income": 34.567275
+}

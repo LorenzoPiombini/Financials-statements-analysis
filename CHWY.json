@@ -1,0 +1,14 @@
+{
+  "ticker": "CHWY",
+  "valuation": {
+    "PE_valuation": -18.630114, 
+    "DFC_valuation": 483.551033
+  },
+  "ratios": {
+    "ROIC": 4.571054,
+    "PB": 85.391172
+  },
+  "ownerEarnings": 212457000,
+  "growth_rate_revenue": 77.649428,
+  "growth_rate_net_income": 26.529322
+}

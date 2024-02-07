@@ -1,0 +1,14 @@
+{
+  "ticker": "CTMX",
+  "valuation": {
+    "PE_valuation": 51.271845, 
+    "DFC_valuation": -22099.077880
+  },
+  "ratios": {
+    "ROIC": 184.806115,
+    "PB": -1.226618
+  },
+  "ownerEarnings": -110277000,
+  "growth_rate_revenue": 244.473265,
+  "growth_rate_net_income": 63.211758
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CYD",
+  "valuation": {
+    "PE_valuation": 39.436852, 
+    "DFC_valuation": -1544.224194
+  },
+  "ratios": {
+    "ROIC": 3.850041,
+    "PB": 0.221298
+  },
+  "ownerEarnings": 1152947000,
+  "growth_rate_revenue": -16.526437,
+  "growth_rate_net_income": 240.737261
+}

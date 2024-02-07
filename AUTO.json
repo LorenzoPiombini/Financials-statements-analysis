@@ -1,0 +1,14 @@
+{
+  "ticker": "AUTO",
+  "valuation": {
+    "PE_valuation": 1.384604, 
+    "DFC_valuation": -24.270218
+  },
+  "ratios": {
+    "ROIC": -50.519653,
+    "PB": 3.503143
+  },
+  "ownerEarnings": -1974000,
+  "growth_rate_revenue": 41.252931,
+  "growth_rate_net_income": -22.611777
+}

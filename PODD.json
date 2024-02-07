@@ -1,0 +1,14 @@
+{
+  "ticker": "PODD",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -0.667269,
+    "PB": 42.870080
+  },
+  "ownerEarnings": 111200000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 45.573379
+}

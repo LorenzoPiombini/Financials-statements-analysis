@@ -1,0 +1,14 @@
+{
+  "ticker": "TWST",
+  "valuation": {
+    "PE_valuation": 446.578375, 
+    "DFC_valuation": -123348.808295
+  },
+  "ratios": {
+    "ROIC": -129.226903,
+    "PB": 2.405553
+  },
+  "ownerEarnings": -185933000,
+  "growth_rate_revenue": 184.278492,
+  "growth_rate_net_income": 36.109362
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MRC",
+  "valuation": {
+    "PE_valuation": 4.857235, 
+    "DFC_valuation": -36.661871
+  },
+  "ratios": {
+    "ROIC": 6.292323,
+    "PB": 1.304899
+  },
+  "ownerEarnings": 166000000,
+  "growth_rate_revenue": 13.320589,
+  "growth_rate_net_income": 22.497772
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "XPRO",
+  "valuation": {
+    "PE_valuation": 6.770385, 
+    "DFC_valuation": -9.751139
+  },
+  "ratios": {
+    "ROIC": -2.934652,
+    "PB": 1.537831
+  },
+  "ownerEarnings": 239509000,
+  "growth_rate_revenue": -12.575120,
+  "growth_rate_net_income": -inf
+}

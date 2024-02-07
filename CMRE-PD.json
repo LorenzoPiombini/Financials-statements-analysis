@@ -1,0 +1,14 @@
+{
+  "ticker": "CMRE-PD",
+  "valuation": {
+    "PE_valuation": 17.863460, 
+    "DFC_valuation": 348.212926
+  },
+  "ratios": {
+    "ROIC": 10.412652,
+    "PB": 0.528184
+  },
+  "ownerEarnings": 592862000,
+  "growth_rate_revenue": -0.339522,
+  "growth_rate_net_income": 3.544855
+}

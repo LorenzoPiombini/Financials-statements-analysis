@@ -1,0 +1,14 @@
+{
+  "ticker": "ALIT",
+  "valuation": {
+    "PE_valuation": 6.538999, 
+    "DFC_valuation": 6.544620
+  },
+  "ratios": {
+    "ROIC": 1.014676,
+    "PB": 0.863606
+  },
+  "ownerEarnings": 458000000,
+  "growth_rate_revenue": -6.819291,
+  "growth_rate_net_income": -219.085445
+}

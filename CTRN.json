@@ -1,0 +1,14 @@
+{
+  "ticker": "CTRN",
+  "valuation": {
+    "PE_valuation": 245.224117, 
+    "DFC_valuation": -791.791984
+  },
+  "ratios": {
+    "ROIC": 1.352412,
+    "PB": 1.585506
+  },
+  "ownerEarnings": -29425000,
+  "growth_rate_revenue": 36.565086,
+  "growth_rate_net_income": 86.429850
+}

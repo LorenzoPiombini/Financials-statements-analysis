@@ -1,0 +1,14 @@
+{
+  "ticker": "EEX",
+  "valuation": {
+    "PE_valuation": -1.204283, 
+    "DFC_valuation": 143.239696
+  },
+  "ratios": {
+    "ROIC": 36.180624,
+    "PB": -7.379670
+  },
+  "ownerEarnings": 249000000,
+  "growth_rate_revenue": 7.356252,
+  "growth_rate_net_income": -26.511588
+}

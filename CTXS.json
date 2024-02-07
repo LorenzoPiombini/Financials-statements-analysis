@@ -1,0 +1,14 @@
+{
+  "ticker": "CTXS",
+  "valuation": {
+    "PE_valuation": 1409.357472, 
+    "DFC_valuation": 786956.017902
+  },
+  "ratios": {
+    "ROIC": 7.528308,
+    "PB": 21.581454
+  },
+  "ownerEarnings": 500717000,
+  "growth_rate_revenue": 140.686198,
+  "growth_rate_net_income": 281.339931
+}

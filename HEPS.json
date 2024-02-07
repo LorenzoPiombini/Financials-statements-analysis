@@ -1,0 +1,14 @@
+{
+  "ticker": "HEPS",
+  "valuation": {
+    "PE_valuation": 1178.696875, 
+    "DFC_valuation": -422.587494
+  },
+  "ratios": {
+    "ROIC": -119.082742,
+    "PB": 1.954034
+  },
+  "ownerEarnings": -181029000,
+  "growth_rate_revenue": 52.297071,
+  "growth_rate_net_income": 141.757235
+}

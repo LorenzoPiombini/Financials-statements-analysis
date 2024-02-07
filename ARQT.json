@@ -1,0 +1,14 @@
+{
+  "ticker": "ARQT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -74.634009,
+    "PB": 3.886218
+  },
+  "ownerEarnings": -305205000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 183.944387
+}

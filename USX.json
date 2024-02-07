@@ -1,0 +1,14 @@
+{
+  "ticker": "USX",
+  "valuation": {
+    "PE_valuation": -15.513991, 
+    "DFC_valuation": -2272.675241
+  },
+  "ratios": {
+    "ROIC": -1.762931,
+    "PB": 0.383330
+  },
+  "ownerEarnings": 275848000,
+  "growth_rate_revenue": 33.930523,
+  "growth_rate_net_income": 3328.068649
+}

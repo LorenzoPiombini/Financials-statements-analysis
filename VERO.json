@@ -1,0 +1,14 @@
+{
+  "ticker": "VERO",
+  "valuation": {
+    "PE_valuation": 0.981475, 
+    "DFC_valuation": -60.927711
+  },
+  "ratios": {
+    "ROIC": -35.048238,
+    "PB": 2.608081
+  },
+  "ownerEarnings": -22029000,
+  "growth_rate_revenue": 100.916373,
+  "growth_rate_net_income": 45.205671
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "OBCI",
+  "valuation": {
+    "PE_valuation": 60.055212, 
+    "DFC_valuation": -232.268290
+  },
+  "ratios": {
+    "ROIC": 41.202278,
+    "PB": 1.739962
+  },
+  "ownerEarnings": 17076686,
+  "growth_rate_revenue": 17.641523,
+  "growth_rate_net_income": inf
+}

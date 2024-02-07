@@ -1,0 +1,14 @@
+{
+  "ticker": "RVNC",
+  "valuation": {
+    "PE_valuation": 553.362208, 
+    "DFC_valuation": -522590.195183
+  },
+  "ratios": {
+    "ROIC": -58.002259,
+    "PB": 106.530814
+  },
+  "ownerEarnings": -188089000,
+  "growth_rate_revenue": -11.204538,
+  "growth_rate_net_income": 19.530994
+}

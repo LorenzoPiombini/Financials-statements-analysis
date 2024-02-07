@@ -1,0 +1,14 @@
+{
+  "ticker": "WPP",
+  "valuation": {
+    "PE_valuation": 367.610186, 
+    "DFC_valuation": 5177.322862
+  },
+  "ratios": {
+    "ROIC": 6.946048,
+    "PB": 2.423890
+  },
+  "ownerEarnings": 1869900000,
+  "growth_rate_revenue": 56.560396,
+  "growth_rate_net_income": 42.064225
+}

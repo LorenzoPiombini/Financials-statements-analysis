@@ -1,0 +1,14 @@
+{
+  "ticker": "CPTN",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -136.765352,
+    "PB": 121.581953
+  },
+  "ownerEarnings": -210273000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

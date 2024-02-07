@@ -1,0 +1,14 @@
+{
+  "ticker": "DXPE",
+  "valuation": {
+    "PE_valuation": 109.156646, 
+    "DFC_valuation": -5.588751
+  },
+  "ratios": {
+    "ROIC": 5.273084,
+    "PB": 1.404749
+  },
+  "ownerEarnings": 79096000,
+  "growth_rate_revenue": 10.217115,
+  "growth_rate_net_income": 1533.339991
+}

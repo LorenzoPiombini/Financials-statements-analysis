@@ -1,0 +1,14 @@
+{
+  "ticker": "NEO",
+  "valuation": {
+    "PE_valuation": -51109.977346, 
+    "DFC_valuation": -10598918.593173
+  },
+  "ratios": {
+    "ROIC": -8.228012,
+    "PB": 1.150039
+  },
+  "ownerEarnings": -56344000,
+  "growth_rate_revenue": 2433.473843,
+  "growth_rate_net_income": 176.298896
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RYN",
+  "valuation": {
+    "PE_valuation": 16.297562, 
+    "DFC_valuation": -123.935132
+  },
+  "ratios": {
+    "ROIC": 4.182050,
+    "PB": 1.879491
+  },
+  "ownerEarnings": 860800000,
+  "growth_rate_revenue": 2.654323,
+  "growth_rate_net_income": -62.099479
+}

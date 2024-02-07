@@ -1,0 +1,14 @@
+{
+  "ticker": "BMI",
+  "valuation": {
+    "PE_valuation": 327.751020, 
+    "DFC_valuation": 1048.075596
+  },
+  "ratios": {
+    "ROIC": 14.957686,
+    "PB": 7.200452
+  },
+  "ownerEarnings": 94506000,
+  "growth_rate_revenue": 8.347956,
+  "growth_rate_net_income": 17.273352
+}

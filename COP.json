@@ -1,0 +1,14 @@
+{
+  "ticker": "COP",
+  "valuation": {
+    "PE_valuation": 261.946783, 
+    "DFC_valuation": 2174.482915
+  },
+  "ratios": {
+    "ROIC": 28.758662,
+    "PB": 3.255107
+  },
+  "ownerEarnings": 36075000000,
+  "growth_rate_revenue": -0.060471,
+  "growth_rate_net_income": 454.370263
+}

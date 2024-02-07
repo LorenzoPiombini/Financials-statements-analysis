@@ -1,0 +1,14 @@
+{
+  "ticker": "CHCO",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 19.003214,
+    "PB": 2.420638
+  },
+  "ownerEarnings": 136022000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 5.824532
+}

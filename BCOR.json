@@ -1,0 +1,14 @@
+{
+  "ticker": "BCOR",
+  "valuation": {
+    "PE_valuation": 17.150176, 
+    "DFC_valuation": 34821.779874
+  },
+  "ratios": {
+    "ROIC": 0.989973,
+    "PB": 1.648668
+  },
+  "ownerEarnings": 869794000,
+  "growth_rate_revenue": 187.763817,
+  "growth_rate_net_income": 322.069427
+}

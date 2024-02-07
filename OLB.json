@@ -1,0 +1,14 @@
+{
+  "ticker": "OLB",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 46.230878,
+    "PB": 0.355514
+  },
+  "ownerEarnings": 23160977,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -893.125132
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "KVYO",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -7.773216
+  },
+  "ratios": {
+    "ROIC": 6.049047,
+    "PB": -7.962683
+  },
+  "ownerEarnings": -35024000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SRG-PA",
+  "valuation": {
+    "PE_valuation": 21.906697, 
+    "DFC_valuation": -149.555744
+  },
+  "ratios": {
+    "ROIC": -4.656972,
+    "PB": 0.816543
+  },
+  "ownerEarnings": -5968000,
+  "growth_rate_revenue": 13.147241,
+  "growth_rate_net_income": 66.405473
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GHY",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -20.470414
+  },
+  "ratios": {
+    "ROIC": 5.273659,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 34991165,
+  "growth_rate_revenue": 6.231657,
+  "growth_rate_net_income": 67.464329
+}

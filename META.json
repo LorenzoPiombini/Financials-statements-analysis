@@ -1,0 +1,14 @@
+{
+  "ticker": "META",
+  "valuation": {
+    "PE_valuation": 3826.083341, 
+    "DFC_valuation": 336646.449773
+  },
+  "ratios": {
+    "ROIC": 18.418027,
+    "PB": 5.948325
+  },
+  "ownerEarnings": 50983000000,
+  "growth_rate_revenue": 70.496816,
+  "growth_rate_net_income": 705.486839
+}

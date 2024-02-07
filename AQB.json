@@ -1,0 +1,14 @@
+{
+  "ticker": "AQB",
+  "valuation": {
+    "PE_valuation": 31.280460, 
+    "DFC_valuation": -147.092738
+  },
+  "ratios": {
+    "ROIC": -11.022813,
+    "PB": 0.282910
+  },
+  "ownerEarnings": 47099969,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -6.926078
+}

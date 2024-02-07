@@ -1,0 +1,14 @@
+{
+  "ticker": "DOMH",
+  "valuation": {
+    "PE_valuation": 0.014548, 
+    "DFC_valuation": -81.223706
+  },
+  "ratios": {
+    "ROIC": -33.241841,
+    "PB": 0.237176
+  },
+  "ownerEarnings": -14173000,
+  "growth_rate_revenue": 24.149591,
+  "growth_rate_net_income": -2.500000
+}

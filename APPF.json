@@ -1,0 +1,14 @@
+{
+  "ticker": "APPF",
+  "valuation": {
+    "PE_valuation": 38.440061, 
+    "DFC_valuation": 1777.487800
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -11987000,
+  "growth_rate_revenue": 61.520062,
+  "growth_rate_net_income": -14.803045
+}

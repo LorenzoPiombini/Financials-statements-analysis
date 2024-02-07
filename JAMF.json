@@ -1,0 +1,14 @@
+{
+  "ticker": "JAMF",
+  "valuation": {
+    "PE_valuation": 94.390106, 
+    "DFC_valuation": 20.481372
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -72385000,
+  "growth_rate_revenue": 241163882185.774445,
+  "growth_rate_net_income": -50995813178.970566
+}

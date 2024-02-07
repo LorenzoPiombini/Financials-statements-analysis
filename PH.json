@@ -1,0 +1,14 @@
+{
+  "ticker": "PH",
+  "valuation": {
+    "PE_valuation": 1093.323399, 
+    "DFC_valuation": 9353.691397
+  },
+  "ratios": {
+    "ROIC": 5.484140,
+    "PB": 4.848372
+  },
+  "ownerEarnings": 1895895000,
+  "growth_rate_revenue": 9.302650,
+  "growth_rate_net_income": -4.606098
+}

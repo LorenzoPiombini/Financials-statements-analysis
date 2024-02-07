@@ -1,0 +1,14 @@
+{
+  "ticker": "HVBC",
+  "valuation": {
+    "PE_valuation": 34.945933, 
+    "DFC_valuation": 970.109785
+  },
+  "ratios": {
+    "ROIC": 5.258278,
+    "PB": 1.373646
+  },
+  "ownerEarnings": 11333000,
+  "growth_rate_revenue": 38.483234,
+  "growth_rate_net_income": 156.128772
+}

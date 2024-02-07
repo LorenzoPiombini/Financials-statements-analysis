@@ -1,0 +1,14 @@
+{
+  "ticker": "BHB",
+  "valuation": {
+    "PE_valuation": 559.909367, 
+    "DFC_valuation": 282419.327521
+  },
+  "ratios": {
+    "ROIC": 5.104977,
+    "PB": 1.224759
+  },
+  "ownerEarnings": 79245000,
+  "growth_rate_revenue": 504.101475,
+  "growth_rate_net_income": -4.000596
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ERIE",
+  "valuation": {
+    "PE_valuation": 389.970087, 
+    "DFC_valuation": 1199.297248
+  },
+  "ratios": {
+    "ROIC": 20.723606,
+    "PB": 7.931958
+  },
+  "ownerEarnings": 422974000,
+  "growth_rate_revenue": 9.374999,
+  "growth_rate_net_income": 21.958387
+}

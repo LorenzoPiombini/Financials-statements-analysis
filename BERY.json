@@ -1,0 +1,14 @@
+{
+  "ticker": "BERY",
+  "valuation": {
+    "PE_valuation": 72.579771, 
+    "DFC_valuation": 3401.676381
+  },
+  "ratios": {
+    "ROIC": 6.956204,
+    "PB": 2.312000
+  },
+  "ownerEarnings": 2544000000,
+  "growth_rate_revenue": 3.569600,
+  "growth_rate_net_income": 715.353620
+}

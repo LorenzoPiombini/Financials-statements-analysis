@@ -1,0 +1,14 @@
+{
+  "ticker": "CRBG",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 308.952666
+  },
+  "ratios": {
+    "ROIC": 36.719351,
+    "PB": 1.578656
+  },
+  "ownerEarnings": 9918000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

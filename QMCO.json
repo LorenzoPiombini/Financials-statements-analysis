@@ -1,0 +1,14 @@
+{
+  "ticker": "QMCO",
+  "valuation": {
+    "PE_valuation": 2.408798, 
+    "DFC_valuation": -22.164152
+  },
+  "ratios": {
+    "ROIC": -112.875264,
+    "PB": -1.207954
+  },
+  "ownerEarnings": -14957000,
+  "growth_rate_revenue": 69.321647,
+  "growth_rate_net_income": -94.347432
+}

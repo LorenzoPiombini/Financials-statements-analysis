@@ -1,0 +1,14 @@
+{
+  "ticker": "FWBI",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -367.871327,
+    "PB": 32.122967
+  },
+  "ownerEarnings": -13642245,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 76.865703
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MRUS",
+  "valuation": {
+    "PE_valuation": 338.697820, 
+    "DFC_valuation": -306864.370266
+  },
+  "ratios": {
+    "ROIC": -58.837479,
+    "PB": 2.812727
+  },
+  "ownerEarnings": -232433000,
+  "growth_rate_revenue": 243.812563,
+  "growth_rate_net_income": 44.654415
+}

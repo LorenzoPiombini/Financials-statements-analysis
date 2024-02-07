@@ -1,0 +1,14 @@
+{
+  "ticker": "ADIL",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -360.761898,
+    "PB": 1.681150
+  },
+  "ownerEarnings": -17737826,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 260.899507
+}

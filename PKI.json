@@ -1,0 +1,14 @@
+{
+  "ticker": "PKI",
+  "valuation": {
+    "PE_valuation": 174.389466, 
+    "DFC_valuation": 420.276378
+  },
+  "ratios": {
+    "ROIC": 4.600383,
+    "PB": 2.395520
+  },
+  "ownerEarnings": 1194361000,
+  "growth_rate_revenue": 22.033505,
+  "growth_rate_net_income": 8.903615
+}

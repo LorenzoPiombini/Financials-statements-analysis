@@ -1,0 +1,14 @@
+{
+  "ticker": "PLTK",
+  "valuation": {
+    "PE_valuation": 28.399405, 
+    "DFC_valuation": 76.724096
+  },
+  "ratios": {
+    "ROIC": 11.399345,
+    "PB": -6.001600
+  },
+  "ownerEarnings": 321000000,
+  "growth_rate_revenue": 22.993353,
+  "growth_rate_net_income": 43.216574
+}

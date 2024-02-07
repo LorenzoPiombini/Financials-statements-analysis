@@ -1,0 +1,14 @@
+{
+  "ticker": "OUST-WTA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -32.357946
+  },
+  "ratios": {
+    "ROIC": -59.624773,
+    "PB": 0.894701
+  },
+  "ownerEarnings": -161477000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

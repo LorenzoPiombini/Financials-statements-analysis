@@ -1,0 +1,14 @@
+{
+  "ticker": "LYEL",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -46030.668298
+  },
+  "ratios": {
+    "ROIC": -0.490783,
+    "PB": 1.028942
+  },
+  "ownerEarnings": 133982000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

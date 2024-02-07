@@ -1,0 +1,14 @@
+{
+  "ticker": "DNMR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -157.125393
+  },
+  "ratios": {
+    "ROIC": -26.028367,
+    "PB": 0.441219
+  },
+  "ownerEarnings": 53242000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AMLI",
+  "valuation": {
+    "PE_valuation": 0.009652, 
+    "DFC_valuation": -7.644944
+  },
+  "ratios": {
+    "ROIC": -18.743884,
+    "PB": 4.146054
+  },
+  "ownerEarnings": -49106024,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 60.454763
+}

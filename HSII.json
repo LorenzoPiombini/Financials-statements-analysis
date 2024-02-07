@@ -1,0 +1,14 @@
+{
+  "ticker": "HSII",
+  "valuation": {
+    "PE_valuation": 119.786487, 
+    "DFC_valuation": 1659.137110
+  },
+  "ratios": {
+    "ROIC": 13.435781,
+    "PB": 1.345761
+  },
+  "ownerEarnings": 78594000,
+  "growth_rate_revenue": 54.968341,
+  "growth_rate_net_income": -31.305394
+}

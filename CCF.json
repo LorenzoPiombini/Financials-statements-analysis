@@ -1,0 +1,14 @@
+{
+  "ticker": "CCF",
+  "valuation": {
+    "PE_valuation": 298.936793, 
+    "DFC_valuation": 4111.866662
+  },
+  "ratios": {
+    "ROIC": 7.866699,
+    "PB": 2.919938
+  },
+  "ownerEarnings": 87945000,
+  "growth_rate_revenue": 20.656925,
+  "growth_rate_net_income": 36.396334
+}

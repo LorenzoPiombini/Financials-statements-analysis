@@ -1,0 +1,14 @@
+{
+  "ticker": "ENLV",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -56.497800,
+    "PB": 1.275063
+  },
+  "ownerEarnings": -19610000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 243.367149
+}

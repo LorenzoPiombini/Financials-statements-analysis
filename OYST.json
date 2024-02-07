@@ -1,0 +1,14 @@
+{
+  "ticker": "OYST",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 56.648283,
+    "PB": 4.776650
+  },
+  "ownerEarnings": -107247000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 82.325087
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MAMA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 9.611327,
+    "PB": 5.768060
+  },
+  "ownerEarnings": 4912438,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1916.852173
+}

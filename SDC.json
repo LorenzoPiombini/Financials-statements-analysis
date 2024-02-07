@@ -1,0 +1,14 @@
+{
+  "ticker": "SDC",
+  "valuation": {
+    "PE_valuation": 5.102595, 
+    "DFC_valuation": -165.528726
+  },
+  "ratios": {
+    "ROIC": -24.231055,
+    "PB": 0.383546
+  },
+  "ownerEarnings": -101813000,
+  "growth_rate_revenue": 56.429249,
+  "growth_rate_net_income": 175.617227
+}

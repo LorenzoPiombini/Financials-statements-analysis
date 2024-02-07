@@ -1,0 +1,14 @@
+{
+  "ticker": "CCNE",
+  "valuation": {
+    "PE_valuation": 502.856587, 
+    "DFC_valuation": 78663.837664
+  },
+  "ratios": {
+    "ROIC": 10.311215,
+    "PB": 0.755483
+  },
+  "ownerEarnings": 128877000,
+  "growth_rate_revenue": 125.865302,
+  "growth_rate_net_income": 9.470490
+}

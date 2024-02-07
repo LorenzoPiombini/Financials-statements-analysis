@@ -1,0 +1,14 @@
+{
+  "ticker": "JAKK",
+  "valuation": {
+    "PE_valuation": -75.095171, 
+    "DFC_valuation": 120206.194193
+  },
+  "ratios": {
+    "ROIC": 43.283385,
+    "PB": 1.114341
+  },
+  "ownerEarnings": 122600000,
+  "growth_rate_revenue": 128.811928,
+  "growth_rate_net_income": 133.603068
+}

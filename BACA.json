@@ -1,0 +1,14 @@
+{
+  "ticker": "BACA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.568195,
+    "PB": 1.291875
+  },
+  "ownerEarnings": -25094711,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

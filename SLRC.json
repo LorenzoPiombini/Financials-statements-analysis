@@ -1,0 +1,14 @@
+{
+  "ticker": "SLRC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 12.902614,
+    "PB": 0.729160
+  },
+  "ownerEarnings": 226564000,
+  "growth_rate_revenue": -15.201838,
+  "growth_rate_net_income": -15.286848
+}

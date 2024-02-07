@@ -1,0 +1,14 @@
+{
+  "ticker": "CIK",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -4.646891,
+    "PB": 0.921634
+  },
+  "ownerEarnings": 74013414,
+  "growth_rate_revenue": -79.724307,
+  "growth_rate_net_income": -91.681157
+}

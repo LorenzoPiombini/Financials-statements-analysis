@@ -1,0 +1,14 @@
+{
+  "ticker": "QGEN",
+  "valuation": {
+    "PE_valuation": 458.293978, 
+    "DFC_valuation": 30223.999010
+  },
+  "ratios": {
+    "ROIC": 8.201088,
+    "PB": 3.275885
+  },
+  "ownerEarnings": 853421000,
+  "growth_rate_revenue": 51.062940,
+  "growth_rate_net_income": 72.221646
+}

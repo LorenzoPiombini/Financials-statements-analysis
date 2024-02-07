@@ -1,0 +1,14 @@
+{
+  "ticker": "HSON",
+  "valuation": {
+    "PE_valuation": 3.522100, 
+    "DFC_valuation": 199.272634
+  },
+  "ratios": {
+    "ROIC": 14.534223,
+    "PB": 1.488009
+  },
+  "ownerEarnings": 6447000,
+  "growth_rate_revenue": 4.464843,
+  "growth_rate_net_income": 198.641014
+}

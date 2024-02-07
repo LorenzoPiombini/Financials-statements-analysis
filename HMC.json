@@ -1,0 +1,14 @@
+{
+  "ticker": "HMC",
+  "valuation": {
+    "PE_valuation": 6573.664948, 
+    "DFC_valuation": 152543.366337
+  },
+  "ratios": {
+    "ROIC": 3.604493,
+    "PB": 0.533074
+  },
+  "ownerEarnings": 2052594000000,
+  "growth_rate_revenue": 24.332199,
+  "growth_rate_net_income": -6.296318
+}

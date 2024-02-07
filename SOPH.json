@@ -1,0 +1,14 @@
+{
+  "ticker": "SOPH",
+  "valuation": {
+    "PE_valuation": 13.720987, 
+    "DFC_valuation": -89.021525
+  },
+  "ratios": {
+    "ROIC": -37.534514,
+    "PB": 0.659793
+  },
+  "ownerEarnings": -85586000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

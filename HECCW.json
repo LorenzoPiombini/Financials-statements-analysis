@@ -1,0 +1,14 @@
+{
+  "ticker": "HECCW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -0.369272
+  },
+  "ratios": {
+    "ROIC": -0.427126,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -1786376,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "OESX",
+  "valuation": {
+    "PE_valuation": -22.178716, 
+    "DFC_valuation": -27.785043
+  },
+  "ratios": {
+    "ROIC": -52.217307,
+    "PB": 1.935653
+  },
+  "ownerEarnings": -23089000,
+  "growth_rate_revenue": 69.530439,
+  "growth_rate_net_income": -184.108421
+}

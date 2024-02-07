@@ -1,0 +1,14 @@
+{
+  "ticker": "BNS",
+  "valuation": {
+    "PE_valuation": 131.373810, 
+    "DFC_valuation": 1611710.679011
+  },
+  "ratios": {
+    "ROIC": 1.887819,
+    "PB": 0.880493
+  },
+  "ownerEarnings": 9540000000,
+  "growth_rate_revenue": 17.147234,
+  "growth_rate_net_income": 22.793533
+}

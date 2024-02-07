@@ -1,0 +1,14 @@
+{
+  "ticker": "VXRT",
+  "valuation": {
+    "PE_valuation": 0.034836, 
+    "DFC_valuation": -48.302334
+  },
+  "ratios": {
+    "ROIC": -74.450051,
+    "PB": 1.108316
+  },
+  "ownerEarnings": -115535000,
+  "growth_rate_revenue": 21.070274,
+  "growth_rate_net_income": 89.375000
+}

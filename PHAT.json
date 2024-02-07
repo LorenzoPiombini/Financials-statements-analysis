@@ -1,0 +1,14 @@
+{
+  "ticker": "PHAT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -808.287101,
+    "PB": -5.866634
+  },
+  "ownerEarnings": -193510000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 4027.425415
+}

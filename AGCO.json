@@ -1,0 +1,14 @@
+{
+  "ticker": "AGCO",
+  "valuation": {
+    "PE_valuation": 1306.759351, 
+    "DFC_valuation": 35590.682082
+  },
+  "ratios": {
+    "ROIC": 16.560975,
+    "PB": 2.664917
+  },
+  "ownerEarnings": 1651100000,
+  "growth_rate_revenue": 80.525804,
+  "growth_rate_net_income": 187.583610
+}

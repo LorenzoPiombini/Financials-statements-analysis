@@ -1,0 +1,14 @@
+{
+  "ticker": "NMI",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 8.398545
+  },
+  "ratios": {
+    "ROIC": 3.165876,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 2916323,
+  "growth_rate_revenue": 56.279508,
+  "growth_rate_net_income": -157.195800
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CVX",
+  "valuation": {
+    "PE_valuation": 0.140255, 
+    "DFC_valuation": -9.009953
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 39674700000,
+  "growth_rate_revenue": 2.151219,
+  "growth_rate_net_income": 43.651941
+}

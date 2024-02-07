@@ -1,0 +1,14 @@
+{
+  "ticker": "AERC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 48.127613,
+    "PB": 6.685836
+  },
+  "ownerEarnings": -30233601,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TTCF",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -123.404582
+  },
+  "ratios": {
+    "ROIC": -85.916014,
+    "PB": 1.150595
+  },
+  "ownerEarnings": -84648000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

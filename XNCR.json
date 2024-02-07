@@ -1,0 +1,14 @@
+{
+  "ticker": "XNCR",
+  "valuation": {
+    "PE_valuation": 129.145719, 
+    "DFC_valuation": -679.316340
+  },
+  "ratios": {
+    "ROIC": -9.860041,
+    "PB": 2.135201
+  },
+  "ownerEarnings": -107821000,
+  "growth_rate_revenue": 111.579904,
+  "growth_rate_net_income": 69.489651
+}

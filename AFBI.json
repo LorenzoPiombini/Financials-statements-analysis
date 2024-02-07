@@ -1,0 +1,14 @@
+{
+  "ticker": "AFBI",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 75.825206
+  },
+  "ratios": {
+    "ROIC": 6.839652,
+    "PB": 0.859993
+  },
+  "ownerEarnings": 12254000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

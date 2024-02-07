@@ -1,0 +1,14 @@
+{
+  "ticker": "INFO",
+  "valuation": {
+    "PE_valuation": 352.064273, 
+    "DFC_valuation": 1089.368755
+  },
+  "ratios": {
+    "ROIC": 8.636328,
+    "PB": 5.374437
+  },
+  "ownerEarnings": 2301700000,
+  "growth_rate_revenue": 1.203941,
+  "growth_rate_net_income": 255.408254
+}

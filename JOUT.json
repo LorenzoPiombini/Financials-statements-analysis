@@ -1,0 +1,14 @@
+{
+  "ticker": "JOUT",
+  "valuation": {
+    "PE_valuation": 34.173389, 
+    "DFC_valuation": 202.658239
+  },
+  "ratios": {
+    "ROIC": 1.469242,
+    "PB": 1.113637
+  },
+  "ownerEarnings": 32274000,
+  "growth_rate_revenue": 13.132263,
+  "growth_rate_net_income": 11.059644
+}

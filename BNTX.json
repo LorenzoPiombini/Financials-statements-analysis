@@ -1,0 +1,14 @@
+{
+  "ticker": "BNTX",
+  "valuation": {
+    "PE_valuation": 3966.669465, 
+    "DFC_valuation": 15231666.796757
+  },
+  "ratios": {
+    "ROIC": 45.349191,
+    "PB": 1.706646
+  },
+  "ownerEarnings": 9519900000,
+  "growth_rate_revenue": 1065.510923,
+  "growth_rate_net_income": 16933.774185
+}

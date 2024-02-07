@@ -1,0 +1,14 @@
+{
+  "ticker": "VAPO",
+  "valuation": {
+    "PE_valuation": 158.989589, 
+    "DFC_valuation": -158.520512
+  },
+  "ratios": {
+    "ROIC": -97.655520,
+    "PB": -2.558441
+  },
+  "ownerEarnings": -35111000,
+  "growth_rate_revenue": 50.554924,
+  "growth_rate_net_income": 27.014941
+}

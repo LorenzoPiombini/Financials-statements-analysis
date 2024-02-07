@@ -1,0 +1,14 @@
+{
+  "ticker": "INTZ",
+  "valuation": {
+    "PE_valuation": 0.650676, 
+    "DFC_valuation": -43.805831
+  },
+  "ratios": {
+    "ROIC": -175.651773,
+    "PB": -14.837381
+  },
+  "ownerEarnings": -12593000,
+  "growth_rate_revenue": 33.911184,
+  "growth_rate_net_income": 72.903051
+}

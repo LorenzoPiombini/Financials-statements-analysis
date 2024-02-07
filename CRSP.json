@@ -1,0 +1,14 @@
+{
+  "ticker": "CRSP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -28.467049,
+    "PB": 1.685115
+  },
+  "ownerEarnings": -732084000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 116.275116
+}

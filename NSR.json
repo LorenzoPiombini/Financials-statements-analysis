@@ -1,0 +1,14 @@
+{
+  "ticker": "NSR",
+  "valuation": {
+    "PE_valuation": -0.087574, 
+    "DFC_valuation": -54.607894
+  },
+  "ratios": {
+    "ROIC": -0.090378,
+    "PB": 1.629211
+  },
+  "ownerEarnings": 71903000,
+  "growth_rate_revenue": 22.013670,
+  "growth_rate_net_income": 555.792259
+}

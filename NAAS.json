@@ -1,0 +1,14 @@
+{
+  "ticker": "NAAS",
+  "valuation": {
+    "PE_valuation": 7.436003, 
+    "DFC_valuation": -68.545357
+  },
+  "ratios": {
+    "ROIC": -252.958056,
+    "PB": 11.784909
+  },
+  "ownerEarnings": 723403000,
+  "growth_rate_revenue": 38.066702,
+  "growth_rate_net_income": -237.044251
+}

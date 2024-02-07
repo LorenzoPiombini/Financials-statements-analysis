@@ -1,0 +1,14 @@
+{
+  "ticker": "MCACU",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -5.098527
+  },
+  "ratios": {
+    "ROIC": -2.610482,
+    "PB": 0.266752
+  },
+  "ownerEarnings": 566018,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

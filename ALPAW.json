@@ -1,0 +1,14 @@
+{
+  "ticker": "ALPAW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.378840,
+    "PB": 1.307977
+  },
+  "ownerEarnings": -6538037,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

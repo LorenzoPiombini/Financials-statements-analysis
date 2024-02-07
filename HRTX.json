@@ -1,0 +1,14 @@
+{
+  "ticker": "HRTX",
+  "valuation": {
+    "PE_valuation": 103.794564, 
+    "DFC_valuation": -18130.298506
+  },
+  "ratios": {
+    "ROIC": -72.010196,
+    "PB": 20.055261
+  },
+  "ownerEarnings": -158050000,
+  "growth_rate_revenue": 55.538515,
+  "growth_rate_net_income": 12.183646
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GGAAW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -15.661310,
+    "PB": 1.070068
+  },
+  "ownerEarnings": -3296600,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

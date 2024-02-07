@@ -1,0 +1,14 @@
+{
+  "ticker": "IRM",
+  "valuation": {
+    "PE_valuation": 351.070017, 
+    "DFC_valuation": 807.945818
+  },
+  "ratios": {
+    "ROIC": 5.614710,
+    "PB": 22.770075
+  },
+  "ownerEarnings": 2976155000,
+  "growth_rate_revenue": 72.380844,
+  "growth_rate_net_income": -734.210279
+}

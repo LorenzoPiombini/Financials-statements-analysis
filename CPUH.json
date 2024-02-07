@@ -1,0 +1,14 @@
+{
+  "ticker": "CPUH",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -5.046569,
+    "PB": 9.510389
+  },
+  "ownerEarnings": -85299533,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

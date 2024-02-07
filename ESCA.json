@@ -1,0 +1,14 @@
+{
+  "ticker": "ESCA",
+  "valuation": {
+    "PE_valuation": 29.857299, 
+    "DFC_valuation": 143.093964
+  },
+  "ratios": {
+    "ROIC": 7.678368,
+    "PB": 0.880736
+  },
+  "ownerEarnings": 30089000,
+  "growth_rate_revenue": 24.708738,
+  "growth_rate_net_income": -144.174404
+}

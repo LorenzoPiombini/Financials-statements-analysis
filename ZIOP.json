@@ -1,0 +1,14 @@
+{
+  "ticker": "ZIOP",
+  "valuation": {
+    "PE_valuation": 0.006373, 
+    "DFC_valuation": -19.088638
+  },
+  "ratios": {
+    "ROIC": 94.363621,
+    "PB": 4.260972
+  },
+  "ownerEarnings": -75899000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 6060.162396
+}

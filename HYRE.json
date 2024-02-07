@@ -1,0 +1,14 @@
+{
+  "ticker": "HYRE",
+  "valuation": {
+    "PE_valuation": 50.512878, 
+    "DFC_valuation": -14420.709957
+  },
+  "ratios": {
+    "ROIC": 230.818368,
+    "PB": 17.789024
+  },
+  "ownerEarnings": -37735285,
+  "growth_rate_revenue": 222.898227,
+  "growth_rate_net_income": 164.885065
+}

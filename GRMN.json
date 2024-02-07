@@ -1,0 +1,14 @@
+{
+  "ticker": "GRMN",
+  "valuation": {
+    "PE_valuation": 453.225075, 
+    "DFC_valuation": 4633.206048
+  },
+  "ratios": {
+    "ROIC": 14.605635,
+    "PB": 2.864106
+  },
+  "ownerEarnings": 1243846000,
+  "growth_rate_revenue": 34.423782,
+  "growth_rate_net_income": 34.538661
+}

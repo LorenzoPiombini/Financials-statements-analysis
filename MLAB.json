@@ -1,0 +1,14 @@
+{
+  "ticker": "MLAB",
+  "valuation": {
+    "PE_valuation": 2819.852385, 
+    "DFC_valuation": 740030.020509
+  },
+  "ratios": {
+    "ROIC": 12.805766,
+    "PB": 2.362860
+  },
+  "ownerEarnings": -33470000,
+  "growth_rate_revenue": 53.476589,
+  "growth_rate_net_income": inf
+}

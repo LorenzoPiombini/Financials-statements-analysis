@@ -1,0 +1,14 @@
+{
+  "ticker": "HAE",
+  "valuation": {
+    "PE_valuation": 371.510446, 
+    "DFC_valuation": 771.089963
+  },
+  "ratios": {
+    "ROIC": 8.039783,
+    "PB": 5.137297
+  },
+  "ownerEarnings": 322576000,
+  "growth_rate_revenue": 15.314841,
+  "growth_rate_net_income": inf
+}

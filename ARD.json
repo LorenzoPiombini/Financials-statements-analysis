@@ -1,0 +1,14 @@
+{
+  "ticker": "ARD",
+  "valuation": {
+    "PE_valuation": 0.340113, 
+    "DFC_valuation": 182.880208
+  },
+  "ratios": {
+    "ROIC": 3.857399,
+    "PB": -11.238796
+  },
+  "ownerEarnings": 2017000000,
+  "growth_rate_revenue": 6.498871,
+  "growth_rate_net_income": -561.397777
+}

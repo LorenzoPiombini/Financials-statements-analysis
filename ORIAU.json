@@ -1,0 +1,14 @@
+{
+  "ticker": "ORIAU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.585172
+  },
+  "ratios": {
+    "ROIC": -0.932863,
+    "PB": 0.015554
+  },
+  "ownerEarnings": -10555645,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

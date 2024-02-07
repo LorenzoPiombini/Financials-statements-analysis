@@ -1,0 +1,14 @@
+{
+  "ticker": "RELI",
+  "valuation": {
+    "PE_valuation": -603.791436, 
+    "DFC_valuation": -58978.234676
+  },
+  "ratios": {
+    "ROIC": -147.977898,
+    "PB": 1.046938
+  },
+  "ownerEarnings": -5138206,
+  "growth_rate_revenue": 2830.785541,
+  "growth_rate_net_income": 87.840660
+}

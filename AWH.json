@@ -1,0 +1,14 @@
+{
+  "ticker": "AWH",
+  "valuation": {
+    "PE_valuation": 15.684077, 
+    "DFC_valuation": -23.236611
+  },
+  "ratios": {
+    "ROIC": -238.455192,
+    "PB": 5.713433
+  },
+  "ownerEarnings": -40681000,
+  "growth_rate_revenue": 104.298196,
+  "growth_rate_net_income": 54.607974
+}

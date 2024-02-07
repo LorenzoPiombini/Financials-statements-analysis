@@ -1,0 +1,14 @@
+{
+  "ticker": "LXU",
+  "valuation": {
+    "PE_valuation": -8.401717, 
+    "DFC_valuation": 715.464747
+  },
+  "ratios": {
+    "ROIC": 20.686428,
+    "PB": 2.185063
+  },
+  "ownerEarnings": 357952000,
+  "growth_rate_revenue": 8.051771,
+  "growth_rate_net_income": -167.528973
+}

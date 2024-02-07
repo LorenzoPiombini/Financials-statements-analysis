@@ -1,0 +1,14 @@
+{
+  "ticker": "FSLR",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 18.274088,
+    "PB": 2.734771
+  },
+  "ownerEarnings": 650763000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -64.894984
+}

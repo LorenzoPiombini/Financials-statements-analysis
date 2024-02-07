@@ -1,0 +1,14 @@
+{
+  "ticker": "APLE",
+  "valuation": {
+    "PE_valuation": 192.355099, 
+    "DFC_valuation": 56124.111802
+  },
+  "ratios": {
+    "ROIC": 4.174604,
+    "PB": 1.136664
+  },
+  "ownerEarnings": 529734000,
+  "growth_rate_revenue": 212.299981,
+  "growth_rate_net_income": 263.390113
+}

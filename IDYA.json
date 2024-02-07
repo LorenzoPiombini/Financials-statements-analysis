@@ -1,0 +1,14 @@
+{
+  "ticker": "IDYA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -16.385963,
+    "PB": 2.154927
+  },
+  "ownerEarnings": -68587000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 62.007055
+}

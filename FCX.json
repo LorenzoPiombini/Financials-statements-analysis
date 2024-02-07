@@ -1,0 +1,14 @@
+{
+  "ticker": "FCX",
+  "valuation": {
+    "PE_valuation": 521.433101, 
+    "DFC_valuation": 59941.976716
+  },
+  "ratios": {
+    "ROIC": 17.585136,
+    "PB": 3.520283
+  },
+  "ownerEarnings": 10690000000,
+  "growth_rate_revenue": 41.154057,
+  "growth_rate_net_income": 38.641573
+}

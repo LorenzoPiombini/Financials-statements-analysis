@@ -1,0 +1,14 @@
+{
+  "ticker": "BOX",
+  "valuation": {
+    "PE_valuation": -5.197432, 
+    "DFC_valuation": 2088.919875
+  },
+  "ratios": {
+    "ROIC": 3.951988,
+    "PB": -135.657780
+  },
+  "ownerEarnings": -71498000,
+  "growth_rate_revenue": 71.003957,
+  "growth_rate_net_income": 11.767423
+}

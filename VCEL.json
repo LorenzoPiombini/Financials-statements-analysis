@@ -1,0 +1,14 @@
+{
+  "ticker": "VCEL",
+  "valuation": {
+    "PE_valuation": 413.682239, 
+    "DFC_valuation": 8058.604222
+  },
+  "ratios": {
+    "ROIC": -6.202682,
+    "PB": 6.456500
+  },
+  "ownerEarnings": -47000000,
+  "growth_rate_revenue": 37.443165,
+  "growth_rate_net_income": -5.698744
+}

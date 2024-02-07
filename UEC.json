@@ -1,0 +1,14 @@
+{
+  "ticker": "UEC",
+  "valuation": {
+    "PE_valuation": 1544.853806, 
+    "DFC_valuation": 596532218131.159180
+  },
+  "ratios": {
+    "ROIC": 1.904396,
+    "PB": 2.078485
+  },
+  "ownerEarnings": 15748000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 529.268766
+}

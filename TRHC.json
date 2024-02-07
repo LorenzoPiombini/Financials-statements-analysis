@@ -1,0 +1,14 @@
+{
+  "ticker": "TRHC",
+  "valuation": {
+    "PE_valuation": 114.772332, 
+    "DFC_valuation": -448.377348
+  },
+  "ratios": {
+    "ROIC": -19.235836,
+    "PB": -2.108550
+  },
+  "ownerEarnings": -12561000,
+  "growth_rate_revenue": 66.599030,
+  "growth_rate_net_income": -138.460041
+}

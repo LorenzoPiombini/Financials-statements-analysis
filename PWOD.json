@@ -1,0 +1,14 @@
+{
+  "ticker": "PWOD",
+  "valuation": {
+    "PE_valuation": 158.573072, 
+    "DFC_valuation": 8394.740602
+  },
+  "ratios": {
+    "ROIC": 5.403238,
+    "PB": 1.120820
+  },
+  "ownerEarnings": 31858000,
+  "growth_rate_revenue": 128.978408,
+  "growth_rate_net_income": 17.407619
+}

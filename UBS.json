@@ -1,0 +1,14 @@
+{
+  "ticker": "UBS",
+  "valuation": {
+    "PE_valuation": 18.100664, 
+    "DFC_valuation": 270.214851
+  },
+  "ratios": {
+    "ROIC": 5.078144,
+    "PB": 1.070429
+  },
+  "ownerEarnings": 24428000000,
+  "growth_rate_revenue": 18.038105,
+  "growth_rate_net_income": 27.077138
+}

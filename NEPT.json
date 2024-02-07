@@ -1,0 +1,14 @@
+{
+  "ticker": "NEPT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 86.856537,
+    "PB": -0.076474
+  },
+  "ownerEarnings": 24838918,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 175.280576
+}

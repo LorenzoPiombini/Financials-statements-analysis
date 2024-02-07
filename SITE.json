@@ -1,0 +1,14 @@
+{
+  "ticker": "SITE",
+  "valuation": {
+    "PE_valuation": 357.325906, 
+    "DFC_valuation": 413.084327
+  },
+  "ratios": {
+    "ROIC": 10.738103,
+    "PB": 4.056380
+  },
+  "ownerEarnings": 412600000,
+  "growth_rate_revenue": 15.140751,
+  "growth_rate_net_income": 8.452795
+}

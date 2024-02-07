@@ -1,0 +1,14 @@
+{
+  "ticker": "RGA",
+  "valuation": {
+    "PE_valuation": 4837.257251, 
+    "DFC_valuation": 1880.534778
+  },
+  "ratios": {
+    "ROIC": 9.410465,
+    "PB": 1.960593
+  },
+  "ownerEarnings": 979000000,
+  "growth_rate_revenue": 26670.683794,
+  "growth_rate_net_income": 26038.278360
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "UTI",
+  "valuation": {
+    "PE_valuation": 4.184957, 
+    "DFC_valuation": -56.309144
+  },
+  "ratios": {
+    "ROIC": 1.910415,
+    "PB": 1.260336
+  },
+  "ownerEarnings": 113807000,
+  "growth_rate_revenue": 34.632897,
+  "growth_rate_net_income": -24.140382
+}

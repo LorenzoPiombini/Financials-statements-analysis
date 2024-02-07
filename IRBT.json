@@ -1,0 +1,14 @@
+{
+  "ticker": "IRBT",
+  "valuation": {
+    "PE_valuation": -2220.031671, 
+    "DFC_valuation": -102968.706471
+  },
+  "ratios": {
+    "ROIC": -48.024045,
+    "PB": 2.753344
+  },
+  "ownerEarnings": -215406000,
+  "growth_rate_revenue": 108.421981,
+  "growth_rate_net_income": 325.805257
+}

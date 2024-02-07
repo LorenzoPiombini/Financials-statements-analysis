@@ -1,0 +1,14 @@
+{
+  "ticker": "MPLN",
+  "valuation": {
+    "PE_valuation": -16.893193, 
+    "DFC_valuation": 19.686620
+  },
+  "ratios": {
+    "ROIC": 4.690254,
+    "PB": 0.410359
+  },
+  "ownerEarnings": 1643207000,
+  "growth_rate_revenue": -23.593819,
+  "growth_rate_net_income": -1627.036193
+}

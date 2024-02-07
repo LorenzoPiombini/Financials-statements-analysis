@@ -1,0 +1,14 @@
+{
+  "ticker": "ADAP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -130.027973,
+    "PB": 2.874549
+  },
+  "ownerEarnings": -149893000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 96.437254
+}

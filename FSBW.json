@@ -1,0 +1,14 @@
+{
+  "ticker": "FSBW",
+  "valuation": {
+    "PE_valuation": 63.211114, 
+    "DFC_valuation": 5370.637238
+  },
+  "ratios": {
+    "ROIC": 10.649492,
+    "PB": 1.167937
+  },
+  "ownerEarnings": 85374000,
+  "growth_rate_revenue": 7.526401,
+  "growth_rate_net_income": -79.154667
+}

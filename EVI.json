@@ -1,0 +1,14 @@
+{
+  "ticker": "EVI",
+  "valuation": {
+    "PE_valuation": 276.663176, 
+    "DFC_valuation": -3312.469243
+  },
+  "ratios": {
+    "ROIC": 6.194770,
+    "PB": 2.108846
+  },
+  "ownerEarnings": 21403000,
+  "growth_rate_revenue": -3.898047,
+  "growth_rate_net_income": -133.333333
+}

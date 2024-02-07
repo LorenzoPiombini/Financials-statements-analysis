@@ -1,0 +1,14 @@
+{
+  "ticker": "PARA",
+  "valuation": {
+    "PE_valuation": 88.640473, 
+    "DFC_valuation": -14338.432195
+  },
+  "ratios": {
+    "ROIC": 4.605079,
+    "PB": 0.475565
+  },
+  "ownerEarnings": 4353000000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -538.008777
+}

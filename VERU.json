@@ -1,0 +1,14 @@
+{
+  "ticker": "VERU",
+  "valuation": {
+    "PE_valuation": 8.504671, 
+    "DFC_valuation": -64.541082
+  },
+  "ratios": {
+    "ROIC": -255.577880,
+    "PB": 3.435591
+  },
+  "ownerEarnings": -116542106,
+  "growth_rate_revenue": -9.321630,
+  "growth_rate_net_income": -67.384768
+}

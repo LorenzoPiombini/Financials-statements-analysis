@@ -1,0 +1,14 @@
+{
+  "ticker": "TAL",
+  "valuation": {
+    "PE_valuation": 37.712353, 
+    "DFC_valuation": -1727.183978
+  },
+  "ratios": {
+    "ROIC": -2.578737,
+    "PB": 1.166210
+  },
+  "ownerEarnings": -110849000,
+  "growth_rate_revenue": 67.834436,
+  "growth_rate_net_income": 71.082678
+}

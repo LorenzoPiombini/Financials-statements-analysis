@@ -1,0 +1,14 @@
+{
+  "ticker": "JT",
+  "valuation": {
+    "PE_valuation": 21.554106, 
+    "DFC_valuation": -66.196204
+  },
+  "ratios": {
+    "ROIC": -20.050193,
+    "PB": 0.540875
+  },
+  "ownerEarnings": -125499000,
+  "growth_rate_revenue": 93.364677,
+  "growth_rate_net_income": 29.248673
+}

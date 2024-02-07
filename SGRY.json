@@ -1,0 +1,14 @@
+{
+  "ticker": "SGRY",
+  "valuation": {
+    "PE_valuation": 76.637837, 
+    "DFC_valuation": 209.401544
+  },
+  "ratios": {
+    "ROIC": 5.200337,
+    "PB": 1.282045
+  },
+  "ownerEarnings": 778000000,
+  "growth_rate_revenue": 56.378229,
+  "growth_rate_net_income": -36.737990
+}

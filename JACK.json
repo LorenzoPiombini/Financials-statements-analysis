@@ -1,0 +1,14 @@
+{
+  "ticker": "JACK",
+  "valuation": {
+    "PE_valuation": 69.653748, 
+    "DFC_valuation": 295.396233
+  },
+  "ratios": {
+    "ROIC": 4.999349,
+    "PB": -1.952665
+  },
+  "ownerEarnings": 435688000,
+  "growth_rate_revenue": -1.749902,
+  "growth_rate_net_income": -3503.291344
+}

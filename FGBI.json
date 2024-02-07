@@ -1,0 +1,14 @@
+{
+  "ticker": "FGBI",
+  "valuation": {
+    "PE_valuation": 2.786252, 
+    "DFC_valuation": 181.143266
+  },
+  "ratios": {
+    "ROIC": 14.051898,
+    "PB": 1.069440
+  },
+  "ownerEarnings": 108704000,
+  "growth_rate_revenue": 8.492502,
+  "growth_rate_net_income": 12.595651
+}

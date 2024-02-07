@@ -1,0 +1,14 @@
+{
+  "ticker": "GRNVW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -13.093193
+  },
+  "ratios": {
+    "ROIC": -1444548.595774,
+    "PB": 6905733.513413
+  },
+  "ownerEarnings": -852856,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

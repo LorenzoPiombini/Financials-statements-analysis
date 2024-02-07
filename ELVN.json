@@ -1,0 +1,14 @@
+{
+  "ticker": "ELVN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 51.039838,
+    "PB": -5.597913
+  },
+  "ownerEarnings": -42372000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 17.731270
+}

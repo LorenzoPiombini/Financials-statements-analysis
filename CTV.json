@@ -1,0 +1,14 @@
+{
+  "ticker": "CTV",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -12.920787
+  },
+  "ratios": {
+    "ROIC": -14.299806,
+    "PB": 1.085785
+  },
+  "ownerEarnings": -42295000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

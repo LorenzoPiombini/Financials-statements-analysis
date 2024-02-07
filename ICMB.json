@@ -1,0 +1,14 @@
+{
+  "ticker": "ICMB",
+  "valuation": {
+    "PE_valuation": -0.257931, 
+    "DFC_valuation": 66.996459
+  },
+  "ratios": {
+    "ROIC": 0.763452,
+    "PB": 0.593941
+  },
+  "ownerEarnings": 3234503,
+  "growth_rate_revenue": 40.302497,
+  "growth_rate_net_income": -109.437948
+}

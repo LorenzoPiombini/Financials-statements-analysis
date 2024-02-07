@@ -1,0 +1,14 @@
+{
+  "ticker": "DNOW",
+  "valuation": {
+    "PE_valuation": 6.185287, 
+    "DFC_valuation": -17.746894
+  },
+  "ratios": {
+    "ROIC": 13.433761,
+    "PB": 1.674228
+  },
+  "ownerEarnings": 142000000,
+  "growth_rate_revenue": -2.402417,
+  "growth_rate_net_income": -162.225044
+}

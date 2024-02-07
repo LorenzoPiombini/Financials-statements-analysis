@@ -1,0 +1,14 @@
+{
+  "ticker": "FLYA-UN",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -2.835141
+  },
+  "ratios": {
+    "ROIC": -0.230342,
+    "PB": -19.093727
+  },
+  "ownerEarnings": 2965710,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

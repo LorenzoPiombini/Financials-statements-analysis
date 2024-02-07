@@ -1,0 +1,14 @@
+{
+  "ticker": "SFM",
+  "valuation": {
+    "PE_valuation": 108.828582, 
+    "DFC_valuation": 1398.170341
+  },
+  "ratios": {
+    "ROIC": 6.925169,
+    "PB": 3.347919
+  },
+  "ownerEarnings": 642072000,
+  "growth_rate_revenue": 63.727543,
+  "growth_rate_net_income": -135.709854
+}

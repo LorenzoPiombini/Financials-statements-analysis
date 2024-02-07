@@ -1,0 +1,14 @@
+{
+  "ticker": "FNA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -74.446382
+  },
+  "ratios": {
+    "ROIC": -19.045962,
+    "PB": 10.545782
+  },
+  "ownerEarnings": 42595000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

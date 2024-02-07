@@ -1,0 +1,14 @@
+{
+  "ticker": "ENCP",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -215361822.376908,
+    "PB": 2.375033
+  },
+  "ownerEarnings": 1348593356692,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

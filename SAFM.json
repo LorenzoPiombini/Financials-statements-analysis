@@ -1,0 +1,14 @@
+{
+  "ticker": "SAFM",
+  "valuation": {
+    "PE_valuation": 4570.327048, 
+    "DFC_valuation": 76401.964040
+  },
+  "ratios": {
+    "ROIC": 34.780507,
+    "PB": 2.279177
+  },
+  "ownerEarnings": 777183000,
+  "growth_rate_revenue": 5.568997,
+  "growth_rate_net_income": -11.936661
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "PRO",
+  "valuation": {
+    "PE_valuation": 89.464806, 
+    "DFC_valuation": -185.936933
+  },
+  "ratios": {
+    "ROIC": -23.748709,
+    "PB": -30.959489
+  },
+  "ownerEarnings": -96506000,
+  "growth_rate_revenue": 25.613675,
+  "growth_rate_net_income": 66.982763
+}

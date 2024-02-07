@@ -1,0 +1,14 @@
+{
+  "ticker": "SNCRL",
+  "valuation": {
+    "PE_valuation": 42.429826, 
+    "DFC_valuation": -312.019795
+  },
+  "ratios": {
+    "ROIC": 2.800746,
+    "PB": 3.515702
+  },
+  "ownerEarnings": 65734000,
+  "growth_rate_revenue": 86.263198,
+  "growth_rate_net_income": -44473.950524
+}

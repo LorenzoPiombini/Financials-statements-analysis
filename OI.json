@@ -1,0 +1,14 @@
+{
+  "ticker": "OI",
+  "valuation": {
+    "PE_valuation": 27.237004, 
+    "DFC_valuation": -226.620476
+  },
+  "ratios": {
+    "ROIC": 12.309307,
+    "PB": 1.684208
+  },
+  "ownerEarnings": 2109000000,
+  "growth_rate_revenue": 1.896456,
+  "growth_rate_net_income": 381.608408
+}

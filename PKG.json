@@ -1,0 +1,14 @@
+{
+  "ticker": "PKG",
+  "valuation": {
+    "PE_valuation": 307.416120, 
+    "DFC_valuation": 1154.553891
+  },
+  "ratios": {
+    "ROIC": 10.889046,
+    "PB": 3.307545
+  },
+  "ownerEarnings": 1502400000,
+  "growth_rate_revenue": 5.674167,
+  "growth_rate_net_income": 9.420132
+}

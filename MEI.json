@@ -1,0 +1,14 @@
+{
+  "ticker": "MEI",
+  "valuation": {
+    "PE_valuation": 95.456212, 
+    "DFC_valuation": 1397.736596
+  },
+  "ratios": {
+    "ROIC": 5.924086,
+    "PB": 1.568050
+  },
+  "ownerEarnings": 160100000,
+  "growth_rate_revenue": 11.763777,
+  "growth_rate_net_income": 38.718002
+}

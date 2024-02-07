@@ -1,0 +1,14 @@
+{
+  "ticker": "MBI",
+  "valuation": {
+    "PE_valuation": 4.337509, 
+    "DFC_valuation": -561.961854
+  },
+  "ratios": {
+    "ROIC": -0.997238,
+    "PB": -0.725599
+  },
+  "ownerEarnings": 111000000,
+  "growth_rate_revenue": 24.415497,
+  "growth_rate_net_income": 26.078826
+}

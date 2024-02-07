@@ -1,0 +1,14 @@
+{
+  "ticker": "STX",
+  "valuation": {
+    "PE_valuation": -17.254604, 
+    "DFC_valuation": 156.610649
+  },
+  "ratios": {
+    "ROIC": -7.867861,
+    "PB": -10.681476
+  },
+  "ownerEarnings": 592000000,
+  "growth_rate_revenue": 6.033643,
+  "growth_rate_net_income": -9.200838
+}

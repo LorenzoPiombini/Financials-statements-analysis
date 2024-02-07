@@ -1,0 +1,14 @@
+{
+  "ticker": "CONN",
+  "valuation": {
+    "PE_valuation": -16.262695, 
+    "DFC_valuation": -103.506807
+  },
+  "ratios": {
+    "ROIC": -0.707273,
+    "PB": 0.451710
+  },
+  "ownerEarnings": 90844000,
+  "growth_rate_revenue": 17.453000,
+  "growth_rate_net_income": 18.738603
+}

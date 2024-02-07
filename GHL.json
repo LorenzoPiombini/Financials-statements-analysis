@@ -1,0 +1,14 @@
+{
+  "ticker": "GHL",
+  "valuation": {
+    "PE_valuation": 3.265484, 
+    "DFC_valuation": 70.553494
+  },
+  "ratios": {
+    "ROIC": 2.333137,
+    "PB": 2.422963
+  },
+  "ownerEarnings": 12974000,
+  "growth_rate_revenue": 20.081332,
+  "growth_rate_net_income": 12.493462
+}

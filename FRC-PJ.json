@@ -1,0 +1,14 @@
+{
+  "ticker": "FRC-PJ",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 7.198089,
+    "PB": 1.264593
+  },
+  "ownerEarnings": 3631000000,
+  "growth_rate_revenue": 138.503199,
+  "growth_rate_net_income": inf
+}

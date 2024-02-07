@@ -1,0 +1,14 @@
+{
+  "ticker": "MTW",
+  "valuation": {
+    "PE_valuation": 24.026829, 
+    "DFC_valuation": 116.572005
+  },
+  "ratios": {
+    "ROIC": 8.790188,
+    "PB": 0.599272
+  },
+  "ownerEarnings": 403400000,
+  "growth_rate_revenue": 2.806995,
+  "growth_rate_net_income": 4128.233475
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SLCT",
+  "valuation": {
+    "PE_valuation": 74.686038, 
+    "DFC_valuation": 4477.918318
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.764516
+  },
+  "ownerEarnings": 34030000,
+  "growth_rate_revenue": 136.577178,
+  "growth_rate_net_income": 65.992279
+}

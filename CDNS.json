@@ -1,0 +1,14 @@
+{
+  "ticker": "CDNS",
+  "valuation": {
+    "PE_valuation": 3728.706594, 
+    "DFC_valuation": 666211.134413
+  },
+  "ratios": {
+    "ROIC": 24.004039,
+    "PB": 15.870111
+  },
+  "ownerEarnings": 889470000,
+  "growth_rate_revenue": 117.280957,
+  "growth_rate_net_income": 103.626865
+}

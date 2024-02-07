@@ -1,0 +1,14 @@
+{
+  "ticker": "MMSI",
+  "valuation": {
+    "PE_valuation": 5609.135956, 
+    "DFC_valuation": 2825488.696558
+  },
+  "ratios": {
+    "ROIC": 5.321530,
+    "PB": 3.505462
+  },
+  "ownerEarnings": 218475000,
+  "growth_rate_revenue": 124.326503,
+  "growth_rate_net_income": 272.382479
+}

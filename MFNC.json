@@ -1,0 +1,14 @@
+{
+  "ticker": "MFNC",
+  "valuation": {
+    "PE_valuation": 107.459978, 
+    "DFC_valuation": 4113.283042
+  },
+  "ratios": {
+    "ROIC": -6.709895,
+    "PB": 0.800699
+  },
+  "ownerEarnings": 20555000,
+  "growth_rate_revenue": 164.460846,
+  "growth_rate_net_income": 20.746126
+}

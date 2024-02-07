@@ -1,0 +1,14 @@
+{
+  "ticker": "ARCE",
+  "valuation": {
+    "PE_valuation": -95.732866, 
+    "DFC_valuation": -35963.662789
+  },
+  "ratios": {
+    "ROIC": 10.298640,
+    "PB": 2.133849
+  },
+  "ownerEarnings": 1738510000,
+  "growth_rate_revenue": 67.816935,
+  "growth_rate_net_income": -156.855919
+}

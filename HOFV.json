@@ -1,0 +1,14 @@
+{
+  "ticker": "HOFV",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -8.322761,
+    "PB": 0.218470
+  },
+  "ownerEarnings": 65116174,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -1871.814629
+}

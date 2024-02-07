@@ -1,0 +1,14 @@
+{
+  "ticker": "ING",
+  "valuation": {
+    "PE_valuation": 0.232763, 
+    "DFC_valuation": -414.386485
+  },
+  "ratios": {
+    "ROIC": 1.886648,
+    "PB": 0.888088
+  },
+  "ownerEarnings": 3091000000,
+  "growth_rate_revenue": 29.842873,
+  "growth_rate_net_income": 52.479921
+}

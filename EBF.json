@@ -1,0 +1,14 @@
+{
+  "ticker": "EBF",
+  "valuation": {
+    "PE_valuation": 40.475773, 
+    "DFC_valuation": 191.544562
+  },
+  "ratios": {
+    "ROIC": 7.717782,
+    "PB": 1.705913
+  },
+  "ownerEarnings": 10347000,
+  "growth_rate_revenue": 3.461602,
+  "growth_rate_net_income": 16.772200
+}

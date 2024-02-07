@@ -1,0 +1,14 @@
+{
+  "ticker": "FDMT",
+  "valuation": {
+    "PE_valuation": 12.559351, 
+    "DFC_valuation": -179.758676
+  },
+  "ratios": {
+    "ROIC": 36.657360,
+    "PB": -2.284717
+  },
+  "ownerEarnings": -107857000,
+  "growth_rate_revenue": 34.547833,
+  "growth_rate_net_income": 128.742475
+}

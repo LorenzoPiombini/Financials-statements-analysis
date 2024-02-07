@@ -1,0 +1,14 @@
+{
+  "ticker": "AUBN",
+  "valuation": {
+    "PE_valuation": 13.607316, 
+    "DFC_valuation": 75.575704
+  },
+  "ratios": {
+    "ROIC": 14.786335,
+    "PB": 0.989120
+  },
+  "ownerEarnings": 23681000,
+  "growth_rate_revenue": 17.530179,
+  "growth_rate_net_income": 15.378794
+}

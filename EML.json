@@ -1,0 +1,14 @@
+{
+  "ticker": "EML",
+  "valuation": {
+    "PE_valuation": 28.221979, 
+    "DFC_valuation": 106.307637
+  },
+  "ratios": {
+    "ROIC": 5.048949,
+    "PB": 0.947723
+  },
+  "ownerEarnings": 23423922,
+  "growth_rate_revenue": -3.315309,
+  "growth_rate_net_income": 13.545482
+}

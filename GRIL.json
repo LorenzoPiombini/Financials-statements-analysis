@@ -1,0 +1,14 @@
+{
+  "ticker": "GRIL",
+  "valuation": {
+    "PE_valuation": 2.767520, 
+    "DFC_valuation": -106.663372
+  },
+  "ratios": {
+    "ROIC": -34.334890,
+    "PB": 1.569247
+  },
+  "ownerEarnings": -5123519,
+  "growth_rate_revenue": 34.985434,
+  "growth_rate_net_income": 90.587240
+}

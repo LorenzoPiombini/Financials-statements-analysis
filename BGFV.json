@@ -1,0 +1,14 @@
+{
+  "ticker": "BGFV",
+  "valuation": {
+    "PE_valuation": 4.686990, 
+    "DFC_valuation": -151.576919
+  },
+  "ratios": {
+    "ROIC": 1.387986,
+    "PB": 0.710713
+  },
+  "ownerEarnings": 19528000,
+  "growth_rate_revenue": 9.171186,
+  "growth_rate_net_income": 30.054588
+}

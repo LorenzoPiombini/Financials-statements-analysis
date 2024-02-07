@@ -1,0 +1,14 @@
+{
+  "ticker": "AMR",
+  "valuation": {
+    "PE_valuation": 170.412222, 
+    "DFC_valuation": 7374.954884
+  },
+  "ratios": {
+    "ROIC": 102.232141,
+    "PB": 1.790860
+  },
+  "ownerEarnings": 1789299000,
+  "growth_rate_revenue": 8.555615,
+  "growth_rate_net_income": 126.318227
+}

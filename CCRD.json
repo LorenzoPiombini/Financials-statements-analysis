@@ -1,0 +1,14 @@
+{
+  "ticker": "CCRD",
+  "valuation": {
+    "PE_valuation": 23.745886, 
+    "DFC_valuation": 9.498408
+  },
+  "ratios": {
+    "ROIC": 19.797670,
+    "PB": 4.707642
+  },
+  "ownerEarnings": 20833000,
+  "growth_rate_revenue": -14.596149,
+  "growth_rate_net_income": 138.453972
+}

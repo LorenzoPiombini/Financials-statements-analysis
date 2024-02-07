@@ -1,0 +1,14 @@
+{
+  "ticker": "SIX",
+  "valuation": {
+    "PE_valuation": 116.258370, 
+    "DFC_valuation": 7813.982478
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 676127000,
+  "growth_rate_revenue": 143.711843,
+  "growth_rate_net_income": 115.239202
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "IGC",
+  "valuation": {
+    "PE_valuation": 1.153123, 
+    "DFC_valuation": -18.334986
+  },
+  "ratios": {
+    "ROIC": -73.135220,
+    "PB": 1.197079
+  },
+  "ownerEarnings": -13138000,
+  "growth_rate_revenue": 134.807676,
+  "growth_rate_net_income": 539.773978
+}

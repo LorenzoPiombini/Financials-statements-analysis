@@ -1,0 +1,14 @@
+{
+  "ticker": "NRUC",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1496.966434
+  },
+  "ratios": {
+    "ROIC": 1.615155,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 499987000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

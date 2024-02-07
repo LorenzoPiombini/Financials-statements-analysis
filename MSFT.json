@@ -1,0 +1,14 @@
+{
+  "ticker": "MSFT",
+  "valuation": {
+    "PE_valuation": 315.841619, 
+    "DFC_valuation": 170.858157
+  },
+  "ratios": {
+    "ROIC": 25.714750,
+    "PB": 12.344123
+  },
+  "ownerEarnings": 102781000000,
+  "growth_rate_revenue": 71.248559,
+  "growth_rate_net_income": 80.590616
+}

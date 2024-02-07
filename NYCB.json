@@ -1,0 +1,14 @@
+{
+  "ticker": "NYCB",
+  "valuation": {
+    "PE_valuation": 663.953043, 
+    "DFC_valuation": 819290.548566
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 2070000000,
+  "growth_rate_revenue": 21.207112,
+  "growth_rate_net_income": 36.396163
+}

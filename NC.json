@@ -1,0 +1,14 @@
+{
+  "ticker": "NC",
+  "valuation": {
+    "PE_valuation": 27.670548, 
+    "DFC_valuation": 261.351943
+  },
+  "ratios": {
+    "ROIC": 12.814605,
+    "PB": 0.650768
+  },
+  "ownerEarnings": 98915000,
+  "growth_rate_revenue": 32.435958,
+  "growth_rate_net_income": 4.403041
+}

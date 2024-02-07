@@ -1,0 +1,14 @@
+{
+  "ticker": "KB",
+  "valuation": {
+    "PE_valuation": 195743.127053, 
+    "DFC_valuation": 10037128.645391
+  },
+  "ratios": {
+    "ROIC": -0.384821,
+    "PB": 0.395590
+  },
+  "ownerEarnings": -7949724346000,
+  "growth_rate_revenue": 121.251723,
+  "growth_rate_net_income": -69.176212
+}

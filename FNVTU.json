@@ -1,0 +1,14 @@
+{
+  "ticker": "FNVTU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.742969,
+    "PB": 1.002517
+  },
+  "ownerEarnings": -1472416,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

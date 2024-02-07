@@ -1,0 +1,14 @@
+{
+  "ticker": "ECBK",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 43.029248
+  },
+  "ratios": {
+    "ROIC": 2.054311,
+    "PB": 0.834034
+  },
+  "ownerEarnings": 13469000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

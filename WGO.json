@@ -1,0 +1,14 @@
+{
+  "ticker": "WGO",
+  "valuation": {
+    "PE_valuation": 155.745001, 
+    "DFC_valuation": 1984.036229
+  },
+  "ratios": {
+    "ROIC": 11.373223,
+    "PB": 1.409689
+  },
+  "ownerEarnings": 357600000,
+  "growth_rate_revenue": -4.761831,
+  "growth_rate_net_income": -17.872012
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "PFE",
+  "valuation": {
+    "PE_valuation": 432.339255, 
+    "DFC_valuation": 10698.451963
+  },
+  "ratios": {
+    "ROIC": 27.728292,
+    "PB": 3.003877
+  },
+  "ownerEarnings": 47976000000,
+  "growth_rate_revenue": 12.215229,
+  "growth_rate_net_income": 9.195617
+}

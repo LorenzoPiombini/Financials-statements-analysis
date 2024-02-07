@@ -1,0 +1,14 @@
+{
+  "ticker": "FIZZ",
+  "valuation": {
+    "PE_valuation": 55.533563, 
+    "DFC_valuation": 157.195782
+  },
+  "ratios": {
+    "ROIC": 31.248236,
+    "PB": 12.455055
+  },
+  "ownerEarnings": 197231000,
+  "growth_rate_revenue": 3.587688,
+  "growth_rate_net_income": -136.224775
+}

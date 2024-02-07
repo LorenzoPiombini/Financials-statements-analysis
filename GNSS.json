@@ -1,0 +1,14 @@
+{
+  "ticker": "GNSS",
+  "valuation": {
+    "PE_valuation": -71.333155, 
+    "DFC_valuation": -2033.432514
+  },
+  "ratios": {
+    "ROIC": -41.400348,
+    "PB": 2.195909
+  },
+  "ownerEarnings": -16449000,
+  "growth_rate_revenue": 65.777088,
+  "growth_rate_net_income": 107.273506
+}

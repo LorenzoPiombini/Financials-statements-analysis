@@ -1,0 +1,14 @@
+{
+  "ticker": "ICL",
+  "valuation": {
+    "PE_valuation": 40.266925, 
+    "DFC_valuation": 154.294681
+  },
+  "ratios": {
+    "ROIC": 26.782082,
+    "PB": 1.722217
+  },
+  "ownerEarnings": 3903000000,
+  "growth_rate_revenue": 14.965167,
+  "growth_rate_net_income": -26.472772
+}

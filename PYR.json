@@ -1,0 +1,14 @@
+{
+  "ticker": "PYR",
+  "valuation": {
+    "PE_valuation": 107.674108, 
+    "DFC_valuation": -2485532.761390
+  },
+  "ratios": {
+    "ROIC": -79.317447,
+    "PB": 10.343422
+  },
+  "ownerEarnings": -16999978,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 3080.777586
+}

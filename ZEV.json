@@ -1,0 +1,14 @@
+{
+  "ticker": "ZEV",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -308.652599
+  },
+  "ratios": {
+    "ROIC": 5.744702,
+    "PB": 10.377114
+  },
+  "ownerEarnings": 4977986,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

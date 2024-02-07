@@ -1,0 +1,14 @@
+{
+  "ticker": "MCFT",
+  "valuation": {
+    "PE_valuation": 47.654437, 
+    "DFC_valuation": 718.907631
+  },
+  "ratios": {
+    "ROIC": 35.823713,
+    "PB": 2.813038
+  },
+  "ownerEarnings": 117731000,
+  "growth_rate_revenue": 20.600921,
+  "growth_rate_net_income": 203.549585
+}

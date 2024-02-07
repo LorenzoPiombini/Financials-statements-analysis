@@ -1,0 +1,14 @@
+{
+  "ticker": "ACCO",
+  "valuation": {
+    "PE_valuation": -1.827232, 
+    "DFC_valuation": 67.899966
+  },
+  "ratios": {
+    "ROIC": -7.080513,
+    "PB": 0.657606
+  },
+  "ownerEarnings": 363000000,
+  "growth_rate_revenue": 21.784746,
+  "growth_rate_net_income": -71.833645
+}

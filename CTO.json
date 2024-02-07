@@ -1,0 +1,14 @@
+{
+  "ticker": "CTO",
+  "valuation": {
+    "PE_valuation": -1.495947, 
+    "DFC_valuation": 236.464652
+  },
+  "ratios": {
+    "ROIC": 17.031798,
+    "PB": 0.670265
+  },
+  "ownerEarnings": 63543000,
+  "growth_rate_revenue": 12.736479,
+  "growth_rate_net_income": -214.944777
+}

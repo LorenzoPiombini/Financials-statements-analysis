@@ -1,0 +1,14 @@
+{
+  "ticker": "NXT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 190.516332
+  },
+  "ratios": {
+    "ROIC": -4.232424,
+    "PB": -0.540948
+  },
+  "ownerEarnings": 95952000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VINO",
+  "valuation": {
+    "PE_valuation": 339.480561, 
+    "DFC_valuation": -88.450864
+  },
+  "ratios": {
+    "ROIC": -83.838066,
+    "PB": 0.188067
+  },
+  "ownerEarnings": -6209191,
+  "growth_rate_revenue": 8.737924,
+  "growth_rate_net_income": -8.430647
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LCI",
+  "valuation": {
+    "PE_valuation": 144.433832, 
+    "DFC_valuation": -11735.339679
+  },
+  "ratios": {
+    "ROIC": -24.921104,
+    "PB": -0.093249
+  },
+  "ownerEarnings": 98047000,
+  "growth_rate_revenue": 43.543325,
+  "growth_rate_net_income": -209.924203
+}

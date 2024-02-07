@@ -1,0 +1,14 @@
+{
+  "ticker": "FIPWV",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -183.844891
+  },
+  "ratios": {
+    "ROIC": -5.216921,
+    "PB": 0.371354
+  },
+  "ownerEarnings": 239599000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

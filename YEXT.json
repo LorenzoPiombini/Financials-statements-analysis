@@ -1,0 +1,14 @@
+{
+  "ticker": "YEXT",
+  "valuation": {
+    "PE_valuation": 15.556785, 
+    "DFC_valuation": 18.342167
+  },
+  "ratios": {
+    "ROIC": -18.319489,
+    "PB": 6.799501
+  },
+  "ownerEarnings": -96822000,
+  "growth_rate_revenue": 47.506620,
+  "growth_rate_net_income": 61.338347
+}

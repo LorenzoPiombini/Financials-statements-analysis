@@ -1,0 +1,14 @@
+{
+  "ticker": "DVN",
+  "valuation": {
+    "PE_valuation": 2841.134088, 
+    "DFC_valuation": 40603440294.096428
+  },
+  "ratios": {
+    "ROIC": 34.561838,
+    "PB": 3.620260
+  },
+  "ownerEarnings": 13879000000,
+  "growth_rate_revenue": 53.498632,
+  "growth_rate_net_income": -245.205517
+}

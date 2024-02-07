@@ -1,0 +1,14 @@
+{
+  "ticker": "SVM",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 4.133221,
+    "PB": 1.381478
+  },
+  "ownerEarnings": 124228000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 168.281220
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SVRA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -29.592620,
+    "PB": 2.197075
+  },
+  "ownerEarnings": -41393000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 180.570068
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BHR-PD",
+  "valuation": {
+    "PE_valuation": -3.402025, 
+    "DFC_valuation": 154.634503
+  },
+  "ratios": {
+    "ROIC": 2.440539,
+    "PB": 0.357216
+  },
+  "ownerEarnings": 176465000,
+  "growth_rate_revenue": 20.559484,
+  "growth_rate_net_income": -404.301653
+}

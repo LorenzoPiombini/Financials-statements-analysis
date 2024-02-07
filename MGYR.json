@@ -1,0 +1,14 @@
+{
+  "ticker": "MGYR",
+  "valuation": {
+    "PE_valuation": 70.458200, 
+    "DFC_valuation": 3045.866988
+  },
+  "ratios": {
+    "ROIC": 7.356618,
+    "PB": 0.628603
+  },
+  "ownerEarnings": -3056000,
+  "growth_rate_revenue": 306.592541,
+  "growth_rate_net_income": 3426.066885
+}

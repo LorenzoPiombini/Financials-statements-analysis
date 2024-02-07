@@ -1,0 +1,14 @@
+{
+  "ticker": "BBAR",
+  "valuation": {
+    "PE_valuation": 61861.650947, 
+    "DFC_valuation": 1907529682.331114
+  },
+  "ratios": {
+    "ROIC": 15.324596,
+    "PB": 0.398627
+  },
+  "ownerEarnings": 87105131000,
+  "growth_rate_revenue": 42.303077,
+  "growth_rate_net_income": 21.760752
+}

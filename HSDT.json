@@ -1,0 +1,14 @@
+{
+  "ticker": "HSDT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -157.341847,
+    "PB": 0.508358
+  },
+  "ownerEarnings": -17502000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

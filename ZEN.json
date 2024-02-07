@@ -1,0 +1,14 @@
+{
+  "ticker": "ZEN",
+  "valuation": {
+    "PE_valuation": 628.488132, 
+    "DFC_valuation": 5198.561604
+  },
+  "ratios": {
+    "ROIC": -11.861235,
+    "PB": 24.566511
+  },
+  "ownerEarnings": -269705000,
+  "growth_rate_revenue": 79.138819,
+  "growth_rate_net_income": 61.519418
+}

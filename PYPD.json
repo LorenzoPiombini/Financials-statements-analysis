@@ -1,0 +1,14 @@
+{
+  "ticker": "PYPD",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -179.458047,
+    "PB": 2.560086
+  },
+  "ownerEarnings": -39264000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 133.662706
+}

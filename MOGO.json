@@ -1,0 +1,14 @@
+{
+  "ticker": "MOGO",
+  "valuation": {
+    "PE_valuation": 32.151446, 
+    "DFC_valuation": -44.399545
+  },
+  "ratios": {
+    "ROIC": -16.550549,
+    "PB": 0.493885
+  },
+  "ownerEarnings": 88567000,
+  "growth_rate_revenue": 30.419760,
+  "growth_rate_net_income": 17.488752
+}

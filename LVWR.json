@@ -1,0 +1,14 @@
+{
+  "ticker": "LVWR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -33.687807
+  },
+  "ratios": {
+    "ROIC": -27.109178,
+    "PB": 2.719083
+  },
+  "ownerEarnings": -71392000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

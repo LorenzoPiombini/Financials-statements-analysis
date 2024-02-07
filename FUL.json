@@ -1,0 +1,14 @@
+{
+  "ticker": "FUL",
+  "valuation": {
+    "PE_valuation": 141.073591, 
+    "DFC_valuation": 46179.008885
+  },
+  "ratios": {
+    "ROIC": 6.115550,
+    "PB": 2.380114
+  },
+  "ownerEarnings": 486086000,
+  "growth_rate_revenue": 14.563722,
+  "growth_rate_net_income": 17.299658
+}

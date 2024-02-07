@@ -1,0 +1,14 @@
+{
+  "ticker": "SBOW",
+  "valuation": {
+    "PE_valuation": 671.927944, 
+    "DFC_valuation": -2378654.939339
+  },
+  "ratios": {
+    "ROIC": 30.104402,
+    "PB": 0.705518
+  },
+  "ownerEarnings": 1340371000,
+  "growth_rate_revenue": 59.859286,
+  "growth_rate_net_income": 91.557187
+}

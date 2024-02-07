@@ -1,0 +1,14 @@
+{
+  "ticker": "OSIS",
+  "valuation": {
+    "PE_valuation": 402.444092, 
+    "DFC_valuation": 2592.242992
+  },
+  "ratios": {
+    "ROIC": 9.923174,
+    "PB": 2.730568
+  },
+  "ownerEarnings": 130081000,
+  "growth_rate_revenue": 19.093698,
+  "growth_rate_net_income": 145.666595
+}

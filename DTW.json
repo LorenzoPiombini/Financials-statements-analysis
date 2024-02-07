@@ -1,0 +1,14 @@
+{
+  "ticker": "DTW",
+  "valuation": {
+    "PE_valuation": 26.194994, 
+    "DFC_valuation": 594.876827
+  },
+  "ratios": {
+    "ROIC": 14.909591,
+    "PB": 0.397615
+  },
+  "ownerEarnings": 3637000000,
+  "growth_rate_revenue": 7.887652,
+  "growth_rate_net_income": 11.364651
+}

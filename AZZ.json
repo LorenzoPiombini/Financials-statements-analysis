@@ -1,0 +1,14 @@
+{
+  "ticker": "AZZ",
+  "valuation": {
+    "PE_valuation": 624.766533, 
+    "DFC_valuation": 32665.042164
+  },
+  "ratios": {
+    "ROIC": 3.957128,
+    "PB": 1.180405
+  },
+  "ownerEarnings": 218087000,
+  "growth_rate_revenue": 21.292619,
+  "growth_rate_net_income": -15.946866
+}

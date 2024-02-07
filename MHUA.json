@@ -1,0 +1,14 @@
+{
+  "ticker": "MHUA",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -32.257203
+  },
+  "ratios": {
+    "ROIC": 6.092600,
+    "PB": 1.371601
+  },
+  "ownerEarnings": 18793436,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

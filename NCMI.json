@@ -1,0 +1,14 @@
+{
+  "ticker": "NCMI",
+  "valuation": {
+    "PE_valuation": 1.689806, 
+    "DFC_valuation": -25.310001
+  },
+  "ratios": {
+    "ROIC": 0.340517,
+    "PB": -0.381764
+  },
+  "ownerEarnings": 157900000,
+  "growth_rate_revenue": 19.401673,
+  "growth_rate_net_income": -72.043131
+}

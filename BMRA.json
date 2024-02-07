@@ -1,0 +1,14 @@
+{
+  "ticker": "BMRA",
+  "valuation": {
+    "PE_valuation": 6.155732, 
+    "DFC_valuation": -31.583106
+  },
+  "ratios": {
+    "ROIC": -52.383094,
+    "PB": 1.559501
+  },
+  "ownerEarnings": -8031000,
+  "growth_rate_revenue": 145.331451,
+  "growth_rate_net_income": 22.714238
+}

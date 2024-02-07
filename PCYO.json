@@ -1,0 +1,14 @@
+{
+  "ticker": "PCYO",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 1.243605,
+    "PB": 2.233718
+  },
+  "ownerEarnings": 5831000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -23.392645
+}

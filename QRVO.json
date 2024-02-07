@@ -1,0 +1,14 @@
+{
+  "ticker": "QRVO",
+  "valuation": {
+    "PE_valuation": 45.117442, 
+    "DFC_valuation": 747.181674
+  },
+  "ratios": {
+    "ROIC": 2.547580,
+    "PB": 2.599611
+  },
+  "ownerEarnings": 283527000,
+  "growth_rate_revenue": 33.725278,
+  "growth_rate_net_income": 328.738685
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CCL",
+  "valuation": {
+    "PE_valuation": 0.260043, 
+    "DFC_valuation": 247.490630
+  },
+  "ratios": {
+    "ROIC": 5.901749,
+    "PB": 2.473880
+  },
+  "ownerEarnings": 9562000000,
+  "growth_rate_revenue": 15.890341,
+  "growth_rate_net_income": 11.999969
+}

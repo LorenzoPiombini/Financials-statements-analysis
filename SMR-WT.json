@@ -1,0 +1,14 @@
+{
+  "ticker": "SMR-WT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -7983.384808
+  },
+  "ratios": {
+    "ROIC": -14.037372,
+    "PB": 1.755013
+  },
+  "ownerEarnings": -219207000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

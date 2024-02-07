@@ -1,0 +1,14 @@
+{
+  "ticker": "OCFC",
+  "valuation": {
+    "PE_valuation": 739.839425, 
+    "DFC_valuation": 481037.895054
+  },
+  "ratios": {
+    "ROIC": 6.267211,
+    "PB": 0.787558
+  },
+  "ownerEarnings": 269715000,
+  "growth_rate_revenue": 410.415219,
+  "growth_rate_net_income": -253.266461
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "KAI",
+  "valuation": {
+    "PE_valuation": 531.630405, 
+    "DFC_valuation": 1453.190479
+  },
+  "ratios": {
+    "ROIC": 11.899066,
+    "PB": 3.157705
+  },
+  "ownerEarnings": 134621000,
+  "growth_rate_revenue": 18.131049,
+  "growth_rate_net_income": 27.412302
+}

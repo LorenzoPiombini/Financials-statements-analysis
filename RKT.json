@@ -1,0 +1,14 @@
+{
+  "ticker": "RKT",
+  "valuation": {
+    "PE_valuation": 5.562566, 
+    "DFC_valuation": 5585.784602
+  },
+  "ratios": {
+    "ROIC": 1.494033,
+    "PB": 1.463563
+  },
+  "ownerEarnings": -476264000,
+  "growth_rate_revenue": 40.190953,
+  "growth_rate_net_income": 213.285472
+}

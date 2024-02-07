@@ -1,0 +1,14 @@
+{
+  "ticker": "PGSS-UN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.001225,
+    "PB": 1.303868
+  },
+  "ownerEarnings": -14296975,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

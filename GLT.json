@@ -1,0 +1,14 @@
+{
+  "ticker": "GLT",
+  "valuation": {
+    "PE_valuation": 5.162387, 
+    "DFC_valuation": -307.270872
+  },
+  "ratios": {
+    "ROIC": 1.352763,
+    "PB": 0.391888
+  },
+  "ownerEarnings": 351434000,
+  "growth_rate_revenue": 23.884451,
+  "growth_rate_net_income": 23.646035
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MCRI",
+  "valuation": {
+    "PE_valuation": 375.804089, 
+    "DFC_valuation": 6103.068649
+  },
+  "ratios": {
+    "ROIC": 15.595355,
+    "PB": 2.710069
+  },
+  "ownerEarnings": 170054000,
+  "growth_rate_revenue": 24.228878,
+  "growth_rate_net_income": -68.125000
+}

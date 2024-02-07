@@ -1,0 +1,14 @@
+{
+  "ticker": "GRVI",
+  "valuation": {
+    "PE_valuation": 85.107510, 
+    "DFC_valuation": -102.573978
+  },
+  "ratios": {
+    "ROIC": -11.203580,
+    "PB": 1.419298
+  },
+  "ownerEarnings": 4081592,
+  "growth_rate_revenue": 131.687778,
+  "growth_rate_net_income": 305.554761
+}

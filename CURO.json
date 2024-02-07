@@ -1,0 +1,14 @@
+{
+  "ticker": "CURO",
+  "valuation": {
+    "PE_valuation": -15.486685, 
+    "DFC_valuation": 292.957346
+  },
+  "ratios": {
+    "ROIC": -0.189377,
+    "PB": -2.651188
+  },
+  "ownerEarnings": 254024000,
+  "growth_rate_revenue": -1.426444,
+  "growth_rate_net_income": -134.767791
+}

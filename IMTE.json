@@ -1,0 +1,14 @@
+{
+  "ticker": "IMTE",
+  "valuation": {
+    "PE_valuation": 5.884976, 
+    "DFC_valuation": -55.670966
+  },
+  "ratios": {
+    "ROIC": -22.931447,
+    "PB": 4.021187
+  },
+  "ownerEarnings": -5504583,
+  "growth_rate_revenue": 237.485146,
+  "growth_rate_net_income": -310.745289
+}

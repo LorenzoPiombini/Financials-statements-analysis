@@ -1,0 +1,14 @@
+{
+  "ticker": "MAS",
+  "valuation": {
+    "PE_valuation": 141.764184, 
+    "DFC_valuation": 658.657949
+  },
+  "ratios": {
+    "ROIC": 28.946559,
+    "PB": -41.147977
+  },
+  "ownerEarnings": 1318000000,
+  "growth_rate_revenue": 29.186164,
+  "growth_rate_net_income": 0.609577
+}

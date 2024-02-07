@@ -1,0 +1,14 @@
+{
+  "ticker": "LANV",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -61.359895
+  },
+  "ratios": {
+    "ROIC": -23.304759,
+    "PB": 2.934031
+  },
+  "ownerEarnings": -110310000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AIP",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -16.660093
+  },
+  "ratios": {
+    "ROIC": -65.993442,
+    "PB": 3.732216
+  },
+  "ownerEarnings": -36892000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BAP",
+  "valuation": {
+    "PE_valuation": 1939.022100, 
+    "DFC_valuation": -6580.332488
+  },
+  "ratios": {
+    "ROIC": 12.608997,
+    "PB": 1.417640
+  },
+  "ownerEarnings": 12991224000,
+  "growth_rate_revenue": 6.198824,
+  "growth_rate_net_income": 19.302849
+}

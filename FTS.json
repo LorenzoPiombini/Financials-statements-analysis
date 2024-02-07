@@ -1,0 +1,14 @@
+{
+  "ticker": "FTS",
+  "valuation": {
+    "PE_valuation": 276.845267, 
+    "DFC_valuation": -215217.892993
+  },
+  "ratios": {
+    "ROIC": 4.561931,
+    "PB": 1.213774
+  },
+  "ownerEarnings": 9121000000,
+  "growth_rate_revenue": 7.121700,
+  "growth_rate_net_income": 2.522575
+}

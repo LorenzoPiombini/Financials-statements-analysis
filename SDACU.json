@@ -1,0 +1,14 @@
+{
+  "ticker": "SDACU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.710274,
+    "PB": 1.037287
+  },
+  "ownerEarnings": -35222024,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

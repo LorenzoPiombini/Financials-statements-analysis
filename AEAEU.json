@@ -1,0 +1,14 @@
+{
+  "ticker": "AEAEU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -4.657270
+  },
+  "ratios": {
+    "ROIC": -0.642661,
+    "PB": 1.283286
+  },
+  "ownerEarnings": -30720885,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

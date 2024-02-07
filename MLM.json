@@ -1,0 +1,14 @@
+{
+  "ticker": "MLM",
+  "valuation": {
+    "PE_valuation": 1088.988705, 
+    "DFC_valuation": 4631.959528
+  },
+  "ratios": {
+    "ROIC": 7.515581,
+    "PB": 2.935469
+  },
+  "ownerEarnings": 2095100000,
+  "growth_rate_revenue": 25.574403,
+  "growth_rate_net_income": 23.414684
+}

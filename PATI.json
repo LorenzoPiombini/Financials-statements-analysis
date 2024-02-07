@@ -1,0 +1,14 @@
+{
+  "ticker": "PATI",
+  "valuation": {
+    "PE_valuation": 17.336755, 
+    "DFC_valuation": -3.350714
+  },
+  "ratios": {
+    "ROIC": 6.028936,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 597000,
+  "growth_rate_revenue": 8.411692,
+  "growth_rate_net_income": inf
+}

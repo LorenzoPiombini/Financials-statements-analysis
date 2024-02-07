@@ -1,0 +1,14 @@
+{
+  "ticker": "HUSA",
+  "valuation": {
+    "PE_valuation": 13.968621, 
+    "DFC_valuation": -1005.772676
+  },
+  "ratios": {
+    "ROIC": -6.326538,
+    "PB": 3.027931
+  },
+  "ownerEarnings": -669681,
+  "growth_rate_revenue": 354.877112,
+  "growth_rate_net_income": -184.271941
+}

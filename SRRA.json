@@ -1,0 +1,14 @@
+{
+  "ticker": "SRRA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 92.465468,
+    "PB": 3.001225
+  },
+  "ownerEarnings": -107172000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 94.279450
+}

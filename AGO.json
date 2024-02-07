@@ -1,0 +1,14 @@
+{
+  "ticker": "AGO",
+  "valuation": {
+    "PE_valuation": 24.037143, 
+    "DFC_valuation": -3909.069623
+  },
+  "ratios": {
+    "ROIC": 2.788428,
+    "PB": 0.725543
+  },
+  "ownerEarnings": 260000000,
+  "growth_rate_revenue": 10.649455,
+  "growth_rate_net_income": 41.509121
+}

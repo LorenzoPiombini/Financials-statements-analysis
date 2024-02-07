@@ -1,0 +1,14 @@
+{
+  "ticker": "CNSL",
+  "valuation": {
+    "PE_valuation": 33.372493, 
+    "DFC_valuation": -1452.774203
+  },
+  "ratios": {
+    "ROIC": 4.876772,
+    "PB": 0.320093
+  },
+  "ownerEarnings": 1498612000,
+  "growth_rate_revenue": 34.562905,
+  "growth_rate_net_income": -59.444132
+}

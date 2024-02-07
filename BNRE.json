@@ -1,0 +1,14 @@
+{
+  "ticker": "BNRE",
+  "valuation": {
+    "PE_valuation": 165.780980, 
+    "DFC_valuation": 23064.295440
+  },
+  "ratios": {
+    "ROIC": 8.225160,
+    "PB": 0.399349
+  },
+  "ownerEarnings": 891000000,
+  "growth_rate_revenue": 336.965411,
+  "growth_rate_net_income": -1381.760317
+}

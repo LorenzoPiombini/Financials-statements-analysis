@@ -1,0 +1,14 @@
+{
+  "ticker": "BEDU",
+  "valuation": {
+    "PE_valuation": 9.349913, 
+    "DFC_valuation": -3.124968
+  },
+  "ratios": {
+    "ROIC": -7.627032,
+    "PB": 0.136174
+  },
+  "ownerEarnings": 78212000,
+  "growth_rate_revenue": 43.121679,
+  "growth_rate_net_income": -129.801775
+}

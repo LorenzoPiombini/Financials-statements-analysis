@@ -1,0 +1,14 @@
+{
+  "ticker": "XSPA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -4.491049,
+    "PB": 2.272123
+  },
+  "ownerEarnings": -29559000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 87.755613
+}

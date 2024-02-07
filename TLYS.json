@@ -1,0 +1,14 @@
+{
+  "ticker": "TLYS",
+  "valuation": {
+    "PE_valuation": 3.923128, 
+    "DFC_valuation": -69.546358
+  },
+  "ratios": {
+    "ROIC": 1.301061,
+    "PB": 1.478466
+  },
+  "ownerEarnings": 33120000,
+  "growth_rate_revenue": 16.338870,
+  "growth_rate_net_income": -4.808391
+}

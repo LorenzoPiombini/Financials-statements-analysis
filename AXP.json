@@ -1,0 +1,14 @@
+{
+  "ticker": "AXP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 14.028386,
+    "PB": 4.438410
+  },
+  "ownerEarnings": 16146000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1.727508
+}

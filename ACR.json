@@ -1,0 +1,14 @@
+{
+  "ticker": "ACR",
+  "valuation": {
+    "PE_valuation": -10.102523, 
+    "DFC_valuation": 416.036041
+  },
+  "ratios": {
+    "ROIC": 3.773384,
+    "PB": 0.167142
+  },
+  "ownerEarnings": 179744000,
+  "growth_rate_revenue": 51.609756,
+  "growth_rate_net_income": -58.493400
+}

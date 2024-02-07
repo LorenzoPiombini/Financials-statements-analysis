@@ -1,0 +1,14 @@
+{
+  "ticker": "VRT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 2.092585,
+    "PB": 3.568998
+  },
+  "ownerEarnings": 582500000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -99373.089891
+}

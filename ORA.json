@@ -1,0 +1,14 @@
+{
+  "ticker": "ORA",
+  "valuation": {
+    "PE_valuation": 235.777724, 
+    "DFC_valuation": -4534.227899
+  },
+  "ratios": {
+    "ROIC": 0.516111,
+    "PB": 2.596061
+  },
+  "ownerEarnings": 688431000,
+  "growth_rate_revenue": 55.826142,
+  "growth_rate_net_income": -384.147713
+}

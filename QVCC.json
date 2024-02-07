@@ -1,0 +1,14 @@
+{
+  "ticker": "QVCC",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 77.626822
+  },
+  "ratios": {
+    "ROIC": -16882.730170,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -1177000000,
+  "growth_rate_revenue": 14.481231,
+  "growth_rate_net_income": 29.298660
+}

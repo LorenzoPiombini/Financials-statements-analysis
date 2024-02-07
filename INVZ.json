@@ -1,0 +1,14 @@
+{
+  "ticker": "INVZ",
+  "valuation": {
+    "PE_valuation": 234.706226, 
+    "DFC_valuation": -28870.865828
+  },
+  "ratios": {
+    "ROIC": -51.447696,
+    "PB": 2.767628
+  },
+  "ownerEarnings": -129886000,
+  "growth_rate_revenue": 374.413890,
+  "growth_rate_net_income": 2.863412
+}

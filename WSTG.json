@@ -1,0 +1,14 @@
+{
+  "ticker": "WSTG",
+  "valuation": {
+    "PE_valuation": 0.000345, 
+    "DFC_valuation": -4.839247
+  },
+  "ratios": {
+    "ROIC": 142.303947,
+    "PB": 2.871429
+  },
+  "ownerEarnings": 610100,
+  "growth_rate_revenue": 35.718591,
+  "growth_rate_net_income": 43.726224
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BANR",
+  "valuation": {
+    "PE_valuation": 441.480159, 
+    "DFC_valuation": 23936.159742
+  },
+  "ratios": {
+    "ROIC": 10.911034,
+    "PB": 1.486856
+  },
+  "ownerEarnings": 223444000,
+  "growth_rate_revenue": 44.197629,
+  "growth_rate_net_income": 16.445813
+}

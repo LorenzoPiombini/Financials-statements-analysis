@@ -1,0 +1,14 @@
+{
+  "ticker": "IBEX",
+  "valuation": {
+    "PE_valuation": 20.274573, 
+    "DFC_valuation": 81.940525
+  },
+  "ratios": {
+    "ROIC": 10.334252,
+    "PB": 2.576525
+  },
+  "ownerEarnings": 65217000,
+  "growth_rate_revenue": 8.248318,
+  "growth_rate_net_income": -251.088588
+}

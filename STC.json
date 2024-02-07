@@ -1,0 +1,14 @@
+{
+  "ticker": "STC",
+  "valuation": {
+    "PE_valuation": 218.947598, 
+    "DFC_valuation": 9514.427297
+  },
+  "ratios": {
+    "ROIC": 7.053001,
+    "PB": 0.848702
+  },
+  "ownerEarnings": 272472000,
+  "growth_rate_revenue": 11.272764,
+  "growth_rate_net_income": 15.399840
+}

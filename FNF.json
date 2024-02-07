@@ -1,0 +1,14 @@
+{
+  "ticker": "FNF",
+  "valuation": {
+    "PE_valuation": 62.453497, 
+    "DFC_valuation": 2068.960249
+  },
+  "ratios": {
+    "ROIC": 100.779018,
+    "PB": -3.614780
+  },
+  "ownerEarnings": 1950000000,
+  "growth_rate_revenue": 29.404231,
+  "growth_rate_net_income": 58.791825
+}

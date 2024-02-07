@@ -1,0 +1,14 @@
+{
+  "ticker": "WERN",
+  "valuation": {
+    "PE_valuation": 356.746228, 
+    "DFC_valuation": -6766.733440
+  },
+  "ratios": {
+    "ROIC": 1.574106,
+    "PB": 1.788314
+  },
+  "ownerEarnings": 459689000,
+  "growth_rate_revenue": 41.438437,
+  "growth_rate_net_income": 34.221929
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "DHBCU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.046705
+  },
+  "ratios": {
+    "ROIC": -806598.402463,
+    "PB": -17178017.907976
+  },
+  "ownerEarnings": 335708,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

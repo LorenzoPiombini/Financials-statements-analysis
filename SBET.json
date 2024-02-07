@@ -1,0 +1,14 @@
+{
+  "ticker": "SBET",
+  "valuation": {
+    "PE_valuation": 13.631550, 
+    "DFC_valuation": -15.084838
+  },
+  "ratios": {
+    "ROIC": -93.227992,
+    "PB": 25.824997
+  },
+  "ownerEarnings": -7055726,
+  "growth_rate_revenue": -0.282559,
+  "growth_rate_net_income": 454.521436
+}

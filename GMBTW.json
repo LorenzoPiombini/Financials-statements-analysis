@@ -1,0 +1,14 @@
+{
+  "ticker": "GMBTW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -3.902384
+  },
+  "ratios": {
+    "ROIC": -2829.106549,
+    "PB": -8418.264461
+  },
+  "ownerEarnings": -25041289,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

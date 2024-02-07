@@ -1,0 +1,14 @@
+{
+  "ticker": "HSY",
+  "valuation": {
+    "PE_valuation": 388.081073, 
+    "DFC_valuation": 1855.507421
+  },
+  "ratios": {
+    "ROIC": 17.100090,
+    "PB": 14.509093
+  },
+  "ownerEarnings": 1998440000,
+  "growth_rate_revenue": 8.445235,
+  "growth_rate_net_income": 20.142048
+}

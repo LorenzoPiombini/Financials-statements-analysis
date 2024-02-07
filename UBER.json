@@ -1,0 +1,14 @@
+{
+  "ticker": "UBER",
+  "valuation": {
+    "PE_valuation": 60.883303, 
+    "DFC_valuation": 46.106715
+  },
+  "ratios": {
+    "ROIC": -8.828288,
+    "PB": 6.644523
+  },
+  "ownerEarnings": 5489000000,
+  "growth_rate_revenue": 52.335940,
+  "growth_rate_net_income": -49.378867
+}

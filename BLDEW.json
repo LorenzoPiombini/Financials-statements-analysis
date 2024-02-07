@@ -1,0 +1,14 @@
+{
+  "ticker": "BLDEW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -72.678394
+  },
+  "ratios": {
+    "ROIC": -16.729652,
+    "PB": 0.929117
+  },
+  "ownerEarnings": -102139000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

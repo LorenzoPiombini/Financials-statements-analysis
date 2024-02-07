@@ -1,0 +1,14 @@
+{
+  "ticker": "PEGA",
+  "valuation": {
+    "PE_valuation": 2746.102659, 
+    "DFC_valuation": -2035.730220
+  },
+  "ratios": {
+    "ROIC": -20.856687,
+    "PB": 21.444520
+  },
+  "ownerEarnings": -275921000,
+  "growth_rate_revenue": 37.946576,
+  "growth_rate_net_income": -132.575281
+}

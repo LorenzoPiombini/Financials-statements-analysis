@@ -1,0 +1,14 @@
+{
+  "ticker": "NNOX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -46.001882,
+    "PB": 1.715748
+  },
+  "ownerEarnings": -45757000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 296.683841
+}

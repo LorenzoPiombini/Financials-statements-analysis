@@ -1,0 +1,14 @@
+{
+  "ticker": "VBIV",
+  "valuation": {
+    "PE_valuation": 175.787264, 
+    "DFC_valuation": -256.244854
+  },
+  "ratios": {
+    "ROIC": -85.016140,
+    "PB": 1.569756
+  },
+  "ownerEarnings": -81278000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 81.467803
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FTV",
+  "valuation": {
+    "PE_valuation": 36.145727, 
+    "DFC_valuation": 5744.471863
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 1146100000,
+  "growth_rate_revenue": 3.630030,
+  "growth_rate_net_income": 8.405989
+}

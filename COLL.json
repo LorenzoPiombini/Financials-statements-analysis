@@ -1,0 +1,14 @@
+{
+  "ticker": "COLL",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -8.424434,
+    "PB": 4.028106
+  },
+  "ownerEarnings": -58767000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 60.008367
+}

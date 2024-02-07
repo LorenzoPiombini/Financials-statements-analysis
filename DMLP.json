@@ -1,0 +1,14 @@
+{
+  "ticker": "DMLP",
+  "valuation": {
+    "PE_valuation": 74.019355, 
+    "DFC_valuation": 820.120125
+  },
+  "ratios": {
+    "ROIC": 74.758165,
+    "PB": 6.565412
+  },
+  "ownerEarnings": 149899000,
+  "growth_rate_revenue": 48.711874,
+  "growth_rate_net_income": -117.696116
+}

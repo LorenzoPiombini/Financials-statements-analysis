@@ -1,0 +1,14 @@
+{
+  "ticker": "DENN",
+  "valuation": {
+    "PE_valuation": 2.607461, 
+    "DFC_valuation": 21.270265
+  },
+  "ratios": {
+    "ROIC": 16.223539,
+    "PB": -14.735936
+  },
+  "ownerEarnings": 117556000,
+  "growth_rate_revenue": -4.847980,
+  "growth_rate_net_income": 194.720616
+}

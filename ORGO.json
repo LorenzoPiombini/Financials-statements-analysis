@@ -1,0 +1,14 @@
+{
+  "ticker": "ORGO",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 3.860146,
+    "PB": 1.317011
+  },
+  "ownerEarnings": 64940000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1036.562153
+}

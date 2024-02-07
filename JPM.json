@@ -1,0 +1,14 @@
+{
+  "ticker": "JPM",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 6.671666,
+    "PB": 1.583925
+  },
+  "ownerEarnings": -12060000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -205.419034
+}

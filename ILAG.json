@@ -1,0 +1,14 @@
+{
+  "ticker": "ILAG",
+  "valuation": {
+    "PE_valuation": 5.147830, 
+    "DFC_valuation": -28.638937
+  },
+  "ratios": {
+    "ROIC": -14.461276,
+    "PB": 0.694115
+  },
+  "ownerEarnings": 1035115,
+  "growth_rate_revenue": -28.314120,
+  "growth_rate_net_income": -18.469606
+}

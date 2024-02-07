@@ -1,0 +1,14 @@
+{
+  "ticker": "HOLO",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -83.975512
+  },
+  "ratios": {
+    "ROIC": -70.826547,
+    "PB": 15.984823
+  },
+  "ownerEarnings": -20798744,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

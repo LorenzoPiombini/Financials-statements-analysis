@@ -1,0 +1,14 @@
+{
+  "ticker": "INGN",
+  "valuation": {
+    "PE_valuation": 63.078031, 
+    "DFC_valuation": -1486.653035
+  },
+  "ratios": {
+    "ROIC": 5.580375,
+    "PB": 1.514509
+  },
+  "ownerEarnings": 153375000,
+  "growth_rate_revenue": 57.974767,
+  "growth_rate_net_income": 1088.813166
+}

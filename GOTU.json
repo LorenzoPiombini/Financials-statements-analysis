@@ -1,0 +1,14 @@
+{
+  "ticker": "GOTU",
+  "valuation": {
+    "PE_valuation": 37.222973, 
+    "DFC_valuation": 861.768564
+  },
+  "ratios": {
+    "ROIC": 18.825888,
+    "PB": 1.358508
+  },
+  "ownerEarnings": -363832000,
+  "growth_rate_revenue": 226.629714,
+  "growth_rate_net_income": 59.606316
+}

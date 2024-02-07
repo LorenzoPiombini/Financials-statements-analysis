@@ -1,0 +1,14 @@
+{
+  "ticker": "SHYF",
+  "valuation": {
+    "PE_valuation": 340.662445, 
+    "DFC_valuation": -42319.359723
+  },
+  "ratios": {
+    "ROIC": 8.692402,
+    "PB": 3.246230
+  },
+  "ownerEarnings": 70693000,
+  "growth_rate_revenue": 49.877470,
+  "growth_rate_net_income": 94.690304
+}

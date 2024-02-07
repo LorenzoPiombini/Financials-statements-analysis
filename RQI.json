@@ -1,0 +1,14 @@
+{
+  "ticker": "RQI",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -26.526582,
+    "PB": 0.936483
+  },
+  "ownerEarnings": -605435003,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

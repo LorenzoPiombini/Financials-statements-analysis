@@ -1,0 +1,14 @@
+{
+  "ticker": "TTC",
+  "valuation": {
+    "PE_valuation": 242.709430, 
+    "DFC_valuation": 714.604959
+  },
+  "ratios": {
+    "ROIC": 12.637627,
+    "PB": 5.585873
+  },
+  "ownerEarnings": 732000000,
+  "growth_rate_revenue": 15.530065,
+  "growth_rate_net_income": -7.157166
+}

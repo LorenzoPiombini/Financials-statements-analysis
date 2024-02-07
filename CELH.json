@@ -1,0 +1,14 @@
+{
+  "ticker": "CELH",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -22.327574,
+    "PB": 9.096142
+  },
+  "ownerEarnings": -202511000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 7237.595104
+}

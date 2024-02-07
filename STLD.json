@@ -1,0 +1,14 @@
+{
+  "ticker": "STLD",
+  "valuation": {
+    "PE_valuation": 451899.930860, 
+    "DFC_valuation": 29972449727124.710938
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 3927969000,
+  "growth_rate_revenue": 63155.246168,
+  "growth_rate_net_income": -140.456123
+}

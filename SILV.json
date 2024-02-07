@@ -1,0 +1,14 @@
+{
+  "ticker": "SILV",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 3.278289,
+    "PB": 3.089114
+  },
+  "ownerEarnings": 50219000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 355.654763
+}

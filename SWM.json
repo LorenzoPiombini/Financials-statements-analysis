@@ -1,0 +1,14 @@
+{
+  "ticker": "SWM",
+  "valuation": {
+    "PE_valuation": 51.480814, 
+    "DFC_valuation": 6.118635
+  },
+  "ratios": {
+    "ROIC": 4.153558,
+    "PB": 1.360025
+  },
+  "ownerEarnings": 310600000,
+  "growth_rate_revenue": 2.248316,
+  "growth_rate_net_income": -4.881167
+}

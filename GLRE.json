@@ -1,0 +1,14 @@
+{
+  "ticker": "GLRE",
+  "valuation": {
+    "PE_valuation": 58.967408, 
+    "DFC_valuation": -6836.437524
+  },
+  "ratios": {
+    "ROIC": 11.395742,
+    "PB": 0.549275
+  },
+  "ownerEarnings": 118189000,
+  "growth_rate_revenue": -882.457035,
+  "growth_rate_net_income": -87.695923
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CTLT",
+  "valuation": {
+    "PE_valuation": -56.899878, 
+    "DFC_valuation": -1187.378469
+  },
+  "ratios": {
+    "ROIC": -0.731330,
+    "PB": 1.693238
+  },
+  "ownerEarnings": 914000000,
+  "growth_rate_revenue": 4.875630,
+  "growth_rate_net_income": 266.077608
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SCL",
+  "valuation": {
+    "PE_valuation": 413.946875, 
+    "DFC_valuation": -3419.265873
+  },
+  "ratios": {
+    "ROIC": 4.545814,
+    "PB": 2.079871
+  },
+  "ownerEarnings": 362395000,
+  "growth_rate_revenue": 13.273072,
+  "growth_rate_net_income": 37.238719
+}

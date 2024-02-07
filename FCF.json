@@ -1,0 +1,14 @@
+{
+  "ticker": "FCF",
+  "valuation": {
+    "PE_valuation": 27.906639, 
+    "DFC_valuation": 822.652155
+  },
+  "ratios": {
+    "ROIC": 9.200385,
+    "PB": 1.243031
+  },
+  "ownerEarnings": 192760000,
+  "growth_rate_revenue": 10.742120,
+  "growth_rate_net_income": 10.980243
+}

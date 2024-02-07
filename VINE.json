@@ -1,0 +1,14 @@
+{
+  "ticker": "VINE",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -270.814197,
+    "PB": 2.188484
+  },
+  "ownerEarnings": -19283069,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

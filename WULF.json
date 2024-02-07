@@ -1,0 +1,14 @@
+{
+  "ticker": "WULF",
+  "valuation": {
+    "PE_valuation": 6.677457, 
+    "DFC_valuation": -39.459366
+  },
+  "ratios": {
+    "ROIC": -16.986046,
+    "PB": 0.629516
+  },
+  "ownerEarnings": 64417000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -198.167057
+}

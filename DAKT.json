@@ -1,0 +1,14 @@
+{
+  "ticker": "DAKT",
+  "valuation": {
+    "PE_valuation": 24.507090, 
+    "DFC_valuation": -514.838552
+  },
+  "ratios": {
+    "ROIC": 7.022547,
+    "PB": 1.087193
+  },
+  "ownerEarnings": 81719000,
+  "growth_rate_revenue": 23.005115,
+  "growth_rate_net_income": -202.878788
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MPC",
+  "valuation": {
+    "PE_valuation": 501.364219, 
+    "DFC_valuation": 2661.796592
+  },
+  "ratios": {
+    "ROIC": 27.126409,
+    "PB": 2.166706
+  },
+  "ownerEarnings": 20022000000,
+  "growth_rate_revenue": 13.203430,
+  "growth_rate_net_income": 65.838099
+}

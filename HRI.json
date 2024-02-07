@@ -1,0 +1,14 @@
+{
+  "ticker": "HRI",
+  "valuation": {
+    "PE_valuation": 3.906279, 
+    "DFC_valuation": -930.474826
+  },
+  "ratios": {
+    "ROIC": 7.876135,
+    "PB": 3.512647
+  },
+  "ownerEarnings": 2456800000,
+  "growth_rate_revenue": 1.364614,
+  "growth_rate_net_income": -405.469572
+}

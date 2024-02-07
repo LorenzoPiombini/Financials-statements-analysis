@@ -1,0 +1,14 @@
+{
+  "ticker": "ARCH",
+  "valuation": {
+    "PE_valuation": 1273.466634, 
+    "DFC_valuation": 64094.446953
+  },
+  "ratios": {
+    "ROIC": 88.868068,
+    "PB": 1.791802
+  },
+  "ownerEarnings": 1677206000,
+  "growth_rate_revenue": 27.097278,
+  "growth_rate_net_income": 23.355540
+}

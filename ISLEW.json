@@ -1,0 +1,14 @@
+{
+  "ticker": "ISLEW",
+  "valuation": {
+    "PE_valuation": 0.025031, 
+    "DFC_valuation": -2.517184
+  },
+  "ratios": {
+    "ROIC": -0.916882,
+    "PB": 0.262878
+  },
+  "ownerEarnings": 4961920,
+  "growth_rate_revenue": 24916.792431,
+  "growth_rate_net_income": 20527.514431
+}

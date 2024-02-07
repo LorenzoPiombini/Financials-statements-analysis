@@ -1,0 +1,14 @@
+{
+  "ticker": "SENEB",
+  "valuation": {
+    "PE_valuation": 15.508559, 
+    "DFC_valuation": -5541.823441
+  },
+  "ratios": {
+    "ROIC": 3.483613,
+    "PB": 0.698410
+  },
+  "ownerEarnings": 168296000,
+  "growth_rate_revenue": -4.883934,
+  "growth_rate_net_income": -113.081887
+}

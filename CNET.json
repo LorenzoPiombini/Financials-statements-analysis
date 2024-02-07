@@ -1,0 +1,14 @@
+{
+  "ticker": "CNET",
+  "valuation": {
+    "PE_valuation": 3.509409, 
+    "DFC_valuation": -28.300901
+  },
+  "ratios": {
+    "ROIC": -67.823504,
+    "PB": 1.334754
+  },
+  "ownerEarnings": -7083000,
+  "growth_rate_revenue": 15343.634018,
+  "growth_rate_net_income": -506.044375
+}

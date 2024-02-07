@@ -1,0 +1,14 @@
+{
+  "ticker": "CSCO",
+  "valuation": {
+    "PE_valuation": 22211.958015, 
+    "DFC_valuation": 1694043804.775958
+  },
+  "ratios": {
+    "ROIC": 23.465572,
+    "PB": 4.806989
+  },
+  "ownerEarnings": 13327000000,
+  "growth_rate_revenue": 223.641118,
+  "growth_rate_net_income": 397.726397
+}

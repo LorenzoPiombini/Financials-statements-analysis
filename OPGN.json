@@ -1,0 +1,14 @@
+{
+  "ticker": "OPGN",
+  "valuation": {
+    "PE_valuation": 6.337114, 
+    "DFC_valuation": -245.021670
+  },
+  "ratios": {
+    "ROIC": -134.225531,
+    "PB": 0.908831
+  },
+  "ownerEarnings": -19275301,
+  "growth_rate_revenue": 11.676918,
+  "growth_rate_net_income": 33.698337
+}

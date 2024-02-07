@@ -1,0 +1,14 @@
+{
+  "ticker": "DAC",
+  "valuation": {
+    "PE_valuation": 113.794928, 
+    "DFC_valuation": 7723.963017
+  },
+  "ratios": {
+    "ROIC": 20.188543,
+    "PB": 0.421251
+  },
+  "ownerEarnings": 941095000,
+  "growth_rate_revenue": 20.262685,
+  "growth_rate_net_income": 37.208375
+}

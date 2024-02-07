@@ -1,0 +1,14 @@
+{
+  "ticker": "GAU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 22.825923,
+    "PB": 0.673454
+  },
+  "ownerEarnings": 37948000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 22246.504521
+}

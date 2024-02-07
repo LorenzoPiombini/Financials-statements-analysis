@@ -1,0 +1,14 @@
+{
+  "ticker": "PINC",
+  "valuation": {
+    "PE_valuation": 20.323403, 
+    "DFC_valuation": 217.346431
+  },
+  "ratios": {
+    "ROIC": 6.055925,
+    "PB": 1.407282
+  },
+  "ownerEarnings": 346968000,
+  "growth_rate_revenue": 14.198527,
+  "growth_rate_net_income": 119.576040
+}

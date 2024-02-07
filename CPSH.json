@@ -1,0 +1,14 @@
+{
+  "ticker": "CPSH",
+  "valuation": {
+    "PE_valuation": 13.016016, 
+    "DFC_valuation": 400.527193
+  },
+  "ratios": {
+    "ROIC": 9.854371,
+    "PB": 2.470571
+  },
+  "ownerEarnings": 1460058,
+  "growth_rate_revenue": 49.256624,
+  "growth_rate_net_income": -151.625998
+}

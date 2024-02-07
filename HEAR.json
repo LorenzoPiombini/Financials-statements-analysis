@@ -1,0 +1,14 @@
+{
+  "ticker": "HEAR",
+  "valuation": {
+    "PE_valuation": -861.057612, 
+    "DFC_valuation": -1002767.006462
+  },
+  "ratios": {
+    "ROIC": -50.207976,
+    "PB": 1.326121
+  },
+  "ownerEarnings": -55996000,
+  "growth_rate_revenue": 57.688646,
+  "growth_rate_net_income": 68.190827
+}

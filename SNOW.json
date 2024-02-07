@@ -1,0 +1,14 @@
+{
+  "ticker": "SNOW",
+  "valuation": {
+    "PE_valuation": 1409.966327, 
+    "DFC_valuation": 6624.924583
+  },
+  "ratios": {
+    "ROIC": -13.812746,
+    "PB": 9.138222
+  },
+  "ownerEarnings": -1598232000,
+  "growth_rate_revenue": 93.216655,
+  "growth_rate_net_income": 23.467551
+}

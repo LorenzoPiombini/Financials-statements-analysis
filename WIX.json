@@ -1,0 +1,14 @@
+{
+  "ticker": "WIX",
+  "valuation": {
+    "PE_valuation": 9156.578794, 
+    "DFC_valuation": -42105.409292
+  },
+  "ratios": {
+    "ROIC": -24.231080,
+    "PB": -16.637274
+  },
+  "ownerEarnings": -203198000,
+  "growth_rate_revenue": 107.820788,
+  "growth_rate_net_income": 60.825144
+}

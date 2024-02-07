@@ -1,0 +1,14 @@
+{
+  "ticker": "DERM",
+  "valuation": {
+    "PE_valuation": 5.378119, 
+    "DFC_valuation": -910.626933
+  },
+  "ratios": {
+    "ROIC": -68.702068,
+    "PB": 1.982101
+  },
+  "ownerEarnings": -29897000,
+  "growth_rate_revenue": 236.085265,
+  "growth_rate_net_income": 67.856090
+}

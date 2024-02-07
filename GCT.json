@@ -1,0 +1,14 @@
+{
+  "ticker": "GCT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 182.316090
+  },
+  "ratios": {
+    "ROIC": 5.548549,
+    "PB": 1.173293
+  },
+  "ownerEarnings": 26152000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

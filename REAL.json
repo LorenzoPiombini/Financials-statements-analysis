@@ -1,0 +1,14 @@
+{
+  "ticker": "REAL",
+  "valuation": {
+    "PE_valuation": 30.882779, 
+    "DFC_valuation": -171.926840
+  },
+  "ratios": {
+    "ROIC": -33.045989,
+    "PB": -0.704922
+  },
+  "ownerEarnings": -159498000,
+  "growth_rate_revenue": 45.945468,
+  "growth_rate_net_income": 43.057575
+}

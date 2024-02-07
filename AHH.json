@@ -1,0 +1,14 @@
+{
+  "ticker": "AHH",
+  "valuation": {
+    "PE_valuation": 50.981496, 
+    "DFC_valuation": 156.944275
+  },
+  "ratios": {
+    "ROIC": 3.701251,
+    "PB": 0.861594
+  },
+  "ownerEarnings": 133450000,
+  "growth_rate_revenue": 19.744468,
+  "growth_rate_net_income": 112.070247
+}

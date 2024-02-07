@@ -1,0 +1,14 @@
+{
+  "ticker": "SCHW-PJ",
+  "valuation": {
+    "PE_valuation": 762.291144, 
+    "DFC_valuation": 15355.227034
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -14192000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 315.545850
+}

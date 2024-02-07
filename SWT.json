@@ -1,0 +1,14 @@
+{
+  "ticker": "SWT",
+  "valuation": {
+    "PE_valuation": 476.100619, 
+    "DFC_valuation": 463.505447
+  },
+  "ratios": {
+    "ROIC": 7.620498,
+    "PB": 1.562245
+  },
+  "ownerEarnings": 3147500000,
+  "growth_rate_revenue": 13.468594,
+  "growth_rate_net_income": 8.718714
+}

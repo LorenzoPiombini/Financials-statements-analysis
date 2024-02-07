@@ -1,0 +1,14 @@
+{
+  "ticker": "BIIB",
+  "valuation": {
+    "PE_valuation": 12587.383208, 
+    "DFC_valuation": 12437319.900152
+  },
+  "ratios": {
+    "ROIC": 9.399517,
+    "PB": 2.645015
+  },
+  "ownerEarnings": 770800000,
+  "growth_rate_revenue": 57.608244,
+  "growth_rate_net_income": -73.236527
+}

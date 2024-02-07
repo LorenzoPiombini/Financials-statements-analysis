@@ -1,0 +1,14 @@
+{
+  "ticker": "INFI",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 245.474927,
+    "PB": -2.623419
+  },
+  "ownerEarnings": -47352000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 121.281983
+}

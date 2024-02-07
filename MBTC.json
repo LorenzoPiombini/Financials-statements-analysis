@@ -1,0 +1,14 @@
+{
+  "ticker": "MBTC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -4.131148,
+    "PB": 7.549211
+  },
+  "ownerEarnings": -2047534,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

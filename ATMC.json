@@ -1,0 +1,14 @@
+{
+  "ticker": "ATMC",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -0.318827
+  },
+  "ratios": {
+    "ROIC": -0.001314,
+    "PB": 0.255119
+  },
+  "ownerEarnings": -784,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

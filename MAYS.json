@@ -1,0 +1,14 @@
+{
+  "ticker": "MAYS",
+  "valuation": {
+    "PE_valuation": 0.579524, 
+    "DFC_valuation": 18.038435
+  },
+  "ratios": {
+    "ROIC": 0.114832,
+    "PB": 1.715731
+  },
+  "ownerEarnings": 3007606,
+  "growth_rate_revenue": -29.885746,
+  "growth_rate_net_income": -292.961039
+}

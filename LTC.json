@@ -1,0 +1,14 @@
+{
+  "ticker": "LTC",
+  "valuation": {
+    "PE_valuation": 428.304136, 
+    "DFC_valuation": 17028.657893
+  },
+  "ratios": {
+    "ROIC": 6.229623,
+    "PB": 1.711118
+  },
+  "ownerEarnings": 126833000,
+  "growth_rate_revenue": 119.272873,
+  "growth_rate_net_income": 244.272418
+}

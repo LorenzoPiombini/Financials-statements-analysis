@@ -1,0 +1,14 @@
+{
+  "ticker": "DDOG",
+  "valuation": {
+    "PE_valuation": 288.940636, 
+    "DFC_valuation": 1252.705566
+  },
+  "ratios": {
+    "ROIC": -1.398254,
+    "PB": 16.435699
+  },
+  "ownerEarnings": -287464000,
+  "growth_rate_revenue": 94.844850,
+  "growth_rate_net_income": 136.807002
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "PGTI",
+  "valuation": {
+    "PE_valuation": 86.485008, 
+    "DFC_valuation": 855.257310
+  },
+  "ratios": {
+    "ROIC": 8.062565,
+    "PB": 1.713766
+  },
+  "ownerEarnings": 260311000,
+  "growth_rate_revenue": 17.534960,
+  "growth_rate_net_income": -63.893547
+}

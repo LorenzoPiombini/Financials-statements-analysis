@@ -1,0 +1,14 @@
+{
+  "ticker": "ROK",
+  "valuation": {
+    "PE_valuation": 171.467016, 
+    "DFC_valuation": 607.667223
+  },
+  "ratios": {
+    "ROIC": 18.155164,
+    "PB": 9.206337
+  },
+  "ownerEarnings": 1563600000,
+  "growth_rate_revenue": 2.315340,
+  "growth_rate_net_income": 2.471451
+}

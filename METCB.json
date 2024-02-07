@@ -1,0 +1,14 @@
+{
+  "ticker": "METCB",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 26.052037,
+    "PB": 1.244085
+  },
+  "ownerEarnings": 273581000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 23.998645
+}

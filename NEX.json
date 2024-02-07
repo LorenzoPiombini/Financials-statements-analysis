@@ -1,0 +1,14 @@
+{
+  "ticker": "NEX",
+  "valuation": {
+    "PE_valuation": -6.680610, 
+    "DFC_valuation": 274.187873
+  },
+  "ratios": {
+    "ROIC": 13.011209,
+    "PB": 2.846680
+  },
+  "ownerEarnings": 428113000,
+  "growth_rate_revenue": 74.461453,
+  "growth_rate_net_income": -98.137108
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SASI",
+  "valuation": {
+    "PE_valuation": 341.540035, 
+    "DFC_valuation": -688919.237565
+  },
+  "ratios": {
+    "ROIC": -169.637249,
+    "PB": 0.827539
+  },
+  "ownerEarnings": -8987170,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1.776199
+}

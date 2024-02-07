@@ -1,0 +1,14 @@
+{
+  "ticker": "MEOH",
+  "valuation": {
+    "PE_valuation": 227.755532, 
+    "DFC_valuation": 12276.764461
+  },
+  "ratios": {
+    "ROIC": 8.076367,
+    "PB": 1.280319
+  },
+  "ownerEarnings": 1556157000,
+  "growth_rate_revenue": 133.860120,
+  "growth_rate_net_income": 249.313608
+}

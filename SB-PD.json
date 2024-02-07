@@ -1,0 +1,14 @@
+{
+  "ticker": "SB-PD",
+  "valuation": {
+    "PE_valuation": 4.857700, 
+    "DFC_valuation": 28.522007
+  },
+  "ratios": {
+    "ROIC": 14.380321,
+    "PB": 0.454844
+  },
+  "ownerEarnings": 374742000,
+  "growth_rate_revenue": 20.004412,
+  "growth_rate_net_income": 15.229830
+}

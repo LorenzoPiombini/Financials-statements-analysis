@@ -1,0 +1,14 @@
+{
+  "ticker": "GOLD",
+  "valuation": {
+    "PE_valuation": 91.241674, 
+    "DFC_valuation": 928932.674915
+  },
+  "ratios": {
+    "ROIC": 7.288135,
+    "PB": 1.336164
+  },
+  "ownerEarnings": 9414000000,
+  "growth_rate_revenue": 38.832399,
+  "growth_rate_net_income": 57.440792
+}

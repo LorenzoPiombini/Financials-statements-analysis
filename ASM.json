@@ -1,0 +1,14 @@
+{
+  "ticker": "ASM",
+  "valuation": {
+    "PE_valuation": -22.303527, 
+    "DFC_valuation": 167959.336912
+  },
+  "ratios": {
+    "ROIC": 2.946332,
+    "PB": 0.793551
+  },
+  "ownerEarnings": 11288000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 119.537973
+}

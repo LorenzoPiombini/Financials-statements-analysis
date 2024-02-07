@@ -1,0 +1,14 @@
+{
+  "ticker": "AFGB",
+  "valuation": {
+    "PE_valuation": 141.057231, 
+    "DFC_valuation": 1066.449374
+  },
+  "ratios": {
+    "ROIC": 17.411134,
+    "PB": 2.883151
+  },
+  "ownerEarnings": 1254000000,
+  "growth_rate_revenue": -9.406754,
+  "growth_rate_net_income": 219.100418
+}

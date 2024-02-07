@@ -1,0 +1,14 @@
+{
+  "ticker": "VOR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -28.034797,
+    "PB": 1.049520
+  },
+  "ownerEarnings": -93126000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 111.241971
+}

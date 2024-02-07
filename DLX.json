@@ -1,0 +1,14 @@
+{
+  "ticker": "DLX",
+  "valuation": {
+    "PE_valuation": 22.248508, 
+    "DFC_valuation": 129.658592
+  },
+  "ratios": {
+    "ROIC": 5.602866,
+    "PB": 1.200010
+  },
+  "ownerEarnings": 541624000,
+  "growth_rate_revenue": 16.593429,
+  "growth_rate_net_income": 13.667513
+}

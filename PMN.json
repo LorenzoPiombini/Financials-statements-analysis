@@ -1,0 +1,14 @@
+{
+  "ticker": "PMN",
+  "valuation": {
+    "PE_valuation": 0.028315, 
+    "DFC_valuation": -124.860230
+  },
+  "ratios": {
+    "ROIC": 1223.998730,
+    "PB": -24.159370
+  },
+  "ownerEarnings": -23750036,
+  "growth_rate_revenue": 311.163111,
+  "growth_rate_net_income": 38.749209
+}

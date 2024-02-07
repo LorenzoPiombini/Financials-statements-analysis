@@ -1,0 +1,14 @@
+{
+  "ticker": "CMCL",
+  "valuation": {
+    "PE_valuation": 431.337506, 
+    "DFC_valuation": -89684.011989
+  },
+  "ratios": {
+    "ROIC": 12.626531,
+    "PB": 0.930150
+  },
+  "ownerEarnings": 84210000,
+  "growth_rate_revenue": 433.760991,
+  "growth_rate_net_income": -inf
+}

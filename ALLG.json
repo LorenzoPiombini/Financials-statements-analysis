@@ -1,0 +1,14 @@
+{
+  "ticker": "ALLG",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -253.695639
+  },
+  "ratios": {
+    "ROIC": -27.886448,
+    "PB": -28.974933
+  },
+  "ownerEarnings": 3236000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

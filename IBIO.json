@@ -1,0 +1,14 @@
+{
+  "ticker": "IBIO",
+  "valuation": {
+    "PE_valuation": 0.134872, 
+    "DFC_valuation": -83.049652
+  },
+  "ratios": {
+    "ROIC": -80.102208,
+    "PB": 9.712570
+  },
+  "ownerEarnings": -27964000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 69.856367
+}

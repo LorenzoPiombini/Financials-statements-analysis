@@ -1,0 +1,14 @@
+{
+  "ticker": "THM",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1.132025,
+    "PB": 1.381304
+  },
+  "ownerEarnings": -4242720,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 80.231518
+}

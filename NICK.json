@@ -1,0 +1,14 @@
+{
+  "ticker": "NICK",
+  "valuation": {
+    "PE_valuation": -98.614059, 
+    "DFC_valuation": -8.659898
+  },
+  "ratios": {
+    "ROIC": -27.900061,
+    "PB": 0.562301
+  },
+  "ownerEarnings": -26707000,
+  "growth_rate_revenue": 31.769574,
+  "growth_rate_net_income": 50.884703
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GTHX",
+  "valuation": {
+    "PE_valuation": 190.317791, 
+    "DFC_valuation": -22063.954971
+  },
+  "ratios": {
+    "ROIC": -86.502221,
+    "PB": 3.445820
+  },
+  "ownerEarnings": -146999000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 103.793426
+}

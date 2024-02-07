@@ -1,0 +1,14 @@
+{
+  "ticker": "BRFS",
+  "valuation": {
+    "PE_valuation": -237.899886, 
+    "DFC_valuation": 15934.468855
+  },
+  "ratios": {
+    "ROIC": 1.304896,
+    "PB": 0.791301
+  },
+  "ownerEarnings": 8160792000,
+  "growth_rate_revenue": 29.762080,
+  "growth_rate_net_income": 410.275934
+}

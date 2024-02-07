@@ -1,0 +1,14 @@
+{
+  "ticker": "WH",
+  "valuation": {
+    "PE_valuation": 77.483016, 
+    "DFC_valuation": 232.408344
+  },
+  "ratios": {
+    "ROIC": 13.389815,
+    "PB": 6.693652
+  },
+  "ownerEarnings": 568000000,
+  "growth_rate_revenue": 3.897770,
+  "growth_rate_net_income": -41.076800
+}

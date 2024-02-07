@@ -1,0 +1,14 @@
+{
+  "ticker": "PPL",
+  "valuation": {
+    "PE_valuation": 23.658047, 
+    "DFC_valuation": -100.176210
+  },
+  "ratios": {
+    "ROIC": 3.809724,
+    "PB": 1.545577
+  },
+  "ownerEarnings": 5074000000,
+  "growth_rate_revenue": 4.992405,
+  "growth_rate_net_income": 4.394627
+}

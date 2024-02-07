@@ -1,0 +1,14 @@
+{
+  "ticker": "TASK",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 316.035300
+  },
+  "ratios": {
+    "ROIC": 6.478521,
+    "PB": 3.628266
+  },
+  "ownerEarnings": 104314000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

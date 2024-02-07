@@ -1,0 +1,14 @@
+{
+  "ticker": "RPTX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -14.246484,
+    "PB": 2.206210
+  },
+  "ownerEarnings": -60236000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 74.334185
+}

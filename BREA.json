@@ -1,0 +1,14 @@
+{
+  "ticker": "BREA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -7.603122
+  },
+  "ratios": {
+    "ROIC": -241.783254,
+    "PB": -392.383144
+  },
+  "ownerEarnings": -1114542,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

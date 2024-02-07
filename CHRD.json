@@ -1,0 +1,14 @@
+{
+  "ticker": "CHRD",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 31.978959,
+    "PB": 0.942918
+  },
+  "ownerEarnings": 2698992000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 0.0
+}

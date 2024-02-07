@@ -1,0 +1,14 @@
+{
+  "ticker": "ITHXU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.716442
+  },
+  "ratios": {
+    "ROIC": -345.815377,
+    "PB": -19618.901535
+  },
+  "ownerEarnings": 3311639,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

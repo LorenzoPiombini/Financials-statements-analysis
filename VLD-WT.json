@@ -1,0 +1,14 @@
+{
+  "ticker": "VLD-WT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -93.364603
+  },
+  "ratios": {
+    "ROIC": -790.125405,
+    "PB": 2.332823
+  },
+  "ownerEarnings": -98251000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

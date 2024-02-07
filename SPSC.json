@@ -1,0 +1,14 @@
+{
+  "ticker": "SPSC",
+  "valuation": {
+    "PE_valuation": 527.102765, 
+    "DFC_valuation": 2666.226803
+  },
+  "ratios": {
+    "ROIC": 9.625595,
+    "PB": 8.636640
+  },
+  "ownerEarnings": 69520000,
+  "growth_rate_revenue": 31.483284,
+  "growth_rate_net_income": 64.706052
+}

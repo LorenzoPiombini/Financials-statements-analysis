@@ -1,0 +1,14 @@
+{
+  "ticker": "AMPS-WT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -32.275344
+  },
+  "ratios": {
+    "ROIC": 6.469089,
+    "PB": 2.383815
+  },
+  "ownerEarnings": 226706000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

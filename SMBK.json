@@ -1,0 +1,14 @@
+{
+  "ticker": "SMBK",
+  "valuation": {
+    "PE_valuation": 3.170858, 
+    "DFC_valuation": 177.753078
+  },
+  "ratios": {
+    "ROIC": 13.406519,
+    "PB": 1.064540
+  },
+  "ownerEarnings": 119556000,
+  "growth_rate_revenue": 5.789122,
+  "growth_rate_net_income": 29.173094
+}

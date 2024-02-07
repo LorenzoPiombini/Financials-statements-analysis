@@ -1,0 +1,14 @@
+{
+  "ticker": "OCS",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -126.038253,
+    "PB": -3.118451
+  },
+  "ownerEarnings": -29437000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

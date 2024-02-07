@@ -1,0 +1,14 @@
+{
+  "ticker": "FOCS",
+  "valuation": {
+    "PE_valuation": 71.020197, 
+    "DFC_valuation": 630.624948
+  },
+  "ratios": {
+    "ROIC": 3.650729,
+    "PB": 2.318155
+  },
+  "ownerEarnings": 466859000,
+  "growth_rate_revenue": 36.604443,
+  "growth_rate_net_income": 248.311771
+}

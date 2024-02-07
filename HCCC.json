@@ -1,0 +1,14 @@
+{
+  "ticker": "HCCC",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -23.781315
+  },
+  "ratios": {
+    "ROIC": -0.000176,
+    "PB": 6309.605244
+  },
+  "ownerEarnings": 42471,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -1649.508868
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GLNG",
+  "valuation": {
+    "PE_valuation": -96.020850, 
+    "DFC_valuation": 25.709104
+  },
+  "ratios": {
+    "ROIC": 2.480124,
+    "PB": 0.983164
+  },
+  "ownerEarnings": -493171000,
+  "growth_rate_revenue": 14.939574,
+  "growth_rate_net_income": -139.310955
+}

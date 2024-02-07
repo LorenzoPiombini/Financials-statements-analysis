@@ -1,0 +1,14 @@
+{
+  "ticker": "SUPN",
+  "valuation": {
+    "PE_valuation": 327.308025, 
+    "DFC_valuation": 189003.149785
+  },
+  "ratios": {
+    "ROIC": 4.945532,
+    "PB": 2.160040
+  },
+  "ownerEarnings": 139305000,
+  "growth_rate_revenue": 269.689738,
+  "growth_rate_net_income": -2224.328756
+}

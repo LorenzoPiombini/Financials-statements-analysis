@@ -1,0 +1,14 @@
+{
+  "ticker": "USAS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -30.868384,
+    "PB": 1.290256
+  },
+  "ownerEarnings": 22933000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

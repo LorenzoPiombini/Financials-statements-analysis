@@ -1,0 +1,14 @@
+{
+  "ticker": "VMD",
+  "valuation": {
+    "PE_valuation": 5.919360, 
+    "DFC_valuation": 16.462975
+  },
+  "ratios": {
+    "ROIC": 5.799261,
+    "PB": 3.009814
+  },
+  "ownerEarnings": 38764000,
+  "growth_rate_revenue": 41.117581,
+  "growth_rate_net_income": 193.209167
+}

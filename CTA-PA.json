@@ -1,0 +1,14 @@
+{
+  "ticker": "CTA-PA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 5.985904,
+    "PB": 2.675238
+  },
+  "ownerEarnings": 3928000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 0.0
+}

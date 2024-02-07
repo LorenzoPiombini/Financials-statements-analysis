@@ -1,0 +1,14 @@
+{
+  "ticker": "MPB",
+  "valuation": {
+    "PE_valuation": 111.589291, 
+    "DFC_valuation": 10383.295653
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 40504000,
+  "growth_rate_revenue": 282.555219,
+  "growth_rate_net_income": 9.534476
+}

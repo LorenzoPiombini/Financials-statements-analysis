@@ -1,0 +1,14 @@
+{
+  "ticker": "NARI",
+  "valuation": {
+    "PE_valuation": 567.427485, 
+    "DFC_valuation": -5047.806762
+  },
+  "ratios": {
+    "ROIC": -6.521562,
+    "PB": 8.053589
+  },
+  "ownerEarnings": -42488000,
+  "growth_rate_revenue": 301020197586.048828,
+  "growth_rate_net_income": -3932521968850.528320
+}

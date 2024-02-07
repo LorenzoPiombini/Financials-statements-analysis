@@ -1,0 +1,14 @@
+{
+  "ticker": "SNTG",
+  "valuation": {
+    "PE_valuation": -0.738653, 
+    "DFC_valuation": -20.362238
+  },
+  "ratios": {
+    "ROIC": -17.727783,
+    "PB": 0.321938
+  },
+  "ownerEarnings": -2488333,
+  "growth_rate_revenue": -69.302474,
+  "growth_rate_net_income": -22.277228
+}

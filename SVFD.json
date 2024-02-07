@@ -1,0 +1,14 @@
+{
+  "ticker": "SVFD",
+  "valuation": {
+    "PE_valuation": 347.873441, 
+    "DFC_valuation": -2568.792072
+  },
+  "ratios": {
+    "ROIC": -94.471779,
+    "PB": 0.452193
+  },
+  "ownerEarnings": -6613228,
+  "growth_rate_revenue": 196.029840,
+  "growth_rate_net_income": 31.172525
+}

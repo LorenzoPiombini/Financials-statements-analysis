@@ -1,0 +1,14 @@
+{
+  "ticker": "ATGL",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 5.954693
+  },
+  "ratios": {
+    "ROIC": 209.881623,
+    "PB": -0.000279
+  },
+  "ownerEarnings": -2521428,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

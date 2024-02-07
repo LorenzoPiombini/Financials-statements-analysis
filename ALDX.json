@@ -1,0 +1,14 @@
+{
+  "ticker": "ALDX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -37.060588,
+    "PB": 2.691943
+  },
+  "ownerEarnings": -68603197,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 190.432467
+}

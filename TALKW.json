@@ -1,0 +1,14 @@
+{
+  "ticker": "TALKW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -35.972036
+  },
+  "ratios": {
+    "ROIC": -60.587084,
+    "PB": 0.750745
+  },
+  "ownerEarnings": -79159000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

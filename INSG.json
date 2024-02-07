@@ -1,0 +1,14 @@
+{
+  "ticker": "INSG",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -55.223436,
+    "PB": -12.850657
+  },
+  "ownerEarnings": -19719000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 88.857468
+}

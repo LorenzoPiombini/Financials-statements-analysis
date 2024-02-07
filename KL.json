@@ -1,0 +1,14 @@
+{
+  "ticker": "KL",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 16.230468,
+    "PB": 2.194612
+  },
+  "ownerEarnings": 1472189000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 129.714583
+}

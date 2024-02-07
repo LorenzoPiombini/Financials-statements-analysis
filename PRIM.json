@@ -1,0 +1,14 @@
+{
+  "ticker": "PRIM",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 6.489146,
+    "PB": 1.052641
+  },
+  "ownerEarnings": 373573000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 2587.182796
+}

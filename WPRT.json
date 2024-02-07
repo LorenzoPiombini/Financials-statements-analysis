@@ -1,0 +1,14 @@
+{
+  "ticker": "WPRT",
+  "valuation": {
+    "PE_valuation": 1605.521207, 
+    "DFC_valuation": -6916928.508759
+  },
+  "ratios": {
+    "ROIC": -15.074690,
+    "PB": 0.646399
+  },
+  "ownerEarnings": -30303000,
+  "growth_rate_revenue": 10208.126747,
+  "growth_rate_net_income": 166.037088
+}

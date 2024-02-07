@@ -1,0 +1,14 @@
+{
+  "ticker": "CME",
+  "valuation": {
+    "PE_valuation": 1091.520568, 
+    "DFC_valuation": 14729.696801
+  },
+  "ratios": {
+    "ROIC": 7.669733,
+    "PB": 2.244200
+  },
+  "ownerEarnings": 1882500000,
+  "growth_rate_revenue": 44.468063,
+  "growth_rate_net_income": -267.202181
+}

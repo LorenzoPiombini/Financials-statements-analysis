@@ -1,0 +1,14 @@
+{
+  "ticker": "CAKE",
+  "valuation": {
+    "PE_valuation": 169.514700, 
+    "DFC_valuation": 13761.496396
+  },
+  "ratios": {
+    "ROIC": 3.130229,
+    "PB": 5.518831
+  },
+  "ownerEarnings": 325817000,
+  "growth_rate_revenue": 40.105587,
+  "growth_rate_net_income": 30.351649
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BLCM",
+  "valuation": {
+    "PE_valuation": 0.638432, 
+    "DFC_valuation": -179.493521
+  },
+  "ratios": {
+    "ROIC": -1339.114689,
+    "PB": 11.015552
+  },
+  "ownerEarnings": -33534000,
+  "growth_rate_revenue": -18.794718,
+  "growth_rate_net_income": 253.476875
+}

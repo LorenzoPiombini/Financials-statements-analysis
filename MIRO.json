@@ -1,0 +1,14 @@
+{
+  "ticker": "MIRO",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -115.807688
+  },
+  "ratios": {
+    "ROIC": -92.286811,
+    "PB": 2.373908
+  },
+  "ownerEarnings": -30334153,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

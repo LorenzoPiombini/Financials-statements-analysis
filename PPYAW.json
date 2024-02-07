@@ -1,0 +1,14 @@
+{
+  "ticker": "PPYAW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -4.811494
+  },
+  "ratios": {
+    "ROIC": -1.494122,
+    "PB": 1.037089
+  },
+  "ownerEarnings": -14728465,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

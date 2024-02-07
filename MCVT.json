@@ -1,0 +1,14 @@
+{
+  "ticker": "MCVT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 3.954535,
+    "PB": 0.596037
+  },
+  "ownerEarnings": 660765,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 5.905795
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ARDS",
+  "valuation": {
+    "PE_valuation": 0.005407, 
+    "DFC_valuation": -51.738498
+  },
+  "ratios": {
+    "ROIC": 186.616860,
+    "PB": -0.914380
+  },
+  "ownerEarnings": -30903000,
+  "growth_rate_revenue": -1.649952,
+  "growth_rate_net_income": 70.513810
+}

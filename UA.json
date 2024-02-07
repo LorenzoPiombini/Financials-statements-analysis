@@ -1,0 +1,14 @@
+{
+  "ticker": "UA",
+  "valuation": {
+    "PE_valuation": 252.574868, 
+    "DFC_valuation": -329551.112606
+  },
+  "ratios": {
+    "ROIC": 8.782487,
+    "PB": 1.926870
+  },
+  "ownerEarnings": 656682000,
+  "growth_rate_revenue": 113.009798,
+  "growth_rate_net_income": 100.552058
+}

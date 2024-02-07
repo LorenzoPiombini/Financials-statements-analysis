@@ -1,0 +1,14 @@
+{
+  "ticker": "NLY-PF",
+  "valuation": {
+    "PE_valuation": 597.606753, 
+    "DFC_valuation": 3638634.854863
+  },
+  "ratios": {
+    "ROIC": 14.844120,
+    "PB": 0.769378
+  },
+  "ownerEarnings": 5331530000,
+  "growth_rate_revenue": 194.554978,
+  "growth_rate_net_income": 204.747609
+}

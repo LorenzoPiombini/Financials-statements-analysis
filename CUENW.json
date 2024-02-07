@@ -1,0 +1,14 @@
+{
+  "ticker": "CUENW",
+  "valuation": {
+    "PE_valuation": 2389.649338, 
+    "DFC_valuation": -36871135.904452
+  },
+  "ratios": {
+    "ROIC": 2639.657266,
+    "PB": -4.027684
+  },
+  "ownerEarnings": -10684000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 1395.505005
+}

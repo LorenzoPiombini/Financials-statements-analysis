@@ -1,0 +1,14 @@
+{
+  "ticker": "USWSW",
+  "valuation": {
+    "PE_valuation": 4.072651, 
+    "DFC_valuation": -67.105506
+  },
+  "ratios": {
+    "ROIC": -25.796033,
+    "PB": -0.353992
+  },
+  "ownerEarnings": 77653000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -2193.961540
+}

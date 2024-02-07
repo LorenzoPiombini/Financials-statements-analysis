@@ -1,0 +1,14 @@
+{
+  "ticker": "HAFC",
+  "valuation": {
+    "PE_valuation": 53.246131, 
+    "DFC_valuation": 860.979165
+  },
+  "ratios": {
+    "ROIC": 8.229361,
+    "PB": 1.176292
+  },
+  "ownerEarnings": 158001000,
+  "growth_rate_revenue": 30.669997,
+  "growth_rate_net_income": 35.683002
+}

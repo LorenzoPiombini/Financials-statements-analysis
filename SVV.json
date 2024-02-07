@@ -1,0 +1,14 @@
+{
+  "ticker": "SVV",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 43.400560
+  },
+  "ratios": {
+    "ROIC": 7.324722,
+    "PB": 16.169837
+  },
+  "ownerEarnings": 345646000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

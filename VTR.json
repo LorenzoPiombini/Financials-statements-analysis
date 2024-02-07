@@ -1,0 +1,14 @@
+{
+  "ticker": "VTR",
+  "valuation": {
+    "PE_valuation": -4.499740, 
+    "DFC_valuation": 84.137416
+  },
+  "ratios": {
+    "ROIC": 1.381143,
+    "PB": 1.772849
+  },
+  "ownerEarnings": 2604091000,
+  "growth_rate_revenue": -0.982277,
+  "growth_rate_net_income": -131.037584
+}

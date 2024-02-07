@@ -1,0 +1,14 @@
+{
+  "ticker": "STIX",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -237.224175
+  },
+  "ratios": {
+    "ROIC": -68.275138,
+    "PB": 0.789262
+  },
+  "ownerEarnings": -100053000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

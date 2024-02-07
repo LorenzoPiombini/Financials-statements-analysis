@@ -1,0 +1,14 @@
+{
+  "ticker": "TYHT",
+  "valuation": {
+    "PE_valuation": 0.086082, 
+    "DFC_valuation": -8.334128
+  },
+  "ratios": {
+    "ROIC": -17.485573,
+    "PB": 0.194572
+  },
+  "ownerEarnings": -7538609,
+  "growth_rate_revenue": 380.911487,
+  "growth_rate_net_income": 1752.876832
+}

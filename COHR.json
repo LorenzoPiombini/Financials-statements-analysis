@@ -1,0 +1,14 @@
+{
+  "ticker": "COHR",
+  "valuation": {
+    "PE_valuation": -2029.296894, 
+    "DFC_valuation": 1609471.395507
+  },
+  "ratios": {
+    "ROIC": 0.381019,
+    "PB": 1.406247
+  },
+  "ownerEarnings": 1266057000,
+  "growth_rate_revenue": 14.810477,
+  "growth_rate_net_income": 66.326761
+}

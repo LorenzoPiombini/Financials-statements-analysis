@@ -1,0 +1,14 @@
+{
+  "ticker": "CPA",
+  "valuation": {
+    "PE_valuation": 447.871765, 
+    "DFC_valuation": 1184.022455
+  },
+  "ratios": {
+    "ROIC": 5.273746,
+    "PB": 2.261979
+  },
+  "ownerEarnings": 886394000,
+  "growth_rate_revenue": 31.568468,
+  "growth_rate_net_income": 74.449665
+}

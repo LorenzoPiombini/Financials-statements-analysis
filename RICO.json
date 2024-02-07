@@ -1,0 +1,14 @@
+{
+  "ticker": "RICO",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -1.062775
+  },
+  "ratios": {
+    "ROIC": -268.962854,
+    "PB": -40045.449389
+  },
+  "ownerEarnings": -372974,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

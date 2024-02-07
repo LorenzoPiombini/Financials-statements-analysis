@@ -1,0 +1,14 @@
+{
+  "ticker": "KRC",
+  "valuation": {
+    "PE_valuation": 215.133247, 
+    "DFC_valuation": 98.891846
+  },
+  "ratios": {
+    "ROIC": 2.187789,
+    "PB": 0.830765
+  },
+  "ownerEarnings": 1224986000,
+  "growth_rate_revenue": 54.993812,
+  "growth_rate_net_income": 36.412031
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TRDA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -33.994332,
+    "PB": 1.990485
+  },
+  "ownerEarnings": -97834000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

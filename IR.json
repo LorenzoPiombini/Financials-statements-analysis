@@ -1,0 +1,14 @@
+{
+  "ticker": "IR",
+  "valuation": {
+    "PE_valuation": 56.500003, 
+    "DFC_valuation": 141.725467
+  },
+  "ratios": {
+    "ROIC": 5.443465,
+    "PB": 2.302891
+  },
+  "ownerEarnings": 1220500000,
+  "growth_rate_revenue": 0.203672,
+  "growth_rate_net_income": 310.868193
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "USAP",
+  "valuation": {
+    "PE_valuation": 20.387466, 
+    "DFC_valuation": -10768.194406
+  },
+  "ratios": {
+    "ROIC": -1.547444,
+    "PB": 0.292750
+  },
+  "ownerEarnings": 30438000,
+  "growth_rate_revenue": 192.214329,
+  "growth_rate_net_income": -43.319444
+}

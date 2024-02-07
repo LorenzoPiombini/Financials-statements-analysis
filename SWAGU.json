@@ -1,0 +1,14 @@
+{
+  "ticker": "SWAGU",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -16.607367
+  },
+  "ratios": {
+    "ROIC": -1.930168,
+    "PB": 0.653672
+  },
+  "ownerEarnings": 694249,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

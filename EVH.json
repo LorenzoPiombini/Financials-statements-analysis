@@ -1,0 +1,14 @@
+{
+  "ticker": "EVH",
+  "valuation": {
+    "PE_valuation": 50.388673, 
+    "DFC_valuation": -4545.034563
+  },
+  "ratios": {
+    "ROIC": -1.288769,
+    "PB": 3.061457
+  },
+  "ownerEarnings": 57358000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -466.591746
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CIM-PA",
+  "valuation": {
+    "PE_valuation": -278.346386, 
+    "DFC_valuation": 77065.349437
+  },
+  "ratios": {
+    "ROIC": -1.906204,
+    "PB": 0.482474
+  },
+  "ownerEarnings": 60313000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 1091.429048
+}

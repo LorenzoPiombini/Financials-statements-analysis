@@ -1,0 +1,14 @@
+{
+  "ticker": "NPCE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -99.548671
+  },
+  "ratios": {
+    "ROIC": -38.090783,
+    "PB": 1.053749
+  },
+  "ownerEarnings": -47299000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FERG",
+  "valuation": {
+    "PE_valuation": 876.689234, 
+    "DFC_valuation": 30201.344281
+  },
+  "ratios": {
+    "ROIC": 17.848654,
+    "PB": 6.622666
+  },
+  "ownerEarnings": 10000000,
+  "growth_rate_revenue": 29.357228,
+  "growth_rate_net_income": 23.585929
+}

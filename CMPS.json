@@ -1,0 +1,14 @@
+{
+  "ticker": "CMPS",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -59.900542,
+    "PB": 1.879763
+  },
+  "ownerEarnings": -129041000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 50.613947
+}

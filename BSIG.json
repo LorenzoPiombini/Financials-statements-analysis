@@ -1,0 +1,14 @@
+{
+  "ticker": "BSIG",
+  "valuation": {
+    "PE_valuation": 9.426177, 
+    "DFC_valuation": 141.993929
+  },
+  "ratios": {
+    "ROIC": 28.909233,
+    "PB": -40.111944
+  },
+  "ownerEarnings": 212600000,
+  "growth_rate_revenue": 0.993523,
+  "growth_rate_net_income": 242.255016
+}

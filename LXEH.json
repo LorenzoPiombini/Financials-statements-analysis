@@ -1,0 +1,14 @@
+{
+  "ticker": "LXEH",
+  "valuation": {
+    "PE_valuation": -24.169851, 
+    "DFC_valuation": 35.703774
+  },
+  "ratios": {
+    "ROIC": -7.608305,
+    "PB": 2.035986
+  },
+  "ownerEarnings": -28980691,
+  "growth_rate_revenue": -7.173461,
+  "growth_rate_net_income": -884.089435
+}

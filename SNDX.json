@@ -1,0 +1,14 @@
+{
+  "ticker": "SNDX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -31.095463,
+    "PB": 3.308094
+  },
+  "ownerEarnings": -164573000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 56.218471
+}

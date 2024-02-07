@@ -1,0 +1,14 @@
+{
+  "ticker": "PINE",
+  "valuation": {
+    "PE_valuation": 35.385121, 
+    "DFC_valuation": -1876.432328
+  },
+  "ratios": {
+    "ROIC": 1.138677,
+    "PB": 0.873419
+  },
+  "ownerEarnings": 185513000,
+  "growth_rate_revenue": 50.543135,
+  "growth_rate_net_income": -346.609774
+}

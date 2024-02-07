@@ -1,0 +1,14 @@
+{
+  "ticker": "RGLD",
+  "valuation": {
+    "PE_valuation": 2030.775434, 
+    "DFC_valuation": -622077.918728
+  },
+  "ratios": {
+    "ROIC": 7.530941,
+    "PB": 2.696676
+  },
+  "ownerEarnings": 1349252000,
+  "growth_rate_revenue": 109.681618,
+  "growth_rate_net_income": 324.307471
+}

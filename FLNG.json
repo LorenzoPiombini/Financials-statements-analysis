@@ -1,0 +1,14 @@
+{
+  "ticker": "FLNG",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 7.647757,
+    "PB": 1.917167
+  },
+  "ownerEarnings": 286398000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 232.481980
+}

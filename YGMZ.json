@@ -1,0 +1,14 @@
+{
+  "ticker": "YGMZ",
+  "valuation": {
+    "PE_valuation": 3.039788, 
+    "DFC_valuation": -31.095075
+  },
+  "ratios": {
+    "ROIC": 4.800539,
+    "PB": 0.375119
+  },
+  "ownerEarnings": 8614546,
+  "growth_rate_revenue": 138.474454,
+  "growth_rate_net_income": -121.567114
+}

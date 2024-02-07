@@ -1,0 +1,14 @@
+{
+  "ticker": "SDRL",
+  "valuation": {
+    "PE_valuation": -30.180160, 
+    "DFC_valuation": -593.344077
+  },
+  "ratios": {
+    "ROIC": 3.232662,
+    "PB": 1.146346
+  },
+  "ownerEarnings": -3394000000,
+  "growth_rate_revenue": -15.820387,
+  "growth_rate_net_income": 386.082011
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "PLUR",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -55.419088,
+    "PB": 2.201042
+  },
+  "ownerEarnings": -29010000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 273.665297
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "STEW",
+  "valuation": {
+    "PE_valuation": 8.971644, 
+    "DFC_valuation": 59.760435
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.833743
+  },
+  "ownerEarnings": 286190573,
+  "growth_rate_revenue": -3594.511047,
+  "growth_rate_net_income": -1840.176490
+}

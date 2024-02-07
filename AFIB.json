@@ -1,0 +1,14 @@
+{
+  "ticker": "AFIB",
+  "valuation": {
+    "PE_valuation": 10.445967, 
+    "DFC_valuation": -772.801715
+  },
+  "ratios": {
+    "ROIC": -23.158411,
+    "PB": 0.434172
+  },
+  "ownerEarnings": -76652000,
+  "growth_rate_revenue": 57.031398,
+  "growth_rate_net_income": -3.101398
+}

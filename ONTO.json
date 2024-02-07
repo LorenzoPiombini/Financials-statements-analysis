@@ -1,0 +1,14 @@
+{
+  "ticker": "ONTO",
+  "valuation": {
+    "PE_valuation": 1203.103628, 
+    "DFC_valuation": 17246.633829
+  },
+  "ratios": {
+    "ROIC": 13.339569,
+    "PB": 2.108009
+  },
+  "ownerEarnings": 262857000,
+  "growth_rate_revenue": 57.397362,
+  "growth_rate_net_income": 71.829487
+}

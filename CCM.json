@@ -1,0 +1,14 @@
+{
+  "ticker": "CCM",
+  "valuation": {
+    "PE_valuation": 41.142084, 
+    "DFC_valuation": -439.220620
+  },
+  "ratios": {
+    "ROIC": -29.825511,
+    "PB": -0.265095
+  },
+  "ownerEarnings": 195306000,
+  "growth_rate_revenue": 53.326442,
+  "growth_rate_net_income": -99.230616
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SNCY",
+  "valuation": {
+    "PE_valuation": 20.938124, 
+    "DFC_valuation": -183.669281
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 227232200,
+  "growth_rate_revenue": -6.666220,
+  "growth_rate_net_income": -515.419039
+}

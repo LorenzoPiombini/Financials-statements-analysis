@@ -1,0 +1,14 @@
+{
+  "ticker": "AMBO",
+  "valuation": {
+    "PE_valuation": 0.705134, 
+    "DFC_valuation": -18.556207
+  },
+  "ratios": {
+    "ROIC": -52.523425,
+    "PB": 0.958746
+  },
+  "ownerEarnings": -97482000,
+  "growth_rate_revenue": 47.974619,
+  "growth_rate_net_income": -1896.093468
+}

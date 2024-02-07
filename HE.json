@@ -1,0 +1,14 @@
+{
+  "ticker": "HE",
+  "valuation": {
+    "PE_valuation": 82.675007, 
+    "DFC_valuation": 49.205217
+  },
+  "ratios": {
+    "ROIC": 5.243857,
+    "PB": 2.085908
+  },
+  "ownerEarnings": 1029707000,
+  "growth_rate_revenue": 12.559815,
+  "growth_rate_net_income": 7.070664
+}

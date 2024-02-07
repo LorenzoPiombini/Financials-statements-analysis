@@ -1,0 +1,14 @@
+{
+  "ticker": "GLP",
+  "valuation": {
+    "PE_valuation": 162.155124, 
+    "DFC_valuation": 4857.553620
+  },
+  "ratios": {
+    "ROIC": 16.547776,
+    "PB": 1.496517
+  },
+  "ownerEarnings": 557800000,
+  "growth_rate_revenue": 68.070490,
+  "growth_rate_net_income": 78.506396
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SMID",
+  "valuation": {
+    "PE_valuation": 5.226569, 
+    "DFC_valuation": -211.845699
+  },
+  "ratios": {
+    "ROIC": 1.823500,
+    "PB": 3.215625
+  },
+  "ownerEarnings": 5985000,
+  "growth_rate_revenue": 4.779450,
+  "growth_rate_net_income": -405.257262
+}

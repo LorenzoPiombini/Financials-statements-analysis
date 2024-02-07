@@ -1,0 +1,14 @@
+{
+  "ticker": "GSL",
+  "valuation": {
+    "PE_valuation": 21.054982, 
+    "DFC_valuation": 635.843621
+  },
+  "ratios": {
+    "ROIC": 18.304535,
+    "PB": 0.628177
+  },
+  "ownerEarnings": 486602000,
+  "growth_rate_revenue": -0.192010,
+  "growth_rate_net_income": -255.069262
+}

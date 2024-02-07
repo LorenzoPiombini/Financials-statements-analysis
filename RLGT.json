@@ -1,0 +1,14 @@
+{
+  "ticker": "RLGT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 6.391955,
+    "PB": 1.580650
+  },
+  "ownerEarnings": 47648000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 34.876396
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TGP",
+  "valuation": {
+    "PE_valuation": 31.525334, 
+    "DFC_valuation": 3286.137414
+  },
+  "ratios": {
+    "ROIC": 6.030622,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 590124000,
+  "growth_rate_revenue": 32.504093,
+  "growth_rate_net_income": -1603.352954
+}

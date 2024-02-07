@@ -1,0 +1,14 @@
+{
+  "ticker": "PSTG",
+  "valuation": {
+    "PE_valuation": -53.309899, 
+    "DFC_valuation": 29726.573510
+  },
+  "ratios": {
+    "ROIC": 3.558105,
+    "PB": 9.370291
+  },
+  "ownerEarnings": -12565000,
+  "growth_rate_revenue": 149.855360,
+  "growth_rate_net_income": 34.359966
+}

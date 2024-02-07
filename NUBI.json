@@ -1,0 +1,14 @@
+{
+  "ticker": "NUBI",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -4.022802
+  },
+  "ratios": {
+    "ROIC": 0.480998,
+    "PB": 1.066749
+  },
+  "ownerEarnings": -5586024,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

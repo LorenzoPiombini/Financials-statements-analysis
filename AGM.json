@@ -1,0 +1,14 @@
+{
+  "ticker": "AGM",
+  "valuation": {
+    "PE_valuation": 1563.415136, 
+    "DFC_valuation": 39634085.876451
+  },
+  "ratios": {
+    "ROIC": 1.455170,
+    "PB": 0.956206
+  },
+  "ownerEarnings": 1011726000,
+  "growth_rate_revenue": 56.555944,
+  "growth_rate_net_income": 56.845238
+}

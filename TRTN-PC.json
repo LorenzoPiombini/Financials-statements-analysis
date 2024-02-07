@@ -1,0 +1,14 @@
+{
+  "ticker": "TRTN-PC",
+  "valuation": {
+    "PE_valuation": 100.357309, 
+    "DFC_valuation": 1283.989372
+  },
+  "ratios": {
+    "ROIC": 6.638309,
+    "PB": 1.326033
+  },
+  "ownerEarnings": 2327590000,
+  "growth_rate_revenue": 20.066232,
+  "growth_rate_net_income": -696.219318
+}

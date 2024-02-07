@@ -1,0 +1,14 @@
+{
+  "ticker": "FCO",
+  "valuation": {
+    "PE_valuation": 1.681950, 
+    "DFC_valuation": -0.586796
+  },
+  "ratios": {
+    "ROIC": 7.093923,
+    "PB": 1.412564
+  },
+  "ownerEarnings": 4999666,
+  "growth_rate_revenue": -223.196108,
+  "growth_rate_net_income": -331.814407
+}

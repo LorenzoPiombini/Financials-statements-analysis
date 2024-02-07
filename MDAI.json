@@ -1,0 +1,14 @@
+{
+  "ticker": "MDAI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -1.089441
+  },
+  "ratios": {
+    "ROIC": -19.313742,
+    "PB": 15.054018
+  },
+  "ownerEarnings": -3193000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

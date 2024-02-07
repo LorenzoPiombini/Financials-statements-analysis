@@ -1,0 +1,14 @@
+{
+  "ticker": "VCSA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -36.807768
+  },
+  "ratios": {
+    "ROIC": -31.000907,
+    "PB": 0.681629
+  },
+  "ownerEarnings": 166380000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "HNRG",
+  "valuation": {
+    "PE_valuation": -9.740835, 
+    "DFC_valuation": 88.353300
+  },
+  "ratios": {
+    "ROIC": 8.757055,
+    "PB": 1.488716
+  },
+  "ownerEarnings": 135711000,
+  "growth_rate_revenue": 23.216876,
+  "growth_rate_net_income": inf
+}

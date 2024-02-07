@@ -1,0 +1,14 @@
+{
+  "ticker": "EWBC",
+  "valuation": {
+    "PE_valuation": 546.978559, 
+    "DFC_valuation": 67209.223796
+  },
+  "ratios": {
+    "ROIC": 21.193960,
+    "PB": 1.556222
+  },
+  "ownerEarnings": 1801033000,
+  "growth_rate_revenue": 27.400557,
+  "growth_rate_net_income": 34.595019
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ENOB",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -143.529775,
+    "PB": 1.396044
+  },
+  "ownerEarnings": -40821507000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1631.617031
+}

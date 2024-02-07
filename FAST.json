@@ -1,0 +1,14 @@
+{
+  "ticker": "FAST",
+  "valuation": {
+    "PE_valuation": 1651.306026, 
+    "DFC_valuation": 557127.379381
+  },
+  "ratios": {
+    "ROIC": 26.046082,
+    "PB": 8.583781
+  },
+  "ownerEarnings": 1458000000,
+  "growth_rate_revenue": 40.459952,
+  "growth_rate_net_income": 51.804290
+}

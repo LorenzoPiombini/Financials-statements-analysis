@@ -1,0 +1,14 @@
+{
+  "ticker": "AIG-PA",
+  "valuation": {
+    "PE_valuation": 175.875050, 
+    "DFC_valuation": 1600.458243
+  },
+  "ratios": {
+    "ROIC": 16.897329,
+    "PB": 1.230938
+  },
+  "ownerEarnings": 16316000000,
+  "growth_rate_revenue": 28.321933,
+  "growth_rate_net_income": 41.559270
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "HALO",
+  "valuation": {
+    "PE_valuation": 17635.521285, 
+    "DFC_valuation": 4142548456.825267
+  },
+  "ratios": {
+    "ROIC": 12.962801,
+    "PB": 45.856981
+  },
+  "ownerEarnings": 262916000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 2884.438026
+}

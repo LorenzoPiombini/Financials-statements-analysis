@@ -1,0 +1,14 @@
+{
+  "ticker": "LB",
+  "valuation": {
+    "PE_valuation": 50.087659, 
+    "DFC_valuation": 319.480560
+  },
+  "ratios": {
+    "ROIC": 20.748098,
+    "PB": -4.637120
+  },
+  "ownerEarnings": 1984000000,
+  "growth_rate_revenue": 21.626330,
+  "growth_rate_net_income": 30.154142
+}

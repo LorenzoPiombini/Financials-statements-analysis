@@ -1,0 +1,14 @@
+{
+  "ticker": "TETCW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1.682022,
+    "PB": 1.290944
+  },
+  "ownerEarnings": -16275531,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

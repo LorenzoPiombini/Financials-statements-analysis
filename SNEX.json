@@ -1,0 +1,14 @@
+{
+  "ticker": "SNEX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 14.952844,
+    "PB": 0.941093
+  },
+  "ownerEarnings": 1570300000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

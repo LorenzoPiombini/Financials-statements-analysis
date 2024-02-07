@@ -1,0 +1,14 @@
+{
+  "ticker": "UNH",
+  "valuation": {
+    "PE_valuation": 78255.452431, 
+    "DFC_valuation": 864480510.333700
+  },
+  "ratios": {
+    "ROIC": 16.018942,
+    "PB": 6.099186
+  },
+  "ownerEarnings": 28070000000,
+  "growth_rate_revenue": 64.114729,
+  "growth_rate_net_income": -1.916316
+}

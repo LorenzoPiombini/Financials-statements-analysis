@@ -1,0 +1,14 @@
+{
+  "ticker": "GCTK",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -311.227928,
+    "PB": 17.739244
+  },
+  "ownerEarnings": -4847000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 64.233193
+}

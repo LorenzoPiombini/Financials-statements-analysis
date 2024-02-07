@@ -1,0 +1,14 @@
+{
+  "ticker": "LIONU",
+  "valuation": {
+    "PE_valuation": -0.003440, 
+    "DFC_valuation": -2.231996
+  },
+  "ratios": {
+    "ROIC": -0.272731,
+    "PB": 0.388317
+  },
+  "ownerEarnings": -344618,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1598.868699
+}

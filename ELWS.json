@@ -1,0 +1,14 @@
+{
+  "ticker": "ELWS",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -19.584479
+  },
+  "ratios": {
+    "ROIC": -93.069680,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -376788689,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

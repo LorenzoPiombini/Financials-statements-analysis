@@ -1,0 +1,14 @@
+{
+  "ticker": "REKRW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -89.183931
+  },
+  "ratios": {
+    "ROIC": -59.657689,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -13772000,
+  "growth_rate_revenue": 36.068130,
+  "growth_rate_net_income": 3271.176015
+}

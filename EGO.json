@@ -1,0 +1,14 @@
+{
+  "ticker": "EGO",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -7.899834,
+    "PB": 0.478644
+  },
+  "ownerEarnings": 620176000,
+  "growth_rate_revenue": 27.225388,
+  "growth_rate_net_income": 1689.280118
+}

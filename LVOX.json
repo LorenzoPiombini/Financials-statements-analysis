@@ -1,0 +1,14 @@
+{
+  "ticker": "LVOX",
+  "valuation": {
+    "PE_valuation": 2.450077, 
+    "DFC_valuation": -17.152974
+  },
+  "ratios": {
+    "ROIC": -20.899890,
+    "PB": 2.810191
+  },
+  "ownerEarnings": -37300000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

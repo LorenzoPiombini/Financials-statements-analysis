@@ -1,0 +1,14 @@
+{
+  "ticker": "PBHC",
+  "valuation": {
+    "PE_valuation": 81.364200, 
+    "DFC_valuation": -14.624484
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 31149000,
+  "growth_rate_revenue": 110.977329,
+  "growth_rate_net_income": 68.838066
+}

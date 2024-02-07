@@ -1,0 +1,14 @@
+{
+  "ticker": "SNBR",
+  "valuation": {
+    "PE_valuation": 75.479593, 
+    "DFC_valuation": -830.685468
+  },
+  "ratios": {
+    "ROIC": 5.683549,
+    "PB": -1.425240
+  },
+  "ownerEarnings": 198212000,
+  "growth_rate_revenue": 17.146658,
+  "growth_rate_net_income": -166.202981
+}

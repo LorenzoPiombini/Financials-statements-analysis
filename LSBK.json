@@ -1,0 +1,14 @@
+{
+  "ticker": "LSBK",
+  "valuation": {
+    "PE_valuation": 52.946372, 
+    "DFC_valuation": 72.818189
+  },
+  "ratios": {
+    "ROIC": 5.898517,
+    "PB": 0.880077
+  },
+  "ownerEarnings": 9753000,
+  "growth_rate_revenue": 108.176851,
+  "growth_rate_net_income": 0.799305
+}

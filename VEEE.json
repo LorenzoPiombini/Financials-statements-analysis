@@ -1,0 +1,14 @@
+{
+  "ticker": "VEEE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -73.368353
+  },
+  "ratios": {
+    "ROIC": -18.247581,
+    "PB": 0.450490
+  },
+  "ownerEarnings": -2964505,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GIA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -17.657466,
+    "PB": 2.338386
+  },
+  "ownerEarnings": -4742617,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

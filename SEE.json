@@ -1,0 +1,14 @@
+{
+  "ticker": "SEE",
+  "valuation": {
+    "PE_valuation": 59.273090, 
+    "DFC_valuation": 143.677700
+  },
+  "ratios": {
+    "ROIC": 15.263889,
+    "PB": 21.149352
+  },
+  "ownerEarnings": 1097800000,
+  "growth_rate_revenue": 35.784686,
+  "growth_rate_net_income": 14.991127
+}

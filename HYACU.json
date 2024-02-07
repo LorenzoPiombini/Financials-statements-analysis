@@ -1,0 +1,14 @@
+{
+  "ticker": "HYACU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1046.231216,
+    "PB": -20642.847715
+  },
+  "ownerEarnings": 11112910,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

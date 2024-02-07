@@ -1,0 +1,14 @@
+{
+  "ticker": "BPYPP",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -680.685640
+  },
+  "ratios": {
+    "ROIC": 2.999703,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 6868000000,
+  "growth_rate_revenue": 18.132382,
+  "growth_rate_net_income": 17.715411
+}

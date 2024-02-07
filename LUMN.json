@@ -1,0 +1,14 @@
+{
+  "ticker": "LUMN",
+  "valuation": {
+    "PE_valuation": 79.468439, 
+    "DFC_valuation": 1304126.008495
+  },
+  "ratios": {
+    "ROIC": 17.440531,
+    "PB": 0.503903
+  },
+  "ownerEarnings": 13669000000,
+  "growth_rate_revenue": 17.270646,
+  "growth_rate_net_income": 22.778355
+}

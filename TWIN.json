@@ -1,0 +1,14 @@
+{
+  "ticker": "TWIN",
+  "valuation": {
+    "PE_valuation": 12.124859, 
+    "DFC_valuation": 76.229593
+  },
+  "ratios": {
+    "ROIC": 6.395912,
+    "PB": 1.045189
+  },
+  "ownerEarnings": 26072000,
+  "growth_rate_revenue": 7.112233,
+  "growth_rate_net_income": -34.249736
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CGBD",
+  "valuation": {
+    "PE_valuation": 209.896517, 
+    "DFC_valuation": 2340.945057
+  },
+  "ratios": {
+    "ROIC": 6.475260,
+    "PB": 0.812852
+  },
+  "ownerEarnings": 173559000,
+  "growth_rate_revenue": 131.650425,
+  "growth_rate_net_income": 20.550211
+}

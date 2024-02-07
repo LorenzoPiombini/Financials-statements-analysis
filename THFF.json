@@ -1,0 +1,14 @@
+{
+  "ticker": "THFF",
+  "valuation": {
+    "PE_valuation": 97.128357, 
+    "DFC_valuation": 595.904609
+  },
+  "ratios": {
+    "ROIC": 16.412423,
+    "PB": 1.329801
+  },
+  "ownerEarnings": 125990000,
+  "growth_rate_revenue": 11.873241,
+  "growth_rate_net_income": 18.698023
+}

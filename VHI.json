@@ -1,0 +1,14 @@
+{
+  "ticker": "VHI",
+  "valuation": {
+    "PE_valuation": 19.090490, 
+    "DFC_valuation": -117.003026
+  },
+  "ratios": {
+    "ROIC": 7.150758,
+    "PB": 0.654079
+  },
+  "ownerEarnings": 201000000,
+  "growth_rate_revenue": -2.717404,
+  "growth_rate_net_income": -80.634932
+}

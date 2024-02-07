@@ -1,0 +1,14 @@
+{
+  "ticker": "PLAN",
+  "valuation": {
+    "PE_valuation": 168.452200, 
+    "DFC_valuation": -75.314858
+  },
+  "ratios": {
+    "ROIC": -90.802240,
+    "PB": 25.637556
+  },
+  "ownerEarnings": -293334000,
+  "growth_rate_revenue": 56.100703,
+  "growth_rate_net_income": 46.254591
+}

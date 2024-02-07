@@ -1,0 +1,14 @@
+{
+  "ticker": "ARIS",
+  "valuation": {
+    "PE_valuation": 75.364389, 
+    "DFC_valuation": -6130.765905
+  },
+  "ratios": {
+    "ROIC": 8.016793,
+    "PB": 1.120689
+  },
+  "ownerEarnings": 343689000,
+  "growth_rate_revenue": 7.624723,
+  "growth_rate_net_income": 293.761467
+}

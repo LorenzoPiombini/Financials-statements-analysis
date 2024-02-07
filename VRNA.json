@@ -1,0 +1,14 @@
+{
+  "ticker": "VRNA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -27.422325,
+    "PB": 67.062031
+  },
+  "ownerEarnings": -74672000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -658.758374
+}

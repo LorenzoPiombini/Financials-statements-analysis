@@ -1,0 +1,14 @@
+{
+  "ticker": "ASC",
+  "valuation": {
+    "PE_valuation": -57.226509, 
+    "DFC_valuation": 4410.660839
+  },
+  "ratios": {
+    "ROIC": 21.380145,
+    "PB": 1.059480
+  },
+  "ownerEarnings": 210814000,
+  "growth_rate_revenue": 70.332378,
+  "growth_rate_net_income": 407.545352
+}

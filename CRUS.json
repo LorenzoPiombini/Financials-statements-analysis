@@ -1,0 +1,14 @@
+{
+  "ticker": "CRUS",
+  "valuation": {
+    "PE_valuation": 1624.638369, 
+    "DFC_valuation": 831285.840713
+  },
+  "ratios": {
+    "ROIC": 8.902344,
+    "PB": 3.541184
+  },
+  "ownerEarnings": 297041000,
+  "growth_rate_revenue": 156.509553,
+  "growth_rate_net_income": 40.977040
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FNKO",
+  "valuation": {
+    "PE_valuation": -2.985060, 
+    "DFC_valuation": -216.494203
+  },
+  "ratios": {
+    "ROIC": -0.353902,
+    "PB": 1.320107
+  },
+  "ownerEarnings": 105904000,
+  "growth_rate_revenue": 27.395117,
+  "growth_rate_net_income": 197.024565
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "OWLT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -44.801492
+  },
+  "ratios": {
+    "ROIC": -1225.988004,
+    "PB": -5.871109
+  },
+  "ownerEarnings": -101084600,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

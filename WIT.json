@@ -1,0 +1,14 @@
+{
+  "ticker": "WIT",
+  "valuation": {
+    "PE_valuation": 2726.505464, 
+    "DFC_valuation": 249909.359735
+  },
+  "ratios": {
+    "ROIC": 10.961555,
+    "PB": 2.584816
+  },
+  "ownerEarnings": 122084000000,
+  "growth_rate_revenue": 36.492013,
+  "growth_rate_net_income": 47.373325
+}

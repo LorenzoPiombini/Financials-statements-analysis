@@ -1,0 +1,14 @@
+{
+  "ticker": "NINE",
+  "valuation": {
+    "PE_valuation": -0.134117, 
+    "DFC_valuation": -33.932339
+  },
+  "ratios": {
+    "ROIC": 10.713567,
+    "PB": -19.118809
+  },
+  "ownerEarnings": 148514000,
+  "growth_rate_revenue": 19.137822,
+  "growth_rate_net_income": 46.109364
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ESS",
+  "valuation": {
+    "PE_valuation": 2969.232699, 
+    "DFC_valuation": 281556.565670
+  },
+  "ratios": {
+    "ROIC": 5.161225,
+    "PB": 2.411618
+  },
+  "ownerEarnings": 1444920000,
+  "growth_rate_revenue": 69.432947,
+  "growth_rate_net_income": 123.719052
+}

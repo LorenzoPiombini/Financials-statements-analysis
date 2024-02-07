@@ -1,0 +1,14 @@
+{
+  "ticker": "NOW",
+  "valuation": {
+    "PE_valuation": 462623.990141, 
+    "DFC_valuation": 1520704378.845327
+  },
+  "ratios": {
+    "ROIC": 12.220336,
+    "PB": 18.894069
+  },
+  "ownerEarnings": 329000000,
+  "growth_rate_revenue": 220.964599,
+  "growth_rate_net_income": -37.524250
+}

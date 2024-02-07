@@ -1,0 +1,14 @@
+{
+  "ticker": "MTP",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -184.048623
+  },
+  "ratios": {
+    "ROIC": 505.425269,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -8233000,
+  "growth_rate_revenue": 274.450240,
+  "growth_rate_net_income": 47.610329
+}

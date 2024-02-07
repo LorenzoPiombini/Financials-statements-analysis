@@ -1,0 +1,14 @@
+{
+  "ticker": "VELOW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.025307
+  },
+  "ratios": {
+    "ROIC": -850.014697,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -2023868,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

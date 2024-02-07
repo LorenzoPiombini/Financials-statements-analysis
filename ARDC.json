@@ -1,0 +1,14 @@
+{
+  "ticker": "ARDC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -10.758912,
+    "PB": 0.866486
+  },
+  "ownerEarnings": -34711000,
+  "growth_rate_revenue": -5.913930,
+  "growth_rate_net_income": 14.499940
+}

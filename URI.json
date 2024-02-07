@@ -1,0 +1,14 @@
+{
+  "ticker": "URI",
+  "valuation": {
+    "PE_valuation": 1345.955884, 
+    "DFC_valuation": 36944.994266
+  },
+  "ratios": {
+    "ROIC": 13.476171,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 3993000000,
+  "growth_rate_revenue": 27.994451,
+  "growth_rate_net_income": 111.887483
+}

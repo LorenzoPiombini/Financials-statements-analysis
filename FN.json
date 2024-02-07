@@ -1,0 +1,14 @@
+{
+  "ticker": "FN",
+  "valuation": {
+    "PE_valuation": 287.231660, 
+    "DFC_valuation": 934.778276
+  },
+  "ratios": {
+    "ROIC": 16.173823,
+    "PB": 3.229185
+  },
+  "ownerEarnings": 325763000,
+  "growth_rate_revenue": 20.768404,
+  "growth_rate_net_income": 44.375251
+}

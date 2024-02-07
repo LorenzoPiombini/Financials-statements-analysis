@@ -1,0 +1,14 @@
+{
+  "ticker": "PSTV",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -164.163087,
+    "PB": 1.303597
+  },
+  "ownerEarnings": -19043000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 56.221946
+}

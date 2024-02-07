@@ -1,0 +1,14 @@
+{
+  "ticker": "ZS",
+  "valuation": {
+    "PE_valuation": 999.615360, 
+    "DFC_valuation": 7588.546943
+  },
+  "ratios": {
+    "ROIC": -12.923769,
+    "PB": 32.058217
+  },
+  "ownerEarnings": -494226000,
+  "growth_rate_revenue": 64.748766,
+  "growth_rate_net_income": 106.210773
+}

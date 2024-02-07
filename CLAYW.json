@@ -1,0 +1,14 @@
+{
+  "ticker": "CLAYW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -5.748434,
+    "PB": 9.140193
+  },
+  "ownerEarnings": -1526789,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

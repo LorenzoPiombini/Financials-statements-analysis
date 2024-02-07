@@ -1,0 +1,14 @@
+{
+  "ticker": "PSPC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.503334,
+    "PB": 1.296793
+  },
+  "ownerEarnings": -30676178,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

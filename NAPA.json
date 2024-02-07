@@ -1,0 +1,14 @@
+{
+  "ticker": "NAPA",
+  "valuation": {
+    "PE_valuation": 22.303305, 
+    "DFC_valuation": -5.126986
+  },
+  "ratios": {
+    "ROIC": 6.393001,
+    "PB": 1.539165
+  },
+  "ownerEarnings": 174904000,
+  "growth_rate_revenue": -11.143300,
+  "growth_rate_net_income": 10.517655
+}

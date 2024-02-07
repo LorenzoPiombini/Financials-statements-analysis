@@ -1,0 +1,14 @@
+{
+  "ticker": "OSUR",
+  "valuation": {
+    "PE_valuation": 75.170936, 
+    "DFC_valuation": -79458.857910
+  },
+  "ratios": {
+    "ROIC": -1.306852,
+    "PB": 0.961086
+  },
+  "ownerEarnings": 73508000,
+  "growth_rate_revenue": 13.114367,
+  "growth_rate_net_income": 59.432967
+}

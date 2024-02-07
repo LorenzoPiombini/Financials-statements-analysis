@@ -1,0 +1,14 @@
+{
+  "ticker": "CRY",
+  "valuation": {
+    "PE_valuation": 115.563250, 
+    "DFC_valuation": -627.877649
+  },
+  "ratios": {
+    "ROIC": 0.601539,
+    "PB": 1.706431
+  },
+  "ownerEarnings": 38069000,
+  "growth_rate_revenue": 24.514040,
+  "growth_rate_net_income": 12.221112
+}

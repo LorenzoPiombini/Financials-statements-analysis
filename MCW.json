@@ -1,0 +1,14 @@
+{
+  "ticker": "MCW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 2.155680
+  },
+  "ratios": {
+    "ROIC": 4.366888,
+    "PB": 3.495227
+  },
+  "ownerEarnings": 426631000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

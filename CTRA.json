@@ -1,0 +1,14 @@
+{
+  "ticker": "CTRA",
+  "valuation": {
+    "PE_valuation": 513.093129, 
+    "DFC_valuation": 64905.934034
+  },
+  "ratios": {
+    "ROIC": 26.638423,
+    "PB": 1.544966
+  },
+  "ownerEarnings": 7489000000,
+  "growth_rate_revenue": 14.029649,
+  "growth_rate_net_income": -33.578598
+}

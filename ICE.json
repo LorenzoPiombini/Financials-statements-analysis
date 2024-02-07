@@ -1,0 +1,14 @@
+{
+  "ticker": "ICE",
+  "valuation": {
+    "PE_valuation": 12749.293082, 
+    "DFC_valuation": 235879903.126315
+  },
+  "ratios": {
+    "ROIC": 5.045081,
+    "PB": 2.525668
+  },
+  "ownerEarnings": 4274000000,
+  "growth_rate_revenue": 622.040095,
+  "growth_rate_net_income": inf
+}

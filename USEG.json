@@ -1,0 +1,14 @@
+{
+  "ticker": "USEG",
+  "valuation": {
+    "PE_valuation": 3.177199, 
+    "DFC_valuation": -4878.611912
+  },
+  "ratios": {
+    "ROIC": 3.425173,
+    "PB": 0.724110
+  },
+  "ownerEarnings": 49584000,
+  "growth_rate_revenue": 151.605617,
+  "growth_rate_net_income": 223.708333
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SLGG",
+  "valuation": {
+    "PE_valuation": 856.156252, 
+    "DFC_valuation": -207.823797
+  },
+  "ratios": {
+    "ROIC": -426.277049,
+    "PB": 0.650680
+  },
+  "ownerEarnings": -28439000,
+  "growth_rate_revenue": 238.538614,
+  "growth_rate_net_income": 19.855416
+}

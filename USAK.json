@@ -1,0 +1,14 @@
+{
+  "ticker": "USAK",
+  "valuation": {
+    "PE_valuation": 105.866665, 
+    "DFC_valuation": 2329.451859
+  },
+  "ratios": {
+    "ROIC": 8.583588,
+    "PB": 1.565600
+  },
+  "ownerEarnings": 74892000,
+  "growth_rate_revenue": 21.982356,
+  "growth_rate_net_income": 38.885098
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FIXX",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -22.679571,
+    "PB": 0.406363
+  },
+  "ownerEarnings": -410200000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 109.905182
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "DNZ-WT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -4.164898
+  },
+  "ratios": {
+    "ROIC": -0.939033,
+    "PB": 0.261049
+  },
+  "ownerEarnings": -2493886,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VLTA-WT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -113.298762
+  },
+  "ratios": {
+    "ROIC": -51.585624,
+    "PB": 0.158362
+  },
+  "ownerEarnings": -52235000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

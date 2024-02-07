@@ -1,0 +1,14 @@
+{
+  "ticker": "DCGO",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 77.095468
+  },
+  "ratios": {
+    "ROIC": 9.468145,
+    "PB": 2.619342
+  },
+  "ownerEarnings": 38667227,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

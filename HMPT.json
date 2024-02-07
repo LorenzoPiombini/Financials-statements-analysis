@@ -1,0 +1,14 @@
+{
+  "ticker": "HMPT",
+  "valuation": {
+    "PE_valuation": 1.345331, 
+    "DFC_valuation": 1931.016368
+  },
+  "ratios": {
+    "ROIC": -4.364823,
+    "PB": 0.316049
+  },
+  "ownerEarnings": 23540000,
+  "growth_rate_revenue": 125.521882,
+  "growth_rate_net_income": -593.945787
+}

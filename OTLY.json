@@ -1,0 +1,14 @@
+{
+  "ticker": "OTLY",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -86.068346
+  },
+  "ratios": {
+    "ROIC": -37.542635,
+    "PB": 1.302085
+  },
+  "ownerEarnings": -170735000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

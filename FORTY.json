@@ -1,0 +1,14 @@
+{
+  "ticker": "FORTY",
+  "valuation": {
+    "PE_valuation": 424.337563, 
+    "DFC_valuation": 5008.960974
+  },
+  "ratios": {
+    "ROIC": 14.978735,
+    "PB": 1.964851
+  },
+  "ownerEarnings": 221437000,
+  "growth_rate_revenue": 12.028424,
+  "growth_rate_net_income": -126.306071
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ZTS",
+  "valuation": {
+    "PE_valuation": 239.519757, 
+    "DFC_valuation": 0.000000
+  },
+  "ratios": {
+    "ROIC": 18.101053,
+    "PB": 15.599541
+  },
+  "ownerEarnings": 2725000000,
+  "growth_rate_revenue": 15.122598,
+  "growth_rate_net_income": 5.489347
+}

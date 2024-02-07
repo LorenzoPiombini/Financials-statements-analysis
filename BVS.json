@@ -1,0 +1,14 @@
+{
+  "ticker": "BVS",
+  "valuation": {
+    "PE_valuation": -366.293645, 
+    "DFC_valuation": -123.867455
+  },
+  "ratios": {
+    "ROIC": -3.926773,
+    "PB": 0.506112
+  },
+  "ownerEarnings": 303793000,
+  "growth_rate_revenue": 75.026028,
+  "growth_rate_net_income": -35.302537
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "O",
+  "valuation": {
+    "PE_valuation": 755.017389, 
+    "DFC_valuation": 65298.117060
+  },
+  "ratios": {
+    "ROIC": 2.412715,
+    "PB": 1.351447
+  },
+  "ownerEarnings": 3202484000,
+  "growth_rate_revenue": 15.064590,
+  "growth_rate_net_income": 18.208446
+}

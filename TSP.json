@@ -1,0 +1,14 @@
+{
+  "ticker": "TSP",
+  "valuation": {
+    "PE_valuation": 7468.849564, 
+    "DFC_valuation": -6262996.748305
+  },
+  "ratios": {
+    "ROIC": -44.647947,
+    "PB": 0.385162
+  },
+  "ownerEarnings": -529481000,
+  "growth_rate_revenue": 2034.456209,
+  "growth_rate_net_income": 135.041866
+}

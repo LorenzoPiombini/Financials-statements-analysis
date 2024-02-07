@@ -1,0 +1,14 @@
+{
+  "ticker": "DB",
+  "valuation": {
+    "PE_valuation": 33.039374, 
+    "DFC_valuation": -122.841493
+  },
+  "ratios": {
+    "ROIC": 7.299373,
+    "PB": 0.318908
+  },
+  "ownerEarnings": 26894000000,
+  "growth_rate_revenue": 48.730229,
+  "growth_rate_net_income": 164.467075
+}

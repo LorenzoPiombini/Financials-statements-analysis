@@ -1,0 +1,14 @@
+{
+  "ticker": "NGVC",
+  "valuation": {
+    "PE_valuation": 23.755553, 
+    "DFC_valuation": 171.780244
+  },
+  "ratios": {
+    "ROIC": 2.871671,
+    "PB": 1.717274
+  },
+  "ownerEarnings": 94188000,
+  "growth_rate_revenue": 25.694296,
+  "growth_rate_net_income": 45.058789
+}

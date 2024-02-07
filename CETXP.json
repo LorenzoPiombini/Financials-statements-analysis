@@ -1,0 +1,14 @@
+{
+  "ticker": "CETXP",
+  "valuation": {
+    "PE_valuation": 11.661861, 
+    "DFC_valuation": -1942.677577
+  },
+  "ratios": {
+    "ROIC": -7.218738,
+    "PB": 0.541023
+  },
+  "ownerEarnings": 1298077,
+  "growth_rate_revenue": 67.532333,
+  "growth_rate_net_income": -289.177630
+}

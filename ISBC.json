@@ -1,0 +1,14 @@
+{
+  "ticker": "ISBC",
+  "valuation": {
+    "PE_valuation": 57.249775, 
+    "DFC_valuation": 898.366304
+  },
+  "ratios": {
+    "ROIC": 4.858098,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 772181000,
+  "growth_rate_revenue": 494.385391,
+  "growth_rate_net_income": -179.886334
+}

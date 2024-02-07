@@ -1,0 +1,14 @@
+{
+  "ticker": "TOUR",
+  "valuation": {
+    "PE_valuation": 2.763728, 
+    "DFC_valuation": -28.365450
+  },
+  "ratios": {
+    "ROIC": -17.377707,
+    "PB": 1.163029
+  },
+  "ownerEarnings": -68858000,
+  "growth_rate_revenue": 89.030178,
+  "growth_rate_net_income": 186.362125
+}

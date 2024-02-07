@@ -1,0 +1,14 @@
+{
+  "ticker": "GNS",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -27.195742
+  },
+  "ratios": {
+    "ROIC": -29.153503,
+    "PB": 1.044120
+  },
+  "ownerEarnings": 33166399,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

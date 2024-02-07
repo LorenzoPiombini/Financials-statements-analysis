@@ -1,0 +1,14 @@
+{
+  "ticker": "GTXAP",
+  "valuation": {
+    "PE_valuation": 0.701327, 
+    "DFC_valuation": 245.147761
+  },
+  "ratios": {
+    "ROIC": 42.506100,
+    "PB": -4.250688
+  },
+  "ownerEarnings": 734000000,
+  "growth_rate_revenue": 1.255955,
+  "growth_rate_net_income": -245.894889
+}

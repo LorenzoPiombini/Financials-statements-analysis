@@ -3,7 +3,7 @@
 
 #include <string>
 #include <fstream>
-
+#include <vector>
 
 class Balancesheet {
     private:
@@ -128,7 +128,7 @@ class Balancesheet {
         bool reading_string_from_buffer_balance(const std::vector<char> &buffer, size_t &pos, std::string &value);
         void deserialize(std::string &json_string);
         
-       // friend void from_json(const nlohmann::json &j, Balancesheet &b);
+       
         
     
     

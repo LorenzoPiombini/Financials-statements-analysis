@@ -1,0 +1,14 @@
+{
+  "ticker": "SVBI",
+  "valuation": {
+    "PE_valuation": 31.508112, 
+    "DFC_valuation": -2320.268710
+  },
+  "ratios": {
+    "ROIC": -15.886035,
+    "PB": 0.835271
+  },
+  "ownerEarnings": -5779000,
+  "growth_rate_revenue": -4242.348109,
+  "growth_rate_net_income": -1920.284395
+}

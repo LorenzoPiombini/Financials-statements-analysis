@@ -1,0 +1,14 @@
+{
+  "ticker": "MIO",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 129.968372
+  },
+  "ratios": {
+    "ROIC": -7.913055,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -23942310,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

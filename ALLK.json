@@ -1,0 +1,14 @@
+{
+  "ticker": "ALLK",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -78.899910,
+    "PB": 1.716478
+  },
+  "ownerEarnings": -350183000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 93.008649
+}

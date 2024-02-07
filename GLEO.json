@@ -1,0 +1,14 @@
+{
+  "ticker": "GLEO",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -5.189185
+  },
+  "ratios": {
+    "ROIC": -0.574040,
+    "PB": 1.275560
+  },
+  "ownerEarnings": -795613,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

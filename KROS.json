@@ -1,0 +1,14 @@
+{
+  "ticker": "KROS",
+  "valuation": {
+    "PE_valuation": 0.254062, 
+    "DFC_valuation": -148.018805
+  },
+  "ratios": {
+    "ROIC": -37.765819,
+    "PB": 4.369047
+  },
+  "ownerEarnings": -132231000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 274.342524
+}

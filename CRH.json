@@ -1,0 +1,14 @@
+{
+  "ticker": "CRH",
+  "valuation": {
+    "PE_valuation": 215.376616, 
+    "DFC_valuation": 5134.479692
+  },
+  "ratios": {
+    "ROIC": 8.870386,
+    "PB": 1.391027
+  },
+  "ownerEarnings": 6738000000,
+  "growth_rate_revenue": 20.941458,
+  "growth_rate_net_income": 27.650926
+}

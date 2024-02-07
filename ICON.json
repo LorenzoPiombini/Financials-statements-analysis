@@ -1,0 +1,14 @@
+{
+  "ticker": "ICON",
+  "valuation": {
+    "PE_valuation": 0.003427, 
+    "DFC_valuation": 78.054788
+  },
+  "ratios": {
+    "ROIC": -13.730963,
+    "PB": -0.054223
+  },
+  "ownerEarnings": 25184000,
+  "growth_rate_revenue": 38.985056,
+  "growth_rate_net_income": -98.034229
+}

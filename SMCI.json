@@ -1,0 +1,14 @@
+{
+  "ticker": "SMCI",
+  "valuation": {
+    "PE_valuation": 2234.775570, 
+    "DFC_valuation": 271451.240257
+  },
+  "ratios": {
+    "ROIC": 28.708382,
+    "PB": 6.689413
+  },
+  "ownerEarnings": 632836000,
+  "growth_rate_revenue": 45.976865,
+  "growth_rate_net_income": 74.235071
+}

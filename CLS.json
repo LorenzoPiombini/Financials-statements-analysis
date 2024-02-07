@@ -1,0 +1,14 @@
+{
+  "ticker": "CLS",
+  "valuation": {
+    "PE_valuation": 22.450782, 
+    "DFC_valuation": 164.091564
+  },
+  "ratios": {
+    "ROIC": 7.164869,
+    "PB": 0.851111
+  },
+  "ownerEarnings": 474400000,
+  "growth_rate_revenue": 48.580560,
+  "growth_rate_net_income": 365.841488
+}

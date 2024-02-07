@@ -1,0 +1,14 @@
+{
+  "ticker": "NXRT",
+  "valuation": {
+    "PE_valuation": 14351.811177, 
+    "DFC_valuation": 7470689.648429
+  },
+  "ratios": {
+    "ROIC": 10.808944,
+    "PB": 2.144738
+  },
+  "ownerEarnings": 109204000,
+  "growth_rate_revenue": 3437.713680,
+  "growth_rate_net_income": 2196.345128
+}

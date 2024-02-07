@@ -1,0 +1,14 @@
+{
+  "ticker": "RYB",
+  "valuation": {
+    "PE_valuation": -0.283717, 
+    "DFC_valuation": 1.537504
+  },
+  "ratios": {
+    "ROIC": 3.739478,
+    "PB": 0.824671
+  },
+  "ownerEarnings": 28082000,
+  "growth_rate_revenue": 28.926640,
+  "growth_rate_net_income": -319.246288
+}

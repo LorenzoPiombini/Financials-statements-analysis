@@ -1,0 +1,14 @@
+{
+  "ticker": "GIII",
+  "valuation": {
+    "PE_valuation": -158.975034, 
+    "DFC_valuation": -10706.870780
+  },
+  "ratios": {
+    "ROIC": 12.478910,
+    "PB": 0.581970
+  },
+  "ownerEarnings": 695093000,
+  "growth_rate_revenue": 23.807730,
+  "growth_rate_net_income": -229.343211
+}

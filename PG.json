@@ -1,0 +1,14 @@
+{
+  "ticker": "PG",
+  "valuation": {
+    "PE_valuation": 265.050489, 
+    "DFC_valuation": 23727.682292
+  },
+  "ratios": {
+    "ROIC": 17.653428,
+    "PB": 7.782872
+  },
+  "ownerEarnings": 19082000000,
+  "growth_rate_revenue": 14.821024,
+  "growth_rate_net_income": 54.948294
+}

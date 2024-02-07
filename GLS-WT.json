@@ -1,0 +1,14 @@
+{
+  "ticker": "GLS-WT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -96.305114
+  },
+  "ratios": {
+    "ROIC": -145.626080,
+    "PB": -0.814789
+  },
+  "ownerEarnings": -201856000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

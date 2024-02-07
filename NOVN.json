@@ -1,0 +1,14 @@
+{
+  "ticker": "NOVN",
+  "valuation": {
+    "PE_valuation": 50.343059, 
+    "DFC_valuation": -197118.869666
+  },
+  "ratios": {
+    "ROIC": -177.370910,
+    "PB": 6.981266
+  },
+  "ownerEarnings": -23694000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 74.587427
+}

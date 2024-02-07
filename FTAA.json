@@ -1,0 +1,14 @@
+{
+  "ticker": "FTAA",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -4.251276
+  },
+  "ratios": {
+    "ROIC": -0.744566,
+    "PB": 1.288621
+  },
+  "ownerEarnings": 4215,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

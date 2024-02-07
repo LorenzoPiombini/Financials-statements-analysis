@@ -1,0 +1,14 @@
+{
+  "ticker": "AULT",
+  "valuation": {
+    "PE_valuation": 2859.197180, 
+    "DFC_valuation": -85.658004
+  },
+  "ratios": {
+    "ROIC": -37.212534,
+    "PB": 2.729343
+  },
+  "ownerEarnings": 96146000,
+  "growth_rate_revenue": -1.940205,
+  "growth_rate_net_income": -1869.751660
+}

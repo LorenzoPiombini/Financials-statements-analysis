@@ -1,0 +1,14 @@
+{
+  "ticker": "ALR",
+  "valuation": {
+    "PE_valuation": 4.574923, 
+    "DFC_valuation": -66.598785
+  },
+  "ratios": {
+    "ROIC": -3.103219,
+    "PB": 0.513208
+  },
+  "ownerEarnings": 36498000,
+  "growth_rate_revenue": 44.260683,
+  "growth_rate_net_income": -1349.905930
+}

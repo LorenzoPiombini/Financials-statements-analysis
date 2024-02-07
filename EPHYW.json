@@ -1,0 +1,14 @@
+{
+  "ticker": "EPHYW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -296.221855,
+    "PB": -20021.584927
+  },
+  "ownerEarnings": 7207291,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RETO",
+  "valuation": {
+    "PE_valuation": 15.314919, 
+    "DFC_valuation": -16.937264
+  },
+  "ratios": {
+    "ROIC": -99.116797,
+    "PB": 37.529091
+  },
+  "ownerEarnings": -11645926,
+  "growth_rate_revenue": 3.358613,
+  "growth_rate_net_income": -63.355642
+}

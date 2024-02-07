@@ -1,0 +1,14 @@
+{
+  "ticker": "CRXT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 263.702130,
+    "PB": -3.667485
+  },
+  "ownerEarnings": -25340000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

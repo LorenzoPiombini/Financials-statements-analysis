@@ -1,0 +1,14 @@
+{
+  "ticker": "BBQ",
+  "valuation": {
+    "PE_valuation": 591.308458, 
+    "DFC_valuation": 1193472.757406
+  },
+  "ratios": {
+    "ROIC": 3.125004,
+    "PB": 2.393355
+  },
+  "ownerEarnings": 8752000,
+  "growth_rate_revenue": 331.851029,
+  "growth_rate_net_income": 150.081004
+}

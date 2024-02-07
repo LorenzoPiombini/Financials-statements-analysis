@@ -1,0 +1,14 @@
+{
+  "ticker": "EPAM",
+  "valuation": {
+    "PE_valuation": 2005.170431, 
+    "DFC_valuation": 25351.990397
+  },
+  "ratios": {
+    "ROIC": 14.110381,
+    "PB": 6.255656
+  },
+  "ownerEarnings": 700557000,
+  "growth_rate_revenue": 46.975176,
+  "growth_rate_net_income": 53.723911
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MERC",
+  "valuation": {
+    "PE_valuation": 199.014529, 
+    "DFC_valuation": 191236.305390
+  },
+  "ratios": {
+    "ROIC": 12.662501,
+    "PB": 0.916411
+  },
+  "ownerEarnings": 682256000,
+  "growth_rate_revenue": 96.922260,
+  "growth_rate_net_income": 82.947856
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BFIN",
+  "valuation": {
+    "PE_valuation": 24.237232, 
+    "DFC_valuation": 161.785281
+  },
+  "ratios": {
+    "ROIC": 8.110031,
+    "PB": 0.907526
+  },
+  "ownerEarnings": 22662000,
+  "growth_rate_revenue": 133.996635,
+  "growth_rate_net_income": 76.647854
+}

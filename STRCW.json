@@ -1,0 +1,14 @@
+{
+  "ticker": "STRCW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -4831.454460
+  },
+  "ratios": {
+    "ROIC": -60.948391,
+    "PB": 0.570957
+  },
+  "ownerEarnings": -22450000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

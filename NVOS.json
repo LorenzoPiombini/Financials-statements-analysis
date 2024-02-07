@@ -1,0 +1,14 @@
+{
+  "ticker": "NVOS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -38.869199,
+    "PB": 0.057349
+  },
+  "ownerEarnings": -12649291,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 113.912293
+}

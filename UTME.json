@@ -1,0 +1,14 @@
+{
+  "ticker": "UTME",
+  "valuation": {
+    "PE_valuation": 345.859603, 
+    "DFC_valuation": -245.709296
+  },
+  "ratios": {
+    "ROIC": -62.103662,
+    "PB": 1.036939
+  },
+  "ownerEarnings": -141935000,
+  "growth_rate_revenue": -16.298728,
+  "growth_rate_net_income": -118.245371
+}

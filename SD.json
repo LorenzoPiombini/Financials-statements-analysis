@@ -1,0 +1,14 @@
+{
+  "ticker": "SD",
+  "valuation": {
+    "PE_valuation": -1.916831, 
+    "DFC_valuation": 230.928546
+  },
+  "ratios": {
+    "ROIC": 48.689692,
+    "PB": 1.282515
+  },
+  "ownerEarnings": 287098000,
+  "growth_rate_revenue": 65.164389,
+  "growth_rate_net_income": -673.443662
+}

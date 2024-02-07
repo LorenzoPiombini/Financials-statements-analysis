@@ -1,0 +1,14 @@
+{
+  "ticker": "HDB",
+  "valuation": {
+    "PE_valuation": 339418.817749, 
+    "DFC_valuation": 147749257.953125
+  },
+  "ratios": {
+    "ROIC": 7.928081,
+    "PB": 3.486963
+  },
+  "ownerEarnings": 547724800000,
+  "growth_rate_revenue": 153.519462,
+  "growth_rate_net_income": 42.640200
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "EHC",
+  "valuation": {
+    "PE_valuation": 3107.013652, 
+    "DFC_valuation": 3933496.798636
+  },
+  "ratios": {
+    "ROIC": 10.788114,
+    "PB": 4.528087
+  },
+  "ownerEarnings": 1503400000,
+  "growth_rate_revenue": 158.064548,
+  "growth_rate_net_income": 169.507797
+}

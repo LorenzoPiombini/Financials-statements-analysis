@@ -1,0 +1,14 @@
+{
+  "ticker": "AMCR",
+  "valuation": {
+    "PE_valuation": 42.366258, 
+    "DFC_valuation": 152.419620
+  },
+  "ratios": {
+    "ROIC": 11.287290,
+    "PB": 3.582064
+  },
+  "ownerEarnings": 2267000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 18.490218
+}

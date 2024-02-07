@@ -1,0 +1,14 @@
+{
+  "ticker": "AVTX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -414.759015,
+    "PB": -1042.647163
+  },
+  "ownerEarnings": -40719000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -141.017194
+}

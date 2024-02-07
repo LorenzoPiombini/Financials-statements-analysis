@@ -1,0 +1,14 @@
+{
+  "ticker": "SAMG",
+  "valuation": {
+    "PE_valuation": 33.418900, 
+    "DFC_valuation": 263.813619
+  },
+  "ratios": {
+    "ROIC": 18.602192,
+    "PB": 2.172913
+  },
+  "ownerEarnings": 27611000,
+  "growth_rate_revenue": 20.512553,
+  "growth_rate_net_income": -0.284371
+}

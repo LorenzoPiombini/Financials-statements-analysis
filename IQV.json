@@ -1,0 +1,14 @@
+{
+  "ticker": "IQV",
+  "valuation": {
+    "PE_valuation": 772.813420, 
+    "DFC_valuation": 840.065960
+  },
+  "ratios": {
+    "ROIC": 7.646169,
+    "PB": 6.667366
+  },
+  "ownerEarnings": 3593000000,
+  "growth_rate_revenue": 9.919400,
+  "growth_rate_net_income": 29.383675
+}

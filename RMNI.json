@@ -1,0 +1,14 @@
+{
+  "ticker": "RMNI",
+  "valuation": {
+    "PE_valuation": -0.326811, 
+    "DFC_valuation": 44.750517
+  },
+  "ratios": {
+    "ROIC": -82.882456,
+    "PB": -4.328500
+  },
+  "ownerEarnings": 53070000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 376.561208
+}

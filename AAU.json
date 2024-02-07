@@ -1,0 +1,14 @@
+{
+  "ticker": "AAU",
+  "valuation": {
+    "PE_valuation": 0.004375, 
+    "DFC_valuation": -1.557887
+  },
+  "ratios": {
+    "ROIC": -5.224539,
+    "PB": 0.650050
+  },
+  "ownerEarnings": 2616543,
+  "growth_rate_revenue": 208.598309,
+  "growth_rate_net_income": 75.209580
+}

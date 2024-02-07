@@ -1,0 +1,14 @@
+{
+  "ticker": "BKH",
+  "valuation": {
+    "PE_valuation": 108.281371, 
+    "DFC_valuation": -133.622411
+  },
+  "ratios": {
+    "ROIC": 2.460512,
+    "PB": 1.523287
+  },
+  "ownerEarnings": 937705000,
+  "growth_rate_revenue": 22.022575,
+  "growth_rate_net_income": 7.280620
+}

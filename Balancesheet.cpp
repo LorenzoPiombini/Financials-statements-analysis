@@ -3,7 +3,8 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-
+#include <cstring>
+#include "Logger.h"
 
 
 std::string Balancesheet::get_date() const{
@@ -228,387 +229,57 @@ void Balancesheet::deserialize(std::string &json_string){
          if(key == "acceptedDate"){acceptedDate = value;}
          if(key == "calendarYear"){calendarYear = value;}
          if(key == "period"){period = value;}
-         if(key == "cashAndCashEquivalents"){cashAndCashEquivalents = std::stoll(value);}
-         if(key == "shortTermInvestments"){shortTermInvestments = std::stoll(value);}
-         if(key == "cashAndShortTermInvestments"){cashAndShortTermInvestments = std::stoll(value);}
-         if(key == "netReceivables"){netReceivables = std::stoll(value);}
-         if(key == "inventory"){inventory = std::stoll(value);}
-         if(key == "otherCurrentAssets"){otherCurrentAssets = std::stoll(value);}
-         if(key == "totalCurrentAssets"){totalCurrentAssets = std::stoll(value);}
-         if(key == "propertyPlantEquipmentNet"){propertyPlantEquipmentNet = std::stoll(value);}
-         if(key == "goodwill"){goodwill = std::stoll(value);}
-         if(key == "intangibleAssets"){intangibleAssets = std::stoll(value);}
-         if(key == "goodwillAndIntangibleAssets"){goodwillAndIntangibleAssets = std::stoll(value);}
-         if(key == "longTermInvestments"){longTermInvestments = std::stoll(value);}
-         if(key == "taxAssets"){taxAssets = std::stoll(value);}
-         if(key == "otherNonCurrentAssets"){ otherNonCurrentAssets= std::stoll(value);}
-         if(key == "totalNonCurrentAssets"){ totalNonCurrentAssets= std::stoll(value);}
-         if(key == "otherAssets"){ otherAssets= std::stoll(value);}
-         if(key == "totalAssets"){ totalAssets= std::stoll(value);}
-         if(key == "accountPayables"){ accountPayables = std::stoll(value);}
-         if(key == "shortTermDebt"){ shortTermDebt= std::stoll(value);}
-         if(key == "taxPayables"){ taxPayables= std::stoll(value);}
-         if(key == "deferredRevenue"){ deferredRevenue= std::stoll(value);}
-         if(key == "otherCurrentLiabilities"){ otherCurrentLiabilities = std::stoll(value);}
-         if(key == "totalCurrentLiabilities"){ totalCurrentLiabilities = std::stoll(value);}
-         if(key == "longTermDebt"){ longTermDebt= std::stoll(value);}
-         if(key == "deferredRevenueNonCurrent"){deferredRevenueNonCurrent = std::stoll(value);}
-         if(key == "deferredTaxLiabilitiesNonCurrent"){deferredTaxLiabilitiesNonCurrent= std::stoll(value);}
-         if(key == "otherNonCurrentLiabilities"){otherNonCurrentLiabilities= std::stoll(value);}
-         if(key == "totalNonCurrentLiabilities"){totalNonCurrentLiabilities= std::stoll(value);}
-         if(key == "otherLiabilities"){otherLiabilities= std::stoll(value);}
-         if(key == "capitalLeaseObligations"){capitalLeaseObligations= std::stoll(value);}
-         if(key == "totalLiabilities"){totalLiabilities= std::stoll(value);}
-         if(key == "preferredStock"){preferredStock= std::stoll(value);}
-         if(key == "commonStock"){commonStock= std::stoll(value);}
-         if(key == "retainedEarnings"){retainedEarnings= std::stoll(value);}
-         if(key == "accumulatedOtherComprehensiveIncomeLoss"){accumulatedOtherComprehensiveIncomeLoss= std::stoll(value);}
-         if(key == "othertotalStockholdersEquity"){othertotalStockholdersEquity= std::stoll(value);}
-         if(key == "totalStockholdersEquity"){totalStockholdersEquity= std::stoll(value);}
-         if(key == "totalEquity"){ totalEquity= std::stoll(value);}
-         if(key == "totalLiabilitiesAndStockholdersEquity"){totalLiabilitiesAndStockholdersEquity= std::stoll(value);}
-         if(key == "minorityInterest"){minorityInterest= std::stoll(value);}
-         if(key == "totalLiabilitiesAndTotalEquity"){totalLiabilitiesAndTotalEquity = std::stoll(value);}
-         if(key == "totalInvestments"){totalInvestments = std::stoll(value);}
-         if(key == "totalDebt"){totalDebt = std::stoll(value);}
-         if(key == "netDebt"){netDebt = std::stoll(value);}
+         if(key == "cashAndCashEquivalents" && value != "null"){cashAndCashEquivalents = std::stoll(value);}
+         if(key == "shortTermInvestments"&& value != "null"){shortTermInvestments = std::stoll(value);}
+         if(key == "cashAndShortTermInvestments"&& value != "null"){cashAndShortTermInvestments = std::stoll(value);}
+         if(key == "netReceivables"&& value != "null"){netReceivables = std::stoll(value);}
+         if(key == "inventory"&& value != "null"){inventory = std::stoll(value);}
+         if(key == "otherCurrentAssets"&& value != "null"){otherCurrentAssets = std::stoll(value);}
+         if(key == "totalCurrentAssets"&& value != "null"){totalCurrentAssets = std::stoll(value);}
+         if(key == "propertyPlantEquipmentNet"&& value != "null"){propertyPlantEquipmentNet = std::stoll(value);}
+         if(key == "goodwill"&& value != "null"){goodwill = std::stoll(value);}
+         if(key == "intangibleAssets"&& value != "null"){intangibleAssets = std::stoll(value);}
+         if(key == "goodwillAndIntangibleAssets"&& value != "null"){goodwillAndIntangibleAssets = std::stoll(value);}
+         if(key == "longTermInvestments"&& value != "null"){longTermInvestments = std::stoll(value);}
+         if(key == "taxAssets"&& value != "null"){taxAssets = std::stoll(value);}
+         if(key == "otherNonCurrentAssets"&& value != "null"){ otherNonCurrentAssets= std::stoll(value);}
+         if(key == "totalNonCurrentAssets"&& value != "null"){ totalNonCurrentAssets= std::stoll(value);}
+         if(key == "otherAssets"&& value != "null"){ otherAssets= std::stoll(value);}
+         if(key == "totalAssets"&& value != "null"){ totalAssets= std::stoll(value);}
+         if(key == "accountPayables"&& value != "null"){ accountPayables = std::stoll(value);}
+         if(key == "shortTermDebt"&& value != "null"){ shortTermDebt= std::stoll(value);}
+         if(key == "taxPayables"&& value != "null"){ taxPayables= std::stoll(value);}
+         if(key == "deferredRevenue"&& value != "null"){ deferredRevenue= std::stoll(value);}
+         if(key == "otherCurrentLiabilities"&& value != "null"){ otherCurrentLiabilities = std::stoll(value);}
+         if(key == "totalCurrentLiabilities"&& value != "null"){ totalCurrentLiabilities = std::stoll(value);}
+         if(key == "longTermDebt"&& value != "null"){ longTermDebt= std::stoll(value);}
+         if(key == "deferredRevenueNonCurrent"&& value != "null"){deferredRevenueNonCurrent = std::stoll(value);}
+         if(key == "deferredTaxLiabilitiesNonCurrent"&& value != "null"){deferredTaxLiabilitiesNonCurrent= std::stoll(value);}
+         if(key == "otherNonCurrentLiabilities"&& value != "null"){otherNonCurrentLiabilities= std::stoll(value);}
+         if(key == "totalNonCurrentLiabilities"&& value != "null"){totalNonCurrentLiabilities= std::stoll(value);}
+         if(key == "otherLiabilities"&& value != "null"){otherLiabilities= std::stoll(value);}
+         if(key == "capitalLeaseObligations"&& value != "null"){capitalLeaseObligations= std::stoll(value);}
+         if(key == "totalLiabilities"&& value != "null"){totalLiabilities= std::stoll(value);}
+         if(key == "preferredStock"&& value != "null"){preferredStock= std::stoll(value);}
+         if(key == "commonStock"&& value != "null"){commonStock= std::stoll(value);}
+         if(key == "retainedEarnings"&& value != "null"){retainedEarnings= std::stoll(value);}
+         if(key == "accumulatedOtherComprehensiveIncomeLoss"&& value != "null"){accumulatedOtherComprehensiveIncomeLoss= std::stoll(value);}
+         if(key == "othertotalStockholdersEquity"&& value != "null"){othertotalStockholdersEquity= std::stoll(value);}
+         if(key == "totalStockholdersEquity"&& value != "null"){totalStockholdersEquity= std::stoll(value);}
+         if(key == "totalEquity"&& value != "null"){ totalEquity= std::stoll(value);}
+         if(key == "totalLiabilitiesAndStockholdersEquity"&& value != "null"){totalLiabilitiesAndStockholdersEquity= std::stoll(value);}
+         if(key == "minorityInterest"&& value != "null"){minorityInterest= std::stoll(value);}
+         if(key == "totalLiabilitiesAndTotalEquity"&& value != "null"){totalLiabilitiesAndTotalEquity = std::stoll(value);}
+         if(key == "totalInvestments"&& value != "null"){totalInvestments = std::stoll(value);}
+         if(key == "totalDebt"&& value != "null"){totalDebt = std::stoll(value);}
+         if(key == "netDebt"&& value != "null"){netDebt = std::stoll(value);}
          if(key == "link"){link = value;}
          if(key == "finalLink"){finalLink = value;}
     
         }
     
-}
+}    
 
-//void from_json(const nlohmann::json &j, Balancesheet &i){
-//        
-//     if(j.contains("date") && !j["date"].empty()){
-//         j.at("date").get_to(i.date);
-//     }else {
-//         i.date= "none";
-//     }
-//      
-//     if(j.contains("symbol") && !j["symbol"].empty()){
-//         j.at("symbol").get_to(i.symbol);
-//     }else {
-//         i.symbol = "none";
-//     }
-//     if(j.contains("reportedCurrency") && !j["reportedCurrency"].empty()){
-//         j.at("reportedCurrency").get_to(i.reportedCurrency);
-//     }else {
-//         i.reportedCurrency = "none";
-//     }
-//      
-//    
-//     if(j.contains("cik") && !j["cik"].empty()){
-//         j.at("cik").get_to(i.cik);
-//     }else {
-//         i.cik = "none" ;
-//     }
-//      
-//     if(j.contains("fillingDate") && !j["fillingDate"].empty()){
-//         j.at("fillingDate").get_to(i.fillingDate);
-//     }else {
-//         i.fillingDate = "none" ;
-//     }
-//      if(j.contains("acceptedDate") && !j["acceptedDate"].empty()){
-//         j.at("acceptedDate").get_to(i.acceptedDate);
-//     }else {
-//         i.acceptedDate = "none";
-//     }
-//      
-//     if(j.contains("calendarYear") && !j["calendarYear"].empty()){
-//         j.at("calendarYear").get_to(i.calendarYear);
-//     }else {
-//         i.calendarYear = "none";
-//     }
-//      if(j.contains("period") && !j["period"].empty()){
-//         j.at("period").get_to(i.period);
-//     }else {
-//         i.period = "none";
-//     }
-//      
-//     if(j.contains("cashAndCashEquivalents") && !j["cashAndCashEquivalents"].empty()){
-//         j.at("cashAndCashEquivalents").get_to(i.cashAndCashEquivalents);
-//     }else {
-//         i.cashAndCashEquivalents = 0;
-//     }
-//      if(j.contains("shortTermInvestments") && !j["shortTermInvestments"].empty()){
-//         j.at("shortTermInvestments").get_to(i.shortTermInvestments);
-//     }else {
-//         i.shortTermInvestments = 0;
-//     }
-//      
-//     if(j.contains("cashAndShortTermInvestments") && !j["cashAndShortTermInvestments"].empty()){
-//         j.at("cashAndShortTermInvestments").get_to(i.cashAndShortTermInvestments);
-//     }else {
-//         i.cashAndShortTermInvestments = 0 ;
-//     }
-//      if(j.contains("netReceivables") && !j["netReceivables"].empty()){
-//         j.at("netReceivables").get_to(i.netReceivables);
-//     }else {
-//         i.netReceivables = 0 ;
-//     }
-//      
-//     if(j.contains("inventory") && !j["inventory"].empty()){
-//         j.at("inventory").get_to(i.inventory);
-//     }else {
-//         i.inventory = 0;
-//     }
-//      if(j.contains("otherCurrentAssets") && !j["otherCurrentAssets"].empty()){
-//         j.at("otherCurrentAssets").get_to(i.otherCurrentAssets);
-//     }else {
-//         i.otherCurrentAssets = 0;
-//     }
-//      
-//    
-//      if(j.contains("totalCurrentAssets") && !j["totalCurrentAssets"].empty()){
-//         j.at("totalCurrentAssets").get_to(i.totalCurrentAssets);
-//     }else {
-//         i.totalCurrentAssets = 0 ;
-//     }
-//      
-//     if(j.contains("propertyPlantEquipmentNet") && !j["propertyPlantEquipmentNet"].empty()){
-//         j.at("propertyPlantEquipmentNet").get_to(i.propertyPlantEquipmentNet);
-//     }else {
-//         i.propertyPlantEquipmentNet = 0 ;
-//     }
-//      if(j.contains("goodwill") && !j["goodwill"].empty()){
-//         j.at("goodwill").get_to(i.goodwill);
-//     }else {
-//         i.goodwill = 0;
-//     }
-//      
-//     if(j.contains("intangibleAssets") && !j["intangibleAssets"].empty()){
-//         j.at("intangibleAssets").get_to(i.intangibleAssets);
-//     }else {
-//         i.intangibleAssets = 0;
-//     }
-//    
-//    if(j.contains("goodwillAndIntangibleAssets") && !j["goodwillAndIntangibleAssets"].empty()){
-//         j.at("goodwillAndIntangibleAssets").get_to(i.goodwillAndIntangibleAssets);
-//     }else {
-//         i.goodwillAndIntangibleAssets = 0 ;
-//     }
-//     
-//      
-//    if(j.contains("longTermInvestments") && !j["longTermInvestments"].empty()){
-//         j.at("longTermInvestments").get_to(i.longTermInvestments);
-//     }else {
-//         i.longTermInvestments = 0;
-//     }
-//     
-//      if(j.contains("taxAssets") && !j["taxAssets"].empty()){
-//         j.at("taxAssets").get_to(i.taxAssets);
-//     }else {
-//         i.taxAssets = 0 ;
-//     }
-//    
-//    if(j.contains("otherNonCurrentAssets") && !j["otherNonCurrentAssets"].empty()){
-//         j.at("otherNonCurrentAssets").get_to(i.otherNonCurrentAssets);
-//     }else {
-//         i.otherNonCurrentAssets = 0;
-//     }
-//     
-//    if(j.contains("totalNonCurrentAssets") && !j["totalNonCurrentAssets"].empty()){
-//         j.at("totalNonCurrentAssets").get_to(i.totalNonCurrentAssets);
-//     }else {
-//         i.totalNonCurrentAssets = 0;
-//     }
-//      if(j.contains("otherAssets") && !j["otherAssets"].empty()){
-//         j.at("otherAssets").get_to(i.otherAssets);
-//     }else {
-//         i.otherAssets = 0;
-//     }
-//    
-//    if(j.contains("totalAssets") && !j["totalAssets"].empty()){
-//         j.at("totalAssets").get_to(i.totalAssets);
-//     }else {
-//         i.totalAssets = 0;
-//     }
-//     
-//      
-//    if(j.contains("accountPayables") && !j["accountPayables"].empty()){
-//         j.at("accountPayables").get_to(i.accountPayables);
-//     }else {
-//         i.accountPayables = 0 ;
-//     }
-//      if(j.contains("shortTermDebt") && !j["shortTermDebt"].empty()){
-//         j.at("shortTermDebt").get_to(i.shortTermDebt);
-//     }else {
-//         i.shortTermDebt = 0;
-//     }
-//    
-//    if(j.contains("taxPayables") && !j["taxPayables"].empty()){
-//         j.at("taxPayables").get_to(i.taxPayables);
-//     }else {
-//         i.taxPayables = 0 ;
-//     }
-//     
-//      
-//    if(j.contains("deferredRevenue") && !j["deferredRevenue"].empty()){
-//         j.at("deferredRevenue").get_to(i.deferredRevenue);
-//     }else {
-//         i.deferredRevenue =0 ;
-//     }
-//     
-//      if(j.contains("otherCurrentLiabilities") && !j["otherCurrentLiabilities"].empty()){
-//         j.at("otherCurrentLiabilities").get_to(i.otherCurrentLiabilities);
-//     }else {
-//         i.otherCurrentLiabilities = 0;
-//     }
-//    
-//    if(j.contains("totalCurrentLiabilities") && !j["totalCurrentLiabilities"].empty()){
-//         j.at("totalCurrentLiabilities").get_to(i.totalCurrentLiabilities);
-//     }else {
-//         i.totalCurrentLiabilities = 0;
-//     }
-//     
-//      
-//    if(j.contains("longTermDebt") && !j["longTermDebt"].empty()){
-//         j.at("longTermDebt").get_to(i.longTermDebt);
-//     }else {
-//         i.longTermDebt = 0;
-//     }
-//     
-//      if(j.contains("deferredRevenueNonCurrent") && !j["deferredRevenueNonCurrent"].empty()){
-//         j.at("deferredRevenueNonCurrent").get_to(i.deferredRevenueNonCurrent);
-//     }else {
-//         i.deferredRevenueNonCurrent = 0 ;
-//     }
-//    
-//    if(j.contains("deferredTaxLiabilitiesNonCurrent") && !j["deferredTaxLiabilitiesNonCurrent"].empty()){
-//         j.at("deferredTaxLiabilitiesNonCurrent").get_to(i.deferredTaxLiabilitiesNonCurrent);
-//     }else {
-//         i.deferredTaxLiabilitiesNonCurrent = 0;
-//     }
-//     
-//      
-//    if(j.contains("otherNonCurrentLiabilities") && !j["otherNonCurrentLiabilities"].empty()){
-//         j.at("otherNonCurrentLiabilities").get_to(i.otherNonCurrentLiabilities);
-//     }else {
-//         i.otherNonCurrentLiabilities = 0;
-//     }
-//       
-//    if(j.contains("totalNonCurrentLiabilities") && !j["totalNonCurrentLiabilities"].empty()){
-//         j.at("totalNonCurrentLiabilities").get_to(i.totalNonCurrentLiabilities);
-//     }else {
-//         i.totalNonCurrentLiabilities = 0;
-//     }
-//     
-//      if(j.contains("otherLiabilities") && !j["otherLiabilities"].empty()){
-//         j.at("otherLiabilities").get_to(i.otherLiabilities);
-//     }else {
-//         i.otherLiabilities =0 ;
-//     }
-//    
-//    if(j.contains("capitalLeaseObligations") && !j["capitalLeaseObligations"].empty()){
-//         j.at("capitalLeaseObligations").get_to(i.capitalLeaseObligations);
-//     }else {
-//         i.capitalLeaseObligations = 0 ;
-//     }
-//     
-//      
-//    if(j.contains("totalLiabilities") && !j["totalLiabilities"].empty()){
-//         j.at("totalLiabilities").get_to(i.totalLiabilities);
-//     }else {
-//         i.totalLiabilities = 0;
-//     }
-//       
-//    if(j.contains("preferredStock") && !j["preferredStock"].empty()){
-//         j.at("preferredStock").get_to(i.preferredStock);
-//     }else {
-//         i.preferredStock = 0;
-//     }
-//     
-//      if(j.contains("commonStock") && !j["commonStock"].empty()){
-//         j.at("commonStock").get_to(i.commonStock);
-//     }else {
-//         i.commonStock = 0;
-//     }
-//    
-//    if(j.contains("retainedEarnings") && !j["retainedEarnings"].empty()){
-//         j.at("retainedEarnings").get_to(i.retainedEarnings);
-//     }else {
-//         i.retainedEarnings = 0;
-//     }
-//     
-//      
-//    if(j.contains("accumulatedOtherComprehensiveIncomeLoss") && !j["accumulatedOtherComprehensiveIncomeLoss"].empty()){
-//         j.at("accumulatedOtherComprehensiveIncomeLoss").get_to(i.accumulatedOtherComprehensiveIncomeLoss);
-//     }else {
-//         i.accumulatedOtherComprehensiveIncomeLoss = 0;
-//     }
-//       
-//    if(j.contains("othertotalStockholdersEquity") && !j["othertotalStockholdersEquity"].empty()){
-//         j.at("othertotalStockholdersEquity").get_to(i.othertotalStockholdersEquity);
-//     }else {
-//         i.othertotalStockholdersEquity = 0;
-//     }
-//     
-//      if(j.contains("totalStockholdersEquity") && !j["totalStockholdersEquity"].empty()){
-//         j.at("totalStockholdersEquity").get_to(i.totalStockholdersEquity);
-//     }else {
-//         i.totalStockholdersEquity = 0 ;
-//     }
-//    
-//    if(j.contains("totalEquity") && !j["totalEquity"].empty()){
-//         j.at("totalEquity").get_to(i.totalEquity);
-//     }else {
-//         i.totalEquity = 0;
-//     }
-//     
-//      
-//    if(j.contains("totalLiabilitiesAndStockholdersEquity") && !j["totalLiabilitiesAndStockholdersEquity"].empty()){
-//         j.at("totalLiabilitiesAndStockholdersEquity").get_to(i.totalLiabilitiesAndStockholdersEquity);
-//     }else {
-//         i.totalLiabilitiesAndStockholdersEquity = 0;
-//     }
-//       
-//    if(j.contains("minorityInterest") && !j["minorityInterest"].empty()){
-//         j.at("minorityInterest").get_to(i.minorityInterest);
-//     }else {
-//         i.minorityInterest = 0;
-//     }
-//     
-//      if(j.contains("totalLiabilitiesAndTotalEquity") && !j["totalLiabilitiesAndTotalEquity"].empty()){
-//         j.at("totalLiabilitiesAndTotalEquity").get_to(i.totalLiabilitiesAndTotalEquity);
-//     }else {
-//         i.totalLiabilitiesAndTotalEquity = 0;
-//     }
-//    
-//    if(j.contains("totalInvestments") && !j["totalInvestments"].empty()){
-//         j.at("totalInvestments").get_to(i.totalInvestments);
-//     }else {
-//         i.totalInvestments = 0;
-//     }
-//     
-//      
-//    if(j.contains("totalDebt") && !j["totalDebt"].empty()){
-//         j.at("totalDebt").get_to(i.totalDebt);
-//     }else {
-//         i.totalDebt = 0;
-//     }
-//     
-//     if(j.contains("netDebt") && !j["netDebt"].empty()){
-//         j.at("netDebt").get_to(i.netDebt);
-//     }else {
-//         i.netDebt = 0;
-//     }
-//     
-//     if(j.contains("link") && !j["link"].empty()){
-//         j.at("link").get_to(i.link);
-//     }else {
-//         i.link = "nf" ;
-//     }
-//     
-//     if(j.contains("finalLink") && !j["finalLink"].empty()){
-//         j.at("finalLink").get_to(i.finalLink);
-//     }else {
-//         i.finalLink = "nf";
-//     }
-//     
-//      
-//}
 
 
 size_t Balancesheet::compute_object_size() const {
@@ -633,11 +304,6 @@ size_t Balancesheet::compute_object_size() const {
     }
 
 void Balancesheet::save_to_file(std::ofstream &out){
-    
-        if (!out) {
-        std::cerr << "File stream is not open or has encountered an error." << std::endl;
-        return;
-        }
     
     
      size_t obj_size = this-> compute_object_size();
@@ -773,8 +439,10 @@ bool read_number_values_from_buffer(std::vector<char> &buffer, size_t &pos, T &v
 
 
 bool Balancesheet::read_from_file(std::ifstream &in, std::vector<Balancesheet*> &statements){
-     if (!in){
-      std::cerr<< "IO stream it is not open or some error with it.\n";   
+     Logger logger("read_bs_f.log");
+ 
+    if (!in){
+      logger.log("IO stream it is not open or some error with it. "+ get_class_name() +"\n", Logger::Level::Error);  
     }
     
     
@@ -796,7 +464,8 @@ bool Balancesheet::read_from_file(std::ifstream &in, std::vector<Balancesheet*> 
      std::vector<char> buffer(obj_size);
      
      if(!in.read(buffer.data(),obj_size)){
-         std::cerr<< "failed to read object data from file class "<< get_class_name()<<"\n";
+         
+         logger.log("failed to read object data from file class " +get_class_name() +"\n",Logger::Level::Error );
          return false;
       }
       
@@ -811,174 +480,174 @@ bool Balancesheet::read_from_file(std::ifstream &in, std::vector<Balancesheet*> 
         
        
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->date)){
-            std::cerr << "Error reading 'date' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'date' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->symbol)){
-             std::cerr << "Error reading 'symbol' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'symbol' in "+ get_class_name(), Logger::Level::Error);
              }
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->reportedCurrency)){
-             std::cerr << "Error reading 'reportedCurrency' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'reportedCurrency' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->cik)){
-             std::cerr << "Error reading 'cik' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'cik' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->fillingDate)){
-             std::cerr << "Error reading 'fillingDate' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'fillingDate' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->acceptedDate)){
-             std::cerr << "Error reading 'acceptedDate' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'acceptedDate' in " + get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->calendarYear)){
-             std::cerr << "Error reading 'calendarYear' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'calendarYear' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->period)){
-             std::cerr << "Error reading 'period' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'period' in "+ get_class_name(), Logger::Level::Error);
             }
         
         //numbers value
 
         if(!read_number_values_from_buffer(buffer, pos,statement -> cashAndCashEquivalents)){
-             std::cerr << "Error reading 'cashAndCashEquivalents' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'cashAndCashEquivalents' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->shortTermInvestments)){
-            std::cerr << "Error reading 'shortTermInvestments' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'shortTermInvestments' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->cashAndShortTermInvestments)){
-            std::cerr << "Error reading 'cashAndShortTermInvestments' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'cashAndShortTermInvestments' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->netReceivables)){
-            std::cerr << "Error reading 'netReceivables' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'netReceivables' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->inventory)){
-            std::cerr << "Error reading 'inventory' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'inventory' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->otherCurrentAssets)){
-            std::cerr << "Error reading 'otherCurrentAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'otherCurrentAssets' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalCurrentAssets)){
-            std::cerr << "Error reading 'totalCurrentAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalCurrentAssets' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->propertyPlantEquipmentNet)){
-            std::cerr << "Error reading 'propertyPlantEquipmentNet' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'propertyPlantEquipmentNet' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->goodwill)){
-            std::cerr << "Error reading 'goodwill' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'goodwill' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->intangibleAssets)){
-            std::cerr << "Error reading 'intangibleAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'intangibleAssets' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->goodwillAndIntangibleAssets)){
-            std::cerr << "Error reading 'goodwillAndIntangibleAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'goodwillAndIntangibleAssets' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->longTermInvestments)){
-            std::cerr << "Error reading 'longTermInvestments' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'longTermInvestments' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->taxAssets)){
-            std::cerr << "Error reading 'taxAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'taxAssets' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->otherNonCurrentAssets)){
-            std::cerr << "Error reading 'otherNonCurrentAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'otherNonCurrentAssets' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalNonCurrentAssets)){
-            std::cerr << "Error reading 'totalNonCurrentAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalNonCurrentAssets' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->otherAssets)){
-            std::cerr << "Error reading 'otherAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'otherAssets' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalAssets)){
-            std::cerr << "Error reading 'totalAssets' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalAssets' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->accountPayables)){
-            std::cerr << "Error reading 'accountPayables' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'accountPayables' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->shortTermDebt)){
-            std::cerr << "Error reading 'shortTermDebt' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'shortTermDebt' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->taxPayables)){
-            std::cerr << "Error reading 'taxPayables' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'taxPayables' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->deferredRevenue)){
-            std::cerr << "Error reading 'deferredRevenue' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'deferredRevenue' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->otherCurrentLiabilities)){
-            std::cerr << "Error reading 'otherCurrentLiabilities' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'otherCurrentLiabilities' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalCurrentLiabilities)){
-            std::cerr << "Error reading 'totalCurrentLiabilities' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalCurrentLiabilities' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->longTermDebt)){
-            std::cerr << "Error reading 'longTermDebt' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'longTermDebt' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->deferredRevenueNonCurrent)){
-            std::cerr << "Error reading 'deferredRevenueNonCurrent' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'deferredRevenueNonCurrent' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->deferredTaxLiabilitiesNonCurrent)){
-            std::cerr << "Error reading 'deferredTaxLiabilitiesNonCurrent' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'deferredTaxLiabilitiesNonCurrent' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->otherNonCurrentLiabilities)){
-            std::cerr << "Error reading 'otherNonCurrentLiabilities' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'otherNonCurrentLiabilities' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalNonCurrentLiabilities)){
-            std::cerr << "Error reading 'totalNonCurrentLiabilities' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalNonCurrentLiabilities' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->otherLiabilities)){
-            std::cerr << "Error reading 'otherLiabilities' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'otherLiabilities' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->capitalLeaseObligations)){
-            std::cerr << "Error reading 'capitalLeaseObligations' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'capitalLeaseObligations' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalLiabilities)){
-            std::cerr << "Error reading 'totalLiabilities' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalLiabilities' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->preferredStock)){
-            std::cerr << "Error reading 'preferredStock' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'preferredStock' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->commonStock)){
-            std::cerr << "Error reading 'commonStock' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'commonStock' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->retainedEarnings)){
-            std::cerr << "Error reading 'retainedEarnings' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'retainedEarnings' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->accumulatedOtherComprehensiveIncomeLoss)){
-            std::cerr << "Error reading 'accumulatedOtherComprehensiveIncomeLoss' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'accumulatedOtherComprehensiveIncomeLoss' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->othertotalStockholdersEquity)){
-            std::cerr << "Error reading 'othertotalStockholdersEquity' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'othertotalStockholdersEquity' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalStockholdersEquity)){
-            std::cerr << "Error reading 'totalStockholdersEquity' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalStockholdersEquity' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalEquity)){
-            std::cerr << "Error reading 'totalEquity' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalEquity' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalLiabilitiesAndStockholdersEquity)){
-            std::cerr << "Error reading 'totalLiabilitiesAndStockholdersEquity' in " << get_class_name() << std::endl;
+           logger.log("Error reading 'totalLiabilitiesAndStockholdersEquity' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->minorityInterest)){
-            std::cerr << "Error reading 'minorityInterest' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'minorityInterest' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalLiabilitiesAndTotalEquity)){
-            std::cerr << "Error reading 'totalLiabilitiesAndTotalEquity' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalLiabilitiesAndTotalEquity' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalInvestments)){
-            std::cerr << "Error reading 'totalInvestments' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalInvestments' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->totalDebt)){
-            std::cerr << "Error reading 'totalDebt' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'totalDebt' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer(buffer, pos,statement ->netDebt)){
-            std::cerr << "Error reading 'netDebt' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'netDebt' in " + get_class_name(),Logger::Level::Error);
             }
         
         //std::string value
         
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->link)){
             
-            std::cerr << "Erraor reading 'link' in " << get_class_name() << std::endl;
+            logger.log("Erraor reading 'link' in "+ get_class_name(), Logger::Level::Error);
             
             }
         if(!reading_string_from_buffer_balance(buffer, pos,statement ->finalLink)){
-            std::cerr << "Error reading 'finalLink' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'finalLink' in "+ get_class_name(), Logger::Level::Error);
             statement -> finalLink ="nf";
             } 
         
@@ -987,14 +656,14 @@ bool Balancesheet::read_from_file(std::ifstream &in, std::vector<Balancesheet*> 
              
              statements.push_back(statement);
          }else {
-           std::cout<< "there is no value in this ptr\n";   
+           logger.log("there is no value in this ptr " + get_class_name(), Logger::Level::Warning);   
              
          }
          
          
         if(bytes_read  < buffer.size()){
            
-            std::cerr<<"Reached EOF! no more data to read in for "<<get_class_name()<<".\n";
+            logger.log("Reached EOF! no more data to read in for " + get_class_name(),Logger::Level::Error);
             return false;
             
             }

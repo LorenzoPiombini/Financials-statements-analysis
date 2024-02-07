@@ -1,0 +1,14 @@
+{
+  "ticker": "SGOC",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -6.751407,
+    "PB": 1.625947
+  },
+  "ownerEarnings": 61374000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -4505.897842
+}

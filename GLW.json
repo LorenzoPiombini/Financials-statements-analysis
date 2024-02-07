@@ -1,0 +1,14 @@
+{
+  "ticker": "GLW",
+  "valuation": {
+    "PE_valuation": 31.802807, 
+    "DFC_valuation": 9530.821233
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 2304000000,
+  "growth_rate_revenue": 14.849770,
+  "growth_rate_net_income": 30.529682
+}

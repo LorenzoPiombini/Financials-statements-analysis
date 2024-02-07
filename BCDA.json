@@ -1,0 +1,14 @@
+{
+  "ticker": "BCDA",
+  "valuation": {
+    "PE_valuation": 0.689522, 
+    "DFC_valuation": -32.924585
+  },
+  "ratios": {
+    "ROIC": -151.894336,
+    "PB": 7.570898
+  },
+  "ownerEarnings": -12932000,
+  "growth_rate_revenue": 5.548677,
+  "growth_rate_net_income": -91.484661
+}

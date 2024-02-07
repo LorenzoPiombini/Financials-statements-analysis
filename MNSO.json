@@ -1,0 +1,14 @@
+{
+  "ticker": "MNSO",
+  "valuation": {
+    "PE_valuation": 90.314685, 
+    "DFC_valuation": 77.884482
+  },
+  "ratios": {
+    "ROIC": 15.893503,
+    "PB": 4.340584
+  },
+  "ownerEarnings": 1820506000,
+  "growth_rate_revenue": -19.614927,
+  "growth_rate_net_income": -137.569014
+}

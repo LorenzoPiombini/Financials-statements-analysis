@@ -1,0 +1,14 @@
+{
+  "ticker": "TFII",
+  "valuation": {
+    "PE_valuation": 1999.866461, 
+    "DFC_valuation": 67897.040246
+  },
+  "ratios": {
+    "ROIC": 19.226032,
+    "PB": 3.636683
+  },
+  "ownerEarnings": 1547187000,
+  "growth_rate_revenue": 36.731628,
+  "growth_rate_net_income": 61.013673
+}

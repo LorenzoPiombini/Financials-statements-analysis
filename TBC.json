@@ -1,0 +1,14 @@
+{
+  "ticker": "TBC",
+  "valuation": {
+    "PE_valuation": 48.597050, 
+    "DFC_valuation": 124111.419828
+  },
+  "ratios": {
+    "ROIC": 6.261023,
+    "PB": 1.029309
+  },
+  "ownerEarnings": 58677000000,
+  "growth_rate_revenue": 4.085448,
+  "growth_rate_net_income": 2.614025
+}

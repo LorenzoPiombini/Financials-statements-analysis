@@ -1,0 +1,14 @@
+{
+  "ticker": "SDGR",
+  "valuation": {
+    "PE_valuation": 137.892931, 
+    "DFC_valuation": -205.600637
+  },
+  "ratios": {
+    "ROIC": -21.910891,
+    "PB": 2.969969
+  },
+  "ownerEarnings": -176455000,
+  "growth_rate_revenue": 33.294838,
+  "growth_rate_net_income": 96.223154
+}

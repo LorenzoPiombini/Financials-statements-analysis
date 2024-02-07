@@ -1,0 +1,14 @@
+{
+  "ticker": "ESTE",
+  "valuation": {
+    "PE_valuation": 1449.482549, 
+    "DFC_valuation": -19563517.734810
+  },
+  "ratios": {
+    "ROIC": 29.970914,
+    "PB": 0.766911
+  },
+  "ownerEarnings": 3312191000,
+  "growth_rate_revenue": -2.518060,
+  "growth_rate_net_income": -142.424242
+}

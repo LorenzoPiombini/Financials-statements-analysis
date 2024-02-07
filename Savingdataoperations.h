@@ -11,6 +11,8 @@
 #include "Incomestatement.h"
 #include "Cashflowstatement.h"
 #include "Keyratios.h"
+#include "Ticker.h"
+#include "Logger.h"
 
 
 bool organize_user_input(const std::string &user_input, std::unordered_set<std::string> &user_inputs){
@@ -71,12 +73,7 @@ bool is_file(std::string filename){
     
 }
 
-/*
- * this fucntions return a tuple with the index of the item that is 
- * differrent from the items in the file, so we can easily 
- * acces the item that we need to write to the file
- * 
- * */
+
 template <typename T>
 bool is_different(std::vector<T*> new_data, std::vector<T*> old_data){
         if (new_data.empty()) {
@@ -96,78 +93,90 @@ bool is_different(std::vector<T*> new_data, std::vector<T*> old_data){
 
 
 
-void save_data(std::vector<Balancesheet*> &balance_sheets,
+void save_data(std::string &ticker, std::vector<Balancesheet*> &balance_sheets,
                std::vector<Income_statement*> &income_statements,
                std::vector<Cashflowstatement*> &cashflow_statements,
                std::vector<Key_ratios*> &ratios){
                    
-      std::ofstream out_bs (balance_sheets[0]->create_file_name(""),
-                            std::ios::binary | std::ios::app);
+      
        
-       if(!out_bs){
-            std::cout << "Failed to open the file "<< balance_sheets[0]->create_file_name("") <<"\n";
+           Logger logger("saving_statments.log");
+       if(!balance_sheets.empty()){
+           std::ofstream out_bs (balance_sheets[0]->create_file_name(ticker),
+                            std::ios::binary | std::ios::app);
+           if(!out_bs){
+            logger.log("Failed to open the file "+balance_sheets[0]->create_file_name(ticker),Logger::Level::Error);
            }else{
                  for (auto &ptr : balance_sheets){
               ptr->save_to_file(out_bs);
               }           
                
-               std::cout<< balance_sheets[0]->create_file_name("") << " written succesfully\n";
+               logger.log(balance_sheets[0]->create_file_name(ticker) +" written succesfully",Logger::Level::Info);
                out_bs.close();
                
         }
-    
+       }
         
-      std::ofstream out_is (income_statements[0]->create_file_name(""),
+      
+       if(!income_statements.empty()){
+          std::ofstream out_is (income_statements[0]->create_file_name(ticker),
                             std::ios::binary | std::ios::app);
-       if(!out_is){
+           if(!out_is){
            
-           std::cout << "Failed to open the file "<< income_statements[0]->create_file_name("") <<"\n";
+           logger.log("Failed to open the file "+ income_statements[0]->create_file_name(ticker),Logger::Level::Error);
            }else{
             for (auto &ptr : income_statements){
               ptr->save_to_file(out_is);
             }           
-            std::cout<< income_statements[0]->create_file_name("") << " written succesfully\n";
+            std::cout<< income_statements[0]->create_file_name(ticker) << " written succesfully\n";
             out_is.close(); 
+            }
        }
-     
-       std::ofstream out_cfs (cashflow_statements[0]->create_file_name(""),
+             
+      
+        
+         if(!cashflow_statements.empty()){   
+             std::ofstream out_cfs (cashflow_statements[0]->create_file_name(ticker),
                             std::ios::binary | std::ios::app);
-       
-        if(!out_cfs){
+            if(!out_cfs){
             
-            std::cout << "Failed to open the file "<< cashflow_statements[0]->create_file_name("") <<"\n";
+             logger.log("Failed to open the file "+cashflow_statements[0]->create_file_name(""),Logger::Level::Error);
             
             }else{
             
-       for (auto &ptr : cashflow_statements){
-              ptr->save_to_file(out_cfs);
-          }  
+                for (auto &ptr : cashflow_statements){
+                ptr->save_to_file(out_cfs);
+                }  
          
-        std::cout<< cashflow_statements[0]->create_file_name("") << " written succesfully\n";
-        out_cfs.close();
-        }
+                logger.log(cashflow_statements[0]->create_file_name(ticker) + " written succesfully.",Logger::Level::Info);
+                out_cfs.close();
+            }
         
-        
-        std::ofstream out_rt (ratios[0]->create_file_name(""),
-                            std::ios::binary | std::ios::app);
-                            
-        if(!out_rt){
+         }
+         
+         if(!ratios.empty()){
+           std::ofstream out_rt (ratios[0]->create_file_name(ticker),
+           std::ios::binary | std::ios::app);
+           
+            if(!out_rt){
             
-            std::cout << "Failed to open the file "<< ratios[0]->create_file_name("") <<"\n";
+            logger.log("Failed to open the file "+ratios[0]->create_file_name(ticker),Logger::Level::Error);
             
             }else{
             
-       for (auto &ptr : ratios){
+              for (auto &ptr : ratios){
               ptr->save_to_file(out_rt);
-          }  
+              }  
          
-        std::cout<< ratios[0]->create_file_name("") << " written succesfully\n";
-        out_rt.close();
-        }
+             logger.log(ratios[0]->create_file_name(ticker) +" written succesfully",Logger::Level::Info);
+             out_rt.close();
+            }
+         }
+}
        
     
     
-}
+
 
 
 
@@ -179,16 +188,16 @@ void load_data(std::string &ticker,
                std::vector<Cashflowstatement*> &cashflow_statements,
                std::vector<Key_ratios*> &ratios){
     
- 
+  Logger logger("reading_file_statments.log");
   Balancesheet mock_obj;
   std::string file_name_BS = ticker + "_balance_sheet.bin";
   std::ifstream in_bs (file_name_BS, std::ios::binary);
   
   if(!mock_obj.read_from_file(in_bs,balance_sheets)){
-        std::cout << "Failed to read the file "<< file_name_BS<<"\n";
+        logger.log("Failed to read the file "+file_name_BS,Logger::Level::Error);
         in_bs.close();
     }else {
-        std::cout<< file_name_BS << " read succesfully\n";
+        logger.log(file_name_BS +" read succesfully",Logger::Level::Info);
         in_bs.close();
         }
   
@@ -197,10 +206,10 @@ void load_data(std::string &ticker,
     std::ifstream in_is (file_name_IS, std::ios::binary);
     
     if(!mock_income.read_from_file(in_is,income_statements)){
-           std::cout << "Failed to read the file "<< file_name_IS<<"\n";
+           logger.log("Failed to read the file "+file_name_IS,Logger::Level::Error);
            in_is.close();
         } else {  
-            std::cout<< file_name_IS << " read succesfully\n";
+            logger.log(file_name_IS + " read succesfully",Logger::Level::Info);
             in_is.close();
         }
         
@@ -209,10 +218,10 @@ void load_data(std::string &ticker,
     std::string file_name_CFS = ticker + "_cashflow_statement.bin";
     std::ifstream in_cfs (file_name_CFS, std::ios::binary);
     if(!mock_cash.read_from_file(in_cfs, cashflow_statements)){
-          std::cout << "Failed to open the file "<< file_name_CFS <<"\n";
+          logger.log("Failed to open the file "+file_name_CFS,Logger::Level::Error);
           in_cfs.close();
         }else {
-               std::cout<< file_name_CFS << " read succesfully\n";
+          logger.log(file_name_CFS +" read succesfully",Logger::Level::Info);
             in_cfs.close();
         }
     
@@ -221,16 +230,63 @@ void load_data(std::string &ticker,
     std::string file_name_RT = ticker + "_key_ratios.bin";
     std::ifstream in_rt (file_name_RT, std::ios::binary);
     if(!mock_ratio.read_from_file(in_rt, ratios)){
-          std::cout << "Failed to open the file "<< file_name_RT <<"\n";
+          logger.log("Failed to open the file "+file_name_RT,Logger::Level::Error);
           in_rt.close();
         }else {
-               std::cout<< file_name_RT << " read succesfully\n";
+            logger.log(file_name_RT + " read succesfully",Logger::Level::Info);
             in_rt.close();
         }
     
 }
 
 
+void save_data_all_tickers(std::vector<Ticker*> tickers){
+    std::ofstream out (tickers[0]->create_file_name(), std::ios::binary);
+    
+    Logger logger("saving_all_tickers_data.log");
+    
+    if(!out){
+        
+         logger.log("Failed to open the file " + tickers[0]->create_file_name(), Logger::Level::Error);
+        
+        } else {
+            
+          for (auto &item : tickers){
+            item -> save_to_file(out);
+           }
+           logger.log(tickers[0]->create_file_name() +"has been written succesfully",Logger::Level::Info);
+           out.close();
+        }
+}
 
+
+void load_data_all_tickers(std::vector<Ticker*> tickers){
+    Logger logger("load_ticker_data.log");
+    Ticker mockObj;
+    std::ifstream in (mockObj.create_file_name(), std::ios::binary);
+    
+    if(!mockObj.read_from_file(in,tickers)){
+          
+          logger.log("Failed to open the file "+ mockObj.create_file_name(),Logger::Level::Error);
+          in.close();
+        } else {
+         logger.log(mockObj.create_file_name() + " has been opened succesfully",Logger::Level::Info);
+         in.close();    
+        }
+}
+
+
+void save_news(std::string response_json){
+    
+    std::string fileName = "general-news.json"; 
+    std::ofstream outFile(fileName);
+    if (outFile.is_open()) {
+        outFile << response_json;
+        outFile.close();
+        std::cout << "Data saved to " << fileName<< std::endl;
+    } else {
+        std::cout << "Unable to open file for writing." << std::endl;
+    }
+}
 
 #endif

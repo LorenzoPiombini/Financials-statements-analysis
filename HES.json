@@ -1,0 +1,14 @@
+{
+  "ticker": "HES",
+  "valuation": {
+    "PE_valuation": -33.906222, 
+    "DFC_valuation": 233.274629
+  },
+  "ratios": {
+    "ROIC": 16.031736,
+    "PB": 5.439990
+  },
+  "ownerEarnings": 7811000000,
+  "growth_rate_revenue": 4.060535,
+  "growth_rate_net_income": 4.582689
+}

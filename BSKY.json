@@ -1,0 +1,14 @@
+{
+  "ticker": "BSKY",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -2.588492
+  },
+  "ratios": {
+    "ROIC": -0.232915,
+    "PB": -19.252199
+  },
+  "ownerEarnings": 5132991,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

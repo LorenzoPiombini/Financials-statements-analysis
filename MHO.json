@@ -1,0 +1,14 @@
+{
+  "ticker": "MHO",
+  "valuation": {
+    "PE_valuation": 246.070935, 
+    "DFC_valuation": 2131.681116
+  },
+  "ratios": {
+    "ROIC": 14.319634,
+    "PB": 0.621673
+  },
+  "ownerEarnings": 495702000,
+  "growth_rate_revenue": 13.438759,
+  "growth_rate_net_income": 20.455087
+}

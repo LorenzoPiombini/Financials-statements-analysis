@@ -1,0 +1,14 @@
+{
+  "ticker": "PDSB",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -59.599862,
+    "PB": 8.579370
+  },
+  "ownerEarnings": -44353153,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 64.254112
+}

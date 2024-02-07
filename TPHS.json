@@ -1,0 +1,14 @@
+{
+  "ticker": "TPHS",
+  "valuation": {
+    "PE_valuation": 0.535623, 
+    "DFC_valuation": -5.200785
+  },
+  "ratios": {
+    "ROIC": -2.972833,
+    "PB": 1.007353
+  },
+  "ownerEarnings": 9938000,
+  "growth_rate_revenue": 9.945161,
+  "growth_rate_net_income": 4.493295
+}

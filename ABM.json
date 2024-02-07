@@ -1,0 +1,14 @@
+{
+  "ticker": "ABM",
+  "valuation": {
+    "PE_valuation": 311.412837, 
+    "DFC_valuation": 4106.971780
+  },
+  "ratios": {
+    "ROIC": 9.215962,
+    "PB": 1.442547
+  },
+  "ownerEarnings": 468700000,
+  "growth_rate_revenue": 12.370858,
+  "growth_rate_net_income": 19.894212
+}

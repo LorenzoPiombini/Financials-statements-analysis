@@ -1,0 +1,14 @@
+{
+  "ticker": "ARVN",
+  "valuation": {
+    "PE_valuation": 487.554726, 
+    "DFC_valuation": -7682.842180
+  },
+  "ratios": {
+    "ROIC": -49.593991,
+    "PB": 3.221760
+  },
+  "ownerEarnings": -356800000,
+  "growth_rate_revenue": 91.901530,
+  "growth_rate_net_income": 83.413047
+}

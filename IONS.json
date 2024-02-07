@@ -1,0 +1,14 @@
+{
+  "ticker": "IONS",
+  "valuation": {
+    "PE_valuation": 895.947206, 
+    "DFC_valuation": -623683.744869
+  },
+  "ratios": {
+    "ROIC": -20.447308,
+    "PB": 9.350085
+  },
+  "ownerEarnings": -806165000,
+  "growth_rate_revenue": 76.089911,
+  "growth_rate_net_income": 60.231930
+}

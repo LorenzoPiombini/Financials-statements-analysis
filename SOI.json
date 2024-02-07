@@ -1,0 +1,14 @@
+{
+  "ticker": "SOI",
+  "valuation": {
+    "PE_valuation": 23.748790, 
+    "DFC_valuation": -762.231085
+  },
+  "ratios": {
+    "ROIC": 13.635508,
+    "PB": 1.449072
+  },
+  "ownerEarnings": 140242000,
+  "growth_rate_revenue": 114.191678,
+  "growth_rate_net_income": 187.237386
+}

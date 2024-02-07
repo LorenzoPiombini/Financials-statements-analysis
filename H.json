@@ -1,0 +1,14 @@
+{
+  "ticker": "H",
+  "valuation": {
+    "PE_valuation": 35.559388, 
+    "DFC_valuation": 524.942958
+  },
+  "ratios": {
+    "ROIC": 6.078012,
+    "PB": 2.667774
+  },
+  "ownerEarnings": 906000000,
+  "growth_rate_revenue": 1.743814,
+  "growth_rate_net_income": -91.740909
+}

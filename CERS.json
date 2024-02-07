@@ -1,0 +1,14 @@
+{
+  "ticker": "CERS",
+  "valuation": {
+    "PE_valuation": 17.822378, 
+    "DFC_valuation": -320.506999
+  },
+  "ratios": {
+    "ROIC": -20.010237,
+    "PB": 9.530975
+  },
+  "ownerEarnings": -45785000,
+  "growth_rate_revenue": 33.531473,
+  "growth_rate_net_income": 47.501396
+}

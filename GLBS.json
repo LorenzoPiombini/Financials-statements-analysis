@@ -1,0 +1,14 @@
+{
+  "ticker": "GLBS",
+  "valuation": {
+    "PE_valuation": -0.082404, 
+    "DFC_valuation": -7.644031
+  },
+  "ratios": {
+    "ROIC": 11.230602,
+    "PB": 0.091097
+  },
+  "ownerEarnings": 63542000,
+  "growth_rate_revenue": -21.653507,
+  "growth_rate_net_income": -417.580310
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "DTEA",
+  "valuation": {
+    "PE_valuation": -3.769285, 
+    "DFC_valuation": -11.000938
+  },
+  "ratios": {
+    "ROIC": 2.347972,
+    "PB": 2.194380
+  },
+  "ownerEarnings": -72360000,
+  "growth_rate_revenue": 32.457403,
+  "growth_rate_net_income": -429.938131
+}

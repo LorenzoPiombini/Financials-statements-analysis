@@ -1,0 +1,14 @@
+{
+  "ticker": "LVOPP",
+  "valuation": {
+    "PE_valuation": 254.141798, 
+    "DFC_valuation": -10576379.034040
+  },
+  "ratios": {
+    "ROIC": 5.093890,
+    "PB": 25.559485
+  },
+  "ownerEarnings": 15255000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1311.541976
+}

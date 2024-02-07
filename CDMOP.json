@@ -1,0 +1,14 @@
+{
+  "ticker": "CDMOP",
+  "valuation": {
+    "PE_valuation": 6.213163, 
+    "DFC_valuation": -11034408.758949
+  },
+  "ratios": {
+    "ROIC": -0.170570,
+    "PB": 5.836701
+  },
+  "ownerEarnings": 65210000,
+  "growth_rate_revenue": 699.336022,
+  "growth_rate_net_income": -2823.946829
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "EMBC",
+  "valuation": {
+    "PE_valuation": 5.151226, 
+    "DFC_valuation": 15.337311
+  },
+  "ratios": {
+    "ROIC": 17.317404,
+    "PB": -1.052859
+  },
+  "ownerEarnings": 235100000,
+  "growth_rate_revenue": -24.653169,
+  "growth_rate_net_income": -54.650221
+}

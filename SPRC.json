@@ -1,0 +1,14 @@
+{
+  "ticker": "SPRC",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -114.102377,
+    "PB": 13.947046
+  },
+  "ownerEarnings": -9350000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -771.591954
+}

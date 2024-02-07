@@ -1,0 +1,14 @@
+{
+  "ticker": "GFF",
+  "valuation": {
+    "PE_valuation": 84.674697, 
+    "DFC_valuation": 5728.150429
+  },
+  "ratios": {
+    "ROIC": 6.324065,
+    "PB": 6.557598
+  },
+  "ownerEarnings": 343813000,
+  "growth_rate_revenue": 26.673370,
+  "growth_rate_net_income": -135.643323
+}

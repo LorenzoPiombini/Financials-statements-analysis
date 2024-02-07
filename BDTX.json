@@ -1,0 +1,14 @@
+{
+  "ticker": "BDTX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 31.658688,
+    "PB": -0.195189
+  },
+  "ownerEarnings": -106575000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 142.663155
+}

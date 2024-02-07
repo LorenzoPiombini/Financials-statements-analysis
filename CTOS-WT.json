@@ -1,0 +1,14 @@
+{
+  "ticker": "CTOS-WT",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 4.899039,
+    "PB": 1.758133
+  },
+  "ownerEarnings": 821130000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": inf
+}

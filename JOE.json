@@ -1,0 +1,14 @@
+{
+  "ticker": "JOE",
+  "valuation": {
+    "PE_valuation": 18.590190, 
+    "DFC_valuation": -239.578382
+  },
+  "ratios": {
+    "ROIC": 6.293108,
+    "PB": 3.485686
+  },
+  "ownerEarnings": 368905000,
+  "growth_rate_revenue": -2.283283,
+  "growth_rate_net_income": -6.239981
+}

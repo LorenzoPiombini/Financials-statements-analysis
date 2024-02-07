@@ -1,0 +1,14 @@
+{
+  "ticker": "ASO",
+  "valuation": {
+    "PE_valuation": 42.839294, 
+    "DFC_valuation": 342.734581
+  },
+  "ratios": {
+    "ROIC": 14.190098,
+    "PB": 2.788471
+  },
+  "ownerEarnings": 899027000,
+  "growth_rate_revenue": 7.788682,
+  "growth_rate_net_income": 166.173381
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LGL",
+  "valuation": {
+    "PE_valuation": -2.130040, 
+    "DFC_valuation": -13.558749
+  },
+  "ratios": {
+    "ROIC": 4.907323,
+    "PB": 0.561720
+  },
+  "ownerEarnings": 13729000,
+  "growth_rate_revenue": 84.504888,
+  "growth_rate_net_income": 75.172311
+}

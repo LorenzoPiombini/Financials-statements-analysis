@@ -1,0 +1,14 @@
+{
+  "ticker": "IDBA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -120.847172,
+    "PB": 4.849691
+  },
+  "ownerEarnings": -30483000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 33.468336
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "DGLY",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -24.982491,
+    "PB": 0.326629
+  },
+  "ownerEarnings": -27024575,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 34.319263
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BSMX",
+  "valuation": {
+    "PE_valuation": 190.172093, 
+    "DFC_valuation": 54758.303555
+  },
+  "ratios": {
+    "ROIC": 4.579219,
+    "PB": 0.958160
+  },
+  "ownerEarnings": 165936000000,
+  "growth_rate_revenue": 8.135868,
+  "growth_rate_net_income": 5.521316
+}

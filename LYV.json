@@ -1,0 +1,14 @@
+{
+  "ticker": "LYV",
+  "valuation": {
+    "PE_valuation": -32.787494, 
+    "DFC_valuation": 1264.543789
+  },
+  "ratios": {
+    "ROIC": 6.495007,
+    "PB": -42.653811
+  },
+  "ownerEarnings": 1575030000,
+  "growth_rate_revenue": 10.175666,
+  "growth_rate_net_income": 72.504454
+}

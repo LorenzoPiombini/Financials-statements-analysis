@@ -1,0 +1,14 @@
+{
+  "ticker": "GDEN",
+  "valuation": {
+    "PE_valuation": -37.179358, 
+    "DFC_valuation": 1954.207466
+  },
+  "ratios": {
+    "ROIC": 9.291355,
+    "PB": 3.037399
+  },
+  "ownerEarnings": 352102000,
+  "growth_rate_revenue": 3.674798,
+  "growth_rate_net_income": 807.273371
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NPTN",
+  "valuation": {
+    "PE_valuation": 16.093234, 
+    "DFC_valuation": -32.109830
+  },
+  "ratios": {
+    "ROIC": -43.265750,
+    "PB": 5.268029
+  },
+  "ownerEarnings": -23747000,
+  "growth_rate_revenue": 20.184331,
+  "growth_rate_net_income": -171.178100
+}

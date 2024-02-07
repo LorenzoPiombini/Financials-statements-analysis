@@ -1,0 +1,14 @@
+{
+  "ticker": "CSAN",
+  "valuation": {
+    "PE_valuation": 379.534186, 
+    "DFC_valuation": 6742.853983
+  },
+  "ratios": {
+    "ROIC": 7.675324,
+    "PB": 1.555124
+  },
+  "ownerEarnings": 16731387000,
+  "growth_rate_revenue": 19.636970,
+  "growth_rate_net_income": -208.059419
+}

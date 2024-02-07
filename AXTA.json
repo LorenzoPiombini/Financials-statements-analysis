@@ -1,0 +1,14 @@
+{
+  "ticker": "AXTA",
+  "valuation": {
+    "PE_valuation": 17.457345, 
+    "DFC_valuation": 19.087965
+  },
+  "ratios": {
+    "ROIC": 6.095509,
+    "PB": 3.884898
+  },
+  "ownerEarnings": 929700000,
+  "growth_rate_revenue": -1.070095,
+  "growth_rate_net_income": -20.605130
+}

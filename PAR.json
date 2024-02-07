@@ -1,0 +1,14 @@
+{
+  "ticker": "PAR",
+  "valuation": {
+    "PE_valuation": 79.131829, 
+    "DFC_valuation": -290.907445
+  },
+  "ratios": {
+    "ROIC": -8.227953,
+    "PB": 1.886631
+  },
+  "ownerEarnings": -63213000,
+  "growth_rate_revenue": 7.981710,
+  "growth_rate_net_income": -182.664843
+}

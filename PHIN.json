@@ -1,0 +1,14 @@
+{
+  "ticker": "PHIN",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 119.513345
+  },
+  "ratios": {
+    "ROIC": 11.299260,
+    "PB": 1.053515
+  },
+  "ownerEarnings": 450000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

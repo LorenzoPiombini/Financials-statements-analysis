@@ -1,0 +1,14 @@
+{
+  "ticker": "YUMC",
+  "valuation": {
+    "PE_valuation": 21.103185, 
+    "DFC_valuation": 107.243792
+  },
+  "ratios": {
+    "ROIC": 4.059449,
+    "PB": 3.549468
+  },
+  "ownerEarnings": 1787000000,
+  "growth_rate_revenue": 5.291087,
+  "growth_rate_net_income": -1176.812749
+}

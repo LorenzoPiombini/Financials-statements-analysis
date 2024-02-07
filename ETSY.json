@@ -1,0 +1,14 @@
+{
+  "ticker": "ETSY",
+  "valuation": {
+    "PE_valuation": -1981.257105, 
+    "DFC_valuation": 22806.653441
+  },
+  "ratios": {
+    "ROIC": -35.362174,
+    "PB": -27.747607
+  },
+  "ownerEarnings": 254127000,
+  "growth_rate_revenue": 54.550613,
+  "growth_rate_net_income": 396.184385
+}

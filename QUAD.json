@@ -1,0 +1,14 @@
+{
+  "ticker": "QUAD",
+  "valuation": {
+    "PE_valuation": 0.784963, 
+    "DFC_valuation": 119.439737
+  },
+  "ratios": {
+    "ROIC": 5.974520,
+    "PB": 1.196391
+  },
+  "ownerEarnings": 391300000,
+  "growth_rate_revenue": 26.965078,
+  "growth_rate_net_income": -263.923592
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "STBX",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -416.293610
+  },
+  "ratios": {
+    "ROIC": 15.388205,
+    "PB": 3.709761
+  },
+  "ownerEarnings": 4837497,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

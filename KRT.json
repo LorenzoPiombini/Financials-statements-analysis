@@ -1,0 +1,14 @@
+{
+  "ticker": "KRT",
+  "valuation": {
+    "PE_valuation": 30.946137, 
+    "DFC_valuation": 65.715745
+  },
+  "ratios": {
+    "ROIC": 11.018836,
+    "PB": 2.010728
+  },
+  "ownerEarnings": 50715000,
+  "growth_rate_revenue": 31.057328,
+  "growth_rate_net_income": 2239.620406
+}

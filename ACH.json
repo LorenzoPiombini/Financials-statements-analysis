@@ -1,0 +1,14 @@
+{
+  "ticker": "ACH",
+  "valuation": {
+    "PE_valuation": 1999.243397, 
+    "DFC_valuation": 1646.799305
+  },
+  "ratios": {
+    "ROIC": 7.041212,
+    "PB": 1.040289
+  },
+  "ownerEarnings": 20872773000,
+  "growth_rate_revenue": 21.215389,
+  "growth_rate_net_income": 48.188317
+}

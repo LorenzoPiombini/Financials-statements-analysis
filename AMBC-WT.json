@@ -1,0 +1,14 @@
+{
+  "ticker": "AMBC-WT",
+  "valuation": {
+    "PE_valuation": -19.560444, 
+    "DFC_valuation": 2339.406976
+  },
+  "ratios": {
+    "ROIC": 13.852589,
+    "PB": 0.636865
+  },
+  "ownerEarnings": 893000000,
+  "growth_rate_revenue": 12.553028,
+  "growth_rate_net_income": 28.648380
+}

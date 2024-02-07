@@ -1,0 +1,14 @@
+{
+  "ticker": "KINZ",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -79.459300,
+    "PB": 635.266715
+  },
+  "ownerEarnings": -34187157,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

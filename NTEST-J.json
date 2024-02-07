@@ -1,0 +1,14 @@
+{
+  "ticker": "NTEST-J",
+  "valuation": {
+    "PE_valuation": -10.455547, 
+    "DFC_valuation": 506.050397
+  },
+  "ratios": {
+    "ROIC": 24.728968,
+    "PB": 49.367419
+  },
+  "ownerEarnings": 190057000,
+  "growth_rate_revenue": 55.821390,
+  "growth_rate_net_income": -48.791065
+}

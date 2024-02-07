@@ -1,0 +1,14 @@
+{
+  "ticker": "CATM",
+  "valuation": {
+    "PE_valuation": 68.658149, 
+    "DFC_valuation": 4031.229458
+  },
+  "ratios": {
+    "ROIC": 5.159348,
+    "PB": 4.182972
+  },
+  "ownerEarnings": 366343000,
+  "growth_rate_revenue": 53.165638,
+  "growth_rate_net_income": 4152.903143
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MAC",
+  "valuation": {
+    "PE_valuation": -36.094827, 
+    "DFC_valuation": 781.571544
+  },
+  "ratios": {
+    "ROIC": 1.962174,
+    "PB": 0.844885
+  },
+  "ownerEarnings": 627201000,
+  "growth_rate_revenue": 43.728533,
+  "growth_rate_net_income": 101.989439
+}

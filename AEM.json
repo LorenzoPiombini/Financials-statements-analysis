@@ -1,0 +1,14 @@
+{
+  "ticker": "AEM",
+  "valuation": {
+    "PE_valuation": 1304.478670, 
+    "DFC_valuation": 5569821.801807
+  },
+  "ratios": {
+    "ROIC": 4.461377,
+    "PB": 0.780131
+  },
+  "ownerEarnings": 3679699000,
+  "growth_rate_revenue": 25.276873,
+  "growth_rate_net_income": 95.047003
+}

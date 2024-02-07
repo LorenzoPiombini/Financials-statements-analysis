@@ -1,0 +1,14 @@
+{
+  "ticker": "AKYA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -114.147922
+  },
+  "ratios": {
+    "ROIC": -45.157336,
+    "PB": 6.166470
+  },
+  "ownerEarnings": -55215000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

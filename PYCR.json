@@ -1,0 +1,14 @@
+{
+  "ticker": "PYCR",
+  "valuation": {
+    "PE_valuation": 21.146996, 
+    "DFC_valuation": -14.038997
+  },
+  "ratios": {
+    "ROIC": -6.784760,
+    "PB": 3.271501
+  },
+  "ownerEarnings": 26127000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

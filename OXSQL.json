@@ -1,0 +1,14 @@
+{
+  "ticker": "OXSQL",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 7.395216,
+    "PB": 1.119492
+  },
+  "ownerEarnings": 245187105,
+  "growth_rate_revenue": 1655.828583,
+  "growth_rate_net_income": -5.709629
+}

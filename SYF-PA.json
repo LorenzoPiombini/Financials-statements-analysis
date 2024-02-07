@@ -1,0 +1,14 @@
+{
+  "ticker": "SYF-PA",
+  "valuation": {
+    "PE_valuation": 36.382244, 
+    "DFC_valuation": 945.120180
+  },
+  "ratios": {
+    "ROIC": 12.047650,
+    "PB": 1.226283
+  },
+  "ownerEarnings": 6393000000,
+  "growth_rate_revenue": 6.784007,
+  "growth_rate_net_income": 4.682083
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MUDSU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.193638,
+    "PB": -2.018030
+  },
+  "ownerEarnings": -4505597,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

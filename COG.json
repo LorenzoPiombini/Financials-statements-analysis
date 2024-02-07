@@ -1,0 +1,14 @@
+{
+  "ticker": "COG",
+  "valuation": {
+    "PE_valuation": 24.583772, 
+    "DFC_valuation": 187.715459
+  },
+  "ratios": {
+    "ROIC": 5.819504,
+    "PB": 2.928150
+  },
+  "ownerEarnings": 1236289000,
+  "growth_rate_revenue": 11.706798,
+  "growth_rate_net_income": 2090.654806
+}

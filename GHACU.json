@@ -1,0 +1,14 @@
+{
+  "ticker": "GHACU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -8.652166
+  },
+  "ratios": {
+    "ROIC": -1306.331016,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -1676152,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

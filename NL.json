@@ -1,0 +1,14 @@
+{
+  "ticker": "NL",
+  "valuation": {
+    "PE_valuation": 1.404102, 
+    "DFC_valuation": 27.031319
+  },
+  "ratios": {
+    "ROIC": 10.755801,
+    "PB": 0.869627
+  },
+  "ownerEarnings": 54318000,
+  "growth_rate_revenue": 1.544791,
+  "growth_rate_net_income": -206.366764
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LMST",
+  "valuation": {
+    "PE_valuation": 63.828128, 
+    "DFC_valuation": 1147.646394
+  },
+  "ratios": {
+    "ROIC": 1.739356,
+    "PB": 1.369255
+  },
+  "ownerEarnings": 37888000,
+  "growth_rate_revenue": 106.236031,
+  "growth_rate_net_income": 33.077644
+}

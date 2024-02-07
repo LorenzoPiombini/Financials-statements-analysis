@@ -1,0 +1,14 @@
+{
+  "ticker": "SAM",
+  "valuation": {
+    "PE_valuation": 1137.144707, 
+    "DFC_valuation": 7786.157393
+  },
+  "ratios": {
+    "ROIC": 10.083586,
+    "PB": 3.798326
+  },
+  "ownerEarnings": 364967000,
+  "growth_rate_revenue": 6.612582,
+  "growth_rate_net_income": 0.712202
+}

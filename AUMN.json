@@ -1,0 +1,14 @@
+{
+  "ticker": "AUMN",
+  "valuation": {
+    "PE_valuation": 110.454343, 
+    "DFC_valuation": -311.728860
+  },
+  "ratios": {
+    "ROIC": -147.336498,
+    "PB": 7.009285
+  },
+  "ownerEarnings": -10885000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -5.991431
+}

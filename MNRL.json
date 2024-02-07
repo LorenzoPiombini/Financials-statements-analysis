@@ -1,0 +1,14 @@
+{
+  "ticker": "MNRL",
+  "valuation": {
+    "PE_valuation": 32.027202, 
+    "DFC_valuation": 11.435136
+  },
+  "ratios": {
+    "ROIC": 8.900503,
+    "PB": 1.529502
+  },
+  "ownerEarnings": 182508000,
+  "growth_rate_revenue": 28.164150,
+  "growth_rate_net_income": -200.594639
+}

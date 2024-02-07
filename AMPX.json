@@ -1,0 +1,14 @@
+{
+  "ticker": "AMPX",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -10.685355
+  },
+  "ratios": {
+    "ROIC": -21.881201,
+    "PB": 7.746468
+  },
+  "ownerEarnings": -17730000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

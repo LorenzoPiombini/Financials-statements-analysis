@@ -1,0 +1,14 @@
+{
+  "ticker": "PHT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -10.137362,
+    "PB": 0.872742
+  },
+  "ownerEarnings": 84143794,
+  "growth_rate_revenue": -22.526602,
+  "growth_rate_net_income": -118.718465
+}

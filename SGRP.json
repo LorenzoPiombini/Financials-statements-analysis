@@ -1,0 +1,14 @@
+{
+  "ticker": "SGRP",
+  "valuation": {
+    "PE_valuation": 0.510360, 
+    "DFC_valuation": -28.220920
+  },
+  "ratios": {
+    "ROIC": 8.257483,
+    "PB": 1.281612
+  },
+  "ownerEarnings": 13102000,
+  "growth_rate_revenue": 1.500975,
+  "growth_rate_net_income": -253.969813
+}

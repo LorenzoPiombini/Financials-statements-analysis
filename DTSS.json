@@ -1,0 +1,14 @@
+{
+  "ticker": "DTSS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -185.196075,
+    "PB": 15.912972
+  },
+  "ownerEarnings": -13046802,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 129.368527
+}

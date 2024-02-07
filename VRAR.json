@@ -1,0 +1,14 @@
+{
+  "ticker": "VRAR",
+  "valuation": {
+    "PE_valuation": 189.072405, 
+    "DFC_valuation": -454.206190
+  },
+  "ratios": {
+    "ROIC": -336.427389,
+    "PB": 4.418074
+  },
+  "ownerEarnings": -31198487,
+  "growth_rate_revenue": 68.235896,
+  "growth_rate_net_income": 135.062890
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "HIBB",
+  "valuation": {
+    "PE_valuation": 64.534680, 
+    "DFC_valuation": -39.579052
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 50222000,
+  "growth_rate_revenue": 28.639527,
+  "growth_rate_net_income": 80.342346
+}

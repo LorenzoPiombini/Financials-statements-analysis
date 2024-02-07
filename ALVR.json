@@ -1,0 +1,14 @@
+{
+  "ticker": "ALVR",
+  "valuation": {
+    "PE_valuation": 0.084452, 
+    "DFC_valuation": -94.712759
+  },
+  "ratios": {
+    "ROIC": -57.886068,
+    "PB": 1.751475
+  },
+  "ownerEarnings": -213860000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 264.920855
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "PSQH",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -2.001034
+  },
+  "ratios": {
+    "ROIC": -177.456224,
+    "PB": 85.501020
+  },
+  "ownerEarnings": -4818954,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

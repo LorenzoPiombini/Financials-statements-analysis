@@ -1,0 +1,14 @@
+{
+  "ticker": "CHWAW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -275.422239
+  },
+  "ratios": {
+    "ROIC": -0.000670,
+    "PB": -0.041231
+  },
+  "ownerEarnings": -829563000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

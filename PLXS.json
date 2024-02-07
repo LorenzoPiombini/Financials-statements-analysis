@@ -1,0 +1,14 @@
+{
+  "ticker": "PLXS",
+  "valuation": {
+    "PE_valuation": 2089.476800, 
+    "DFC_valuation": 851367.514177
+  },
+  "ratios": {
+    "ROIC": 9.820513,
+    "PB": 2.111835
+  },
+  "ownerEarnings": 223227000,
+  "growth_rate_revenue": 47.130476,
+  "growth_rate_net_income": -1.978381
+}

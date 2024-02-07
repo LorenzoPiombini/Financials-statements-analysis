@@ -1,0 +1,14 @@
+{
+  "ticker": "DIS",
+  "valuation": {
+    "PE_valuation": 536.035913, 
+    "DFC_valuation": 3269183.231809
+  },
+  "ratios": {
+    "ROIC": 1.653822,
+    "PB": 1.492384
+  },
+  "ownerEarnings": 14220000000,
+  "growth_rate_revenue": 29.776672,
+  "growth_rate_net_income": 47.908590
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BLIN",
+  "valuation": {
+    "PE_valuation": 0.295902, 
+    "DFC_valuation": 2.034917
+  },
+  "ratios": {
+    "ROIC": -75.867019,
+    "PB": 0.755231
+  },
+  "ownerEarnings": -1738000,
+  "growth_rate_revenue": 49.846578,
+  "growth_rate_net_income": 184.404826
+}

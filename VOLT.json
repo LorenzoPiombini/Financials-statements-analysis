@@ -1,0 +1,14 @@
+{
+  "ticker": "VOLT",
+  "valuation": {
+    "PE_valuation": -0.056133, 
+    "DFC_valuation": 67.554639
+  },
+  "ratios": {
+    "ROIC": 2.805300,
+    "PB": 2.315581
+  },
+  "ownerEarnings": 13555000,
+  "growth_rate_revenue": 5.856459,
+  "growth_rate_net_income": -301.980820
+}

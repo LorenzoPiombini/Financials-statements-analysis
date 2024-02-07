@@ -1,0 +1,14 @@
+{
+  "ticker": "LOAN",
+  "valuation": {
+    "PE_valuation": 5.956290, 
+    "DFC_valuation": 31.410560
+  },
+  "ratios": {
+    "ROIC": 9.485654,
+    "PB": 1.429374
+  },
+  "ownerEarnings": 8849501,
+  "growth_rate_revenue": 36.229450,
+  "growth_rate_net_income": 77.117073
+}

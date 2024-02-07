@@ -1,0 +1,14 @@
+{
+  "ticker": "LUNA",
+  "valuation": {
+    "PE_valuation": -2.082539, 
+    "DFC_valuation": -265.220679
+  },
+  "ratios": {
+    "ROIC": -1.201431,
+    "PB": 3.067209
+  },
+  "ownerEarnings": 3559000,
+  "growth_rate_revenue": 39.946337,
+  "growth_rate_net_income": 84.273310
+}

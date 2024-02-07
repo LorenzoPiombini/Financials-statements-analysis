@@ -1,0 +1,14 @@
+{
+  "ticker": "KR",
+  "valuation": {
+    "PE_valuation": 92.038274, 
+    "DFC_valuation": 475.089716
+  },
+  "ratios": {
+    "ROIC": 8.535982,
+    "PB": 3.594463
+  },
+  "ownerEarnings": 11203000000,
+  "growth_rate_revenue": 4.336339,
+  "growth_rate_net_income": -163.765219
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MRSN",
+  "valuation": {
+    "PE_valuation": 6.802949, 
+    "DFC_valuation": -40.126398
+  },
+  "ratios": {
+    "ROIC": -148.877748,
+    "PB": 5.961674
+  },
+  "ownerEarnings": -226902000,
+  "growth_rate_revenue": 68.162352,
+  "growth_rate_net_income": 99.827923
+}

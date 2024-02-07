@@ -1,0 +1,14 @@
+{
+  "ticker": "CMCM",
+  "valuation": {
+    "PE_valuation": 6.252412, 
+    "DFC_valuation": -57.484478
+  },
+  "ratios": {
+    "ROIC": -1.097853,
+    "PB": 0.120733
+  },
+  "ownerEarnings": 16686277,
+  "growth_rate_revenue": 87.531987,
+  "growth_rate_net_income": 111.804042
+}

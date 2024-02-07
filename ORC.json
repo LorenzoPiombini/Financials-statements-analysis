@@ -1,0 +1,14 @@
+{
+  "ticker": "ORC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -44.840837,
+    "PB": 0.896564
+  },
+  "ownerEarnings": -135722000,
+  "growth_rate_revenue": 1863.826424,
+  "growth_rate_net_income": -59.189470
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NCPLW",
+  "valuation": {
+    "PE_valuation": 371.641066, 
+    "DFC_valuation": -5532417.248809
+  },
+  "ratios": {
+    "ROIC": 4.526022,
+    "PB": 0.148764
+  },
+  "ownerEarnings": -482639,
+  "growth_rate_revenue": 756.402121,
+  "growth_rate_net_income": 483.828294
+}

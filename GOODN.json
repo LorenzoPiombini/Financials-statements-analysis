@@ -1,0 +1,14 @@
+{
+  "ticker": "GOODN",
+  "valuation": {
+    "PE_valuation": 852.762761, 
+    "DFC_valuation": 1338895.358984
+  },
+  "ratios": {
+    "ROIC": -11.369819,
+    "PB": 3.553549
+  },
+  "ownerEarnings": 107502000,
+  "growth_rate_revenue": 404.891661,
+  "growth_rate_net_income": -152.638337
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VREX",
+  "valuation": {
+    "PE_valuation": 25.774485, 
+    "DFC_valuation": -26.533612
+  },
+  "ratios": {
+    "ROIC": 11.273443,
+    "PB": 1.333868
+  },
+  "ownerEarnings": 105400000,
+  "growth_rate_revenue": 4.003598,
+  "growth_rate_net_income": -28.158634
+}

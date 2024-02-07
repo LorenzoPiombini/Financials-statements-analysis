@@ -1,0 +1,14 @@
+{
+  "ticker": "TDOC",
+  "valuation": {
+    "PE_valuation": 43843.954103, 
+    "DFC_valuation": 5301.459510
+  },
+  "ratios": {
+    "ROIC": 335.514265,
+    "PB": 1.654629
+  },
+  "ownerEarnings": 40289674000,
+  "growth_rate_revenue": 106.039673,
+  "growth_rate_net_income": 121.579765
+}

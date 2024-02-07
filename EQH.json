@@ -1,0 +1,14 @@
+{
+  "ticker": "EQH",
+  "valuation": {
+    "PE_valuation": -24.538037, 
+    "DFC_valuation": -182.185258
+  },
+  "ratios": {
+    "ROIC": 29.980884,
+    "PB": 7.735275
+  },
+  "ownerEarnings": 2075000000,
+  "growth_rate_revenue": -5.922596,
+  "growth_rate_net_income": 21.529079
+}

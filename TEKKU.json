@@ -1,0 +1,14 @@
+{
+  "ticker": "TEKKU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -5.610122,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 31535630,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

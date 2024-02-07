@@ -1,0 +1,14 @@
+{
+  "ticker": "TTGT",
+  "valuation": {
+    "PE_valuation": 182.580174, 
+    "DFC_valuation": 1291.837727
+  },
+  "ratios": {
+    "ROIC": 5.675956,
+    "PB": 5.994700
+  },
+  "ownerEarnings": 37626000,
+  "growth_rate_revenue": 36.831631,
+  "growth_rate_net_income": 27.896446
+}

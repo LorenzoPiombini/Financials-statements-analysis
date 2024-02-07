@@ -1,0 +1,14 @@
+{
+  "ticker": "DYNT",
+  "valuation": {
+    "PE_valuation": 6.347368, 
+    "DFC_valuation": 4.147199
+  },
+  "ratios": {
+    "ROIC": -19.626938,
+    "PB": 0.172213
+  },
+  "ownerEarnings": -4016785,
+  "growth_rate_revenue": -9.504651,
+  "growth_rate_net_income": -17.142857
+}

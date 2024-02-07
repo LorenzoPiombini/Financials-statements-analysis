@@ -1,0 +1,14 @@
+{
+  "ticker": "FC",
+  "valuation": {
+    "PE_valuation": 57.969934, 
+    "DFC_valuation": 161.563288
+  },
+  "ratios": {
+    "ROIC": 17.772958,
+    "PB": 7.140419
+  },
+  "ownerEarnings": 28408000,
+  "growth_rate_revenue": 40.778057,
+  "growth_rate_net_income": 42.007037
+}

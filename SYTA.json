@@ -1,0 +1,14 @@
+{
+  "ticker": "SYTA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -91.633712,
+    "PB": 2.423802
+  },
+  "ownerEarnings": -13829134,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 192.257639
+}

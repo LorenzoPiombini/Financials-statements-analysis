@@ -1,0 +1,14 @@
+{
+  "ticker": "AVYA",
+  "valuation": {
+    "PE_valuation": 27.186702, 
+    "DFC_valuation": -360.858021
+  },
+  "ratios": {
+    "ROIC": -24.925437,
+    "PB": 3.203554
+  },
+  "ownerEarnings": -1583000000,
+  "growth_rate_revenue": 2.165492,
+  "growth_rate_net_income": -20.887309
+}

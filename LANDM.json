@@ -1,0 +1,14 @@
+{
+  "ticker": "LANDM",
+  "valuation": {
+    "PE_valuation": 84.955501, 
+    "DFC_valuation": 3297.685072
+  },
+  "ratios": {
+    "ROIC": -11.250160,
+    "PB": 0.867203
+  },
+  "ownerEarnings": 93668000,
+  "growth_rate_revenue": 49.909392,
+  "growth_rate_net_income": 2126.709648
+}

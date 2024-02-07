@@ -1,0 +1,14 @@
+{
+  "ticker": "TEX",
+  "valuation": {
+    "PE_valuation": 996.880528, 
+    "DFC_valuation": 628624.358844
+  },
+  "ratios": {
+    "ROIC": 17.576940,
+    "PB": 2.517196
+  },
+  "ownerEarnings": 529500000,
+  "growth_rate_revenue": 180.064455,
+  "growth_rate_net_income": -12.685885
+}

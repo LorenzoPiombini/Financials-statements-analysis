@@ -1,0 +1,14 @@
+{
+  "ticker": "SEED",
+  "valuation": {
+    "PE_valuation": -0.502606, 
+    "DFC_valuation": -19.611856
+  },
+  "ratios": {
+    "ROIC": 192.465134,
+    "PB": -2.588709
+  },
+  "ownerEarnings": 28078000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 30840.687966
+}

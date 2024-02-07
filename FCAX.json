@@ -1,0 +1,14 @@
+{
+  "ticker": "FCAX",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.919103
+  },
+  "ratios": {
+    "ROIC": -0.727849,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 9153716,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

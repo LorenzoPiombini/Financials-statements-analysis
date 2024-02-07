@@ -1,0 +1,14 @@
+{
+  "ticker": "XENE",
+  "valuation": {
+    "PE_valuation": 28.040149, 
+    "DFC_valuation": -105.294204
+  },
+  "ratios": {
+    "ROIC": -17.412501,
+    "PB": 3.308644
+  },
+  "ownerEarnings": -149007000,
+  "growth_rate_revenue": 17.051138,
+  "growth_rate_net_income": -152.674009
+}

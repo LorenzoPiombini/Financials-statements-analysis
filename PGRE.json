@@ -1,0 +1,14 @@
+{
+  "ticker": "PGRE",
+  "valuation": {
+    "PE_valuation": 19.840218, 
+    "DFC_valuation": 717.934992
+  },
+  "ratios": {
+    "ROIC": 1.850815,
+    "PB": 0.361640
+  },
+  "ownerEarnings": 478451000,
+  "growth_rate_revenue": 170.024947,
+  "growth_rate_net_income": 603.667294
+}

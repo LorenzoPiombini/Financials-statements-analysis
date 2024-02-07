@@ -1,0 +1,14 @@
+{
+  "ticker": "ARCO",
+  "valuation": {
+    "PE_valuation": 11.136217, 
+    "DFC_valuation": 48.902061
+  },
+  "ratios": {
+    "ROIC": 3.301606,
+    "PB": 5.439095
+  },
+  "ownerEarnings": 307644000,
+  "growth_rate_revenue": 8.743927,
+  "growth_rate_net_income": -78.873124
+}

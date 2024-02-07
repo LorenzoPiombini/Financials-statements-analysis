@@ -1,0 +1,14 @@
+{
+  "ticker": "AMTB",
+  "valuation": {
+    "PE_valuation": 16.020371, 
+    "DFC_valuation": -355.189282
+  },
+  "ratios": {
+    "ROIC": 2.280551,
+    "PB": 1.284044
+  },
+  "ownerEarnings": 57413000,
+  "growth_rate_revenue": 4.006180,
+  "growth_rate_net_income": 13.606401
+}

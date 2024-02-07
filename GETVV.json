@@ -1,0 +1,14 @@
+{
+  "ticker": "GETVV",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -154.797986
+  },
+  "ratios": {
+    "ROIC": 7.704637,
+    "PB": 1.278661
+  },
+  "ownerEarnings": 1477827000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

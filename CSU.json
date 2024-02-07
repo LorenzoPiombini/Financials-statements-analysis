@@ -1,0 +1,14 @@
+{
+  "ticker": "CSU",
+  "valuation": {
+    "PE_valuation": 1759.840287, 
+    "DFC_valuation": -6638.440209
+  },
+  "ratios": {
+    "ROIC": -45.431833,
+    "PB": -0.090584
+  },
+  "ownerEarnings": -220378000,
+  "growth_rate_revenue": 21.891178,
+  "growth_rate_net_income": 70.614541
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "XELA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -17.665924,
+    "PB": -0.006254
+  },
+  "ownerEarnings": 358392000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

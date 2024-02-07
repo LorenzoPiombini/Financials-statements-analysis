@@ -1,0 +1,14 @@
+{
+  "ticker": "HERAU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -0.335268
+  },
+  "ratios": {
+    "ROIC": -0.395854,
+    "PB": 0.263237
+  },
+  "ownerEarnings": -16552115,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

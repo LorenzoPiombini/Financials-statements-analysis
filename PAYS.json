@@ -1,0 +1,14 @@
+{
+  "ticker": "PAYS",
+  "valuation": {
+    "PE_valuation": 3.183627, 
+    "DFC_valuation": 128.531169
+  },
+  "ratios": {
+    "ROIC": 1.318699,
+    "PB": 8.241683
+  },
+  "ownerEarnings": 4169519,
+  "growth_rate_revenue": 29.676837,
+  "growth_rate_net_income": -471.089109
+}

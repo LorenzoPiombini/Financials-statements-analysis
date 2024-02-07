@@ -1,0 +1,14 @@
+{
+  "ticker": "PTEN",
+  "valuation": {
+    "PE_valuation": -27.565638, 
+    "DFC_valuation": 30774.842614
+  },
+  "ratios": {
+    "ROIC": -9.907099,
+    "PB": 2.183305
+  },
+  "ownerEarnings": 171061000,
+  "growth_rate_revenue": 73.450537,
+  "growth_rate_net_income": 518.711215
+}

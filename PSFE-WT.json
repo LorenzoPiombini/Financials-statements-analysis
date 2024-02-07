@@ -1,0 +1,14 @@
+{
+  "ticker": "PSFE-WT",
+  "valuation": {
+    "PE_valuation": 1540.833303, 
+    "DFC_valuation": 752.696513
+  },
+  "ratios": {
+    "ROIC": 4.471967,
+    "PB": 0.977558
+  },
+  "ownerEarnings": 2650911000,
+  "growth_rate_revenue": -17.557194,
+  "growth_rate_net_income": 416.854596
+}

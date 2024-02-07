@@ -1,0 +1,14 @@
+{
+  "ticker": "TRIL",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 30.435117,
+    "PB": 5.633480
+  },
+  "ownerEarnings": -99628000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 79.136772
+}

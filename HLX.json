@@ -1,0 +1,14 @@
+{
+  "ticker": "HLX",
+  "valuation": {
+    "PE_valuation": -69.803757, 
+    "DFC_valuation": 229.510587
+  },
+  "ratios": {
+    "ROIC": -1.392277,
+    "PB": 0.736078
+  },
+  "ownerEarnings": 24981000,
+  "growth_rate_revenue": 50.990412,
+  "growth_rate_net_income": 89.521301
+}

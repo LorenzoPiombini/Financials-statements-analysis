@@ -1,0 +1,14 @@
+{
+  "ticker": "MVF",
+  "valuation": {
+    "PE_valuation": 4.414649, 
+    "DFC_valuation": 74.332921
+  },
+  "ratios": {
+    "ROIC": 8.729484,
+    "PB": 0.972147
+  },
+  "ownerEarnings": 57069418,
+  "growth_rate_revenue": -13.431793,
+  "growth_rate_net_income": -3.509257
+}

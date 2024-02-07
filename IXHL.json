@@ -1,0 +1,14 @@
+{
+  "ticker": "IXHL",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -23.736016,
+    "PB": 1.573539
+  },
+  "ownerEarnings": -23765489,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -56.268654
+}

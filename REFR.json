@@ -1,0 +1,14 @@
+{
+  "ticker": "REFR",
+  "valuation": {
+    "PE_valuation": 1.773703, 
+    "DFC_valuation": -4.553509
+  },
+  "ratios": {
+    "ROIC": -46.612403,
+    "PB": 12.600908
+  },
+  "ownerEarnings": -2636779,
+  "growth_rate_revenue": 17.916667,
+  "growth_rate_net_income": 17.589286
+}

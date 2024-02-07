@@ -1,0 +1,14 @@
+{
+  "ticker": "ULTA",
+  "valuation": {
+    "PE_valuation": 2964.778164, 
+    "DFC_valuation": 68558.235370
+  },
+  "ratios": {
+    "ROIC": 21.481846,
+    "PB": 13.262991
+  },
+  "ownerEarnings": 1742994000,
+  "growth_rate_revenue": 25.497700,
+  "growth_rate_net_income": 40.216482
+}

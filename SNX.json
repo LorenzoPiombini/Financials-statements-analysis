@@ -1,0 +1,14 @@
+{
+  "ticker": "SNX",
+  "valuation": {
+    "PE_valuation": 361.782481, 
+    "DFC_valuation": 98398.155783
+  },
+  "ratios": {
+    "ROIC": 10.598842,
+    "PB": 1.115862
+  },
+  "ownerEarnings": 1679160000,
+  "growth_rate_revenue": 12.112446,
+  "growth_rate_net_income": 13.788939
+}

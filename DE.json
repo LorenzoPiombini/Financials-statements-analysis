@@ -1,0 +1,14 @@
+{
+  "ticker": "DE",
+  "valuation": {
+    "PE_valuation": 2246.433703, 
+    "DFC_valuation": 12045.871135
+  },
+  "ratios": {
+    "ROIC": 14.155659,
+    "PB": 4.820147
+  },
+  "ownerEarnings": 17940000000,
+  "growth_rate_revenue": 19.004852,
+  "growth_rate_net_income": -314.371142
+}

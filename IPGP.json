@@ -1,0 +1,14 @@
+{
+  "ticker": "IPGP",
+  "valuation": {
+    "PE_valuation": 809.681021, 
+    "DFC_valuation": 22809.087055
+  },
+  "ratios": {
+    "ROIC": 7.311411,
+    "PB": 2.014599
+  },
+  "ownerEarnings": 493075000,
+  "growth_rate_revenue": 55.785558,
+  "growth_rate_net_income": 103.063095
+}

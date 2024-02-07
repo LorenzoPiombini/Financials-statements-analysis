@@ -1,0 +1,14 @@
+{
+  "ticker": "CCRC",
+  "valuation": {
+    "PE_valuation": 59.887316, 
+    "DFC_valuation": 1446.573132
+  },
+  "ratios": {
+    "ROIC": 45.864476,
+    "PB": 0.715792
+  },
+  "ownerEarnings": 31951054,
+  "growth_rate_revenue": 41.201644,
+  "growth_rate_net_income": 262.046047
+}

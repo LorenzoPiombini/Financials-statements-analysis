@@ -1,0 +1,14 @@
+{
+  "ticker": "TSRI",
+  "valuation": {
+    "PE_valuation": -9243.009657, 
+    "DFC_valuation": 125.827557
+  },
+  "ratios": {
+    "ROIC": 10.742670,
+    "PB": 0.852833
+  },
+  "ownerEarnings": 1906338,
+  "growth_rate_revenue": -6.969842,
+  "growth_rate_net_income": -153.571429
+}

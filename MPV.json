@@ -1,0 +1,14 @@
+{
+  "ticker": "MPV",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 4.341873,
+    "PB": 0.817566
+  },
+  "ownerEarnings": 8984868,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

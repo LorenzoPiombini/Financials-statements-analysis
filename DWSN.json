@@ -1,0 +1,14 @@
+{
+  "ticker": "DWSN",
+  "valuation": {
+    "PE_valuation": 4.017722, 
+    "DFC_valuation": -46.531503
+  },
+  "ratios": {
+    "ROIC": -47.805030,
+    "PB": 1.133919
+  },
+  "ownerEarnings": -23605000,
+  "growth_rate_revenue": 36.597185,
+  "growth_rate_net_income": -inf
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FRSX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -64.491707,
+    "PB": 0.964767
+  },
+  "ownerEarnings": -18750000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 2094.483380
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AXGN",
+  "valuation": {
+    "PE_valuation": 90.293767, 
+    "DFC_valuation": -2820.529185
+  },
+  "ratios": {
+    "ROIC": -14.753109,
+    "PB": 4.158354
+  },
+  "ownerEarnings": -18568000,
+  "growth_rate_revenue": 14.724035,
+  "growth_rate_net_income": 37.361111
+}

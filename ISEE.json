@@ -1,0 +1,14 @@
+{
+  "ticker": "ISEE",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -28.435412,
+    "PB": 4.846016
+  },
+  "ownerEarnings": -213444000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 102.994719
+}

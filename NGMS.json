@@ -1,0 +1,14 @@
+{
+  "ticker": "NGMS",
+  "valuation": {
+    "PE_valuation": 33.204709, 
+    "DFC_valuation": 107.430645
+  },
+  "ratios": {
+    "ROIC": 1.028611,
+    "PB": 1.971934
+  },
+  "ownerEarnings": 83255000,
+  "growth_rate_revenue": 89.365711,
+  "growth_rate_net_income": -2554.773249
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "JG",
+  "valuation": {
+    "PE_valuation": 369.820724, 
+    "DFC_valuation": -43.197097
+  },
+  "ratios": {
+    "ROIC": -73.964232,
+    "PB": 81.815443
+  },
+  "ownerEarnings": -140613000,
+  "growth_rate_revenue": 102.605125,
+  "growth_rate_net_income": 38.417389
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NOV",
+  "valuation": {
+    "PE_valuation": -13.325265, 
+    "DFC_valuation": -33741.892479
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 1346000000,
+  "growth_rate_revenue": 35.361503,
+  "growth_rate_net_income": 6664.001213
+}

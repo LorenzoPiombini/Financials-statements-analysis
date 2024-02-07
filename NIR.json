@@ -1,0 +1,14 @@
+{
+  "ticker": "NIR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -22.784925
+  },
+  "ratios": {
+    "ROIC": 16.499116,
+    "PB": -3.437629
+  },
+  "ownerEarnings": -9166350,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "HUIZ",
+  "valuation": {
+    "PE_valuation": 2.465519, 
+    "DFC_valuation": -15.628714
+  },
+  "ratios": {
+    "ROIC": -2.244779,
+    "PB": 1.426856
+  },
+  "ownerEarnings": -10108000,
+  "growth_rate_revenue": 61.711954,
+  "growth_rate_net_income": 77.658735
+}

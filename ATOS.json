@@ -1,0 +1,14 @@
+{
+  "ticker": "ATOS",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -22.837628,
+    "PB": 0.568908
+  },
+  "ownerEarnings": -34444000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 105.001915
+}

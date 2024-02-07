@@ -1,0 +1,14 @@
+{
+  "ticker": "OGS",
+  "valuation": {
+    "PE_valuation": 69.753401, 
+    "DFC_valuation": 1061.881276
+  },
+  "ratios": {
+    "ROIC": 5.250229,
+    "PB": 1.556721
+  },
+  "ownerEarnings": 1208161000,
+  "growth_rate_revenue": 1.248836,
+  "growth_rate_net_income": -10.555344
+}

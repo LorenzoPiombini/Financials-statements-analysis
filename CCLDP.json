@@ -1,0 +1,14 @@
+{
+  "ticker": "CCLDP",
+  "valuation": {
+    "PE_valuation": 30.093697, 
+    "DFC_valuation": 435.988463
+  },
+  "ratios": {
+    "ROIC": 3.251600,
+    "PB": 0.417527
+  },
+  "ownerEarnings": 24795000,
+  "growth_rate_revenue": 27.706726,
+  "growth_rate_net_income": 549.431214
+}

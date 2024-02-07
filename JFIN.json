@@ -1,0 +1,14 @@
+{
+  "ticker": "JFIN",
+  "valuation": {
+    "PE_valuation": 37.843851, 
+    "DFC_valuation": 167.713008
+  },
+  "ratios": {
+    "ROIC": 80.159302,
+    "PB": 0.682056
+  },
+  "ownerEarnings": 753927000,
+  "growth_rate_revenue": 70.364046,
+  "growth_rate_net_income": -51.045716
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SLNHP",
+  "valuation": {
+    "PE_valuation": -1260.537162, 
+    "DFC_valuation": -178.244602
+  },
+  "ratios": {
+    "ROIC": -128.847644,
+    "PB": 0.093046
+  },
+  "ownerEarnings": 76775000,
+  "growth_rate_revenue": 5.884392,
+  "growth_rate_net_income": -31.156689
+}

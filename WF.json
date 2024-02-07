@@ -1,0 +1,14 @@
+{
+  "ticker": "WF",
+  "valuation": {
+    "PE_valuation": 63557.946494, 
+    "DFC_valuation": 2129161.475845
+  },
+  "ratios": {
+    "ROIC": 7.865748,
+    "PB": 0.293389
+  },
+  "ownerEarnings": 16152254000000,
+  "growth_rate_revenue": 15.238351,
+  "growth_rate_net_income": 73.349370
+}

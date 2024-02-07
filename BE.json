@@ -1,0 +1,14 @@
+{
+  "ticker": "BE",
+  "valuation": {
+    "PE_valuation": 36.954491, 
+    "DFC_valuation": -287.783739
+  },
+  "ratios": {
+    "ROIC": -13.305499,
+    "PB": 10.430698
+  },
+  "ownerEarnings": -134035000,
+  "growth_rate_revenue": 51.755704,
+  "growth_rate_net_income": -4.224545
+}

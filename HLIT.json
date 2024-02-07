@@ -1,0 +1,14 @@
+{
+  "ticker": "HLIT",
+  "valuation": {
+    "PE_valuation": 48.479527, 
+    "DFC_valuation": -52.946993
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 71202000,
+  "growth_rate_revenue": 63.150867,
+  "growth_rate_net_income": -1950.247873
+}

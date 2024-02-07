@@ -1,0 +1,14 @@
+{
+  "ticker": "TTM",
+  "valuation": {
+    "PE_valuation": 2387.963623, 
+    "DFC_valuation": -13480.228968
+  },
+  "ratios": {
+    "ROIC": -15.451034,
+    "PB": 3.692577
+  },
+  "ownerEarnings": 462320600000,
+  "growth_rate_revenue": 43.037897,
+  "growth_rate_net_income": 30.831845
+}

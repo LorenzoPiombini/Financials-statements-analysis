@@ -1,0 +1,14 @@
+{
+  "ticker": "TILE",
+  "valuation": {
+    "PE_valuation": 21.399651, 
+    "DFC_valuation": 407.751631
+  },
+  "ratios": {
+    "ROIC": 4.887823,
+    "PB": 1.607021
+  },
+  "ownerEarnings": 210993000,
+  "growth_rate_revenue": 50.801839,
+  "growth_rate_net_income": 39.794888
+}

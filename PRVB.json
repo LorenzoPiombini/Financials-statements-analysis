@@ -1,0 +1,14 @@
+{
+  "ticker": "PRVB",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -80.724136,
+    "PB": 6.481974
+  },
+  "ownerEarnings": -130737000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 99.553470
+}

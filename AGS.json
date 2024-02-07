@@ -1,0 +1,14 @@
+{
+  "ticker": "AGS",
+  "valuation": {
+    "PE_valuation": 9.569258, 
+    "DFC_valuation": 19.422504
+  },
+  "ratios": {
+    "ROIC": 4.747510,
+    "PB": 3.851269
+  },
+  "ownerEarnings": 230480000,
+  "growth_rate_revenue": 47.849440,
+  "growth_rate_net_income": 1.141352
+}

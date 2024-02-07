@@ -1,0 +1,14 @@
+{
+  "ticker": "AMTD",
+  "valuation": {
+    "PE_valuation": 1518.866113, 
+    "DFC_valuation": 3440.166817
+  },
+  "ratios": {
+    "ROIC": 14.416657,
+    "PB": 0.771555
+  },
+  "ownerEarnings": 954079753,
+  "growth_rate_revenue": 76.572574,
+  "growth_rate_net_income": 1481.329121
+}

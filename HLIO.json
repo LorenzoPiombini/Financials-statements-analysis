@@ -1,0 +1,14 @@
+{
+  "ticker": "HLIO",
+  "valuation": {
+    "PE_valuation": 278.678221, 
+    "DFC_valuation": 2206.083380
+  },
+  "ratios": {
+    "ROIC": 8.949667,
+    "PB": 2.225815
+  },
+  "ownerEarnings": 207700000,
+  "growth_rate_revenue": 9.950653,
+  "growth_rate_net_income": 20.086659
+}

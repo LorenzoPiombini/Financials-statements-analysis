@@ -1,0 +1,14 @@
+{
+  "ticker": "ABB",
+  "valuation": {
+    "PE_valuation": 24.377264, 
+    "DFC_valuation": 6.527439
+  },
+  "ratios": {
+    "ROIC": 11.680467,
+    "PB": 4.527161
+  },
+  "ownerEarnings": 4286000000,
+  "growth_rate_revenue": -3.077068,
+  "growth_rate_net_income": -56.487390
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TLK",
+  "valuation": {
+    "PE_valuation": 1603297.941492, 
+    "DFC_valuation": 31511238764775384.000000
+  },
+  "ratios": {
+    "ROIC": 14.291564,
+    "PB": 2.842297
+  },
+  "ownerEarnings": 112789000000000,
+  "growth_rate_revenue": 25.460709,
+  "growth_rate_net_income": 32.311048
+}

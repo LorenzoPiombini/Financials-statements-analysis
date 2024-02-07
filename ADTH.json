@@ -1,0 +1,14 @@
+{
+  "ticker": "ADTH",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 8.538243
+  },
+  "ratios": {
+    "ROIC": -46.630709,
+    "PB": 0.920895
+  },
+  "ownerEarnings": -141379000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NGL-PB",
+  "valuation": {
+    "PE_valuation": 0.719468, 
+    "DFC_valuation": 1183.520023
+  },
+  "ratios": {
+    "ROIC": 10.239369,
+    "PB": 0.495057
+  },
+  "ownerEarnings": 1167256000,
+  "growth_rate_revenue": 108.959191,
+  "growth_rate_net_income": 158.106618
+}

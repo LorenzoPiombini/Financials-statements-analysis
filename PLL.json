@@ -1,0 +1,14 @@
+{
+  "ticker": "PLL",
+  "valuation": {
+    "PE_valuation": 0.111658, 
+    "DFC_valuation": -166.412698
+  },
+  "ratios": {
+    "ROIC": -19.169499,
+    "PB": 2.852980
+  },
+  "ownerEarnings": -20361020,
+  "growth_rate_revenue": 8.565792,
+  "growth_rate_net_income": 4.517853
+}

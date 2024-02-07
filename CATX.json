@@ -1,0 +1,14 @@
+{
+  "ticker": "CATX",
+  "valuation": {
+    "PE_valuation": 0.267107, 
+    "DFC_valuation": -3.492237
+  },
+  "ratios": {
+    "ROIC": -11.664746,
+    "PB": 0.718311
+  },
+  "ownerEarnings": -7964000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -327.787403
+}

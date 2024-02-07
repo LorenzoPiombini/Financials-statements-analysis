@@ -1,0 +1,14 @@
+{
+  "ticker": "GEHC",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 216.029685
+  },
+  "ratios": {
+    "ROIC": 10.875716,
+    "PB": 2.832765
+  },
+  "ownerEarnings": 2979000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

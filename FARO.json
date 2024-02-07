@@ -1,0 +1,14 @@
+{
+  "ticker": "FARO",
+  "valuation": {
+    "PE_valuation": 102.056378, 
+    "DFC_valuation": -4660.916032
+  },
+  "ratios": {
+    "ROIC": -7.134756,
+    "PB": 1.732004
+  },
+  "ownerEarnings": -1854000,
+  "growth_rate_revenue": 26.839724,
+  "growth_rate_net_income": -1870.276737
+}

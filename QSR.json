@@ -1,0 +1,14 @@
+{
+  "ticker": "QSR",
+  "valuation": {
+    "PE_valuation": 100.905752, 
+    "DFC_valuation": 397.122385
+  },
+  "ratios": {
+    "ROIC": 11.359273,
+    "PB": 7.944654
+  },
+  "ownerEarnings": 2783000000,
+  "growth_rate_revenue": 53.362897,
+  "growth_rate_net_income": 67.382966
+}

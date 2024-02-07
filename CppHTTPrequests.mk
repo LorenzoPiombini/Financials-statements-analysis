@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Stephanie Psiaki
-Date                   :=28/01/2024
+Date                   :=06/02/2024
 CodeLitePath           :=/Users/stephaniepsiaki/.codelite
 MakeDirCommand         :=mkdir -p
 LinkerName             :=/usr/bin/g++
@@ -62,7 +62,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/Applications/codelite.app/Contents/SharedSupport/
-Objects0=$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix) $(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix) $(IntermediateDirectory)/keyratios.cpp$(ObjectSuffix) $(IntermediateDirectory)/Sharesfloat.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IntermediateDirectory)/incomestatement.cpp$(ObjectSuffix) $(IntermediateDirectory)/Historicalprice.cpp$(ObjectSuffix) $(IntermediateDirectory)/HistoryStockPrice.cpp$(ObjectSuffix) $(IntermediateDirectory)/keyratios.cpp$(ObjectSuffix) $(IntermediateDirectory)/Sharesfloat.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IntermediateDirectory)/Ticker.cpp$(ObjectSuffix) 
 
 
 
@@ -93,14 +93,6 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix): Cashflowstatment.cpp $(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Cashflowstatment.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix): Cashflowstatment.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix) -MM Cashflowstatment.cpp
-
-$(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix): Cashflowstatment.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix) Cashflowstatment.cpp
-
 $(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix): Balancesheet.cpp $(IntermediateDirectory)/Balancesheet.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Balancesheet.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Balancesheet.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Balancesheet.cpp$(DependSuffix): Balancesheet.cpp
@@ -156,6 +148,22 @@ $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix): Cashflowstatment.cpp $(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Cashflowstatment.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix): Cashflowstatment.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Cashflowstatment.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Cashflowstatment.cpp$(DependSuffix) -MM Cashflowstatment.cpp
+
+$(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix): Cashflowstatment.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cashflowstatment.cpp$(PreprocessSuffix) Cashflowstatment.cpp
+
+$(IntermediateDirectory)/Ticker.cpp$(ObjectSuffix): Ticker.cpp $(IntermediateDirectory)/Ticker.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/stephaniepsiaki/CppWorkspaces/Workspace1/CppHTTPrequests/Ticker.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Ticker.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Ticker.cpp$(DependSuffix): Ticker.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Ticker.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Ticker.cpp$(DependSuffix) -MM Ticker.cpp
+
+$(IntermediateDirectory)/Ticker.cpp$(PreprocessSuffix): Ticker.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Ticker.cpp$(PreprocessSuffix) Ticker.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

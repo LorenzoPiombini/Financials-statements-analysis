@@ -1,0 +1,14 @@
+{
+  "ticker": "NYXH",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -24.915334,
+    "PB": 1.003902
+  },
+  "ownerEarnings": -15697000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 43.710384
+}

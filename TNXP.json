@@ -1,0 +1,14 @@
+{
+  "ticker": "TNXP",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -56.040829,
+    "PB": 0.420902
+  },
+  "ownerEarnings": -80264000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 4917.393932
+}

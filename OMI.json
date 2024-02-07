@@ -1,0 +1,14 @@
+{
+  "ticker": "OMI",
+  "valuation": {
+    "PE_valuation": 23.310484, 
+    "DFC_valuation": 5605.395498
+  },
+  "ratios": {
+    "ROIC": 10.376064,
+    "PB": 1.538601
+  },
+  "ownerEarnings": 764471000,
+  "growth_rate_revenue": 33.933853,
+  "growth_rate_net_income": 63.752343
+}

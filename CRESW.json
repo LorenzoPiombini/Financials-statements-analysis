@@ -1,0 +1,14 @@
+{
+  "ticker": "CRESW",
+  "valuation": {
+    "PE_valuation": 73240.747093, 
+    "DFC_valuation": 1344079960.797162
+  },
+  "ratios": {
+    "ROIC": -56.268189,
+    "PB": 6.469592
+  },
+  "ownerEarnings": 24981000000,
+  "growth_rate_revenue": 18.034620,
+  "growth_rate_net_income": -325.276589
+}

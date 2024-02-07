@@ -1,0 +1,14 @@
+{
+  "ticker": "HST",
+  "valuation": {
+    "PE_valuation": 14.552162, 
+    "DFC_valuation": 132.349857
+  },
+  "ratios": {
+    "ROIC": 6.175942,
+    "PB": 1.709528
+  },
+  "ownerEarnings": 2030000000,
+  "growth_rate_revenue": 64.328199,
+  "growth_rate_net_income": -41.964452
+}

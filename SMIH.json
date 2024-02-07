@@ -1,0 +1,14 @@
+{
+  "ticker": "SMIH",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -2.896999
+  },
+  "ratios": {
+    "ROIC": -0.273861,
+    "PB": 0.309328
+  },
+  "ownerEarnings": -1048950,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

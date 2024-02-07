@@ -1,0 +1,14 @@
+{
+  "ticker": "OHI",
+  "valuation": {
+    "PE_valuation": 835.516636, 
+    "DFC_valuation": 210549.776453
+  },
+  "ratios": {
+    "ROIC": 4.341299,
+    "PB": 1.763567
+  },
+  "ownerEarnings": 644963000,
+  "growth_rate_revenue": 110.000312,
+  "growth_rate_net_income": 81.588517
+}

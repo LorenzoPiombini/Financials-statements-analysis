@@ -1,0 +1,14 @@
+{
+  "ticker": "CRC",
+  "valuation": {
+    "PE_valuation": 21.222725, 
+    "DFC_valuation": 569.872653
+  },
+  "ratios": {
+    "ROIC": 29.441838,
+    "PB": 1.914067
+  },
+  "ownerEarnings": 1432000000,
+  "growth_rate_revenue": -15.861419,
+  "growth_rate_net_income": -57.180314
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AZN",
+  "valuation": {
+    "PE_valuation": 135.343528, 
+    "DFC_valuation": 827.210777
+  },
+  "ratios": {
+    "ROIC": 7.358814,
+    "PB": 5.667543
+  },
+  "ownerEarnings": 13946000000,
+  "growth_rate_revenue": 1.413237,
+  "growth_rate_net_income": 94.645152
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GTLS",
+  "valuation": {
+    "PE_valuation": 427.493231, 
+    "DFC_valuation": 79.067571
+  },
+  "ratios": {
+    "ROIC": 2.539114,
+    "PB": 1.556118
+  },
+  "ownerEarnings": 292500000,
+  "growth_rate_revenue": 18.873543,
+  "growth_rate_net_income": -196.709245
+}

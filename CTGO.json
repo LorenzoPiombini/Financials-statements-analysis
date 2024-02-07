@@ -1,0 +1,14 @@
+{
+  "ticker": "CTGO",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -24.821739,
+    "PB": -37.829641
+  },
+  "ownerEarnings": 26280781,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 68.631759
+}

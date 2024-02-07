@@ -1,0 +1,14 @@
+{
+  "ticker": "PETWW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -9.522069
+  },
+  "ratios": {
+    "ROIC": -83.259340,
+    "PB": 5.930639
+  },
+  "ownerEarnings": -47581000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

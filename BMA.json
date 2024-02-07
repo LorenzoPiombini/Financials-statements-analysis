@@ -1,0 +1,14 @@
+{
+  "ticker": "BMA",
+  "valuation": {
+    "PE_valuation": 6255585.068562, 
+    "DFC_valuation": 699345100262.513794
+  },
+  "ratios": {
+    "ROIC": 58.471004,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 961547036000,
+  "growth_rate_revenue": 259.115691,
+  "growth_rate_net_income": 796.718053
+}

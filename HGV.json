@@ -1,0 +1,14 @@
+{
+  "ticker": "HGV",
+  "valuation": {
+    "PE_valuation": 50.593497, 
+    "DFC_valuation": 510.692313
+  },
+  "ratios": {
+    "ROIC": 8.366571,
+    "PB": 2.114235
+  },
+  "ownerEarnings": 1099000000,
+  "growth_rate_revenue": 12.958803,
+  "growth_rate_net_income": 29.246612
+}

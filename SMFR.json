@@ -1,0 +1,14 @@
+{
+  "ticker": "SMFR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 152.927970,
+    "PB": 2.760219
+  },
+  "ownerEarnings": -639265000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

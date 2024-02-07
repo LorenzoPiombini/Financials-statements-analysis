@@ -1,0 +1,14 @@
+{
+  "ticker": "ARCC",
+  "valuation": {
+    "PE_valuation": 237.889680, 
+    "DFC_valuation": -259713.170458
+  },
+  "ratios": {
+    "ROIC": 4.635064,
+    "PB": 0.962644
+  },
+  "ownerEarnings": 1462000000,
+  "growth_rate_revenue": 284.750915,
+  "growth_rate_net_income": 358.032001
+}

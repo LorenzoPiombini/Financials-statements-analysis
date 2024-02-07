@@ -1,0 +1,14 @@
+{
+  "ticker": "GDYN",
+  "valuation": {
+    "PE_valuation": 18.188184, 
+    "DFC_valuation": 46.926566
+  },
+  "ratios": {
+    "ROIC": -7.910540,
+    "PB": 2.138557
+  },
+  "ownerEarnings": -75576000,
+  "growth_rate_revenue": 47.407234,
+  "growth_rate_net_income": 2.760403
+}

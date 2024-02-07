@@ -1,0 +1,14 @@
+{
+  "ticker": "PRPL",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -19.500548,
+    "PB": 2.201164
+  },
+  "ownerEarnings": -39259000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

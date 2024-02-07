@@ -1,0 +1,14 @@
+{
+  "ticker": "EQIX",
+  "valuation": {
+    "PE_valuation": 2938589.264231, 
+    "DFC_valuation": 931232509481.944336
+  },
+  "ratios": {
+    "ROIC": 3.219044,
+    "PB": 5.212986
+  },
+  "ownerEarnings": 5070956000,
+  "growth_rate_revenue": 8871.012471,
+  "growth_rate_net_income": 178.957222
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CSPI",
+  "valuation": {
+    "PE_valuation": 26.784240, 
+    "DFC_valuation": 102.529587
+  },
+  "ratios": {
+    "ROIC": 4.187837,
+    "PB": 1.661340
+  },
+  "ownerEarnings": -1427000,
+  "growth_rate_revenue": -3.918101,
+  "growth_rate_net_income": 15.825163
+}

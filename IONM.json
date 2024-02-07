@@ -1,0 +1,14 @@
+{
+  "ticker": "IONM",
+  "valuation": {
+    "PE_valuation": 2223.221507, 
+    "DFC_valuation": -2939975790.159023
+  },
+  "ratios": {
+    "ROIC": -131.314045,
+    "PB": 0.715211
+  },
+  "ownerEarnings": -21301000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 24.854802
+}

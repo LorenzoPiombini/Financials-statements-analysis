@@ -1,0 +1,14 @@
+{
+  "ticker": "DBVT",
+  "valuation": {
+    "PE_valuation": 6.404535, 
+    "DFC_valuation": -1914.436166
+  },
+  "ratios": {
+    "ROIC": -46.607458,
+    "PB": 0.608729
+  },
+  "ownerEarnings": -101403000,
+  "growth_rate_revenue": 7.434983,
+  "growth_rate_net_income": 90.423434
+}

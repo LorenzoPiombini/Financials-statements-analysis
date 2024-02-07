@@ -1,0 +1,14 @@
+{
+  "ticker": "BAH",
+  "valuation": {
+    "PE_valuation": 41.897426, 
+    "DFC_valuation": 270.838859
+  },
+  "ratios": {
+    "ROIC": 7.654618,
+    "PB": 12.348829
+  },
+  "ownerEarnings": 626956000,
+  "growth_rate_revenue": 6.272780,
+  "growth_rate_net_income": 77.954548
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LMFA",
+  "valuation": {
+    "PE_valuation": 1.082398, 
+    "DFC_valuation": -118.655018
+  },
+  "ratios": {
+    "ROIC": -58.376472,
+    "PB": 0.146824
+  },
+  "ownerEarnings": -32127233,
+  "growth_rate_revenue": -13.940947,
+  "growth_rate_net_income": -14.286210
+}

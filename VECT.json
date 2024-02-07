@@ -1,0 +1,14 @@
+{
+  "ticker": "VECT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -35.990903,
+    "PB": 1.792013
+  },
+  "ownerEarnings": -83545000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

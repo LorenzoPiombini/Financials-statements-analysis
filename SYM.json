@@ -1,0 +1,14 @@
+{
+  "ticker": "SYM",
+  "valuation": {
+    "PE_valuation": 5.706006, 
+    "DFC_valuation": 1322.135839
+  },
+  "ratios": {
+    "ROIC": -266313.459635,
+    "PB": 26229.740602
+  },
+  "ownerEarnings": -350916000,
+  "growth_rate_revenue": 78.997602,
+  "growth_rate_net_income": -114.678025
+}

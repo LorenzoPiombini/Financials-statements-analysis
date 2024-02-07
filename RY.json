@@ -1,0 +1,14 @@
+{
+  "ticker": "RY",
+  "valuation": {
+    "PE_valuation": 305.871607, 
+    "DFC_valuation": 905076.971984
+  },
+  "ratios": {
+    "ROIC": 2.645572,
+    "PB": 1.310596
+  },
+  "ownerEarnings": 20452000000,
+  "growth_rate_revenue": 11.654836,
+  "growth_rate_net_income": 84.218642
+}

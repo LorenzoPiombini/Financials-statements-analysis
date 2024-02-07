@@ -1,0 +1,14 @@
+{
+  "ticker": "RH",
+  "valuation": {
+    "PE_valuation": 2704.628082, 
+    "DFC_valuation": 50685.103679
+  },
+  "ratios": {
+    "ROIC": 15.662594,
+    "PB": 9.312863
+  },
+  "ownerEarnings": 1334987000,
+  "growth_rate_revenue": 46.698355,
+  "growth_rate_net_income": 230.970529
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LPG",
+  "valuation": {
+    "PE_valuation": 17.225350, 
+    "DFC_valuation": 804.071962
+  },
+  "ratios": {
+    "ROIC": 0.363303,
+    "PB": 0.871233
+  },
+  "ownerEarnings": 19701902,
+  "growth_rate_revenue": 95.340909,
+  "growth_rate_net_income": 642.085094
+}

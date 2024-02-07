@@ -1,0 +1,14 @@
+{
+  "ticker": "GNW",
+  "valuation": {
+    "PE_valuation": 2.789363, 
+    "DFC_valuation": 104.389794
+  },
+  "ratios": {
+    "ROIC": 4.815920,
+    "PB": 0.267308
+  },
+  "ownerEarnings": 439000000,
+  "growth_rate_revenue": 0.845912,
+  "growth_rate_net_income": inf
+}

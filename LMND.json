@@ -1,0 +1,14 @@
+{
+  "ticker": "LMND",
+  "valuation": {
+    "PE_valuation": 389.092618, 
+    "DFC_valuation": -1251.082542
+  },
+  "ratios": {
+    "ROIC": -31.775501,
+    "PB": 1.024604
+  },
+  "ownerEarnings": -334800000,
+  "growth_rate_revenue": 68.829409,
+  "growth_rate_net_income": 34.634854
+}

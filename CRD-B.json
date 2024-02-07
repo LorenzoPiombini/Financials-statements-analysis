@@ -1,0 +1,14 @@
+{
+  "ticker": "CRD-B",
+  "valuation": {
+    "PE_valuation": -9.964585, 
+    "DFC_valuation": -63.455771
+  },
+  "ratios": {
+    "ROIC": -33.118310,
+    "PB": 2.208633
+  },
+  "ownerEarnings": 141480000,
+  "growth_rate_revenue": 20.255099,
+  "growth_rate_net_income": 24.796655
+}

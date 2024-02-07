@@ -1,0 +1,14 @@
+{
+  "ticker": "NICE",
+  "valuation": {
+    "PE_valuation": 2992.688430, 
+    "DFC_valuation": 241702.474655
+  },
+  "ratios": {
+    "ROIC": 6.564082,
+    "PB": 4.032372
+  },
+  "ownerEarnings": 321359000,
+  "growth_rate_revenue": 63.675025,
+  "growth_rate_net_income": 332.930311
+}

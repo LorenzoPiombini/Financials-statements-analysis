@@ -1,0 +1,14 @@
+{
+  "ticker": "IDA",
+  "valuation": {
+    "PE_valuation": 155.890311, 
+    "DFC_valuation": -265.586876
+  },
+  "ratios": {
+    "ROIC": 5.709326,
+    "PB": 1.946206
+  },
+  "ownerEarnings": 934509000,
+  "growth_rate_revenue": 1.413672,
+  "growth_rate_net_income": 2.501213
+}

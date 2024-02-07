@@ -1,0 +1,14 @@
+{
+  "ticker": "SNFCA",
+  "valuation": {
+    "PE_valuation": 18.596938, 
+    "DFC_valuation": 4137.664925
+  },
+  "ratios": {
+    "ROIC": 10.694395,
+    "PB": 0.501933
+  },
+  "ownerEarnings": 105374651,
+  "growth_rate_revenue": -1.440836,
+  "growth_rate_net_income": -46.812913
+}

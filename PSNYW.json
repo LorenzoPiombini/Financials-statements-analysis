@@ -1,0 +1,14 @@
+{
+  "ticker": "PSNYW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -10159.815999
+  },
+  "ratios": {
+    "ROIC": -65.705388,
+    "PB": -83.999281
+  },
+  "ownerEarnings": -488618000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

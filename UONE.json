@@ -1,0 +1,14 @@
+{
+  "ticker": "UONE",
+  "valuation": {
+    "PE_valuation": 17.811787, 
+    "DFC_valuation": 2960.833957
+  },
+  "ratios": {
+    "ROIC": 9.413614,
+    "PB": 0.666990
+  },
+  "ownerEarnings": 323218000,
+  "growth_rate_revenue": 71.587527,
+  "growth_rate_net_income": -866.956431
+}

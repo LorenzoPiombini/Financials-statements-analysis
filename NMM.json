@@ -1,0 +1,14 @@
+{
+  "ticker": "NMM",
+  "valuation": {
+    "PE_valuation": -997.651591, 
+    "DFC_valuation": -211903.416528
+  },
+  "ratios": {
+    "ROIC": 16.851641,
+    "PB": 0.334270
+  },
+  "ownerEarnings": 1412234000,
+  "growth_rate_revenue": 107.120071,
+  "growth_rate_net_income": 92.628463
+}

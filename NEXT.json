@@ -1,0 +1,14 @@
+{
+  "ticker": "NEXT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -22.909898,
+    "PB": 2.503259
+  },
+  "ownerEarnings": -21529000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 2004.060038
+}

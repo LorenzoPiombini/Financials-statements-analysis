@@ -1,0 +1,14 @@
+{
+  "ticker": "HNP",
+  "valuation": {
+    "PE_valuation": -10051.967384, 
+    "DFC_valuation": -14280012.043891
+  },
+  "ratios": {
+    "ROIC": -0.743143,
+    "PB": 0.584219
+  },
+  "ownerEarnings": 74841127000,
+  "growth_rate_revenue": 28.447683,
+  "growth_rate_net_income": 20.524015
+}

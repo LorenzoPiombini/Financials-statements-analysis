@@ -1,0 +1,14 @@
+{
+  "ticker": "TLC",
+  "valuation": {
+    "PE_valuation": 222.220609, 
+    "DFC_valuation": -14460.634426
+  },
+  "ratios": {
+    "ROIC": 105.168444,
+    "PB": 11.211812
+  },
+  "ownerEarnings": -912286000,
+  "growth_rate_revenue": 72.153327,
+  "growth_rate_net_income": 43.940619
+}

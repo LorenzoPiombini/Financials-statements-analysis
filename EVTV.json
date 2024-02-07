@@ -1,0 +1,14 @@
+{
+  "ticker": "EVTV",
+  "valuation": {
+    "PE_valuation": 2156.886956, 
+    "DFC_valuation": -74.060457
+  },
+  "ratios": {
+    "ROIC": -251.127891,
+    "PB": 0.998051
+  },
+  "ownerEarnings": -45149652,
+  "growth_rate_revenue": 840.392572,
+  "growth_rate_net_income": 728.132245
+}

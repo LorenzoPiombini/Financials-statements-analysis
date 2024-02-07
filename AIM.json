@@ -1,0 +1,14 @@
+{
+  "ticker": "AIM",
+  "valuation": {
+    "PE_valuation": 0.043161, 
+    "DFC_valuation": -20.711136
+  },
+  "ratios": {
+    "ROIC": -53.819788,
+    "PB": 0.389569
+  },
+  "ownerEarnings": -20350000,
+  "growth_rate_revenue": 56.059524,
+  "growth_rate_net_income": 56.705075
+}

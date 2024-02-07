@@ -1,0 +1,14 @@
+{
+  "ticker": "POR",
+  "valuation": {
+    "PE_valuation": 61.432642, 
+    "DFC_valuation": -175.794767
+  },
+  "ratios": {
+    "ROIC": 4.821738,
+    "PB": 1.574383
+  },
+  "ownerEarnings": 1668000000,
+  "growth_rate_revenue": 10.785986,
+  "growth_rate_net_income": 10.174921
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "PAYA",
+  "valuation": {
+    "PE_valuation": -19.403751, 
+    "DFC_valuation": 14.145942
+  },
+  "ratios": {
+    "ROIC": 3.818090,
+    "PB": 3.888172
+  },
+  "ownerEarnings": 71950000,
+  "growth_rate_revenue": -13.597981,
+  "growth_rate_net_income": -271.548374
+}

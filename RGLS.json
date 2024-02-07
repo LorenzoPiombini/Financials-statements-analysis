@@ -1,0 +1,14 @@
+{
+  "ticker": "RGLS",
+  "valuation": {
+    "PE_valuation": 0.003902, 
+    "DFC_valuation": -95.801606
+  },
+  "ratios": {
+    "ROIC": -68.314861,
+    "PB": 0.627982
+  },
+  "ownerEarnings": -29851000,
+  "growth_rate_revenue": 54.096075,
+  "growth_rate_net_income": 71.766614
+}

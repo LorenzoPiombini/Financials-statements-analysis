@@ -1,0 +1,14 @@
+{
+  "ticker": "SQ",
+  "valuation": {
+    "PE_valuation": -824.925609, 
+    "DFC_valuation": 233.418034
+  },
+  "ratios": {
+    "ROIC": -2.510012,
+    "PB": 2.112374
+  },
+  "ownerEarnings": -1042790000,
+  "growth_rate_revenue": 84.727222,
+  "growth_rate_net_income": 4.709538
+}

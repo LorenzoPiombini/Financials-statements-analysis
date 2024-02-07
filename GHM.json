@@ -1,0 +1,14 @@
+{
+  "ticker": "GHM",
+  "valuation": {
+    "PE_valuation": 0.192646, 
+    "DFC_valuation": 51.423545
+  },
+  "ratios": {
+    "ROIC": -0.166548,
+    "PB": 1.437635
+  },
+  "ownerEarnings": 9049000,
+  "growth_rate_revenue": 2.169087,
+  "growth_rate_net_income": 111.433983
+}

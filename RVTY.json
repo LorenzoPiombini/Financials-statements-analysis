@@ -1,0 +1,14 @@
+{
+  "ticker": "RVTY",
+  "valuation": {
+    "PE_valuation": 171.153278, 
+    "DFC_valuation": 6533.547674
+  },
+  "ratios": {
+    "ROIC": 4.910773,
+    "PB": 2.392770
+  },
+  "ownerEarnings": 1194361000,
+  "growth_rate_revenue": 22.033505,
+  "growth_rate_net_income": 8.903615
+}

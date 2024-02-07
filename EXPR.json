@@ -1,0 +1,14 @@
+{
+  "ticker": "EXPR",
+  "valuation": {
+    "PE_valuation": -54.885412, 
+    "DFC_valuation": -188.770189
+  },
+  "ratios": {
+    "ROIC": -5.197167,
+    "PB": 0.254009
+  },
+  "ownerEarnings": -366326000,
+  "growth_rate_revenue": 4.727010,
+  "growth_rate_net_income": -25.774351
+}

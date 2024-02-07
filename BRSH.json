@@ -1,0 +1,14 @@
+{
+  "ticker": "BRSH",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -954.893467
+  },
+  "ratios": {
+    "ROIC": 271.630374,
+    "PB": -142.654254
+  },
+  "ownerEarnings": -6927985,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

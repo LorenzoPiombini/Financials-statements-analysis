@@ -1,0 +1,14 @@
+{
+  "ticker": "STAB",
+  "valuation": {
+    "PE_valuation": 0.058190, 
+    "DFC_valuation": -35.218699
+  },
+  "ratios": {
+    "ROIC": 420.320500,
+    "PB": -51.499883
+  },
+  "ownerEarnings": 101079841,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 20803.291256
+}

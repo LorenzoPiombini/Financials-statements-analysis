@@ -1,0 +1,14 @@
+{
+  "ticker": "XPER",
+  "valuation": {
+    "PE_valuation": 340.513357, 
+    "DFC_valuation": -2850.168696
+  },
+  "ratios": {
+    "ROIC": 76.406812,
+    "PB": 1.938494
+  },
+  "ownerEarnings": 1736060000,
+  "growth_rate_revenue": 74.268493,
+  "growth_rate_net_income": 66.878657
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AAPL",
+  "valuation": {
+    "PE_valuation": 139.129847, 
+    "DFC_valuation": 132.305875
+  },
+  "ratios": {
+    "ROIC": 56.268883,
+    "PB": 43.374791
+  },
+  "ownerEarnings": 109770000000,
+  "growth_rate_revenue": 31.759084,
+  "growth_rate_net_income": 73.733048
+}

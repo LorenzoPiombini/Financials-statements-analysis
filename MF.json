@@ -1,0 +1,14 @@
+{
+  "ticker": "MF",
+  "valuation": {
+    "PE_valuation": 608.628769, 
+    "DFC_valuation": -534.764654
+  },
+  "ratios": {
+    "ROIC": 84.438154,
+    "PB": -0.060414
+  },
+  "ownerEarnings": -1269359000,
+  "growth_rate_revenue": -17.667650,
+  "growth_rate_net_income": -94.023095
+}

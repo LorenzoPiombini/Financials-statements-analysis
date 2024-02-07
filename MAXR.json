@@ -1,0 +1,14 @@
+{
+  "ticker": "MAXR",
+  "valuation": {
+    "PE_valuation": 4.679645, 
+    "DFC_valuation": 48.510527
+  },
+  "ratios": {
+    "ROIC": 0.252518,
+    "PB": 2.633629
+  },
+  "ownerEarnings": 677000000,
+  "growth_rate_revenue": 54.534071,
+  "growth_rate_net_income": 67.380575
+}

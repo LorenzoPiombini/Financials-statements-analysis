@@ -1,0 +1,14 @@
+{
+  "ticker": "CHNG",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 2.140274,
+    "PB": 2.155951
+  },
+  "ownerEarnings": 1370674000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 346.545644
+}

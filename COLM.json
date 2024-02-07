@@ -1,0 +1,14 @@
+{
+  "ticker": "COLM",
+  "valuation": {
+    "PE_valuation": 219.707956, 
+    "DFC_valuation": 2300.503733
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 251140000,
+  "growth_rate_revenue": 23.292876,
+  "growth_rate_net_income": 32.174494
+}

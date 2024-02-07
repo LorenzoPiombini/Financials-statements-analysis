@@ -1,0 +1,14 @@
+{
+  "ticker": "IGT",
+  "valuation": {
+    "PE_valuation": 58.927433, 
+    "DFC_valuation": 1079.838677
+  },
+  "ratios": {
+    "ROIC": 5.177743,
+    "PB": 3.295458
+  },
+  "ownerEarnings": 1514000000,
+  "growth_rate_revenue": 84.278066,
+  "growth_rate_net_income": 3788.779969
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "OPOF",
+  "valuation": {
+    "PE_valuation": 81.227995, 
+    "DFC_valuation": 772.869391
+  },
+  "ratios": {
+    "ROIC": 5.451066,
+    "PB": 1.426443
+  },
+  "ownerEarnings": 14833000,
+  "growth_rate_revenue": -4.718115,
+  "growth_rate_net_income": 25.728441
+}

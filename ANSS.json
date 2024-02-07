@@ -1,0 +1,14 @@
+{
+  "ticker": "ANSS",
+  "valuation": {
+    "PE_valuation": 2191.110133, 
+    "DFC_valuation": 989242.003701
+  },
+  "ratios": {
+    "ROIC": 9.411654,
+    "PB": 4.322091
+  },
+  "ownerEarnings": 435743000,
+  "growth_rate_revenue": 15.679138,
+  "growth_rate_net_income": 136.747642
+}

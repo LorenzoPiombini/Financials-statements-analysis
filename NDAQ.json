@@ -1,0 +1,14 @@
+{
+  "ticker": "NDAQ",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 4647.805065
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 1734000000,
+  "growth_rate_revenue": 10.489409,
+  "growth_rate_net_income": -47.696318
+}

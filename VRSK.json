@@ -1,0 +1,14 @@
+{
+  "ticker": "VRSK",
+  "valuation": {
+    "PE_valuation": 374.381169, 
+    "DFC_valuation": 455.787000
+  },
+  "ratios": {
+    "ROIC": 19.598482,
+    "PB": 15.925071
+  },
+  "ownerEarnings": 1888500000,
+  "growth_rate_revenue": 17.341522,
+  "growth_rate_net_income": 27.447849
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TIVC",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -38.698476
+  },
+  "ratios": {
+    "ROIC": -215.309083,
+    "PB": 1.705433
+  },
+  "ownerEarnings": -10312997,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

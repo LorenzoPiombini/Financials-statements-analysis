@@ -1,0 +1,14 @@
+{
+  "ticker": "LPCN",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -34.011962,
+    "PB": 16.805291
+  },
+  "ownerEarnings": -13411207,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 3796.593385
+}

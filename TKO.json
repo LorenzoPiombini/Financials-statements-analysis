@@ -1,0 +1,14 @@
+{
+  "ticker": "TKO",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 46.929850
+  },
+  "ratios": {
+    "ROIC": 15.549913,
+    "PB": 10.016049
+  },
+  "ownerEarnings": 580032000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

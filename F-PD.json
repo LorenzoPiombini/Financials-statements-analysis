@@ -1,0 +1,14 @@
+{
+  "ticker": "F-PD",
+  "valuation": {
+    "PE_valuation": -3.187225, 
+    "DFC_valuation": -48.221802
+  },
+  "ratios": {
+    "ROIC": 4.777244,
+    "PB": 1.079571
+  },
+  "ownerEarnings": 41705000000,
+  "growth_rate_revenue": 16.918844,
+  "growth_rate_net_income": -4.807463
+}

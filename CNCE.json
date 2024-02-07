@@ -1,0 +1,14 @@
+{
+  "ticker": "CNCE",
+  "valuation": {
+    "PE_valuation": 11.165540, 
+    "DFC_valuation": -108.336490
+  },
+  "ratios": {
+    "ROIC": 2.106571,
+    "PB": 0.965701
+  },
+  "ownerEarnings": -85803000,
+  "growth_rate_revenue": 143.962736,
+  "growth_rate_net_income": -13.104720
+}

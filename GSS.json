@@ -1,0 +1,14 @@
+{
+  "ticker": "GSS",
+  "valuation": {
+    "PE_valuation": -60.398779, 
+    "DFC_valuation": 153736.268008
+  },
+  "ratios": {
+    "ROIC": 39.669840,
+    "PB": 69.795838
+  },
+  "ownerEarnings": 135049000,
+  "growth_rate_revenue": 83.174020,
+  "growth_rate_net_income": 161.175534
+}

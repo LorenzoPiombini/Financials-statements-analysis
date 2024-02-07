@@ -1,0 +1,14 @@
+{
+  "ticker": "ZI",
+  "valuation": {
+    "PE_valuation": -23.279093, 
+    "DFC_valuation": 232.022063
+  },
+  "ratios": {
+    "ROIC": 2.183208,
+    "PB": 5.321277
+  },
+  "ownerEarnings": 91000000,
+  "growth_rate_revenue": 42.368483,
+  "growth_rate_net_income": -111.843898
+}

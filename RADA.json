@@ -1,0 +1,14 @@
+{
+  "ticker": "RADA",
+  "valuation": {
+    "PE_valuation": 32.654871, 
+    "DFC_valuation": -32.606032
+  },
+  "ratios": {
+    "ROIC": 95.504230,
+    "PB": 2.912633
+  },
+  "ownerEarnings": 32200000,
+  "growth_rate_revenue": 10.291058,
+  "growth_rate_net_income": -439.443918
+}

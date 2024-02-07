@@ -1,0 +1,14 @@
+{
+  "ticker": "SQSP",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 115.324795
+  },
+  "ratios": {
+    "ROIC": 4.535187,
+    "PB": -10.127490
+  },
+  "ownerEarnings": 175146000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

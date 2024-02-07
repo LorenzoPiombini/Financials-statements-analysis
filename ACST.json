@@ -1,0 +1,14 @@
+{
+  "ticker": "ACST",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 18.623460,
+    "PB": 0.304326
+  },
+  "ownerEarnings": 91289000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 50.243934
+}

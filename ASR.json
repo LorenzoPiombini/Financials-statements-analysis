@@ -1,0 +1,14 @@
+{
+  "ticker": "ASR",
+  "valuation": {
+    "PE_valuation": 30441.079845, 
+    "DFC_valuation": 68845.835410
+  },
+  "ratios": {
+    "ROIC": 19.542222,
+    "PB": 3.270924
+  },
+  "ownerEarnings": 17158027000,
+  "growth_rate_revenue": 16.115630,
+  "growth_rate_net_income": 36.442746
+}

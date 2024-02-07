@@ -1,0 +1,14 @@
+{
+  "ticker": "GPS",
+  "valuation": {
+    "PE_valuation": -26.527658, 
+    "DFC_valuation": -7700.261312
+  },
+  "ratios": {
+    "ROIC": -0.806251,
+    "PB": 2.169458
+  },
+  "ownerEarnings": 1126000000,
+  "growth_rate_revenue": 30.685036,
+  "growth_rate_net_income": 58.562470
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "EM",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 37.951314
+  },
+  "ratios": {
+    "ROIC": -27.808729,
+    "PB": 0.772255
+  },
+  "ownerEarnings": -293593000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

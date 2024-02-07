@@ -1,0 +1,14 @@
+{
+  "ticker": "REGCP",
+  "valuation": {
+    "PE_valuation": 601.347744, 
+    "DFC_valuation": 25829.160134
+  },
+  "ratios": {
+    "ROIC": 2.541197,
+    "PB": 1.734672
+  },
+  "ownerEarnings": 719485000,
+  "growth_rate_revenue": 80.552898,
+  "growth_rate_net_income": 104.712650
+}

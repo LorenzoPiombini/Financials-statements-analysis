@@ -1,0 +1,14 @@
+{
+  "ticker": "JNVR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -3.317012
+  },
+  "ratios": {
+    "ROIC": -227.546911,
+    "PB": 72.663885
+  },
+  "ownerEarnings": -2666068,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

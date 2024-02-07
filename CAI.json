@@ -1,0 +1,14 @@
+{
+  "ticker": "CAI",
+  "valuation": {
+    "PE_valuation": 52.474972, 
+    "DFC_valuation": 517.299424
+  },
+  "ratios": {
+    "ROIC": 5.437642,
+    "PB": 0.787895
+  },
+  "ownerEarnings": 522457000,
+  "growth_rate_revenue": 59.498510,
+  "growth_rate_net_income": -115.088267
+}

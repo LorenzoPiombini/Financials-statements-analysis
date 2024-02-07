@@ -1,0 +1,14 @@
+{
+  "ticker": "CIH",
+  "valuation": {
+    "PE_valuation": 30.646283, 
+    "DFC_valuation": 252.721504
+  },
+  "ratios": {
+    "ROIC": -103.655104,
+    "PB": 58.745892
+  },
+  "ownerEarnings": 229157000,
+  "growth_rate_revenue": 23.098900,
+  "growth_rate_net_income": 26.912661
+}

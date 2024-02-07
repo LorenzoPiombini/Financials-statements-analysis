@@ -1,0 +1,14 @@
+{
+  "ticker": "ULCC",
+  "valuation": {
+    "PE_valuation": 3.121106, 
+    "DFC_valuation": -95.345918
+  },
+  "ratios": {
+    "ROIC": -0.484801,
+    "PB": 4.390503
+  },
+  "ownerEarnings": 130000000,
+  "growth_rate_revenue": -0.124238,
+  "growth_rate_net_income": 1.345145
+}

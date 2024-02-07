@@ -1,0 +1,14 @@
+{
+  "ticker": "NOAH",
+  "valuation": {
+    "PE_valuation": 3070.966463, 
+    "DFC_valuation": 1113086.302777
+  },
+  "ratios": {
+    "ROIC": 8.652691,
+    "PB": 0.776661
+  },
+  "ownerEarnings": 794097000,
+  "growth_rate_revenue": 117.557637,
+  "growth_rate_net_income": -308.544950
+}

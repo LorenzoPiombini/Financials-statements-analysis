@@ -1,0 +1,14 @@
+{
+  "ticker": "PBFX",
+  "valuation": {
+    "PE_valuation": 550.614625, 
+    "DFC_valuation": 1420994.744420
+  },
+  "ratios": {
+    "ROIC": 23.591979,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 234749000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -64.982669
+}

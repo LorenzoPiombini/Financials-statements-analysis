@@ -1,0 +1,14 @@
+{
+  "ticker": "COKE",
+  "valuation": {
+    "PE_valuation": 2761.269435, 
+    "DFC_valuation": 33462.721643
+  },
+  "ratios": {
+    "ROIC": 23.659559,
+    "PB": 4.306002
+  },
+  "ownerEarnings": 1021760000,
+  "growth_rate_revenue": 6.870565,
+  "growth_rate_net_income": -78.752969
+}

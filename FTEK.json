@@ -1,0 +1,14 @@
+{
+  "ticker": "FTEK",
+  "valuation": {
+    "PE_valuation": 29.151344, 
+    "DFC_valuation": -36640.093411
+  },
+  "ratios": {
+    "ROIC": -3.505254,
+    "PB": 0.857185
+  },
+  "ownerEarnings": -1142000,
+  "growth_rate_revenue": 12.500000,
+  "growth_rate_net_income": 2.090309
+}

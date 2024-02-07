@@ -1,0 +1,14 @@
+{
+  "ticker": "CDP",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 725.796446
+  },
+  "ratios": {
+    "ROIC": 1.159480,
+    "PB": 1.728605
+  },
+  "ownerEarnings": 198986000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

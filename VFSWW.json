@@ -1,0 +1,14 @@
+{
+  "ticker": "VFSWW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -17091970954.403193
+  },
+  "ratios": {
+    "ROIC": 103.575237,
+    "PB": -5.021011
+  },
+  "ownerEarnings": -27588159000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

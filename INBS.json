@@ -1,0 +1,14 @@
+{
+  "ticker": "INBS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -224.358157,
+    "PB": 8.821628
+  },
+  "ownerEarnings": -9559943,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 49.227380
+}

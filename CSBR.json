@@ -1,0 +1,14 @@
+{
+  "ticker": "CSBR",
+  "valuation": {
+    "PE_valuation": -373.190558, 
+    "DFC_valuation": 188.261653
+  },
+  "ratios": {
+    "ROIC": -20.639549,
+    "PB": 14.195853
+  },
+  "ownerEarnings": 1362000,
+  "growth_rate_revenue": 0.928109,
+  "growth_rate_net_income": -211.694064
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "HWM-P",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 8.991647,
+    "PB": 4.553254
+  },
+  "ownerEarnings": 1410000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": inf
+}

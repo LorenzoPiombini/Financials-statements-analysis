@@ -1,0 +1,14 @@
+{
+  "ticker": "EBIX",
+  "valuation": {
+    "PE_valuation": 210.181083, 
+    "DFC_valuation": 14787.072533
+  },
+  "ratios": {
+    "ROIC": 8.141238,
+    "PB": 0.994758
+  },
+  "ownerEarnings": 200314000,
+  "growth_rate_revenue": 20.562895,
+  "growth_rate_net_income": -88.798701
+}

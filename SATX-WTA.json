@@ -1,0 +1,14 @@
+{
+  "ticker": "SATX-WTA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -26.116202
+  },
+  "ratios": {
+    "ROIC": -81.566113,
+    "PB": -19.822487
+  },
+  "ownerEarnings": -11216000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

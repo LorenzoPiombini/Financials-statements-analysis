@@ -1,0 +1,14 @@
+{
+  "ticker": "ADES",
+  "valuation": {
+    "PE_valuation": -3.969473, 
+    "DFC_valuation": -685.967390
+  },
+  "ratios": {
+    "ROIC": -8.107785,
+    "PB": 0.320339
+  },
+  "ownerEarnings": 1408000,
+  "growth_rate_revenue": 35.540222,
+  "growth_rate_net_income": -2.781430
+}

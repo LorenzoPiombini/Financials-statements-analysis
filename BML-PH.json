@@ -1,0 +1,14 @@
+{
+  "ticker": "BML-PH",
+  "valuation": {
+    "PE_valuation": 140.663105, 
+    "DFC_valuation": -976.729213
+  },
+  "ratios": {
+    "ROIC": 7.879963,
+    "PB": 1.029653
+  },
+  "ownerEarnings": 66850000000,
+  "growth_rate_revenue": 20.095245,
+  "growth_rate_net_income": 27.605173
+}

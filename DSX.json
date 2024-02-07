@@ -1,0 +1,14 @@
+{
+  "ticker": "DSX",
+  "valuation": {
+    "PE_valuation": 30.143808, 
+    "DFC_valuation": -1709.111036
+  },
+  "ratios": {
+    "ROIC": 8.296239,
+    "PB": 0.640714
+  },
+  "ownerEarnings": 357645000,
+  "growth_rate_revenue": 85.866719,
+  "growth_rate_net_income": 3200.362231
+}

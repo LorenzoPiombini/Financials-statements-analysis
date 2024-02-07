@@ -1,0 +1,14 @@
+{
+  "ticker": "BOXL",
+  "valuation": {
+    "PE_valuation": 19.163999, 
+    "DFC_valuation": 22.313895
+  },
+  "ratios": {
+    "ROIC": -4.160345,
+    "PB": 0.267704
+  },
+  "ownerEarnings": -415000,
+  "growth_rate_revenue": 145.048420,
+  "growth_rate_net_income": 102.554753
+}

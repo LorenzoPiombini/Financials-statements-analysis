@@ -1,0 +1,14 @@
+{
+  "ticker": "NOVT",
+  "valuation": {
+    "PE_valuation": 313.892788, 
+    "DFC_valuation": 346.527779
+  },
+  "ratios": {
+    "ROIC": 8.000333,
+    "PB": 8.386694
+  },
+  "ownerEarnings": 164285000,
+  "growth_rate_revenue": 18.426696,
+  "growth_rate_net_income": -7.833270
+}

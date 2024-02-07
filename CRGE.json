@@ -1,0 +1,14 @@
+{
+  "ticker": "CRGE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -93.387138
+  },
+  "ratios": {
+    "ROIC": -61.993199,
+    "PB": 6.005656
+  },
+  "ownerEarnings": -97440000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

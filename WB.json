@@ -1,0 +1,14 @@
+{
+  "ticker": "WB",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 10.693798,
+    "PB": 1.350150
+  },
+  "ownerEarnings": 1233283000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 11.668574
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MMS",
+  "valuation": {
+    "PE_valuation": 427.019848, 
+    "DFC_valuation": 30246.613756
+  },
+  "ratios": {
+    "ROIC": 6.922639,
+    "PB": 2.736970
+  },
+  "ownerEarnings": 457145000,
+  "growth_rate_revenue": 47.613435,
+  "growth_rate_net_income": 40.610718
+}

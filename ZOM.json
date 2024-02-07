@@ -1,0 +1,14 @@
+{
+  "ticker": "ZOM",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -7.105556,
+    "PB": 0.597354
+  },
+  "ownerEarnings": -22228000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 3548.143002
+}

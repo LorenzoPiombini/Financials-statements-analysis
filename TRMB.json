@@ -1,0 +1,14 @@
+{
+  "ticker": "TRMB",
+  "valuation": {
+    "PE_valuation": 1145.143983, 
+    "DFC_valuation": 207905.441088
+  },
+  "ratios": {
+    "ROIC": 6.984130,
+    "PB": 3.103357
+  },
+  "ownerEarnings": 488400000,
+  "growth_rate_revenue": 80.523661,
+  "growth_rate_net_income": -8.338039
+}

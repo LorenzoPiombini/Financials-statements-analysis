@@ -1,0 +1,14 @@
+{
+  "ticker": "SHUAU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -0.085716
+  },
+  "ratios": {
+    "ROIC": -15.025240,
+    "PB": 0.850605
+  },
+  "ownerEarnings": -2030920,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

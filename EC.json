@@ -1,0 +1,14 @@
+{
+  "ticker": "EC",
+  "valuation": {
+    "PE_valuation": 407943.952242, 
+    "DFC_valuation": 139800.350236
+  },
+  "ratios": {
+    "ROIC": 19.866536,
+    "PB": 1.145862
+  },
+  "ownerEarnings": 81811000000000,
+  "growth_rate_revenue": 29.874451,
+  "growth_rate_net_income": 46.087499
+}

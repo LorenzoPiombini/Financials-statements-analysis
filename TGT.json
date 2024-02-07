@@ -1,0 +1,14 @@
+{
+  "ticker": "TGT",
+  "valuation": {
+    "PE_valuation": 333.532815, 
+    "DFC_valuation": -2026.086807
+  },
+  "ratios": {
+    "ROIC": 9.586598,
+    "PB": 6.932734
+  },
+  "ownerEarnings": 11696000000,
+  "growth_rate_revenue": 13.684079,
+  "growth_rate_net_income": 12.001692
+}

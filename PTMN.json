@@ -1,0 +1,14 @@
+{
+  "ticker": "PTMN",
+  "valuation": {
+    "PE_valuation": 110.720080, 
+    "DFC_valuation": -28088.936167
+  },
+  "ratios": {
+    "ROIC": 4.957391,
+    "PB": 0.954635
+  },
+  "ownerEarnings": 95119000,
+  "growth_rate_revenue": 804.813455,
+  "growth_rate_net_income": -107.884145
+}

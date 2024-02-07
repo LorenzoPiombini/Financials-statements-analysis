@@ -1,0 +1,14 @@
+{
+  "ticker": "NBR",
+  "valuation": {
+    "PE_valuation": 223.021464, 
+    "DFC_valuation": 41629.940303
+  },
+  "ratios": {
+    "ROIC": -32.025612,
+    "PB": 3.734953
+  },
+  "ownerEarnings": -288868000,
+  "growth_rate_revenue": 33.101233,
+  "growth_rate_net_income": 144.085716
+}

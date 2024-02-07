@@ -1,0 +1,14 @@
+{
+  "ticker": "ACTG",
+  "valuation": {
+    "PE_valuation": 15.560945, 
+    "DFC_valuation": -950.423111
+  },
+  "ratios": {
+    "ROIC": -1.524089,
+    "PB": 0.692112
+  },
+  "ownerEarnings": 147521000,
+  "growth_rate_revenue": -54.523818,
+  "growth_rate_net_income": -81.428637
+}

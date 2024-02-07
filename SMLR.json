@@ -1,0 +1,14 @@
+{
+  "ticker": "SMLR",
+  "valuation": {
+    "PE_valuation": 1557.989314, 
+    "DFC_valuation": 255088.389306
+  },
+  "ratios": {
+    "ROIC": 24.799812,
+    "PB": 3.987008
+  },
+  "ownerEarnings": 15355000,
+  "growth_rate_revenue": 131.930867,
+  "growth_rate_net_income": 37.024185
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AGRX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 1372.925549,
+    "PB": -0.884702
+  },
+  "ownerEarnings": -50386000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 13.935627
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TRNO",
+  "valuation": {
+    "PE_valuation": 1831.316663, 
+    "DFC_valuation": 16885.905232
+  },
+  "ratios": {
+    "ROIC": 3.137446,
+    "PB": 1.925500
+  },
+  "ownerEarnings": 138936000,
+  "growth_rate_revenue": 137.214128,
+  "growth_rate_net_income": -19.709105
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "HCMAU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.681097,
+    "PB": 0.000976
+  },
+  "ownerEarnings": -30989909,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

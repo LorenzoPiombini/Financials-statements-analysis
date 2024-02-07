@@ -1,0 +1,14 @@
+{
+  "ticker": "SSNT",
+  "valuation": {
+    "PE_valuation": 731.598035, 
+    "DFC_valuation": 1405409025.142808
+  },
+  "ratios": {
+    "ROIC": -1.777621,
+    "PB": 1.601111
+  },
+  "ownerEarnings": 1510138,
+  "growth_rate_revenue": 31572.162896,
+  "growth_rate_net_income": 115.006897
+}

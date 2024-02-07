@@ -1,0 +1,14 @@
+{
+  "ticker": "LU",
+  "valuation": {
+    "PE_valuation": 229.049294, 
+    "DFC_valuation": 308.702939
+  },
+  "ratios": {
+    "ROIC": 1.009029,
+    "PB": 1.314812
+  },
+  "ownerEarnings": 10407469000,
+  "growth_rate_revenue": 22.331166,
+  "growth_rate_net_income": 26.663849
+}

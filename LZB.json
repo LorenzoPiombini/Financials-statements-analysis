@@ -1,0 +1,14 @@
+{
+  "ticker": "LZB",
+  "valuation": {
+    "PE_valuation": 95.887992, 
+    "DFC_valuation": 673.215674
+  },
+  "ratios": {
+    "ROIC": 8.513696,
+    "PB": 1.316197
+  },
+  "ownerEarnings": 331185000,
+  "growth_rate_revenue": 15.544588,
+  "growth_rate_net_income": 1.011735
+}

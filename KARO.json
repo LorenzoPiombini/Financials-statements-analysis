@@ -1,0 +1,14 @@
+{
+  "ticker": "KARO",
+  "valuation": {
+    "PE_valuation": 471.531551, 
+    "DFC_valuation": 1226.779447
+  },
+  "ratios": {
+    "ROIC": 20.266734,
+    "PB": 5.401850
+  },
+  "ownerEarnings": 1233992000,
+  "growth_rate_revenue": -4.931375,
+  "growth_rate_net_income": 5.630053
+}

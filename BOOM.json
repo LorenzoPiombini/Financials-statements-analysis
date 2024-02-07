@@ -1,0 +1,14 @@
+{
+  "ticker": "BOOM",
+  "valuation": {
+    "PE_valuation": 112.812057, 
+    "DFC_valuation": 17214.801782
+  },
+  "ratios": {
+    "ROIC": 3.172141,
+    "PB": 0.988768
+  },
+  "ownerEarnings": 86716000,
+  "growth_rate_revenue": 8.931365,
+  "growth_rate_net_income": inf
+}

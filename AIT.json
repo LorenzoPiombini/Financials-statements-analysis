@@ -1,0 +1,14 @@
+{
+  "ticker": "AIT",
+  "valuation": {
+    "PE_valuation": 382.205943, 
+    "DFC_valuation": 2676.892934
+  },
+  "ratios": {
+    "ROIC": 17.530640,
+    "PB": 3.832376
+  },
+  "ownerEarnings": 441751000,
+  "growth_rate_revenue": 13.786187,
+  "growth_rate_net_income": 61.718031
+}

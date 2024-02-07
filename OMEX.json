@@ -1,0 +1,14 @@
+{
+  "ticker": "OMEX",
+  "valuation": {
+    "PE_valuation": 344.001279, 
+    "DFC_valuation": -749802.587003
+  },
+  "ratios": {
+    "ROIC": -136.108000,
+    "PB": -2.076408
+  },
+  "ownerEarnings": -23589528,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 690.177866
+}

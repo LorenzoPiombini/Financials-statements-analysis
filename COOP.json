@@ -1,0 +1,14 @@
+{
+  "ticker": "COOP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 7.828326,
+    "PB": 0.730392
+  },
+  "ownerEarnings": 2124000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 17.762103
+}

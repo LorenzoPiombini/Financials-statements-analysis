@@ -1,0 +1,14 @@
+{
+  "ticker": "ENVA",
+  "valuation": {
+    "PE_valuation": 128.839225, 
+    "DFC_valuation": 1335.962926
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 648295000,
+  "growth_rate_revenue": 63.651225,
+  "growth_rate_net_income": 56.008437
+}

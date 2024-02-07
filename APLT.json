@@ -1,0 +1,14 @@
+{
+  "ticker": "APLT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1405.555581,
+    "PB": 7.078879
+  },
+  "ownerEarnings": -91669000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 139.015870
+}

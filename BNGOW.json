@@ -1,0 +1,14 @@
+{
+  "ticker": "BNGOW",
+  "valuation": {
+    "PE_valuation": 22.714723, 
+    "DFC_valuation": -50.622654
+  },
+  "ratios": {
+    "ROIC": -48.984069,
+    "PB": 1.693063
+  },
+  "ownerEarnings": -152399000,
+  "growth_rate_revenue": 36.500496,
+  "growth_rate_net_income": 44.598219
+}

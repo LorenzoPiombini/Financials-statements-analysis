@@ -1,0 +1,14 @@
+{
+  "ticker": "CADL",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -69.588678
+  },
+  "ratios": {
+    "ROIC": 7.122705,
+    "PB": -0.520684
+  },
+  "ownerEarnings": -52054000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

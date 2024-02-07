@@ -1,0 +1,14 @@
+{
+  "ticker": "HBIO",
+  "valuation": {
+    "PE_valuation": 15.047268, 
+    "DFC_valuation": -5.252161
+  },
+  "ratios": {
+    "ROIC": -5.874613,
+    "PB": 1.588397
+  },
+  "ownerEarnings": -2189000,
+  "growth_rate_revenue": 64.529011,
+  "growth_rate_net_income": -10298.249408
+}

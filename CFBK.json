@@ -1,0 +1,14 @@
+{
+  "ticker": "CFBK",
+  "valuation": {
+    "PE_valuation": 65.971883, 
+    "DFC_valuation": 4434.666845
+  },
+  "ratios": {
+    "ROIC": 12.539679,
+    "PB": 0.980895
+  },
+  "ownerEarnings": 56614000,
+  "growth_rate_revenue": -6.644783,
+  "growth_rate_net_income": inf
+}

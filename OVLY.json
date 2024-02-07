@@ -1,0 +1,14 @@
+{
+  "ticker": "OVLY",
+  "valuation": {
+    "PE_valuation": 73.472952, 
+    "DFC_valuation": 961.043092
+  },
+  "ratios": {
+    "ROIC": 18.767872,
+    "PB": 1.453845
+  },
+  "ownerEarnings": 26859000,
+  "growth_rate_revenue": 27.415030,
+  "growth_rate_net_income": 23.997451
+}

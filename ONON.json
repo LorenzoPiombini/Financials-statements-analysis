@@ -1,0 +1,14 @@
+{
+  "ticker": "ONON",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -148.270450
+  },
+  "ratios": {
+    "ROIC": 4.884764,
+    "PB": 10.266996
+  },
+  "ownerEarnings": 168900000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

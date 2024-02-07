@@ -1,0 +1,14 @@
+{
+  "ticker": "PLM",
+  "valuation": {
+    "PE_valuation": 0.011140, 
+    "DFC_valuation": -107.679878
+  },
+  "ratios": {
+    "ROIC": -3.092612,
+    "PB": 0.887671
+  },
+  "ownerEarnings": 5873000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 37.000422
+}

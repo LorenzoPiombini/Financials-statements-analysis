@@ -1,0 +1,14 @@
+{
+  "ticker": "TECK",
+  "valuation": {
+    "PE_valuation": 229.629720, 
+    "DFC_valuation": 186843.903241
+  },
+  "ratios": {
+    "ROIC": 12.010207,
+    "PB": 1.058667
+  },
+  "ownerEarnings": 11884000000,
+  "growth_rate_revenue": 11.007570,
+  "growth_rate_net_income": 27.432616
+}

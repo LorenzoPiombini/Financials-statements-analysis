@@ -1,0 +1,14 @@
+{
+  "ticker": "BFRA",
+  "valuation": {
+    "PE_valuation": 102.835587, 
+    "DFC_valuation": -2868.729005
+  },
+  "ratios": {
+    "ROIC": -36.015756,
+    "PB": 22.602207
+  },
+  "ownerEarnings": 3256000,
+  "growth_rate_revenue": 150.924341,
+  "growth_rate_net_income": 50.416283
+}

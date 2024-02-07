@@ -1,0 +1,14 @@
+{
+  "ticker": "ANF",
+  "valuation": {
+    "PE_valuation": 12.043662, 
+    "DFC_valuation": -1624.480884
+  },
+  "ratios": {
+    "ROIC": -0.139176,
+    "PB": 1.977264
+  },
+  "ownerEarnings": 93039000,
+  "growth_rate_revenue": 42.178500,
+  "growth_rate_net_income": 66.500311
+}

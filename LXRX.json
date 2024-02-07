@@ -1,0 +1,14 @@
+{
+  "ticker": "LXRX",
+  "valuation": {
+    "PE_valuation": 0.323449, 
+    "DFC_valuation": -30.141377
+  },
+  "ratios": {
+    "ROIC": 6.672090,
+    "PB": -0.199123
+  },
+  "ownerEarnings": -109358000,
+  "growth_rate_revenue": 549.609743,
+  "growth_rate_net_income": 48.494924
+}

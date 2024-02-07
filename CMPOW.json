@@ -1,0 +1,14 @@
+{
+  "ticker": "CMPOW",
+  "valuation": {
+    "PE_valuation": 17.403445, 
+    "DFC_valuation": 362.426771
+  },
+  "ratios": {
+    "ROIC": 130.501907,
+    "PB": -0.258483
+  },
+  "ownerEarnings": 95418000,
+  "growth_rate_revenue": 1.931040,
+  "growth_rate_net_income": 4.364221
+}

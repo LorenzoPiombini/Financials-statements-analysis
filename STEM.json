@@ -1,0 +1,14 @@
+{
+  "ticker": "STEM",
+  "valuation": {
+    "PE_valuation": 28.706476, 
+    "DFC_valuation": -1321.042661
+  },
+  "ratios": {
+    "ROIC": -11.392099,
+    "PB": 2.486320
+  },
+  "ownerEarnings": -67851000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

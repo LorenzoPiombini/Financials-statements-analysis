@@ -1,0 +1,14 @@
+{
+  "ticker": "ALVOW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -129.724564
+  },
+  "ratios": {
+    "ROIC": -114.692301,
+    "PB": -3.503120
+  },
+  "ownerEarnings": -44117000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

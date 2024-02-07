@@ -1,0 +1,14 @@
+{
+  "ticker": "TYDE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -1167.843120
+  },
+  "ratios": {
+    "ROIC": 27.318534,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 72222814,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

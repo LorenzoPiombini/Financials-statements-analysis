@@ -1,0 +1,14 @@
+{
+  "ticker": "PEPLW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -27.109105
+  },
+  "ratios": {
+    "ROIC": -2.441507,
+    "PB": 1.028598
+  },
+  "ownerEarnings": -1570917,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NS",
+  "valuation": {
+    "PE_valuation": 14.560705, 
+    "DFC_valuation": 3735.642810
+  },
+  "ratios": {
+    "ROIC": 9.443994,
+    "PB": 1.956586
+  },
+  "ownerEarnings": 1059576000,
+  "growth_rate_revenue": 19.101054,
+  "growth_rate_net_income": 23.591698
+}

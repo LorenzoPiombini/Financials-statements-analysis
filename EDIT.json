@@ -1,0 +1,14 @@
+{
+  "ticker": "EDIT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -46.696511,
+    "PB": 1.688635
+  },
+  "ownerEarnings": -234227000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 123.373052
+}

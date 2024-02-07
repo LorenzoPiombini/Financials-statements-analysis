@@ -1,0 +1,14 @@
+{
+  "ticker": "TSLX",
+  "valuation": {
+    "PE_valuation": 70.328700, 
+    "DFC_valuation": -7996.891694
+  },
+  "ratios": {
+    "ROIC": 5.896264,
+    "PB": 1.037532
+  },
+  "ownerEarnings": 223459613,
+  "growth_rate_revenue": 227.177824,
+  "growth_rate_net_income": 1239.161684
+}

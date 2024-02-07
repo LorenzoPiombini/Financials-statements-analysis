@@ -1,0 +1,14 @@
+{
+  "ticker": "PTRS",
+  "valuation": {
+    "PE_valuation": 28.950673, 
+    "DFC_valuation": 108.188303
+  },
+  "ratios": {
+    "ROIC": 7.799197,
+    "PB": 1.139525
+  },
+  "ownerEarnings": 28045145,
+  "growth_rate_revenue": 9.609567,
+  "growth_rate_net_income": 22.666660
+}

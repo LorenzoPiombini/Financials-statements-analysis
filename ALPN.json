@@ -1,0 +1,14 @@
+{
+  "ticker": "ALPN",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -29.631518,
+    "PB": 1.369687
+  },
+  "ownerEarnings": -69237000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 19.103765
+}

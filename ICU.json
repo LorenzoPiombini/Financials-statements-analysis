@@ -1,0 +1,14 @@
+{
+  "ticker": "ICU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1951.177223,
+    "PB": -4.088178
+  },
+  "ownerEarnings": -2148000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

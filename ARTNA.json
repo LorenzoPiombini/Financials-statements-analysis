@@ -1,0 +1,14 @@
+{
+  "ticker": "ARTNA",
+  "valuation": {
+    "PE_valuation": 71.434134, 
+    "DFC_valuation": -422.708768
+  },
+  "ratios": {
+    "ROIC": 4.660596,
+    "PB": 2.949401
+  },
+  "ownerEarnings": 86152000,
+  "growth_rate_revenue": 5.356624,
+  "growth_rate_net_income": 21.781209
+}

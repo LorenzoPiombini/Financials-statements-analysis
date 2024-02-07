@@ -1,0 +1,14 @@
+{
+  "ticker": "RAIN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -67.910077,
+    "PB": 1.980640
+  },
+  "ownerEarnings": -83321000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GTLB",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -108.796187
+  },
+  "ratios": {
+    "ROIC": -27.785204,
+    "PB": 9.510505
+  },
+  "ownerEarnings": -358826000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VSSYW",
+  "valuation": {
+    "PE_valuation": 10489.474981, 
+    "DFC_valuation": -40583.774337
+  },
+  "ratios": {
+    "ROIC": -0.001341,
+    "PB": 1.087681
+  },
+  "ownerEarnings": -17759645,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 544.949982
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GOGO",
+  "valuation": {
+    "PE_valuation": -3.278666, 
+    "DFC_valuation": 189.032620
+  },
+  "ratios": {
+    "ROIC": 16.436661,
+    "PB": -17.860543
+  },
+  "ownerEarnings": 210969000,
+  "growth_rate_revenue": 84.234410,
+  "growth_rate_net_income": -40.878404
+}

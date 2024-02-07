@@ -1,0 +1,14 @@
+{
+  "ticker": "CMCSA",
+  "valuation": {
+    "PE_valuation": 4562.266970, 
+    "DFC_valuation": 12116186.285446
+  },
+  "ratios": {
+    "ROIC": 9.566095,
+    "PB": 2.109582
+  },
+  "ownerEarnings": 45327000000,
+  "growth_rate_revenue": 58.790951,
+  "growth_rate_net_income": -123.567548
+}

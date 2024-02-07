@@ -1,0 +1,14 @@
+{
+  "ticker": "LIFE",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -48.025539,
+    "PB": 0.873111
+  },
+  "ownerEarnings": -45217000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 23.549902
+}

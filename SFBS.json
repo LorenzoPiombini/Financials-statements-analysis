@@ -1,0 +1,14 @@
+{
+  "ticker": "SFBS",
+  "valuation": {
+    "PE_valuation": 239.252214, 
+    "DFC_valuation": 913.219279
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -276249000,
+  "growth_rate_revenue": 32.949253,
+  "growth_rate_net_income": 70.567920
+}

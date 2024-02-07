@@ -1,0 +1,14 @@
+{
+  "ticker": "NODK",
+  "valuation": {
+    "PE_valuation": -31.200506, 
+    "DFC_valuation": -136.105040
+  },
+  "ratios": {
+    "ROIC": 5.841637,
+    "PB": 1.132762
+  },
+  "ownerEarnings": 124305000,
+  "growth_rate_revenue": 18.361652,
+  "growth_rate_net_income": 70.871066
+}

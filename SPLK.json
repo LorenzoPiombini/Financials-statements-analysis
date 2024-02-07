@@ -1,0 +1,14 @@
+{
+  "ticker": "SPLK",
+  "valuation": {
+    "PE_valuation": 1329.486484, 
+    "DFC_valuation": 309361.895878
+  },
+  "ratios": {
+    "ROIC": -5.913141,
+    "PB": -140.714210
+  },
+  "ownerEarnings": -869157000,
+  "growth_rate_revenue": 84.360228,
+  "growth_rate_net_income": 165.947147
+}

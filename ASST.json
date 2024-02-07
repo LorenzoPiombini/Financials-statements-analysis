@@ -1,0 +1,14 @@
+{
+  "ticker": "ASST",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -4.546332
+  },
+  "ratios": {
+    "ROIC": -175.163489,
+    "PB": 282.784833
+  },
+  "ownerEarnings": -645255,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

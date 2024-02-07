@@ -1,0 +1,14 @@
+{
+  "ticker": "WSM",
+  "valuation": {
+    "PE_valuation": 3553.078193, 
+    "DFC_valuation": 607313.522378
+  },
+  "ratios": {
+    "ROIC": 24.544798,
+    "PB": 5.183197
+  },
+  "ownerEarnings": 1601386000,
+  "growth_rate_revenue": 41.856889,
+  "growth_rate_net_income": 53.357615
+}

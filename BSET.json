@@ -1,0 +1,14 @@
+{
+  "ticker": "BSET",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 0.442088
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 13024000,
+  "growth_rate_revenue": 1.851751,
+  "growth_rate_net_income": -23.805440
+}

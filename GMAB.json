@@ -1,0 +1,14 @@
+{
+  "ticker": "GMAB",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 17.425583,
+    "PB": 7.015691
+  },
+  "ownerEarnings": 4730000000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -2.802026
+}

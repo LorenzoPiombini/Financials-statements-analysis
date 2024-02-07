@@ -1,0 +1,14 @@
+{
+  "ticker": "JFU",
+  "valuation": {
+    "PE_valuation": 9.248371, 
+    "DFC_valuation": 12.718681
+  },
+  "ratios": {
+    "ROIC": 10.062231,
+    "PB": 0.076990
+  },
+  "ownerEarnings": 1376630000,
+  "growth_rate_revenue": 12.321714,
+  "growth_rate_net_income": 55.012150
+}

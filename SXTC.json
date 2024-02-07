@@ -1,0 +1,14 @@
+{
+  "ticker": "SXTC",
+  "valuation": {
+    "PE_valuation": 2.214589, 
+    "DFC_valuation": -0.611814
+  },
+  "ratios": {
+    "ROIC": -542.089204,
+    "PB": 0.354508
+  },
+  "ownerEarnings": -6467523,
+  "growth_rate_revenue": -8.918478,
+  "growth_rate_net_income": -175.781842
+}

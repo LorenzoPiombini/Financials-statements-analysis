@@ -1,0 +1,14 @@
+{
+  "ticker": "PXD",
+  "valuation": {
+    "PE_valuation": 5063.200590, 
+    "DFC_valuation": 238270.979307
+  },
+  "ratios": {
+    "ROIC": 28.794967,
+    "PB": 2.431729
+  },
+  "ownerEarnings": 14891000000,
+  "growth_rate_revenue": 9.865490,
+  "growth_rate_net_income": -249.280901
+}

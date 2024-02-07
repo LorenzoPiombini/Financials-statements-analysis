@@ -1,0 +1,14 @@
+{
+  "ticker": "TGR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.819040,
+    "PB": 1.277611
+  },
+  "ownerEarnings": -14281715,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

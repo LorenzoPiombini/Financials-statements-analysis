@@ -1,0 +1,14 @@
+{
+  "ticker": "CD",
+  "valuation": {
+    "PE_valuation": -1849.319307, 
+    "DFC_valuation": -2523388.207388
+  },
+  "ratios": {
+    "ROIC": 4.123960,
+    "PB": 1.844586
+  },
+  "ownerEarnings": 6554309000,
+  "growth_rate_revenue": 224.037941,
+  "growth_rate_net_income": -28.984776
+}

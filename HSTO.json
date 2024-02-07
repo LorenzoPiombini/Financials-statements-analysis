@@ -1,0 +1,14 @@
+{
+  "ticker": "HSTO",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -44.314835,
+    "PB": 0.185022
+  },
+  "ownerEarnings": -10625000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 9.070067
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GES",
+  "valuation": {
+    "PE_valuation": 42.488656, 
+    "DFC_valuation": 211.277827
+  },
+  "ratios": {
+    "ROIC": 5.491922,
+    "PB": 2.405879
+  },
+  "ownerEarnings": 214653000,
+  "growth_rate_revenue": 13.833507,
+  "growth_rate_net_income": -8.484923
+}

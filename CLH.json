@@ -1,0 +1,14 @@
+{
+  "ticker": "CLH",
+  "valuation": {
+    "PE_valuation": 4480.632358, 
+    "DFC_valuation": 472223.953318
+  },
+  "ratios": {
+    "ROIC": 10.369612,
+    "PB": 3.218987
+  },
+  "ownerEarnings": 1165351000,
+  "growth_rate_revenue": 44.669674,
+  "growth_rate_net_income": -463.597591
+}

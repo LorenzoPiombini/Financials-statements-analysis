@@ -1,0 +1,14 @@
+{
+  "ticker": "CRNX",
+  "valuation": {
+    "PE_valuation": 76.020842, 
+    "DFC_valuation": -595.607505
+  },
+  "ratios": {
+    "ROIC": 37.649443,
+    "PB": -2.166050
+  },
+  "ownerEarnings": -193511000,
+  "growth_rate_revenue": 384.830895,
+  "growth_rate_net_income": 106.122824
+}

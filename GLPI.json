@@ -1,0 +1,14 @@
+{
+  "ticker": "GLPI",
+  "valuation": {
+    "PE_valuation": 105.615228, 
+    "DFC_valuation": 555.969052
+  },
+  "ratios": {
+    "ROIC": 9.473894,
+    "PB": 3.484416
+  },
+  "ownerEarnings": 1518301000,
+  "growth_rate_revenue": 50.722649,
+  "growth_rate_net_income": 225.548720
+}

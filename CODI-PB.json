@@ -1,0 +1,14 @@
+{
+  "ticker": "CODI-PB",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 2.853066,
+    "PB": 1.133883
+  },
+  "ownerEarnings": 379837000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 481134.070597
+}

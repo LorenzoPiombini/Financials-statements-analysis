@@ -1,0 +1,14 @@
+{
+  "ticker": "BHAT",
+  "valuation": {
+    "PE_valuation": -2.255793, 
+    "DFC_valuation": -12.145261
+  },
+  "ratios": {
+    "ROIC": -57.215155,
+    "PB": 0.239740
+  },
+  "ownerEarnings": -10780848,
+  "growth_rate_revenue": -3.708736,
+  "growth_rate_net_income": -216.882831
+}

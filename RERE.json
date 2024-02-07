@@ -1,0 +1,14 @@
+{
+  "ticker": "RERE",
+  "valuation": {
+    "PE_valuation": 540.024053, 
+    "DFC_valuation": 861.001064
+  },
+  "ratios": {
+    "ROIC": -61.622109,
+    "PB": 1.143243
+  },
+  "ownerEarnings": -798558000,
+  "growth_rate_revenue": 7.777997,
+  "growth_rate_net_income": 95.657108
+}

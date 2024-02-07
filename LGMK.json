@@ -1,0 +1,14 @@
+{
+  "ticker": "LGMK",
+  "valuation": {
+    "PE_valuation": 31.400120, 
+    "DFC_valuation": -1652.486471
+  },
+  "ratios": {
+    "ROIC": -30.737324,
+    "PB": 3.747737
+  },
+  "ownerEarnings": -6671906,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 275.140429
+}

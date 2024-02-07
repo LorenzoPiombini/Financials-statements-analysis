@@ -1,0 +1,14 @@
+{
+  "ticker": "NHC",
+  "valuation": {
+    "PE_valuation": 57.771744, 
+    "DFC_valuation": -268.427363
+  },
+  "ratios": {
+    "ROIC": 2.077818,
+    "PB": 1.048763
+  },
+  "ownerEarnings": 99830000,
+  "growth_rate_revenue": 20.216303,
+  "growth_rate_net_income": 65.828996
+}

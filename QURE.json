@@ -1,0 +1,14 @@
+{
+  "ticker": "QURE",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -21.474628,
+    "PB": 2.225764
+  },
+  "ownerEarnings": -163959000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 41.526197
+}

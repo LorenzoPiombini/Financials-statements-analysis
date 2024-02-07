@@ -1,0 +1,14 @@
+{
+  "ticker": "EQNR",
+  "valuation": {
+    "PE_valuation": 246.792986, 
+    "DFC_valuation": 3731.920253
+  },
+  "ratios": {
+    "ROIC": 32.083511,
+    "PB": 2.105300
+  },
+  "ownerEarnings": 45529000000,
+  "growth_rate_revenue": 29.185029,
+  "growth_rate_net_income": 669.161517
+}

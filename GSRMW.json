@@ -1,0 +1,14 @@
+{
+  "ticker": "GSRMW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -4.835787
+  },
+  "ratios": {
+    "ROIC": -3.384792,
+    "PB": 0.834828
+  },
+  "ownerEarnings": -15054775,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

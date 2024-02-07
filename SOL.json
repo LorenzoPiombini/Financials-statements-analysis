@@ -1,0 +1,14 @@
+{
+  "ticker": "SOL",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 1.309130,
+    "PB": 0.819323
+  },
+  "ownerEarnings": 43911478,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 4698.675178
+}

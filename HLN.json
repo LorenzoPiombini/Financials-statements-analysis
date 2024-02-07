@@ -1,0 +1,14 @@
+{
+  "ticker": "HLN",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 10.321633
+  },
+  "ratios": {
+    "ROIC": 4.686470,
+    "PB": 1.869539
+  },
+  "ownerEarnings": 2199000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

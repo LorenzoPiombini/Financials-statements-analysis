@@ -1,0 +1,14 @@
+{
+  "ticker": "MUX",
+  "valuation": {
+    "PE_valuation": 240.314385, 
+    "DFC_valuation": -154377.363345
+  },
+  "ratios": {
+    "ROIC": -26.133426,
+    "PB": 0.860949
+  },
+  "ownerEarnings": -73366000,
+  "growth_rate_revenue": 220.209362,
+  "growth_rate_net_income": 85.791667
+}

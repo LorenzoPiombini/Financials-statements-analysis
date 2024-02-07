@@ -1,0 +1,14 @@
+{
+  "ticker": "GOBI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -5.511363
+  },
+  "ratios": {
+    "ROIC": -100.488626,
+    "PB": -222.917532
+  },
+  "ownerEarnings": -851349,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

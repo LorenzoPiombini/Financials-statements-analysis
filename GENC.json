@@ -1,0 +1,14 @@
+{
+  "ticker": "GENC",
+  "valuation": {
+    "PE_valuation": 40.098823, 
+    "DFC_valuation": 167.508612
+  },
+  "ratios": {
+    "ROIC": 5.754155,
+    "PB": 1.140622
+  },
+  "ownerEarnings": 14101000,
+  "growth_rate_revenue": 66.600438,
+  "growth_rate_net_income": -817.554645
+}

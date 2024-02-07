@@ -1,0 +1,14 @@
+{
+  "ticker": "UCTT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 7.136109,
+    "PB": 1.624010
+  },
+  "ownerEarnings": 426300000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 1848.419262
+}

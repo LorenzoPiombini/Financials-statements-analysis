@@ -1,0 +1,14 @@
+{
+  "ticker": "GFR",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 3254.607039
+  },
+  "ratios": {
+    "ROIC": 74.228175,
+    "PB": 1.196861
+  },
+  "ownerEarnings": 615535000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

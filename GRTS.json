@@ -1,0 +1,14 @@
+{
+  "ticker": "GRTS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -49.049997,
+    "PB": 1.836669
+  },
+  "ownerEarnings": -119318000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 51.074895
+}

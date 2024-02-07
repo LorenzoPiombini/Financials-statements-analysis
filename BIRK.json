@@ -1,0 +1,14 @@
+{
+  "ticker": "BIRK",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 714.991938
+  },
+  "ratios": {
+    "ROIC": 2.838771,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 356827000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

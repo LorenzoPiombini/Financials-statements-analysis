@@ -1,0 +1,14 @@
+{
+  "ticker": "EH",
+  "valuation": {
+    "PE_valuation": 218.641934, 
+    "DFC_valuation": -316.146861
+  },
+  "ratios": {
+    "ROIC": -76.052113,
+    "PB": 27.311399
+  },
+  "ownerEarnings": -381418000,
+  "growth_rate_revenue": 37.596263,
+  "growth_rate_net_income": 72.140122
+}

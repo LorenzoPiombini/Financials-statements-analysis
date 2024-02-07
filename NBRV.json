@@ -1,0 +1,14 @@
+{
+  "ticker": "NBRV",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -617.990499,
+    "PB": 1.539301
+  },
+  "ownerEarnings": -53582000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 13.128195
+}

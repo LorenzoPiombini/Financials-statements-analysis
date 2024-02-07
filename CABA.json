@@ -1,0 +1,14 @@
+{
+  "ticker": "CABA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -46.124799,
+    "PB": 1.905785
+  },
+  "ownerEarnings": -57405000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 23.214004
+}

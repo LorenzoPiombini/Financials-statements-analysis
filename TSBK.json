@@ -1,0 +1,14 @@
+{
+  "ticker": "TSBK",
+  "valuation": {
+    "PE_valuation": 212.689786, 
+    "DFC_valuation": 23037.191685
+  },
+  "ratios": {
+    "ROIC": 9.941272,
+    "PB": 0.941194
+  },
+  "ownerEarnings": 28175000,
+  "growth_rate_revenue": 181.045838,
+  "growth_rate_net_income": 21.838642
+}

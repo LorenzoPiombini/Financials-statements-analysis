@@ -1,0 +1,14 @@
+{
+  "ticker": "LKFN",
+  "valuation": {
+    "PE_valuation": 0.680718, 
+    "DFC_valuation": 387098.750562
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 93767000,
+  "growth_rate_revenue": 123.906016,
+  "growth_rate_net_income": 12.825860
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ATMVU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -8.534010
+  },
+  "ratios": {
+    "ROIC": -0.013360,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -80806,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

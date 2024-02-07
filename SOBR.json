@@ -1,0 +1,14 @@
+{
+  "ticker": "SOBR",
+  "valuation": {
+    "PE_valuation": 0.632239, 
+    "DFC_valuation": -22.222124
+  },
+  "ratios": {
+    "ROIC": -160.408289,
+    "PB": 1.143142
+  },
+  "ownerEarnings": -17783677,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 427.897436
+}

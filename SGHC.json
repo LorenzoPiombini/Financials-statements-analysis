@@ -1,0 +1,14 @@
+{
+  "ticker": "SGHC",
+  "valuation": {
+    "PE_valuation": 3.370605, 
+    "DFC_valuation": 24.451055
+  },
+  "ratios": {
+    "ROIC": 18.600514,
+    "PB": 2.657562
+  },
+  "ownerEarnings": 88240000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

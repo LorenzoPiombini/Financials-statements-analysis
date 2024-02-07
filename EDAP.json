@@ -1,0 +1,14 @@
+{
+  "ticker": "EDAP",
+  "valuation": {
+    "PE_valuation": 5.529516, 
+    "DFC_valuation": -8.973888
+  },
+  "ratios": {
+    "ROIC": -7.492179,
+    "PB": 4.793580
+  },
+  "ownerEarnings": -9101000,
+  "growth_rate_revenue": -8.208060,
+  "growth_rate_net_income": -1133.900609
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BPMP",
+  "valuation": {
+    "PE_valuation": 18.048827, 
+    "DFC_valuation": -0.058208
+  },
+  "ratios": {
+    "ROIC": 15.526882,
+    "PB": 6.413760
+  },
+  "ownerEarnings": 182000000,
+  "growth_rate_revenue": 4.948225,
+  "growth_rate_net_income": 120.785342
+}

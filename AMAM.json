@@ -1,0 +1,14 @@
+{
+  "ticker": "AMAM",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -11.250735
+  },
+  "ratios": {
+    "ROIC": -41.277422,
+    "PB": 0.743620
+  },
+  "ownerEarnings": -43946000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

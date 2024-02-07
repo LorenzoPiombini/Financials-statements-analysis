@@ -1,0 +1,14 @@
+{
+  "ticker": "EFSCP",
+  "valuation": {
+    "PE_valuation": 475.243322, 
+    "DFC_valuation": 39306.890005
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 187983000,
+  "growth_rate_revenue": 226.708030,
+  "growth_rate_net_income": -4.909156
+}

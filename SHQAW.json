@@ -1,0 +1,14 @@
+{
+  "ticker": "SHQAW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.995755
+  },
+  "ratios": {
+    "ROIC": 400466.725067,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 6936302,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

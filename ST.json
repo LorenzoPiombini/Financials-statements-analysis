@@ -1,0 +1,14 @@
+{
+  "ticker": "ST",
+  "valuation": {
+    "PE_valuation": 66.752767, 
+    "DFC_valuation": 157.051413
+  },
+  "ratios": {
+    "ROIC": 5.402792,
+    "PB": 2.015270
+  },
+  "ownerEarnings": 934167000,
+  "growth_rate_revenue": 10.060590,
+  "growth_rate_net_income": 462.615025
+}

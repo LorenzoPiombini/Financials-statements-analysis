@@ -1,0 +1,14 @@
+{
+  "ticker": "SMAPW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.121822,
+    "PB": 0.989732
+  },
+  "ownerEarnings": -3441429,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "STRS",
+  "valuation": {
+    "PE_valuation": 7.613468, 
+    "DFC_valuation": -882.458589
+  },
+  "ratios": {
+    "ROIC": -3.436152,
+    "PB": 0.765837
+  },
+  "ownerEarnings": 39254000,
+  "growth_rate_revenue": 3.486286,
+  "growth_rate_net_income": -592.287657
+}

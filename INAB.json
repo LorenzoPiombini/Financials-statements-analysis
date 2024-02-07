@@ -1,0 +1,14 @@
+{
+  "ticker": "INAB",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -79.518561,
+    "PB": 2.130740
+  },
+  "ownerEarnings": -26077000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 67.934165
+}

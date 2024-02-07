@@ -1,0 +1,14 @@
+{
+  "ticker": "BIPC",
+  "valuation": {
+    "PE_valuation": 31.328371, 
+    "DFC_valuation": 132.546535
+  },
+  "ratios": {
+    "ROIC": 57.734927,
+    "PB": -3.843684
+  },
+  "ownerEarnings": 3263000000,
+  "growth_rate_revenue": 9.929059,
+  "growth_rate_net_income": 1455.929842
+}

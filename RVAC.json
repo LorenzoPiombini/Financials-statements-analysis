@@ -1,0 +1,14 @@
+{
+  "ticker": "RVAC",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1985.562536
+  },
+  "ratios": {
+    "ROIC": -354.918507,
+    "PB": -16.678080
+  },
+  "ownerEarnings": 5666628000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CHH",
+  "valuation": {
+    "PE_valuation": 535.563727, 
+    "DFC_valuation": 3856.884399
+  },
+  "ratios": {
+    "ROIC": 24.259459,
+    "PB": 40.367886
+  },
+  "ownerEarnings": 516019000,
+  "growth_rate_revenue": 43.928495,
+  "growth_rate_net_income": 84.659849
+}

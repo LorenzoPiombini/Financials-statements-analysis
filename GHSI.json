@@ -1,0 +1,14 @@
+{
+  "ticker": "GHSI",
+  "valuation": {
+    "PE_valuation": 237.179911, 
+    "DFC_valuation": -202427.382495
+  },
+  "ratios": {
+    "ROIC": 6.663120,
+    "PB": 0.672451
+  },
+  "ownerEarnings": 1687036,
+  "growth_rate_revenue": 113.921803,
+  "growth_rate_net_income": 6.032320
+}

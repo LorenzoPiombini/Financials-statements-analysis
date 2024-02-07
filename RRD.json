@@ -1,0 +1,14 @@
+{
+  "ticker": "RRD",
+  "valuation": {
+    "PE_valuation": -0.175635, 
+    "DFC_valuation": -19.542152
+  },
+  "ratios": {
+    "ROIC": 0.761336,
+    "PB": -4.612378
+  },
+  "ownerEarnings": 458500000,
+  "growth_rate_revenue": 14.292392,
+  "growth_rate_net_income": 12.110493
+}

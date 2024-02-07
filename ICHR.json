@@ -1,0 +1,14 @@
+{
+  "ticker": "ICHR",
+  "valuation": {
+    "PE_valuation": 84.001336, 
+    "DFC_valuation": -3.526940
+  },
+  "ratios": {
+    "ROIC": 8.548737,
+    "PB": 1.310859
+  },
+  "ownerEarnings": 144962000,
+  "growth_rate_revenue": 29.722052,
+  "growth_rate_net_income": 69.329613
+}

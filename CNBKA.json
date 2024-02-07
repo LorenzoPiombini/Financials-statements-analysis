@@ -1,0 +1,14 @@
+{
+  "ticker": "CNBKA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 1.162859
+  },
+  "ownerEarnings": 133929000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -25.098039
+}

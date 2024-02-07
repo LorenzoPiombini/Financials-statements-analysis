@@ -1,0 +1,14 @@
+{
+  "ticker": "DUO",
+  "valuation": {
+    "PE_valuation": 18.562996, 
+    "DFC_valuation": -5.119072
+  },
+  "ratios": {
+    "ROIC": -138.514697,
+    "PB": 83.395034
+  },
+  "ownerEarnings": -274519000,
+  "growth_rate_revenue": 3.257005,
+  "growth_rate_net_income": 3906.156088
+}

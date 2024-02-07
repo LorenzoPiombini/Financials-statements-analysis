@@ -1,0 +1,14 @@
+{
+  "ticker": "VERX",
+  "valuation": {
+    "PE_valuation": 4.443266, 
+    "DFC_valuation": -3.000005
+  },
+  "ratios": {
+    "ROIC": -2.994089,
+    "PB": 9.451949
+  },
+  "ownerEarnings": 106634000,
+  "growth_rate_revenue": -9.082896,
+  "growth_rate_net_income": -96.552956
+}

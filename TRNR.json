@@ -1,0 +1,14 @@
+{
+  "ticker": "TRNR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -608.452878,
+    "PB": -34.598845
+  },
+  "ownerEarnings": -40448000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

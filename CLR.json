@@ -1,0 +1,14 @@
+{
+  "ticker": "CLR",
+  "valuation": {
+    "PE_valuation": 2098.026799, 
+    "DFC_valuation": 141413.472782
+  },
+  "ratios": {
+    "ROIC": 10.443796,
+    "PB": 2.157311
+  },
+  "ownerEarnings": 3069514000,
+  "growth_rate_revenue": 47.767977,
+  "growth_rate_net_income": 58.130791
+}

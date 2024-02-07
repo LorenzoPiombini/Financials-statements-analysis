@@ -1,0 +1,14 @@
+{
+  "ticker": "RAPT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -31.842520,
+    "PB": 2.628015
+  },
+  "ownerEarnings": -95167000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 28.779821
+}

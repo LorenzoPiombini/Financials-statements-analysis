@@ -1,0 +1,14 @@
+{
+  "ticker": "CCEL",
+  "valuation": {
+    "PE_valuation": 13.731437, 
+    "DFC_valuation": -504.089329
+  },
+  "ratios": {
+    "ROIC": 31.404501,
+    "PB": -24.269818
+  },
+  "ownerEarnings": 23135911,
+  "growth_rate_revenue": 137.085900,
+  "growth_rate_net_income": -102.183509
+}

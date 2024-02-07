@@ -1,0 +1,14 @@
+{
+  "ticker": "WINT",
+  "valuation": {
+    "PE_valuation": 0.172853, 
+    "DFC_valuation": -1367.402397
+  },
+  "ratios": {
+    "ROIC": -278.913844,
+    "PB": 0.534858
+  },
+  "ownerEarnings": -23542000,
+  "growth_rate_revenue": 164.644462,
+  "growth_rate_net_income": 100.637558
+}

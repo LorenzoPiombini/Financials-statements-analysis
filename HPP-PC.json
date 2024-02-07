@@ -1,0 +1,14 @@
+{
+  "ticker": "HPP-PC",
+  "valuation": {
+    "PE_valuation": 638.689890, 
+    "DFC_valuation": 138510.056072
+  },
+  "ratios": {
+    "ROIC": 19.826855,
+    "PB": 0.423138
+  },
+  "ownerEarnings": 691991000,
+  "growth_rate_revenue": 156.781846,
+  "growth_rate_net_income": -2260.336675
+}

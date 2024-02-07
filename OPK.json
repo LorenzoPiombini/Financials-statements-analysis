@@ -1,0 +1,14 @@
+{
+  "ticker": "OPK",
+  "valuation": {
+    "PE_valuation": 518.438692, 
+    "DFC_valuation": -52532666.998812
+  },
+  "ratios": {
+    "ROIC": -11.304857,
+    "PB": 0.575580
+  },
+  "ownerEarnings": 36569000,
+  "growth_rate_revenue": 269.373106,
+  "growth_rate_net_income": 32.209269
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RVSN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -100.436981,
+    "PB": 15.623592
+  },
+  "ownerEarnings": -11061000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

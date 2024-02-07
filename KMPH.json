@@ -1,0 +1,14 @@
+{
+  "ticker": "KMPH",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 128.225061,
+    "PB": 1.844880
+  },
+  "ownerEarnings": -10010000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 153.631907
+}

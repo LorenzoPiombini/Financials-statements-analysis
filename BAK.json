@@ -1,0 +1,14 @@
+{
+  "ticker": "BAK",
+  "valuation": {
+    "PE_valuation": 61.230240, 
+    "DFC_valuation": 193613.427006
+  },
+  "ratios": {
+    "ROIC": -113.980159,
+    "PB": 2.683146
+  },
+  "ownerEarnings": 18366000000,
+  "growth_rate_revenue": 68.071137,
+  "growth_rate_net_income": 1538.853608
+}

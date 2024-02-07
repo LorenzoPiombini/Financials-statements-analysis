@@ -1,0 +1,14 @@
+{
+  "ticker": "CFMS",
+  "valuation": {
+    "PE_valuation": 12.627743, 
+    "DFC_valuation": -495.332227
+  },
+  "ratios": {
+    "ROIC": -52.201644,
+    "PB": 0.442391
+  },
+  "ownerEarnings": -42198000,
+  "growth_rate_revenue": 27.563380,
+  "growth_rate_net_income": -1.186933
+}

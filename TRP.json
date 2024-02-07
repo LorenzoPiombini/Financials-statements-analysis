@@ -1,0 +1,14 @@
+{
+  "ticker": "TRP",
+  "valuation": {
+    "PE_valuation": 13.278528, 
+    "DFC_valuation": -4613.380019
+  },
+  "ratios": {
+    "ROIC": 4.487662,
+    "PB": 1.579660
+  },
+  "ownerEarnings": 21906000000,
+  "growth_rate_revenue": -10.191821,
+  "growth_rate_net_income": -632.742393
+}

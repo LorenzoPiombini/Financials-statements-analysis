@@ -1,0 +1,14 @@
+{
+  "ticker": "ESTA",
+  "valuation": {
+    "PE_valuation": 169.223746, 
+    "DFC_valuation": -1000.927710
+  },
+  "ratios": {
+    "ROIC": -23.489256,
+    "PB": -196.170325
+  },
+  "ownerEarnings": 8941000,
+  "growth_rate_revenue": 60.528628,
+  "growth_rate_net_income": 26.651542
+}

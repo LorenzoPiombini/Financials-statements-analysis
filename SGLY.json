@@ -1,0 +1,14 @@
+{
+  "ticker": "SGLY",
+  "valuation": {
+    "PE_valuation": 0.704000, 
+    "DFC_valuation": -120.229130
+  },
+  "ratios": {
+    "ROIC": -84.701153,
+    "PB": 0.925729
+  },
+  "ownerEarnings": -6312681,
+  "growth_rate_revenue": 38.301599,
+  "growth_rate_net_income": -337.818423
+}

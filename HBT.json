@@ -1,0 +1,14 @@
+{
+  "ticker": "HBT",
+  "valuation": {
+    "PE_valuation": 13.803105, 
+    "DFC_valuation": 24.661490
+  },
+  "ratios": {
+    "ROIC": 10.391771,
+    "PB": 1.440396
+  },
+  "ownerEarnings": 69690000,
+  "growth_rate_revenue": 0.374145,
+  "growth_rate_net_income": 5.544424
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ATCX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 11.460015,
+    "PB": -1.784895
+  },
+  "ownerEarnings": 116321000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -39429.924690
+}

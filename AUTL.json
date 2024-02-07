@@ -1,0 +1,14 @@
+{
+  "ticker": "AUTL",
+  "valuation": {
+    "PE_valuation": 9.147173, 
+    "DFC_valuation": -106.573644
+  },
+  "ratios": {
+    "ROIC": -40.538553,
+    "PB": 0.604296
+  },
+  "ownerEarnings": -123750000,
+  "growth_rate_revenue": 237.687367,
+  "growth_rate_net_income": 106.922141
+}

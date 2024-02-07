@@ -1,0 +1,14 @@
+{
+  "ticker": "SHLX",
+  "valuation": {
+    "PE_valuation": 17.390116, 
+    "DFC_valuation": 212.328604
+  },
+  "ratios": {
+    "ROIC": 14.730159,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 690000000,
+  "growth_rate_revenue": 52.129695,
+  "growth_rate_net_income": 282.131401
+}

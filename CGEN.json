@@ -1,0 +1,14 @@
+{
+  "ticker": "CGEN",
+  "valuation": {
+    "PE_valuation": 4.669973, 
+    "DFC_valuation": -32.497823
+  },
+  "ratios": {
+    "ROIC": -43.462525,
+    "PB": 0.797475
+  },
+  "ownerEarnings": -40529000,
+  "growth_rate_revenue": 25.145358,
+  "growth_rate_net_income": 18.035358
+}

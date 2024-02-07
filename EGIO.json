@@ -1,0 +1,14 @@
+{
+  "ticker": "EGIO",
+  "valuation": {
+    "PE_valuation": 116.718720, 
+    "DFC_valuation": -23677.332781
+  },
+  "ratios": {
+    "ROIC": -20.485698,
+    "PB": 0.861140
+  },
+  "ownerEarnings": 19636000,
+  "growth_rate_revenue": 226.976496,
+  "growth_rate_net_income": 93.308955
+}

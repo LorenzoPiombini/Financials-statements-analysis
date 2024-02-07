@@ -1,0 +1,14 @@
+{
+  "ticker": "GPCR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 45.871939,
+    "PB": -8.635770
+  },
+  "ownerEarnings": -55917000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FF",
+  "valuation": {
+    "PE_valuation": 17.806253, 
+    "DFC_valuation": 1219.993884
+  },
+  "ratios": {
+    "ROIC": 10.163092,
+    "PB": 1.257227
+  },
+  "ownerEarnings": 55105000,
+  "growth_rate_revenue": 176.407731,
+  "growth_rate_net_income": 109.854798
+}

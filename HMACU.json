@@ -1,0 +1,14 @@
+{
+  "ticker": "HMACU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -2.050685
+  },
+  "ratios": {
+    "ROIC": -13.718847,
+    "PB": 0.274590
+  },
+  "ownerEarnings": -4823626,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

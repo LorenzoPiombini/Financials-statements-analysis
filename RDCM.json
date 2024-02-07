@@ -1,0 +1,14 @@
+{
+  "ticker": "RDCM",
+  "valuation": {
+    "PE_valuation": 6.478996, 
+    "DFC_valuation": 30.081654
+  },
+  "ratios": {
+    "ROIC": -5.693427,
+    "PB": 2.183318
+  },
+  "ownerEarnings": -10836000,
+  "growth_rate_revenue": -3.858584,
+  "growth_rate_net_income": -56.412625
+}

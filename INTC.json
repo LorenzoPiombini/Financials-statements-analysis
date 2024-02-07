@@ -1,0 +1,14 @@
+{
+  "ticker": "INTC",
+  "valuation": {
+    "PE_valuation": 35.673018, 
+    "DFC_valuation": -128756.956123
+  },
+  "ratios": {
+    "ROIC": 0.133116,
+    "PB": 1.994010
+  },
+  "ownerEarnings": 22872000000,
+  "growth_rate_revenue": 32.087510,
+  "growth_rate_net_income": -2885.320586
+}

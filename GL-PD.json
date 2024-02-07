@@ -1,0 +1,14 @@
+{
+  "ticker": "GL-PD",
+  "valuation": {
+    "PE_valuation": 154.677713, 
+    "DFC_valuation": 1461.211748
+  },
+  "ratios": {
+    "ROIC": 11.666306,
+    "PB": 2.411260
+  },
+  "ownerEarnings": 948423000,
+  "growth_rate_revenue": 7.181080,
+  "growth_rate_net_income": 9.398141
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GILT",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -3.284240,
+    "PB": 1.344531
+  },
+  "ownerEarnings": 22660000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

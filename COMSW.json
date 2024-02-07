@@ -1,0 +1,14 @@
+{
+  "ticker": "COMSW",
+  "valuation": {
+    "PE_valuation": 0.172904, 
+    "DFC_valuation": -462.928638
+  },
+  "ratios": {
+    "ROIC": -345.865569,
+    "PB": -535.640451
+  },
+  "ownerEarnings": -14640000,
+  "growth_rate_revenue": 40.001982,
+  "growth_rate_net_income": 34.726112
+}

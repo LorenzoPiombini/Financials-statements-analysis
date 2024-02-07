@@ -1,0 +1,14 @@
+{
+  "ticker": "SHIP",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 1.772547,
+    "PB": 0.393304
+  },
+  "ownerEarnings": 88474000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -46419.683519
+}

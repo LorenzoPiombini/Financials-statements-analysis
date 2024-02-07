@@ -1,0 +1,14 @@
+{
+  "ticker": "LSPD",
+  "valuation": {
+    "PE_valuation": 528.934969, 
+    "DFC_valuation": -218.860394
+  },
+  "ratios": {
+    "ROIC": -42.966882,
+    "PB": 0.914187
+  },
+  "ownerEarnings": -276618000,
+  "growth_rate_revenue": 61.944583,
+  "growth_rate_net_income": 57.768743
+}

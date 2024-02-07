@@ -1,0 +1,14 @@
+{
+  "ticker": "UAMY",
+  "valuation": {
+    "PE_valuation": -0.028702, 
+    "DFC_valuation": -1.287748
+  },
+  "ratios": {
+    "ROIC": 1.451498,
+    "PB": 1.623863
+  },
+  "ownerEarnings": 3144078,
+  "growth_rate_revenue": -4.047073,
+  "growth_rate_net_income": 179.941222
+}

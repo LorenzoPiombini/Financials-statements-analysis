@@ -1,0 +1,14 @@
+{
+  "ticker": "AXLA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -920.388159,
+    "PB": 106.910122
+  },
+  "ownerEarnings": -67145000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 29.437967
+}

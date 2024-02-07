@@ -1,0 +1,14 @@
+{
+  "ticker": "AHPAW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": -38.060825
+  },
+  "ownerEarnings": -23488000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

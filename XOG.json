@@ -1,0 +1,14 @@
+{
+  "ticker": "XOG",
+  "valuation": {
+    "PE_valuation": 59.837887, 
+    "DFC_valuation": -23.428969
+  },
+  "ratios": {
+    "ROIC": -22.952615,
+    "PB": -3.988730
+  },
+  "ownerEarnings": -44940000,
+  "growth_rate_revenue": 82.983969,
+  "growth_rate_net_income": -272.319340
+}

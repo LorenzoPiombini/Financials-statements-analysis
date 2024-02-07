@@ -1,0 +1,14 @@
+{
+  "ticker": "FE",
+  "valuation": {
+    "PE_valuation": 20.509011, 
+    "DFC_valuation": -78.257489
+  },
+  "ratios": {
+    "ROIC": 2.514317,
+    "PB": 2.355670
+  },
+  "ownerEarnings": 6880000000,
+  "growth_rate_revenue": 48.126079,
+  "growth_rate_net_income": 20.835668
+}

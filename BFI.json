@@ -1,0 +1,14 @@
+{
+  "ticker": "BFI",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -9.307011,
+    "PB": 0.365129
+  },
+  "ownerEarnings": 69451000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -28008.913087
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GOGN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 10.705033,
+    "PB": 1.344585
+  },
+  "ownerEarnings": -1271060,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

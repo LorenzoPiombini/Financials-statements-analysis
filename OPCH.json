@@ -1,0 +1,14 @@
+{
+  "ticker": "OPCH",
+  "valuation": {
+    "PE_valuation": -25.451388, 
+    "DFC_valuation": 936.853858
+  },
+  "ratios": {
+    "ROIC": 6.864725,
+    "PB": 3.931490
+  },
+  "ownerEarnings": 322834000,
+  "growth_rate_revenue": 19.216174,
+  "growth_rate_net_income": -327.076001
+}

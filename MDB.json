@@ -1,0 +1,14 @@
+{
+  "ticker": "MDB",
+  "valuation": {
+    "PE_valuation": 1150.062183, 
+    "DFC_valuation": -439.399322
+  },
+  "ratios": {
+    "ROIC": -18.244530,
+    "PB": 19.879245
+  },
+  "ownerEarnings": -717228000,
+  "growth_rate_revenue": 69.618200,
+  "growth_rate_net_income": 40.308529
+}

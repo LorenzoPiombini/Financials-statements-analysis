@@ -1,0 +1,14 @@
+{
+  "ticker": "OVV",
+  "valuation": {
+    "PE_valuation": 68.147084, 
+    "DFC_valuation": 589.180138
+  },
+  "ratios": {
+    "ROIC": 30.036912,
+    "PB": 1.717373
+  },
+  "ownerEarnings": 7201000000,
+  "growth_rate_revenue": 28.060624,
+  "growth_rate_net_income": 77.507784
+}

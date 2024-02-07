@@ -1,0 +1,14 @@
+{
+  "ticker": "INS",
+  "valuation": {
+    "PE_valuation": 14.042897, 
+    "DFC_valuation": 7.550279
+  },
+  "ratios": {
+    "ROIC": -288.698525,
+    "PB": 8.162511
+  },
+  "ownerEarnings": 15423000,
+  "growth_rate_revenue": -18.721770,
+  "growth_rate_net_income": 97.668359
+}

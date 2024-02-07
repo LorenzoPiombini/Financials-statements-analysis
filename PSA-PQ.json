@@ -1,0 +1,14 @@
+{
+  "ticker": "PSA-PQ",
+  "valuation": {
+    "PE_valuation": 38455.345480, 
+    "DFC_valuation": 12465673.059518
+  },
+  "ratios": {
+    "ROIC": 20.217334,
+    "PB": 4.874744
+  },
+  "ownerEarnings": 3684324000,
+  "growth_rate_revenue": 36.824865,
+  "growth_rate_net_income": 43.536377
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GRTX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 46.903500,
+    "PB": -0.369653
+  },
+  "ownerEarnings": -47115000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 37.985227
+}

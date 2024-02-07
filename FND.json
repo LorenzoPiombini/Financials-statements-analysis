@@ -1,0 +1,14 @@
+{
+  "ticker": "FND",
+  "valuation": {
+    "PE_valuation": 348.016574, 
+    "DFC_valuation": -2954.793079
+  },
+  "ratios": {
+    "ROIC": 6.484737,
+    "PB": 4.524800
+  },
+  "ownerEarnings": 909861000,
+  "growth_rate_revenue": 38.388615,
+  "growth_rate_net_income": 58.032879
+}

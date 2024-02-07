@@ -1,0 +1,14 @@
+{
+  "ticker": "KA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -140.923092
+  },
+  "ratios": {
+    "ROIC": -503.517405,
+    "PB": 7.070547
+  },
+  "ownerEarnings": -42774000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

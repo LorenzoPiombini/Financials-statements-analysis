@@ -1,0 +1,14 @@
+{
+  "ticker": "BCOV",
+  "valuation": {
+    "PE_valuation": 7.732852, 
+    "DFC_valuation": 1.417371
+  },
+  "ratios": {
+    "ROIC": -4.284625,
+    "PB": 2.137592
+  },
+  "ownerEarnings": 17743000,
+  "growth_rate_revenue": 35.821982,
+  "growth_rate_net_income": 166.068456
+}

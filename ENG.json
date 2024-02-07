@@ -1,0 +1,14 @@
+{
+  "ticker": "ENG",
+  "valuation": {
+    "PE_valuation": 53.620833, 
+    "DFC_valuation": -43.757444
+  },
+  "ratios": {
+    "ROIC": -60.979107,
+    "PB": 21.402972
+  },
+  "ownerEarnings": -16827000,
+  "growth_rate_revenue": 100.723845,
+  "growth_rate_net_income": -41.438549
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MGOL",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -8.110521
+  },
+  "ratios": {
+    "ROIC": 339.413891,
+    "PB": -0.000127
+  },
+  "ownerEarnings": -2252215,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

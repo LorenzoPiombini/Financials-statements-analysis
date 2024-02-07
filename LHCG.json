@@ -1,0 +1,14 @@
+{
+  "ticker": "LHCG",
+  "valuation": {
+    "PE_valuation": 1018.137106, 
+    "DFC_valuation": 22964.443008
+  },
+  "ratios": {
+    "ROIC": 3.392035,
+    "PB": 3.095103
+  },
+  "ownerEarnings": 145894000,
+  "growth_rate_revenue": 64.164896,
+  "growth_rate_net_income": 150.265628
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CRKN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 262704819.116670,
+    "PB": 189.381231
+  },
+  "ownerEarnings": 15114163280000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -39343896.033952
+}

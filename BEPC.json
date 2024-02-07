@@ -1,0 +1,14 @@
+{
+  "ticker": "BEPC",
+  "valuation": {
+    "PE_valuation": 84.945676, 
+    "DFC_valuation": 128.542205
+  },
+  "ratios": {
+    "ROIC": 13.495742,
+    "PB": 0.807398
+  },
+  "ownerEarnings": 6078000000,
+  "growth_rate_revenue": 39.205579,
+  "growth_rate_net_income": -793.844045
+}

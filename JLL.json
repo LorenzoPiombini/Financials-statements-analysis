@@ -1,0 +1,14 @@
+{
+  "ticker": "JLL",
+  "valuation": {
+    "PE_valuation": 3187.089556, 
+    "DFC_valuation": -45737.357090
+  },
+  "ratios": {
+    "ROIC": 6.864940,
+    "PB": 1.282525
+  },
+  "ownerEarnings": 1098900000,
+  "growth_rate_revenue": 61.032264,
+  "growth_rate_net_income": -166.907902
+}

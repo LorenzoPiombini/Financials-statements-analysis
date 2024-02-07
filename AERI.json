@@ -1,0 +1,14 @@
+{
+  "ticker": "AERI",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -13.398361,
+    "PB": -18.766581
+  },
+  "ownerEarnings": -5735000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 66.425456
+}

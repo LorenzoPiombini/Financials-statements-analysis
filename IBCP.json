@@ -1,0 +1,14 @@
+{
+  "ticker": "IBCP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 13.803284,
+    "PB": 1.504743
+  },
+  "ownerEarnings": 116608000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 28.896187
+}

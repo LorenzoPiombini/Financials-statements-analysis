@@ -1,0 +1,14 @@
+{
+  "ticker": "LTRN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -13.076543,
+    "PB": 1.169518
+  },
+  "ownerEarnings": -15582573,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 51.660955
+}

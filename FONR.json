@@ -1,0 +1,14 @@
+{
+  "ticker": "FONR",
+  "valuation": {
+    "PE_valuation": 51.368448, 
+    "DFC_valuation": 2125.719164
+  },
+  "ratios": {
+    "ROIC": 4.910444,
+    "PB": 0.712402
+  },
+  "ownerEarnings": -6355373,
+  "growth_rate_revenue": 106.974167,
+  "growth_rate_net_income": -228.960768
+}

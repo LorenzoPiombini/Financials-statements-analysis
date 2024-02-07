@@ -1,0 +1,14 @@
+{
+  "ticker": "PRLB",
+  "valuation": {
+    "PE_valuation": -479.186160, 
+    "DFC_valuation": 724.590501
+  },
+  "ratios": {
+    "ROIC": 21.684669,
+    "PB": 1.003046
+  },
+  "ownerEarnings": 439612000,
+  "growth_rate_revenue": 46.451157,
+  "growth_rate_net_income": 80.492169
+}

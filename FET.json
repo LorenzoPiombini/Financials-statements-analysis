@@ -1,0 +1,14 @@
+{
+  "ticker": "FET",
+  "valuation": {
+    "PE_valuation": -0.295076, 
+    "DFC_valuation": -196.564025
+  },
+  "ratios": {
+    "ROIC": 0.528593,
+    "PB": 0.552056
+  },
+  "ownerEarnings": 41495000,
+  "growth_rate_revenue": 27.140572,
+  "growth_rate_net_income": 99.005878
+}

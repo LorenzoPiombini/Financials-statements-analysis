@@ -1,0 +1,14 @@
+{
+  "ticker": "MS-PK",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 2.499559,
+    "PB": 1.435664
+  },
+  "ownerEarnings": -887000000,
+  "growth_rate_revenue": -inf,
+  "growth_rate_net_income": 37.247465
+}

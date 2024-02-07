@@ -1,0 +1,14 @@
+{
+  "ticker": "MFC",
+  "valuation": {
+    "PE_valuation": 24.542220, 
+    "DFC_valuation": 300.455416
+  },
+  "ratios": {
+    "ROIC": 12.361946,
+    "PB": 0.843095
+  },
+  "ownerEarnings": 10417000000,
+  "growth_rate_revenue": 12.895558,
+  "growth_rate_net_income": 21.260852
+}

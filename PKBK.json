@@ -1,0 +1,14 @@
+{
+  "ticker": "PKBK",
+  "valuation": {
+    "PE_valuation": 307.624946, 
+    "DFC_valuation": 130035.577489
+  },
+  "ratios": {
+    "ROIC": 13.358903,
+    "PB": 0.929152
+  },
+  "ownerEarnings": 70582000,
+  "growth_rate_revenue": 139.214621,
+  "growth_rate_net_income": 80.817483
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AHG",
+  "valuation": {
+    "PE_valuation": 0.436505, 
+    "DFC_valuation": -4.352369
+  },
+  "ratios": {
+    "ROIC": -163.730847,
+    "PB": 0.930333
+  },
+  "ownerEarnings": -14284402,
+  "growth_rate_revenue": 123.123776,
+  "growth_rate_net_income": -445.673227
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MTN",
+  "valuation": {
+    "PE_valuation": 869.813020, 
+    "DFC_valuation": 7455.503813
+  },
+  "ratios": {
+    "ROIC": 9.105222,
+    "PB": 9.301408
+  },
+  "ownerEarnings": 1011309000,
+  "growth_rate_revenue": 33.369528,
+  "growth_rate_net_income": 71.564119
+}

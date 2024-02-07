@@ -1,0 +1,14 @@
+{
+  "ticker": "AKA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -30.333325
+  },
+  "ratios": {
+    "ROIC": 0.044486,
+    "PB": 0.661616
+  },
+  "ownerEarnings": 218572000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

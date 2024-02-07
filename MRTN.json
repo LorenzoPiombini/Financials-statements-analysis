@@ -1,0 +1,14 @@
+{
+  "ticker": "MRTN",
+  "valuation": {
+    "PE_valuation": 112.789982, 
+    "DFC_valuation": 1138.666228
+  },
+  "ratios": {
+    "ROIC": 0.605193,
+    "PB": 2.295531
+  },
+  "ownerEarnings": 117979000,
+  "growth_rate_revenue": 13.591866,
+  "growth_rate_net_income": -136.800424
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TNC",
+  "valuation": {
+    "PE_valuation": 240.820756, 
+    "DFC_valuation": -829.660452
+  },
+  "ratios": {
+    "ROIC": 9.030363,
+    "PB": 2.418644
+  },
+  "ownerEarnings": 148800000,
+  "growth_rate_revenue": 11.455879,
+  "growth_rate_net_income": 15.968005
+}

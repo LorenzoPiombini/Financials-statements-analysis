@@ -1,0 +1,14 @@
+{
+  "ticker": "TOI",
+  "valuation": {
+    "PE_valuation": -1.186979, 
+    "DFC_valuation": -72.834644
+  },
+  "ratios": {
+    "ROIC": -24.063619,
+    "PB": 0.963340
+  },
+  "ownerEarnings": -163408000,
+  "growth_rate_revenue": -2.343069,
+  "growth_rate_net_income": -46.149663
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MRNS",
+  "valuation": {
+    "PE_valuation": 57.452133, 
+    "DFC_valuation": -528010.110820
+  },
+  "ratios": {
+    "ROIC": -71.363639,
+    "PB": 1.340594
+  },
+  "ownerEarnings": -118621000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 122.583266
+}

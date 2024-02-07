@@ -1,0 +1,14 @@
+{
+  "ticker": "PAM",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 12.745987,
+    "PB": 0.788330
+  },
+  "ownerEarnings": 1242000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 879.365826
+}

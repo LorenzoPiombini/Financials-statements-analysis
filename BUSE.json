@@ -1,0 +1,14 @@
+{
+  "ticker": "BUSE",
+  "valuation": {
+    "PE_valuation": 49.555350, 
+    "DFC_valuation": 2313.950833
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -485000,
+  "growth_rate_revenue": 95.973134,
+  "growth_rate_net_income": 12.373911
+}

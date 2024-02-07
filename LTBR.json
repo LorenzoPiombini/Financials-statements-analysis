@@ -1,0 +1,14 @@
+{
+  "ticker": "LTBR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -25.711396,
+    "PB": 1.447430
+  },
+  "ownerEarnings": -8623354,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 327.434472
+}

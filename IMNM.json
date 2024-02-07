@@ -1,0 +1,14 @@
+{
+  "ticker": "IMNM",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -217.634919,
+    "PB": 1.609303
+  },
+  "ownerEarnings": -41976000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 23.247528
+}

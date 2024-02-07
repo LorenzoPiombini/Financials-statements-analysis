@@ -1,0 +1,14 @@
+{
+  "ticker": "BIOTW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -682271.407141,
+    "PB": -10412315.912083
+  },
+  "ownerEarnings": -6864581,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

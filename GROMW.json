@@ -1,0 +1,14 @@
+{
+  "ticker": "GROMW",
+  "valuation": {
+    "PE_valuation": 4181.840708, 
+    "DFC_valuation": -2487.129750
+  },
+  "ratios": {
+    "ROIC": -36.173051,
+    "PB": 0.062667
+  },
+  "ownerEarnings": 2169012,
+  "growth_rate_revenue": 296.274478,
+  "growth_rate_net_income": 195.626683
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "JNJ",
+  "valuation": {
+    "PE_valuation": 624.102882, 
+    "DFC_valuation": 5450.926718
+  },
+  "ratios": {
+    "ROIC": 16.959209,
+    "PB": 6.037987
+  },
+  "ownerEarnings": 32166000000,
+  "growth_rate_revenue": 14.831767,
+  "growth_rate_net_income": 35.037697
+}

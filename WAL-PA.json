@@ -1,0 +1,14 @@
+{
+  "ticker": "WAL-PA",
+  "valuation": {
+    "PE_valuation": 6472.945443, 
+    "DFC_valuation": 29755739.747022
+  },
+  "ratios": {
+    "ROIC": 11.227816,
+    "PB": 1.114248
+  },
+  "ownerEarnings": 2226300000,
+  "growth_rate_revenue": 235.573312,
+  "growth_rate_net_income": 64.368835
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VJET",
+  "valuation": {
+    "PE_valuation": 9.346370, 
+    "DFC_valuation": -195.394546
+  },
+  "ratios": {
+    "ROIC": -8.328482,
+    "PB": 0.648241
+  },
+  "ownerEarnings": 5119000,
+  "growth_rate_revenue": 48.427842,
+  "growth_rate_net_income": -231.688389
+}

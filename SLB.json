@@ -1,0 +1,14 @@
+{
+  "ticker": "SLB",
+  "valuation": {
+    "PE_valuation": 97.044888, 
+    "DFC_valuation": 10.414077
+  },
+  "ratios": {
+    "ROIC": 118.288423,
+    "PB": 4.648176
+  },
+  "ownerEarnings": 6385000000,
+  "growth_rate_revenue": -2.180378,
+  "growth_rate_net_income": -174.972184
+}

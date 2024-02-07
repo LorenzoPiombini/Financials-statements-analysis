@@ -1,0 +1,14 @@
+{
+  "ticker": "LWLG",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -60.626494,
+    "PB": 17.490724
+  },
+  "ownerEarnings": -20248823,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 28.841740
+}

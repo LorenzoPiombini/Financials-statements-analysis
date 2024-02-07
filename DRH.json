@@ -1,0 +1,14 @@
+{
+  "ticker": "DRH",
+  "valuation": {
+    "PE_valuation": 98.867077, 
+    "DFC_valuation": -14778.380971
+  },
+  "ratios": {
+    "ROIC": 5.157151,
+    "PB": 1.094265
+  },
+  "ownerEarnings": 563958000,
+  "growth_rate_revenue": 820.773961,
+  "growth_rate_net_income": -95.756322
+}

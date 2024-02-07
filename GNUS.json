@@ -1,0 +1,14 @@
+{
+  "ticker": "GNUS",
+  "valuation": {
+    "PE_valuation": 8.431259, 
+    "DFC_valuation": -709.797760
+  },
+  "ratios": {
+    "ROIC": -16.199731,
+    "PB": 1.313979
+  },
+  "ownerEarnings": -23518000,
+  "growth_rate_revenue": -16.525791,
+  "growth_rate_net_income": 85.657664
+}

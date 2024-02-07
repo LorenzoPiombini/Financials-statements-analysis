@@ -1,0 +1,14 @@
+{
+  "ticker": "NG",
+  "valuation": {
+    "PE_valuation": 0.019623, 
+    "DFC_valuation": -7.242709
+  },
+  "ratios": {
+    "ROIC": 489.825864,
+    "PB": -170.623787
+  },
+  "ownerEarnings": -33821000,
+  "growth_rate_revenue": 776.516067,
+  "growth_rate_net_income": -20.429389
+}

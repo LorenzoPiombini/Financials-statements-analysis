@@ -1,0 +1,14 @@
+{
+  "ticker": "MACC-UN",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -2.369092
+  },
+  "ratios": {
+    "ROIC": -663.519212,
+    "PB": -18996.534790
+  },
+  "ownerEarnings": 11066748,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

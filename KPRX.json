@@ -1,0 +1,14 @@
+{
+  "ticker": "KPRX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -104.119523,
+    "PB": 0.220186
+  },
+  "ownerEarnings": -10590761,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 85.295408
+}

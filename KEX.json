@@ -1,0 +1,14 @@
+{
+  "ticker": "KEX",
+  "valuation": {
+    "PE_valuation": 451.863257, 
+    "DFC_valuation": 11388.325115
+  },
+  "ratios": {
+    "ROIC": -0.002640,
+    "PB": 1.268713
+  },
+  "ownerEarnings": 152677000,
+  "growth_rate_revenue": 34.582691,
+  "growth_rate_net_income": -123.587205
+}

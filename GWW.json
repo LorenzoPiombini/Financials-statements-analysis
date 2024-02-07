@@ -1,0 +1,14 @@
+{
+  "ticker": "GWW",
+  "valuation": {
+    "PE_valuation": 2927.464831, 
+    "DFC_valuation": 44598.805572
+  },
+  "ratios": {
+    "ROIC": 28.576425,
+    "PB": 10.352148
+  },
+  "ownerEarnings": 2416000000,
+  "growth_rate_revenue": 15.228315,
+  "growth_rate_net_income": 15.298576
+}

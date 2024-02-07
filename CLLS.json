@@ -1,0 +1,14 @@
+{
+  "ticker": "CLLS",
+  "valuation": {
+    "PE_valuation": 29.485085, 
+    "DFC_valuation": -271.987553
+  },
+  "ratios": {
+    "ROIC": -34.778593,
+    "PB": 0.810808
+  },
+  "ownerEarnings": -65985000,
+  "growth_rate_revenue": 82.878083,
+  "growth_rate_net_income": -726.828246
+}

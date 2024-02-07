@@ -1,0 +1,14 @@
+{
+  "ticker": "RMBS",
+  "valuation": {
+    "PE_valuation": 55.183571, 
+    "DFC_valuation": 393334.053869
+  },
+  "ratios": {
+    "ROIC": 16.401807,
+    "PB": 5.031826
+  },
+  "ownerEarnings": 152706000,
+  "growth_rate_revenue": 89.199348,
+  "growth_rate_net_income": -44.115648
+}

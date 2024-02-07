@@ -1,0 +1,14 @@
+{
+  "ticker": "TSN",
+  "valuation": {
+    "PE_valuation": -134.773133, 
+    "DFC_valuation": -5251.641961
+  },
+  "ratios": {
+    "ROIC": -1.368012,
+    "PB": 0.985687
+  },
+  "ownerEarnings": 3590000000,
+  "growth_rate_revenue": 35.347452,
+  "growth_rate_net_income": 35.565499
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RDS-A",
+  "valuation": {
+    "PE_valuation": 149.793546, 
+    "DFC_valuation": 1242158.286822
+  },
+  "ratios": {
+    "ROIC": 14.756878,
+    "PB": 1.098429
+  },
+  "ownerEarnings": 92944000000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

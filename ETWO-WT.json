@@ -1,0 +1,14 @@
+{
+  "ticker": "ETWO-WT",
+  "valuation": {
+    "PE_valuation": 18.414550, 
+    "DFC_valuation": 1.335111
+  },
+  "ratios": {
+    "ROIC": -0.604544,
+    "PB": 0.747657
+  },
+  "ownerEarnings": 1413495000,
+  "growth_rate_revenue": 11.094369,
+  "growth_rate_net_income": 137.185874
+}

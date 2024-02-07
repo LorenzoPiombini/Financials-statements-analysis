@@ -1,0 +1,14 @@
+{
+  "ticker": "HCKT",
+  "valuation": {
+    "PE_valuation": 31.550523, 
+    "DFC_valuation": 178.346743
+  },
+  "ratios": {
+    "ROIC": 33.853827,
+    "PB": 10.975291
+  },
+  "ownerEarnings": 34828000,
+  "growth_rate_revenue": 24.737077,
+  "growth_rate_net_income": 230.777552
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NOK",
+  "valuation": {
+    "PE_valuation": 3.162509, 
+    "DFC_valuation": 1605.137047
+  },
+  "ratios": {
+    "ROIC": 3.139657,
+    "PB": 0.835892
+  },
+  "ownerEarnings": 2791000000,
+  "growth_rate_revenue": 46.762559,
+  "growth_rate_net_income": 73.285544
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MCOM",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -90.431949
+  },
+  "ratios": {
+    "ROIC": 250.581114,
+    "PB": -32.426667
+  },
+  "ownerEarnings": -54597000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

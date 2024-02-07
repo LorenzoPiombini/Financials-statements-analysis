@@ -1,0 +1,14 @@
+{
+  "ticker": "FBIZ",
+  "valuation": {
+    "PE_valuation": 45.665252, 
+    "DFC_valuation": 552.287809
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 17316000,
+  "growth_rate_revenue": 131.896354,
+  "growth_rate_net_income": -602.997043
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LRN",
+  "valuation": {
+    "PE_valuation": 37.117833, 
+    "DFC_valuation": 192.559535
+  },
+  "ratios": {
+    "ROIC": 7.522472,
+    "PB": 1.661912
+  },
+  "ownerEarnings": 261287000,
+  "growth_rate_revenue": 10.470846,
+  "growth_rate_net_income": 165.191570
+}

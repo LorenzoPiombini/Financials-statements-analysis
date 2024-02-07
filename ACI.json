@@ -1,0 +1,14 @@
+{
+  "ticker": "ACI",
+  "valuation": {
+    "PE_valuation": 67.066898, 
+    "DFC_valuation": 2563.124508
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 1702000000,
+  "growth_rate_revenue": 148.463546,
+  "growth_rate_net_income": 431.342323
+}

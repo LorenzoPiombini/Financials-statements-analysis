@@ -1,0 +1,14 @@
+{
+  "ticker": "PTN",
+  "valuation": {
+    "PE_valuation": 119.722784, 
+    "DFC_valuation": -501586.474432
+  },
+  "ratios": {
+    "ROIC": -1241.202959,
+    "PB": 170.573746
+  },
+  "ownerEarnings": -28714540,
+  "growth_rate_revenue": 1125.520234,
+  "growth_rate_net_income": 39.947561
+}

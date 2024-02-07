@@ -1,0 +1,14 @@
+{
+  "ticker": "KDP",
+  "valuation": {
+    "PE_valuation": 57.502987, 
+    "DFC_valuation": 217.458498
+  },
+  "ratios": {
+    "ROIC": 5.617871,
+    "PB": 2.010789
+  },
+  "ownerEarnings": 4407000000,
+  "growth_rate_revenue": 17.475884,
+  "growth_rate_net_income": -107.335346
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "OXLCL",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -17.341925,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -171288747,
+  "growth_rate_revenue": -116.688163,
+  "growth_rate_net_income": 777.001910
+}

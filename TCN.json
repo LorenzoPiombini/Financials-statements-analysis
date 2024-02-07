@@ -1,0 +1,14 @@
+{
+  "ticker": "TCN",
+  "valuation": {
+    "PE_valuation": 252.545318, 
+    "DFC_valuation": 117465.199640
+  },
+  "ratios": {
+    "ROIC": 3.403492,
+    "PB": 0.558345
+  },
+  "ownerEarnings": -255773000,
+  "growth_rate_revenue": 39.449018,
+  "growth_rate_net_income": -262.916633
+}

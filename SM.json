@@ -1,0 +1,14 @@
+{
+  "ticker": "SM",
+  "valuation": {
+    "PE_valuation": 478.360817, 
+    "DFC_valuation": 347228.512513
+  },
+  "ratios": {
+    "ROIC": 27.015814,
+    "PB": 1.381152
+  },
+  "ownerEarnings": 3330036000,
+  "growth_rate_revenue": 15.419741,
+  "growth_rate_net_income": 62.820385
+}

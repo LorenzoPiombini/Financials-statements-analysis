@@ -1,0 +1,14 @@
+{
+  "ticker": "LEV",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -9730.200800
+  },
+  "ratios": {
+    "ROIC": -78.313273,
+    "PB": 0.989610
+  },
+  "ownerEarnings": 126223848,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

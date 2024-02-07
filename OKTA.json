@@ -1,0 +1,14 @@
+{
+  "ticker": "OKTA",
+  "valuation": {
+    "PE_valuation": 2822.271628, 
+    "DFC_valuation": 3045.655795
+  },
+  "ratios": {
+    "ROIC": -9.989785,
+    "PB": 2.128078
+  },
+  "ownerEarnings": -1297000000,
+  "growth_rate_revenue": 89.656142,
+  "growth_rate_net_income": 37.919522
+}

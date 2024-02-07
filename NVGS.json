@@ -1,0 +1,14 @@
+{
+  "ticker": "NVGS",
+  "valuation": {
+    "PE_valuation": -12.292029, 
+    "DFC_valuation": 366.842182
+  },
+  "ratios": {
+    "ROIC": -2.960494,
+    "PB": 0.794609
+  },
+  "ownerEarnings": -10884000,
+  "growth_rate_revenue": 31.039816,
+  "growth_rate_net_income": 262.811054
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MTAL",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 4.326322,
+    "PB": 1.084922
+  },
+  "ownerEarnings": 3574810,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

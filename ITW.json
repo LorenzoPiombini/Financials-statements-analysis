@@ -1,0 +1,14 @@
+{
+  "ticker": "ITW",
+  "valuation": {
+    "PE_valuation": 1199.032052, 
+    "DFC_valuation": 16794.228335
+  },
+  "ratios": {
+    "ROIC": 27.117296,
+    "PB": 22.443776
+  },
+  "ownerEarnings": 3668000000,
+  "growth_rate_revenue": 45.313861,
+  "growth_rate_net_income": 61.574388
+}

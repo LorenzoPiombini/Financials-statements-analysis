@@ -1,0 +1,14 @@
+{
+  "ticker": "BWEN",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -6.363093,
+    "PB": 0.785236
+  },
+  "ownerEarnings": 3546000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

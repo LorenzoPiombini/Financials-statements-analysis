@@ -1,0 +1,14 @@
+{
+  "ticker": "SAP",
+  "valuation": {
+    "PE_valuation": 336.333762, 
+    "DFC_valuation": 33463.332228
+  },
+  "ratios": {
+    "ROIC": 8.369508,
+    "PB": 3.829238
+  },
+  "ownerEarnings": 5606000000,
+  "growth_rate_revenue": 20.269409,
+  "growth_rate_net_income": 1.571430
+}

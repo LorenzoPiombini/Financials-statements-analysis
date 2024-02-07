@@ -1,0 +1,14 @@
+{
+  "ticker": "CLBK",
+  "valuation": {
+    "PE_valuation": 24.598601, 
+    "DFC_valuation": 9.945230
+  },
+  "ratios": {
+    "ROIC": 4.950579,
+    "PB": 2.166542
+  },
+  "ownerEarnings": 153522000,
+  "growth_rate_revenue": 17.178840,
+  "growth_rate_net_income": 43.299906
+}

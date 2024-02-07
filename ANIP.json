@@ -1,0 +1,14 @@
+{
+  "ticker": "ANIP",
+  "valuation": {
+    "PE_valuation": 5777.592682, 
+    "DFC_valuation": -61389343.461981
+  },
+  "ratios": {
+    "ROIC": -3.064810,
+    "PB": 1.932238
+  },
+  "ownerEarnings": 86134000,
+  "growth_rate_revenue": 21842291.122133,
+  "growth_rate_net_income": 43.896457
+}

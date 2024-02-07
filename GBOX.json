@@ -1,0 +1,14 @@
+{
+  "ticker": "GBOX",
+  "valuation": {
+    "PE_valuation": 30.901679, 
+    "DFC_valuation": -679572.192340
+  },
+  "ratios": {
+    "ROIC": 43.933709,
+    "PB": 2.756806
+  },
+  "ownerEarnings": -49121000,
+  "growth_rate_revenue": 177.337416,
+  "growth_rate_net_income": 51.782397
+}

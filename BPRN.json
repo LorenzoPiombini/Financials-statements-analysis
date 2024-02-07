@@ -1,0 +1,14 @@
+{
+  "ticker": "BPRN",
+  "valuation": {
+    "PE_valuation": 51.398710, 
+    "DFC_valuation": 100.410239
+  },
+  "ratios": {
+    "ROIC": 11.842192,
+    "PB": 0.931518
+  },
+  "ownerEarnings": 39626000,
+  "growth_rate_revenue": 9.655837,
+  "growth_rate_net_income": 16.156954
+}

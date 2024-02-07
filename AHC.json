@@ -1,0 +1,14 @@
+{
+  "ticker": "AHC",
+  "valuation": {
+    "PE_valuation": 1.560998, 
+    "DFC_valuation": -0.268551
+  },
+  "ratios": {
+    "ROIC": -38.118855,
+    "PB": 0.696641
+  },
+  "ownerEarnings": -12323000,
+  "growth_rate_revenue": -4.094369,
+  "growth_rate_net_income": -639.376935
+}

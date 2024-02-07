@@ -1,0 +1,14 @@
+{
+  "ticker": "CREXW",
+  "valuation": {
+    "PE_valuation": 12.376635, 
+    "DFC_valuation": -4041.509228
+  },
+  "ratios": {
+    "ROIC": -5.637096,
+    "PB": 0.151105
+  },
+  "ownerEarnings": -2470000,
+  "growth_rate_revenue": 97.618882,
+  "growth_rate_net_income": 68.683603
+}

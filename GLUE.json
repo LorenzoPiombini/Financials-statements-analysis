@@ -1,0 +1,14 @@
+{
+  "ticker": "GLUE",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -29.654512,
+    "PB": 1.324182
+  },
+  "ownerEarnings": -111256000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

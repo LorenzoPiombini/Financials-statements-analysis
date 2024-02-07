@@ -1,0 +1,14 @@
+{
+  "ticker": "VRM",
+  "valuation": {
+    "PE_valuation": 52.284563, 
+    "DFC_valuation": -82.006730
+  },
+  "ratios": {
+    "ROIC": -23.132409,
+    "PB": 0.295988
+  },
+  "ownerEarnings": -201761000,
+  "growth_rate_revenue": 12.244953,
+  "growth_rate_net_income": 28.607732
+}

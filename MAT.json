@@ -1,0 +1,14 @@
+{
+  "ticker": "MAT",
+  "valuation": {
+    "PE_valuation": 17.090863, 
+    "DFC_valuation": 101.042437
+  },
+  "ratios": {
+    "ROIC": 6.646559,
+    "PB": 3.014832
+  },
+  "ownerEarnings": 569252000,
+  "growth_rate_revenue": 9.494860,
+  "growth_rate_net_income": 2261.441976
+}

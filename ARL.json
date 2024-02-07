@@ -1,0 +1,14 @@
+{
+  "ticker": "ARL",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 44.105944,
+    "PB": 0.675320
+  },
+  "ownerEarnings": 328607000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 54.320936
+}

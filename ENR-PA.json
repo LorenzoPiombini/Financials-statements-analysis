@@ -1,0 +1,14 @@
+{
+  "ticker": "ENR-PA",
+  "valuation": {
+    "PE_valuation": 26.176717, 
+    "DFC_valuation": 38.521379
+  },
+  "ratios": {
+    "ROIC": 8.706336,
+    "PB": 10.872615
+  },
+  "ownerEarnings": 597200000,
+  "growth_rate_revenue": -3.976379,
+  "growth_rate_net_income": -834.726427
+}

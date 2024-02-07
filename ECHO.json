@@ -1,0 +1,14 @@
+{
+  "ticker": "ECHO",
+  "valuation": {
+    "PE_valuation": 297.007552, 
+    "DFC_valuation": 32727.964967
+  },
+  "ratios": {
+    "ROIC": 3.526639,
+    "PB": 1.742972
+  },
+  "ownerEarnings": 76526000,
+  "growth_rate_revenue": 108.413286,
+  "growth_rate_net_income": -137.452373
+}

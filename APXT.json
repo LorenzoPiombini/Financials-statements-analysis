@@ -1,0 +1,14 @@
+{
+  "ticker": "APXT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -56.403983
+  },
+  "ratios": {
+    "ROIC": -1.754183,
+    "PB": 0.428386
+  },
+  "ownerEarnings": -5922123,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

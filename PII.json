@@ -1,0 +1,14 @@
+{
+  "ticker": "PII",
+  "valuation": {
+    "PE_valuation": 4026.584086, 
+    "DFC_valuation": 23761989.964697
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 1018900000,
+  "growth_rate_revenue": 94.375432,
+  "growth_rate_net_income": 306.012903
+}

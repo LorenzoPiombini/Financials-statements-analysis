@@ -1,0 +1,14 @@
+{
+  "ticker": "AGTC",
+  "valuation": {
+    "PE_valuation": 1.308426, 
+    "DFC_valuation": -62.724089
+  },
+  "ratios": {
+    "ROIC": 228.512725,
+    "PB": 1.176303
+  },
+  "ownerEarnings": -66393000,
+  "growth_rate_revenue": 502.674388,
+  "growth_rate_net_income": 51.806778
+}

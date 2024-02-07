@@ -1,0 +1,14 @@
+{
+  "ticker": "DAOOW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -1.429498
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": -42883.981771
+  },
+  "ownerEarnings": -164560,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

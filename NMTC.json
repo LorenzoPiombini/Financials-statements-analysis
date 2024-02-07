@@ -1,0 +1,14 @@
+{
+  "ticker": "NMTC",
+  "valuation": {
+    "PE_valuation": 183.367571, 
+    "DFC_valuation": -5312253.042492
+  },
+  "ratios": {
+    "ROIC": -180.641908,
+    "PB": 2.581852
+  },
+  "ownerEarnings": -12573083,
+  "growth_rate_revenue": 68.277014,
+  "growth_rate_net_income": 129.556157
+}

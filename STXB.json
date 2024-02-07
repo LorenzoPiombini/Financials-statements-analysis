@@ -1,0 +1,14 @@
+{
+  "ticker": "STXB",
+  "valuation": {
+    "PE_valuation": 51.032937, 
+    "DFC_valuation": 302.486258
+  },
+  "ratios": {
+    "ROIC": 1.584667,
+    "PB": 1.261520
+  },
+  "ownerEarnings": 73142000,
+  "growth_rate_revenue": 32.985908,
+  "growth_rate_net_income": 76.017974
+}

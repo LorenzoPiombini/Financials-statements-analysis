@@ -1,0 +1,14 @@
+{
+  "ticker": "RPT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 144.012460
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 93732000,
+  "growth_rate_revenue": -4.169842,
+  "growth_rate_net_income": -170.177041
+}

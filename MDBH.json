@@ -1,0 +1,14 @@
+{
+  "ticker": "MDBH",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -20.667217,
+    "PB": 0.000004
+  },
+  "ownerEarnings": -5191406,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

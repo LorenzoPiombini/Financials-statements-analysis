@@ -1,0 +1,14 @@
+{
+  "ticker": "ATEST-C",
+  "valuation": {
+    "PE_valuation": -10.459727, 
+    "DFC_valuation": 1687.517524
+  },
+  "ratios": {
+    "ROIC": 24.728968,
+    "PB": 49.387158
+  },
+  "ownerEarnings": 190057000,
+  "growth_rate_revenue": 55.821390,
+  "growth_rate_net_income": -48.791065
+}

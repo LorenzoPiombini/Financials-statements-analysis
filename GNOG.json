@@ -1,0 +1,14 @@
+{
+  "ticker": "GNOG",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.560420
+  },
+  "ratios": {
+    "ROIC": -263.049894,
+    "PB": -1.375684
+  },
+  "ownerEarnings": -4543000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

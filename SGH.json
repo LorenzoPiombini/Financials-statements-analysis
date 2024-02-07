@@ -1,0 +1,14 @@
+{
+  "ticker": "SGH",
+  "valuation": {
+    "PE_valuation": -51.144209, 
+    "DFC_valuation": 19.353088
+  },
+  "ratios": {
+    "ROIC": -0.187181,
+    "PB": 5.329222
+  },
+  "ownerEarnings": 189702000,
+  "growth_rate_revenue": 20.360842,
+  "growth_rate_net_income": -477.448486
+}

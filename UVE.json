@@ -1,0 +1,14 @@
+{
+  "ticker": "UVE",
+  "valuation": {
+    "PE_valuation": -6851.920829, 
+    "DFC_valuation": 5267070580.183750
+  },
+  "ratios": {
+    "ROIC": -2.616404,
+    "PB": 1.131148
+  },
+  "ownerEarnings": 14679000,
+  "growth_rate_revenue": 87.083333,
+  "growth_rate_net_income": 52.060440
+}

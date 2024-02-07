@@ -1,0 +1,14 @@
+{
+  "ticker": "AVHIU",
+  "valuation": {
+    "PE_valuation": 0.005982, 
+    "DFC_valuation": -21.474450
+  },
+  "ratios": {
+    "ROIC": -50.460586,
+    "PB": 20.116528
+  },
+  "ownerEarnings": -9189677,
+  "growth_rate_revenue": 22.080827,
+  "growth_rate_net_income": 554.248336
+}

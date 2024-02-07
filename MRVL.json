@@ -1,0 +1,14 @@
+{
+  "ticker": "MRVL",
+  "valuation": {
+    "PE_valuation": 9164.560226, 
+    "DFC_valuation": 2484749297.242167
+  },
+  "ratios": {
+    "ROIC": -3.557818,
+    "PB": 2.409284
+  },
+  "ownerEarnings": 1478100000,
+  "growth_rate_revenue": 958.964604,
+  "growth_rate_net_income": -863.741999
+}

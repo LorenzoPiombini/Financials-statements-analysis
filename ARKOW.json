@@ -1,0 +1,14 @@
+{
+  "ticker": "ARKOW",
+  "valuation": {
+    "PE_valuation": 10.621807, 
+    "DFC_valuation": 51.336428
+  },
+  "ratios": {
+    "ROIC": 2.696751,
+    "PB": 2.762312
+  },
+  "ownerEarnings": 382402000,
+  "growth_rate_revenue": 2.305081,
+  "growth_rate_net_income": -170.726167
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TBLTW",
+  "valuation": {
+    "PE_valuation": 622.359518, 
+    "DFC_valuation": -1183.669699
+  },
+  "ratios": {
+    "ROIC": -75.779600,
+    "PB": 33.746706
+  },
+  "ownerEarnings": -41143745,
+  "growth_rate_revenue": 67.686964,
+  "growth_rate_net_income": 165.530830
+}

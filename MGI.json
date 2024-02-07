@@ -1,0 +1,14 @@
+{
+  "ticker": "MGI",
+  "valuation": {
+    "PE_valuation": -3.006388, 
+    "DFC_valuation": -4.851140
+  },
+  "ratios": {
+    "ROIC": 10.323077,
+    "PB": -7.200247
+  },
+  "ownerEarnings": 224500000,
+  "growth_rate_revenue": 81.491668,
+  "growth_rate_net_income": -133.657069
+}

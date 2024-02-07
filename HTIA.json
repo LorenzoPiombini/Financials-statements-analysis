@@ -1,0 +1,14 @@
+{
+  "ticker": "HTIA",
+  "valuation": {
+    "PE_valuation": 462.760922, 
+    "DFC_valuation": 332.496849
+  },
+  "ratios": {
+    "ROIC": -0.078108,
+    "PB": 2.250493
+  },
+  "ownerEarnings": 184166000,
+  "growth_rate_revenue": 870.324988,
+  "growth_rate_net_income": 4263.195932
+}

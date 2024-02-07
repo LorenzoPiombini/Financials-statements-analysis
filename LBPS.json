@@ -1,0 +1,14 @@
+{
+  "ticker": "LBPS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -245.405332,
+    "PB": 2.639334
+  },
+  "ownerEarnings": -29855000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 107.216394
+}

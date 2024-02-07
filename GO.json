@@ -1,0 +1,14 @@
+{
+  "ticker": "GO",
+  "valuation": {
+    "PE_valuation": 28.460870, 
+    "DFC_valuation": 13.139851
+  },
+  "ratios": {
+    "ROIC": 2.291100,
+    "PB": 2.545403
+  },
+  "ownerEarnings": 296297000,
+  "growth_rate_revenue": 14.034829,
+  "growth_rate_net_income": 156.670984
+}

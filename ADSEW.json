@@ -1,0 +1,14 @@
+{
+  "ticker": "ADSEW",
+  "valuation": {
+    "PE_valuation": 2.328130, 
+    "DFC_valuation": -93.405740
+  },
+  "ratios": {
+    "ROIC": -48.070059,
+    "PB": 1.766335
+  },
+  "ownerEarnings": -35627000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

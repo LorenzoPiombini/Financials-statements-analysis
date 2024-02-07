@@ -1,0 +1,14 @@
+{
+  "ticker": "SFBC",
+  "valuation": {
+    "PE_valuation": 40.083924, 
+    "DFC_valuation": -31.744942
+  },
+  "ratios": {
+    "ROIC": 7.074181,
+    "PB": 1.036360
+  },
+  "ownerEarnings": 18064000,
+  "growth_rate_revenue": 7.059229,
+  "growth_rate_net_income": 38.883073
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FRGT",
+  "valuation": {
+    "PE_valuation": 0.007726, 
+    "DFC_valuation": -34.573747
+  },
+  "ratios": {
+    "ROIC": -110.213411,
+    "PB": 2856.137981
+  },
+  "ownerEarnings": -6497534,
+  "growth_rate_revenue": 53.944154,
+  "growth_rate_net_income": 10.619382
+}

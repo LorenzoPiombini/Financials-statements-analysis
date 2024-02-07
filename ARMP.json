@@ -1,0 +1,14 @@
+{
+  "ticker": "ARMP",
+  "valuation": {
+    "PE_valuation": 0.003161, 
+    "DFC_valuation": -61.459811
+  },
+  "ratios": {
+    "ROIC": -27.609735,
+    "PB": 1.178623
+  },
+  "ownerEarnings": -36948000,
+  "growth_rate_revenue": 766.032609,
+  "growth_rate_net_income": 40.268070
+}

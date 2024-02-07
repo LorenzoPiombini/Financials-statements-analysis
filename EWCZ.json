@@ -1,0 +1,14 @@
+{
+  "ticker": "EWCZ",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 47.332670
+  },
+  "ratios": {
+    "ROIC": 1.179395,
+    "PB": 6.305445
+  },
+  "ownerEarnings": 72322000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

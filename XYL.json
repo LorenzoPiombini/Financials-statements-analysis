@@ -1,0 +1,14 @@
+{
+  "ticker": "XYL",
+  "valuation": {
+    "PE_valuation": 97.028083, 
+    "DFC_valuation": 139.120089
+  },
+  "ratios": {
+    "ROIC": 9.104516,
+    "PB": 5.703089
+  },
+  "ownerEarnings": 1022000000,
+  "growth_rate_revenue": 8.529148,
+  "growth_rate_net_income": 10.230949
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "UFI",
+  "valuation": {
+    "PE_valuation": -49.964161, 
+    "DFC_valuation": -155.616253
+  },
+  "ratios": {
+    "ROIC": 3.278189,
+    "PB": 0.714830
+  },
+  "ownerEarnings": 18147000,
+  "growth_rate_revenue": 15.726489,
+  "growth_rate_net_income": 43.383890
+}

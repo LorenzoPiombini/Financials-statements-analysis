@@ -1,0 +1,14 @@
+{
+  "ticker": "RMCF",
+  "valuation": {
+    "PE_valuation": 11.267019, 
+    "DFC_valuation": 633.201414
+  },
+  "ratios": {
+    "ROIC": -0.115031,
+    "PB": 2.170749
+  },
+  "ownerEarnings": -5027001,
+  "growth_rate_revenue": 22.372750,
+  "growth_rate_net_income": inf
+}

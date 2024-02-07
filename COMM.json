@@ -1,0 +1,14 @@
+{
+  "ticker": "COMM",
+  "valuation": {
+    "PE_valuation": 22.913702, 
+    "DFC_valuation": -17.211439
+  },
+  "ratios": {
+    "ROIC": 5.125991,
+    "PB": -3.420215
+  },
+  "ownerEarnings": 2992200000,
+  "growth_rate_revenue": 4.602533,
+  "growth_rate_net_income": 119.717342
+}

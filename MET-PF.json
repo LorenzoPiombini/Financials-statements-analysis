@@ -1,0 +1,14 @@
+{
+  "ticker": "MET-PF",
+  "valuation": {
+    "PE_valuation": 216.633143, 
+    "DFC_valuation": 217443.677601
+  },
+  "ratios": {
+    "ROIC": 6.170815,
+    "PB": 2.149689
+  },
+  "ownerEarnings": 3723000000,
+  "growth_rate_revenue": 453.167145,
+  "growth_rate_net_income": 18.774918
+}

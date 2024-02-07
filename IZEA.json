@@ -1,0 +1,14 @@
+{
+  "ticker": "IZEA",
+  "valuation": {
+    "PE_valuation": 1.127695, 
+    "DFC_valuation": -13.085054
+  },
+  "ratios": {
+    "ROIC": -5.921078,
+    "PB": 1.920883
+  },
+  "ownerEarnings": -2698510,
+  "growth_rate_revenue": 58.262986,
+  "growth_rate_net_income": -143.023670
+}

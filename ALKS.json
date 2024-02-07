@@ -1,0 +1,14 @@
+{
+  "ticker": "ALKS",
+  "valuation": {
+    "PE_valuation": 1445.133216, 
+    "DFC_valuation": -155430.217056
+  },
+  "ratios": {
+    "ROIC": -9.329192,
+    "PB": 4.094193
+  },
+  "ownerEarnings": -118074000,
+  "growth_rate_revenue": 138.515822,
+  "growth_rate_net_income": 89.831600
+}

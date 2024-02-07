@@ -1,0 +1,14 @@
+{
+  "ticker": "BLRX",
+  "valuation": {
+    "PE_valuation": 0.001515, 
+    "DFC_valuation": -1.821376
+  },
+  "ratios": {
+    "ROIC": -33.761364,
+    "PB": 0.598775
+  },
+  "ownerEarnings": -22195000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -172.093889
+}

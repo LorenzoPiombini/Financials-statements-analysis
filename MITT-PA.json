@@ -1,0 +1,14 @@
+{
+  "ticker": "MITT-PA",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 4.124142,
+    "PB": 0.262632
+  },
+  "ownerEarnings": 24008000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 78.735672
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ROCC",
+  "valuation": {
+    "PE_valuation": 339.340820, 
+    "DFC_valuation": 3466.331448
+  },
+  "ratios": {
+    "ROIC": 61.427301,
+    "PB": 1.686395
+  },
+  "ownerEarnings": 1739074000,
+  "growth_rate_revenue": -4.518837,
+  "growth_rate_net_income": 7.507897
+}

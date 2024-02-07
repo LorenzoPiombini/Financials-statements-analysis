@@ -1,0 +1,14 @@
+{
+  "ticker": "BLDR",
+  "valuation": {
+    "PE_valuation": 621.282780, 
+    "DFC_valuation": 31885.236307
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 3609755000,
+  "growth_rate_revenue": 10.756395,
+  "growth_rate_net_income": -193.474814
+}

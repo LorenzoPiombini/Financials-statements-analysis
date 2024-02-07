@@ -1,0 +1,14 @@
+{
+  "ticker": "WYY",
+  "valuation": {
+    "PE_valuation": -225.181456, 
+    "DFC_valuation": 4806.524024
+  },
+  "ratios": {
+    "ROIC": -8.832062,
+    "PB": 0.895347
+  },
+  "ownerEarnings": 14903186,
+  "growth_rate_revenue": 155.427702,
+  "growth_rate_net_income": 143.008933
+}

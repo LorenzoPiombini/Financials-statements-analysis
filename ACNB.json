@@ -1,0 +1,14 @@
+{
+  "ticker": "ACNB",
+  "valuation": {
+    "PE_valuation": 14.486250, 
+    "DFC_valuation": 27.423573
+  },
+  "ratios": {
+    "ROIC": 12.168994,
+    "PB": 1.402970
+  },
+  "ownerEarnings": 47878000,
+  "growth_rate_revenue": 229.182417,
+  "growth_rate_net_income": 3.835388
+}

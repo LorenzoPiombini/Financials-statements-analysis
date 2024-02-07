@@ -1,0 +1,14 @@
+{
+  "ticker": "PBR",
+  "valuation": {
+    "PE_valuation": 154.658002, 
+    "DFC_valuation": 1350.652793
+  },
+  "ratios": {
+    "ROIC": 26.655288,
+    "PB": 0.999545
+  },
+  "ownerEarnings": 70319000000,
+  "growth_rate_revenue": 26.443068,
+  "growth_rate_net_income": 186.135019
+}

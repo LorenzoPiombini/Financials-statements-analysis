@@ -1,0 +1,14 @@
+{
+  "ticker": "ACHV",
+  "valuation": {
+    "PE_valuation": 0.006215, 
+    "DFC_valuation": -131.212488
+  },
+  "ratios": {
+    "ROIC": -163.806988,
+    "PB": 3.125730
+  },
+  "ownerEarnings": -41809000,
+  "growth_rate_revenue": 164.018562,
+  "growth_rate_net_income": -381.817331
+}

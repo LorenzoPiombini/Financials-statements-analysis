@@ -1,0 +1,14 @@
+{
+  "ticker": "AINV",
+  "valuation": {
+    "PE_valuation": 13.244665, 
+    "DFC_valuation": -46.803122
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.848807
+  },
+  "ownerEarnings": 192404000,
+  "growth_rate_revenue": 80.975070,
+  "growth_rate_net_income": 452.656487
+}

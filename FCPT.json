@@ -1,0 +1,14 @@
+{
+  "ticker": "FCPT",
+  "valuation": {
+    "PE_valuation": 107.499680, 
+    "DFC_valuation": 1138.168195
+  },
+  "ratios": {
+    "ROIC": 5.887812,
+    "PB": 1.862268
+  },
+  "ownerEarnings": 190933000,
+  "growth_rate_revenue": 93.537468,
+  "growth_rate_net_income": 5035.601984
+}

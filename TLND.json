@@ -1,0 +1,14 @@
+{
+  "ticker": "TLND",
+  "valuation": {
+    "PE_valuation": 122.878678, 
+    "DFC_valuation": -171.239773
+  },
+  "ratios": {
+    "ROIC": -78.189536,
+    "PB": 138.573284
+  },
+  "ownerEarnings": -95542000,
+  "growth_rate_revenue": 39.128141,
+  "growth_rate_net_income": 20.078718
+}

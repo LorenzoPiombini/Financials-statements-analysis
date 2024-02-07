@@ -1,0 +1,14 @@
+{
+  "ticker": "ELY",
+  "valuation": {
+    "PE_valuation": 482.009349, 
+    "DFC_valuation": -17990.417635
+  },
+  "ratios": {
+    "ROIC": 2.722595,
+    "PB": 1.259912
+  },
+  "ownerEarnings": 992529000,
+  "growth_rate_revenue": 122.055979,
+  "growth_rate_net_income": 171.618110
+}

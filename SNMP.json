@@ -1,0 +1,14 @@
+{
+  "ticker": "SNMP",
+  "valuation": {
+    "PE_valuation": 54.947393, 
+    "DFC_valuation": 13.858463
+  },
+  "ratios": {
+    "ROIC": -3.456773,
+    "PB": -2.474009
+  },
+  "ownerEarnings": 86355000,
+  "growth_rate_revenue": 75.413781,
+  "growth_rate_net_income": 384.634061
+}

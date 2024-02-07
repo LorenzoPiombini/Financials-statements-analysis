@@ -1,0 +1,14 @@
+{
+  "ticker": "SLAB",
+  "valuation": {
+    "PE_valuation": 638.471545, 
+    "DFC_valuation": 2523.305998
+  },
+  "ratios": {
+    "ROIC": 4.290172,
+    "PB": 3.387965
+  },
+  "ownerEarnings": 110143000,
+  "growth_rate_revenue": 89.098016,
+  "growth_rate_net_income": -88.951229
+}

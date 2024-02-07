@@ -1,0 +1,14 @@
+{
+  "ticker": "WSBCP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 6.315582,
+    "PB": 1.024990
+  },
+  "ownerEarnings": 282821000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 19.154133
+}

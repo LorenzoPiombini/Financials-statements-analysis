@@ -1,0 +1,14 @@
+{
+  "ticker": "HLI",
+  "valuation": {
+    "PE_valuation": 96.860090, 
+    "DFC_valuation": 147.844985
+  },
+  "ratios": {
+    "ROIC": 11.412676,
+    "PB": 3.404310
+  },
+  "ownerEarnings": 226715000,
+  "growth_rate_revenue": 16.387707,
+  "growth_rate_net_income": 31.073380
+}

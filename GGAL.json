@@ -1,0 +1,14 @@
+{
+  "ticker": "GGAL",
+  "valuation": {
+    "PE_valuation": 71207.108484, 
+    "DFC_valuation": 7553601445.531394
+  },
+  "ratios": {
+    "ROIC": 8.533616,
+    "PB": 4.198562
+  },
+  "ownerEarnings": 47211574000,
+  "growth_rate_revenue": 36.732536,
+  "growth_rate_net_income": -688.674299
+}

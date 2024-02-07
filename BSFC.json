@@ -1,0 +1,14 @@
+{
+  "ticker": "BSFC",
+  "valuation": {
+    "PE_valuation": 2.693510, 
+    "DFC_valuation": -5.831859
+  },
+  "ratios": {
+    "ROIC": -298.079344,
+    "PB": -161.567572
+  },
+  "ownerEarnings": -9279593,
+  "growth_rate_revenue": -27.624603,
+  "growth_rate_net_income": 749.718072
+}

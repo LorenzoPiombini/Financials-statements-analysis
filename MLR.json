@@ -1,0 +1,14 @@
+{
+  "ticker": "MLR",
+  "valuation": {
+    "PE_valuation": 67.004547, 
+    "DFC_valuation": -1389.066835
+  },
+  "ratios": {
+    "ROIC": 4.031368,
+    "PB": 1.037212
+  },
+  "ownerEarnings": 43538000,
+  "growth_rate_revenue": 61.041373,
+  "growth_rate_net_income": -849.258309
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "HARP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 197.964955,
+    "PB": 4.458160
+  },
+  "ownerEarnings": -74257000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 112.056504
+}

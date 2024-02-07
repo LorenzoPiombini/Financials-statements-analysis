@@ -1,0 +1,14 @@
+{
+  "ticker": "BJRI",
+  "valuation": {
+    "PE_valuation": 62.709381, 
+    "DFC_valuation": -157178.974708
+  },
+  "ratios": {
+    "ROIC": -0.028327,
+    "PB": 1.818805
+  },
+  "ownerEarnings": 161145000,
+  "growth_rate_revenue": 78.229665,
+  "growth_rate_net_income": 127.829718
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FNLC",
+  "valuation": {
+    "PE_valuation": 371.330357, 
+    "DFC_valuation": 131916.291486
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -36489000,
+  "growth_rate_revenue": 182.873516,
+  "growth_rate_net_income": 14.310947
+}

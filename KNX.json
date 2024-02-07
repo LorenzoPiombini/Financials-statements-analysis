@@ -1,0 +1,14 @@
+{
+  "ticker": "KNX",
+  "valuation": {
+    "PE_valuation": 1414.617367, 
+    "DFC_valuation": 546949.516374
+  },
+  "ratios": {
+    "ROIC": 3.232804,
+    "PB": 1.224484
+  },
+  "ownerEarnings": 1015083000,
+  "growth_rate_revenue": 40.699096,
+  "growth_rate_net_income": 38.426552
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MYJ",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 7.443675,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 29392352,
+  "growth_rate_revenue": -inf,
+  "growth_rate_net_income": -inf
+}

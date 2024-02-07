@@ -1,0 +1,14 @@
+{
+  "ticker": "FPH",
+  "valuation": {
+    "PE_valuation": -7.803535, 
+    "DFC_valuation": -188.571727
+  },
+  "ratios": {
+    "ROIC": -2.829289,
+    "PB": 0.254129
+  },
+  "ownerEarnings": -25295000,
+  "growth_rate_revenue": 114.907088,
+  "growth_rate_net_income": 103.043121
+}

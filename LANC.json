@@ -1,0 +1,14 @@
+{
+  "ticker": "LANC",
+  "valuation": {
+    "PE_valuation": 237.214905, 
+    "DFC_valuation": 594.043223
+  },
+  "ratios": {
+    "ROIC": 11.916261,
+    "PB": 6.404436
+  },
+  "ownerEarnings": 264986000,
+  "growth_rate_revenue": 3.327450,
+  "growth_rate_net_income": 23.285891
+}

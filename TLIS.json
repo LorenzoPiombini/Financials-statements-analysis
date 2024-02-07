@@ -1,0 +1,14 @@
+{
+  "ticker": "TLIS",
+  "valuation": {
+    "PE_valuation": 154.291627, 
+    "DFC_valuation": -120.387344
+  },
+  "ratios": {
+    "ROIC": -58.262104,
+    "PB": 0.093724
+  },
+  "ownerEarnings": -110062000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 56.977965
+}

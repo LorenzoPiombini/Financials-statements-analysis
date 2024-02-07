@@ -1,0 +1,14 @@
+{
+  "ticker": "DH",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 13.873246
+  },
+  "ratios": {
+    "ROIC": -1.053319,
+    "PB": 1.167106
+  },
+  "ownerEarnings": 39147000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

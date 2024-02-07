@@ -1,0 +1,14 @@
+{
+  "ticker": "MDNA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 11.300881,
+    "PB": 1.870301
+  },
+  "ownerEarnings": -23010000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 40123.388105
+}

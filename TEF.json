@@ -1,0 +1,14 @@
+{
+  "ticker": "TEF",
+  "valuation": {
+    "PE_valuation": 9.927648, 
+    "DFC_valuation": 347.332822
+  },
+  "ratios": {
+    "ROIC": 7.487057,
+    "PB": 0.764996
+  },
+  "ownerEarnings": 19063000000,
+  "growth_rate_revenue": 23.328234,
+  "growth_rate_net_income": inf
+}

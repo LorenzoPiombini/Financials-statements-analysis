@@ -1,0 +1,14 @@
+{
+  "ticker": "LFT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 0.456300,
+    "PB": 0.203671
+  },
+  "ownerEarnings": 384472,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

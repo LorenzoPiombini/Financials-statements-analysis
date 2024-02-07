@@ -1,0 +1,14 @@
+{
+  "ticker": "BASE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -75.834168
+  },
+  "ratios": {
+    "ROIC": -41.485298,
+    "PB": 4.408240
+  },
+  "ownerEarnings": -83895000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

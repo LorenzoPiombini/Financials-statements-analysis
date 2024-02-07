@@ -1,0 +1,14 @@
+{
+  "ticker": "BNR",
+  "valuation": {
+    "PE_valuation": 356.766565, 
+    "DFC_valuation": -906.364014
+  },
+  "ratios": {
+    "ROIC": -77.974693,
+    "PB": 1.392084
+  },
+  "ownerEarnings": -1259853000,
+  "growth_rate_revenue": 53.074369,
+  "growth_rate_net_income": 71.785940
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AGX",
+  "valuation": {
+    "PE_valuation": 380.327835, 
+    "DFC_valuation": -45594.624175
+  },
+  "ratios": {
+    "ROIC": 11.067997,
+    "PB": 1.954795
+  },
+  "ownerEarnings": 29171000,
+  "growth_rate_revenue": 9.418016,
+  "growth_rate_net_income": -62.500000
+}

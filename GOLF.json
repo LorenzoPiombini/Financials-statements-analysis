@@ -1,0 +1,14 @@
+{
+  "ticker": "GOLF",
+  "valuation": {
+    "PE_valuation": 47.298059, 
+    "DFC_valuation": -214.714099
+  },
+  "ratios": {
+    "ROIC": 14.768888,
+    "PB": 3.253665
+  },
+  "ownerEarnings": 384438000,
+  "growth_rate_revenue": 2.597662,
+  "growth_rate_net_income": -1185.315010
+}

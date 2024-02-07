@@ -1,0 +1,14 @@
+{
+  "ticker": "MOMO",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 8.516648,
+    "PB": 1.146575
+  },
+  "ownerEarnings": 939884000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 324.723719
+}

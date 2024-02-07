@@ -1,0 +1,14 @@
+{
+  "ticker": "TVTY",
+  "valuation": {
+    "PE_valuation": 103.537999, 
+    "DFC_valuation": 1525.666118
+  },
+  "ratios": {
+    "ROIC": 29.431910,
+    "PB": 10.839095
+  },
+  "ownerEarnings": 187964000,
+  "growth_rate_revenue": 18.245687,
+  "growth_rate_net_income": 526.118088
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VVOS",
+  "valuation": {
+    "PE_valuation": 337.343380, 
+    "DFC_valuation": -85.865629
+  },
+  "ratios": {
+    "ROIC": -247.076045,
+    "PB": 1.926864
+  },
+  "ownerEarnings": -25935000,
+  "growth_rate_revenue": 34.811418,
+  "growth_rate_net_income": 12.544198
+}

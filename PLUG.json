@@ -1,0 +1,14 @@
+{
+  "ticker": "PLUG",
+  "valuation": {
+    "PE_valuation": 176.080133, 
+    "DFC_valuation": -90831.135225
+  },
+  "ratios": {
+    "ROIC": -12.031413,
+    "PB": 1.766187
+  },
+  "ownerEarnings": -263283000,
+  "growth_rate_revenue": 31.387623,
+  "growth_rate_net_income": 91.999539
+}

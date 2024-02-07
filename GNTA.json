@@ -1,0 +1,14 @@
+{
+  "ticker": "GNTA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -15.164954,
+    "PB": 3.013617
+  },
+  "ownerEarnings": -11733517,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NFG",
+  "valuation": {
+    "PE_valuation": 55.213628, 
+    "DFC_valuation": 138.131903
+  },
+  "ratios": {
+    "ROIC": 9.962718,
+    "PB": 1.608409
+  },
+  "ownerEarnings": 1971287000,
+  "growth_rate_revenue": -1.364447,
+  "growth_rate_net_income": 4.040124
+}

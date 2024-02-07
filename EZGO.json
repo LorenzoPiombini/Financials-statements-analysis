@@ -1,0 +1,14 @@
+{
+  "ticker": "EZGO",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -60.791410
+  },
+  "ratios": {
+    "ROIC": -6.833157,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 2821835,
+  "growth_rate_revenue": 72.955233,
+  "growth_rate_net_income": -263.488790
+}

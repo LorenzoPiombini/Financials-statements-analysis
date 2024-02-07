@@ -1,0 +1,14 @@
+{
+  "ticker": "CDZI",
+  "valuation": {
+    "PE_valuation": 0.622473, 
+    "DFC_valuation": -21.719737
+  },
+  "ratios": {
+    "ROIC": -13.157654,
+    "PB": 3.643091
+  },
+  "ownerEarnings": -6134000,
+  "growth_rate_revenue": -54.089709,
+  "growth_rate_net_income": -497.284054
+}

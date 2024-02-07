@@ -1,0 +1,14 @@
+{
+  "ticker": "TMDI",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -38.823957,
+    "PB": 1.186843
+  },
+  "ownerEarnings": -17190000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 305.367922
+}

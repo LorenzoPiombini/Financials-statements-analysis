@@ -1,0 +1,14 @@
+{
+  "ticker": "ABBV",
+  "valuation": {
+    "PE_valuation": 250.105265, 
+    "DFC_valuation": 1586.104024
+  },
+  "ratios": {
+    "ROIC": 19.774130,
+    "PB": 16.588113
+  },
+  "ownerEarnings": 28269000000,
+  "growth_rate_revenue": 8.847173,
+  "growth_rate_net_income": -13.209239
+}

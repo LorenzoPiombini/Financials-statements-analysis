@@ -1,0 +1,14 @@
+{
+  "ticker": "BKEP",
+  "valuation": {
+    "PE_valuation": 0.049746, 
+    "DFC_valuation": 70.634624
+  },
+  "ratios": {
+    "ROIC": 28.040543,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 44936000,
+  "growth_rate_revenue": 61.474371,
+  "growth_rate_net_income": -0.577365
+}

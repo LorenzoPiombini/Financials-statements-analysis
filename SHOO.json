@@ -1,0 +1,14 @@
+{
+  "ticker": "SHOO",
+  "valuation": {
+    "PE_valuation": 3330.511379, 
+    "DFC_valuation": 7480175.030460
+  },
+  "ratios": {
+    "ROIC": 20.661274,
+    "PB": 2.921800
+  },
+  "ownerEarnings": 230396000,
+  "growth_rate_revenue": 169.075368,
+  "growth_rate_net_income": -122.669363
+}

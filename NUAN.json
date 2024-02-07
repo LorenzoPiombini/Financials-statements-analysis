@@ -1,0 +1,14 @@
+{
+  "ticker": "NUAN",
+  "valuation": {
+    "PE_valuation": 90.164987, 
+    "DFC_valuation": 255871.576652
+  },
+  "ratios": {
+    "ROIC": 4.110650,
+    "PB": 9.917329
+  },
+  "ownerEarnings": 178172000,
+  "growth_rate_revenue": 221.690504,
+  "growth_rate_net_income": -1.398005
+}

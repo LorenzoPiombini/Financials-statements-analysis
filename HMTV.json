@@ -1,0 +1,14 @@
+{
+  "ticker": "HMTV",
+  "valuation": {
+    "PE_valuation": -16.240318, 
+    "DFC_valuation": -12.982107
+  },
+  "ratios": {
+    "ROIC": 1.470749,
+    "PB": 1.148818
+  },
+  "ownerEarnings": 11161000,
+  "growth_rate_revenue": 22.683554,
+  "growth_rate_net_income": -94.607537
+}

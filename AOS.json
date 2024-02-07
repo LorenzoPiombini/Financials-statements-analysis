@@ -1,0 +1,14 @@
+{
+  "ticker": "AOS",
+  "valuation": {
+    "PE_valuation": 63.249341, 
+    "DFC_valuation": 1476.599397
+  },
+  "ratios": {
+    "ROIC": 11.492946,
+    "PB": 4.951359
+  },
+  "ownerEarnings": 390600000,
+  "growth_rate_revenue": 1.150457,
+  "growth_rate_net_income": -213.879793
+}

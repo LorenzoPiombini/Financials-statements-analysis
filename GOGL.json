@@ -1,0 +1,14 @@
+{
+  "ticker": "GOGL",
+  "valuation": {
+    "PE_valuation": 46.450875, 
+    "DFC_valuation": 5716.495449
+  },
+  "ratios": {
+    "ROIC": 13.225613,
+    "PB": 0.871953
+  },
+  "ownerEarnings": 607107000,
+  "growth_rate_revenue": 7.975983,
+  "growth_rate_net_income": 38.931008
+}

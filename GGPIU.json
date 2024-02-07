@@ -1,0 +1,14 @@
+{
+  "ticker": "GGPIU",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -3.938567
+  },
+  "ratios": {
+    "ROIC": -10.233934,
+    "PB": 1.740353
+  },
+  "ownerEarnings": -81941027,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

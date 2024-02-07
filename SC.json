@@ -1,0 +1,14 @@
+{
+  "ticker": "SC",
+  "valuation": {
+    "PE_valuation": 27.226326, 
+    "DFC_valuation": -1095.500588
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 1.243407
+  },
+  "ownerEarnings": 12405564000,
+  "growth_rate_revenue": 32.012052,
+  "growth_rate_net_income": 20.948504
+}

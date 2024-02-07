@@ -1,0 +1,14 @@
+{
+  "ticker": "TJX",
+  "valuation": {
+    "PE_valuation": 508.567719, 
+    "DFC_valuation": 10735.955417
+  },
+  "ratios": {
+    "ROIC": 13.447170,
+    "PB": 15.199174
+  },
+  "ownerEarnings": 6604000000,
+  "growth_rate_revenue": 18.291143,
+  "growth_rate_net_income": -139.160792
+}

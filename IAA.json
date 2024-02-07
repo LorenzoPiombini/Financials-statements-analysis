@@ -1,0 +1,14 @@
+{
+  "ticker": "IAA",
+  "valuation": {
+    "PE_valuation": 59.404891, 
+    "DFC_valuation": 107.312402
+  },
+  "ratios": {
+    "ROIC": 12.312858,
+    "PB": 9.441213
+  },
+  "ownerEarnings": 669900000,
+  "growth_rate_revenue": 8.742897,
+  "growth_rate_net_income": 23.862934
+}

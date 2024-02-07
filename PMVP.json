@@ -1,0 +1,14 @@
+{
+  "ticker": "PMVP",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -28.115389,
+    "PB": 1.601722
+  },
+  "ownerEarnings": -82641000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 18.777194
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GBDC",
+  "valuation": {
+    "PE_valuation": 36.823890, 
+    "DFC_valuation": 327.713804
+  },
+  "ratios": {
+    "ROIC": 5.096933,
+    "PB": 0.980685
+  },
+  "ownerEarnings": 319747000,
+  "growth_rate_revenue": 22.514766,
+  "growth_rate_net_income": 37.073520
+}

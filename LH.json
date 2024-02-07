@@ -1,0 +1,14 @@
+{
+  "ticker": "LH",
+  "valuation": {
+    "PE_valuation": 1398.634015, 
+    "DFC_valuation": 402183.183723
+  },
+  "ratios": {
+    "ROIC": 8.274935,
+    "PB": 1.937525
+  },
+  "ownerEarnings": 2970300000,
+  "growth_rate_revenue": 24.529997,
+  "growth_rate_net_income": inf
+}

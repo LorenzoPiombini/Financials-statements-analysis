@@ -1,0 +1,14 @@
+{
+  "ticker": "ENLC",
+  "valuation": {
+    "PE_valuation": -15.202986, 
+    "DFC_valuation": 3401.340257
+  },
+  "ratios": {
+    "ROIC": 1.036695,
+    "PB": 2.020651
+  },
+  "ownerEarnings": 759800000,
+  "growth_rate_revenue": 73.014363,
+  "growth_rate_net_income": 71.671021
+}

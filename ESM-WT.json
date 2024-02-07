@@ -1,0 +1,14 @@
+{
+  "ticker": "ESM-WT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -2.498986
+  },
+  "ratios": {
+    "ROIC": -2.267283,
+    "PB": 1.136528
+  },
+  "ownerEarnings": -18925305,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

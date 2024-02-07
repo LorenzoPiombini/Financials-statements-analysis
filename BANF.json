@@ -1,0 +1,14 @@
+{
+  "ticker": "BANF",
+  "valuation": {
+    "PE_valuation": 313.440426, 
+    "DFC_valuation": 5078.120354
+  },
+  "ratios": {
+    "ROIC": 14.444079,
+    "PB": 2.310771
+  },
+  "ownerEarnings": 232992000,
+  "growth_rate_revenue": 17.323422,
+  "growth_rate_net_income": 8.958806
+}

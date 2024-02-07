@@ -1,0 +1,14 @@
+{
+  "ticker": "ITRN",
+  "valuation": {
+    "PE_valuation": 59.336575, 
+    "DFC_valuation": 168.019919
+  },
+  "ratios": {
+    "ROIC": 26.060528,
+    "PB": 2.959130
+  },
+  "ownerEarnings": 98520000,
+  "growth_rate_revenue": 21.318952,
+  "growth_rate_net_income": 154.986489
+}

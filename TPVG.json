@@ -1,0 +1,14 @@
+{
+  "ticker": "TPVG",
+  "valuation": {
+    "PE_valuation": -19.080132, 
+    "DFC_valuation": -464.037214
+  },
+  "ratios": {
+    "ROIC": 18.137379,
+    "PB": 0.811918
+  },
+  "ownerEarnings": 165563000,
+  "growth_rate_revenue": 24.259114,
+  "growth_rate_net_income": 33.172610
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LFMDP",
+  "valuation": {
+    "PE_valuation": 46.506160, 
+    "DFC_valuation": -102238.634477
+  },
+  "ratios": {
+    "ROIC": 2915.416193,
+    "PB": -8.798641
+  },
+  "ownerEarnings": -28445589,
+  "growth_rate_revenue": 99.842314,
+  "growth_rate_net_income": 405.128905
+}

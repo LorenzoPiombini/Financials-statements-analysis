@@ -1,0 +1,14 @@
+{
+  "ticker": "HA",
+  "valuation": {
+    "PE_valuation": 43.108264, 
+    "DFC_valuation": -6708.692503
+  },
+  "ratios": {
+    "ROIC": -5.177170,
+    "PB": 1.581216
+  },
+  "ownerEarnings": 67205000,
+  "growth_rate_revenue": 81.251680,
+  "growth_rate_net_income": -353.263360
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LVLU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -0.396650
+  },
+  "ratios": {
+    "ROIC": 2.669702,
+    "PB": 0.782477
+  },
+  "ownerEarnings": -1147000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

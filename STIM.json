@@ -1,0 +1,14 @@
+{
+  "ticker": "STIM",
+  "valuation": {
+    "PE_valuation": 6.624557, 
+    "DFC_valuation": -87.235380
+  },
+  "ratios": {
+    "ROIC": -36.826639,
+    "PB": 3.238749
+  },
+  "ownerEarnings": -36737000,
+  "growth_rate_revenue": 14.573163,
+  "growth_rate_net_income": 34.936942
+}

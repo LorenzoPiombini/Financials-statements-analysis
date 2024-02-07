@@ -1,0 +1,14 @@
+{
+  "ticker": "RICK",
+  "valuation": {
+    "PE_valuation": 409.948616, 
+    "DFC_valuation": 29563.848103
+  },
+  "ratios": {
+    "ROIC": 6.973936,
+    "PB": 2.011218
+  },
+  "ownerEarnings": 113214000,
+  "growth_rate_revenue": 23.536922,
+  "growth_rate_net_income": -60.782967
+}

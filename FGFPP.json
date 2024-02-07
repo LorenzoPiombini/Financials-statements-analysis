@@ -1,0 +1,14 @@
+{
+  "ticker": "FGFPP",
+  "valuation": {
+    "PE_valuation": 11.956399, 
+    "DFC_valuation": -13397.751420
+  },
+  "ratios": {
+    "ROIC": 1.453593,
+    "PB": 0.613643
+  },
+  "ownerEarnings": 274000,
+  "growth_rate_revenue": 417.709889,
+  "growth_rate_net_income": 565.521012
+}

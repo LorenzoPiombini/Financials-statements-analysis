@@ -1,0 +1,14 @@
+{
+  "ticker": "DISH",
+  "valuation": {
+    "PE_valuation": 393.840962, 
+    "DFC_valuation": -733520.482595
+  },
+  "ratios": {
+    "ROIC": 3.500361,
+    "PB": 0.414813
+  },
+  "ownerEarnings": 11860159000,
+  "growth_rate_revenue": 77.391161,
+  "growth_rate_net_income": -2606.196126
+}

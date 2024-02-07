@@ -1,0 +1,14 @@
+{
+  "ticker": "EW",
+  "valuation": {
+    "PE_valuation": 226.188006, 
+    "DFC_valuation": 281.100115
+  },
+  "ratios": {
+    "ROIC": 22.836725,
+    "PB": 7.953500
+  },
+  "ownerEarnings": 1703500000,
+  "growth_rate_revenue": 1.781166,
+  "growth_rate_net_income": -286.869770
+}

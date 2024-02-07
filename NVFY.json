@@ -1,0 +1,14 @@
+{
+  "ticker": "NVFY",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -14727456,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -4863.013957
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LGND",
+  "valuation": {
+    "PE_valuation": -3.519734, 
+    "DFC_valuation": 5807.644631
+  },
+  "ratios": {
+    "ROIC": 0.530833,
+    "PB": 1.885876
+  },
+  "ownerEarnings": -136372000,
+  "growth_rate_revenue": 60.053290,
+  "growth_rate_net_income": 61.164054
+}

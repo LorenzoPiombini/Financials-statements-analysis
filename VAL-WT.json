@@ -1,0 +1,14 @@
+{
+  "ticker": "VAL-WT",
+  "valuation": {
+    "PE_valuation": -2.966728, 
+    "DFC_valuation": -225.744172
+  },
+  "ratios": {
+    "ROIC": 13.353081,
+    "PB": 3.912676
+  },
+  "ownerEarnings": 618000000,
+  "growth_rate_revenue": 38.637272,
+  "growth_rate_net_income": 101.705320
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CWH",
+  "valuation": {
+    "PE_valuation": 28.277567, 
+    "DFC_valuation": -144.890660
+  },
+  "ratios": {
+    "ROIC": 9.122299,
+    "PB": 6.795650
+  },
+  "ownerEarnings": 771317000,
+  "growth_rate_revenue": 19.362812,
+  "growth_rate_net_income": 70.012208
+}

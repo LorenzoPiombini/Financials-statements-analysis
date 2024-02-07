@@ -1,0 +1,14 @@
+{
+  "ticker": "WAB",
+  "valuation": {
+    "PE_valuation": 615.334663, 
+    "DFC_valuation": 15631.139471
+  },
+  "ratios": {
+    "ROIC": 5.380331,
+    "PB": 1.800176
+  },
+  "ownerEarnings": 1512000000,
+  "growth_rate_revenue": 23.533373,
+  "growth_rate_net_income": 11.358277
+}

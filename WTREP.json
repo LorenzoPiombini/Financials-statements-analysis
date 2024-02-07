@@ -1,0 +1,14 @@
+{
+  "ticker": "WTREP",
+  "valuation": {
+    "PE_valuation": 0.000660, 
+    "DFC_valuation": -0.050516
+  },
+  "ratios": {
+    "ROIC": -0.031877,
+    "PB": 0.496645
+  },
+  "ownerEarnings": 11724966,
+  "growth_rate_revenue": -48.742377,
+  "growth_rate_net_income": -249.157225
+}

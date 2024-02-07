@@ -1,0 +1,14 @@
+{
+  "ticker": "DOLE",
+  "valuation": {
+    "PE_valuation": 30.667587, 
+    "DFC_valuation": 81.631303
+  },
+  "ratios": {
+    "ROIC": 5.295119,
+    "PB": 0.788587
+  },
+  "ownerEarnings": 423036000,
+  "growth_rate_revenue": -2.334999,
+  "growth_rate_net_income": -159.589209
+}

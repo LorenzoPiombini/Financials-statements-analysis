@@ -1,0 +1,14 @@
+{
+  "ticker": "GIB",
+  "valuation": {
+    "PE_valuation": 2856.447059, 
+    "DFC_valuation": 1003482.919296
+  },
+  "ratios": {
+    "ROIC": 13.682346,
+    "PB": 3.793329
+  },
+  "ownerEarnings": 2605582000,
+  "growth_rate_revenue": 90.370444,
+  "growth_rate_net_income": 222.813612
+}

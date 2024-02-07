@@ -1,0 +1,14 @@
+{
+  "ticker": "PLUS",
+  "valuation": {
+    "PE_valuation": 514.206174, 
+    "DFC_valuation": -7892.515295
+  },
+  "ratios": {
+    "ROIC": 12.712963,
+    "PB": 1.665604
+  },
+  "ownerEarnings": 146821000,
+  "growth_rate_revenue": 64.561914,
+  "growth_rate_net_income": 58.059897
+}

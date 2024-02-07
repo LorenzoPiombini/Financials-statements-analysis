@@ -1,0 +1,14 @@
+{
+  "ticker": "IMOS",
+  "valuation": {
+    "PE_valuation": 685.509000, 
+    "DFC_valuation": 336.913723
+  },
+  "ratios": {
+    "ROIC": 6.791336,
+    "PB": 0.971511
+  },
+  "ownerEarnings": 11717251000,
+  "growth_rate_revenue": 0.691942,
+  "growth_rate_net_income": 75.864843
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "IMUX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -131.727169,
+    "PB": 0.391846
+  },
+  "ownerEarnings": -94335000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 108.954501
+}

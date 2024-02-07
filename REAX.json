@@ -1,0 +1,14 @@
+{
+  "ticker": "REAX",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 613.121293
+  },
+  "ratios": {
+    "ROIC": -86.806802,
+    "PB": 8.446689
+  },
+  "ownerEarnings": -32703000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

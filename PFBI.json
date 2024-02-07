@@ -1,0 +1,14 @@
+{
+  "ticker": "PFBI",
+  "valuation": {
+    "PE_valuation": 0.042287, 
+    "DFC_valuation": 119.428695
+  },
+  "ratios": {
+    "ROIC": 62.767959,
+    "PB": 0.744279
+  },
+  "ownerEarnings": 14968000,
+  "growth_rate_revenue": 34.346466,
+  "growth_rate_net_income": 12.480739
+}

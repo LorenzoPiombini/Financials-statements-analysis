@@ -1,0 +1,14 @@
+{
+  "ticker": "MELI",
+  "valuation": {
+    "PE_valuation": -431808.052214, 
+    "DFC_valuation": 6414027847.716990
+  },
+  "ratios": {
+    "ROIC": 8.091161,
+    "PB": 23.319240
+  },
+  "ownerEarnings": 2028000000,
+  "growth_rate_revenue": 156.606467,
+  "growth_rate_net_income": 134.971589
+}

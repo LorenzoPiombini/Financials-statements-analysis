@@ -1,0 +1,14 @@
+{
+  "ticker": "CSTL",
+  "valuation": {
+    "PE_valuation": 246.785590, 
+    "DFC_valuation": -692.817536
+  },
+  "ratios": {
+    "ROIC": -20.857750,
+    "PB": 1.536543
+  },
+  "ownerEarnings": -127792000,
+  "growth_rate_revenue": 77.478167,
+  "growth_rate_net_income": -51.864767
+}

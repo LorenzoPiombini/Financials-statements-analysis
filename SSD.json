@@ -1,0 +1,14 @@
+{
+  "ticker": "SSD",
+  "valuation": {
+    "PE_valuation": 715.182217, 
+    "DFC_valuation": 10094.197926
+  },
+  "ratios": {
+    "ROIC": 16.361823,
+    "PB": 2.678907
+  },
+  "ownerEarnings": 424268000,
+  "growth_rate_revenue": 24.808314,
+  "growth_rate_net_income": 54.106257
+}

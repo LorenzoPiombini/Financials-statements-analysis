@@ -1,0 +1,14 @@
+{
+  "ticker": "RPM",
+  "valuation": {
+    "PE_valuation": 511.190311, 
+    "DFC_valuation": 7722.954941
+  },
+  "ratios": {
+    "ROIC": 0.006554,
+    "PB": 4.752239
+  },
+  "ownerEarnings": 235145700,
+  "growth_rate_revenue": 18.579575,
+  "growth_rate_net_income": 25.782509
+}

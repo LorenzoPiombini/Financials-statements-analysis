@@ -1,0 +1,14 @@
+{
+  "ticker": "SYY",
+  "valuation": {
+    "PE_valuation": 567.984936, 
+    "DFC_valuation": 8822.863080
+  },
+  "ratios": {
+    "ROIC": 16.895502,
+    "PB": 18.742366
+  },
+  "ownerEarnings": 4336102000,
+  "growth_rate_revenue": 27.397601,
+  "growth_rate_net_income": 27.297477
+}

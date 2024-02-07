@@ -1,0 +1,14 @@
+{
+  "ticker": "CDXS",
+  "valuation": {
+    "PE_valuation": 117.478963, 
+    "DFC_valuation": 22.876057
+  },
+  "ratios": {
+    "ROIC": -13.778737,
+    "PB": 2.102965
+  },
+  "ownerEarnings": -33445000,
+  "growth_rate_revenue": 79.308657,
+  "growth_rate_net_income": 26.340784
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AMRS",
+  "valuation": {
+    "PE_valuation": 9.350651, 
+    "DFC_valuation": -2449.335425
+  },
+  "ratios": {
+    "ROIC": -100.566430,
+    "PB": -1.014601
+  },
+  "ownerEarnings": -508312000,
+  "growth_rate_revenue": 94.584420,
+  "growth_rate_net_income": 57.190135
+}

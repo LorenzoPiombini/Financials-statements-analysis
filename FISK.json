@@ -1,0 +1,14 @@
+{
+  "ticker": "FISK",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 735.428397
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 388583000,
+  "growth_rate_revenue": 28.376197,
+  "growth_rate_net_income": 49.863581
+}

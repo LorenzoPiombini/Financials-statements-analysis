@@ -1,0 +1,14 @@
+{
+  "ticker": "VNT",
+  "valuation": {
+    "PE_valuation": 24.660799, 
+    "DFC_valuation": 86.569808
+  },
+  "ratios": {
+    "ROIC": 13.478592,
+    "PB": 5.381552
+  },
+  "ownerEarnings": 684700000,
+  "growth_rate_revenue": 6.329130,
+  "growth_rate_net_income": 3.193885
+}

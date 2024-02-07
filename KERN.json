@@ -1,0 +1,14 @@
+{
+  "ticker": "KERN",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -166.432180,
+    "PB": -0.418652
+  },
+  "ownerEarnings": 35333531,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RPD",
+  "valuation": {
+    "PE_valuation": 343.418201, 
+    "DFC_valuation": 549.216854
+  },
+  "ratios": {
+    "ROIC": -12.750199,
+    "PB": -16.569775
+  },
+  "ownerEarnings": -144381000,
+  "growth_rate_revenue": 43.071078,
+  "growth_rate_net_income": 42.259479
+}

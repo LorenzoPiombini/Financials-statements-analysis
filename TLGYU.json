@@ -1,0 +1,14 @@
+{
+  "ticker": "TLGYU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -25.400228,
+    "PB": 1.030910
+  },
+  "ownerEarnings": -40470448,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

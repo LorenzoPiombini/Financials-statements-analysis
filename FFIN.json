@@ -1,0 +1,14 @@
+{
+  "ticker": "FFIN",
+  "valuation": {
+    "PE_valuation": 0.089733, 
+    "DFC_valuation": -835.952943
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 198977000,
+  "growth_rate_revenue": 17.226643,
+  "growth_rate_net_income": 15.255764
+}

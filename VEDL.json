@@ -1,0 +1,14 @@
+{
+  "ticker": "VEDL",
+  "valuation": {
+    "PE_valuation": 12587.794727, 
+    "DFC_valuation": 38252900.573187
+  },
+  "ratios": {
+    "ROIC": 10.362274,
+    "PB": 1.459347
+  },
+  "ownerEarnings": 337994000000,
+  "growth_rate_revenue": 271.199422,
+  "growth_rate_net_income": 261.314200
+}

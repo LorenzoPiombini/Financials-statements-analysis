@@ -1,0 +1,14 @@
+{
+  "ticker": "AREB",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -37.957344,
+    "PB": 0.127103
+  },
+  "ownerEarnings": -5314157,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 4979.726989
+}

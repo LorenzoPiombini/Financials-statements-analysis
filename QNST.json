@@ -1,0 +1,14 @@
+{
+  "ticker": "QNST",
+  "valuation": {
+    "PE_valuation": -21.571071, 
+    "DFC_valuation": -6.692887
+  },
+  "ratios": {
+    "ROIC": -24.284405,
+    "PB": 2.087952
+  },
+  "ownerEarnings": -52895000,
+  "growth_rate_revenue": 22.803193,
+  "growth_rate_net_income": 3.955693
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LUXA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.343190,
+    "PB": -15.375733
+  },
+  "ownerEarnings": 27097468,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

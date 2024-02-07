@@ -1,0 +1,14 @@
+{
+  "ticker": "RICE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -79177360.784472
+  },
+  "ratios": {
+    "ROIC": -0.603273,
+    "PB": 1.635530
+  },
+  "ownerEarnings": 1624327000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

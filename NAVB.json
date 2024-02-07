@@ -1,0 +1,14 @@
+{
+  "ticker": "NAVB",
+  "valuation": {
+    "PE_valuation": 0.494918, 
+    "DFC_valuation": -18.228179
+  },
+  "ratios": {
+    "ROIC": 266.459165,
+    "PB": -0.730473
+  },
+  "ownerEarnings": -14777700,
+  "growth_rate_revenue": 291.517347,
+  "growth_rate_net_income": 86.927922
+}

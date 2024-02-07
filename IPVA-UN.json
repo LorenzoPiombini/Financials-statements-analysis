@@ -1,0 +1,14 @@
+{
+  "ticker": "IPVA-UN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -0.809301,
+    "PB": 0.240500
+  },
+  "ownerEarnings": -221326000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

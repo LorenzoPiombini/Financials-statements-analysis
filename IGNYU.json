@@ -1,0 +1,14 @@
+{
+  "ticker": "IGNYU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -1693.126026,
+    "PB": -35387.778674
+  },
+  "ownerEarnings": -12239617000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

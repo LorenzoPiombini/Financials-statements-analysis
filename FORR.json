@@ -1,0 +1,14 @@
+{
+  "ticker": "FORR",
+  "valuation": {
+    "PE_valuation": 348.821013, 
+    "DFC_valuation": 8759.949955
+  },
+  "ratios": {
+    "ROIC": 5.787843,
+    "PB": 3.059966
+  },
+  "ownerEarnings": 48773000,
+  "growth_rate_revenue": 76.759230,
+  "growth_rate_net_income": 106.194614
+}

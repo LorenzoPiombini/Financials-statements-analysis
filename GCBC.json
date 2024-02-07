@@ -1,0 +1,14 @@
+{
+  "ticker": "GCBC",
+  "valuation": {
+    "PE_valuation": 408.751322, 
+    "DFC_valuation": 96680.325344
+  },
+  "ratios": {
+    "ROIC": 13.225047,
+    "PB": 2.768394
+  },
+  "ownerEarnings": 31369000,
+  "growth_rate_revenue": 245.644297,
+  "growth_rate_net_income": 22.681891
+}

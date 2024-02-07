@@ -1,0 +1,14 @@
+{
+  "ticker": "PSB-PX",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 46750815789.768318
+  },
+  "ratios": {
+    "ROIC": 21.729331,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 713245000,
+  "growth_rate_revenue": 4.167712,
+  "growth_rate_net_income": 6.446714
+}

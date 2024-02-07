@@ -1,0 +1,14 @@
+{
+  "ticker": "GNLN",
+  "valuation": {
+    "PE_valuation": 11.924619, 
+    "DFC_valuation": -128.484871
+  },
+  "ratios": {
+    "ROIC": -47.477135,
+    "PB": 0.227451
+  },
+  "ownerEarnings": 27002000,
+  "growth_rate_revenue": 20.876481,
+  "growth_rate_net_income": 94.814455
+}

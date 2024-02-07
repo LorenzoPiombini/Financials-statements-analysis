@@ -1,0 +1,14 @@
+{
+  "ticker": "SMED",
+  "valuation": {
+    "PE_valuation": 201.803597, 
+    "DFC_valuation": 110768.714392
+  },
+  "ratios": {
+    "ROIC": 15.903806,
+    "PB": 3.668811
+  },
+  "ownerEarnings": 12696000,
+  "growth_rate_revenue": 102.739606,
+  "growth_rate_net_income": 69.972353
+}

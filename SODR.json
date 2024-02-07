@@ -1,0 +1,14 @@
+{
+  "ticker": "SODR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 8.057039
+  },
+  "ratios": {
+    "ROIC": -193.156646,
+    "PB": -0.000066
+  },
+  "ownerEarnings": -4523000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

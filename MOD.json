@@ -1,0 +1,14 @@
+{
+  "ticker": "MOD",
+  "valuation": {
+    "PE_valuation": 36.815169, 
+    "DFC_valuation": 245.948864
+  },
+  "ratios": {
+    "ROIC": 19.360394,
+    "PB": 2.003620
+  },
+  "ownerEarnings": 303000000,
+  "growth_rate_revenue": 11.439651,
+  "growth_rate_net_income": 11.293932
+}

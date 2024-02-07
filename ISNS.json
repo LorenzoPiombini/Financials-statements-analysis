@@ -1,0 +1,14 @@
+{
+  "ticker": "ISNS",
+  "valuation": {
+    "PE_valuation": 5.160201, 
+    "DFC_valuation": 0.555679
+  },
+  "ratios": {
+    "ROIC": 5.945576,
+    "PB": 1.040920
+  },
+  "ownerEarnings": 2462000,
+  "growth_rate_revenue": 22.657595,
+  "growth_rate_net_income": -38.605080
+}

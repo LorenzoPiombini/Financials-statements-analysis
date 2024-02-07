@@ -1,0 +1,14 @@
+{
+  "ticker": "DFIN",
+  "valuation": {
+    "PE_valuation": 17.559152, 
+    "DFC_valuation": 49.445374
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 164300000,
+  "growth_rate_revenue": -2.900936,
+  "growth_rate_net_income": 143.287983
+}

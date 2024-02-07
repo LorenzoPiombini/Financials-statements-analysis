@@ -1,0 +1,14 @@
+{
+  "ticker": "ZWS",
+  "valuation": {
+    "PE_valuation": 105.297376, 
+    "DFC_valuation": 310.896041
+  },
+  "ratios": {
+    "ROIC": 3.282497,
+    "PB": 1.985101
+  },
+  "ownerEarnings": 159700000,
+  "growth_rate_revenue": 4.434939,
+  "growth_rate_net_income": -823.575361
+}

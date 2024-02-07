@@ -1,0 +1,14 @@
+{
+  "ticker": "CHS",
+  "valuation": {
+    "PE_valuation": 52.247786, 
+    "DFC_valuation": 15034.645301
+  },
+  "ratios": {
+    "ROIC": 8.066399,
+    "PB": 1.854593
+  },
+  "ownerEarnings": 188946000,
+  "growth_rate_revenue": 24.042566,
+  "growth_rate_net_income": 14.869175
+}

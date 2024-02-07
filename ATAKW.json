@@ -1,0 +1,14 @@
+{
+  "ticker": "ATAKW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -12.824210
+  },
+  "ratios": {
+    "ROIC": -1.932647,
+    "PB": 0.272888
+  },
+  "ownerEarnings": -9756345,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

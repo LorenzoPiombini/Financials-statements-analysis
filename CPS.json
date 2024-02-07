@@ -1,0 +1,14 @@
+{
+  "ticker": "CPS",
+  "valuation": {
+    "PE_valuation": 7.161402, 
+    "DFC_valuation": -511.203716
+  },
+  "ratios": {
+    "ROIC": -7.564283,
+    "PB": 1.445973
+  },
+  "ownerEarnings": 186850000,
+  "growth_rate_revenue": 9.214350,
+  "growth_rate_net_income": 369.928580
+}

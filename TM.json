@@ -1,0 +1,14 @@
+{
+  "ticker": "TM",
+  "valuation": {
+    "PE_valuation": 31777.784353, 
+    "DFC_valuation": -10304.050945
+  },
+  "ratios": {
+    "ROIC": 4.285981,
+    "PB": 9.096324
+  },
+  "ownerEarnings": 8239898000000,
+  "growth_rate_revenue": 4.193900,
+  "growth_rate_net_income": -18.601662
+}

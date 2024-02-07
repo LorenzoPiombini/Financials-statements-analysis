@@ -1,0 +1,14 @@
+{
+  "ticker": "LIVX",
+  "valuation": {
+    "PE_valuation": 938.483176, 
+    "DFC_valuation": -16798342.607446
+  },
+  "ratios": {
+    "ROIC": -97.235097,
+    "PB": 36.828151
+  },
+  "ownerEarnings": -15533000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 522.834546
+}

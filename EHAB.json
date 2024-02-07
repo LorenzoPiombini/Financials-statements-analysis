@@ -1,0 +1,14 @@
+{
+  "ticker": "EHAB",
+  "valuation": {
+    "PE_valuation": 9.149937, 
+    "DFC_valuation": 76.574279
+  },
+  "ratios": {
+    "ROIC": 4.917112,
+    "PB": 0.772834
+  },
+  "ownerEarnings": 125200000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

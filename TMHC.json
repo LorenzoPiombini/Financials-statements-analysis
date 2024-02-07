@@ -1,0 +1,14 @@
+{
+  "ticker": "TMHC",
+  "valuation": {
+    "PE_valuation": 162.820804, 
+    "DFC_valuation": 1923.042757
+  },
+  "ratios": {
+    "ROIC": 13.907002,
+    "PB": 0.750981
+  },
+  "ownerEarnings": 1033684000,
+  "growth_rate_revenue": 24.665316,
+  "growth_rate_net_income": 109.448289
+}

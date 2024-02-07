@@ -1,0 +1,14 @@
+{
+  "ticker": "FTCV",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1.595196,
+    "PB": 0.349417
+  },
+  "ownerEarnings": -8141836,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

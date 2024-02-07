@@ -1,0 +1,14 @@
+{
+  "ticker": "HUDAR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 0.260532,
+    "PB": 0.267603
+  },
+  "ownerEarnings": -1050811,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

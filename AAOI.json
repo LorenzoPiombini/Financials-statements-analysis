@@ -1,0 +1,14 @@
+{
+  "ticker": "AAOI",
+  "valuation": {
+    "PE_valuation": 14.814837, 
+    "DFC_valuation": -110.058155
+  },
+  "ratios": {
+    "ROIC": -17.569913,
+    "PB": 0.275430
+  },
+  "ownerEarnings": -58043000,
+  "growth_rate_revenue": 46.573818,
+  "growth_rate_net_income": -57.118522
+}

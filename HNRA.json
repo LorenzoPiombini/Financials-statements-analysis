@@ -1,0 +1,14 @@
+{
+  "ticker": "HNRA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.971894,
+    "PB": 0.898060
+  },
+  "ownerEarnings": -3289009,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

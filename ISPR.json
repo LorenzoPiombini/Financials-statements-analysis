@@ -1,0 +1,14 @@
+{
+  "ticker": "ISPR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -66.166963
+  },
+  "ratios": {
+    "ROIC": -14.362265,
+    "PB": 14.744874
+  },
+  "ownerEarnings": -3206190,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

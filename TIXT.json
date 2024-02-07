@@ -1,0 +1,14 @@
+{
+  "ticker": "TIXT",
+  "valuation": {
+    "PE_valuation": 124.208805, 
+    "DFC_valuation": 552.591471
+  },
+  "ratios": {
+    "ROIC": 7.419272,
+    "PB": 2.864059
+  },
+  "ownerEarnings": 629000000,
+  "growth_rate_revenue": 43.524620,
+  "growth_rate_net_income": 53.642432
+}

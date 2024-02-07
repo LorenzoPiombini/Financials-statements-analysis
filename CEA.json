@@ -1,0 +1,14 @@
+{
+  "ticker": "CEA",
+  "valuation": {
+    "PE_valuation": -1007.366706, 
+    "DFC_valuation": -114.562560
+  },
+  "ratios": {
+    "ROIC": -3.937130,
+    "PB": 0.738561
+  },
+  "ownerEarnings": 33386000000,
+  "growth_rate_revenue": 11.588342,
+  "growth_rate_net_income": -41.579878
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BRAC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -5.008817,
+    "PB": 1.348399
+  },
+  "ownerEarnings": -3544479,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

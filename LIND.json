@@ -1,0 +1,14 @@
+{
+  "ticker": "LIND",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -14.893585,
+    "PB": -3.528047
+  },
+  "ownerEarnings": 44864000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 3257.348740
+}

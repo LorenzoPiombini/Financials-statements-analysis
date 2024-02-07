@@ -1,0 +1,14 @@
+{
+  "ticker": "MDRRP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 0.159104,
+    "PB": 5.558186
+  },
+  "ownerEarnings": 9753698,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 541.139450
+}

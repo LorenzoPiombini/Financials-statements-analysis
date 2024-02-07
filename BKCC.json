@@ -1,0 +1,14 @@
+{
+  "ticker": "BKCC",
+  "valuation": {
+    "PE_valuation": -0.075664, 
+    "DFC_valuation": -20.835504
+  },
+  "ratios": {
+    "ROIC": 4.368745,
+    "PB": 0.833214
+  },
+  "ownerEarnings": 29767780,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -170.590424
+}

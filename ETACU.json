@@ -1,0 +1,14 @@
+{
+  "ticker": "ETACU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.424052
+  },
+  "ratios": {
+    "ROIC": -0.235383,
+    "PB": -21.928917
+  },
+  "ownerEarnings": 18117666,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

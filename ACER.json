@@ -1,0 +1,14 @@
+{
+  "ticker": "ACER",
+  "valuation": {
+    "PE_valuation": 0.006383, 
+    "DFC_valuation": -82.606551
+  },
+  "ratios": {
+    "ROIC": 562.407176,
+    "PB": -2.361131
+  },
+  "ownerEarnings": -26482058,
+  "growth_rate_revenue": -102.618498,
+  "growth_rate_net_income": 1353.683080
+}

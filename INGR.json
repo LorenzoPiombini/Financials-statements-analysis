@@ -1,0 +1,14 @@
+{
+  "ticker": "INGR",
+  "valuation": {
+    "PE_valuation": 213.248797, 
+    "DFC_valuation": -438.841778
+  },
+  "ratios": {
+    "ROIC": 9.752056,
+    "PB": 2.029097
+  },
+  "ownerEarnings": 1214000000,
+  "growth_rate_revenue": 7.440153,
+  "growth_rate_net_income": -21.662397
+}

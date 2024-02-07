@@ -1,0 +1,14 @@
+{
+  "ticker": "LAX",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -5.709144
+  },
+  "ratios": {
+    "ROIC": -45.564030,
+    "PB": -15.675707
+  },
+  "ownerEarnings": -1762838,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

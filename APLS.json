@@ -1,0 +1,14 @@
+{
+  "ticker": "APLS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -196.727805,
+    "PB": 22.880043
+  },
+  "ownerEarnings": -617840000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 174.955521
+}

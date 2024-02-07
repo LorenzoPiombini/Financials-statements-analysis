@@ -1,0 +1,14 @@
+{
+  "ticker": "MDXH",
+  "valuation": {
+    "PE_valuation": 71.590764, 
+    "DFC_valuation": -85.807387
+  },
+  "ratios": {
+    "ROIC": -80.918348,
+    "PB": 11.162136
+  },
+  "ownerEarnings": -29695000,
+  "growth_rate_revenue": 148.835500,
+  "growth_rate_net_income": 38.824763
+}

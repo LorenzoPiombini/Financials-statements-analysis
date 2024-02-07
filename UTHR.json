@@ -1,0 +1,14 @@
+{
+  "ticker": "UTHR",
+  "valuation": {
+    "PE_valuation": 138007.319528, 
+    "DFC_valuation": 17957274080.050457
+  },
+  "ratios": {
+    "ROIC": 13.392969,
+    "PB": 2.637875
+  },
+  "ownerEarnings": 822500000,
+  "growth_rate_revenue": 348.651067,
+  "growth_rate_net_income": 35.577848
+}

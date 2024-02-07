@@ -1,0 +1,14 @@
+{
+  "ticker": "GE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 329.441291
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 8594000000,
+  "growth_rate_revenue": 20.181632,
+  "growth_rate_net_income": 19.268855
+}

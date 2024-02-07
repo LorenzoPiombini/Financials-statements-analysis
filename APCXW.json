@@ -1,0 +1,14 @@
+{
+  "ticker": "APCXW",
+  "valuation": {
+    "PE_valuation": 4.595471, 
+    "DFC_valuation": -71.816253
+  },
+  "ratios": {
+    "ROIC": -166.891191,
+    "PB": 3.630403
+  },
+  "ownerEarnings": -20425000,
+  "growth_rate_revenue": 54.078093,
+  "growth_rate_net_income": 3.735693
+}

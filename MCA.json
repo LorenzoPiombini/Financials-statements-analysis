@@ -1,0 +1,14 @@
+{
+  "ticker": "MCA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 6.331958,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 35914370,
+  "growth_rate_revenue": -inf,
+  "growth_rate_net_income": -inf
+}

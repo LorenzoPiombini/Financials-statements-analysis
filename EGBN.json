@@ -1,0 +1,14 @@
+{
+  "ticker": "EGBN",
+  "valuation": {
+    "PE_valuation": 2014.434305, 
+    "DFC_valuation": 5629506.824103
+  },
+  "ratios": {
+    "ROIC": 8.861974,
+    "PB": 1.149435
+  },
+  "ownerEarnings": 313317000,
+  "growth_rate_revenue": 146.044191,
+  "growth_rate_net_income": -28.692100
+}

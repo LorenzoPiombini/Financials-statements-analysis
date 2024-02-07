@@ -1,0 +1,14 @@
+{
+  "ticker": "KDMN",
+  "valuation": {
+    "PE_valuation": 0.408980, 
+    "DFC_valuation": -31.961620
+  },
+  "ratios": {
+    "ROIC": -3483.806469,
+    "PB": 5.946213
+  },
+  "ownerEarnings": -102562000,
+  "growth_rate_revenue": 8.490028,
+  "growth_rate_net_income": 22.453310
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AC",
+  "valuation": {
+    "PE_valuation": -17.582130, 
+    "DFC_valuation": -1352.162309
+  },
+  "ratios": {
+    "ROIC": 4.062632,
+    "PB": 1.038859
+  },
+  "ownerEarnings": 177617000,
+  "growth_rate_revenue": 7.315976,
+  "growth_rate_net_income": -2313.704449
+}

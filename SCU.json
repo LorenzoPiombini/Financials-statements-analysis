@@ -1,0 +1,14 @@
+{
+  "ticker": "SCU",
+  "valuation": {
+    "PE_valuation": 6.118845, 
+    "DFC_valuation": -901.617888
+  },
+  "ratios": {
+    "ROIC": -3.516982,
+    "PB": -4.127900
+  },
+  "ownerEarnings": -99162000,
+  "growth_rate_revenue": 35.752004,
+  "growth_rate_net_income": -35.474493
+}

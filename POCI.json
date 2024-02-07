@@ -1,0 +1,14 @@
+{
+  "ticker": "POCI",
+  "valuation": {
+    "PE_valuation": 1.494472, 
+    "DFC_valuation": -3.894179
+  },
+  "ratios": {
+    "ROIC": -4.128661,
+    "PB": 2.892611
+  },
+  "ownerEarnings": -2011082,
+  "growth_rate_revenue": 19.028668,
+  "growth_rate_net_income": inf
+}

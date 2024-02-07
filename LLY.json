@@ -1,0 +1,14 @@
+{
+  "ticker": "LLY",
+  "valuation": {
+    "PE_valuation": 649.011220, 
+    "DFC_valuation": 1471.733859
+  },
+  "ratios": {
+    "ROIC": 24.319864,
+    "PB": 30.976272
+  },
+  "ownerEarnings": 11305700000,
+  "growth_rate_revenue": 12.579062,
+  "growth_rate_net_income": 21.207274
+}

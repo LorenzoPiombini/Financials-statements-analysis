@@ -1,0 +1,14 @@
+{
+  "ticker": "ICLK",
+  "valuation": {
+    "PE_valuation": 408.312183, 
+    "DFC_valuation": 119.239858
+  },
+  "ratios": {
+    "ROIC": -145.728838,
+    "PB": 0.518131
+  },
+  "ownerEarnings": -78223000,
+  "growth_rate_revenue": 39.408286,
+  "growth_rate_net_income": -8.885722
+}

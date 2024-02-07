@@ -1,0 +1,14 @@
+{
+  "ticker": "COUP",
+  "valuation": {
+    "PE_valuation": 1593.682861, 
+    "DFC_valuation": 1812.225623
+  },
+  "ratios": {
+    "ROIC": -11.140361,
+    "PB": 11.091672
+  },
+  "ownerEarnings": 42863000,
+  "growth_rate_revenue": 63.286085,
+  "growth_rate_net_income": 39.342944
+}

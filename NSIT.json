@@ -1,0 +1,14 @@
+{
+  "ticker": "NSIT",
+  "valuation": {
+    "PE_valuation": 923.341482, 
+    "DFC_valuation": 5234.349923
+  },
+  "ratios": {
+    "ROIC": 13.622139,
+    "PB": 2.136495
+  },
+  "ownerEarnings": 470422000,
+  "growth_rate_revenue": 67.156351,
+  "growth_rate_net_income": 99.394021
+}

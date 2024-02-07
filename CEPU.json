@@ -1,0 +1,14 @@
+{
+  "ticker": "CEPU",
+  "valuation": {
+    "PE_valuation": 12701.197332, 
+    "DFC_valuation": 3807073.474343
+  },
+  "ratios": {
+    "ROIC": 23.139525,
+    "PB": 0.609941
+  },
+  "ownerEarnings": 193411150000,
+  "growth_rate_revenue": 43.557266,
+  "growth_rate_net_income": 240.299658
+}

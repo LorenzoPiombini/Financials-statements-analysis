@@ -1,0 +1,14 @@
+{
+  "ticker": "SXC",
+  "valuation": {
+    "PE_valuation": 13.681846, 
+    "DFC_valuation": 101.579424
+  },
+  "ratios": {
+    "ROIC": 11.852083,
+    "PB": 1.234962
+  },
+  "ownerEarnings": 380200000,
+  "growth_rate_revenue": 7.926853,
+  "growth_rate_net_income": -174.785144
+}

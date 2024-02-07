@@ -1,0 +1,14 @@
+{
+  "ticker": "FCRD",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 41.097219
+  },
+  "ratios": {
+    "ROIC": 4.529484,
+    "PB": 5.006378
+  },
+  "ownerEarnings": 59821000,
+  "growth_rate_revenue": 75876875.318058,
+  "growth_rate_net_income": 0.0
+}

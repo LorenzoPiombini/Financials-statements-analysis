@@ -1,0 +1,14 @@
+{
+  "ticker": "INFA",
+  "valuation": {
+    "PE_valuation": 6.607182, 
+    "DFC_valuation": 42.383150
+  },
+  "ratios": {
+    "ROIC": 1.702462,
+    "PB": 2.229205
+  },
+  "ownerEarnings": 182001000,
+  "growth_rate_revenue": -19.749442,
+  "growth_rate_net_income": -46.466932
+}

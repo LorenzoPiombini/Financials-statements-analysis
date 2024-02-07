@@ -1,0 +1,14 @@
+{
+  "ticker": "OXY-WT",
+  "valuation": {
+    "PE_valuation": 71.698528, 
+    "DFC_valuation": 1114.234365
+  },
+  "ratios": {
+    "ROIC": 26.592411,
+    "PB": 1.939217
+  },
+  "ownerEarnings": 25568000000,
+  "growth_rate_revenue": 10.504950,
+  "growth_rate_net_income": -190.684602
+}

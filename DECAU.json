@@ -1,0 +1,14 @@
+{
+  "ticker": "DECAU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.435184
+  },
+  "ratios": {
+    "ROIC": 6.669364,
+    "PB": 1.039274
+  },
+  "ownerEarnings": -2862590,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TRGP",
+  "valuation": {
+    "PE_valuation": 131.099641, 
+    "DFC_valuation": 333.356734
+  },
+  "ratios": {
+    "ROIC": 10.989367,
+    "PB": 6.267228
+  },
+  "ownerEarnings": 3980400000,
+  "growth_rate_revenue": 0.176515,
+  "growth_rate_net_income": -95.584638
+}

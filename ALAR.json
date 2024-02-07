@@ -1,0 +1,14 @@
+{
+  "ticker": "ALAR",
+  "valuation": {
+    "PE_valuation": 31.714015, 
+    "DFC_valuation": -1869.621475
+  },
+  "ratios": {
+    "ROIC": -79.029264,
+    "PB": 0.564560
+  },
+  "ownerEarnings": -12109000,
+  "growth_rate_revenue": 72.831139,
+  "growth_rate_net_income": 124.648350
+}

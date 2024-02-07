@@ -1,0 +1,14 @@
+{
+  "ticker": "LTRX",
+  "valuation": {
+    "PE_valuation": 12.532969, 
+    "DFC_valuation": -9.409191
+  },
+  "ratios": {
+    "ROIC": -6.691328,
+    "PB": 1.968152
+  },
+  "ownerEarnings": -4519000,
+  "growth_rate_revenue": 12.040009,
+  "growth_rate_net_income": 335.783935
+}

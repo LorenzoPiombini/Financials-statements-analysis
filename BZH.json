@@ -1,0 +1,14 @@
+{
+  "ticker": "BZH",
+  "valuation": {
+    "PE_valuation": 52.618642, 
+    "DFC_valuation": 1347.386116
+  },
+  "ratios": {
+    "ROIC": 7.268430,
+    "PB": 0.685600
+  },
+  "ownerEarnings": 173159000,
+  "growth_rate_revenue": 40.648111,
+  "growth_rate_net_income": 25.111685
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CMLS",
+  "valuation": {
+    "PE_valuation": 13.033861, 
+    "DFC_valuation": 911.386192
+  },
+  "ratios": {
+    "ROIC": 4.657500,
+    "PB": 0.297423
+  },
+  "ownerEarnings": 240257000,
+  "growth_rate_revenue": 33.477705,
+  "growth_rate_net_income": 310.998414
+}

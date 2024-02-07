@@ -1,0 +1,14 @@
+{
+  "ticker": "USM",
+  "valuation": {
+    "PE_valuation": 417.994332, 
+    "DFC_valuation": -8468820.548988
+  },
+  "ratios": {
+    "ROIC": 1.282139,
+    "PB": 0.389163
+  },
+  "ownerEarnings": 2266000000,
+  "growth_rate_revenue": 89.946749,
+  "growth_rate_net_income": 85.563727
+}

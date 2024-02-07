@@ -1,0 +1,14 @@
+{
+  "ticker": "LCUT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 7065.570436
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 51192000,
+  "growth_rate_revenue": 18.989038,
+  "growth_rate_net_income": 95.611388
+}

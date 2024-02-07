@@ -1,0 +1,14 @@
+{
+  "ticker": "TCACU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.194214
+  },
+  "ratios": {
+    "ROIC": -2.238592,
+    "PB": 1.349734
+  },
+  "ownerEarnings": 5307350,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

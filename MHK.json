@@ -1,0 +1,14 @@
+{
+  "ticker": "MHK",
+  "valuation": {
+    "PE_valuation": 36.923900, 
+    "DFC_valuation": 7718.267315
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 2674998000,
+  "growth_rate_revenue": 61.274596,
+  "growth_rate_net_income": 204.835189
+}

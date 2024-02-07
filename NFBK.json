@@ -1,0 +1,14 @@
+{
+  "ticker": "NFBK",
+  "valuation": {
+    "PE_valuation": 4.507732, 
+    "DFC_valuation": 291988392.139372
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 36093000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 956.603435
+}

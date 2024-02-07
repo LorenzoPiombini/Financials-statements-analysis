@@ -1,0 +1,14 @@
+{
+  "ticker": "XP",
+  "valuation": {
+    "PE_valuation": 883.847939, 
+    "DFC_valuation": 738.783425
+  },
+  "ratios": {
+    "ROIC": -6.747161,
+    "PB": 2.681860
+  },
+  "ownerEarnings": -10384781000,
+  "growth_rate_revenue": 66.805828,
+  "growth_rate_net_income": 94.945529
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "PIXY",
+  "valuation": {
+    "PE_valuation": 50.064425, 
+    "DFC_valuation": -144.313220
+  },
+  "ratios": {
+    "ROIC": 74.586125,
+    "PB": -0.116063
+  },
+  "ownerEarnings": -34046000,
+  "growth_rate_revenue": 87.997448,
+  "growth_rate_net_income": 152.149877
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MORN",
+  "valuation": {
+    "PE_valuation": 376.990307, 
+    "DFC_valuation": 9135.082839
+  },
+  "ratios": {
+    "ROIC": 3.468743,
+    "PB": 7.643720
+  },
+  "ownerEarnings": 352600000,
+  "growth_rate_revenue": 31.075322,
+  "growth_rate_net_income": -715.158266
+}

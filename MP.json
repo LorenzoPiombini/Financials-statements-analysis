@@ -1,0 +1,14 @@
+{
+  "ticker": "MP",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 17.723752
+  },
+  "ratios": {
+    "ROIC": 13.930315,
+    "PB": 3.265104
+  },
+  "ownerEarnings": 576255000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

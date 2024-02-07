@@ -1,0 +1,14 @@
+{
+  "ticker": "KO",
+  "valuation": {
+    "PE_valuation": 118.709624, 
+    "DFC_valuation": 343.733717
+  },
+  "ratios": {
+    "ROIC": 14.124998,
+    "PB": 11.421036
+  },
+  "ownerEarnings": 12064000000,
+  "growth_rate_revenue": 7.149145,
+  "growth_rate_net_income": 17.869247
+}

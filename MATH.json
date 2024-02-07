@@ -1,0 +1,14 @@
+{
+  "ticker": "MATH",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -47.879534,
+    "PB": 1.459247
+  },
+  "ownerEarnings": -1410338,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -224.923601
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RRR",
+  "valuation": {
+    "PE_valuation": 31.215429, 
+    "DFC_valuation": -76.551980
+  },
+  "ratios": {
+    "ROIC": 16.583299,
+    "PB": 53.892512
+  },
+  "ownerEarnings": 1351219000,
+  "growth_rate_revenue": 7.067377,
+  "growth_rate_net_income": -203.449229
+}

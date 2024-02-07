@@ -1,0 +1,14 @@
+{
+  "ticker": "XPEV",
+  "valuation": {
+    "PE_valuation": 31274.684026, 
+    "DFC_valuation": -244834205.772963
+  },
+  "ratios": {
+    "ROIC": -17.033252,
+    "PB": 3.180828
+  },
+  "ownerEarnings": -3252917000,
+  "growth_rate_revenue": 6038.537960,
+  "growth_rate_net_income": 50.983094
+}

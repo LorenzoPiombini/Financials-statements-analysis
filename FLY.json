@@ -1,0 +1,14 @@
+{
+  "ticker": "FLY",
+  "valuation": {
+    "PE_valuation": -15.608883, 
+    "DFC_valuation": 16.224128
+  },
+  "ratios": {
+    "ROIC": 4.023908,
+    "PB": 0.381416
+  },
+  "ownerEarnings": 543982000,
+  "growth_rate_revenue": 167.080211,
+  "growth_rate_net_income": 1543.535345
+}

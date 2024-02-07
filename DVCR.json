@@ -1,0 +1,14 @@
+{
+  "ticker": "DVCR",
+  "valuation": {
+    "PE_valuation": -3.406425, 
+    "DFC_valuation": 1200.543706
+  },
+  "ratios": {
+    "ROIC": 3.346734,
+    "PB": -0.609273
+  },
+  "ownerEarnings": 54971000,
+  "growth_rate_revenue": 31.595010,
+  "growth_rate_net_income": 103.452578
+}

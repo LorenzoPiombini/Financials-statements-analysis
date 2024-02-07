@@ -1,0 +1,14 @@
+{
+  "ticker": "DZSI",
+  "valuation": {
+    "PE_valuation": 28.068847, 
+    "DFC_valuation": -251.348196
+  },
+  "ratios": {
+    "ROIC": -13.499575,
+    "PB": 2.495010
+  },
+  "ownerEarnings": -29349000,
+  "growth_rate_revenue": -591.466201,
+  "growth_rate_net_income": 92.679624
+}

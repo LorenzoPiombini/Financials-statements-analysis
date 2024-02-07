@@ -1,0 +1,14 @@
+{
+  "ticker": "TDC",
+  "valuation": {
+    "PE_valuation": 8.316122, 
+    "DFC_valuation": 476.582073
+  },
+  "ratios": {
+    "ROIC": 5.620832,
+    "PB": 13.464000
+  },
+  "ownerEarnings": 159000000,
+  "growth_rate_revenue": 9.970377,
+  "growth_rate_net_income": 31.244811
+}

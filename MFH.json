@@ -1,0 +1,14 @@
+{
+  "ticker": "MFH",
+  "valuation": {
+    "PE_valuation": 11345.206958, 
+    "DFC_valuation": -0.679257
+  },
+  "ratios": {
+    "ROIC": 2.401484,
+    "PB": 0.002659
+  },
+  "ownerEarnings": 6544814,
+  "growth_rate_revenue": 127.612991,
+  "growth_rate_net_income": 149.817428
+}

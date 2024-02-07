@@ -1,0 +1,14 @@
+{
+  "ticker": "GSMG",
+  "valuation": {
+    "PE_valuation": 7.428697, 
+    "DFC_valuation": 0.031904
+  },
+  "ratios": {
+    "ROIC": 14.766509,
+    "PB": 0.264921
+  },
+  "ownerEarnings": 37404000,
+  "growth_rate_revenue": 50.537781,
+  "growth_rate_net_income": 32.267348
+}

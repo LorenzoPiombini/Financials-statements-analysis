@@ -1,0 +1,14 @@
+{
+  "ticker": "SANB",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -4.111140
+  },
+  "ratios": {
+    "ROIC": 2.502178,
+    "PB": -29.334119
+  },
+  "ownerEarnings": 4373996,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LGHLW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -87.129902,
+    "PB": 50.074260
+  },
+  "ownerEarnings": -26464407,
+  "growth_rate_revenue": 92883907722629.156250,
+  "growth_rate_net_income": 229.252860
+}

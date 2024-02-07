@@ -1,0 +1,14 @@
+{
+  "ticker": "CKX",
+  "valuation": {
+    "PE_valuation": -13.932232, 
+    "DFC_valuation": 16.166084
+  },
+  "ratios": {
+    "ROIC": -7.799180,
+    "PB": 1.118843
+  },
+  "ownerEarnings": -3722171,
+  "growth_rate_revenue": 52.199754,
+  "growth_rate_net_income": 87.184952
+}

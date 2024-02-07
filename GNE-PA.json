@@ -1,0 +1,14 @@
+{
+  "ticker": "GNE-PA",
+  "valuation": {
+    "PE_valuation": 10.581225, 
+    "DFC_valuation": 209.779175
+  },
+  "ratios": {
+    "ROIC": 30.277320,
+    "PB": 1.416239
+  },
+  "ownerEarnings": 57765000,
+  "growth_rate_revenue": 2.516597,
+  "growth_rate_net_income": 0.640317
+}

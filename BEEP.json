@@ -1,0 +1,14 @@
+{
+  "ticker": "BEEP",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -11.946019
+  },
+  "ratios": {
+    "ROIC": -2.137672,
+    "PB": 1.554407
+  },
+  "ownerEarnings": -566000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

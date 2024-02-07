@@ -1,0 +1,14 @@
+{
+  "ticker": "AP",
+  "valuation": {
+    "PE_valuation": -0.058912, 
+    "DFC_valuation": -161.549999
+  },
+  "ratios": {
+    "ROIC": 2.577445,
+    "PB": 0.464800
+  },
+  "ownerEarnings": 40903000,
+  "growth_rate_revenue": -16.961923,
+  "growth_rate_net_income": -672.492135
+}

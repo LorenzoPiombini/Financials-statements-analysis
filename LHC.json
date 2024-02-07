@@ -1,0 +1,14 @@
+{
+  "ticker": "LHC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 0.000028,
+    "PB": 1.291168
+  },
+  "ownerEarnings": -28620,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -13018.270212
+}

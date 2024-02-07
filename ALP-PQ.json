@@ -1,0 +1,14 @@
+{
+  "ticker": "ALP-PQ",
+  "valuation": {
+    "PE_valuation": 31.031456, 
+    "DFC_valuation": -72.832113
+  },
+  "ratios": {
+    "ROIC": 4.627384,
+    "PB": 0.071709
+  },
+  "ownerEarnings": 4691000000,
+  "growth_rate_revenue": 3.065089,
+  "growth_rate_net_income": 1.049016
+}

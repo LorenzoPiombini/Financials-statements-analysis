@@ -1,0 +1,14 @@
+{
+  "ticker": "SPE",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -11.885696,
+    "PB": 0.667709
+  },
+  "ownerEarnings": -24660844,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

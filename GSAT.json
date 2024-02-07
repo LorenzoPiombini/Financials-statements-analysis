@@ -1,0 +1,14 @@
+{
+  "ticker": "GSAT",
+  "valuation": {
+    "PE_valuation": 6.385918, 
+    "DFC_valuation": 26157232.279011
+  },
+  "ratios": {
+    "ROIC": 23.276780,
+    "PB": 7.609015
+  },
+  "ownerEarnings": 616113000,
+  "growth_rate_revenue": 131.853493,
+  "growth_rate_net_income": 1222.237876
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FVCB",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 26999000,
+  "growth_rate_revenue": 41.317590,
+  "growth_rate_net_income": 66.622704
+}

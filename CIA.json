@@ -1,0 +1,14 @@
+{
+  "ticker": "CIA",
+  "valuation": {
+    "PE_valuation": 96.089763, 
+    "DFC_valuation": 217521.531470
+  },
+  "ratios": {
+    "ROIC": -718.696069,
+    "PB": 104.277158
+  },
+  "ownerEarnings": -66131000,
+  "growth_rate_revenue": 316.850114,
+  "growth_rate_net_income": -281.058489
+}

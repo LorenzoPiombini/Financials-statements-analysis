@@ -1,0 +1,14 @@
+{
+  "ticker": "ADNT",
+  "valuation": {
+    "PE_valuation": -3.944228, 
+    "DFC_valuation": 216.928751
+  },
+  "ratios": {
+    "ROIC": 6.988545,
+    "PB": 1.571445
+  },
+  "ownerEarnings": 903000000,
+  "growth_rate_revenue": -3.380083,
+  "growth_rate_net_income": -188.295737
+}

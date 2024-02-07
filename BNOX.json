@@ -1,0 +1,14 @@
+{
+  "ticker": "BNOX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -91.478944,
+    "PB": 0.817740
+  },
+  "ownerEarnings": -31513860,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 116.851990
+}

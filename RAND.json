@@ -1,0 +1,14 @@
+{
+  "ticker": "RAND",
+  "valuation": {
+    "PE_valuation": 12.913655, 
+    "DFC_valuation": 10.028438
+  },
+  "ratios": {
+    "ROIC": 27.812536,
+    "PB": 0.595765
+  },
+  "ownerEarnings": 21473673,
+  "growth_rate_revenue": 20.799847,
+  "growth_rate_net_income": 193.618185
+}

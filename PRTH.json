@@ -1,0 +1,14 @@
+{
+  "ticker": "PRTH",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -5.122533,
+    "PB": 3.128416
+  },
+  "ownerEarnings": 187704000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -1266.897338
+}

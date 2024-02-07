@@ -1,0 +1,14 @@
+{
+  "ticker": "AEZS",
+  "valuation": {
+    "PE_valuation": 24.806061, 
+    "DFC_valuation": -244.693849
+  },
+  "ratios": {
+    "ROIC": -69.965060,
+    "PB": 0.431621
+  },
+  "ownerEarnings": -15648000,
+  "growth_rate_revenue": 138.981140,
+  "growth_rate_net_income": -1069.341471
+}

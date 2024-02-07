@@ -1,0 +1,14 @@
+{
+  "ticker": "VGZ",
+  "valuation": {
+    "PE_valuation": -0.000123, 
+    "DFC_valuation": -3.851130
+  },
+  "ratios": {
+    "ROIC": 14.935606,
+    "PB": 5.825558
+  },
+  "ownerEarnings": -6180000,
+  "growth_rate_revenue": 84.898554,
+  "growth_rate_net_income": -264.037084
+}

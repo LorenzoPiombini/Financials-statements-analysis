@@ -1,0 +1,14 @@
+{
+  "ticker": "BSAQ",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.025374,
+    "PB": 1.040402
+  },
+  "ownerEarnings": -48654807,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

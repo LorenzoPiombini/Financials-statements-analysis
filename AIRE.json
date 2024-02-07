@@ -1,0 +1,14 @@
+{
+  "ticker": "AIRE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -76.251877
+  },
+  "ratios": {
+    "ROIC": -23.433578,
+    "PB": 0.000032
+  },
+  "ownerEarnings": -3840172,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

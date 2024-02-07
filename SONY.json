@@ -1,0 +1,14 @@
+{
+  "ticker": "SONY",
+  "valuation": {
+    "PE_valuation": 24608.743103, 
+    "DFC_valuation": -85065.262696
+  },
+  "ratios": {
+    "ROIC": 8.409420,
+    "PB": 2.063801
+  },
+  "ownerEarnings": 2652874000000,
+  "growth_rate_revenue": 28.888995,
+  "growth_rate_net_income": 28.500300
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SECO",
+  "valuation": {
+    "PE_valuation": -858.088064, 
+    "DFC_valuation": -872.103100
+  },
+  "ratios": {
+    "ROIC": -14.907079,
+    "PB": 0.121363
+  },
+  "ownerEarnings": -238679000,
+  "growth_rate_revenue": 38.044525,
+  "growth_rate_net_income": -154.884321
+}

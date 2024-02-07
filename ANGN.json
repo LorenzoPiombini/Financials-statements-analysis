@@ -1,0 +1,14 @@
+{
+  "ticker": "ANGN",
+  "valuation": {
+    "PE_valuation": 2.884015, 
+    "DFC_valuation": -78.603642
+  },
+  "ratios": {
+    "ROIC": 85.818474,
+    "PB": 0.557001
+  },
+  "ownerEarnings": -29525000,
+  "growth_rate_revenue": 216.260656,
+  "growth_rate_net_income": -748.686186
+}

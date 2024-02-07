@@ -1,0 +1,14 @@
+{
+  "ticker": "MCO",
+  "valuation": {
+    "PE_valuation": 290.724206, 
+    "DFC_valuation": 371.351676
+  },
+  "ratios": {
+    "ROIC": 42.400458,
+    "PB": 20.340698
+  },
+  "ownerEarnings": 2242000000,
+  "growth_rate_revenue": 3.753499,
+  "growth_rate_net_income": 12.323951
+}

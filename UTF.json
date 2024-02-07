@@ -1,0 +1,14 @@
+{
+  "ticker": "UTF",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -5.141581,
+    "PB": 0.978859
+  },
+  "ownerEarnings": -141524656,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

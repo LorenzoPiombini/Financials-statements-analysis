@@ -1,0 +1,14 @@
+{
+  "ticker": "GROV",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -51.939830
+  },
+  "ratios": {
+    "ROIC": -110.623929,
+    "PB": 1.361034
+  },
+  "ownerEarnings": -234670000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ODP",
+  "valuation": {
+    "PE_valuation": 1196.705596, 
+    "DFC_valuation": 772486.974848
+  },
+  "ratios": {
+    "ROIC": 6.247310,
+    "PB": 1.698462
+  },
+  "ownerEarnings": 438000000,
+  "growth_rate_revenue": 167.799346,
+  "growth_rate_net_income": 35.155646
+}

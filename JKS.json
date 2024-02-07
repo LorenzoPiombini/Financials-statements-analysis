@@ -1,0 +1,14 @@
+{
+  "ticker": "JKS",
+  "valuation": {
+    "PE_valuation": 4011.220780, 
+    "DFC_valuation": -4407738.023896
+  },
+  "ratios": {
+    "ROIC": 0.911386,
+    "PB": 0.863621
+  },
+  "ownerEarnings": 12710435400,
+  "growth_rate_revenue": 100.047209,
+  "growth_rate_net_income": 81.476152
+}

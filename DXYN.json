@@ -1,0 +1,14 @@
+{
+  "ticker": "DXYN",
+  "valuation": {
+    "PE_valuation": 0.564900, 
+    "DFC_valuation": -114.074119
+  },
+  "ratios": {
+    "ROIC": -13.514743,
+    "PB": 0.374085
+  },
+  "ownerEarnings": -9748000,
+  "growth_rate_revenue": 26.919324,
+  "growth_rate_net_income": 19.822091
+}

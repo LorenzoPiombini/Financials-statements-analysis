@@ -1,0 +1,14 @@
+{
+  "ticker": "WHLR",
+  "valuation": {
+    "PE_valuation": 148.286507, 
+    "DFC_valuation": 2423.771042
+  },
+  "ratios": {
+    "ROIC": 12.486060,
+    "PB": -0.898690
+  },
+  "ownerEarnings": 70207000,
+  "growth_rate_revenue": 78.295809,
+  "growth_rate_net_income": -45.439666
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MINDP",
+  "valuation": {
+    "PE_valuation": 219.072978, 
+    "DFC_valuation": -53.090473
+  },
+  "ratios": {
+    "ROIC": -31.655669,
+    "PB": 3.946486
+  },
+  "ownerEarnings": -7380000,
+  "growth_rate_revenue": 60.785631,
+  "growth_rate_net_income": -2.432101
+}

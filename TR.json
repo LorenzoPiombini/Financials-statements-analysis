@@ -1,0 +1,14 @@
+{
+  "ticker": "TR",
+  "valuation": {
+    "PE_valuation": 31.947315, 
+    "DFC_valuation": 23.270466
+  },
+  "ratios": {
+    "ROIC": 10.689652,
+    "PB": 3.741257
+  },
+  "ownerEarnings": 146666000,
+  "growth_rate_revenue": 16.817071,
+  "growth_rate_net_income": 19.690064
+}

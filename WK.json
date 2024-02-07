@@ -1,0 +1,14 @@
+{
+  "ticker": "WK",
+  "valuation": {
+    "PE_valuation": 557.778106, 
+    "DFC_valuation": 743.467099
+  },
+  "ratios": {
+    "ROIC": -22.641478,
+    "PB": 743.198063
+  },
+  "ownerEarnings": -141499000,
+  "growth_rate_revenue": 100.306852,
+  "growth_rate_net_income": 38.655876
+}

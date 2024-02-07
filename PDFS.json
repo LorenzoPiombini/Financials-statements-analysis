@@ -1,0 +1,14 @@
+{
+  "ticker": "PDFS",
+  "valuation": {
+    "PE_valuation": 11.510769, 
+    "DFC_valuation": 153.251305
+  },
+  "ratios": {
+    "ROIC": 6.792478,
+    "PB": 5.066628
+  },
+  "ownerEarnings": -18352000,
+  "growth_rate_revenue": 40.469527,
+  "growth_rate_net_income": -595.436563
+}

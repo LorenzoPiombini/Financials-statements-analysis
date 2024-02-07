@@ -1,0 +1,14 @@
+{
+  "ticker": "WELL",
+  "valuation": {
+    "PE_valuation": 596.509662, 
+    "DFC_valuation": 1006205.718212
+  },
+  "ratios": {
+    "ROIC": 1.439522,
+    "PB": 1.492806
+  },
+  "ownerEarnings": 2592595000,
+  "growth_rate_revenue": 11.551762,
+  "growth_rate_net_income": 14.942432
+}

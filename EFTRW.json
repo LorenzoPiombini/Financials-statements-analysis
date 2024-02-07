@@ -1,0 +1,14 @@
+{
+  "ticker": "EFTRW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -38.994134
+  },
+  "ratios": {
+    "ROIC": -76.063200,
+    "PB": 112.990614
+  },
+  "ownerEarnings": -37492000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

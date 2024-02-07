@@ -1,0 +1,14 @@
+{
+  "ticker": "SNT",
+  "valuation": {
+    "PE_valuation": 7.587703, 
+    "DFC_valuation": -41.884742
+  },
+  "ratios": {
+    "ROIC": 0.337272,
+    "PB": 0.779263
+  },
+  "ownerEarnings": 2382000,
+  "growth_rate_revenue": 32.805013,
+  "growth_rate_net_income": -93.356358
+}

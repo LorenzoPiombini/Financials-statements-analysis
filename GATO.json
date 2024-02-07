@@ -1,0 +1,14 @@
+{
+  "ticker": "GATO",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 6.174470,
+    "PB": 0.811731
+  },
+  "ownerEarnings": 28595000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 102.006170
+}

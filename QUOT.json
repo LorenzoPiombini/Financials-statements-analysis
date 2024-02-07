@@ -1,0 +1,14 @@
+{
+  "ticker": "QUOT",
+  "valuation": {
+    "PE_valuation": 16.130512, 
+    "DFC_valuation": -21.176720
+  },
+  "ratios": {
+    "ROIC": -26.516879,
+    "PB": 1.849493
+  },
+  "ownerEarnings": -61173000,
+  "growth_rate_revenue": 31.892791,
+  "growth_rate_net_income": 43.041366
+}

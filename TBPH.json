@@ -1,0 +1,14 @@
+{
+  "ticker": "TBPH",
+  "valuation": {
+    "PE_valuation": 2.892207, 
+    "DFC_valuation": -185.080075
+  },
+  "ratios": {
+    "ROIC": -15.586281,
+    "PB": 1.868925
+  },
+  "ownerEarnings": -108887000,
+  "growth_rate_revenue": 1294.846334,
+  "growth_rate_net_income": 403.769226
+}

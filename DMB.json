@@ -1,0 +1,14 @@
+{
+  "ticker": "DMB",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.841654,
+    "PB": 0.939748
+  },
+  "ownerEarnings": 87433403,
+  "growth_rate_revenue": -12.286062,
+  "growth_rate_net_income": -61.515872
+}

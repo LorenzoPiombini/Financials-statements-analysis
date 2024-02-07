@@ -1,0 +1,14 @@
+{
+  "ticker": "BRSP",
+  "valuation": {
+    "PE_valuation": -1.570479, 
+    "DFC_valuation": 71.343332
+  },
+  "ratios": {
+    "ROIC": 1.608486,
+    "PB": 0.571487
+  },
+  "ownerEarnings": 130544000,
+  "growth_rate_revenue": 55.856088,
+  "growth_rate_net_income": -33.745589
+}

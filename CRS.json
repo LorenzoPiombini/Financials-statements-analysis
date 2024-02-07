@@ -1,0 +1,14 @@
+{
+  "ticker": "CRS",
+  "valuation": {
+    "PE_valuation": 27.783801, 
+    "DFC_valuation": -234.803713
+  },
+  "ratios": {
+    "ROIC": 4.913521,
+    "PB": 1.961997
+  },
+  "ownerEarnings": 320400000,
+  "growth_rate_revenue": 2.779956,
+  "growth_rate_net_income": 106.830308
+}

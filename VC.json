@@ -1,0 +1,14 @@
+{
+  "ticker": "VC",
+  "valuation": {
+    "PE_valuation": 37.991840, 
+    "DFC_valuation": 150.391940
+  },
+  "ratios": {
+    "ROIC": 11.781250,
+    "PB": 5.446404
+  },
+  "ownerEarnings": 349000000,
+  "growth_rate_revenue": 6.556350,
+  "growth_rate_net_income": 17.166903
+}

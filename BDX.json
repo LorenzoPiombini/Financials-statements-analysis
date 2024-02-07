@@ -1,0 +1,14 @@
+{
+  "ticker": "BDX",
+  "valuation": {
+    "PE_valuation": 980.712743, 
+    "DFC_valuation": 7808.480405
+  },
+  "ratios": {
+    "ROIC": 4.551359,
+    "PB": 2.869146
+  },
+  "ownerEarnings": 5241000000,
+  "growth_rate_revenue": 15.104802,
+  "growth_rate_net_income": 20.079435
+}

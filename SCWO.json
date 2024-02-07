@@ -1,0 +1,14 @@
+{
+  "ticker": "SCWO",
+  "valuation": {
+    "PE_valuation": 16.733529, 
+    "DFC_valuation": -135.888152
+  },
+  "ratios": {
+    "ROIC": -56.811897,
+    "PB": 43.883186
+  },
+  "ownerEarnings": -5102440,
+  "growth_rate_revenue": 193.595545,
+  "growth_rate_net_income": -47.024770
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FARM",
+  "valuation": {
+    "PE_valuation": 13.565093, 
+    "DFC_valuation": -81.813934
+  },
+  "ratios": {
+    "ROIC": -18.461733,
+    "PB": 1.426137
+  },
+  "ownerEarnings": 7341000,
+  "growth_rate_revenue": -1.247918,
+  "growth_rate_net_income": 55.508331
+}

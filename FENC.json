@@ -1,0 +1,14 @@
+{
+  "ticker": "FENC",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -105.958933,
+    "PB": -98.186065
+  },
+  "ownerEarnings": -26630000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 83.217920
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SY",
+  "valuation": {
+    "PE_valuation": -120.674064, 
+    "DFC_valuation": -3881.849344
+  },
+  "ratios": {
+    "ROIC": -2.956018,
+    "PB": 0.378215
+  },
+  "ownerEarnings": -121029000,
+  "growth_rate_revenue": 173.994548,
+  "growth_rate_net_income": -131.252767
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VRSN",
+  "valuation": {
+    "PE_valuation": 3716.532238, 
+    "DFC_valuation": 626251.836563
+  },
+  "ratios": {
+    "ROIC": 317.620081,
+    "PB": -14.189589
+  },
+  "ownerEarnings": 827700000,
+  "growth_rate_revenue": 255.790866,
+  "growth_rate_net_income": -19681.168692
+}

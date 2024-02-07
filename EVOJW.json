@@ -1,0 +1,14 @@
+{
+  "ticker": "EVOJW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 27.312392,
+    "PB": 36.951725
+  },
+  "ownerEarnings": -8449154,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

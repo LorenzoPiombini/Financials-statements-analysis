@@ -1,0 +1,14 @@
+{
+  "ticker": "GLPG",
+  "valuation": {
+    "PE_valuation": 562.287699, 
+    "DFC_valuation": -124825.345102
+  },
+  "ratios": {
+    "ROIC": -10.547644,
+    "PB": 1.080426
+  },
+  "ownerEarnings": -300864000,
+  "growth_rate_revenue": 95.629704,
+  "growth_rate_net_income": 23.745532
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CLRO",
+  "valuation": {
+    "PE_valuation": -1.704234, 
+    "DFC_valuation": -99.344463
+  },
+  "ratios": {
+    "ROIC": 23.083250,
+    "PB": 0.490836
+  },
+  "ownerEarnings": 18641000,
+  "growth_rate_revenue": 33.756923,
+  "growth_rate_net_income": 52.083333
+}

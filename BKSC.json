@@ -1,0 +1,14 @@
+{
+  "ticker": "BKSC",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 0.051023,
+    "PB": 2.345221
+  },
+  "ownerEarnings": 8061226,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 5.208333
+}

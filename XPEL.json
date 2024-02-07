@@ -1,0 +1,14 @@
+{
+  "ticker": "XPEL",
+  "valuation": {
+    "PE_valuation": 1134.141445, 
+    "DFC_valuation": 8295.898210
+  },
+  "ratios": {
+    "ROIC": 23.495463,
+    "PB": 13.297548
+  },
+  "ownerEarnings": 62193000,
+  "growth_rate_revenue": 40.695808,
+  "growth_rate_net_income": 489.785914
+}

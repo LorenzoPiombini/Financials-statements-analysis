@@ -1,0 +1,14 @@
+{
+  "ticker": "EFXT",
+  "valuation": {
+    "PE_valuation": -4.570226, 
+    "DFC_valuation": -64.519002
+  },
+  "ratios": {
+    "ROIC": 0.709248,
+    "PB": 0.538157
+  },
+  "ownerEarnings": 321438000,
+  "growth_rate_revenue": 5.778861,
+  "growth_rate_net_income": -312.429347
+}

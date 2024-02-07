@@ -1,0 +1,14 @@
+{
+  "ticker": "PEI-PC",
+  "valuation": {
+    "PE_valuation": 108.870926, 
+    "DFC_valuation": 11196.768098
+  },
+  "ratios": {
+    "ROIC": -457.919433,
+    "PB": -0.145961
+  },
+  "ownerEarnings": -121352000,
+  "growth_rate_revenue": 5.286174,
+  "growth_rate_net_income": -3.095075
+}

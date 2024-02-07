@@ -1,0 +1,14 @@
+{
+  "ticker": "CHEK",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -46.686113,
+    "PB": 0.302041
+  },
+  "ownerEarnings": -21095000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 48.358433
+}

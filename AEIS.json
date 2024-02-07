@@ -1,0 +1,14 @@
+{
+  "ticker": "AEIS",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 196.341069
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 39036000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

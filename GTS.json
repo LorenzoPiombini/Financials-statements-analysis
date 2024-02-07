@@ -1,0 +1,14 @@
+{
+  "ticker": "GTS",
+  "valuation": {
+    "PE_valuation": 28.923995, 
+    "DFC_valuation": 834.090207
+  },
+  "ratios": {
+    "ROIC": 0.228777,
+    "PB": 0.511122
+  },
+  "ownerEarnings": -45972000,
+  "growth_rate_revenue": 6.108463,
+  "growth_rate_net_income": -355.729857
+}

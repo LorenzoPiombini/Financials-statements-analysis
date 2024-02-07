@@ -1,0 +1,14 @@
+{
+  "ticker": "CIEN",
+  "valuation": {
+    "PE_valuation": 120.739687, 
+    "DFC_valuation": 215.566925
+  },
+  "ratios": {
+    "ROIC": 6.251239,
+    "PB": 2.145371
+  },
+  "ownerEarnings": 441823000,
+  "growth_rate_revenue": 29.539551,
+  "growth_rate_net_income": -1165.592841
+}

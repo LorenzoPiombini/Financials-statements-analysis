@@ -1,0 +1,14 @@
+{
+  "ticker": "GRCL",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -39.467455,
+    "PB": 1.209543
+  },
+  "ownerEarnings": -585488000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 58.319947
+}

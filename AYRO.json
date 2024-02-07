@@ -1,0 +1,14 @@
+{
+  "ticker": "AYRO",
+  "valuation": {
+    "PE_valuation": 2.216679, 
+    "DFC_valuation": -33.253868
+  },
+  "ratios": {
+    "ROIC": -86.567493,
+    "PB": 2.163511
+  },
+  "ownerEarnings": -45010241,
+  "growth_rate_revenue": 28.342623,
+  "growth_rate_net_income": -181.040301
+}

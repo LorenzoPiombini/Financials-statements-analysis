@@ -1,0 +1,14 @@
+{
+  "ticker": "MA",
+  "valuation": {
+    "PE_valuation": 2160.644990, 
+    "DFC_valuation": 275942.577612
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 12643000000,
+  "growth_rate_revenue": 23.924313,
+  "growth_rate_net_income": -50.575822
+}

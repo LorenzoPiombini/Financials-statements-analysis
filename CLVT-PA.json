@@ -1,0 +1,14 @@
+{
+  "ticker": "CLVT-PA",
+  "valuation": {
+    "PE_valuation": 88.254979, 
+    "DFC_valuation": 31.705504
+  },
+  "ratios": {
+    "ROIC": -32.433899,
+    "PB": 0.827695
+  },
+  "ownerEarnings": 1231800000,
+  "growth_rate_revenue": 31.601799,
+  "growth_rate_net_income": 363.589857
+}

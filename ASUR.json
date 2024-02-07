@@ -1,0 +1,14 @@
+{
+  "ticker": "ASUR",
+  "valuation": {
+    "PE_valuation": 20.616421, 
+    "DFC_valuation": 281.399745
+  },
+  "ratios": {
+    "ROIC": -5.082969,
+    "PB": 1.295223
+  },
+  "ownerEarnings": 20476000,
+  "growth_rate_revenue": 95.417246,
+  "growth_rate_net_income": 649.795838
+}

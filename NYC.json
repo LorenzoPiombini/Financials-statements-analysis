@@ -1,0 +1,14 @@
+{
+  "ticker": "NYC",
+  "valuation": {
+    "PE_valuation": 626.154535, 
+    "DFC_valuation": -5137.234463
+  },
+  "ratios": {
+    "ROIC": -4.734114,
+    "PB": 0.081333
+  },
+  "ownerEarnings": -1533000,
+  "growth_rate_revenue": 237.470635,
+  "growth_rate_net_income": 62.633011
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CAPR",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -175.654450,
+    "PB": 8.041118
+  },
+  "ownerEarnings": -31960673,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 4526.873762
+}

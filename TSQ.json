@@ -1,0 +1,14 @@
+{
+  "ticker": "TSQ",
+  "valuation": {
+    "PE_valuation": -1.331742, 
+    "DFC_valuation": 122.992106
+  },
+  "ratios": {
+    "ROIC": 13.242309,
+    "PB": 1.880109
+  },
+  "ownerEarnings": 204791000,
+  "growth_rate_revenue": 23.280062,
+  "growth_rate_net_income": -135.691204
+}

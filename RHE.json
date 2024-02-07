@@ -1,0 +1,14 @@
+{
+  "ticker": "RHE",
+  "valuation": {
+    "PE_valuation": 3.480369, 
+    "DFC_valuation": -194.651307
+  },
+  "ratios": {
+    "ROIC": 13.684326,
+    "PB": 1.586738
+  },
+  "ownerEarnings": 8864000,
+  "growth_rate_revenue": 10.899447,
+  "growth_rate_net_income": 349.823138
+}

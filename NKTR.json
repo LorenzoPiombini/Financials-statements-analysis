@@ -1,0 +1,14 @@
+{
+  "ticker": "NKTR",
+  "valuation": {
+    "PE_valuation": 81.639662, 
+    "DFC_valuation": -17454.634323
+  },
+  "ratios": {
+    "ROIC": -38.491201,
+    "PB": 1.153541
+  },
+  "ownerEarnings": -150651000,
+  "growth_rate_revenue": 115.581095,
+  "growth_rate_net_income": 67.078283
+}

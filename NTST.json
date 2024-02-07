@@ -1,0 +1,14 @@
+{
+  "ticker": "NTST",
+  "valuation": {
+    "PE_valuation": -5.244582, 
+    "DFC_valuation": 93.397033
+  },
+  "ratios": {
+    "ROIC": 0.927431,
+    "PB": 0.865407
+  },
+  "ownerEarnings": 68702000,
+  "growth_rate_revenue": 22.889863,
+  "growth_rate_net_income": -47.457807
+}

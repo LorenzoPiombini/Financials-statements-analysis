@@ -1,0 +1,14 @@
+{
+  "ticker": "URBN",
+  "valuation": {
+    "PE_valuation": 235.472210, 
+    "DFC_valuation": -7194.121644
+  },
+  "ratios": {
+    "ROIC": 4.061058,
+    "PB": 1.423980
+  },
+  "ownerEarnings": 442790000,
+  "growth_rate_revenue": 25.026581,
+  "growth_rate_net_income": 19.665213
+}

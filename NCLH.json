@@ -1,0 +1,14 @@
+{
+  "ticker": "NCLH",
+  "valuation": {
+    "PE_valuation": 12.576619, 
+    "DFC_valuation": -446.661118
+  },
+  "ratios": {
+    "ROIC": -11.301042,
+    "PB": 74.873040
+  },
+  "ownerEarnings": 1736896000,
+  "growth_rate_revenue": 9.502188,
+  "growth_rate_net_income": -292.087093
+}

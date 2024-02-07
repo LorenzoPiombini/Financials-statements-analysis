@@ -1,0 +1,14 @@
+{
+  "ticker": "HSKA",
+  "valuation": {
+    "PE_valuation": 326.198281, 
+    "DFC_valuation": -5415.962829
+  },
+  "ratios": {
+    "ROIC": -3.215002,
+    "PB": 1.522759
+  },
+  "ownerEarnings": -15276000,
+  "growth_rate_revenue": 55.654194,
+  "growth_rate_net_income": 13.338778
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ONCY",
+  "valuation": {
+    "PE_valuation": 0.005642, 
+    "DFC_valuation": -23.935076
+  },
+  "ratios": {
+    "ROIC": -105.203896,
+    "PB": 3.358817
+  },
+  "ownerEarnings": -34402000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 172.593403
+}

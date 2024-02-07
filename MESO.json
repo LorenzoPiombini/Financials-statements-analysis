@@ -1,0 +1,14 @@
+{
+  "ticker": "MESO",
+  "valuation": {
+    "PE_valuation": 28.598663, 
+    "DFC_valuation": -66.186526
+  },
+  "ratios": {
+    "ROIC": -11.014428,
+    "PB": 2.253498
+  },
+  "ownerEarnings": -74637000,
+  "growth_rate_revenue": 68.330643,
+  "growth_rate_net_income": 131.814004
+}

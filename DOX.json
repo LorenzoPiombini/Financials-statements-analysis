@@ -1,0 +1,14 @@
+{
+  "ticker": "DOX",
+  "valuation": {
+    "PE_valuation": 316.038108, 
+    "DFC_valuation": 6365.911725
+  },
+  "ratios": {
+    "ROIC": 12.420275,
+    "PB": 2.831136
+  },
+  "ownerEarnings": 861857000,
+  "growth_rate_revenue": 53.796834,
+  "growth_rate_net_income": 361.590661
+}

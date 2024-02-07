@@ -1,0 +1,14 @@
+{
+  "ticker": "FCCY",
+  "valuation": {
+    "PE_valuation": 211.797656, 
+    "DFC_valuation": 5571.846772
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.864324
+  },
+  "ownerEarnings": 40714000,
+  "growth_rate_revenue": 201.710937,
+  "growth_rate_net_income": 26.962018
+}

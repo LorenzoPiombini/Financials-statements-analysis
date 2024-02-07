@@ -1,0 +1,14 @@
+{
+  "ticker": "BOKF",
+  "valuation": {
+    "PE_valuation": 462.847866, 
+    "DFC_valuation": 194092.888706
+  },
+  "ratios": {
+    "ROIC": 6.938825,
+    "PB": 1.489757
+  },
+  "ownerEarnings": 885825000,
+  "growth_rate_revenue": 38.799563,
+  "growth_rate_net_income": 71.512033
+}

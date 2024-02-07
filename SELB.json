@@ -1,0 +1,14 @@
+{
+  "ticker": "SELB",
+  "valuation": {
+    "PE_valuation": -3.238916, 
+    "DFC_valuation": -1045.283528
+  },
+  "ratios": {
+    "ROIC": 10.314494,
+    "PB": 1.743373
+  },
+  "ownerEarnings": -13461000,
+  "growth_rate_revenue": 252.604339,
+  "growth_rate_net_income": 50.411647
+}

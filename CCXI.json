@@ -1,0 +1,14 @@
+{
+  "ticker": "CCXI",
+  "valuation": {
+    "PE_valuation": 27.951104, 
+    "DFC_valuation": -89.150055
+  },
+  "ratios": {
+    "ROIC": -40.733344,
+    "PB": 8.359080
+  },
+  "ownerEarnings": -142983000,
+  "growth_rate_revenue": 0.273023,
+  "growth_rate_net_income": 126.418609
+}

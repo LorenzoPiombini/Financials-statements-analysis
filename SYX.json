@@ -1,0 +1,14 @@
+{
+  "ticker": "SYX",
+  "valuation": {
+    "PE_valuation": 29.505666, 
+    "DFC_valuation": 174.202682
+  },
+  "ratios": {
+    "ROIC": 31.351397,
+    "PB": 12.601826
+  },
+  "ownerEarnings": 66400000,
+  "growth_rate_revenue": 28.244255,
+  "growth_rate_net_income": -52.111565
+}

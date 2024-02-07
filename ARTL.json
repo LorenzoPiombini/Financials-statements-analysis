@@ -1,0 +1,14 @@
+{
+  "ticker": "ARTL",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -51.583652,
+    "PB": 0.421964
+  },
+  "ownerEarnings": -12738000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 419.037441
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RTL",
+  "valuation": {
+    "PE_valuation": 9.444693, 
+    "DFC_valuation": 68.990071
+  },
+  "ratios": {
+    "ROIC": 2.184999,
+    "PB": 0.500359
+  },
+  "ownerEarnings": 391429000,
+  "growth_rate_revenue": 18.731580,
+  "growth_rate_net_income": 296.904230
+}

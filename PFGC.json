@@ -1,0 +1,14 @@
+{
+  "ticker": "PFGC",
+  "valuation": {
+    "PE_valuation": 694.141617, 
+    "DFC_valuation": 69256.032047
+  },
+  "ratios": {
+    "ROIC": 5.720638,
+    "PB": 2.480045
+  },
+  "ownerEarnings": 1345800000,
+  "growth_rate_revenue": 41.612164,
+  "growth_rate_net_income": 37.975432
+}

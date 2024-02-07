@@ -1,0 +1,14 @@
+{
+  "ticker": "UHG",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 431.952977
+  },
+  "ratios": {
+    "ROIC": 38.019884,
+    "PB": 8.106721
+  },
+  "ownerEarnings": 68383793,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

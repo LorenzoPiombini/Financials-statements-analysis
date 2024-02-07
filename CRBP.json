@@ -1,0 +1,14 @@
+{
+  "ticker": "CRBP",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -82.019511,
+    "PB": 0.420986
+  },
+  "ownerEarnings": -46185871,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 207.484186
+}

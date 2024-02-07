@@ -1,0 +1,14 @@
+{
+  "ticker": "CP",
+  "valuation": {
+    "PE_valuation": -127.984925, 
+    "DFC_valuation": 18953.587760
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 12463000000,
+  "growth_rate_revenue": -0.280948,
+  "growth_rate_net_income": 147.342446
+}

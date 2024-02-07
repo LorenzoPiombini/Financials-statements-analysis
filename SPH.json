@@ -1,0 +1,14 @@
+{
+  "ticker": "SPH",
+  "valuation": {
+    "PE_valuation": 16.564146, 
+    "DFC_valuation": 198.142884
+  },
+  "ratios": {
+    "ROIC": 10.191732,
+    "PB": 1.877743
+  },
+  "ownerEarnings": 277799000,
+  "growth_rate_revenue": 4.279962,
+  "growth_rate_net_income": -92.741177
+}

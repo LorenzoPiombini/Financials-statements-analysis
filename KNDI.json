@@ -1,0 +1,14 @@
+{
+  "ticker": "KNDI",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -5.186666,
+    "PB": 0.437853
+  },
+  "ownerEarnings": -8040003,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -20522.331867
+}

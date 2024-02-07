@@ -1,0 +1,14 @@
+{
+  "ticker": "HOG",
+  "valuation": {
+    "PE_valuation": 235.997415, 
+    "DFC_valuation": 4033.027649
+  },
+  "ratios": {
+    "ROIC": 7.318791,
+    "PB": 2.200309
+  },
+  "ownerEarnings": 791532000,
+  "growth_rate_revenue": 39.765428,
+  "growth_rate_net_income": 117.393545
+}

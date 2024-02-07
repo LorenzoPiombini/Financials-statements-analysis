@@ -1,0 +1,14 @@
+{
+  "ticker": "CTEK",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -20.372688,
+    "PB": 0.635433
+  },
+  "ownerEarnings": -2037052,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1415.046633
+}

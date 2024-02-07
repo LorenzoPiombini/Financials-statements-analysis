@@ -1,0 +1,14 @@
+{
+  "ticker": "IMAB",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -59.710402,
+    "PB": 0.727948
+  },
+  "ownerEarnings": -2185978000,
+  "growth_rate_revenue": 1229.351842,
+  "growth_rate_net_income": -106.952809
+}

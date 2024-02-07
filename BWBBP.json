@@ -1,0 +1,14 @@
+{
+  "ticker": "BWBBP",
+  "valuation": {
+    "PE_valuation": 27.425818, 
+    "DFC_valuation": 288.202076
+  },
+  "ratios": {
+    "ROIC": 13.554585,
+    "PB": 1.286709
+  },
+  "ownerEarnings": 125994000,
+  "growth_rate_revenue": 26.037137,
+  "growth_rate_net_income": 39.612317
+}

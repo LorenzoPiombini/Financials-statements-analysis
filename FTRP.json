@@ -1,0 +1,14 @@
+{
+  "ticker": "FTRP",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -166472804.562926
+  },
+  "ratios": {
+    "ROIC": 209.555342,
+    "PB": 0.827212
+  },
+  "ownerEarnings": -53532436,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

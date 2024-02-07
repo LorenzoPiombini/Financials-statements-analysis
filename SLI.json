@@ -1,0 +1,14 @@
+{
+  "ticker": "SLI",
+  "valuation": {
+    "PE_valuation": 0.014633, 
+    "DFC_valuation": -448.487359
+  },
+  "ratios": {
+    "ROIC": -28.009129,
+    "PB": 6.330567
+  },
+  "ownerEarnings": -12482000,
+  "growth_rate_revenue": 609.021055,
+  "growth_rate_net_income": -31.746793
+}

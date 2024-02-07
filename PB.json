@@ -1,0 +1,14 @@
+{
+  "ticker": "PB",
+  "valuation": {
+    "PE_valuation": 873.030609, 
+    "DFC_valuation": 130258.499701
+  },
+  "ratios": {
+    "ROIC": 5.722136,
+    "PB": 1.005497
+  },
+  "ownerEarnings": 762676000,
+  "growth_rate_revenue": 49.402105,
+  "growth_rate_net_income": 54.726552
+}

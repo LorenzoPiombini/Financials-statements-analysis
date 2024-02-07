@@ -1,0 +1,14 @@
+{
+  "ticker": "DGICB",
+  "valuation": {
+    "PE_valuation": -0.005249, 
+    "DFC_valuation": 156.487120
+  },
+  "ratios": {
+    "ROIC": -0.879985,
+    "PB": 0.939224
+  },
+  "ownerEarnings": -35081073,
+  "growth_rate_revenue": 114.302698,
+  "growth_rate_net_income": 465.568182
+}

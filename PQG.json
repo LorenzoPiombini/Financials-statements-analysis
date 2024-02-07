@@ -1,0 +1,14 @@
+{
+  "ticker": "PQG",
+  "valuation": {
+    "PE_valuation": -73.979986, 
+    "DFC_valuation": 605.121227
+  },
+  "ratios": {
+    "ROIC": 2.719902,
+    "PB": 1.513212
+  },
+  "ownerEarnings": 697307000,
+  "growth_rate_revenue": 47.334896,
+  "growth_rate_net_income": -345.737355
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FORG",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -71.512309
+  },
+  "ratios": {
+    "ROIC": -16.389531,
+    "PB": 6.113344
+  },
+  "ownerEarnings": -84956000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

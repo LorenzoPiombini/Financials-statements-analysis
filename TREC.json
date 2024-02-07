@@ -1,0 +1,14 @@
+{
+  "ticker": "TREC",
+  "valuation": {
+    "PE_valuation": 4.119176, 
+    "DFC_valuation": -354.770493
+  },
+  "ratios": {
+    "ROIC": -2.672087,
+    "PB": 1.002136
+  },
+  "ownerEarnings": 36574000,
+  "growth_rate_revenue": 12.193156,
+  "growth_rate_net_income": -29.064589
+}

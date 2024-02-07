@@ -1,0 +1,14 @@
+{
+  "ticker": "FRGE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -38.972849
+  },
+  "ratios": {
+    "ROIC": -40.517966,
+    "PB": 0.779127
+  },
+  "ownerEarnings": -212775000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

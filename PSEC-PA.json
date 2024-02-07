@@ -1,0 +1,14 @@
+{
+  "ticker": "PSEC-PA",
+  "valuation": {
+    "PE_valuation": -7.213831, 
+    "DFC_valuation": -21532.597996
+  },
+  "ratios": {
+    "ROIC": 5.091096,
+    "PB": 0.687972
+  },
+  "ownerEarnings": 329501000,
+  "growth_rate_revenue": 46.419767,
+  "growth_rate_net_income": 30.762428
+}

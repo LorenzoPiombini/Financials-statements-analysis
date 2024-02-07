@@ -1,0 +1,14 @@
+{
+  "ticker": "LOVE",
+  "valuation": {
+    "PE_valuation": 8.833319, 
+    "DFC_valuation": -986.743587
+  },
+  "ratios": {
+    "ROIC": 5.565587,
+    "PB": 1.941849
+  },
+  "ownerEarnings": 54417000,
+  "growth_rate_revenue": 44.344253,
+  "growth_rate_net_income": -22.935517
+}

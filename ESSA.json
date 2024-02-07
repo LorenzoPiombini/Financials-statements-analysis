@@ -1,0 +1,14 @@
+{
+  "ticker": "ESSA",
+  "valuation": {
+    "PE_valuation": 67.755025, 
+    "DFC_valuation": 983.747516
+  },
+  "ratios": {
+    "ROIC": 3.125379,
+    "PB": 0.666164
+  },
+  "ownerEarnings": 17968000,
+  "growth_rate_revenue": 169.559268,
+  "growth_rate_net_income": -60.954524
+}

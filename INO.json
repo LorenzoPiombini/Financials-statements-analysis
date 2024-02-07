@@ -1,0 +1,14 @@
+{
+  "ticker": "INO",
+  "valuation": {
+    "PE_valuation": 36.599063, 
+    "DFC_valuation": -54.391213
+  },
+  "ratios": {
+    "ROIC": -102.713912,
+    "PB": 20.088829
+  },
+  "ownerEarnings": -290071047,
+  "growth_rate_revenue": 286.228048,
+  "growth_rate_net_income": 29.629196
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NLTX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -48.548417,
+    "PB": 5.959350
+  },
+  "ownerEarnings": -64204000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 57.356435
+}

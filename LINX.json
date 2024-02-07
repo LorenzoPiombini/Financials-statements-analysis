@@ -1,0 +1,14 @@
+{
+  "ticker": "LINX",
+  "valuation": {
+    "PE_valuation": -91.124935, 
+    "DFC_valuation": -653.869628
+  },
+  "ratios": {
+    "ROIC": -1.758505,
+    "PB": 4.023745
+  },
+  "ownerEarnings": 270963000,
+  "growth_rate_revenue": 49.912672,
+  "growth_rate_net_income": 81.269356
+}

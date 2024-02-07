@@ -1,0 +1,14 @@
+{
+  "ticker": "TFPM",
+  "valuation": {
+    "PE_valuation": 13.159089, 
+    "DFC_valuation": 25.267346
+  },
+  "ratios": {
+    "ROIC": 1.165264,
+    "PB": 1.544833
+  },
+  "ownerEarnings": 68267000,
+  "growth_rate_revenue": 15.586303,
+  "growth_rate_net_income": 32231.236643
+}

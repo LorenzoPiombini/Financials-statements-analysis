@@ -1,0 +1,14 @@
+{
+  "ticker": "RNWWW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -8172.475317
+  },
+  "ratios": {
+    "ROIC": 15.249216,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 149486000000,
+  "growth_rate_revenue": -8.322212,
+  "growth_rate_net_income": -18.607379
+}

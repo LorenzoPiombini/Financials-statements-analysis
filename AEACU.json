@@ -1,0 +1,14 @@
+{
+  "ticker": "AEACU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -682.395350,
+    "PB": -652.155670
+  },
+  "ownerEarnings": 6962388,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

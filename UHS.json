@@ -1,0 +1,14 @@
+{
+  "ticker": "UHS",
+  "valuation": {
+    "PE_valuation": 690.200035, 
+    "DFC_valuation": 102715.194596
+  },
+  "ratios": {
+    "ROIC": 6.530226,
+    "PB": 1.739963
+  },
+  "ownerEarnings": 2151650000,
+  "growth_rate_revenue": 8.082282,
+  "growth_rate_net_income": 489.284674
+}

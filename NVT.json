@@ -1,0 +1,14 @@
+{
+  "ticker": "NVT",
+  "valuation": {
+    "PE_valuation": 36.167598, 
+    "DFC_valuation": 134.332466
+  },
+  "ratios": {
+    "ROIC": 9.561896,
+    "PB": 2.341971
+  },
+  "ownerEarnings": 533900000,
+  "growth_rate_revenue": 2.964464,
+  "growth_rate_net_income": -24.493335
+}

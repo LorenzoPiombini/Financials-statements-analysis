@@ -1,0 +1,14 @@
+{
+  "ticker": "LBTYA",
+  "valuation": {
+    "PE_valuation": 20.870885, 
+    "DFC_valuation": 106899.394239
+  },
+  "ratios": {
+    "ROIC": -1.771627,
+    "PB": 0.468850
+  },
+  "ownerEarnings": -263600000,
+  "growth_rate_revenue": 584.744114,
+  "growth_rate_net_income": -inf
+}

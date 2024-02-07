@@ -1,0 +1,14 @@
+{
+  "ticker": "SKLZ",
+  "valuation": {
+    "PE_valuation": 1896.470159, 
+    "DFC_valuation": -80.779979
+  },
+  "ratios": {
+    "ROIC": -43.689462,
+    "PB": 0.745865
+  },
+  "ownerEarnings": -155361000,
+  "growth_rate_revenue": 41.292552,
+  "growth_rate_net_income": 102.017201
+}

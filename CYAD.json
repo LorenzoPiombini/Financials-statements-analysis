@@ -1,0 +1,14 @@
+{
+  "ticker": "CYAD",
+  "valuation": {
+    "PE_valuation": 0.018696, 
+    "DFC_valuation": -78.250708
+  },
+  "ratios": {
+    "ROIC": 412.270596,
+    "PB": 2.416041
+  },
+  "ownerEarnings": -20364000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 122.106597
+}

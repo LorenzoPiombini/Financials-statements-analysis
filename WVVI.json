@@ -1,0 +1,14 @@
+{
+  "ticker": "WVVI",
+  "valuation": {
+    "PE_valuation": -5.306055, 
+    "DFC_valuation": -2578.802670
+  },
+  "ratios": {
+    "ROIC": -0.345775,
+    "PB": 0.421021
+  },
+  "ownerEarnings": 17884573,
+  "growth_rate_revenue": 24.787290,
+  "growth_rate_net_income": inf
+}

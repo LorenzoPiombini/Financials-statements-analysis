@@ -1,0 +1,14 @@
+{
+  "ticker": "GCO",
+  "valuation": {
+    "PE_valuation": 73.778795, 
+    "DFC_valuation": -2387.327572
+  },
+  "ratios": {
+    "ROIC": 2.375440,
+    "PB": 0.980197
+  },
+  "ownerEarnings": 82891000,
+  "growth_rate_revenue": -2.103080,
+  "growth_rate_net_income": -42.746442
+}

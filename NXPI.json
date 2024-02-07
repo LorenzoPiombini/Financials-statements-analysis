@@ -1,0 +1,14 @@
+{
+  "ticker": "NXPI",
+  "valuation": {
+    "PE_valuation": 392.303955, 
+    "DFC_valuation": 799.151431
+  },
+  "ratios": {
+    "ROIC": 17.189920,
+    "PB": 5.555744
+  },
+  "ownerEarnings": 5830000000,
+  "growth_rate_revenue": -1.294485,
+  "growth_rate_net_income": -163.047413
+}

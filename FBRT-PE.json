@@ -1,0 +1,14 @@
+{
+  "ticker": "FBRT-PE",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 0.894376,
+    "PB": 0.591182
+  },
+  "ownerEarnings": 96611000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -26425.849322
+}

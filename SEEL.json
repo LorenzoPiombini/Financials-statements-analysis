@@ -1,0 +1,14 @@
+{
+  "ticker": "SEEL",
+  "valuation": {
+    "PE_valuation": 0.052006, 
+    "DFC_valuation": -35.915041
+  },
+  "ratios": {
+    "ROIC": -766.144521,
+    "PB": -204.145700
+  },
+  "ownerEarnings": -78818000,
+  "growth_rate_revenue": 1704701.677320,
+  "growth_rate_net_income": 95.868956
+}

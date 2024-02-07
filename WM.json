@@ -1,0 +1,14 @@
+{
+  "ticker": "WM",
+  "valuation": {
+    "PE_valuation": 70340.677111, 
+    "DFC_valuation": 2151783836.193636
+  },
+  "ratios": {
+    "ROIC": 11.831352,
+    "PB": 9.455404
+  },
+  "ownerEarnings": 7669000000,
+  "growth_rate_revenue": 167.688750,
+  "growth_rate_net_income": 385.833333
+}

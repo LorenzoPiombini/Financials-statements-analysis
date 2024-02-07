@@ -1,0 +1,14 @@
+{
+  "ticker": "FRSH",
+  "valuation": {
+    "PE_valuation": 26.568545, 
+    "DFC_valuation": -13.612835
+  },
+  "ratios": {
+    "ROIC": -22.006576,
+    "PB": 3.980037
+  },
+  "ownerEarnings": -441243000,
+  "growth_rate_revenue": 16.345113,
+  "growth_rate_net_income": -15636.015671
+}

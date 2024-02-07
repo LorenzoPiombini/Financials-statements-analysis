@@ -1,0 +1,14 @@
+{
+  "ticker": "IROQ",
+  "valuation": {
+    "PE_valuation": 18.824072, 
+    "DFC_valuation": 8.680055
+  },
+  "ratios": {
+    "ROIC": 5.106681,
+    "PB": 0.636816
+  },
+  "ownerEarnings": 6911000,
+  "growth_rate_revenue": 10.937987,
+  "growth_rate_net_income": 31.278170
+}

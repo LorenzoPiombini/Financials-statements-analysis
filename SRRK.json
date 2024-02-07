@@ -1,0 +1,14 @@
+{
+  "ticker": "SRRK",
+  "valuation": {
+    "PE_valuation": 197.743269, 
+    "DFC_valuation": -70985.037574
+  },
+  "ratios": {
+    "ROIC": -37.653937,
+    "PB": 2.073070
+  },
+  "ownerEarnings": -155035000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 69.602929
+}

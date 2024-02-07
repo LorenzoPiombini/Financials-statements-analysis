@@ -1,0 +1,14 @@
+{
+  "ticker": "CVET",
+  "valuation": {
+    "PE_valuation": 0.736251, 
+    "DFC_valuation": 8.281312
+  },
+  "ratios": {
+    "ROIC": -0.883935,
+    "PB": 1.810649
+  },
+  "ownerEarnings": 192000000,
+  "growth_rate_revenue": 9.812895,
+  "growth_rate_net_income": -285.907427
+}

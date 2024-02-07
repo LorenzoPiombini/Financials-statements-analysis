@@ -1,0 +1,14 @@
+{
+  "ticker": "VSME",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.460220
+  },
+  "ratios": {
+    "ROIC": 56.071451,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 3489767,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

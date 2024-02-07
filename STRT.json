@@ -1,0 +1,14 @@
+{
+  "ticker": "STRT",
+  "valuation": {
+    "PE_valuation": 18.727753, 
+    "DFC_valuation": -265.073410
+  },
+  "ratios": {
+    "ROIC": -3.589669,
+    "PB": 0.402778
+  },
+  "ownerEarnings": 26638000,
+  "growth_rate_revenue": 19.315344,
+  "growth_rate_net_income": 29.578823
+}

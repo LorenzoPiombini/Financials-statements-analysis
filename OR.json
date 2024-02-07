@@ -1,0 +1,14 @@
+{
+  "ticker": "OR",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 4.878330,
+    "PB": 1.696840
+  },
+  "ownerEarnings": 284204000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -142.982462
+}

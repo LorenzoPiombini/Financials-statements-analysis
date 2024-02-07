@@ -1,0 +1,14 @@
+{
+  "ticker": "SKM",
+  "valuation": {
+    "PE_valuation": 46309.843424, 
+    "DFC_valuation": 1353796.850857
+  },
+  "ratios": {
+    "ROIC": 5.110843,
+    "PB": 1.515282
+  },
+  "ownerEarnings": 8440678000000,
+  "growth_rate_revenue": 33.783913,
+  "growth_rate_net_income": 104.616139
+}

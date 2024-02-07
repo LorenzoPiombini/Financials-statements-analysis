@@ -1,0 +1,14 @@
+{
+  "ticker": "M",
+  "valuation": {
+    "PE_valuation": 33.371077, 
+    "DFC_valuation": 82.760884
+  },
+  "ratios": {
+    "ROIC": 9.978997,
+    "PB": 1.553179
+  },
+  "ownerEarnings": 3632000000,
+  "growth_rate_revenue": 25.545801,
+  "growth_rate_net_income": 91.473120
+}

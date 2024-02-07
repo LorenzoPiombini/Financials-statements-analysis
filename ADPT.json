@@ -1,0 +1,14 @@
+{
+  "ticker": "ADPT",
+  "valuation": {
+    "PE_valuation": 60.849070, 
+    "DFC_valuation": -201.102062
+  },
+  "ratios": {
+    "ROIC": -20.926357,
+    "PB": 2.345764
+  },
+  "ownerEarnings": -175473000,
+  "growth_rate_revenue": 47.549488,
+  "growth_rate_net_income": 47.252905
+}

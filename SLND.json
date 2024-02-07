@@ -1,0 +1,14 @@
+{
+  "ticker": "SLND",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1068.463000
+  },
+  "ratios": {
+    "ROIC": 10.089439,
+    "PB": 1.298794
+  },
+  "ownerEarnings": 128476159,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

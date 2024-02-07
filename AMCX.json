@@ -1,0 +1,14 @@
+{
+  "ticker": "AMCX",
+  "valuation": {
+    "PE_valuation": 2.084376, 
+    "DFC_valuation": 312.529558
+  },
+  "ratios": {
+    "ROIC": -5.543515,
+    "PB": 0.990623
+  },
+  "ownerEarnings": 1379431000,
+  "growth_rate_revenue": 22.285054,
+  "growth_rate_net_income": 54.373701
+}

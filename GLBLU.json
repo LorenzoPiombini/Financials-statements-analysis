@@ -1,0 +1,14 @@
+{
+  "ticker": "GLBLU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.507210
+  },
+  "ratios": {
+    "ROIC": -294001.478696,
+    "PB": -12268542.567113
+  },
+  "ownerEarnings": 8714724,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NOGNW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -35.837395
+  },
+  "ratios": {
+    "ROIC": -146.266310,
+    "PB": -0.517119
+  },
+  "ownerEarnings": -34216000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

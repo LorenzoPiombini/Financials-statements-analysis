@@ -1,0 +1,14 @@
+{
+  "ticker": "BK",
+  "valuation": {
+    "PE_valuation": 188.159031, 
+    "DFC_valuation": 46384.177966
+  },
+  "ratios": {
+    "ROIC": 9.159121,
+    "PB": 0.906364
+  },
+  "ownerEarnings": 14365000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 32.764764
+}

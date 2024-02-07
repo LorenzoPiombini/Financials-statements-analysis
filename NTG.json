@@ -1,0 +1,14 @@
+{
+  "ticker": "NTG",
+  "valuation": {
+    "PE_valuation": 213.480237, 
+    "DFC_valuation": 5253.213164
+  },
+  "ratios": {
+    "ROIC": 24.053194,
+    "PB": 1.001709
+  },
+  "ownerEarnings": 68790409,
+  "growth_rate_revenue": -5760.572787,
+  "growth_rate_net_income": -206.459351
+}

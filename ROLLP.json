@@ -1,0 +1,14 @@
+{
+  "ticker": "ROLLP",
+  "valuation": {
+    "PE_valuation": 488.161233, 
+    "DFC_valuation": 1707.920714
+  },
+  "ratios": {
+    "ROIC": 3.376860,
+    "PB": 2.639799
+  },
+  "ownerEarnings": 232649000,
+  "growth_rate_revenue": 12.288386,
+  "growth_rate_net_income": 542.131142
+}

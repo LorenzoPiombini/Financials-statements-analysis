@@ -1,0 +1,14 @@
+{
+  "ticker": "AEVA-WT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -42.674593,
+    "PB": 0.895773
+  },
+  "ownerEarnings": -162616000,
+  "growth_rate_revenue": 21.558068,
+  "growth_rate_net_income": 48.073765
+}

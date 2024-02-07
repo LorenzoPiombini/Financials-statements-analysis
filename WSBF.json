@@ -1,0 +1,14 @@
+{
+  "ticker": "WSBF",
+  "valuation": {
+    "PE_valuation": 117.563247, 
+    "DFC_valuation": 127968.951522
+  },
+  "ratios": {
+    "ROIC": 2.577011,
+    "PB": 1.018339
+  },
+  "ownerEarnings": 23638000,
+  "growth_rate_revenue": 233.479397,
+  "growth_rate_net_income": 18.935697
+}

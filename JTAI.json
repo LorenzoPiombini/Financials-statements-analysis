@@ -1,0 +1,14 @@
+{
+  "ticker": "JTAI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -8.885885
+  },
+  "ratios": {
+    "ROIC": -161.583628,
+    "PB": 123.690161
+  },
+  "ownerEarnings": -14096479,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

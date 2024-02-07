@@ -1,0 +1,14 @@
+{
+  "ticker": "CHPMU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -4.133703,
+    "PB": -0.593711
+  },
+  "ownerEarnings": 22219073,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

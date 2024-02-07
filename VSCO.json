@@ -1,0 +1,14 @@
+{
+  "ticker": "VSCO",
+  "valuation": {
+    "PE_valuation": 18.531895, 
+    "DFC_valuation": 170.359427
+  },
+  "ratios": {
+    "ROIC": 3.517418,
+    "PB": 8.167102
+  },
+  "ownerEarnings": 300415000,
+  "growth_rate_revenue": -29.098591,
+  "growth_rate_net_income": -423.310134
+}

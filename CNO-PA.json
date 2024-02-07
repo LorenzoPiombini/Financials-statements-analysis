@@ -1,0 +1,14 @@
+{
+  "ticker": "CNO-PA",
+  "valuation": {
+    "PE_valuation": 11.830607, 
+    "DFC_valuation": 265.448359
+  },
+  "ratios": {
+    "ROIC": 10.017057,
+    "PB": 1.887849
+  },
+  "ownerEarnings": 1051800000,
+  "growth_rate_revenue": -5.722468,
+  "growth_rate_net_income": 389.559320
+}

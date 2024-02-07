@@ -1,0 +1,14 @@
+{
+  "ticker": "SRPT",
+  "valuation": {
+    "PE_valuation": 57487.752386, 
+    "DFC_valuation": -1185152505.531100
+  },
+  "ratios": {
+    "ROIC": -26.342787,
+    "PB": 27.354020
+  },
+  "ownerEarnings": -535492000,
+  "growth_rate_revenue": 311.834500,
+  "growth_rate_net_income": 159.068846
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VIAV",
+  "valuation": {
+    "PE_valuation": 80.648314, 
+    "DFC_valuation": 1825.569230
+  },
+  "ratios": {
+    "ROIC": 2.351960,
+    "PB": 3.685366
+  },
+  "ownerEarnings": 67900000,
+  "growth_rate_revenue": 42.674590,
+  "growth_rate_net_income": -272.727273
+}

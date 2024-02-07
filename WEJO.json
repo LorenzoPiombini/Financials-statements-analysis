@@ -1,0 +1,14 @@
+{
+  "ticker": "WEJO",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -4084.077549
+  },
+  "ratios": {
+    "ROIC": 599.999360,
+    "PB": -0.705066
+  },
+  "ownerEarnings": -115135000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

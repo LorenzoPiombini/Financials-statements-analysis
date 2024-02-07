@@ -1,0 +1,14 @@
+{
+  "ticker": "TAK",
+  "valuation": {
+    "PE_valuation": 3947.113174, 
+    "DFC_valuation": 264649.956603
+  },
+  "ratios": {
+    "ROIC": 3.861518,
+    "PB": 0.536102
+  },
+  "ownerEarnings": 1839568000000,
+  "growth_rate_revenue": 4.996843,
+  "growth_rate_net_income": 25.194417
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CNSP",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -178.794867,
+    "PB": 0.401848
+  },
+  "ownerEarnings": -16453895,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 12.916076
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NOMD",
+  "valuation": {
+    "PE_valuation": 22.685628, 
+    "DFC_valuation": 76.856972
+  },
+  "ratios": {
+    "ROIC": 6.038690,
+    "PB": 1.201922
+  },
+  "ownerEarnings": 579000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 163.118155
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MOBBW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -9.098276,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -6368805,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -inf
+}

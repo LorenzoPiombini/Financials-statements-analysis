@@ -1,0 +1,14 @@
+{
+  "ticker": "ANGO",
+  "valuation": {
+    "PE_valuation": 33.740092, 
+    "DFC_valuation": -88.821962
+  },
+  "ratios": {
+    "ROIC": -4.183607,
+    "PB": 0.987271
+  },
+  "ownerEarnings": 42033000,
+  "growth_rate_revenue": 34.286810,
+  "growth_rate_net_income": 118.097405
+}

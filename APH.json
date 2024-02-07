@@ -1,0 +1,14 @@
+{
+  "ticker": "APH",
+  "valuation": {
+    "PE_valuation": 575.469191, 
+    "DFC_valuation": 641384.897462
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 3447500000,
+  "growth_rate_revenue": 17.374459,
+  "growth_rate_net_income": 6.977778
+}

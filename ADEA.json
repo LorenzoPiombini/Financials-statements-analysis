@@ -1,0 +1,14 @@
+{
+  "ticker": "ADEA",
+  "valuation": {
+    "PE_valuation": -34.111494, 
+    "DFC_valuation": 8671.822137
+  },
+  "ratios": {
+    "ROIC": 18.547428,
+    "PB": 3.294122
+  },
+  "ownerEarnings": 356229000,
+  "growth_rate_revenue": 74.268493,
+  "growth_rate_net_income": 67.998307
+}

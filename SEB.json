@@ -1,0 +1,14 @@
+{
+  "ticker": "SEB",
+  "valuation": {
+    "PE_valuation": 30591.297947, 
+    "DFC_valuation": 1255176.105683
+  },
+  "ratios": {
+    "ROIC": 9.297538,
+    "PB": 0.877703
+  },
+  "ownerEarnings": 1643000000,
+  "growth_rate_revenue": 36.757635,
+  "growth_rate_net_income": inf
+}

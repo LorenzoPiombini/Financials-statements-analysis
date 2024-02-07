@@ -1,0 +1,14 @@
+{
+  "ticker": "LHX",
+  "valuation": {
+    "PE_valuation": 305.364181, 
+    "DFC_valuation": 2508.185099
+  },
+  "ratios": {
+    "ROIC": 7.308603,
+    "PB": 2.155951
+  },
+  "ownerEarnings": 3402000000,
+  "growth_rate_revenue": 9.454535,
+  "growth_rate_net_income": 94.391003
+}

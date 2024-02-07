@@ -1,0 +1,14 @@
+{
+  "ticker": "MTG",
+  "valuation": {
+    "PE_valuation": 30.478122, 
+    "DFC_valuation": 292.103882
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 691432000,
+  "growth_rate_revenue": 29.572182,
+  "growth_rate_net_income": 35.140592
+}

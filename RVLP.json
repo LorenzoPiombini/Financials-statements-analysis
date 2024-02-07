@@ -1,0 +1,14 @@
+{
+  "ticker": "RVLP",
+  "valuation": {
+    "PE_valuation": 0.312331, 
+    "DFC_valuation": -24.682675
+  },
+  "ratios": {
+    "ROIC": -41.838695,
+    "PB": 1.968431
+  },
+  "ownerEarnings": -33452000,
+  "growth_rate_revenue": -28.643479,
+  "growth_rate_net_income": 55.948413
+}

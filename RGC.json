@@ -1,0 +1,14 @@
+{
+  "ticker": "RGC",
+  "valuation": {
+    "PE_valuation": 0.112606, 
+    "DFC_valuation": -23.988337
+  },
+  "ratios": {
+    "ROIC": -46.889649,
+    "PB": 24.921707
+  },
+  "ownerEarnings": -6419358,
+  "growth_rate_revenue": 6.822712,
+  "growth_rate_net_income": 62.312441
+}

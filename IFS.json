@@ -1,0 +1,14 @@
+{
+  "ticker": "IFS",
+  "valuation": {
+    "PE_valuation": 326.814463, 
+    "DFC_valuation": -2508.261395
+  },
+  "ratios": {
+    "ROIC": 14.175329,
+    "PB": 1.031783
+  },
+  "ownerEarnings": 5480557000,
+  "growth_rate_revenue": 25.047818,
+  "growth_rate_net_income": 44.727948
+}

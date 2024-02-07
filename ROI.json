@@ -1,0 +1,14 @@
+{
+  "ticker": "ROI",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 481.833676,
+    "PB": -0.365136
+  },
+  "ownerEarnings": -19481861,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 291.628570
+}

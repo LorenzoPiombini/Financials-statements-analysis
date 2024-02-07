@@ -1,0 +1,14 @@
+{
+  "ticker": "SYRS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -33.034798,
+    "PB": 0.129427
+  },
+  "ownerEarnings": -136809000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 57.922313
+}

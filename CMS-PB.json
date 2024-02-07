@@ -1,0 +1,14 @@
+{
+  "ticker": "CMS-PB",
+  "valuation": {
+    "PE_valuation": 77.076297, 
+    "DFC_valuation": -559.376484
+  },
+  "ratios": {
+    "ROIC": 1.175355,
+    "PB": 2.609033
+  },
+  "ownerEarnings": 3202000000,
+  "growth_rate_revenue": -2.355756,
+  "growth_rate_net_income": -89.708793
+}

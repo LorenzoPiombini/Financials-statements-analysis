@@ -1,0 +1,14 @@
+{
+  "ticker": "NKTX",
+  "valuation": {
+    "PE_valuation": 0.339418, 
+    "DFC_valuation": -134.789425
+  },
+  "ratios": {
+    "ROIC": -23.011010,
+    "PB": 0.270466
+  },
+  "ownerEarnings": -96769000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 2091.390002
+}

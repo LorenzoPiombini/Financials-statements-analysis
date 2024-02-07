@@ -1,0 +1,14 @@
+{
+  "ticker": "NCNO",
+  "valuation": {
+    "PE_valuation": 137.741215, 
+    "DFC_valuation": -31.934079
+  },
+  "ratios": {
+    "ROIC": -4.150031,
+    "PB": 2.591043
+  },
+  "ownerEarnings": -59018000,
+  "growth_rate_revenue": 47.573169,
+  "growth_rate_net_income": 28.465283
+}

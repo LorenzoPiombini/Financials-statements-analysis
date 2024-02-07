@@ -1,0 +1,14 @@
+{
+  "ticker": "INTT",
+  "valuation": {
+    "PE_valuation": 29.630955, 
+    "DFC_valuation": -50.895836
+  },
+  "ratios": {
+    "ROIC": 9.532600,
+    "PB": 1.692408
+  },
+  "ownerEarnings": 13925000,
+  "growth_rate_revenue": 49.287659,
+  "growth_rate_net_income": -42.139806
+}

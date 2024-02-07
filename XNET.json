@@ -1,0 +1,14 @@
+{
+  "ticker": "XNET",
+  "valuation": {
+    "PE_valuation": -6.030742, 
+    "DFC_valuation": 68.025510
+  },
+  "ratios": {
+    "ROIC": 2.465928,
+    "PB": 0.394713
+  },
+  "ownerEarnings": 12039000,
+  "growth_rate_revenue": 62.818887,
+  "growth_rate_net_income": -788.136105
+}

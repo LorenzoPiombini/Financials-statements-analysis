@@ -1,0 +1,14 @@
+{
+  "ticker": "SUNW",
+  "valuation": {
+    "PE_valuation": 94.756521, 
+    "DFC_valuation": -1760351.224351
+  },
+  "ratios": {
+    "ROIC": -38.404966,
+    "PB": 0.811300
+  },
+  "ownerEarnings": -26347000,
+  "growth_rate_revenue": 19.726725,
+  "growth_rate_net_income": 46.236983
+}

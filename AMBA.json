@@ -1,0 +1,14 @@
+{
+  "ticker": "AMBA",
+  "valuation": {
+    "PE_valuation": 152.917764, 
+    "DFC_valuation": 102.381271
+  },
+  "ratios": {
+    "ROIC": -10.979902,
+    "PB": 5.686615
+  },
+  "ownerEarnings": -148195000,
+  "growth_rate_revenue": 32.067972,
+  "growth_rate_net_income": 49.675666
+}

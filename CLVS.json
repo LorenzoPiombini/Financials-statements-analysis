@@ -1,0 +1,14 @@
+{
+  "ticker": "CLVS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -142.071052,
+    "PB": -1.178088
+  },
+  "ownerEarnings": -217823000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 76.024244
+}

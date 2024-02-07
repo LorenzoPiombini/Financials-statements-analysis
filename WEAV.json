@@ -1,0 +1,14 @@
+{
+  "ticker": "WEAV",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -24.132371
+  },
+  "ratios": {
+    "ROIC": -22.604208,
+    "PB": 3.581887
+  },
+  "ownerEarnings": -47656000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BIG",
+  "valuation": {
+    "PE_valuation": -97.124543, 
+    "DFC_valuation": -7670.365782
+  },
+  "ratios": {
+    "ROIC": -4.273490,
+    "PB": 0.722221
+  },
+  "ownerEarnings": 127962000,
+  "growth_rate_revenue": 19.277036,
+  "growth_rate_net_income": 22.980080
+}

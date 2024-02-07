@@ -1,0 +1,14 @@
+{
+  "ticker": "GWAV",
+  "valuation": {
+    "PE_valuation": 653.331537, 
+    "DFC_valuation": -36502943.250966
+  },
+  "ratios": {
+    "ROIC": -56.285877,
+    "PB": 0.377762
+  },
+  "ownerEarnings": -2603718,
+  "growth_rate_revenue": 592.490184,
+  "growth_rate_net_income": 137.252309
+}

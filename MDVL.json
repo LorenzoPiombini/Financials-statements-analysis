@@ -1,0 +1,14 @@
+{
+  "ticker": "MDVL",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -153.915065,
+    "PB": 47.380223
+  },
+  "ownerEarnings": -45266000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 0.0
+}

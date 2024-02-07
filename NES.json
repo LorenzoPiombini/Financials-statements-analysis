@@ -1,0 +1,14 @@
+{
+  "ticker": "NES",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -25.082929,
+    "PB": 0.253829
+  },
+  "ownerEarnings": -6244000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 249.535300
+}

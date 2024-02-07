@@ -1,0 +1,14 @@
+{
+  "ticker": "ARCT",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 2.732630,
+    "PB": 1.659220
+  },
+  "ownerEarnings": -10985000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 176.305561
+}

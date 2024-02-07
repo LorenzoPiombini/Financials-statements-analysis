@@ -1,0 +1,14 @@
+{
+  "ticker": "UXIN",
+  "valuation": {
+    "PE_valuation": 134.094605, 
+    "DFC_valuation": -19.080201
+  },
+  "ratios": {
+    "ROIC": 38.343746,
+    "PB": -3.782795
+  },
+  "ownerEarnings": -608304000,
+  "growth_rate_revenue": 61.186483,
+  "growth_rate_net_income": -20.402961
+}

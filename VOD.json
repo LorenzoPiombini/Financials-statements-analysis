@@ -1,0 +1,14 @@
+{
+  "ticker": "VOD",
+  "valuation": {
+    "PE_valuation": 632.509400, 
+    "DFC_valuation": 741241.469509
+  },
+  "ratios": {
+    "ROIC": -31.767346,
+    "PB": -0.238574
+  },
+  "ownerEarnings": 25353000000,
+  "growth_rate_revenue": 89.944401,
+  "growth_rate_net_income": -231.227187
+}

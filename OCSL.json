@@ -1,0 +1,14 @@
+{
+  "ticker": "OCSL",
+  "valuation": {
+    "PE_valuation": 30.284952, 
+    "DFC_valuation": 341.971447
+  },
+  "ratios": {
+    "ROIC": 5.716110,
+    "PB": 0.957296
+  },
+  "ownerEarnings": 187633000,
+  "growth_rate_revenue": 52.428386,
+  "growth_rate_net_income": 144.469324
+}

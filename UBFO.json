@@ -1,0 +1,14 @@
+{
+  "ticker": "UBFO",
+  "valuation": {
+    "PE_valuation": 34.580523, 
+    "DFC_valuation": 625.172359
+  },
+  "ratios": {
+    "ROIC": 14.186202,
+    "PB": 1.107601
+  },
+  "ownerEarnings": 25772000,
+  "growth_rate_revenue": 111.657687,
+  "growth_rate_net_income": 16.602106
+}

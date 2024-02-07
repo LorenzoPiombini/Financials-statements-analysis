@@ -1,0 +1,14 @@
+{
+  "ticker": "MTDR",
+  "valuation": {
+    "PE_valuation": 1247.695451, 
+    "DFC_valuation": 688769.347079
+  },
+  "ratios": {
+    "ROIC": 31.432077,
+    "PB": 2.173495
+  },
+  "ownerEarnings": 2963597000,
+  "growth_rate_revenue": 111.326714,
+  "growth_rate_net_income": -68.289610
+}

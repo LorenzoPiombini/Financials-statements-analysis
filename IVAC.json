@@ -1,0 +1,14 @@
+{
+  "ticker": "IVAC",
+  "valuation": {
+    "PE_valuation": -12.551526, 
+    "DFC_valuation": -21.007803
+  },
+  "ratios": {
+    "ROIC": -13.473432,
+    "PB": 1.320288
+  },
+  "ownerEarnings": -20407000,
+  "growth_rate_revenue": 14.328359,
+  "growth_rate_net_income": -625.155591
+}

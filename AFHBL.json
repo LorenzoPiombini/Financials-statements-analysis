@@ -1,0 +1,14 @@
+{
+  "ticker": "AFHBL",
+  "valuation": {
+    "PE_valuation": 0.737224, 
+    "DFC_valuation": -44.607700
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": -0.421172
+  },
+  "ownerEarnings": -1676000,
+  "growth_rate_revenue": 13.751963,
+  "growth_rate_net_income": 7.397616
+}

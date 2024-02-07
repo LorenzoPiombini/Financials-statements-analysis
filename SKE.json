@@ -1,0 +1,14 @@
+{
+  "ticker": "SKE",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -52.234547,
+    "PB": 3.692169
+  },
+  "ownerEarnings": -113734000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 249.125172
+}

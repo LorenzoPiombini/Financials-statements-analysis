@@ -1,0 +1,14 @@
+{
+  "ticker": "CFLT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -118.866749
+  },
+  "ratios": {
+    "ROIC": -24.450169,
+    "PB": 8.095092
+  },
+  "ownerEarnings": -740964000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

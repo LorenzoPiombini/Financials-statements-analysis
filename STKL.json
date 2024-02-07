@@ -1,0 +1,14 @@
+{
+  "ticker": "STKL",
+  "valuation": {
+    "PE_valuation": 404.927474, 
+    "DFC_valuation": -747922.083212
+  },
+  "ratios": {
+    "ROIC": 0.108171,
+    "PB": 2.529990
+  },
+  "ownerEarnings": 168923000,
+  "growth_rate_revenue": 81.818978,
+  "growth_rate_net_income": -inf
+}

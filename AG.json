@@ -1,0 +1,14 @@
+{
+  "ticker": "AG",
+  "valuation": {
+    "PE_valuation": 56598.943102, 
+    "DFC_valuation": -2981816973883.990234
+  },
+  "ratios": {
+    "ROIC": -5.542817,
+    "PB": 1.554909
+  },
+  "ownerEarnings": 248591000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 235.171147
+}

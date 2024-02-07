@@ -1,0 +1,14 @@
+{
+  "ticker": "CIX",
+  "valuation": {
+    "PE_valuation": 7.927557, 
+    "DFC_valuation": 73.594465
+  },
+  "ratios": {
+    "ROIC": 12.273360,
+    "PB": 1.451937
+  },
+  "ownerEarnings": 24772000,
+  "growth_rate_revenue": 19.199021,
+  "growth_rate_net_income": -31.416028
+}

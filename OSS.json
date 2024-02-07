@@ -1,0 +1,14 @@
+{
+  "ticker": "OSS",
+  "valuation": {
+    "PE_valuation": 5.249874, 
+    "DFC_valuation": -62.129951
+  },
+  "ratios": {
+    "ROIC": -3.214714,
+    "PB": 1.339900
+  },
+  "ownerEarnings": -4154087,
+  "growth_rate_revenue": 39.868067,
+  "growth_rate_net_income": -689.045363
+}

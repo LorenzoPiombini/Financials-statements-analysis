@@ -1,0 +1,14 @@
+{
+  "ticker": "BURL",
+  "valuation": {
+    "PE_valuation": 119.755256, 
+    "DFC_valuation": 94.599578
+  },
+  "ratios": {
+    "ROIC": 3.517579,
+    "PB": 18.516883
+  },
+  "ownerEarnings": 1089210000,
+  "growth_rate_revenue": 8.442787,
+  "growth_rate_net_income": -55.812364
+}

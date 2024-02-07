@@ -1,0 +1,14 @@
+{
+  "ticker": "THMO",
+  "valuation": {
+    "PE_valuation": 229.448384, 
+    "DFC_valuation": -196975.745652
+  },
+  "ratios": {
+    "ROIC": -48.404395,
+    "PB": 0.410423
+  },
+  "ownerEarnings": -10202000,
+  "growth_rate_revenue": 148.825758,
+  "growth_rate_net_income": 36.185065
+}

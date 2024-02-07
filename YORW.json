@@ -1,0 +1,14 @@
+{
+  "ticker": "YORW",
+  "valuation": {
+    "PE_valuation": 82.722952, 
+    "DFC_valuation": -278.943614
+  },
+  "ratios": {
+    "ROIC": 7.057378,
+    "PB": 2.829648
+  },
+  "ownerEarnings": 91861000,
+  "growth_rate_revenue": 4.605311,
+  "growth_rate_net_income": 13.159374
+}

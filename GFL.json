@@ -1,0 +1,14 @@
+{
+  "ticker": "GFL",
+  "valuation": {
+    "PE_valuation": 15.480002, 
+    "DFC_valuation": 4.646899
+  },
+  "ratios": {
+    "ROIC": 0.279041,
+    "PB": 2.369929
+  },
+  "ownerEarnings": 2961700000,
+  "growth_rate_revenue": 68.316018,
+  "growth_rate_net_income": 81.266788
+}

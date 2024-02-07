@@ -1,0 +1,14 @@
+{
+  "ticker": "AWR",
+  "valuation": {
+    "PE_valuation": 178.753483, 
+    "DFC_valuation": -312.199602
+  },
+  "ratios": {
+    "ROIC": 5.118306,
+    "PB": 2.958392
+  },
+  "ownerEarnings": 334908000,
+  "growth_rate_revenue": 6.197093,
+  "growth_rate_net_income": 12.591709
+}

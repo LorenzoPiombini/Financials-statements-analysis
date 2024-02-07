@@ -1,0 +1,14 @@
+{
+  "ticker": "GLBZ",
+  "valuation": {
+    "PE_valuation": 8.930915, 
+    "DFC_valuation": -71.832395
+  },
+  "ratios": {
+    "ROIC": 15.540467,
+    "PB": 1.467495
+  },
+  "ownerEarnings": 4701000,
+  "growth_rate_revenue": 64.797014,
+  "growth_rate_net_income": -17.951208
+}

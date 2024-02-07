@@ -1,0 +1,14 @@
+{
+  "ticker": "PXLW",
+  "valuation": {
+    "PE_valuation": 35.547803, 
+    "DFC_valuation": -5286.249169
+  },
+  "ratios": {
+    "ROIC": -41.708273,
+    "PB": 2.966287
+  },
+  "ownerEarnings": -14077000,
+  "growth_rate_revenue": 410.876502,
+  "growth_rate_net_income": 1843.499892
+}

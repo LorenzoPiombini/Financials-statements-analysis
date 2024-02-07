@@ -1,0 +1,14 @@
+{
+  "ticker": "CBRE",
+  "valuation": {
+    "PE_valuation": 680.101740, 
+    "DFC_valuation": 158904986.024471
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 17254927000,
+  "growth_rate_revenue": 63.475633,
+  "growth_rate_net_income": -70.496835
+}

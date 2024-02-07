@@ -1,0 +1,14 @@
+{
+  "ticker": "CARE",
+  "valuation": {
+    "PE_valuation": 0.565083, 
+    "DFC_valuation": 10.149901
+  },
+  "ratios": {
+    "ROIC": 12.629897,
+    "PB": 1.241663
+  },
+  "ownerEarnings": 101265000,
+  "growth_rate_revenue": 4.490107,
+  "growth_rate_net_income": 16.051023
+}

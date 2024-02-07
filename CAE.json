@@ -1,0 +1,14 @@
+{
+  "ticker": "CAE",
+  "valuation": {
+    "PE_valuation": 26.347806, 
+    "DFC_valuation": -120.426365
+  },
+  "ratios": {
+    "ROIC": 4.516569,
+    "PB": 2.156406
+  },
+  "ownerEarnings": 1175700000,
+  "growth_rate_revenue": 4.155843,
+  "growth_rate_net_income": 50.281138
+}

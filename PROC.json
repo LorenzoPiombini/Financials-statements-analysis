@@ -1,0 +1,14 @@
+{
+  "ticker": "PROC",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -13.775631
+  },
+  "ratios": {
+    "ROIC": 8.415380,
+    "PB": -564.109989
+  },
+  "ownerEarnings": 44973000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

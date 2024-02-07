@@ -1,0 +1,14 @@
+{
+  "ticker": "TYG",
+  "valuation": {
+    "PE_valuation": 120.728767, 
+    "DFC_valuation": 18025.641691
+  },
+  "ratios": {
+    "ROIC": 19.171307,
+    "PB": 0.890323
+  },
+  "ownerEarnings": 111026481,
+  "growth_rate_revenue": 43.584560,
+  "growth_rate_net_income": -148.617377
+}

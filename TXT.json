@@ -1,0 +1,14 @@
+{
+  "ticker": "TXT",
+  "valuation": {
+    "PE_valuation": 94.133791, 
+    "DFC_valuation": 506.721654
+  },
+  "ratios": {
+    "ROIC": 9.254798,
+    "PB": 2.118217
+  },
+  "ownerEarnings": 1827000000,
+  "growth_rate_revenue": 19.560219,
+  "growth_rate_net_income": 6.119021
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "STL",
+  "valuation": {
+    "PE_valuation": 587.631650, 
+    "DFC_valuation": 295656.975877
+  },
+  "ratios": {
+    "ROIC": 1.530168,
+    "PB": 1.020136
+  },
+  "ownerEarnings": 517461000,
+  "growth_rate_revenue": 163.658104,
+  "growth_rate_net_income": 28.837081
+}

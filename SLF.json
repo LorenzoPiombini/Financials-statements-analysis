@@ -1,0 +1,14 @@
+{
+  "ticker": "SLF",
+  "valuation": {
+    "PE_valuation": 76.681917, 
+    "DFC_valuation": 2381.193890
+  },
+  "ratios": {
+    "ROIC": 8.684075,
+    "PB": 1.341575
+  },
+  "ownerEarnings": 4608000000,
+  "growth_rate_revenue": 28.490622,
+  "growth_rate_net_income": 185.763825
+}

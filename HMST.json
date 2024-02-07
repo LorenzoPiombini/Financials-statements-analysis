@@ -1,0 +1,14 @@
+{
+  "ticker": "HMST",
+  "valuation": {
+    "PE_valuation": -22.428504, 
+    "DFC_valuation": 1344.608229
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -24828000,
+  "growth_rate_revenue": 36.855764,
+  "growth_rate_net_income": 28.991900
+}

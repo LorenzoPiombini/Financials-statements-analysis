@@ -1,0 +1,14 @@
+{
+  "ticker": "OCX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -171.612633,
+    "PB": 1.037175
+  },
+  "ownerEarnings": -90314000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 50.125664
+}

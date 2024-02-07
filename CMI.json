@@ -1,0 +1,14 @@
+{
+  "ticker": "CMI",
+  "valuation": {
+    "PE_valuation": 748.705614, 
+    "DFC_valuation": 40998.372474
+  },
+  "ratios": {
+    "ROIC": 9.982591,
+    "PB": 4.000822
+  },
+  "ownerEarnings": 2713000000,
+  "growth_rate_revenue": 12.935018,
+  "growth_rate_net_income": 383.553140
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "IBTX",
+  "valuation": {
+    "PE_valuation": 209.382382, 
+    "DFC_valuation": 4186.623341
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 432268000,
+  "growth_rate_revenue": 40.121946,
+  "growth_rate_net_income": 46.998175
+}

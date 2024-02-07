@@ -1,0 +1,14 @@
+{
+  "ticker": "ELDN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 9.863302,
+    "PB": 0.386900
+  },
+  "ownerEarnings": 97638000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 30.849955
+}

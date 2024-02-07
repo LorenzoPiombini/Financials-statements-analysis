@@ -1,0 +1,14 @@
+{
+  "ticker": "GNTY",
+  "valuation": {
+    "PE_valuation": 13.410391, 
+    "DFC_valuation": 174.393027
+  },
+  "ratios": {
+    "ROIC": 8.367966,
+    "PB": 1.420564
+  },
+  "ownerEarnings": 81162000,
+  "growth_rate_revenue": 19.715992,
+  "growth_rate_net_income": 18.109444
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ADTX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -219.953464,
+    "PB": 0.411463
+  },
+  "ownerEarnings": -24878386,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 83.450859
+}

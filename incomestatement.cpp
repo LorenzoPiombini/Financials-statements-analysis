@@ -3,6 +3,8 @@
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <cstring>
+#include "Logger.h"
 
 std::string Income_statement::get_date() const {
     return date;
@@ -53,7 +55,6 @@ long long Income_statement::get_selling_and_marketing_expenses()const{
 }
 long long Income_statement::get_selling_general_and_administrative_expenses()const{
     return sellingGeneralAndAdministrativeExpenses;
-    
 }
 long long Income_statement::get_other_expenses()const{
     return otherExpenses;
@@ -125,6 +126,13 @@ std::string Income_statement::get_finalLink()const{
     return finalLink;
 }
 
+long long Income_statement::get_outstanding_share_from_sec()const{
+    return outstanding_share_from_sec;
+}
+void Income_statement::set_outstanding_share_from_sec(long long shares_outstanding){
+      outstanding_share_from_sec = shares_outstanding;
+}
+
 
 std::string trim_income(const std::string &str){
   size_t first = str.find_first_not_of(" \t\n\r");
@@ -169,7 +177,7 @@ void Income_statement::deserialize(std::string &json_string){
              }
 
 //this line is for debugging 
- //         std::cout <<"Key is long : " << key.length() << "and it looks like"+key<< std::endl;
+          //std::cout <<"Key is long : " << key.length() << "and it looks like "<<key<< "and the value is:" << value<<"no space in value"<< std::endl;
          
          if(key == "date"){date = value;}
          if(key == "symbol"){symbol = value;}
@@ -179,273 +187,43 @@ void Income_statement::deserialize(std::string &json_string){
          if(key == "acceptedDate"){acceptedDate = value;}
          if(key == "calendarYear"){calendarYear = value;}
          if(key == "period"){period = value;}
-         if(key == "revenue"){ revenue= std::stoll(value);}
-         if(key == "costOfRevenue"){ costOfRevenue= std::stoll(value);}
-         if(key == "grossProfit"){grossProfit = std::stoll(value);}
-         if(key == "grossProfitRatio"){ grossProfitRatio= std::stod(value);}
-         if(key == "researchAndDevelopmentExpenses"){ researchAndDevelopmentExpenses= std::stoll(value);}
-         if(key == "generalAndAdministrativeExpenses"){ generalAndAdministrativeExpenses= std::stoll(value);}
-         if(key == "sellingAndMarketingExpenses"){ sellingAndMarketingExpenses = std::stoll(value);}
-         if(key == "sellingGeneralAndAdministrativeExpenses"){ sellingGeneralAndAdministrativeExpenses= std::stoll(value);}
-         if(key == "otherExpenses"){ otherExpenses= std::stoll(value);}
+         if(key == "revenue" && value != "null"){ revenue= std::stoll(value);}
+         if(key == "costOfRevenue" && value != "null"){ costOfRevenue= std::stoll(value);}
+         if(key == "grossProfit" && value != "null"){grossProfit = std::stoll(value);}
+         if(key == "grossProfitRatio" && value != "null"){ grossProfitRatio= std::stod(value);}
+         if(key == "researchAndDevelopmentExpenses" && value != "null"){ researchAndDevelopmentExpenses= std::stoll(value);}
+         if(key == "generalAndAdministrativeExpenses" && value != "null"){ generalAndAdministrativeExpenses= std::stoll(value);}
+         if(key == "sellingAndMarketingExpenses" && value != "null"){ sellingAndMarketingExpenses = std::stoll(value);}
+         if(key == "sellingGeneralAndAdministrativeExpenses" && value != "null"){ sellingGeneralAndAdministrativeExpenses= std::stoll(value);}
+         if(key == "otherExpenses" && value != "null"){ otherExpenses= std::stoll(value);}
          if(key == "operatingExpenses"){ operatingExpenses= std::stoll(value);}
-         if(key == "costAndExpenses"){ costAndExpenses = std::stoll(value);}
-         if(key == "interestIncome"){ interestIncome= std::stoll(value);}
-         if(key == "interestExpense"){interestExpense = std::stoll(value);}
-         if(key == "depreciationAndAmortization"){ depreciationAndAmortization= std::stoll(value);}
-         if(key == "ebitda"){ebitda = std::stoll(value);}
-         if(key == "ebitdaratio"){ebitdaratio = std::stod(value);}
-         if(key == "operatingIncome"){ operatingIncome= std::stoll(value);}
-         if(key == "operatingIncomeRatio"){ operatingIncomeRatio= std::stod(value);}
-         if(key == "totalOtherIncomeExpensesNet"){totalOtherIncomeExpensesNet = std::stoll(value);}
-         if(key == "incomeBeforeTax"){ incomeBeforeTax= std::stoll(value);}
-         if(key == "incomeBeforeTaxRatio"){ incomeBeforeTaxRatio= std::stod(value);}
-         if(key == "incomeTaxExpense"){ incomeTaxExpense = std::stoll(value);}
-         if(key == "netIncome"){ netIncome = std::stoll(value);}
-         if(key == "netIncomeRatio"){ netIncomeRatio= std::stoll(value);}
-         if(key == "eps"){ eps= std::stod(value);}
-         if(key == "epsdiluted"){ epsdiluted= std::stod(value);}
-         if(key == "weightedAverageShsOut"){weightedAverageShsOut = std::stoll(value);}
-         if(key == "weightedAverageShsOutDil"){weightedAverageShsOutDil = std::stoll(value);}
+         if(key == "costAndExpenses" && value != "null"){ costAndExpenses = std::stoll(value);}
+         if(key == "interestIncome" && value != "null"){ interestIncome= std::stoll(value);}
+         if(key == "interestExpense" && value != "null"){interestExpense = std::stoll(value);}
+         if(key == "depreciationAndAmortization" && value != "null"){ depreciationAndAmortization= std::stoll(value);}
+         if(key == "ebitda" && value != "null"){ebitda = std::stoll(value);}
+         if(key == "ebitdaratio" && value != "null"){ebitdaratio = std::stod(value);}
+         if(key == "operatingIncome" && value != "null"){ operatingIncome= std::stoll(value);}
+         if(key == "operatingIncomeRatio" && value != "null"){ operatingIncomeRatio= std::stod(value);}
+         if(key == "totalOtherIncomeExpensesNet" && value != "null"){totalOtherIncomeExpensesNet = std::stoll(value);}
+         if(key == "incomeBeforeTax" && value != "null"){ incomeBeforeTax= std::stoll(value);}
+         if(key == "incomeBeforeTaxRatio" && value != "null"){ incomeBeforeTaxRatio= std::stod(value);}
+         if(key == "incomeTaxExpense" && value != "null"){ incomeTaxExpense = std::stoll(value);}
+         if(key == "netIncome" && value != "null"){ netIncome = std::stoll(value);}
+         if(key == "netIncomeRatio" && value != "null"){ netIncomeRatio= std::stoll(value);}
+         if(key == "eps" && value != "null"){ eps= std::stod(value);}
+         if(key == "epsdiluted" && value != "null"){ epsdiluted= std::stod(value);}
+         if(key == "weightedAverageShsOut" && value != "null"){weightedAverageShsOut = std::stoll(value);}
+         if(key == "weightedAverageShsOutDil" && value != "null"){weightedAverageShsOutDil = std::stoll(value);}
          if(key == "link"){ link= value;}
          if(key == "finalLink"){ finalLink= value;}
          
     }
     
+    outstanding_share_from_sec = 0ll;
+    
 }
 
-
-//void from_json(const nlohmann::json &j, Income_statement &i){
-//  
-//    if(j.contains("date") && !j["date"].empty()){
-//          j.at("date").get_to(i.date);
-//    } else {
-//          i.date = "none";
-//    }
-//  
-//   if(j.contains("symbol") && !j["symbol"].empty()){
-//          j.at("symbol").get_to(i.symbol);
-//    } else {
-//          i.symbol = "none";
-//    }
-//  
-//  
-//  if(j.contains("reportedCurrency") && !j["reportedCurrency"].empty()){
-//          j.at("reportedCurrency").get_to(i.reportedCurrency);
-//   }else{
-//          i.reportedCurrency = "none";
-//   }
-//  
-//  
-//  if(j.contains("cik") && !j["cik"].empty()){
-//     j.at("cik").get_to(i.cik);
-//   } else {
-//     i.cik = "none";
-//  }
-//  
-//  
-//  if(j.contains("fillingDate") && !j["fillingDate"].empty()){
-//        j.at("fillingDate").get_to(i.fillingDate);
-//   } else {
-//        i.fillingDate = "none";
-//   }
-//  
-//  if(j.contains("acceptedDate") && !j["acceptedDate"].empty()){
-//       j.at("acceptedDate").get_to(i.acceptedDate);
-//   } else {
-//       i.acceptedDate = "none";
-//   }
-// 
-//  
-//   if(j.contains("calendarYear") && !j["calendarYear"].empty()){
-//          j.at("calendarYear").get_to(i.calendarYear);
-//    } else {
-//          i.calendarYear = "none";
-//    }
-//  
-//   if(j.contains("period") && !j["period"].empty()){
-//          j.at("period").get_to(i.period);
-//    } else {
-//          i.period = "none";
-//    }
-//  
-//  
-//  if(j.contains("revenue") && !j["revenue"].empty()){
-//          j.at("revenue").get_to(i.revenue);
-//   }else{
-//          i.revenue = 0;
-//   }
-//  
-//  
-//  if(j.contains("costOfRevenue") && !j["costOfRevenue"].empty()){
-//     j.at("costOfRevenue").get_to(i.costOfRevenue);
-//   } else {
-//     i.costOfRevenue = 0;
-//  }
-//  
-//  
-//  if(j.contains("grossProfit") && !j["grossProfit"].empty()){
-//        j.at("grossProfit").get_to(i.grossProfit);
-//   } else {
-//        i.grossProfit = 0;
-//   }
-//  
-//  if(j.contains("grossProfitRatio") && !j["grossProfitRatio"].empty()){
-//       j.at("grossProfitRatio").get_to(i.grossProfitRatio);
-//   } else {
-//       i.grossProfitRatio = 0.0;
-//   }
-// 
-//  
-//  if(j.contains("researchAndDevelopmentExpenses") && !j["researchAndDevelopmentExpenses"].empty()){
-//        j.at("researchAndDevelopmentExpenses").get_to(i.researchAndDevelopmentExpenses);
-//  }else {
-//        i.researchAndDevelopmentExpenses = 0;
-//  }
-//  
-//   if(j.contains("generalAndAdministrativeExpenses") && !j["generalAndAdministrativeExpenses"].empty()){
-//          j.at("generalAndAdministrativeExpenses").get_to(i.generalAndAdministrativeExpenses);
-//    } else {
-//          i.generalAndAdministrativeExpenses = 0;
-//    }
-//  
-//   if(j.contains("sellingAndMarketingExpenses") && !j["sellingAndMarketingExpenses"].empty()){
-//          j.at("sellingAndMarketingExpenses").get_to(i.sellingAndMarketingExpenses);
-//    } else {
-//          i.sellingAndMarketingExpenses = 0;
-//    }
-//  
-//  
-//  if(j.contains("sellingGeneralAndAdministrativeExpenses") && !j["sellingGeneralAndAdministrativeExpenses"].empty()){
-//          j.at("sellingGeneralAndAdministrativeExpenses").get_to(i.sellingGeneralAndAdministrativeExpenses);
-//   }else{
-//          i.sellingGeneralAndAdministrativeExpenses = 0;
-//   }
-//  
-//  
-//  if(j.contains("operatingExpenses") && !j["operatingExpenses"].empty()){
-//     j.at("operatingExpenses").get_to(i.operatingExpenses);
-//   } else {
-//     i.operatingExpenses = 0;
-//  }
-//  
-//  
-//  if(j.contains("otherExpenses") && !j["otherExpenses"].empty()){
-//        j.at("otherExpenses").get_to(i.otherExpenses);
-//   } else {
-//        i.otherExpenses = 0;
-//   }
-//  
-//  if(j.contains("costAndExpenses") && !j["costAndExpenses"].empty()){
-//       j.at("costAndExpenses").get_to(i.costAndExpenses);
-//   } else {
-//       i.costAndExpenses = 0;
-//   }
-// 
-//  
-//  if(j.contains("interestIncome") && !j["interestIncome"].empty()){
-//        j.at("interestIncome").get_to(i.interestIncome);
-//  }else {
-//        i.interestIncome = 0;
-//  }
-//  
-//    if(j.contains("interestExpense") && !j["interestExpense"].empty()){
-//        j.at("interestExpense").get_to(i.interestExpense);
-//  }else {
-//        i.interestExpense = 0;
-//  }
-//    if(j.contains("depreciationAndAmortization") && !j["depreciationAndAmortization"].empty()){
-//        j.at("depreciationAndAmortization").get_to(i.depreciationAndAmortization);
-//  }else {
-//        i.depreciationAndAmortization = 0;
-//  }
-//    if(j.contains("ebitda") && !j["ebitda"].empty()){
-//        j.at("ebitda").get_to(i.ebitda);
-//  }else {
-//        i.ebitda = 0;
-//  }
-//    if(j.contains("ebitdaratio") && !j["ebitdaratio"].empty()){
-//        j.at("ebitdaratio").get_to(i.ebitdaratio);
-//  }else {
-//        i.ebitdaratio = 0.0;
-//  }
-//    if(j.contains("operatingIncome") && !j["operatingIncome"].empty()){
-//        j.at("operatingIncome").get_to(i.operatingIncome);
-//  }else {
-//       i.operatingIncome = 0; 
-//  }
-//    if(j.contains("operatingIncomeRatio") && !j["operatingIncomeRatio"].empty()){
-//        j.at("operatingIncomeRatio").get_to(i.operatingIncomeRatio);
-//  }else {
-//        i.operatingIncomeRatio = 0.0;
-//  } 
-//
-// if(j.contains("totalOtherIncomeExpensesNet") && !j["totalOtherIncomeExpensesNet"].empty()){
-//        j.at("totalOtherIncomeExpensesNet").get_to(i.totalOtherIncomeExpensesNet);
-//  }else {
-//        i.totalOtherIncomeExpensesNet = 0;
-//  }  
-//  if(j.contains("incomeBeforeTax") && !j["incomeBeforeTax"].empty()){
-//        j.at("incomeBeforeTax").get_to(i.incomeBeforeTax);
-//  }else {
-//        i.incomeBeforeTax = 0;
-//  }  
-//  
-//  if(j.contains("incomeBeforeTaxRatio") && !j["incomeBeforeTaxRatio"].empty()){
-//        j.at("incomeBeforeTaxRatio").get_to(i.incomeBeforeTaxRatio);
-//  }else {
-//        i.incomeBeforeTaxRatio = 0;
-//  }  
-//  if(j.contains("incomeTaxExpense") && !j["incomeTaxExpense"].empty()){
-//        j.at("incomeTaxExpense").get_to(i.incomeTaxExpense);
-//  }else {
-//        i.incomeTaxExpense = 0;
-//  } 
-//  
-//  if(j.contains("netIncome") && !j["netIncome"].empty()){
-//        j.at("netIncome").get_to(i.netIncome);
-//  }else {
-//        i.netIncome = 0;
-//  }  
-//  if(j.contains("netIncomeRatio") && !j["netIncomeRatio"].empty()){
-//        j.at("netIncomeRatio").get_to(i.netIncomeRatio);
-//  }else {
-//        i.netIncomeRatio = 0.0;
-//  }  
-//  if(j.contains("eps") && !j["eps"].empty()){
-//        j.at("eps").get_to(i.eps);
-//  }else {
-//        i.eps = 0.0;
-//  }  
-//  if(j.contains("epsdiluted") && !j["epsdiluted"].empty()){
-//        j.at("epsdiluted").get_to(i.epsdiluted);
-//  }else {
-//        i.epsdiluted = 0.0;
-//  }
-//    if(j.contains("weightedAverageShsOut") && !j["weightedAverageShsOut"].empty()){
-//        j.at("weightedAverageShsOut").get_to(i.weightedAverageShsOut);
-//  }else {
-//        i.weightedAverageShsOut = 0;
-//  }
-//  
-//  if(j.contains("weightedAverageShsOutDil") && !j["weightedAverageShsOutDil"].empty()){
-//        j.at("weightedAverageShsOutDil").get_to(i.weightedAverageShsOutDil);
-//  }else {
-//        i.weightedAverageShsOutDil = 0;
-//  }
-//  if(j.contains("link") && !j["link"].empty()){
-//        j.at("link").get_to(i.link);
-//  }else {
-//        i.link = "none";
-//  }
-//  if(j.contains("finalLink") && !j["finalLink"].empty()){
-//        j.at("finalLink").get_to(i.finalLink);
-//  }else {
-//        i.finalLink = "none";
-//  }
-//  
-//  
-//}
 
 
 std::string Income_statement::get_class_name()const{
@@ -471,7 +249,7 @@ size_t Income_statement::compute_object_size() const {
       // Include the size of each string length (assuming size_t for length)
       total_size += sizeof(size_t) * 10;
       
-      total_size += sizeof(long long)  * 22;// 22 is the number of long long memebrs
+      total_size += sizeof(long long)  * 23;// 23 is the number of long long memebrs
       total_size += sizeof(double) * 6; // 6 is the number of double memebers;
       
       return total_size;
@@ -487,12 +265,7 @@ std::string Income_statement::create_file_name(std::string ticker)const{
 }
 
 void Income_statement::save_to_file(std::ofstream &out){
-    
-//    if (!out) {
-//        std::cerr << "File stream is not open or has encountered an error." << std::endl;
-//        return;
-//        }
-    
+
     
      size_t obj_size = this-> compute_object_size();
      //std::cout<< "income statement obj size: "<< obj_size <<std::endl;
@@ -560,6 +333,7 @@ void Income_statement::save_to_file(std::ofstream &out){
    out.write(reinterpret_cast<const char*>(&epsdiluted), sizeof(epsdiluted));
    out.write(reinterpret_cast<const char*>(&weightedAverageShsOut), sizeof(weightedAverageShsOut));
    out.write(reinterpret_cast<const char*>(&weightedAverageShsOutDil), sizeof(weightedAverageShsOutDil));
+   out.write(reinterpret_cast<const char*>(&outstanding_share_from_sec), sizeof(outstanding_share_from_sec));
    
    size_t link_size = link.size();
    out.write(reinterpret_cast<const char*>(&link_size), sizeof(link_size));
@@ -613,12 +387,11 @@ bool read_number_values_from_buffer_income(std::vector<char> &buffer, size_t &po
     
     
 bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_statement*> &statements ){
-
-   
+    Logger logger("read_is_f.log");
+ 
     if (!in){
-      std::cerr<< "IO stream it is not open or some error with it.\n";   
+      logger.log("IO stream it is not open or some error with it. "+ get_class_name() +"\n", Logger::Level::Error);  
     }
-    
     
     while(in && !in.eof()){
  
@@ -628,7 +401,7 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
         if(in.eof()){
             break;
         }  
-      std::cerr<< "Couldn't read object size from the file regrading class "<< get_class_name()<<"\n";
+      logger.log("Couldn't read object size from the file regrading class " + get_class_name(), Logger::Level::Error);
         return false;
     }
     //std::cout << "Object size read (Income statement): " << obj_size << std::endl;
@@ -637,7 +410,7 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
      std::vector<char> buffer(obj_size);
      
      if(!in.read(buffer.data(),obj_size)){
-         std::cerr<< "failed to read object data from file class "<< get_class_name()<<"\n";
+         logger.log("failed to read object data from file class " + get_class_name(),Logger::Level::Error);
          return false;
       }
        
@@ -652,125 +425,128 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
         
        
         if(!reading_string_from_buffer_income(buffer, pos,statement ->date)){
-            std::cerr << "Error reading 'date' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'date' in " + get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_income(buffer, pos,statement ->symbol)){
-             std::cerr << "Error reading 'symbol' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'symbol' in " + get_class_name(), Logger::Level::Error);
              }
         if(!reading_string_from_buffer_income(buffer, pos,statement ->reportedCurrency)){
-             std::cerr << "Error reading 'reportedCurrency' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'reportedCurrency' in " + get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_income(buffer, pos,statement ->cik)){
-             std::cerr << "Error reading 'cik' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'cik' in " + get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_income(buffer, pos,statement ->fillingDate)){
-             std::cerr << "Error reading 'fillingDate' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'fillingDate' in " + get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_income(buffer, pos,statement ->acceptedDate)){
-             std::cerr << "Error reading 'acceptedDate' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'acceptedDate' in " + get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_income(buffer, pos,statement ->calendarYear)){
-             std::cerr << "Error reading 'calendarYear' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'calendarYear' in " + get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer_income(buffer, pos,statement ->period)){
-             std::cerr << "Error reading 'period' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'period' in " + get_class_name(), Logger::Level::Error);
             }
             
         //number values
        if(!read_number_values_from_buffer_income(buffer, pos,statement -> revenue )){
-             std::cerr << "Error reading 'revenue' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'revenue' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->costOfRevenue )){
-             std::cerr << "Error reading 'costOfRevenue' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'costOfRevenue' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer_income(buffer, pos,statement ->grossProfit )){
-             std::cerr << "Error reading 'grossProfit' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'grossProfit' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement -> grossProfitRatio )){
-             std::cerr << "Error reading 'grossProfitRatio' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'grossProfitRatio' in " + get_class_name(), Logger::Level::Error);
             }
             if(!read_number_values_from_buffer_income(buffer, pos,statement -> researchAndDevelopmentExpenses)){
-             std::cerr << "Error reading 'researchAndDevelopmentExpenses' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'researchAndDevelopmentExpenses' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement -> generalAndAdministrativeExpenses)){
-             std::cerr << "Error reading 'generalAndAdministrativeExpenses' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'generalAndAdministrativeExpenses' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer_income(buffer, pos,statement -> sellingAndMarketingExpenses)){
-             std::cerr << "Error reading 'sellingAndMarketingExpenses' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'sellingAndMarketingExpenses' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement -> sellingGeneralAndAdministrativeExpenses)){
-             std::cerr << "Error reading 'sellingGeneralAndAdministrativeExpenses' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'sellingGeneralAndAdministrativeExpenses' in " + get_class_name(), Logger::Level::Error);
             }
             if(!read_number_values_from_buffer_income(buffer, pos,statement -> otherExpenses )){
-             std::cerr << "Error reading 'otherExpenses' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'otherExpenses' in " + get_class_name(), Logger::Level::Error);
             }
             if(!read_number_values_from_buffer_income(buffer, pos,statement -> operatingExpenses)){
-             std::cerr << "Error reading 'operatingExpenses' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'operatingExpenses' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->costAndExpenses )){
-             std::cerr << "Error reading 'costAndExpenses' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'costAndExpenses' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer_income(buffer, pos,statement -> interestIncome)){
-             std::cerr << "Error reading 'interestIncome' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'interestIncome' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->interestExpense )){
-             std::cerr << "Error reading 'interestExpense' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'interestExpense' in " + get_class_name(), Logger::Level::Error);
             }
             if(!read_number_values_from_buffer_income(buffer, pos,statement -> depreciationAndAmortization)){
-             std::cerr << "Error reading 'depreciationAndAmortization' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'depreciationAndAmortization' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->ebitda )){
-             std::cerr << "Error reading 'ebitda' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'ebitda' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer_income(buffer, pos,statement ->ebitdaratio )){
-             std::cerr << "Error reading 'ebitdaratio' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'ebitdaratio' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement -> operatingIncome )){
-             std::cerr << "Error reading 'operatingIncome' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'operatingIncome' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer_income(buffer, pos,statement -> operatingIncomeRatio)){
-             std::cerr << "Error reading 'operatingIncomeRatio' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'operatingIncomeRatio' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer_income(buffer, pos,statement ->totalOtherIncomeExpensesNet )){
-             std::cerr << "Error reading 'totalOtherIncomeExpensesNet' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'totalOtherIncomeExpensesNet' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->incomeBeforeTax )){
-             std::cerr << "Error reading 'incomeBeforeTax' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'incomeBeforeTax' in " + get_class_name(), Logger::Level::Error);
             }
             if(!read_number_values_from_buffer_income(buffer, pos,statement ->incomeBeforeTaxRatio )){
-             std::cerr << "Error reading 'incomeBeforeTaxRatio' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'incomeBeforeTaxRatio' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->incomeTaxExpense )){
-             std::cerr << "Error reading 'incomeTaxExpense' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'incomeTaxExpense' in " + get_class_name(), Logger::Level::Error);
             }
         if(!read_number_values_from_buffer_income(buffer, pos,statement ->netIncome )){
-             std::cerr << "Error reading 'netIncome' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'netIncome' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement -> netIncomeRatio)){
-             std::cerr << "Error reading 'netIncomeRatio' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'netIncomeRatio' in " + get_class_name(), Logger::Level::Error);
             }
             
              if(!read_number_values_from_buffer_income(buffer, pos,statement ->eps )){
-             std::cerr << "Error reading 'eps' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'eps' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->epsdiluted )){
-             std::cerr << "Error reading 'epsdiluted' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'epsdiluted' in " + get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer_income(buffer, pos,statement -> weightedAverageShsOut )){
-             std::cerr << "Error reading 'weightedAverageShsOut' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'weightedAverageShsOut' in " + get_class_name(), Logger::Level::Error);
             }
        if(!read_number_values_from_buffer_income(buffer, pos,statement ->weightedAverageShsOutDil)){
-             std::cerr << "Error reading 'weightedAverageShsOutDil' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'weightedAverageShsOutDil' in " + get_class_name(), Logger::Level::Error);
             }
                  
-         
+          if(!read_number_values_from_buffer_income(buffer, pos,statement ->outstanding_share_from_sec)){
+             logger.log("Error reading 'outstanding_share_from_sec' in " + get_class_name(), Logger::Level::Error);
+             statement->outstanding_share_from_sec = 0;
+            }
          
          if(!reading_string_from_buffer_income(buffer, pos,statement ->link)){
-             std::cerr << "Error reading 'link' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'link' in " + get_class_name(), Logger::Level::Error);
             }
             
             if(!reading_string_from_buffer_income(buffer, pos,statement ->finalLink)){
-             std::cerr << "Error reading 'finalLink' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'finalLink' in " + get_class_name(), Logger::Level::Error);
              statement -> finalLink ="nf";
             }
      
@@ -779,7 +555,7 @@ bool Income_statement::read_from_file(std::ifstream &in, std::vector<Income_stat
     
        // Check if entire object was read
         if (pos != obj_size) {
-            std::cerr << "Mismatch in object size and bytes read for " << get_class_name() << std::endl;
+            logger.log("Mismatch in object size and bytes read for " + get_class_name(), Logger::Level::Error);
             delete statement;
             return false;
         }

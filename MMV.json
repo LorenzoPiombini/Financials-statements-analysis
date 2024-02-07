@@ -1,0 +1,14 @@
+{
+  "ticker": "MMV",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -0.264994
+  },
+  "ratios": {
+    "ROIC": -10.870782,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -2361102,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

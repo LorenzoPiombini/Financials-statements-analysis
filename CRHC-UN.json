@@ -1,0 +1,14 @@
+{
+  "ticker": "CRHC-UN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.724273,
+    "PB": -15.499638
+  },
+  "ownerEarnings": 35896310,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

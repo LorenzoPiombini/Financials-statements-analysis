@@ -1,0 +1,14 @@
+{
+  "ticker": "HUBB",
+  "valuation": {
+    "PE_valuation": 972.102981, 
+    "DFC_valuation": 6790.305403
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 1015600000,
+  "growth_rate_revenue": 8.347959,
+  "growth_rate_net_income": 15.671864
+}

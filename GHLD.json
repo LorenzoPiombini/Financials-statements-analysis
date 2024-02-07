@@ -1,0 +1,14 @@
+{
+  "ticker": "GHLD",
+  "valuation": {
+    "PE_valuation": 17.409301, 
+    "DFC_valuation": 4828.103202
+  },
+  "ratios": {
+    "ROIC": 16.859275,
+    "PB": 0.492546
+  },
+  "ownerEarnings": 475088000,
+  "growth_rate_revenue": 35.090439,
+  "growth_rate_net_income": 1586.178603
+}

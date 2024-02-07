@@ -1,0 +1,14 @@
+{
+  "ticker": "AFYA",
+  "valuation": {
+    "PE_valuation": 506.250979, 
+    "DFC_valuation": 115841.072870
+  },
+  "ratios": {
+    "ROIC": 9.109703,
+    "PB": 2.354876
+  },
+  "ownerEarnings": 1322087000,
+  "growth_rate_revenue": 79.500034,
+  "growth_rate_net_income": 75.493579
+}

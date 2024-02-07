@@ -1,0 +1,14 @@
+{
+  "ticker": "FFHL",
+  "valuation": {
+    "PE_valuation": -33.703678, 
+    "DFC_valuation": -13415034099.626011
+  },
+  "ratios": {
+    "ROIC": -184.443774,
+    "PB": 0.520556
+  },
+  "ownerEarnings": -27179649000,
+  "growth_rate_revenue": 82.191025,
+  "growth_rate_net_income": 7.280988
+}

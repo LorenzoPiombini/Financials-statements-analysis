@@ -1,0 +1,14 @@
+{
+  "ticker": "AEPPZ",
+  "valuation": {
+    "PE_valuation": 133.589921, 
+    "DFC_valuation": -479.264251
+  },
+  "ratios": {
+    "ROIC": 5.349404,
+    "PB": 2.034009
+  },
+  "ownerEarnings": 15093600000,
+  "growth_rate_revenue": 1.645091,
+  "growth_rate_net_income": 1.913371
+}

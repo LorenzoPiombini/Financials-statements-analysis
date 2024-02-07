@@ -1,0 +1,14 @@
+{
+  "ticker": "ANGI",
+  "valuation": {
+    "PE_valuation": 17.055951, 
+    "DFC_valuation": -6806.115186
+  },
+  "ratios": {
+    "ROIC": -5.353164,
+    "PB": 1.142836
+  },
+  "ownerEarnings": 119459000,
+  "growth_rate_revenue": 60.229777,
+  "growth_rate_net_income": 28.555620
+}

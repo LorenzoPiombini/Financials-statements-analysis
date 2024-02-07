@@ -1,0 +1,14 @@
+{
+  "ticker": "HOTH",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -221.856906,
+    "PB": 1.823761
+  },
+  "ownerEarnings": -11224453,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 45.578512
+}

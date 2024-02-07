@@ -1,0 +1,14 @@
+{
+  "ticker": "EAT",
+  "valuation": {
+    "PE_valuation": 251.526531, 
+    "DFC_valuation": 8678.342079
+  },
+  "ratios": {
+    "ROIC": 4.034659,
+    "PB": -11.063202
+  },
+  "ownerEarnings": 522900000,
+  "growth_rate_revenue": 41.024489,
+  "growth_rate_net_income": 51.589042
+}

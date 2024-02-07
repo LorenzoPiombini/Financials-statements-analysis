@@ -1,0 +1,14 @@
+{
+  "ticker": "NVCN",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 224.518799,
+    "PB": 2.726414
+  },
+  "ownerEarnings": -37515519,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 603.811139
+}

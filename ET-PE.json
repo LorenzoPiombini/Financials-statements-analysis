@@ -1,0 +1,14 @@
+{
+  "ticker": "ET-PE",
+  "valuation": {
+    "PE_valuation": 74.383916, 
+    "DFC_valuation": 9844.373798
+  },
+  "ratios": {
+    "ROIC": 4.596076,
+    "PB": 0.901161
+  },
+  "ownerEarnings": 9768000000,
+  "growth_rate_revenue": 42.946309,
+  "growth_rate_net_income": 34.774343
+}

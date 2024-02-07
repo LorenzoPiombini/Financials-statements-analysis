@@ -1,0 +1,14 @@
+{
+  "ticker": "RSKD",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -24.364325
+  },
+  "ratios": {
+    "ROIC": -20.189640,
+    "PB": 1.465590
+  },
+  "ownerEarnings": -180540000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CSLR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -18.661874
+  },
+  "ratios": {
+    "ROIC": -12.984653,
+    "PB": 2.344521
+  },
+  "ownerEarnings": -18982000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

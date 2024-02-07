@@ -1,0 +1,14 @@
+{
+  "ticker": "HHLA-WT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.468155,
+    "PB": 1.026694
+  },
+  "ownerEarnings": -26340177,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

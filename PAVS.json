@@ -1,0 +1,14 @@
+{
+  "ticker": "PAVS",
+  "valuation": {
+    "PE_valuation": -70.726737, 
+    "DFC_valuation": -53.743168
+  },
+  "ratios": {
+    "ROIC": -422.555502,
+    "PB": 1.969755
+  },
+  "ownerEarnings": -60259732,
+  "growth_rate_revenue": 14.206468,
+  "growth_rate_net_income": -1827.041477
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MTL",
+  "valuation": {
+    "PE_valuation": 7187.546700, 
+    "DFC_valuation": 102877.782446
+  },
+  "ratios": {
+    "ROIC": 54.987108,
+    "PB": -0.300068
+  },
+  "ownerEarnings": 141122000000,
+  "growth_rate_revenue": 40.051829,
+  "growth_rate_net_income": 225.236648
+}

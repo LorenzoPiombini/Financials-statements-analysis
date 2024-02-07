@@ -1,0 +1,14 @@
+{
+  "ticker": "NRDY",
+  "valuation": {
+    "PE_valuation": 25.380845, 
+    "DFC_valuation": -43.884874
+  },
+  "ratios": {
+    "ROIC": -181.730165,
+    "PB": 4.117249
+  },
+  "ownerEarnings": -179774000,
+  "growth_rate_revenue": -2.002467,
+  "growth_rate_net_income": -15.867443
+}

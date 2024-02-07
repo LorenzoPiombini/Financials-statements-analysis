@@ -1,0 +1,14 @@
+{
+  "ticker": "YMM",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -0.349822
+  },
+  "ratios": {
+    "ROIC": -0.273201,
+    "PB": 1.763791
+  },
+  "ownerEarnings": -1000431000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

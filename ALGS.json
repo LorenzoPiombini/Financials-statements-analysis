@@ -1,0 +1,14 @@
+{
+  "ticker": "ALGS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -75.698819,
+    "PB": 0.391613
+  },
+  "ownerEarnings": -109401000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 68.966226
+}

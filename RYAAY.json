@@ -1,0 +1,14 @@
+{
+  "ticker": "RYAAY",
+  "valuation": {
+    "PE_valuation": 970.604491, 
+    "DFC_valuation": 37213.229621
+  },
+  "ratios": {
+    "ROIC": 13.184397,
+    "PB": 3.483838
+  },
+  "ownerEarnings": 4135700000,
+  "growth_rate_revenue": 45.699029,
+  "growth_rate_net_income": 93.944098
+}

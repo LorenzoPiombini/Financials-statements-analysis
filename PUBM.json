@@ -1,0 +1,14 @@
+{
+  "ticker": "PUBM",
+  "valuation": {
+    "PE_valuation": 20.022351, 
+    "DFC_valuation": 69.453314
+  },
+  "ratios": {
+    "ROIC": 8.496600,
+    "PB": 2.074612
+  },
+  "ownerEarnings": 97307000,
+  "growth_rate_revenue": 2.719398,
+  "growth_rate_net_income": 78.536623
+}

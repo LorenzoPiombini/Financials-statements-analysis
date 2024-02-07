@@ -1,0 +1,14 @@
+{
+  "ticker": "ASGN",
+  "valuation": {
+    "PE_valuation": 2188.722297, 
+    "DFC_valuation": 990389.719986
+  },
+  "ratios": {
+    "ROIC": 9.764897,
+    "PB": 2.258453
+  },
+  "ownerEarnings": 412000000,
+  "growth_rate_revenue": 34.678570,
+  "growth_rate_net_income": 48.765210
+}

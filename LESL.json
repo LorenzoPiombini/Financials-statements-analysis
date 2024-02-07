@@ -1,0 +1,14 @@
+{
+  "ticker": "LESL",
+  "valuation": {
+    "PE_valuation": 5.001859, 
+    "DFC_valuation": -18.258890
+  },
+  "ratios": {
+    "ROIC": 6.692457,
+    "PB": -6.448413
+  },
+  "ownerEarnings": 219134000,
+  "growth_rate_revenue": 13.444664,
+  "growth_rate_net_income": 2051.269130
+}

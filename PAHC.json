@@ -1,0 +1,14 @@
+{
+  "ticker": "PAHC",
+  "valuation": {
+    "PE_valuation": 22.380196, 
+    "DFC_valuation": -210.887063
+  },
+  "ratios": {
+    "ROIC": 5.235024,
+    "PB": 1.964202
+  },
+  "ownerEarnings": 149041000,
+  "growth_rate_revenue": 3.074443,
+  "growth_rate_net_income": -127.627549
+}

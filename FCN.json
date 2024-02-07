@@ -1,0 +1,14 @@
+{
+  "ticker": "FCN",
+  "valuation": {
+    "PE_valuation": 2362.318019, 
+    "DFC_valuation": 316267.805240
+  },
+  "ratios": {
+    "ROIC": 9.723288,
+    "PB": 3.181532
+  },
+  "ownerEarnings": 333476000,
+  "growth_rate_revenue": 57.856664,
+  "growth_rate_net_income": 54.128488
+}

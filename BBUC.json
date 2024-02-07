@@ -1,0 +1,14 @@
+{
+  "ticker": "BBUC",
+  "valuation": {
+    "PE_valuation": -212.884445, 
+    "DFC_valuation": -750.640204
+  },
+  "ratios": {
+    "ROIC": -1.248051,
+    "PB": 3.818483
+  },
+  "ownerEarnings": 1059000000,
+  "growth_rate_revenue": -12.587484,
+  "growth_rate_net_income": 195.071083
+}

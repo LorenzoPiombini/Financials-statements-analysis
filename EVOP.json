@@ -1,0 +1,14 @@
+{
+  "ticker": "EVOP",
+  "valuation": {
+    "PE_valuation": -11.282383, 
+    "DFC_valuation": 102.946087
+  },
+  "ratios": {
+    "ROIC": 1.358127,
+    "PB": -1.734388
+  },
+  "ownerEarnings": 155799000,
+  "growth_rate_revenue": 5.450465,
+  "growth_rate_net_income": -198.937250
+}

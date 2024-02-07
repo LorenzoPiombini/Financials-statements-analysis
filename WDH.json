@@ -1,0 +1,14 @@
+{
+  "ticker": "WDH",
+  "valuation": {
+    "PE_valuation": -142.522149, 
+    "DFC_valuation": 129.437313
+  },
+  "ratios": {
+    "ROIC": 4.813673,
+    "PB": 1.889666
+  },
+  "ownerEarnings": -40384000,
+  "growth_rate_revenue": 134.632039,
+  "growth_rate_net_income": 30.800440
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "IIIN",
+  "valuation": {
+    "PE_valuation": 76.532489, 
+    "DFC_valuation": 1558.240102
+  },
+  "ratios": {
+    "ROIC": 6.992720,
+    "PB": 1.659480
+  },
+  "ownerEarnings": 63531000,
+  "growth_rate_revenue": 34.809020,
+  "growth_rate_net_income": 16.473164
+}

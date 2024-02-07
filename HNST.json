@@ -1,0 +1,14 @@
+{
+  "ticker": "HNST",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -55.573340
+  },
+  "ratios": {
+    "ROIC": -23.343233,
+    "PB": 1.896197
+  },
+  "ownerEarnings": -61469000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

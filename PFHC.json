@@ -1,0 +1,14 @@
+{
+  "ticker": "PFHC",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 112.158416
+  },
+  "ratios": {
+    "ROIC": -1613.383380,
+    "PB": -0.944823
+  },
+  "ownerEarnings": 1085300000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

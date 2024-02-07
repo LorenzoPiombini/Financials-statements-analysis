@@ -1,0 +1,14 @@
+{
+  "ticker": "CVLG",
+  "valuation": {
+    "PE_valuation": 76.576753, 
+    "DFC_valuation": 1350.385136
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 97738000,
+  "growth_rate_revenue": 36.446766,
+  "growth_rate_net_income": 32.957886
+}

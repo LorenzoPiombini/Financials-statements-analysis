@@ -1,0 +1,14 @@
+{
+  "ticker": "LARK",
+  "valuation": {
+    "PE_valuation": 62.793106, 
+    "DFC_valuation": 2791.431646
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 12236000,
+  "growth_rate_revenue": 12.915887,
+  "growth_rate_net_income": 16.212302
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NTAP",
+  "valuation": {
+    "PE_valuation": 1540.234006, 
+    "DFC_valuation": 271025.805225
+  },
+  "ratios": {
+    "ROIC": 31.275942,
+    "PB": 11.774918
+  },
+  "ownerEarnings": 1635000000,
+  "growth_rate_revenue": 106.551916,
+  "growth_rate_net_income": 2092.086122
+}

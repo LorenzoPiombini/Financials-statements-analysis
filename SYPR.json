@@ -1,0 +1,14 @@
+{
+  "ticker": "SYPR",
+  "valuation": {
+    "PE_valuation": 0.172680, 
+    "DFC_valuation": 27.556635
+  },
+  "ratios": {
+    "ROIC": -1.590146,
+    "PB": 2.275579
+  },
+  "ownerEarnings": 5172000,
+  "growth_rate_revenue": 3.633191,
+  "growth_rate_net_income": -223.228434
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SHPW-WT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -38.435601
+  },
+  "ratios": {
+    "ROIC": -33.023831,
+    "PB": 3.401114
+  },
+  "ownerEarnings": -16040000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

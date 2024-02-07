@@ -1,0 +1,14 @@
+{
+  "ticker": "POWRU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 663841.797771,
+    "PB": -19217.026574
+  },
+  "ownerEarnings": 2845235,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

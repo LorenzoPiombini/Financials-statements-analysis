@@ -1,0 +1,14 @@
+{
+  "ticker": "MVST",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -19.987553,
+    "PB": 0.756990
+  },
+  "ownerEarnings": -77198000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -inf
+}

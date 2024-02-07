@@ -1,0 +1,14 @@
+{
+  "ticker": "OSAAW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -60.677991
+  },
+  "ratios": {
+    "ROIC": 2.227626,
+    "PB": -4.351941
+  },
+  "ownerEarnings": 4290954,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

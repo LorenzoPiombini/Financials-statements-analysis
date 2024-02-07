@@ -1,0 +1,14 @@
+{
+  "ticker": "REV",
+  "valuation": {
+    "PE_valuation": 25.637224, 
+    "DFC_valuation": -329.644760
+  },
+  "ratios": {
+    "ROIC": 5.132286,
+    "PB": -0.304197
+  },
+  "ownerEarnings": 146500000,
+  "growth_rate_revenue": -5.181749,
+  "growth_rate_net_income": -82.900061
+}

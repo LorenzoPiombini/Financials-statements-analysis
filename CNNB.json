@@ -1,0 +1,14 @@
+{
+  "ticker": "CNNB",
+  "valuation": {
+    "PE_valuation": 14.071210, 
+    "DFC_valuation": 10.783895
+  },
+  "ratios": {
+    "ROIC": 4.131471,
+    "PB": 1.025813
+  },
+  "ownerEarnings": 4965460,
+  "growth_rate_revenue": 12.637683,
+  "growth_rate_net_income": -29.241139
+}

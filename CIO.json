@@ -1,0 +1,14 @@
+{
+  "ticker": "CIO",
+  "valuation": {
+    "PE_valuation": 4.650611, 
+    "DFC_valuation": 3865.293734
+  },
+  "ratios": {
+    "ROIC": 2.951390,
+    "PB": 0.438941
+  },
+  "ownerEarnings": 118960000,
+  "growth_rate_revenue": 66.088315,
+  "growth_rate_net_income": 80.184077
+}

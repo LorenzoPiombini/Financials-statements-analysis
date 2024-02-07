@@ -1,0 +1,14 @@
+{
+  "ticker": "AGNC",
+  "valuation": {
+    "PE_valuation": -226.812671, 
+    "DFC_valuation": 24572.955654
+  },
+  "ratios": {
+    "ROIC": -7.093534,
+    "PB": 0.706220
+  },
+  "ownerEarnings": 58000000,
+  "growth_rate_revenue": 205.828801,
+  "growth_rate_net_income": 152.543484
+}

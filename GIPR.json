@@ -1,0 +1,14 @@
+{
+  "ticker": "GIPR",
+  "valuation": {
+    "PE_valuation": 9.832026, 
+    "DFC_valuation": -4522.613029
+  },
+  "ratios": {
+    "ROIC": -1.012657,
+    "PB": 1.047113
+  },
+  "ownerEarnings": 16106528,
+  "growth_rate_revenue": 115.062900,
+  "growth_rate_net_income": 73.309642
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "KOP",
+  "valuation": {
+    "PE_valuation": 33.144091, 
+    "DFC_valuation": -73.621759
+  },
+  "ratios": {
+    "ROIC": 6.621750,
+    "PB": 1.481100
+  },
+  "ownerEarnings": 296600000,
+  "growth_rate_revenue": 11.321859,
+  "growth_rate_net_income": -92.500998
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "QELLU",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -83.653002
+  },
+  "ratios": {
+    "ROIC": -0.098748,
+    "PB": 1.581583
+  },
+  "ownerEarnings": -373207000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

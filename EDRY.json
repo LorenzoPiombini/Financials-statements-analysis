@@ -1,0 +1,14 @@
+{
+  "ticker": "EDRY",
+  "valuation": {
+    "PE_valuation": 44.346789, 
+    "DFC_valuation": -552.092950
+  },
+  "ratios": {
+    "ROIC": 20.654994,
+    "PB": 0.381358
+  },
+  "ownerEarnings": 85724548,
+  "growth_rate_revenue": 88.295848,
+  "growth_rate_net_income": -208.385794
+}

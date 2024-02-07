@@ -1,0 +1,14 @@
+{
+  "ticker": "EBET",
+  "valuation": {
+    "PE_valuation": 371.861584, 
+    "DFC_valuation": -181688.232717
+  },
+  "ratios": {
+    "ROIC": 800.341686,
+    "PB": -0.054893
+  },
+  "ownerEarnings": -17621122,
+  "growth_rate_revenue": 8836.149709,
+  "growth_rate_net_income": -179.440729
+}

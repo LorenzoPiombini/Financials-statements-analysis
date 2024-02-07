@@ -1,0 +1,14 @@
+{
+  "ticker": "HSBC",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 12.995210,
+    "PB": 0.659784
+  },
+  "ownerEarnings": 68181000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 0.0
+}

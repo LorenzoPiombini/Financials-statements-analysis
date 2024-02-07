@@ -1,0 +1,14 @@
+{
+  "ticker": "LABP",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -100.263112,
+    "PB": 5.143606
+  },
+  "ownerEarnings": -41948000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 43.267581
+}

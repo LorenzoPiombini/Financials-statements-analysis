@@ -1,0 +1,14 @@
+{
+  "ticker": "NBTB",
+  "valuation": {
+    "PE_valuation": 135.931217, 
+    "DFC_valuation": 1802.396636
+  },
+  "ratios": {
+    "ROIC": 8.613243,
+    "PB": 1.615993
+  },
+  "ownerEarnings": 200498000,
+  "growth_rate_revenue": 4.561672,
+  "growth_rate_net_income": 17.022855
+}

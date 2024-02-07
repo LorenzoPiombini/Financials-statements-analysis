@@ -1,0 +1,14 @@
+{
+  "ticker": "AX",
+  "valuation": {
+    "PE_valuation": 6348.115627, 
+    "DFC_valuation": 54238635.622860
+  },
+  "ratios": {
+    "ROIC": 12.966359,
+    "PB": 1.226996
+  },
+  "ownerEarnings": 334667000,
+  "growth_rate_revenue": 326.623115,
+  "growth_rate_net_income": -13.298466
+}

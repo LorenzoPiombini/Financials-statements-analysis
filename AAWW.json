@@ -1,0 +1,14 @@
+{
+  "ticker": "AAWW",
+  "valuation": {
+    "PE_valuation": 96.911804, 
+    "DFC_valuation": -152.003578
+  },
+  "ratios": {
+    "ROIC": 7.967716,
+    "PB": 0.936144
+  },
+  "ownerEarnings": 1701973000,
+  "growth_rate_revenue": 21.230252,
+  "growth_rate_net_income": -51.481290
+}

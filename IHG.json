@@ -1,0 +1,14 @@
+{
+  "ticker": "IHG",
+  "valuation": {
+    "PE_valuation": 34.439738, 
+    "DFC_valuation": 160.940987
+  },
+  "ratios": {
+    "ROIC": 26.744592,
+    "PB": -6.538415
+  },
+  "ownerEarnings": 781000000,
+  "growth_rate_revenue": -17.569481,
+  "growth_rate_net_income": 492.737011
+}

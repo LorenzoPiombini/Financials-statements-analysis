@@ -1,0 +1,14 @@
+{
+  "ticker": "SMAR",
+  "valuation": {
+    "PE_valuation": 341.406860, 
+    "DFC_valuation": 95.425723
+  },
+  "ratios": {
+    "ROIC": -36.271642,
+    "PB": 11.572687
+  },
+  "ownerEarnings": -371233000,
+  "growth_rate_revenue": 71.236441,
+  "growth_rate_net_income": 84.211995
+}

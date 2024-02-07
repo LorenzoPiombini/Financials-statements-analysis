@@ -1,0 +1,14 @@
+{
+  "ticker": "NRBO",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -39.510281,
+    "PB": 0.679200
+  },
+  "ownerEarnings": -10164000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 719.458422
+}

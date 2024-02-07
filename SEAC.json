@@ -1,0 +1,14 @@
+{
+  "ticker": "SEAC",
+  "valuation": {
+    "PE_valuation": 2.131732, 
+    "DFC_valuation": -2.677462
+  },
+  "ratios": {
+    "ROIC": 30.175544,
+    "PB": 15.939893
+  },
+  "ownerEarnings": 31565000,
+  "growth_rate_revenue": 23.821997,
+  "growth_rate_net_income": -152.463518
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GDOT",
+  "valuation": {
+    "PE_valuation": 106.000207, 
+    "DFC_valuation": 1080.935532
+  },
+  "ratios": {
+    "ROIC": 8.662147,
+    "PB": 1.080017
+  },
+  "ownerEarnings": 205045000,
+  "growth_rate_revenue": 36.420205,
+  "growth_rate_net_income": 28.524455
+}

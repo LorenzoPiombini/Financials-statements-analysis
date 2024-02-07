@@ -1,0 +1,14 @@
+{
+  "ticker": "COIN",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -2075.330663
+  },
+  "ratios": {
+    "ROIC": -25.349534,
+    "PB": 1.442407
+  },
+  "ownerEarnings": -3448051000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

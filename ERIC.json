@@ -1,0 +1,14 @@
+{
+  "ticker": "ERIC",
+  "valuation": {
+    "PE_valuation": -278.293916, 
+    "DFC_valuation": 2623067129.226017
+  },
+  "ratios": {
+    "ROIC": 16.077519,
+    "PB": 2.141113
+  },
+  "ownerEarnings": 100738000000,
+  "growth_rate_revenue": 9.833687,
+  "growth_rate_net_income": 40.415447
+}

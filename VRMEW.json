@@ -1,0 +1,14 @@
+{
+  "ticker": "VRMEW",
+  "valuation": {
+    "PE_valuation": 319.286105, 
+    "DFC_valuation": -2846938.444940
+  },
+  "ratios": {
+    "ROIC": 37.260908,
+    "PB": 0.722851
+  },
+  "ownerEarnings": 26042000,
+  "growth_rate_revenue": 261.396602,
+  "growth_rate_net_income": 12.546311
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MCG",
+  "valuation": {
+    "PE_valuation": 9.949296, 
+    "DFC_valuation": -40.727453
+  },
+  "ratios": {
+    "ROIC": -3.880423,
+    "PB": -33.336820
+  },
+  "ownerEarnings": 230762000,
+  "growth_rate_revenue": -3.965998,
+  "growth_rate_net_income": 17.595695
+}

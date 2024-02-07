@@ -1,0 +1,14 @@
+{
+  "ticker": "LMAO",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1060596.369655,
+    "PB": -12392.249630
+  },
+  "ownerEarnings": -207000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

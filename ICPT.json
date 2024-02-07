@@ -1,0 +1,14 @@
+{
+  "ticker": "ICPT",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 10.553598,
+    "PB": 4.496962
+  },
+  "ownerEarnings": 313658000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 145.031371
+}

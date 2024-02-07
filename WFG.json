@@ -1,0 +1,14 @@
+{
+  "ticker": "WFG",
+  "valuation": {
+    "PE_valuation": 185.920198, 
+    "DFC_valuation": 12806.174560
+  },
+  "ratios": {
+    "ROIC": 23.792766,
+    "PB": 0.889606
+  },
+  "ownerEarnings": 3050000000,
+  "growth_rate_revenue": 9.536863,
+  "growth_rate_net_income": 639.503056
+}

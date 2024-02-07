@@ -1,0 +1,14 @@
+{
+  "ticker": "RNGR",
+  "valuation": {
+    "PE_valuation": -7.341367, 
+    "DFC_valuation": 3758.534733
+  },
+  "ratios": {
+    "ROIC": 6.119775,
+    "PB": 0.950021
+  },
+  "ownerEarnings": 77500000,
+  "growth_rate_revenue": 101.109108,
+  "growth_rate_net_income": -inf
+}

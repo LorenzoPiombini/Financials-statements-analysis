@@ -1,0 +1,14 @@
+{
+  "ticker": "GRAB",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -16.182857,
+    "PB": 1.824803
+  },
+  "ownerEarnings": -1098000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

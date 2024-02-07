@@ -1,0 +1,14 @@
+{
+  "ticker": "NLS",
+  "valuation": {
+    "PE_valuation": 2.228087, 
+    "DFC_valuation": 23.367407
+  },
+  "ratios": {
+    "ROIC": -53.123764,
+    "PB": 0.690439
+  },
+  "ownerEarnings": -677000,
+  "growth_rate_revenue": 71.275203,
+  "growth_rate_net_income": 52.418867
+}

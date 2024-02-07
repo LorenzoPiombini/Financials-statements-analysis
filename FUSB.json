@@ -1,0 +1,14 @@
+{
+  "ticker": "FUSB",
+  "valuation": {
+    "PE_valuation": 8.159821, 
+    "DFC_valuation": 118.537583
+  },
+  "ratios": {
+    "ROIC": 8.719305,
+    "PB": 0.646097
+  },
+  "ownerEarnings": 18035000,
+  "growth_rate_revenue": 177.393484,
+  "growth_rate_net_income": 20.703039
+}

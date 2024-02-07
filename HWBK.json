@@ -1,0 +1,14 @@
+{
+  "ticker": "HWBK",
+  "valuation": {
+    "PE_valuation": 192.419529, 
+    "DFC_valuation": 9798.401602
+  },
+  "ratios": {
+    "ROIC": 9.950570,
+    "PB": 1.109932
+  },
+  "ownerEarnings": 42162000,
+  "growth_rate_revenue": 137.562432,
+  "growth_rate_net_income": 17.035407
+}

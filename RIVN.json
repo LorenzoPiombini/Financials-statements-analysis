@@ -1,0 +1,14 @@
+{
+  "ticker": "RIVN",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -42.366996,
+    "PB": 1.219406
+  },
+  "ownerEarnings": -5723000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

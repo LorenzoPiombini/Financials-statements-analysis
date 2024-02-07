@@ -1,0 +1,14 @@
+{
+  "ticker": "ZIP",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 115.058935
+  },
+  "ratios": {
+    "ROIC": 13.294094,
+    "PB": 58.651873
+  },
+  "ownerEarnings": 57406000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

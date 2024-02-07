@@ -1,0 +1,14 @@
+{
+  "ticker": "CMAX",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -131.714805
+  },
+  "ratios": {
+    "ROIC": -1.762154,
+    "PB": 16.048055
+  },
+  "ownerEarnings": 38321000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

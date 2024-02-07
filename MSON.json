@@ -1,0 +1,14 @@
+{
+  "ticker": "MSON",
+  "valuation": {
+    "PE_valuation": 96.773840, 
+    "DFC_valuation": -761.921158
+  },
+  "ratios": {
+    "ROIC": -8.419265,
+    "PB": 2.406777
+  },
+  "ownerEarnings": -5906363,
+  "growth_rate_revenue": 27.960181,
+  "growth_rate_net_income": 12.050654
+}

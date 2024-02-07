@@ -1,0 +1,14 @@
+{
+  "ticker": "TME",
+  "valuation": {
+    "PE_valuation": 81.102718, 
+    "DFC_valuation": 376.863441
+  },
+  "ratios": {
+    "ROIC": 7.157712,
+    "PB": 1.902054
+  },
+  "ownerEarnings": 4405000000,
+  "growth_rate_revenue": 70.113292,
+  "growth_rate_net_income": 412.448158
+}

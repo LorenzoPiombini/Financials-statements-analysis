@@ -1,0 +1,14 @@
+{
+  "ticker": "HIG-PG",
+  "valuation": {
+    "PE_valuation": 53.010433, 
+    "DFC_valuation": 693.245346
+  },
+  "ratios": {
+    "ROIC": 13.517463,
+    "PB": 1.806880
+  },
+  "ownerEarnings": 3614000000,
+  "growth_rate_revenue": 5.243511,
+  "growth_rate_net_income": -397.237464
+}

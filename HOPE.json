@@ -1,0 +1,14 @@
+{
+  "ticker": "HOPE",
+  "valuation": {
+    "PE_valuation": 221.723644, 
+    "DFC_valuation": 154395.456822
+  },
+  "ratios": {
+    "ROIC": 9.788385,
+    "PB": 0.760133
+  },
+  "ownerEarnings": 490513000,
+  "growth_rate_revenue": 66.479612,
+  "growth_rate_net_income": 60.025778
+}

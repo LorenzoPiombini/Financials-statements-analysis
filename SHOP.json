@@ -1,0 +1,14 @@
+{
+  "ticker": "SHOP",
+  "valuation": {
+    "PE_valuation": 862.393501, 
+    "DFC_valuation": -654013.961838
+  },
+  "ratios": {
+    "ROIC": -7.762105,
+    "PB": 5.334720
+  },
+  "ownerEarnings": 1732076000,
+  "growth_rate_revenue": 119.741838,
+  "growth_rate_net_income": 184.842946
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BILL",
+  "valuation": {
+    "PE_valuation": 1036.779611, 
+    "DFC_valuation": 1443.810080
+  },
+  "ratios": {
+    "ROIC": -4.889759,
+    "PB": 3.030688
+  },
+  "ownerEarnings": -556123000,
+  "growth_rate_revenue": 99.497242,
+  "growth_rate_net_income": 185.851578
+}

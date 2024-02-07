@@ -1,0 +1,14 @@
+{
+  "ticker": "SAH",
+  "valuation": {
+    "PE_valuation": 143.162172, 
+    "DFC_valuation": 37700.070703
+  },
+  "ratios": {
+    "ROIC": 6.045403,
+    "PB": 2.129970
+  },
+  "ownerEarnings": 1311800000,
+  "growth_rate_revenue": 108.950075,
+  "growth_rate_net_income": 159.769668
+}

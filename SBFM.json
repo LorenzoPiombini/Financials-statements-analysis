@@ -1,0 +1,14 @@
+{
+  "ticker": "SBFM",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -32.965466,
+    "PB": 0.449230
+  },
+  "ownerEarnings": 9778580,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

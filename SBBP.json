@@ -1,0 +1,14 @@
+{
+  "ticker": "SBBP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 77.851301,
+    "PB": 2.078127
+  },
+  "ownerEarnings": -43489000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 112.565308
+}

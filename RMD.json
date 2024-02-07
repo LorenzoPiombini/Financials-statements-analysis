@@ -1,0 +1,14 @@
+{
+  "ticker": "RMD",
+  "valuation": {
+    "PE_valuation": 12278.235172, 
+    "DFC_valuation": 3980620.525271
+  },
+  "ratios": {
+    "ROIC": 15.767349,
+    "PB": 7.764736
+  },
+  "ownerEarnings": 1191137000,
+  "growth_rate_revenue": 68.544351,
+  "growth_rate_net_income": 88.011905
+}

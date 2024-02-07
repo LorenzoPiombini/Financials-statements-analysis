@@ -1,0 +1,14 @@
+{
+  "ticker": "GIS",
+  "valuation": {
+    "PE_valuation": 134.648549, 
+    "DFC_valuation": 480.157717
+  },
+  "ratios": {
+    "ROIC": 9.500818,
+    "PB": 4.791596
+  },
+  "ownerEarnings": 2685700000,
+  "growth_rate_revenue": 8.140730,
+  "growth_rate_net_income": -90.781648
+}

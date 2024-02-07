@@ -1,0 +1,14 @@
+{
+  "ticker": "ZETA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 15.224054
+  },
+  "ratios": {
+    "ROIC": -82.477589,
+    "PB": 8.869090
+  },
+  "ownerEarnings": -457020000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

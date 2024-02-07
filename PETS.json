@@ -1,0 +1,14 @@
+{
+  "ticker": "PETS",
+  "valuation": {
+    "PE_valuation": 0.932590, 
+    "DFC_valuation": 1233.907005
+  },
+  "ratios": {
+    "ROIC": -0.169916,
+    "PB": 2.659768
+  },
+  "ownerEarnings": -3606000,
+  "growth_rate_revenue": 86.537369,
+  "growth_rate_net_income": 84.813330
+}

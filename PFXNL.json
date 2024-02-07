@@ -1,0 +1,14 @@
+{
+  "ticker": "PFXNL",
+  "valuation": {
+    "PE_valuation": -10.636831, 
+    "DFC_valuation": -45683.582461
+  },
+  "ratios": {
+    "ROIC": 2413.736925,
+    "PB": 0.540533
+  },
+  "ownerEarnings": 11122549660,
+  "growth_rate_revenue": 86.802803,
+  "growth_rate_net_income": 51.106900
+}

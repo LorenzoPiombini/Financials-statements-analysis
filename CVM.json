@@ -1,0 +1,14 @@
+{
+  "ticker": "CVM",
+  "valuation": {
+    "PE_valuation": 0.020631, 
+    "DFC_valuation": -29.411714
+  },
+  "ratios": {
+    "ROIC": -79.523900,
+    "PB": 4.207362
+  },
+  "ownerEarnings": -34884832,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": -16.285456
+}

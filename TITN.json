@@ -1,0 +1,14 @@
+{
+  "ticker": "TITN",
+  "valuation": {
+    "PE_valuation": 538.991486, 
+    "DFC_valuation": -4751.225781
+  },
+  "ratios": {
+    "ROIC": 10.330056,
+    "PB": 1.859647
+  },
+  "ownerEarnings": 171072000,
+  "growth_rate_revenue": 57.438633,
+  "growth_rate_net_income": 201.509537
+}

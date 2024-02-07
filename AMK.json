@@ -1,0 +1,14 @@
+{
+  "ticker": "AMK",
+  "valuation": {
+    "PE_valuation": 23.454868, 
+    "DFC_valuation": 101.289150
+  },
+  "ratios": {
+    "ROIC": 8.290211,
+    "PB": 1.505425
+  },
+  "ownerEarnings": 172631000,
+  "growth_rate_revenue": 20.173739,
+  "growth_rate_net_income": 367.582018
+}

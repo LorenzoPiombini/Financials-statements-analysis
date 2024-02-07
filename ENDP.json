@@ -1,0 +1,14 @@
+{
+  "ticker": "ENDP",
+  "valuation": {
+    "PE_valuation": 20.684192, 
+    "DFC_valuation": 4001.996085
+  },
+  "ratios": {
+    "ROIC": 13.786673,
+    "PB": -0.703602
+  },
+  "ownerEarnings": 1060606000,
+  "growth_rate_revenue": 51.399330,
+  "growth_rate_net_income": -880.920083
+}

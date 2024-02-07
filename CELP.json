@@ -1,0 +1,14 @@
+{
+  "ticker": "CELP",
+  "valuation": {
+    "PE_valuation": -0.321335, 
+    "DFC_valuation": 12.169250
+  },
+  "ratios": {
+    "ROIC": -3.253223,
+    "PB": 0.394860
+  },
+  "ownerEarnings": 4129000,
+  "growth_rate_revenue": 439.433146,
+  "growth_rate_net_income": -77.256215
+}

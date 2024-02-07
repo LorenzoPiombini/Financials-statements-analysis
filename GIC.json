@@ -1,0 +1,14 @@
+{
+  "ticker": "GIC",
+  "valuation": {
+    "PE_valuation": 37.729486, 
+    "DFC_valuation": -0.642978
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 84800000,
+  "growth_rate_revenue": 28.244255,
+  "growth_rate_net_income": -52.111565
+}

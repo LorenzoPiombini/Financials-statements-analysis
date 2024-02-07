@@ -1,0 +1,14 @@
+{
+  "ticker": "FTNT",
+  "valuation": {
+    "PE_valuation": 345.047666, 
+    "DFC_valuation": 8699.124171
+  },
+  "ratios": {
+    "ROIC": 132.385087,
+    "PB": -141.669886
+  },
+  "ownerEarnings": 1125000000,
+  "growth_rate_revenue": 35.878955,
+  "growth_rate_net_income": 228.094352
+}

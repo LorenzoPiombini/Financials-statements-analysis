@@ -1,0 +1,14 @@
+{
+  "ticker": "PERI",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 15.722792,
+    "PB": 2.089807
+  },
+  "ownerEarnings": 93535000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -inf
+}

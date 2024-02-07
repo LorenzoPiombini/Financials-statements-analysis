@@ -1,0 +1,14 @@
+{
+  "ticker": "FLXS",
+  "valuation": {
+    "PE_valuation": 23.619550, 
+    "DFC_valuation": 291.429684
+  },
+  "ratios": {
+    "ROIC": 6.780497,
+    "PB": 0.705049
+  },
+  "ownerEarnings": 19466000,
+  "growth_rate_revenue": 1.848150,
+  "growth_rate_net_income": -10.245332
+}

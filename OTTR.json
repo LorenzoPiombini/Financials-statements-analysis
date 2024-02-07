@@ -1,0 +1,14 @@
+{
+  "ticker": "OTTR",
+  "valuation": {
+    "PE_valuation": 306.028097, 
+    "DFC_valuation": 1526.753039
+  },
+  "ratios": {
+    "ROIC": 15.143275,
+    "PB": 2.005652
+  },
+  "ownerEarnings": 610021000,
+  "growth_rate_revenue": -0.208781,
+  "growth_rate_net_income": 0.678648
+}

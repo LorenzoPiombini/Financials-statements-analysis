@@ -1,0 +1,14 @@
+{
+  "ticker": "AUVI",
+  "valuation": {
+    "PE_valuation": 134.200674, 
+    "DFC_valuation": -40.265153
+  },
+  "ratios": {
+    "ROIC": -49.300456,
+    "PB": 16.745725
+  },
+  "ownerEarnings": -8285556,
+  "growth_rate_revenue": 15.263087,
+  "growth_rate_net_income": 71.609473
+}

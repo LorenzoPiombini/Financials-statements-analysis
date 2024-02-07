@@ -1,0 +1,14 @@
+{
+  "ticker": "CLSN",
+  "valuation": {
+    "PE_valuation": 22.587527, 
+    "DFC_valuation": -547.899970
+  },
+  "ratios": {
+    "ROIC": -66.654440,
+    "PB": 0.328799
+  },
+  "ownerEarnings": -7821234,
+  "growth_rate_revenue": -32.918574,
+  "growth_rate_net_income": 48.584075
+}

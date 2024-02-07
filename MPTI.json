@@ -1,0 +1,14 @@
+{
+  "ticker": "MPTI",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 24.209344
+  },
+  "ratios": {
+    "ROIC": 13.744593,
+    "PB": 3.288935
+  },
+  "ownerEarnings": 3292000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

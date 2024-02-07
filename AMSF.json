@@ -1,0 +1,14 @@
+{
+  "ticker": "AMSF",
+  "valuation": {
+    "PE_valuation": 78.439922, 
+    "DFC_valuation": 203.463360
+  },
+  "ratios": {
+    "ROIC": 17.516192,
+    "PB": 3.148868
+  },
+  "ownerEarnings": 56521000,
+  "growth_rate_revenue": 69.877210,
+  "growth_rate_net_income": 8.162990
+}

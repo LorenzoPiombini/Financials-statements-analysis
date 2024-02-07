@@ -1,0 +1,14 @@
+{
+  "ticker": "DSS",
+  "valuation": {
+    "PE_valuation": 337.028760, 
+    "DFC_valuation": -2435764.723550
+  },
+  "ratios": {
+    "ROIC": -21.882686,
+    "PB": 2.711389
+  },
+  "ownerEarnings": 2027000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 650.341428
+}

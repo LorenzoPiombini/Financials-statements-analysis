@@ -1,0 +1,14 @@
+{
+  "ticker": "LE",
+  "valuation": {
+    "PE_valuation": -16.114902, 
+    "DFC_valuation": -475.094870
+  },
+  "ratios": {
+    "ROIC": 2.668088,
+    "PB": 0.783458
+  },
+  "ownerEarnings": 133436000,
+  "growth_rate_revenue": 27.367944,
+  "growth_rate_net_income": 16.833898
+}

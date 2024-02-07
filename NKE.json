@@ -1,0 +1,14 @@
+{
+  "ticker": "NKE",
+  "valuation": {
+    "PE_valuation": 848.052123, 
+    "DFC_valuation": 133740.637287
+  },
+  "ratios": {
+    "ROIC": 14.080304,
+    "PB": 11.662483
+  },
+  "ownerEarnings": 3853000000,
+  "growth_rate_revenue": 31.602505,
+  "growth_rate_net_income": 67.938309
+}

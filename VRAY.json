@@ -1,0 +1,14 @@
+{
+  "ticker": "VRAY",
+  "valuation": {
+    "PE_valuation": 23.353899, 
+    "DFC_valuation": -2031.554181
+  },
+  "ratios": {
+    "ROIC": -59.707761,
+    "PB": 9.843189
+  },
+  "ownerEarnings": -116351000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -inf
+}

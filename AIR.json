@@ -1,0 +1,14 @@
+{
+  "ticker": "AIR",
+  "valuation": {
+    "PE_valuation": 173.768051, 
+    "DFC_valuation": -67.664425
+  },
+  "ratios": {
+    "ROIC": 6.771071,
+    "PB": 1.568360
+  },
+  "ownerEarnings": 158300000,
+  "growth_rate_revenue": 17.013111,
+  "growth_rate_net_income": 12.443274
+}

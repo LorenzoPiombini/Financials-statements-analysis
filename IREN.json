@@ -1,0 +1,14 @@
+{
+  "ticker": "IREN",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -7325.980735
+  },
+  "ratios": {
+    "ROIC": -50.613802,
+    "PB": 0.835910
+  },
+  "ownerEarnings": 81919000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

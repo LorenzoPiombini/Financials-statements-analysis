@@ -1,0 +1,14 @@
+{
+  "ticker": "CTRM",
+  "valuation": {
+    "PE_valuation": 46.220109, 
+    "DFC_valuation": 30115.002642
+  },
+  "ratios": {
+    "ROIC": 20.438001,
+    "PB": 0.229609
+  },
+  "ownerEarnings": 231469825,
+  "growth_rate_revenue": 328.029286,
+  "growth_rate_net_income": -764.108851
+}

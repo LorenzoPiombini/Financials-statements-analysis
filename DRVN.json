@@ -1,0 +1,14 @@
+{
+  "ticker": "DRVN",
+  "valuation": {
+    "PE_valuation": 226.127269, 
+    "DFC_valuation": -203.395090
+  },
+  "ratios": {
+    "ROIC": 3.240186,
+    "PB": 2.689169
+  },
+  "ownerEarnings": 1164677000,
+  "growth_rate_revenue": 18.325968,
+  "growth_rate_net_income": -56.285764
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BSRR",
+  "valuation": {
+    "PE_valuation": 38.875022, 
+    "DFC_valuation": 273.923064
+  },
+  "ratios": {
+    "ROIC": 7.038875,
+    "PB": 1.046374
+  },
+  "ownerEarnings": 61591000,
+  "growth_rate_revenue": 14.005736,
+  "growth_rate_net_income": 19.210280
+}

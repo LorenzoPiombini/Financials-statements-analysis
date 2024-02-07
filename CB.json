@@ -1,0 +1,14 @@
+{
+  "ticker": "CB",
+  "valuation": {
+    "PE_valuation": 2383.149871, 
+    "DFC_valuation": 673787.459937
+  },
+  "ratios": {
+    "ROIC": 8.826583,
+    "PB": 1.832280
+  },
+  "ownerEarnings": 6738000000,
+  "growth_rate_revenue": 18.466778,
+  "growth_rate_net_income": 342.346805
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BKT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -14.577303,
+    "PB": 0.941681
+  },
+  "ownerEarnings": -55481736,
+  "growth_rate_revenue": -6.261551,
+  "growth_rate_net_income": 318.328235
+}

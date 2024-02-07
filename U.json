@@ -1,0 +1,14 @@
+{
+  "ticker": "U",
+  "valuation": {
+    "PE_valuation": 396.196366, 
+    "DFC_valuation": -40.972530
+  },
+  "ratios": {
+    "ROIC": -14.742620,
+    "PB": 2.516053
+  },
+  "ownerEarnings": -1193223000,
+  "growth_rate_revenue": 13.473036,
+  "growth_rate_net_income": 39.574226
+}

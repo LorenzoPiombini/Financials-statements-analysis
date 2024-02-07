@@ -1,0 +1,14 @@
+{
+  "ticker": "SNDL",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -3.650275,
+    "PB": 0.497824
+  },
+  "ownerEarnings": 287491000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 694.290681
+}

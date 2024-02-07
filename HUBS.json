@@ -1,0 +1,14 @@
+{
+  "ticker": "HUBS",
+  "valuation": {
+    "PE_valuation": 2762.105052, 
+    "DFC_valuation": 48935.725628
+  },
+  "ratios": {
+    "ROIC": -5.463276,
+    "PB": 14.005944
+  },
+  "ownerEarnings": -239324000,
+  "growth_rate_revenue": 71.594153,
+  "growth_rate_net_income": 23.646115
+}

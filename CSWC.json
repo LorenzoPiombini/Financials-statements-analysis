@@ -1,0 +1,14 @@
+{
+  "ticker": "CSWC",
+  "valuation": {
+    "PE_valuation": 258.975531, 
+    "DFC_valuation": -817180.619450
+  },
+  "ratios": {
+    "ROIC": 4.636693,
+    "PB": 0.903911
+  },
+  "ownerEarnings": 87516000,
+  "growth_rate_revenue": 181.548734,
+  "growth_rate_net_income": -38.162363
+}

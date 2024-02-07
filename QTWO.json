@@ -1,0 +1,14 @@
+{
+  "ticker": "QTWO",
+  "valuation": {
+    "PE_valuation": 415.227540, 
+    "DFC_valuation": 172.811062
+  },
+  "ratios": {
+    "ROIC": -8.777197,
+    "PB": 3.674374
+  },
+  "ownerEarnings": -76273000,
+  "growth_rate_revenue": 51.351071,
+  "growth_rate_net_income": 94.044015
+}

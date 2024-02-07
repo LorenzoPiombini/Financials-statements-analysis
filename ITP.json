@@ -1,0 +1,14 @@
+{
+  "ticker": "ITP",
+  "valuation": {
+    "PE_valuation": 0.623230, 
+    "DFC_valuation": -3.130491
+  },
+  "ratios": {
+    "ROIC": -9.112871,
+    "PB": 0.015190
+  },
+  "ownerEarnings": 8118671,
+  "growth_rate_revenue": 48.439674,
+  "growth_rate_net_income": 62.415746
+}

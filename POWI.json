@@ -1,0 +1,14 @@
+{
+  "ticker": "POWI",
+  "valuation": {
+    "PE_valuation": 422.094694, 
+    "DFC_valuation": 8949.444555
+  },
+  "ratios": {
+    "ROIC": 22.251068,
+    "PB": 5.489142
+  },
+  "ownerEarnings": 219015000,
+  "growth_rate_revenue": 47.182049,
+  "growth_rate_net_income": -74.314978
+}

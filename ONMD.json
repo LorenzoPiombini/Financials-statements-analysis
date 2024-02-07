@@ -1,0 +1,14 @@
+{
+  "ticker": "ONMD",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -65.206887
+  },
+  "ratios": {
+    "ROIC": 1022.650699,
+    "PB": -4.734789
+  },
+  "ownerEarnings": -7987479,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

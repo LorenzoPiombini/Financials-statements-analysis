@@ -1,0 +1,14 @@
+{
+  "ticker": "LNG",
+  "valuation": {
+    "PE_valuation": 822712.793076, 
+    "DFC_valuation": 13072356129574.101562
+  },
+  "ratios": {
+    "ROIC": 13.836516,
+    "PB": -12.682707
+  },
+  "ownerEarnings": 6903000000,
+  "growth_rate_revenue": 39999994.280681,
+  "growth_rate_net_income": 487.389382
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -27.818128,
+    "PB": 1.964339
+  },
+  "ownerEarnings": -13806134,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 752.503098
+}

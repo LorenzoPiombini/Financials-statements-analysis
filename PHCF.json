@@ -1,0 +1,14 @@
+{
+  "ticker": "PHCF",
+  "valuation": {
+    "PE_valuation": 4.981447, 
+    "DFC_valuation": -8.643145
+  },
+  "ratios": {
+    "ROIC": -53.921130,
+    "PB": 11.534342
+  },
+  "ownerEarnings": -692292,
+  "growth_rate_revenue": -38.309545,
+  "growth_rate_net_income": -158.074504
+}

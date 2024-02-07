@@ -1,8 +1,9 @@
 #include <iostream>
 #include "Cashflowstatement.h"
+#include "Logger.h"
 #include <fstream>
 #include <sstream>
-
+#include <cstring>
 
 std::string Cashflowstatement::get_date() const {
     return date;
@@ -218,91 +219,42 @@ void Cashflowstatement::deserialize(std::string &json_string){
          if(key == "acceptedDate"){acceptedDate = value;}
          if(key == "calendarYear"){calendarYear = value;}
          if(key == "period"){period = value;}
-         if(key == "netIncome"){ netIncome= std::stoll(value);}
-         if(key == "depreciationAndAmortization"){ depreciationAndAmortization= std::stoll(value);}
-         if(key == "deferredIncomeTax"){deferredIncomeTax = std::stoll(value);}
-         if(key == "stockBasedCompensation"){ stockBasedCompensation= std::stoll(value);}
-         if(key == "changeInWorkingCapital"){ changeInWorkingCapital= std::stoll(value);}
-         if(key == "accountsReceivables"){ accountsReceivables= std::stoll(value);}
-         if(key == "inventory"){ accountsPayables = std::stoll(value);}
-         if(key == "otherWorkingCapital"){otherWorkingCapital = std::stoll(value);}
-         if(key == "otherNonCashItems"){otherNonCashItems = std::stoll(value);}
-         if(key == "netCashProvidedByOperatingActivities"){netCashProvidedByOperatingActivities = std::stoll(value);}
-         if(key == "investmentsInPropertyPlantAndEquipment"){investmentsInPropertyPlantAndEquipment = std::stoll(value);}
-         if(key == "acquisitionsNet"){ acquisitionsNet= std::stoll(value);}
-         if(key == "purchasesOfInvestments"){ purchasesOfInvestments= std::stoll(value);}
-         if(key == "salesMaturitiesOfInvestments"){ salesMaturitiesOfInvestments= std::stoll(value);}
-         if(key == "otherInvestingActivites"){otherInvestingActivites = std::stoll(value);}
-         if(key == "netCashUsedForInvestingActivites"){netCashUsedForInvestingActivites = std::stoll(value);}
-         if(key == "debtRepayment"){debtRepayment = std::stoll(value);}
-         if(key == "commonStockIssued"){ commonStockIssued= std::stoll(value);}
-         if(key == "commonStockRepurchased"){ commonStockRepurchased= std::stoll(value);}
-         if(key == "dividendsPaid"){ dividendsPaid= std::stoll(value);}
-         if(key == "dividendsPaid"){ dividendsPaid= std::stoll(value);}
-         if(key == "otherFinancingActivites"){ otherFinancingActivites= std::stoll(value);}
-         if(key == "netCashUsedProvidedByFinancingActivities"){ netCashUsedProvidedByFinancingActivities= std::stoll(value);}
-         if(key == "effectOfForexChangesOnCash"){ effectOfForexChangesOnCash= std::stoll(value);}
-         if(key == "netChangeInCash"){ netChangeInCash= std::stoll(value);}
-         if(key == "cashAtEndOfPeriod"){ cashAtEndOfPeriod= std::stoll(value);}
-         if(key == "cashAtBeginningOfPeriod"){ cashAtBeginningOfPeriod= std::stoll(value);}
-         if(key == "operatingCashFlow"){operatingCashFlow = std::stoll(value);}
-         if(key == "capitalExpenditure"){capitalExpenditure = std::stoll(value);}
-         if(key == "freeCashFlow"){ freeCashFlow= std::stoll(value);}
+         if(key == "netIncome" && value != "null"){ netIncome= std::stoll(value);}
+         if(key == "depreciationAndAmortization" && value != "null"){ depreciationAndAmortization= std::stoll(value);}
+         if(key == "deferredIncomeTax" && value != "null"){deferredIncomeTax = std::stoll(value);}
+         if(key == "stockBasedCompensation" && value != "null"){ stockBasedCompensation= std::stoll(value);}
+         if(key == "changeInWorkingCapital" && value != "null"){ changeInWorkingCapital= std::stoll(value);}
+         if(key == "accountsReceivables" && value != "null"){ accountsReceivables= std::stoll(value);}
+         if(key == "inventory" && value != "null"){ inventory = std::stoll(value);}
+         if(key == "accountsPayables" && value != "null"){ accountsPayables = std::stoll(value);}
+         if(key == "otherWorkingCapital" && value != "null"){otherWorkingCapital = std::stoll(value);}
+         if(key == "otherNonCashItems" && value != "null"){otherNonCashItems = std::stoll(value);}
+         if(key == "netCashProvidedByOperatingActivities" && value != "null"){netCashProvidedByOperatingActivities = std::stoll(value);}
+         if(key == "investmentsInPropertyPlantAndEquipment" && value != "null"){investmentsInPropertyPlantAndEquipment = std::stoll(value);}
+         if(key == "acquisitionsNet" && value != "null"){ acquisitionsNet= std::stoll(value);}
+         if(key == "purchasesOfInvestments" && value != "null"){ purchasesOfInvestments= std::stoll(value);}
+         if(key == "salesMaturitiesOfInvestments" && value != "null"){ salesMaturitiesOfInvestments= std::stoll(value);}
+         if(key == "otherInvestingActivites" && value != "null"){otherInvestingActivites = std::stoll(value);}
+         if(key == "netCashUsedForInvestingActivites" && value != "null"){netCashUsedForInvestingActivites = std::stoll(value);}
+         if(key == "debtRepayment" && value != "null"){debtRepayment = std::stoll(value);}
+         if(key == "commonStockIssued" && value != "null"){ commonStockIssued= std::stoll(value);}
+         if(key == "commonStockRepurchased" && value != "null"){ commonStockRepurchased= std::stoll(value);}
+         if(key == "dividendsPaid"&& value != "null"){ dividendsPaid= std::stoll(value);}
+         if(key == "otherFinancingActivites"&& value != "null"){ otherFinancingActivites= std::stoll(value);}
+         if(key == "netCashUsedProvidedByFinancingActivities"&& value != "null"){ netCashUsedProvidedByFinancingActivities= std::stoll(value);}
+         if(key == "effectOfForexChangesOnCash"&& value != "null"){ effectOfForexChangesOnCash= std::stoll(value);}
+         if(key == "netChangeInCash"&& value != "null"){ netChangeInCash= std::stoll(value);}
+         if(key == "cashAtEndOfPeriod"&& value != "null"){ cashAtEndOfPeriod= std::stoll(value);}
+         if(key == "cashAtBeginningOfPeriod"&& value != "null"){ cashAtBeginningOfPeriod= std::stoll(value);}
+         if(key == "operatingCashFlow"&& value != "null"){operatingCashFlow = std::stoll(value);}
+         if(key == "capitalExpenditure"&& value != "null"){capitalExpenditure = std::stoll(value);}
+         if(key == "freeCashFlow"&& value != "null"){ freeCashFlow= std::stoll(value);}
          if(key == "link"){ link= value;}
          if(key == "finalLink"){ finalLink= value;}
          
     }
     
 }
-
-//void from_json(const nlohmann::json &j, Cashflowstatement &c){
-//
-//    c.date = j.contains("date") && !j["date"].empty() ? j["date"].get<std::string>() : "none";
-//   c.symbol = j.contains("symbol") && !j["symbol"].empty() ? j["symbol"].get<std::string>() : "none";
-//    c.reportedCurrency = j.contains("reportedCurrency") && !j["reportedCurrency"].empty() ? j["reportedCurrency"].get<std::string>() : "none";
-//    c.cik = j.contains("cik") && !j["cik"].empty() ? j["cik"].get<std::string>() : "none";
-//    c.fillingDate = j.contains("fillingDate") && !j["fillingDate"].empty() ? j["fillingDate"].get<std::string>() : "none";
-//   c.acceptedDate = j.contains("acceptedDate") && !j["acceptedDate"].empty() ? j["acceptedDate"].get<std::string>() : "none";
-//   c.calendarYear = j.contains("calendarYear") && !j["calendarYear"].empty() ? j["calendarYear"].get<std::string>() : "none";
-//    c.period = j.contains("period") && !j["period"].empty() ? j["period"].get<std::string>() : "none";
-//
-//    // Numeric members
-//    
-//    c.netIncome = j.contains("netIncome") && !j["netIncome"].empty() ? j["netIncome"].get<long long>() : 0;
-//    c.depreciationAndAmortization = j.contains("depreciationAndAmortization") && !j["depreciationAndAmortization"].empty() ? j["depreciationAndAmortization"].get<long long>() : 0;
-//    c.deferredIncomeTax = j.contains("deferredIncomeTax") && !j["deferredIncomeTax"].empty() ? j["deferredIncomeTax"].get<long long>() : 0;
-//    c.stockBasedCompensation = j.contains("stockBasedCompensation") && !j["stockBasedCompensation"].empty() ? j["stockBasedCompensation"].get<long long>() : 0;
-//    c.changeInWorkingCapital = j.contains("changeInWorkingCapital") && !j["changeInWorkingCapital"].empty() ? j["changeInWorkingCapital"].get<long long>() : 0;
-//    c.accountsReceivables = j.contains("accountsReceivables") && !j["accountsReceivables"].empty() ? j["accountsReceivables"].get<long long>() : 0;
-//    c.inventory = j.contains("inventory") && !j["inventory"].empty() ? j["inventory"].get<long long>() : 0;
-//    c.accountsPayables = j.contains("accountsPayables") && !j["accountsPayables"].empty() ? j["accountsPayables"].get<long long>() : 0;
-//    c.otherWorkingCapital = j.contains("otherWorkingCapital") && !j["otherWorkingCapital"].empty() ? j["otherWorkingCapital"].get<long long>() : 0;
-//    c.otherNonCashItems = j.contains("otherNonCashItems") && !j["otherNonCashItems"].empty() ? j["otherNonCashItems"].get<long long>() : 0;
-//    c.netCashProvidedByOperatingActivities = j.contains("netCashProvidedByOperatingActivities") && !j["netCashProvidedByOperatingActivities"].empty() ? j["netCashProvidedByOperatingActivities"].get<long long>() : 0;
-//    c.investmentsInPropertyPlantAndEquipment = j.contains("investmentsInPropertyPlantAndEquipment") && !j["investmentsInPropertyPlantAndEquipment"].empty() ? j["investmentsInPropertyPlantAndEquipment"].get<long long>() : 0;
-//    c.acquisitionsNet = j.contains("acquisitionsNet") && !j["acquisitionsNet"].empty() ? j["acquisitionsNet"].get<long long>() : 0;
-//    c.purchasesOfInvestments = j.contains("purchasesOfInvestments") && !j["purchasesOfInvestments"].empty() ? j["purchasesOfInvestments"].get<long long>() : 0;
-//    c.salesMaturitiesOfInvestments = j.contains("salesMaturitiesOfInvestments") && !j["salesMaturitiesOfInvestments"].empty() ? j["salesMaturitiesOfInvestments"].get<long long>() : 0;
-//    c.otherInvestingActivites = j.contains("otherInvestingActivites") && !j["otherInvestingActivites"].empty() ? j["otherInvestingActivites"].get<long long>() : 0;
-//    c.netCashUsedForInvestingActivites = j.contains("netCashUsedForInvestingActivites") && !j["netCashUsedForInvestingActivites"].empty() ? j["netCashUsedForInvestingActivites"].get<long long>() : 0;
-//    c.debtRepayment = j.contains("debtRepayment") && !j["debtRepayment"].empty() ? j["debtRepayment"].get<long long>() : 0;
-//    c.commonStockIssued = j.contains("commonStockIssued") && !j["commonStockIssued"].empty() ? j["commonStockIssued"].get<long long>() : 0;
-//    c.commonStockRepurchased = j.contains("commonStockRepurchased") && !j["commonStockRepurchased"].empty() ? j["commonStockRepurchased"].get<long long>() : 0;
-//    c.dividendsPaid = j.contains("dividendsPaid") && !j["dividendsPaid"].empty() ? j["dividendsPaid"].get<long long>() : 0;
-//    c.otherFinancingActivites = j.contains("otherFinancingActivites") && !j["otherFinancingActivites"].empty() ? j["otherFinancingActivites"].get<long long>() : 0;
-//    c.netCashUsedProvidedByFinancingActivities = j.contains("netCashUsedProvidedByFinancingActivities") && !j["netCashUsedProvidedByFinancingActivities"].empty() ? j["netCashUsedProvidedByFinancingActivities"].get<long long>() : 0;
-//    c.effectOfForexChangesOnCash = j.contains("effectOfForexChangesOnCash") && !j["effectOfForexChangesOnCash"].empty() ? j["effectOfForexChangesOnCash"].get<long long>() : 0;
-//    c.netChangeInCash = j.contains("netChangeInCash") && !j["netChangeInCash"].empty() ? j["netChangeInCash"].get<long long>() : 0;
-//    c.cashAtEndOfPeriod = j.contains("cashAtEndOfPeriod") && !j["cashAtEndOfPeriod"].empty() ? j["cashAtEndOfPeriod"].get<long long>() : 0;
-//    c.cashAtBeginningOfPeriod = j.contains("cashAtBeginningOfPeriod") && !j["cashAtBeginningOfPeriod"].empty() ? j["cashAtBeginningOfPeriod"].get<long long>() : 0;
-//    c.operatingCashFlow = j.contains("operatingCashFlow") && !j["operatingCashFlow"].empty() ? j["operatingCashFlow"].get<long long>() : 0;
-//    c.capitalExpenditure = j.contains("capitalExpenditure") && !j["capitalExpenditure"].empty() ? j["capitalExpenditure"].get<long long>() : 0;
-//    c.freeCashFlow = j.contains("freeCashFlow") && !j["freeCashFlow"].empty() ? j["freeCashFlow"].get<long long>() : 0;
-//    
-//    // String members without a numeric counterpart
-//    c.link = j.contains("link") && !j["link"].empty() ? j["link"].get<std::string>() : "none";
-//    c.finalLink = j.contains("finalLink") && !j["finalLink"].empty() ? j["finalLink"].get<std::string>() : "none";
-//}
 
 std::string Cashflowstatement::get_class_name() const {
    return  "cashflow_statement";   
@@ -340,10 +292,7 @@ size_t Cashflowstatement::compute_object_size() const {
 
 
 void Cashflowstatement::save_to_file(std::ofstream &out){
-//     if (!out) {
-//        std::cerr << "File stream is not open or has encountered an error." << std::endl;
-//        return;
-//        }
+
     
     
      size_t obj_size = this-> compute_object_size();
@@ -463,9 +412,10 @@ bool read_number_values_from_buffer(std::vector<char> &buffer, size_t &pos, T &v
 }
 
 bool Cashflowstatement::read_from_file(std::ifstream &in, std::vector<Cashflowstatement*> &statements){
-
-     if (!in){
-      std::cerr<< "IO stream it is not open or some error with it inside " + get_class_name() + ".\n";   
+    Logger logger("read_cfs_f.log");
+ 
+    if (!in){
+      logger.log("IO stream it is not open or some error with it. "+ get_class_name() +"\n", Logger::Level::Error);  
     }
     
     
@@ -477,7 +427,7 @@ bool Cashflowstatement::read_from_file(std::ifstream &in, std::vector<Cashflowst
         if(in.eof()){
             break;
         }  
-        std::cerr<< "Couldn't read object size from the file regrading class "<< get_class_name()<<"\n";
+        logger.log("Couldn't read object size from the file regrading class " + get_class_name(), Logger::Level::Error);
         return false;
     }
     
@@ -486,7 +436,7 @@ bool Cashflowstatement::read_from_file(std::ifstream &in, std::vector<Cashflowst
      std::vector<char> buffer(obj_size);
      
      if(!in.read(buffer.data(),obj_size)){
-         std::cerr<< "failed to read object data from file class "<< get_class_name()<<"\n";
+         logger.log("failed to read object data from file class " + get_class_name(),Logger::Level::Error);
          return false;
       }
        
@@ -500,135 +450,135 @@ bool Cashflowstatement::read_from_file(std::ifstream &in, std::vector<Cashflowst
         
        
         if(!reading_string_from_buffer(buffer, pos,statement ->date)){
-            std::cerr << "Error reading 'date' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'date' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer(buffer, pos,statement ->symbol)){
-             std::cerr << "Error reading 'symbol' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'symbol' in "+ get_class_name(), Logger::Level::Error);
              }
         if(!reading_string_from_buffer(buffer, pos,statement ->reportedCurrency)){
-             std::cerr << "Error reading 'reportedCurrency' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'reportedCurrency' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer(buffer, pos,statement ->cik)){
-             std::cerr << "Error reading 'cik' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'cik' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer(buffer, pos,statement ->fillingDate)){
-             std::cerr << "Error reading 'fillingDate' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'fillingDate' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer(buffer, pos,statement ->acceptedDate)){
-             std::cerr << "Error reading 'acceptedDate' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'acceptedDate' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer(buffer, pos,statement ->calendarYear)){
-             std::cerr << "Error reading 'calendarYear' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'calendarYear' in "+ get_class_name(), Logger::Level::Error);
             }
         if(!reading_string_from_buffer(buffer, pos,statement ->period)){
-             std::cerr << "Error reading 'period' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'period' in "+ get_class_name(), Logger::Level::Error);
             }
             
             
             //numbers values
     
              if(!read_number_values_from_buffer(buffer, pos,statement -> netIncome)){
-             std::cerr << "Error reading 'netIncome' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'netIncome' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->depreciationAndAmortization )){
-             std::cerr << "Error reading 'depreciationAndAmortization' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'depreciationAndAmortization' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->deferredIncomeTax )){
-             std::cerr << "Error reading 'deferredIncomeTax' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'deferredIncomeTax' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> stockBasedCompensation)){
-             std::cerr << "Error reading 'stockBasedCompensation' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'stockBasedCompensation' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->changeInWorkingCapital )){
-             std::cerr << "Error reading 'changeInWorkingCapital' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'changeInWorkingCapital' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->accountsReceivables )){
-             std::cerr << "Error reading 'accountsReceivables' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'accountsReceivables' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->inventory )){
-             std::cerr << "Error reading 'inventory' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'inventory' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->accountsPayables )){
-             std::cerr << "Error reading 'accountsPayables' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'accountsPayables' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->otherWorkingCapital )){
-             std::cerr << "Error reading 'otherWorkingCapital' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'otherWorkingCapital' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->otherNonCashItems )){
-             std::cerr << "Error reading 'otherNonCashItems' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'otherNonCashItems' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->netCashProvidedByOperatingActivities )){
-             std::cerr << "Error reading 'netCashProvidedByOperatingActivities' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'netCashProvidedByOperatingActivities' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> investmentsInPropertyPlantAndEquipment)){
-             std::cerr << "Error reading 'investmentsInPropertyPlantAndEquipment' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'investmentsInPropertyPlantAndEquipment' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->acquisitionsNet )){
-             std::cerr << "Error reading 'acquisitionsNet' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'acquisitionsNet' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> purchasesOfInvestments)){
-             std::cerr << "Error reading 'purchasesOfInvestments' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'purchasesOfInvestments' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> salesMaturitiesOfInvestments)){
-             std::cerr << "Error reading 'salesMaturitiesOfInvestments' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'salesMaturitiesOfInvestments' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> otherInvestingActivites)){
-             std::cerr << "Error reading 'otherInvestingActivites' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'otherInvestingActivites' in "+ get_class_name(), Logger::Level::Error);
             }
             
                   if(!read_number_values_from_buffer(buffer, pos,statement -> netCashUsedForInvestingActivites)){
-             std::cerr << "Error reading 'netCashUsedForInvestingActivites' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'netCashUsedForInvestingActivites' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> debtRepayment)){
-             std::cerr << "Error reading 'debtRepayment' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'debtRepayment' in "+ get_class_name(), Logger::Level::Error);
             }
             
              if(!read_number_values_from_buffer(buffer, pos,statement -> commonStockIssued)){
-             std::cerr << "Error reading 'commonStockIssued' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'commonStockIssued' in "+ get_class_name(), Logger::Level::Error);
             }
      
              if(!read_number_values_from_buffer(buffer, pos,statement -> commonStockRepurchased)){
-             std::cerr << "Error reading 'commonStockRepurchased' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'commonStockRepurchased' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> dividendsPaid)){
-             std::cerr << "Error reading 'dividendsPaid' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'dividendsPaid' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->otherFinancingActivites )){
-             std::cerr << "Error reading 'otherFinancingActivites' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'otherFinancingActivites' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> netCashUsedProvidedByFinancingActivities)){
-             std::cerr << "Error reading 'netCashUsedProvidedByFinancingActivities' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'netCashUsedProvidedByFinancingActivities' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> effectOfForexChangesOnCash )){
-             std::cerr << "Error reading 'effectOfForexChangesOnCash' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'effectOfForexChangesOnCash' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement ->netChangeInCash )){
-             std::cerr << "Error reading 'netChangeInCash' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'netChangeInCash' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> cashAtEndOfPeriod)){
-             std::cerr << "Error reading 'cashAtEndOfPeriod' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'cashAtEndOfPeriod' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> cashAtBeginningOfPeriod)){
-             std::cerr << "Error reading 'cashAtBeginningOfPeriod' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'cashAtBeginningOfPeriod' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> operatingCashFlow)){
-             std::cerr << "Error reading 'operatingCashFlow' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'operatingCashFlow' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> capitalExpenditure)){
-             std::cerr << "Error reading 'capitalExpenditure' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'capitalExpenditure' in "+ get_class_name(), Logger::Level::Error);
             }
              if(!read_number_values_from_buffer(buffer, pos,statement -> freeCashFlow)){
-             std::cerr << "Error reading 'freeCashFlow' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'freeCashFlow' in "+ get_class_name(), Logger::Level::Error);
             }
            
       
      
 		if(!reading_string_from_buffer(buffer, pos,statement ->link)){
-             std::cerr << "Error reading 'link' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'link' in "+ get_class_name(), Logger::Level::Error);
             }
             
             if(!reading_string_from_buffer(buffer, pos,statement ->finalLink)){
-             std::cerr << "Error reading 'finalLink' in " << get_class_name() << std::endl;
+             logger.log("Error reading 'finalLink' in "+ get_class_name(), Logger::Level::Error);
              statement ->finalLink= "nf";
             }
 
@@ -637,7 +587,7 @@ bool Cashflowstatement::read_from_file(std::ifstream &in, std::vector<Cashflowst
           if(bytes_read  < buffer.size()){
            
             
-            std::cerr<<"Reached EOF! no more data to read in for "<<get_class_name()<<".\n";
+            logger.log("Reached EOF! no more data to read in for " + get_class_name(), Logger::Level::Error);
             return false;
             
             }

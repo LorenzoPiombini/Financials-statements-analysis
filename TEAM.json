@@ -1,0 +1,14 @@
+{
+  "ticker": "TEAM",
+  "valuation": {
+    "PE_valuation": 836.093342, 
+    "DFC_valuation": 11595.413812
+  },
+  "ratios": {
+    "ROIC": -24.330504,
+    "PB": 65.698361
+  },
+  "ownerEarnings": -1396700000,
+  "growth_rate_revenue": 53.259276,
+  "growth_rate_net_income": -228.638580
+}

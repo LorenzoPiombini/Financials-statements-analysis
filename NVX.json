@@ -1,0 +1,14 @@
+{
+  "ticker": "NVX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -7.765830,
+    "PB": 6.399242
+  },
+  "ownerEarnings": -2796722,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 145.900554
+}

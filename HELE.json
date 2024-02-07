@@ -1,0 +1,14 @@
+{
+  "ticker": "HELE",
+  "valuation": {
+    "PE_valuation": 1039.213016, 
+    "DFC_valuation": 12997.506209
+  },
+  "ratios": {
+    "ROIC": 7.061821,
+    "PB": 1.891146
+  },
+  "ownerEarnings": 444682000,
+  "growth_rate_revenue": 30.458994,
+  "growth_rate_net_income": -66.678061
+}

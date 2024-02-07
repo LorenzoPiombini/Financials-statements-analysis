@@ -1,0 +1,14 @@
+{
+  "ticker": "AHL-PE",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -807.412008
+  },
+  "ratios": {
+    "ROIC": 2.274855,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 85100000,
+  "growth_rate_revenue": 148.804927,
+  "growth_rate_net_income": -3.591875
+}

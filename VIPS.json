@@ -1,0 +1,14 @@
+{
+  "ticker": "VIPS",
+  "valuation": {
+    "PE_valuation": 27044.888413, 
+    "DFC_valuation": 7159881066.150534
+  },
+  "ratios": {
+    "ROIC": 12.970001,
+    "PB": 1.955736
+  },
+  "ownerEarnings": 5217904000,
+  "growth_rate_revenue": 514.321929,
+  "growth_rate_net_income": 261.235538
+}

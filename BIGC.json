@@ -1,0 +1,14 @@
+{
+  "ticker": "BIGC",
+  "valuation": {
+    "PE_valuation": 164.338167, 
+    "DFC_valuation": -125.517095
+  },
+  "ratios": {
+    "ROIC": -24.085768,
+    "PB": 14.012858
+  },
+  "ownerEarnings": -78853000,
+  "growth_rate_revenue": 7.293350,
+  "growth_rate_net_income": 21.090337
+}

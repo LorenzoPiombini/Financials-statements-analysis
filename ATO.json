@@ -1,0 +1,14 @@
+{
+  "ticker": "ATO",
+  "valuation": {
+    "PE_valuation": 403.931979, 
+    "DFC_valuation": 3634.501030
+  },
+  "ratios": {
+    "ROIC": 5.323991,
+    "PB": 1.448816
+  },
+  "ownerEarnings": 4283715000,
+  "growth_rate_revenue": 7.083993,
+  "growth_rate_net_income": 20.656398
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "IMKTA",
+  "valuation": {
+    "PE_valuation": 179.683951, 
+    "DFC_valuation": 2455.960447
+  },
+  "ratios": {
+    "ROIC": 10.769710,
+    "PB": 0.980722
+  },
+  "ownerEarnings": 505912523,
+  "growth_rate_revenue": 15.218104,
+  "growth_rate_net_income": 10.724163
+}

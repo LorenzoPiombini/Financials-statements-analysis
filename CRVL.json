@@ -1,0 +1,14 @@
+{
+  "ticker": "CRVL",
+  "valuation": {
+    "PE_valuation": 779.702552, 
+    "DFC_valuation": 7506.389378
+  },
+  "ratios": {
+    "ROIC": 17.955609,
+    "PB": 16.308424
+  },
+  "ownerEarnings": 62005000,
+  "growth_rate_revenue": 39.303956,
+  "growth_rate_net_income": 79.660288
+}

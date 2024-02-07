@@ -1,0 +1,14 @@
+{
+  "ticker": "CBFV",
+  "valuation": {
+    "PE_valuation": 2.835802, 
+    "DFC_valuation": 181.259114
+  },
+  "ratios": {
+    "ROIC": 11.894736,
+    "PB": 0.999309
+  },
+  "ownerEarnings": 24344000,
+  "growth_rate_revenue": 12.163601,
+  "growth_rate_net_income": 25.271910
+}

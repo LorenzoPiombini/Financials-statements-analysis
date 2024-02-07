@@ -1,0 +1,14 @@
+{
+  "ticker": "CHAA-WT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.882427,
+    "PB": 1.033645
+  },
+  "ownerEarnings": -10069174,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

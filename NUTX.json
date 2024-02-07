@@ -1,0 +1,14 @@
+{
+  "ticker": "NUTX",
+  "valuation": {
+    "PE_valuation": -9372.146177, 
+    "DFC_valuation": 188662.315353
+  },
+  "ratios": {
+    "ROIC": -0.894868,
+    "PB": 12.583283
+  },
+  "ownerEarnings": 423856517,
+  "growth_rate_revenue": 26667.216689,
+  "growth_rate_net_income": -484.336866
+}

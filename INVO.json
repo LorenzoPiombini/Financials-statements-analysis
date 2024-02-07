@@ -1,0 +1,14 @@
+{
+  "ticker": "INVO",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -296.233143,
+    "PB": -105.153884
+  },
+  "ownerEarnings": -12778136,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1294.319950
+}

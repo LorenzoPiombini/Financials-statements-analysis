@@ -1,0 +1,14 @@
+{
+  "ticker": "MGA",
+  "valuation": {
+    "PE_valuation": 274.653644, 
+    "DFC_valuation": 9164.651917
+  },
+  "ratios": {
+    "ROIC": 7.092116,
+    "PB": 1.491968
+  },
+  "ownerEarnings": 5399000000,
+  "growth_rate_revenue": 24.459026,
+  "growth_rate_net_income": -217.973408
+}

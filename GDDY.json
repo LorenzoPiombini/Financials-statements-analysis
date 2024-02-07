@@ -1,0 +1,14 @@
+{
+  "ticker": "GDDY",
+  "valuation": {
+    "PE_valuation": 223.408985, 
+    "DFC_valuation": 795.185237
+  },
+  "ratios": {
+    "ROIC": 13.229457,
+    "PB": -35.806263
+  },
+  "ownerEarnings": 651100000,
+  "growth_rate_revenue": 20.801067,
+  "growth_rate_net_income": -44.728619
+}

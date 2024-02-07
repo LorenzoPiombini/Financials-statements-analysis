@@ -1,0 +1,14 @@
+{
+  "ticker": "DWIN",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 0.000000
+  },
+  "ratios": {
+    "ROIC": 182.592967,
+    "PB": -4.849261
+  },
+  "ownerEarnings": 0,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CEVA",
+  "valuation": {
+    "PE_valuation": -2386.915286, 
+    "DFC_valuation": 57.977731
+  },
+  "ratios": {
+    "ROIC": 6.873725,
+    "PB": 2.289711
+  },
+  "ownerEarnings": -12821000,
+  "growth_rate_revenue": 35.356035,
+  "growth_rate_net_income": -74.239875
+}

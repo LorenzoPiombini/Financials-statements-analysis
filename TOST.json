@@ -1,0 +1,14 @@
+{
+  "ticker": "TOST",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -64.349628
+  },
+  "ratios": {
+    "ROIC": -29.644435,
+    "PB": 8.403408
+  },
+  "ownerEarnings": -765000000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

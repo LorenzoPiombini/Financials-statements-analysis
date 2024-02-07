@@ -1,0 +1,14 @@
+{
+  "ticker": "SCPL",
+  "valuation": {
+    "PE_valuation": 15.949042, 
+    "DFC_valuation": 466.865409
+  },
+  "ratios": {
+    "ROIC": 23.684323,
+    "PB": 0.624288
+  },
+  "ownerEarnings": 176100000,
+  "growth_rate_revenue": 16.720697,
+  "growth_rate_net_income": 67.745232
+}

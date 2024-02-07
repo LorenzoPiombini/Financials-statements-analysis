@@ -1,0 +1,14 @@
+{
+  "ticker": "KWR",
+  "valuation": {
+    "PE_valuation": -149.962520, 
+    "DFC_valuation": 626.637828
+  },
+  "ratios": {
+    "ROIC": -15.837878,
+    "PB": 2.330153
+  },
+  "ownerEarnings": 354575000,
+  "growth_rate_revenue": 13.130481,
+  "growth_rate_net_income": 16.563251
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "KNOP",
+  "valuation": {
+    "PE_valuation": 22.541496, 
+    "DFC_valuation": 507.808200
+  },
+  "ratios": {
+    "ROIC": 4.009914,
+    "PB": 0.576190
+  },
+  "ownerEarnings": 181507000,
+  "growth_rate_revenue": 41.116357,
+  "growth_rate_net_income": 78.748469
+}

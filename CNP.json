@@ -1,0 +1,14 @@
+{
+  "ticker": "CNP",
+  "valuation": {
+    "PE_valuation": 32.370141, 
+    "DFC_valuation": -375.982726
+  },
+  "ratios": {
+    "ROIC": 4.342386,
+    "PB": 1.877920
+  },
+  "ownerEarnings": 7036000000,
+  "growth_rate_revenue": 1.056152,
+  "growth_rate_net_income": -7.136729
+}

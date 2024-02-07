@@ -1,0 +1,14 @@
+{
+  "ticker": "EBAY",
+  "valuation": {
+    "PE_valuation": -3405.845110, 
+    "DFC_valuation": 34010466.942457
+  },
+  "ratios": {
+    "ROIC": 12.584245,
+    "PB": 4.490638
+  },
+  "ownerEarnings": 7025000000,
+  "growth_rate_revenue": 333.333519,
+  "growth_rate_net_income": 281.847544
+}

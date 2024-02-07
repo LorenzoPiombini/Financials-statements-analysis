@@ -1,0 +1,14 @@
+{
+  "ticker": "NSTD-WT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.200925,
+    "PB": 1.269174
+  },
+  "ownerEarnings": -30889750,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

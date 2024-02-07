@@ -1,0 +1,14 @@
+{
+  "ticker": "APWC",
+  "valuation": {
+    "PE_valuation": 1.821551, 
+    "DFC_valuation": 7.561508
+  },
+  "ratios": {
+    "ROIC": 2.365166,
+    "PB": 0.190173
+  },
+  "ownerEarnings": 15474000,
+  "growth_rate_revenue": 17.045403,
+  "growth_rate_net_income": -245.966381
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NXTP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -25.472983,
+    "PB": 0.871105
+  },
+  "ownerEarnings": 8399043,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 980.390265
+}

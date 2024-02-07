@@ -1,0 +1,14 @@
+{
+  "ticker": "LSTA",
+  "valuation": {
+    "PE_valuation": 96.061113, 
+    "DFC_valuation": -7240.166604
+  },
+  "ratios": {
+    "ROIC": -81.546137,
+    "PB": 0.196843
+  },
+  "ownerEarnings": -59353000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 0.0
+}

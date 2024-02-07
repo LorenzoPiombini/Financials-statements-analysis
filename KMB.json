@@ -1,0 +1,14 @@
+{
+  "ticker": "KMB",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 1955.849289
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 5425000000,
+  "growth_rate_revenue": 11.909950,
+  "growth_rate_net_income": 12.972913
+}

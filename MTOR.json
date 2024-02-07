@@ -1,0 +1,14 @@
+{
+  "ticker": "MTOR",
+  "valuation": {
+    "PE_valuation": 12.003310, 
+    "DFC_valuation": 64.088710
+  },
+  "ratios": {
+    "ROIC": 9.044893,
+    "PB": 2.840638
+  },
+  "ownerEarnings": 351000000,
+  "growth_rate_revenue": 16.324728,
+  "growth_rate_net_income": 7.590229
+}

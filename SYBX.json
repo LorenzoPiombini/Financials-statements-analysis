@@ -1,0 +1,14 @@
+{
+  "ticker": "SYBX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -53.668279,
+    "PB": 0.043991
+  },
+  "ownerEarnings": -66536000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 84.650369
+}

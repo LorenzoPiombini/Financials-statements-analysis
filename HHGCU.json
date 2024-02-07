@@ -1,0 +1,14 @@
+{
+  "ticker": "HHGCU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -64765.852148
+  },
+  "ratios": {
+    "ROIC": 130.559990,
+    "PB": 1.562926
+  },
+  "ownerEarnings": -2074356,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

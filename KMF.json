@@ -1,0 +1,14 @@
+{
+  "ticker": "KMF",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 15.156822,
+    "PB": 0.817514
+  },
+  "ownerEarnings": 86750000,
+  "growth_rate_revenue": -inf,
+  "growth_rate_net_income": -inf
+}

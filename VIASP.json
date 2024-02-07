@@ -1,0 +1,14 @@
+{
+  "ticker": "VIASP",
+  "valuation": {
+    "PE_valuation": 0.751908, 
+    "DFC_valuation": 127.536644
+  },
+  "ratios": {
+    "ROIC": 6.266738,
+    "PB": 0.618928
+  },
+  "ownerEarnings": 45804000,
+  "growth_rate_revenue": -16.773366,
+  "growth_rate_net_income": 0.0
+}

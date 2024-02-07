@@ -1,0 +1,14 @@
+{
+  "ticker": "ATH",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 3169.508548
+  },
+  "ratios": {
+    "ROIC": -57.604090,
+    "PB": 7.342223
+  },
+  "ownerEarnings": 22000000,
+  "growth_rate_revenue": 66.255956,
+  "growth_rate_net_income": 17.461402
+}

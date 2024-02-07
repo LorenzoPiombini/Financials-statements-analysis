@@ -1,0 +1,14 @@
+{
+  "ticker": "SCHN",
+  "valuation": {
+    "PE_valuation": -17.666354, 
+    "DFC_valuation": 242.817311
+  },
+  "ratios": {
+    "ROIC": 8.319448,
+    "PB": 0.972658
+  },
+  "ownerEarnings": 210656000,
+  "growth_rate_revenue": 15.228232,
+  "growth_rate_net_income": 114.239210
+}

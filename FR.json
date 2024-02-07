@@ -1,0 +1,14 @@
+{
+  "ticker": "FR",
+  "valuation": {
+    "PE_valuation": 148.151942, 
+    "DFC_valuation": 712.521668
+  },
+  "ratios": {
+    "ROIC": 4.175689,
+    "PB": 2.518073
+  },
+  "ownerEarnings": 222735000,
+  "growth_rate_revenue": 70.770716,
+  "growth_rate_net_income": 93.898592
+}

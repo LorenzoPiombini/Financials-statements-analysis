@@ -1,0 +1,14 @@
+{
+  "ticker": "LGIH",
+  "valuation": {
+    "PE_valuation": 889.357504, 
+    "DFC_valuation": -121592.634999
+  },
+  "ratios": {
+    "ROIC": 10.483488,
+    "PB": 1.324179
+  },
+  "ownerEarnings": 264124000,
+  "growth_rate_revenue": 99.382653,
+  "growth_rate_net_income": 118.841830
+}

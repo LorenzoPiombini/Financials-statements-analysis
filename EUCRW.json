@@ -1,0 +1,14 @@
+{
+  "ticker": "EUCRW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -12.844587,
+    "PB": 10.152926
+  },
+  "ownerEarnings": -2575687,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

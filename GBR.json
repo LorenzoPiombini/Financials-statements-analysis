@@ -1,0 +1,14 @@
+{
+  "ticker": "GBR",
+  "valuation": {
+    "PE_valuation": -0.018610, 
+    "DFC_valuation": 2.317644
+  },
+  "ratios": {
+    "ROIC": 11.451049,
+    "PB": 1.222439
+  },
+  "ownerEarnings": 405000,
+  "growth_rate_revenue": 65.415802,
+  "growth_rate_net_income": -0.164909
+}

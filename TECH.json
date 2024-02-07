@@ -1,0 +1,14 @@
+{
+  "ticker": "TECH",
+  "valuation": {
+    "PE_valuation": 1139.904707, 
+    "DFC_valuation": 40608.281799
+  },
+  "ratios": {
+    "ROIC": 9.973213,
+    "PB": 6.524494
+  },
+  "ownerEarnings": 312264000,
+  "growth_rate_revenue": 33.297912,
+  "growth_rate_net_income": 92.727273
+}

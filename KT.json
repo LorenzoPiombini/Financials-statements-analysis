@@ -1,0 +1,14 @@
+{
+  "ticker": "KT",
+  "valuation": {
+    "PE_valuation": 26954.671833, 
+    "DFC_valuation": -208476.177694
+  },
+  "ratios": {
+    "ROIC": 4.651667,
+    "PB": 0.528552
+  },
+  "ownerEarnings": 9034760000000,
+  "growth_rate_revenue": 14.277583,
+  "growth_rate_net_income": 165.168609
+}

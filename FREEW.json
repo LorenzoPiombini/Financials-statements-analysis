@@ -1,0 +1,14 @@
+{
+  "ticker": "FREEW",
+  "valuation": {
+    "PE_valuation": -24.913793, 
+    "DFC_valuation": -38.165116
+  },
+  "ratios": {
+    "ROIC": 3.372481,
+    "PB": 0.576241
+  },
+  "ownerEarnings": 121562000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -17717.409275
+}

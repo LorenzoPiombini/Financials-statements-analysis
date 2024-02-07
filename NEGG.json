@@ -1,0 +1,14 @@
+{
+  "ticker": "NEGG",
+  "valuation": {
+    "PE_valuation": 26.565489, 
+    "DFC_valuation": 3546.437991
+  },
+  "ratios": {
+    "ROIC": -19.246280,
+    "PB": 3.167066
+  },
+  "ownerEarnings": -77133000,
+  "growth_rate_revenue": 8.407611,
+  "growth_rate_net_income": 48.799114
+}

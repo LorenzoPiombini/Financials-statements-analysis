@@ -1,0 +1,14 @@
+{
+  "ticker": "EXAI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -69.289467
+  },
+  "ratios": {
+    "ROIC": -24.202219,
+    "PB": 1.125536
+  },
+  "ownerEarnings": -218447394,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

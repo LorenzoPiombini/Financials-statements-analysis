@@ -1,0 +1,14 @@
+{
+  "ticker": "TY",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -18.096818,
+    "PB": 0.828263
+  },
+  "ownerEarnings": -292203654,
+  "growth_rate_revenue": -5.642595,
+  "growth_rate_net_income": -54.145278
+}

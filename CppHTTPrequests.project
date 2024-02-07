@@ -3,6 +3,9 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="Logger.h"/>
+    <File Name="Ticker.cpp"/>
+    <File Name="Ticker.h"/>
     <File Name="Trim.h"/>
     <File Name="Savingdataoperations.h"/>
     <File Name="Sharesfloat.cpp"/>

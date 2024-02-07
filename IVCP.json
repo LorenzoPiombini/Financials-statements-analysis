@@ -1,0 +1,14 @@
+{
+  "ticker": "IVCP",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.205881,
+    "PB": 1.021152
+  },
+  "ownerEarnings": -3965188,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

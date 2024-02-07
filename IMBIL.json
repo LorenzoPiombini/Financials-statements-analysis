@@ -1,0 +1,14 @@
+{
+  "ticker": "IMBIL",
+  "valuation": {
+    "PE_valuation": 486.898799, 
+    "DFC_valuation": -31151154.137751
+  },
+  "ratios": {
+    "ROIC": -20.634939,
+    "PB": 1.400807
+  },
+  "ownerEarnings": 28743000,
+  "growth_rate_revenue": 1270.086220,
+  "growth_rate_net_income": 2.869842
+}

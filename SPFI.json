@@ -1,0 +1,14 @@
+{
+  "ticker": "SPFI",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -134.006322
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 62745000,
+  "growth_rate_revenue": 13.508425,
+  "growth_rate_net_income": 26.874781
+}

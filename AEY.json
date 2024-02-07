@@ -1,0 +1,14 @@
+{
+  "ticker": "AEY",
+  "valuation": {
+    "PE_valuation": -1.986870, 
+    "DFC_valuation": 98.641545
+  },
+  "ratios": {
+    "ROIC": 6.702349,
+    "PB": 2.099001
+  },
+  "ownerEarnings": 2857000,
+  "growth_rate_revenue": 65.148424,
+  "growth_rate_net_income": -116.980939
+}

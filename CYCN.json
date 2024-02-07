@@ -1,0 +1,14 @@
+{
+  "ticker": "CYCN",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -421.699570,
+    "PB": 38.163735
+  },
+  "ownerEarnings": -50559000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -14.102607
+}

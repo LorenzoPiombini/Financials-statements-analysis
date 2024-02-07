@@ -1,0 +1,14 @@
+{
+  "ticker": "LCTX",
+  "valuation": {
+    "PE_valuation": 29.621652, 
+    "DFC_valuation": 291.861055
+  },
+  "ratios": {
+    "ROIC": -28.339355,
+    "PB": 2.708745
+  },
+  "ownerEarnings": -20947000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 47.440476
+}

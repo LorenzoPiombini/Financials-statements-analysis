@@ -1,0 +1,14 @@
+{
+  "ticker": "EVLO",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -203.752550,
+    "PB": -28.110497
+  },
+  "ownerEarnings": -118740000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 75.307994
+}

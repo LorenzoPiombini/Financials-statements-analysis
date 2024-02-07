@@ -1,0 +1,14 @@
+{
+  "ticker": "DBRG-PJ",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -2.719196,
+    "PB": 1.017750
+  },
+  "ownerEarnings": 518162000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

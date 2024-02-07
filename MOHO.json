@@ -1,0 +1,14 @@
+{
+  "ticker": "MOHO",
+  "valuation": {
+    "PE_valuation": -70.079542, 
+    "DFC_valuation": 1.708320
+  },
+  "ratios": {
+    "ROIC": 156.773073,
+    "PB": 0.488874
+  },
+  "ownerEarnings": -51927734,
+  "growth_rate_revenue": 0.892159,
+  "growth_rate_net_income": -101.529508
+}

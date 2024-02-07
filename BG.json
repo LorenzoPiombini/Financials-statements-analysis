@@ -1,0 +1,14 @@
+{
+  "ticker": "BG",
+  "valuation": {
+    "PE_valuation": 215.766671, 
+    "DFC_valuation": -12138.224730
+  },
+  "ratios": {
+    "ROIC": 12.169958,
+    "PB": 1.502241
+  },
+  "ownerEarnings": 3404000000,
+  "growth_rate_revenue": 33.495970,
+  "growth_rate_net_income": 210.563392
+}

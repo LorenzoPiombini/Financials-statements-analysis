@@ -1,0 +1,14 @@
+{
+  "ticker": "MOV",
+  "valuation": {
+    "PE_valuation": 74.317893, 
+    "DFC_valuation": 504.932378
+  },
+  "ratios": {
+    "ROIC": 13.988063,
+    "PB": 1.567636
+  },
+  "ownerEarnings": 108360000,
+  "growth_rate_revenue": 15.134506,
+  "growth_rate_net_income": 80.161871
+}

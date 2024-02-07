@@ -1,0 +1,14 @@
+{
+  "ticker": "MRO",
+  "valuation": {
+    "PE_valuation": 25.658375, 
+    "DFC_valuation": 383.332840
+  },
+  "ratios": {
+    "ROIC": 10.501752,
+    "PB": 1.627003
+  },
+  "ownerEarnings": 3025000000,
+  "growth_rate_revenue": -6.165415,
+  "growth_rate_net_income": -330.637035
+}

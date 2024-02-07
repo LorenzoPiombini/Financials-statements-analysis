@@ -1,0 +1,14 @@
+{
+  "ticker": "FIS",
+  "valuation": {
+    "PE_valuation": -21838.428766, 
+    "DFC_valuation": 8604.173751
+  },
+  "ratios": {
+    "ROIC": 3.540286,
+    "PB": 1.505673
+  },
+  "ownerEarnings": 24281000000,
+  "growth_rate_revenue": 13.103183,
+  "growth_rate_net_income": 11.289514
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ORBC",
+  "valuation": {
+    "PE_valuation": 122.824358, 
+    "DFC_valuation": 20320.408147
+  },
+  "ratios": {
+    "ROIC": 0.027314,
+    "PB": 2.785274
+  },
+  "ownerEarnings": 95673000,
+  "growth_rate_revenue": 83.791152,
+  "growth_rate_net_income": 29.671995
+}

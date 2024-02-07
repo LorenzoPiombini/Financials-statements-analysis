@@ -1,0 +1,14 @@
+{
+  "ticker": "RGR",
+  "valuation": {
+    "PE_valuation": 129.944361, 
+    "DFC_valuation": 546.293858
+  },
+  "ratios": {
+    "ROIC": 26.144146,
+    "PB": 2.820580
+  },
+  "ownerEarnings": 135613000,
+  "growth_rate_revenue": 10.108603,
+  "growth_rate_net_income": 17.653268
+}

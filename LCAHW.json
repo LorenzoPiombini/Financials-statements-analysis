@@ -1,0 +1,14 @@
+{
+  "ticker": "LCAHW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -10.575008,
+    "PB": 12.887980
+  },
+  "ownerEarnings": -48314011,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

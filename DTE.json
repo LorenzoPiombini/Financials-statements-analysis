@@ -1,0 +1,14 @@
+{
+  "ticker": "DTE",
+  "valuation": {
+    "PE_valuation": 211.771092, 
+    "DFC_valuation": -1648.528038
+  },
+  "ratios": {
+    "ROIC": 5.726441,
+    "PB": 2.204323
+  },
+  "ownerEarnings": 7232000000,
+  "growth_rate_revenue": 4.387571,
+  "growth_rate_net_income": -94.321995
+}

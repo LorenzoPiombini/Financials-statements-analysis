@@ -1,0 +1,14 @@
+{
+  "ticker": "WTRG",
+  "valuation": {
+    "PE_valuation": 312.828462, 
+    "DFC_valuation": -5009.311353
+  },
+  "ratios": {
+    "ROIC": 5.585396,
+    "PB": 2.327711
+  },
+  "ownerEarnings": 2284375000,
+  "growth_rate_revenue": 3.290503,
+  "growth_rate_net_income": -11.616111
+}

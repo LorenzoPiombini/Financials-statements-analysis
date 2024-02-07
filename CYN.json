@@ -1,0 +1,14 @@
+{
+  "ticker": "CYN",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -39.919780
+  },
+  "ratios": {
+    "ROIC": -77.340212,
+    "PB": 0.872854
+  },
+  "ownerEarnings": -20288414,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

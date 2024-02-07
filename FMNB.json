@@ -1,0 +1,14 @@
+{
+  "ticker": "FMNB",
+  "valuation": {
+    "PE_valuation": 228.100012, 
+    "DFC_valuation": 128623.412896
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 53620000,
+  "growth_rate_revenue": 190.065016,
+  "growth_rate_net_income": 21.228590
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "XOMAO",
+  "valuation": {
+    "PE_valuation": 6.902154, 
+    "DFC_valuation": -194.141950
+  },
+  "ratios": {
+    "ROIC": -14.018129,
+    "PB": 1.693351
+  },
+  "ownerEarnings": 2344000,
+  "growth_rate_revenue": 1917.855078,
+  "growth_rate_net_income": 254.022966
+}

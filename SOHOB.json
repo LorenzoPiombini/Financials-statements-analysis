@@ -1,0 +1,14 @@
+{
+  "ticker": "SOHOB",
+  "valuation": {
+    "PE_valuation": 3.040554, 
+    "DFC_valuation": 59.485200
+  },
+  "ratios": {
+    "ROIC": 5.394188,
+    "PB": 0.616658
+  },
+  "ownerEarnings": 26345789,
+  "growth_rate_revenue": 32.780397,
+  "growth_rate_net_income": -352.973141
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "KIRK",
+  "valuation": {
+    "PE_valuation": -29.614535, 
+    "DFC_valuation": -161.467699
+  },
+  "ratios": {
+    "ROIC": -11.535198,
+    "PB": 1.574382
+  },
+  "ownerEarnings": -13000000,
+  "growth_rate_revenue": 9.747374,
+  "growth_rate_net_income": 112.026989
+}

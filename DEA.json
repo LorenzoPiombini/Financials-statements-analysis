@@ -1,0 +1,14 @@
+{
+  "ticker": "DEA",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 2.383185,
+    "PB": 1.038703
+  },
+  "ownerEarnings": 211268000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -133.590655
+}

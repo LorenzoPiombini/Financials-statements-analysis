@@ -1,0 +1,14 @@
+{
+  "ticker": "MDLY",
+  "valuation": {
+    "PE_valuation": 5.727295, 
+    "DFC_valuation": -73.013859
+  },
+  "ratios": {
+    "ROIC": -16.799295,
+    "PB": -0.035136
+  },
+  "ownerEarnings": 9313000,
+  "growth_rate_revenue": 28.066247,
+  "growth_rate_net_income": -20.897441
+}

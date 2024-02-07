@@ -1,0 +1,14 @@
+{
+  "ticker": "TIPT",
+  "valuation": {
+    "PE_valuation": 17.171438, 
+    "DFC_valuation": 516284.043642
+  },
+  "ratios": {
+    "ROIC": 0.438568,
+    "PB": 1.237530
+  },
+  "ownerEarnings": 20030000,
+  "growth_rate_revenue": 21.263028,
+  "growth_rate_net_income": 448.141679
+}

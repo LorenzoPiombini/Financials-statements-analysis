@@ -1,0 +1,14 @@
+{
+  "ticker": "APVO",
+  "valuation": {
+    "PE_valuation": -23.087855, 
+    "DFC_valuation": -3674.416781
+  },
+  "ratios": {
+    "ROIC": -518.741192,
+    "PB": 0.658324
+  },
+  "ownerEarnings": -66695000,
+  "growth_rate_revenue": 6680.357997,
+  "growth_rate_net_income": -218.690648
+}

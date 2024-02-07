@@ -1,0 +1,14 @@
+{
+  "ticker": "AFI",
+  "valuation": {
+    "PE_valuation": 1.923358, 
+    "DFC_valuation": -14.141690
+  },
+  "ratios": {
+    "ROIC": -9.855072,
+    "PB": 0.218208
+  },
+  "ownerEarnings": -29000000,
+  "growth_rate_revenue": -1.545566,
+  "growth_rate_net_income": -170.426267
+}

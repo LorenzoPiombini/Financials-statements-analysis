@@ -1,0 +1,14 @@
+{
+  "ticker": "PSAGU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -2.763411
+  },
+  "ratios": {
+    "ROIC": -0.277185,
+    "PB": 1.115105
+  },
+  "ownerEarnings": 1562193,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

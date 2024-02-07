@@ -1,0 +1,14 @@
+{
+  "ticker": "MDIA",
+  "valuation": {
+    "PE_valuation": 0.301338, 
+    "DFC_valuation": 1.906478
+  },
+  "ratios": {
+    "ROIC": -1.579945,
+    "PB": 0.209875
+  },
+  "ownerEarnings": 6007000,
+  "growth_rate_revenue": -25.321299,
+  "growth_rate_net_income": -136.513391
+}

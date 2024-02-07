@@ -1,0 +1,14 @@
+{
+  "ticker": "NUVA",
+  "valuation": {
+    "PE_valuation": 31418.336470, 
+    "DFC_valuation": 1014072559.538630
+  },
+  "ratios": {
+    "ROIC": 2.515063,
+    "PB": 2.468496
+  },
+  "ownerEarnings": 323165000,
+  "growth_rate_revenue": 1356.031205,
+  "growth_rate_net_income": 32.941064
+}

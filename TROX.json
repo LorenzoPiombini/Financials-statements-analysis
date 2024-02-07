@@ -1,0 +1,14 @@
+{
+  "ticker": "TROX",
+  "valuation": {
+    "PE_valuation": 2.235581, 
+    "DFC_valuation": 88.487200
+  },
+  "ratios": {
+    "ROIC": 14.423016,
+    "PB": 0.900817
+  },
+  "ownerEarnings": 1552000000,
+  "growth_rate_revenue": 8.388202,
+  "growth_rate_net_income": -48.070197
+}

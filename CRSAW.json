@@ -1,0 +1,14 @@
+{
+  "ticker": "CRSAW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1.377567,
+    "PB": 1.345967
+  },
+  "ownerEarnings": -3401545,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

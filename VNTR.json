@@ -1,0 +1,14 @@
+{
+  "ticker": "VNTR",
+  "valuation": {
+    "PE_valuation": 3.428005, 
+    "DFC_valuation": -125.210794
+  },
+  "ratios": {
+    "ROIC": -2.168751,
+    "PB": 0.187920
+  },
+  "ownerEarnings": 187000000,
+  "growth_rate_revenue": 6.021644,
+  "growth_rate_net_income": -107.058470
+}

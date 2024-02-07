@@ -1,0 +1,14 @@
+{
+  "ticker": "KRMD",
+  "valuation": {
+    "PE_valuation": 11.981735, 
+    "DFC_valuation": -125.551977
+  },
+  "ratios": {
+    "ROIC": -21.468670,
+    "PB": 5.128570
+  },
+  "ownerEarnings": -8417703,
+  "growth_rate_revenue": -6.539247,
+  "growth_rate_net_income": 36.299701
+}

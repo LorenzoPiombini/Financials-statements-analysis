@@ -1,0 +1,14 @@
+{
+  "ticker": "CLDX",
+  "valuation": {
+    "PE_valuation": 112.596444, 
+    "DFC_valuation": -4633.051812
+  },
+  "ratios": {
+    "ROIC": -37.682963,
+    "PB": 6.406415
+  },
+  "ownerEarnings": -129017000,
+  "growth_rate_revenue": 577.994424,
+  "growth_rate_net_income": 54.908645
+}

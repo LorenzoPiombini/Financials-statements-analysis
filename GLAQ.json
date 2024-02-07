@@ -1,0 +1,14 @@
+{
+  "ticker": "GLAQ",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2282156.712961,
+    "PB": -44786466.994207
+  },
+  "ownerEarnings": -2670676,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

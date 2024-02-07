@@ -1,0 +1,14 @@
+{
+  "ticker": "ADSK",
+  "valuation": {
+    "PE_valuation": 4221.258396, 
+    "DFC_valuation": 963167.521411
+  },
+  "ratios": {
+    "ROIC": 20.505460,
+    "PB": 40.589135
+  },
+  "ownerEarnings": 448000000,
+  "growth_rate_revenue": 65.586036,
+  "growth_rate_net_income": 69.751922
+}

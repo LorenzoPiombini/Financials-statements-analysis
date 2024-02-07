@@ -1,0 +1,14 @@
+{
+  "ticker": "VZLA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -5.635234,
+    "PB": 1.397318
+  },
+  "ownerEarnings": -4981920,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 292823.705491
+}

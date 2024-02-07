@@ -1,0 +1,14 @@
+{
+  "ticker": "UVV",
+  "valuation": {
+    "PE_valuation": 83.012278, 
+    "DFC_valuation": -257.825552
+  },
+  "ratios": {
+    "ROIC": 7.274724,
+    "PB": 0.937866
+  },
+  "ownerEarnings": 322194000,
+  "growth_rate_revenue": 30.349581,
+  "growth_rate_net_income": -12.588834
+}

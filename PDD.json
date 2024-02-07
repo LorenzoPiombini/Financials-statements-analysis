@@ -1,0 +1,14 @@
+{
+  "ticker": "PDD",
+  "valuation": {
+    "PE_valuation": -7429.061952, 
+    "DFC_valuation": 285475.149792
+  },
+  "ratios": {
+    "ROIC": 19.428256,
+    "PB": 6.038538
+  },
+  "ownerEarnings": 18794970000,
+  "growth_rate_revenue": 295.687096,
+  "growth_rate_net_income": 423.880205
+}

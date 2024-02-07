@@ -1,0 +1,14 @@
+{
+  "ticker": "BRT",
+  "valuation": {
+    "PE_valuation": 50.811324, 
+    "DFC_valuation": 126.990760
+  },
+  "ratios": {
+    "ROIC": 9.281102,
+    "PB": 1.397329
+  },
+  "ownerEarnings": 108738000,
+  "growth_rate_revenue": 45.558847,
+  "growth_rate_net_income": 12.872954
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "KDNY",
+  "valuation": {
+    "PE_valuation": 3.421521, 
+    "DFC_valuation": -113.766167
+  },
+  "ratios": {
+    "ROIC": -36.392224,
+    "PB": 3.816107
+  },
+  "ownerEarnings": -191747000,
+  "growth_rate_revenue": -47.460186,
+  "growth_rate_net_income": 40.100826
+}

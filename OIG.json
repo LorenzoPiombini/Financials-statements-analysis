@@ -1,0 +1,14 @@
+{
+  "ticker": "OIG",
+  "valuation": {
+    "PE_valuation": 64425.502920, 
+    "DFC_valuation": -18932238.070457
+  },
+  "ratios": {
+    "ROIC": -111.804868,
+    "PB": -0.151643
+  },
+  "ownerEarnings": 47696000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 114.472670
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "EBMT",
+  "valuation": {
+    "PE_valuation": 6.010742, 
+    "DFC_valuation": -23.773498
+  },
+  "ratios": {
+    "ROIC": 7.109496,
+    "PB": 0.678767
+  },
+  "ownerEarnings": 52871000,
+  "growth_rate_revenue": 21.148041,
+  "growth_rate_net_income": -2.780340
+}

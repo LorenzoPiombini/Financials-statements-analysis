@@ -1,0 +1,14 @@
+{
+  "ticker": "EEFT",
+  "valuation": {
+    "PE_valuation": 15950.811315, 
+    "DFC_valuation": 294122162.727810
+  },
+  "ratios": {
+    "ROIC": 8.708948,
+    "PB": 3.973934
+  },
+  "ownerEarnings": 552251000,
+  "growth_rate_revenue": 182.429673,
+  "growth_rate_net_income": 57.018264
+}

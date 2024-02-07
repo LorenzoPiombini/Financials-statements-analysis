@@ -1,0 +1,14 @@
+{
+  "ticker": "IMH",
+  "valuation": {
+    "PE_valuation": 1.534260, 
+    "DFC_valuation": 635.336663
+  },
+  "ratios": {
+    "ROIC": -553.014624,
+    "PB": -0.351669
+  },
+  "ownerEarnings": -65630000,
+  "growth_rate_revenue": 174.175398,
+  "growth_rate_net_income": -163.018881
+}

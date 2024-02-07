@@ -1,0 +1,14 @@
+{
+  "ticker": "PRTA",
+  "valuation": {
+    "PE_valuation": 80.060245, 
+    "DFC_valuation": -14294.957111
+  },
+  "ratios": {
+    "ROIC": -19.290258,
+    "PB": 4.588086
+  },
+  "ownerEarnings": -158967000,
+  "growth_rate_revenue": 1904.105630,
+  "growth_rate_net_income": 280.288346
+}

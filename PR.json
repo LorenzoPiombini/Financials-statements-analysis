@@ -1,0 +1,14 @@
+{
+  "ticker": "PR",
+  "valuation": {
+    "PE_valuation": 124.489704, 
+    "DFC_valuation": 1999.169360
+  },
+  "ratios": {
+    "ROIC": 16.637110,
+    "PB": 0.902906
+  },
+  "ownerEarnings": 2244240000,
+  "growth_rate_revenue": 106.525640,
+  "growth_rate_net_income": 28.869247
+}

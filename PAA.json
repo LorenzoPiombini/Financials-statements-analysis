@@ -1,0 +1,14 @@
+{
+  "ticker": "PAA",
+  "valuation": {
+    "PE_valuation": 108.142915, 
+    "DFC_valuation": 58562.104987
+  },
+  "ratios": {
+    "ROIC": 3.019446,
+    "PB": 0.618669
+  },
+  "ownerEarnings": 1334000000,
+  "growth_rate_revenue": 638.913353,
+  "growth_rate_net_income": -658.373725
+}

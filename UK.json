@@ -1,0 +1,14 @@
+{
+  "ticker": "UK",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -54.204459
+  },
+  "ratios": {
+    "ROIC": -10.611840,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 349418000,
+  "growth_rate_revenue": 4.614762,
+  "growth_rate_net_income": 46.375918
+}

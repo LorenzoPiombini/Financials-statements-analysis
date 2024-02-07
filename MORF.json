@@ -1,0 +1,14 @@
+{
+  "ticker": "MORF",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -17.788373,
+    "PB": 2.920234
+  },
+  "ownerEarnings": -95563000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 49.647970
+}

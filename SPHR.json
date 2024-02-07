@@ -1,0 +1,14 @@
+{
+  "ticker": "SPHR",
+  "valuation": {
+    "PE_valuation": -35.532205, 
+    "DFC_valuation": -2918.857203
+  },
+  "ratios": {
+    "ROIC": -4.236356,
+    "PB": 0.367314
+  },
+  "ownerEarnings": 208167000,
+  "growth_rate_revenue": 5.341205,
+  "growth_rate_net_income": -696.739262
+}

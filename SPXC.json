@@ -1,0 +1,14 @@
+{
+  "ticker": "SPXC",
+  "valuation": {
+    "PE_valuation": 15.174847, 
+    "DFC_valuation": -287.186380
+  },
+  "ratios": {
+    "ROIC": 2.805873,
+    "PB": 2.758431
+  },
+  "ownerEarnings": 119300000,
+  "growth_rate_revenue": 5.081609,
+  "growth_rate_net_income": 15.441896
+}

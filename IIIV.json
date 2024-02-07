@@ -1,0 +1,14 @@
+{
+  "ticker": "IIIV",
+  "valuation": {
+    "PE_valuation": 2.154692, 
+    "DFC_valuation": 83.444331
+  },
+  "ratios": {
+    "ROIC": 2.397129,
+    "PB": 2.066039
+  },
+  "ownerEarnings": 44712000,
+  "growth_rate_revenue": 15.056879,
+  "growth_rate_net_income": -172.294423
+}

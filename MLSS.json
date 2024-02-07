@@ -1,0 +1,14 @@
+{
+  "ticker": "MLSS",
+  "valuation": {
+    "PE_valuation": 5.721560, 
+    "DFC_valuation": -275.140881
+  },
+  "ratios": {
+    "ROIC": -78.079161,
+    "PB": 3.314344
+  },
+  "ownerEarnings": -10479009,
+  "growth_rate_revenue": 268.356654,
+  "growth_rate_net_income": 65.022745
+}

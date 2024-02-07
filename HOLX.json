@@ -1,0 +1,14 @@
+{
+  "ticker": "HOLX",
+  "valuation": {
+    "PE_valuation": 749.288584, 
+    "DFC_valuation": 1644222.163432
+  },
+  "ratios": {
+    "ROIC": 5.740201,
+    "PB": 3.413657
+  },
+  "ownerEarnings": 937100000,
+  "growth_rate_revenue": 40.790661,
+  "growth_rate_net_income": -89.935897
+}

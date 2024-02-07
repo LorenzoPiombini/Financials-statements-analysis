@@ -1,0 +1,14 @@
+{
+  "ticker": "INMD",
+  "valuation": {
+    "PE_valuation": 95.145354, 
+    "DFC_valuation": 650.430607
+  },
+  "ratios": {
+    "ROIC": 28.170356,
+    "PB": 5.309253
+  },
+  "ownerEarnings": 132099000,
+  "growth_rate_revenue": 68.956645,
+  "growth_rate_net_income": 116.870160
+}

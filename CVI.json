@@ -1,0 +1,14 @@
+{
+  "ticker": "CVI",
+  "valuation": {
+    "PE_valuation": 157.836244, 
+    "DFC_valuation": 1677.780875
+  },
+  "ratios": {
+    "ROIC": 35.193054,
+    "PB": 5.931582
+  },
+  "ownerEarnings": 1112000000,
+  "growth_rate_revenue": 42.056069,
+  "growth_rate_net_income": -229.001870
+}

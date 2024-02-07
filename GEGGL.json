@@ -1,0 +1,14 @@
+{
+  "ticker": "GEGGL",
+  "valuation": {
+    "PE_valuation": -6.512412, 
+    "DFC_valuation": -9.625304
+  },
+  "ratios": {
+    "ROIC": -8.654065,
+    "PB": 0.928315
+  },
+  "ownerEarnings": -44785000,
+  "growth_rate_revenue": 362.701369,
+  "growth_rate_net_income": 357.520320
+}

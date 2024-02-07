@@ -1,0 +1,14 @@
+{
+  "ticker": "CVS",
+  "valuation": {
+    "PE_valuation": 470.819974, 
+    "DFC_valuation": 172720.784433
+  },
+  "ratios": {
+    "ROIC": 7.506037,
+    "PB": 1.721682
+  },
+  "ownerEarnings": 31938000000,
+  "growth_rate_revenue": 15.910452,
+  "growth_rate_net_income": 16.607149
+}

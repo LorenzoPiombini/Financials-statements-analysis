@@ -1,0 +1,14 @@
+{
+  "ticker": "IVC",
+  "valuation": {
+    "PE_valuation": 37.418534, 
+    "DFC_valuation": -429.877503
+  },
+  "ratios": {
+    "ROIC": -4.612175,
+    "PB": 0.265525
+  },
+  "ownerEarnings": -53318000,
+  "growth_rate_revenue": 24.425172,
+  "growth_rate_net_income": -45.678647
+}

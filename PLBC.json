@@ -1,0 +1,14 @@
+{
+  "ticker": "PLBC",
+  "valuation": {
+    "PE_valuation": 213.019660, 
+    "DFC_valuation": 27182.671201
+  },
+  "ratios": {
+    "ROIC": 22.091413,
+    "PB": 1.818191
+  },
+  "ownerEarnings": 35217000,
+  "growth_rate_revenue": 132.729755,
+  "growth_rate_net_income": 12.531212
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "JBI",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 33.667735
+  },
+  "ratios": {
+    "ROIC": 12.765249,
+    "PB": 3.719006
+  },
+  "ownerEarnings": 239658000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AFRI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -168.266654
+  },
+  "ratios": {
+    "ROIC": -1.160911,
+    "PB": 7.760557
+  },
+  "ownerEarnings": 28391000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

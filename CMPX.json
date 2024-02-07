@@ -1,0 +1,14 @@
+{
+  "ticker": "CMPX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -20.838823,
+    "PB": 2.912857
+  },
+  "ownerEarnings": -42509000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 0.015417
+}

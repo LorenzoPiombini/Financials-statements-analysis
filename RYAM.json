@@ -1,0 +1,14 @@
+{
+  "ticker": "RYAM",
+  "valuation": {
+    "PE_valuation": 0.616509, 
+    "DFC_valuation": -96.567846
+  },
+  "ratios": {
+    "ROIC": 1.610186,
+    "PB": 0.740092
+  },
+  "ownerEarnings": 345350000,
+  "growth_rate_revenue": -3.775332,
+  "growth_rate_net_income": 6.163821
+}

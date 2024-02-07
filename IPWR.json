@@ -1,0 +1,14 @@
+{
+  "ticker": "IPWR",
+  "valuation": {
+    "PE_valuation": 1.172997, 
+    "DFC_valuation": -68.406593
+  },
+  "ratios": {
+    "ROIC": -38.111385,
+    "PB": 3.679191
+  },
+  "ownerEarnings": -7665334,
+  "growth_rate_revenue": 42.331996,
+  "growth_rate_net_income": 74.918688
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TMCWW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -419.697519,
+    "PB": 4.450009
+  },
+  "ownerEarnings": -196350000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

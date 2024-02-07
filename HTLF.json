@@ -1,0 +1,14 @@
+{
+  "ticker": "HTLF",
+  "valuation": {
+    "PE_valuation": 618.429887, 
+    "DFC_valuation": 217681.513347
+  },
+  "ratios": {
+    "ROIC": 10.984576,
+    "PB": 1.141845
+  },
+  "ownerEarnings": 379496000,
+  "growth_rate_revenue": 88.323101,
+  "growth_rate_net_income": 9.792779
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "IEX",
+  "valuation": {
+    "PE_valuation": 897.234450, 
+    "DFC_valuation": 6166.840899
+  },
+  "ratios": {
+    "ROIC": 12.656865,
+    "PB": 5.687027
+  },
+  "ownerEarnings": 783500000,
+  "growth_rate_revenue": 11.584150,
+  "growth_rate_net_income": 25.795261
+}

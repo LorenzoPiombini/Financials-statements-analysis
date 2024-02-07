@@ -1,0 +1,14 @@
+{
+  "ticker": "INFY",
+  "valuation": {
+    "PE_valuation": 313.614813, 
+    "DFC_valuation": 49221.425443
+  },
+  "ratios": {
+    "ROIC": 25.052573,
+    "PB": 7.859282
+  },
+  "ownerEarnings": 3162000000,
+  "growth_rate_revenue": 70.630754,
+  "growth_rate_net_income": 112.370530
+}

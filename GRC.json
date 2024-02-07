@@ -1,0 +1,14 @@
+{
+  "ticker": "GRC",
+  "valuation": {
+    "PE_valuation": 33.844067, 
+    "DFC_valuation": -63.099322
+  },
+  "ratios": {
+    "ROIC": 4.222350,
+    "PB": 2.018229
+  },
+  "ownerEarnings": 79412000,
+  "growth_rate_revenue": 16.255531,
+  "growth_rate_net_income": 8.050157
+}

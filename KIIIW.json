@@ -1,0 +1,14 @@
+{
+  "ticker": "KIIIW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.891809
+  },
+  "ratios": {
+    "ROIC": -2.416092,
+    "PB": 1.158537
+  },
+  "ownerEarnings": -14919015,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

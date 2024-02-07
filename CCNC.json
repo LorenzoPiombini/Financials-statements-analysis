@@ -1,0 +1,14 @@
+{
+  "ticker": "CCNC",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -89.545166,
+    "PB": 1.325784
+  },
+  "ownerEarnings": -30821979,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

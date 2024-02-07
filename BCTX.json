@@ -1,0 +1,14 @@
+{
+  "ticker": "BCTX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 616.127848,
+    "PB": -27.664979
+  },
+  "ownerEarnings": -27529440,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 421.605279
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CLF",
+  "valuation": {
+    "PE_valuation": 98.208539, 
+    "DFC_valuation": 51527.371467
+  },
+  "ratios": {
+    "ROIC": 12.060208,
+    "PB": 1.039678
+  },
+  "ownerEarnings": 3848000000,
+  "growth_rate_revenue": 0.923461,
+  "growth_rate_net_income": -38.220722
+}

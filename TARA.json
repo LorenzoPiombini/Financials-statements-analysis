@@ -1,0 +1,14 @@
+{
+  "ticker": "TARA",
+  "valuation": {
+    "PE_valuation": 0.076422, 
+    "DFC_valuation": -146.328219
+  },
+  "ratios": {
+    "ROIC": -57.383796,
+    "PB": 0.295600
+  },
+  "ownerEarnings": -14569000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 130.232515
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BCYC",
+  "valuation": {
+    "PE_valuation": 61.240964, 
+    "DFC_valuation": -780.548657
+  },
+  "ratios": {
+    "ROIC": -34.971294,
+    "PB": 3.242284
+  },
+  "ownerEarnings": -119577000,
+  "growth_rate_revenue": 87.829581,
+  "growth_rate_net_income": 60.202079
+}

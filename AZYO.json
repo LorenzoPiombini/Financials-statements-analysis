@@ -1,0 +1,14 @@
+{
+  "ticker": "AZYO",
+  "valuation": {
+    "PE_valuation": 4.712322, 
+    "DFC_valuation": -124.985302
+  },
+  "ratios": {
+    "ROIC": -84.359884,
+    "PB": -11.680860
+  },
+  "ownerEarnings": -19199000,
+  "growth_rate_revenue": -18.948160,
+  "growth_rate_net_income": 8.071314
+}

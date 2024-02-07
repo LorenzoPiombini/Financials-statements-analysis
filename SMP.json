@@ -1,0 +1,14 @@
+{
+  "ticker": "SMP",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -449.220832
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 137513000,
+  "growth_rate_revenue": 20.058634,
+  "growth_rate_net_income": 5.367830
+}

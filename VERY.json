@@ -1,0 +1,14 @@
+{
+  "ticker": "VERY",
+  "valuation": {
+    "PE_valuation": 6.858433, 
+    "DFC_valuation": -32.271790
+  },
+  "ratios": {
+    "ROIC": -11.201493,
+    "PB": 1.001971
+  },
+  "ownerEarnings": -7923000,
+  "growth_rate_revenue": 9.416085,
+  "growth_rate_net_income": 31.620455
+}

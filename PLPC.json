@@ -1,0 +1,14 @@
+{
+  "ticker": "PLPC",
+  "valuation": {
+    "PE_valuation": 147.295253, 
+    "DFC_valuation": -315.660103
+  },
+  "ratios": {
+    "ROIC": 11.206944,
+    "PB": 1.143319
+  },
+  "ownerEarnings": 95801000,
+  "growth_rate_revenue": 0.824190,
+  "growth_rate_net_income": -117.569505
+}

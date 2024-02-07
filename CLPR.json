@@ -1,0 +1,14 @@
+{
+  "ticker": "CLPR",
+  "valuation": {
+    "PE_valuation": 1.990944, 
+    "DFC_valuation": 37.293090
+  },
+  "ratios": {
+    "ROIC": 0.518355,
+    "PB": 7.294111
+  },
+  "ownerEarnings": 99474000,
+  "growth_rate_revenue": 27.555573,
+  "growth_rate_net_income": 190.136698
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FDX",
+  "valuation": {
+    "PE_valuation": 1576.789202, 
+    "DFC_valuation": 46116.201420
+  },
+  "ratios": {
+    "ROIC": 4.427215,
+    "PB": 2.122314
+  },
+  "ownerEarnings": 14090000000,
+  "growth_rate_revenue": 30.638830,
+  "growth_rate_net_income": -168.227868
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GACQU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -2.370571
+  },
+  "ratios": {
+    "ROIC": -1.330891,
+    "PB": 1.354479
+  },
+  "ownerEarnings": 1143620,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

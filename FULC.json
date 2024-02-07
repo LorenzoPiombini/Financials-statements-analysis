@@ -1,0 +1,14 @@
+{
+  "ticker": "FULC",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -47.924135,
+    "PB": 1.646382
+  },
+  "ownerEarnings": -121534000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 55.119168
+}

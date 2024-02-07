@@ -1,0 +1,14 @@
+{
+  "ticker": "GEF",
+  "valuation": {
+    "PE_valuation": 165.685208, 
+    "DFC_valuation": 5251.975130
+  },
+  "ratios": {
+    "ROIC": 9.709868,
+    "PB": 1.885864
+  },
+  "ownerEarnings": 937900000,
+  "growth_rate_revenue": 9.281867,
+  "growth_rate_net_income": 32.392087
+}

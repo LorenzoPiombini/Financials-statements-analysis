@@ -1,0 +1,14 @@
+{
+  "ticker": "BNTC",
+  "valuation": {
+    "PE_valuation": 1.517022, 
+    "DFC_valuation": -444.331191
+  },
+  "ratios": {
+    "ROIC": -1445.751987,
+    "PB": 27.853570
+  },
+  "ownerEarnings": -18706000,
+  "growth_rate_revenue": 10.212216,
+  "growth_rate_net_income": 44.737407
+}

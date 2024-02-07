@@ -1,0 +1,14 @@
+{
+  "ticker": "ARCB",
+  "valuation": {
+    "PE_valuation": 346.281243, 
+    "DFC_valuation": 2265.865941
+  },
+  "ratios": {
+    "ROIC": 17.166903,
+    "PB": 1.495524
+  },
+  "ownerEarnings": 604793000,
+  "growth_rate_revenue": 17.196897,
+  "growth_rate_net_income": -965.767684
+}

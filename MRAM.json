@@ -1,0 +1,14 @@
+{
+  "ticker": "MRAM",
+  "valuation": {
+    "PE_valuation": -1.729062, 
+    "DFC_valuation": 27.336073
+  },
+  "ratios": {
+    "ROIC": 11.365864,
+    "PB": 2.894803
+  },
+  "ownerEarnings": 5849000,
+  "growth_rate_revenue": 13.682811,
+  "growth_rate_net_income": 17.621209
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "THCB",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.268879
+  },
+  "ratios": {
+    "ROIC": -0.395436,
+    "PB": 71.721320
+  },
+  "ownerEarnings": -1288429,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

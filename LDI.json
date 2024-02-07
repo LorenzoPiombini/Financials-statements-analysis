@@ -1,0 +1,14 @@
+{
+  "ticker": "LDI",
+  "valuation": {
+    "PE_valuation": -5.238216, 
+    "DFC_valuation": 5779.036805
+  },
+  "ratios": {
+    "ROIC": -0.918082,
+    "PB": 0.279390
+  },
+  "ownerEarnings": 720634000,
+  "growth_rate_revenue": 101.344728,
+  "growth_rate_net_income": 1225.442424
+}

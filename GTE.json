@@ -1,0 +1,14 @@
+{
+  "ticker": "GTE",
+  "valuation": {
+    "PE_valuation": 1328.219098, 
+    "DFC_valuation": 863891.112910
+  },
+  "ratios": {
+    "ROIC": 17.510669,
+    "PB": 0.864081
+  },
+  "ownerEarnings": 691158000,
+  "growth_rate_revenue": 408.401145,
+  "growth_rate_net_income": -10.937371
+}

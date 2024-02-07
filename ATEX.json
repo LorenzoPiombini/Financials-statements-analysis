@@ -1,0 +1,14 @@
+{
+  "ticker": "ATEX",
+  "valuation": {
+    "PE_valuation": 9.077547, 
+    "DFC_valuation": -182.082751
+  },
+  "ratios": {
+    "ROIC": -31.439419,
+    "PB": 3.462361
+  },
+  "ownerEarnings": -123620000,
+  "growth_rate_revenue": 24.354609,
+  "growth_rate_net_income": 304.495676
+}

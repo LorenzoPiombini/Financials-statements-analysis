@@ -1,0 +1,14 @@
+{
+  "ticker": "DOYU",
+  "valuation": {
+    "PE_valuation": 20.196719, 
+    "DFC_valuation": -875.099650
+  },
+  "ratios": {
+    "ROIC": -3.058372,
+    "PB": 0.470558
+  },
+  "ownerEarnings": -207005172,
+  "growth_rate_revenue": 90.009827,
+  "growth_rate_net_income": -30.599842
+}

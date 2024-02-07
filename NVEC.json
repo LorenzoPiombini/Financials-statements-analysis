@@ -1,0 +1,14 @@
+{
+  "ticker": "NVEC",
+  "valuation": {
+    "PE_valuation": 178.697362, 
+    "DFC_valuation": 758.508683
+  },
+  "ratios": {
+    "ROIC": 31.535463,
+    "PB": 5.976643
+  },
+  "ownerEarnings": 20930888,
+  "growth_rate_revenue": 16.153264,
+  "growth_rate_net_income": 87.580480
+}

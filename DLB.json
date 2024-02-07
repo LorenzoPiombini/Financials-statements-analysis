@@ -1,0 +1,14 @@
+{
+  "ticker": "DLB",
+  "valuation": {
+    "PE_valuation": 146.147540, 
+    "DFC_valuation": 2099.330204
+  },
+  "ratios": {
+    "ROIC": 10.750662,
+    "PB": 3.223911
+  },
+  "ownerEarnings": 178621000,
+  "growth_rate_revenue": 32.491928,
+  "growth_rate_net_income": -7391.249226
+}

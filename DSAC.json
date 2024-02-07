@@ -1,0 +1,14 @@
+{
+  "ticker": "DSAC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -3.429292,
+    "PB": -7.403926
+  },
+  "ownerEarnings": -3656255,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

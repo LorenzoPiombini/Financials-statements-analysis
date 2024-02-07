@@ -1,0 +1,14 @@
+{
+  "ticker": "RDZN",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -128.911115
+  },
+  "ratios": {
+    "ROIC": 27.822765,
+    "PB": -13.030129
+  },
+  "ownerEarnings": -7088377,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CPRI",
+  "valuation": {
+    "PE_valuation": 129.085633, 
+    "DFC_valuation": 2151.215532
+  },
+  "ratios": {
+    "ROIC": 6.739188,
+    "PB": 3.370673
+  },
+  "ownerEarnings": 670000000,
+  "growth_rate_revenue": 67.883724,
+  "growth_rate_net_income": 114.337171
+}

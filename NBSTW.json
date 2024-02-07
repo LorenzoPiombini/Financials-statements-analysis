@@ -1,0 +1,14 @@
+{
+  "ticker": "NBSTW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -3.269774,
+    "PB": 1.008847
+  },
+  "ownerEarnings": -7170647,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

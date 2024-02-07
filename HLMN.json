@@ -1,0 +1,14 @@
+{
+  "ticker": "HLMN",
+  "valuation": {
+    "PE_valuation": 2.291681, 
+    "DFC_valuation": 9.836831
+  },
+  "ratios": {
+    "ROIC": 2.032738,
+    "PB": 1.210762
+  },
+  "ownerEarnings": 268759000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

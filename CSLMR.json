@@ -1,0 +1,14 @@
+{
+  "ticker": "CSLMR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 30.715307,
+    "PB": 1.274889
+  },
+  "ownerEarnings": 14391935,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

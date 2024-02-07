@@ -1,0 +1,14 @@
+{
+  "ticker": "AAQC-WT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.112197
+  },
+  "ratios": {
+    "ROIC": -0.294989,
+    "PB": 1.082181
+  },
+  "ownerEarnings": 2660032,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

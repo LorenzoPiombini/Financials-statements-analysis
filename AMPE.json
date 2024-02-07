@@ -1,0 +1,14 @@
+{
+  "ticker": "AMPE",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -96.380087,
+    "PB": 0.294058
+  },
+  "ownerEarnings": -24112000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 8502.509010
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "DAIO",
+  "valuation": {
+    "PE_valuation": 1.520946, 
+    "DFC_valuation": -14.777119
+  },
+  "ratios": {
+    "ROIC": -8.379753,
+    "PB": 1.815991
+  },
+  "ownerEarnings": -2118000,
+  "growth_rate_revenue": 2.326063,
+  "growth_rate_net_income": -92.405067
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AU",
+  "valuation": {
+    "PE_valuation": 34.218948, 
+    "DFC_valuation": 303.830778
+  },
+  "ratios": {
+    "ROIC": 3.292633,
+    "PB": 1.990299
+  },
+  "ownerEarnings": 1657000000,
+  "growth_rate_revenue": 39.230795,
+  "growth_rate_net_income": 151.039041
+}

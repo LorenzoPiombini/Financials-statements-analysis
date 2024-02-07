@@ -1,0 +1,14 @@
+{
+  "ticker": "LOCO",
+  "valuation": {
+    "PE_valuation": 8.578691, 
+    "DFC_valuation": 26.958963
+  },
+  "ratios": {
+    "ROIC": 3.009381,
+    "PB": 1.287762
+  },
+  "ownerEarnings": 54265000,
+  "growth_rate_revenue": 8.114922,
+  "growth_rate_net_income": -89.310889
+}

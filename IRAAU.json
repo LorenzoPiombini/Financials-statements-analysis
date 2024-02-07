@@ -1,0 +1,14 @@
+{
+  "ticker": "IRAAU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -76.205358,
+    "PB": 215.256258
+  },
+  "ownerEarnings": -24660720,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

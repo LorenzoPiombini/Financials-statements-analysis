@@ -1,0 +1,14 @@
+{
+  "ticker": "SCKT",
+  "valuation": {
+    "PE_valuation": 0.138724, 
+    "DFC_valuation": -40.069356
+  },
+  "ratios": {
+    "ROIC": 0.213260,
+    "PB": 0.682366
+  },
+  "ownerEarnings": 1900847,
+  "growth_rate_revenue": 22.968751,
+  "growth_rate_net_income": -21.842691
+}

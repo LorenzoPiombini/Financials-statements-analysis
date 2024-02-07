@@ -1,0 +1,14 @@
+{
+  "ticker": "SSNC",
+  "valuation": {
+    "PE_valuation": 351.957809, 
+    "DFC_valuation": 479995.672199
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 1751700000,
+  "growth_rate_revenue": 16.128801,
+  "growth_rate_net_income": 206.642802
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BWACU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -5.236785,
+    "PB": 2.043580
+  },
+  "ownerEarnings": -9986337,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

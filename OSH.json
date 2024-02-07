@@ -1,0 +1,14 @@
+{
+  "ticker": "OSH",
+  "valuation": {
+    "PE_valuation": 339.968895, 
+    "DFC_valuation": -359.160112
+  },
+  "ratios": {
+    "ROIC": -26.471961,
+    "PB": -18.259503
+  },
+  "ownerEarnings": -478400000,
+  "growth_rate_revenue": 36.697103,
+  "growth_rate_net_income": 37.412943
+}

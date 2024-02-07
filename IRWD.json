@@ -1,0 +1,14 @@
+{
+  "ticker": "IRWD",
+  "valuation": {
+    "PE_valuation": 28.370869, 
+    "DFC_valuation": 10028.325214
+  },
+  "ratios": {
+    "ROIC": 15.958256,
+    "PB": 2.931728
+  },
+  "ownerEarnings": 153484000,
+  "growth_rate_revenue": 93.644719,
+  "growth_rate_net_income": 10.769217
+}

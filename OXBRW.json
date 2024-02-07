@@ -1,0 +1,14 @@
+{
+  "ticker": "OXBRW",
+  "valuation": {
+    "PE_valuation": 0.179223, 
+    "DFC_valuation": -8.937712
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.462131
+  },
+  "ownerEarnings": -166000,
+  "growth_rate_revenue": 107.361562,
+  "growth_rate_net_income": -157.464253
+}

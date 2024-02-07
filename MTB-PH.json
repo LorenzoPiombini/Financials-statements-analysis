@@ -1,0 +1,14 @@
+{
+  "ticker": "MTB-PH",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 7.052800,
+    "PB": 0.935054
+  },
+  "ownerEarnings": 3112003000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 26.416540
+}

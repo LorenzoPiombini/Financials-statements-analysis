@@ -1,0 +1,14 @@
+{
+  "ticker": "JELD",
+  "valuation": {
+    "PE_valuation": 7.979695, 
+    "DFC_valuation": -79.548312
+  },
+  "ratios": {
+    "ROIC": 2.172556,
+    "PB": 1.152058
+  },
+  "ownerEarnings": 304152000,
+  "growth_rate_revenue": 6.113071,
+  "growth_rate_net_income": 311.800924
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LEGN",
+  "valuation": {
+    "PE_valuation": 55.277153, 
+    "DFC_valuation": -54.185565
+  },
+  "ratios": {
+    "ROIC": -43.371945,
+    "PB": 10.666729
+  },
+  "ownerEarnings": -460228000,
+  "growth_rate_revenue": -0.584573,
+  "growth_rate_net_income": 1186.838150
+}

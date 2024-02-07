@@ -1,0 +1,14 @@
+{
+  "ticker": "REX",
+  "valuation": {
+    "PE_valuation": 55.644176, 
+    "DFC_valuation": 312.444994
+  },
+  "ratios": {
+    "ROIC": 4.308092,
+    "PB": 1.288256
+  },
+  "ownerEarnings": 31481000,
+  "growth_rate_revenue": -0.492688,
+  "growth_rate_net_income": -117.824686
+}

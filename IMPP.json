@@ -1,0 +1,14 @@
+{
+  "ticker": "IMPP",
+  "valuation": {
+    "PE_valuation": -2143.168866, 
+    "DFC_valuation": -49916474.540460
+  },
+  "ratios": {
+    "ROIC": 8.373999,
+    "PB": 0.111382
+  },
+  "ownerEarnings": 161961286,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1856.601161
+}

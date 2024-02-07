@@ -1,0 +1,14 @@
+{
+  "ticker": "ORLY",
+  "valuation": {
+    "PE_valuation": 10594.944465, 
+    "DFC_valuation": 1651990.744316
+  },
+  "ratios": {
+    "ROIC": 29.952100,
+    "PB": -51.220171
+  },
+  "ownerEarnings": 3381023000,
+  "growth_rate_revenue": 46.966924,
+  "growth_rate_net_income": 38.014234
+}

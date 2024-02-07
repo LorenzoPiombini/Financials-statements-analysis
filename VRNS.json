@@ -1,0 +1,14 @@
+{
+  "ticker": "VRNS",
+  "valuation": {
+    "PE_valuation": 37.710872, 
+    "DFC_valuation": -13.011277
+  },
+  "ratios": {
+    "ROIC": -15.546275,
+    "PB": 4.497735
+  },
+  "ownerEarnings": -264634000,
+  "growth_rate_revenue": 13.425490,
+  "growth_rate_net_income": 45.281405
+}

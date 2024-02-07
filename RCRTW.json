@@ -1,0 +1,14 @@
+{
+  "ticker": "RCRTW",
+  "valuation": {
+    "PE_valuation": 24.006741, 
+    "DFC_valuation": -58.960323
+  },
+  "ratios": {
+    "ROIC": -176.612868,
+    "PB": 1.247919
+  },
+  "ownerEarnings": -13560241,
+  "growth_rate_revenue": 47.262461,
+  "growth_rate_net_income": 69.288179
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VGAS",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -161.790699,
+    "PB": -7.304071
+  },
+  "ownerEarnings": -5999943,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

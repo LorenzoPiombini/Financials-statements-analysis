@@ -1,0 +1,14 @@
+{
+  "ticker": "ALXO",
+  "valuation": {
+    "PE_valuation": 0.263257, 
+    "DFC_valuation": -133.309149
+  },
+  "ratios": {
+    "ROIC": 40.606276,
+    "PB": -1.409312
+  },
+  "ownerEarnings": -153588000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 52.065108
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BCACU",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -3.810391
+  },
+  "ratios": {
+    "ROIC": -785.960079,
+    "PB": 15516958.922018
+  },
+  "ownerEarnings": -484062,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

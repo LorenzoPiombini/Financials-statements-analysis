@@ -1,0 +1,14 @@
+{
+  "ticker": "UMH-PD",
+  "valuation": {
+    "PE_valuation": 36.419189, 
+    "DFC_valuation": -3604.730880
+  },
+  "ratios": {
+    "ROIC": 16.474562,
+    "PB": 1.595119
+  },
+  "ownerEarnings": 171800000,
+  "growth_rate_revenue": 10.511558,
+  "growth_rate_net_income": -161.250000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FORD",
+  "valuation": {
+    "PE_valuation": 1.045808, 
+    "DFC_valuation": 6.145007
+  },
+  "ratios": {
+    "ROIC": 1.387837,
+    "PB": 2.924221
+  },
+  "ownerEarnings": 142431,
+  "growth_rate_revenue": 4.302240,
+  "growth_rate_net_income": -251.793905
+}

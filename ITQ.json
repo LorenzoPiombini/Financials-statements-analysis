@@ -1,0 +1,14 @@
+{
+  "ticker": "ITQ",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -4.235753
+  },
+  "ratios": {
+    "ROIC": -0.766833,
+    "PB": 1.204034
+  },
+  "ownerEarnings": 6008358,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GFS",
+  "valuation": {
+    "PE_valuation": -37.014662, 
+    "DFC_valuation": -61.983236
+  },
+  "ratios": {
+    "ROIC": 8.626279,
+    "PB": 2.930163
+  },
+  "ownerEarnings": 5333000000,
+  "growth_rate_revenue": -15.963156,
+  "growth_rate_net_income": -225.500934
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VKTX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -46.369046,
+    "PB": 4.969926
+  },
+  "ownerEarnings": -78986000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 3720.160338
+}

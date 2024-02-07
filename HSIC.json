@@ -1,0 +1,14 @@
+{
+  "ticker": "HSIC",
+  "valuation": {
+    "PE_valuation": 394.696126, 
+    "DFC_valuation": 9647.495066
+  },
+  "ratios": {
+    "ROIC": 10.789447,
+    "PB": 3.153642
+  },
+  "ownerEarnings": 1006000000,
+  "growth_rate_revenue": 47.440338,
+  "growth_rate_net_income": -480.557524
+}

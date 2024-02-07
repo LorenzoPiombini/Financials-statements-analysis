@@ -1,0 +1,14 @@
+{
+  "ticker": "SNDR",
+  "valuation": {
+    "PE_valuation": 19.584029, 
+    "DFC_valuation": 2078.674060
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 601600000,
+  "growth_rate_revenue": 8.317683,
+  "growth_rate_net_income": 43.563737
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ORMP",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -26.501165,
+    "PB": 3.090281
+  },
+  "ownerEarnings": -51023000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 679.513853
+}

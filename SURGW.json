@@ -1,0 +1,14 @@
+{
+  "ticker": "SURGW",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 1.736052,
+    "PB": 16.292964
+  },
+  "ownerEarnings": 4251533,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 416.269421
+}

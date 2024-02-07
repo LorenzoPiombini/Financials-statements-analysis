@@ -1,0 +1,14 @@
+{
+  "ticker": "FOSLL",
+  "valuation": {
+    "PE_valuation": 16.435798, 
+    "DFC_valuation": -2324.983924
+  },
+  "ratios": {
+    "ROIC": -3.794773,
+    "PB": 0.554429
+  },
+  "ownerEarnings": -6231000,
+  "growth_rate_revenue": 30.739663,
+  "growth_rate_net_income": 33.466525
+}

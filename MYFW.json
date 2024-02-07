@@ -1,0 +1,14 @@
+{
+  "ticker": "MYFW",
+  "valuation": {
+    "PE_valuation": 2.586975, 
+    "DFC_valuation": 319.433346
+  },
+  "ratios": {
+    "ROIC": 8.179280,
+    "PB": 1.105757
+  },
+  "ownerEarnings": 60359000,
+  "growth_rate_revenue": 17.003916,
+  "growth_rate_net_income": 99.795941
+}

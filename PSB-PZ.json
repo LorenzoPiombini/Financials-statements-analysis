@@ -1,0 +1,14 @@
+{
+  "ticker": "PSB-PZ",
+  "valuation": {
+    "PE_valuation": 4693.942029, 
+    "DFC_valuation": 168998.964240
+  },
+  "ratios": {
+    "ROIC": 9.437265,
+    "PB": 2.924602
+  },
+  "ownerEarnings": 518013000,
+  "growth_rate_revenue": 4.167712,
+  "growth_rate_net_income": 6.446714
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ROG",
+  "valuation": {
+    "PE_valuation": 693.668053, 
+    "DFC_valuation": 164.396970
+  },
+  "ratios": {
+    "ROIC": 8.626237,
+    "PB": 1.906544
+  },
+  "ownerEarnings": 301782000,
+  "growth_rate_revenue": 10.969308,
+  "growth_rate_net_income": -6.315537
+}

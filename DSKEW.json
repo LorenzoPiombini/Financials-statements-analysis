@@ -1,0 +1,14 @@
+{
+  "ticker": "DSKEW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 172.572696
+  },
+  "ratios": {
+    "ROIC": 9.909203,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 86800000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 1207.455876
+}

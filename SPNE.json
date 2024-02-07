@@ -1,0 +1,14 @@
+{
+  "ticker": "SPNE",
+  "valuation": {
+    "PE_valuation": 10.298332, 
+    "DFC_valuation": -105.137224
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 1.465234
+  },
+  "ownerEarnings": -45693000,
+  "growth_rate_revenue": -2.734312,
+  "growth_rate_net_income": 14.584769
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ATEST-B",
+  "valuation": {
+    "PE_valuation": 56.151749, 
+    "DFC_valuation": 55.247553
+  },
+  "ratios": {
+    "ROIC": -8.300024,
+    "PB": 3.467417
+  },
+  "ownerEarnings": -108347000,
+  "growth_rate_revenue": 58.524556,
+  "growth_rate_net_income": 93.411399
+}

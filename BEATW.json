@@ -1,0 +1,14 @@
+{
+  "ticker": "BEATW",
+  "valuation": {
+    "PE_valuation": 0.012387, 
+    "DFC_valuation": -75.628292
+  },
+  "ratios": {
+    "ROIC": -543.187926,
+    "PB": 16.791221
+  },
+  "ownerEarnings": -14085000,
+  "growth_rate_revenue": 102.399055,
+  "growth_rate_net_income": -694.856026
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BRFH",
+  "valuation": {
+    "PE_valuation": 371.142247, 
+    "DFC_valuation": -594831.078404
+  },
+  "ratios": {
+    "ROIC": -239.340632,
+    "PB": 6.664498
+  },
+  "ownerEarnings": -5317000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 385.494979
+}

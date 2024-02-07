@@ -1,0 +1,14 @@
+{
+  "ticker": "CARR",
+  "valuation": {
+    "PE_valuation": 29.106021, 
+    "DFC_valuation": 89.342669
+  },
+  "ratios": {
+    "ROIC": 11.411010,
+    "PB": 4.484435
+  },
+  "ownerEarnings": 482000000,
+  "growth_rate_revenue": 3.880051,
+  "growth_rate_net_income": 47.554587
+}

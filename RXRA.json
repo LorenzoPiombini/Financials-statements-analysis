@@ -1,0 +1,14 @@
+{
+  "ticker": "RXRA",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.058276
+  },
+  "ratios": {
+    "ROIC": -0.366755,
+    "PB": -20.173285
+  },
+  "ownerEarnings": 3001610,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

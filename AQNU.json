@@ -1,0 +1,14 @@
+{
+  "ticker": "AQNU",
+  "valuation": {
+    "PE_valuation": -5468.439473, 
+    "DFC_valuation": -2207686507.476725
+  },
+  "ratios": {
+    "ROIC": 4.069384,
+    "PB": 0.846736
+  },
+  "ownerEarnings": 3207849000,
+  "growth_rate_revenue": 1487.812118,
+  "growth_rate_net_income": 20.704253
+}

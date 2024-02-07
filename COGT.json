@@ -1,0 +1,14 @@
+{
+  "ticker": "COGT",
+  "valuation": {
+    "PE_valuation": 0.018201, 
+    "DFC_valuation": -111.213232
+  },
+  "ratios": {
+    "ROIC": -47.394479,
+    "PB": 2.655214
+  },
+  "ownerEarnings": -153466000,
+  "growth_rate_revenue": 56.733487,
+  "growth_rate_net_income": 89.556762
+}

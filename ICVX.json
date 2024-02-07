@@ -1,0 +1,14 @@
+{
+  "ticker": "ICVX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -38.871067,
+    "PB": 1.445795
+  },
+  "ownerEarnings": -104779001,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

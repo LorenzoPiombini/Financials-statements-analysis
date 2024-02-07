@@ -1,0 +1,14 @@
+{
+  "ticker": "CATO",
+  "valuation": {
+    "PE_valuation": 0.034669, 
+    "DFC_valuation": -55.387226
+  },
+  "ratios": {
+    "ROIC": 0.005236,
+    "PB": 0.890148
+  },
+  "ownerEarnings": 28078000,
+  "growth_rate_revenue": 9.567823,
+  "growth_rate_net_income": -243.345770
+}

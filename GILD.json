@@ -1,0 +1,14 @@
+{
+  "ticker": "GILD",
+  "valuation": {
+    "PE_valuation": 39520.707989, 
+    "DFC_valuation": 9838656393.751068
+  },
+  "ratios": {
+    "ROIC": 12.089093,
+    "PB": 5.080001
+  },
+  "ownerEarnings": 10752000000,
+  "growth_rate_revenue": 316.473590,
+  "growth_rate_net_income": 73.478676
+}

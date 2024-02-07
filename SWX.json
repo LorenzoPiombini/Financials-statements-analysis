@@ -1,0 +1,14 @@
+{
+  "ticker": "SWX",
+  "valuation": {
+    "PE_valuation": -1157.088040, 
+    "DFC_valuation": -2021.671097
+  },
+  "ratios": {
+    "ROIC": 75.160393,
+    "PB": 1.326266
+  },
+  "ownerEarnings": 2328918000,
+  "growth_rate_revenue": 14.092597,
+  "growth_rate_net_income": 15.618207
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MOS",
+  "valuation": {
+    "PE_valuation": 376.438829, 
+    "DFC_valuation": 182997.035112
+  },
+  "ratios": {
+    "ROIC": 17.401033,
+    "PB": 1.282480
+  },
+  "ownerEarnings": 3784300000,
+  "growth_rate_revenue": -4.081671,
+  "growth_rate_net_income": -13.704133
+}

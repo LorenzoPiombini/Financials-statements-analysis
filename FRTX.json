@@ -1,0 +1,14 @@
+{
+  "ticker": "FRTX",
+  "valuation": {
+    "PE_valuation": 5.158704, 
+    "DFC_valuation": -376.197391
+  },
+  "ratios": {
+    "ROIC": -289.138396,
+    "PB": 0.585504
+  },
+  "ownerEarnings": -23193000,
+  "growth_rate_revenue": 39.053030,
+  "growth_rate_net_income": 49.361361
+}

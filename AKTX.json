@@ -1,0 +1,14 @@
+{
+  "ticker": "AKTX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -506.498747,
+    "PB": 327.732390
+  },
+  "ownerEarnings": -23819607,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 217.534943
+}

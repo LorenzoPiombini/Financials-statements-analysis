@@ -1,0 +1,14 @@
+{
+  "ticker": "MXL",
+  "valuation": {
+    "PE_valuation": 254.060148, 
+    "DFC_valuation": 9776.257722
+  },
+  "ratios": {
+    "ROIC": -5.087953,
+    "PB": 2.795845
+  },
+  "ownerEarnings": -21969000,
+  "growth_rate_revenue": 90.345146,
+  "growth_rate_net_income": -157.037873
+}

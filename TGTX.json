@@ -1,0 +1,14 @@
+{
+  "ticker": "TGTX",
+  "valuation": {
+    "PE_valuation": 59.138511, 
+    "DFC_valuation": -3462.126726
+  },
+  "ratios": {
+    "ROIC": 13.839110,
+    "PB": -1.049038
+  },
+  "ownerEarnings": -207315000,
+  "growth_rate_revenue": 784.296086,
+  "growth_rate_net_income": 13.918718
+}

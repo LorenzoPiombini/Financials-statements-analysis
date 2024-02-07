@@ -1,0 +1,14 @@
+{
+  "ticker": "LMNL",
+  "valuation": {
+    "PE_valuation": 2.177774, 
+    "DFC_valuation": -63.611286
+  },
+  "ratios": {
+    "ROIC": -82.657804,
+    "PB": 0.377186
+  },
+  "ownerEarnings": -36709000,
+  "growth_rate_revenue": 74.051277,
+  "growth_rate_net_income": 121.825580
+}

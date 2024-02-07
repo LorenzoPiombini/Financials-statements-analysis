@@ -1,0 +1,14 @@
+{
+  "ticker": "RAMP",
+  "valuation": {
+    "PE_valuation": 243.645315, 
+    "DFC_valuation": 3377.645573
+  },
+  "ratios": {
+    "ROIC": -9.259165,
+    "PB": 1.571253
+  },
+  "ownerEarnings": -167683000,
+  "growth_rate_revenue": 72.215244,
+  "growth_rate_net_income": 41.974206
+}

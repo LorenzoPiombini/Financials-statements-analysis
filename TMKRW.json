@@ -1,0 +1,14 @@
+{
+  "ticker": "TMKRW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -26.426728,
+    "PB": 20.180693
+  },
+  "ownerEarnings": -24246134,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

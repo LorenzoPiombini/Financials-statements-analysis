@@ -1,0 +1,14 @@
+{
+  "ticker": "BR",
+  "valuation": {
+    "PE_valuation": 219.145524, 
+    "DFC_valuation": 564.717054
+  },
+  "ratios": {
+    "ROIC": 12.605257,
+    "PB": 8.700639
+  },
+  "ownerEarnings": 1079000000,
+  "growth_rate_revenue": 3.018560,
+  "growth_rate_net_income": 1.570463
+}

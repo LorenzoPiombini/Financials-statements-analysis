@@ -1,0 +1,14 @@
+{
+  "ticker": "TDAC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1.751226,
+    "PB": 1.608265
+  },
+  "ownerEarnings": -1168652,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

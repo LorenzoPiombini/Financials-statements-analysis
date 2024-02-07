@@ -6,9 +6,14 @@
 #include "Balancesheet.h"
 #include "Incomestatement.h"
 #include "Keyratios.h"
+#include "Ticker.h"
 #include "Cashflowstatement.h"
 #include "Responseparsing.h"
 #include <curl/curl.h>
+#include <algorithm>
+#include "Logger.h"
+
+
 
 using std::cout;
 using std:: cerr;
@@ -20,7 +25,7 @@ size_t writeCallback(void *ptr, size_t size, size_t nmemb, std::string *data){
 
 
 std::string perform_get_request(std::string url){
-    
+    Logger logger("get_request.log");
     const char* cStyleUrl = url.c_str();
     
     
@@ -53,8 +58,10 @@ std::string perform_get_request(std::string url){
          curl_easy_cleanup(curlHandle);
         
         if(res != CURLE_OK){
+               
                std::string error(curl_easy_strerror(res));
                std::string message = "curl_easy_perform() failed: ";
+               logger.log(message+error,Logger::Level::Error);
                return message+error;
                
          }else{
@@ -62,7 +69,9 @@ std::string perform_get_request(std::string url){
          }
 
     } else{
+        
         std::string error = "Error initializing curl\n";
+        logger.log(error,Logger::Level::Error);
         return error;
     }
     
@@ -172,6 +181,23 @@ std::string get_company_cash_flow(const std::string &ticker, const std::string &
     
 }
 
+std::string get_all_ticker_from_api(){
+    
+    std::string base_url="https://financialmodelingprep.com/api/v3/stock/list"; 
+    std::string api_key = "?apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw";   
+    std::string url = base_url + api_key;
+    return perform_get_request(url);
+}
+
+std::vector<Ticker*> get_tickers() {
+    
+    std::string response = get_all_ticker_from_api();
+    std::string debugger_purpose{"updating_ticker"};
+    std::vector<Ticker*> tickers = parsing_atempt<Ticker>(response, debugger_purpose);
+
+    return tickers;
+}
+
 
 void get_company_financials_statements(
      std::string ticker,
@@ -189,15 +215,18 @@ void get_company_financials_statements(
      cashflow_statements = parsing_atempt<Cashflowstatement>(cfs_response,ticker);
      income_statements = parsing_atempt<Income_statement>(is_response,ticker);
      ratios = parsing_atempt<Key_ratios>(ratio_response,ticker);
-    
+     
     
 }
 
 
+std::string get_general_news(){
+    std::string base_url ="https://financialmodelingprep.com/api/v4/general_news?page=0";
+    std::string api_key = "&apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw"; 
+    
+    std::string url = base_url+api_key;
+    return perform_get_request(url);
+}
 
 
-
-      
-      
-      
 #endif

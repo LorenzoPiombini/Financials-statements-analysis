@@ -1,0 +1,14 @@
+{
+  "ticker": "LPLA",
+  "valuation": {
+    "PE_valuation": 193.896921, 
+    "DFC_valuation": 1620.031457
+  },
+  "ratios": {
+    "ROIC": 16.894520,
+    "PB": 7.958555
+  },
+  "ownerEarnings": 1639535000,
+  "growth_rate_revenue": 23.416180,
+  "growth_rate_net_income": -45.277333
+}

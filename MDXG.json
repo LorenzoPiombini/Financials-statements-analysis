@@ -1,0 +1,14 @@
+{
+  "ticker": "MDXG",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -82.148987,
+    "PB": -17.449842
+  },
+  "ownerEarnings": -26097000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 11172.142664
+}

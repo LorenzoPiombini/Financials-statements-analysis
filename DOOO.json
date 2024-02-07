@@ -1,0 +1,14 @@
+{
+  "ticker": "DOOO",
+  "valuation": {
+    "PE_valuation": 248.647214, 
+    "DFC_valuation": -351.302181
+  },
+  "ratios": {
+    "ROIC": 27.074963,
+    "PB": 16.459514
+  },
+  "ownerEarnings": 2103400000,
+  "growth_rate_revenue": 11.443823,
+  "growth_rate_net_income": 86.502633
+}

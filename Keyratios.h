@@ -2,7 +2,7 @@
 #define _KEYRATIOS_H_
 
 #include <string>
-
+#include <vector>
 
 class Key_ratios{
  

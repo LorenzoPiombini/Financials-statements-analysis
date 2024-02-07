@@ -1,0 +1,14 @@
+{
+  "ticker": "LOW",
+  "valuation": {
+    "PE_valuation": 1706.015556, 
+    "DFC_valuation": 90668.791268
+  },
+  "ratios": {
+    "ROIC": 26.056724,
+    "PB": -9.530316
+  },
+  "ownerEarnings": 12270000000,
+  "growth_rate_revenue": 8.095396,
+  "growth_rate_net_income": 5.165798
+}

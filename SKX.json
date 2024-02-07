@@ -1,0 +1,14 @@
+{
+  "ticker": "SKX",
+  "valuation": {
+    "PE_valuation": 185.749182, 
+    "DFC_valuation": -1361.693167
+  },
+  "ratios": {
+    "ROIC": 4.957117,
+    "PB": 1.828732
+  },
+  "ownerEarnings": 623390000,
+  "growth_rate_revenue": 25.479783,
+  "growth_rate_net_income": -3.892302
+}

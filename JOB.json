@@ -1,0 +1,14 @@
+{
+  "ticker": "JOB",
+  "valuation": {
+    "PE_valuation": 0.865696, 
+    "DFC_valuation": 22.333226
+  },
+  "ratios": {
+    "ROIC": 7.532554,
+    "PB": 0.617252
+  },
+  "ownerEarnings": 11633000,
+  "growth_rate_revenue": 5.347576,
+  "growth_rate_net_income": -208.333333
+}

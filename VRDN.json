@@ -1,0 +1,14 @@
+{
+  "ticker": "VRDN",
+  "valuation": {
+    "PE_valuation": 4.087086, 
+    "DFC_valuation": -135.711904
+  },
+  "ratios": {
+    "ROIC": -32.355093,
+    "PB": 2.372451
+  },
+  "ownerEarnings": -148356000,
+  "growth_rate_revenue": 2.059591,
+  "growth_rate_net_income": 89.980647
+}

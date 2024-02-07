@@ -1,0 +1,14 @@
+{
+  "ticker": "PFIS",
+  "valuation": {
+    "PE_valuation": 624.164127, 
+    "DFC_valuation": 126052.428645
+  },
+  "ratios": {
+    "ROIC": 11.697616,
+    "PB": 1.179079
+  },
+  "ownerEarnings": 84262000,
+  "growth_rate_revenue": 170.408345,
+  "growth_rate_net_income": 13.737656
+}

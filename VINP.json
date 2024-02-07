@@ -1,0 +1,14 @@
+{
+  "ticker": "VINP",
+  "valuation": {
+    "PE_valuation": 53.380117, 
+    "DFC_valuation": 213.801697
+  },
+  "ratios": {
+    "ROIC": 9.366376,
+    "PB": 1.954306
+  },
+  "ownerEarnings": 50164000,
+  "growth_rate_revenue": 2.868836,
+  "growth_rate_net_income": 26.890098
+}

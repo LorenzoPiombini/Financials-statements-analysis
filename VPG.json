@@ -1,0 +1,14 @@
+{
+  "ticker": "VPG",
+  "valuation": {
+    "PE_valuation": 56.255078, 
+    "DFC_valuation": 65.234155
+  },
+  "ratios": {
+    "ROIC": 8.538698,
+    "PB": 1.718243
+  },
+  "ownerEarnings": 73253000,
+  "growth_rate_revenue": 10.398361,
+  "growth_rate_net_income": 139.819870
+}

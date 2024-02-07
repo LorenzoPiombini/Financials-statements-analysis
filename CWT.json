@@ -1,0 +1,14 @@
+{
+  "ticker": "CWT",
+  "valuation": {
+    "PE_valuation": 149.720095, 
+    "DFC_valuation": -463.127328
+  },
+  "ratios": {
+    "ROIC": 4.894873,
+    "PB": 2.499992
+  },
+  "ownerEarnings": 598671000,
+  "growth_rate_revenue": 4.427099,
+  "growth_rate_net_income": 3.827304
+}

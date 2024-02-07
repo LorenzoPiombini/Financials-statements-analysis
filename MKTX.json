@@ -1,0 +1,14 @@
+{
+  "ticker": "MKTX",
+  "valuation": {
+    "PE_valuation": 6077.955448, 
+    "DFC_valuation": 330564.523152
+  },
+  "ratios": {
+    "ROIC": 18.191181,
+    "PB": 9.665635
+  },
+  "ownerEarnings": 293250000,
+  "growth_rate_revenue": 108.848499,
+  "growth_rate_net_income": 254.086529
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FUN",
+  "valuation": {
+    "PE_valuation": 168.258982, 
+    "DFC_valuation": 5040.867944
+  },
+  "ratios": {
+    "ROIC": 11.047858,
+    "PB": 6.721649
+  },
+  "ownerEarnings": 637541000,
+  "growth_rate_revenue": 10.696031,
+  "growth_rate_net_income": 37.262300
+}

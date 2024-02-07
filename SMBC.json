@@ -1,0 +1,14 @@
+{
+  "ticker": "SMBC",
+  "valuation": {
+    "PE_valuation": 197.914594, 
+    "DFC_valuation": 17070.261823
+  },
+  "ratios": {
+    "ROIC": 6.510287,
+    "PB": 0.872786
+  },
+  "ownerEarnings": 47069000,
+  "growth_rate_revenue": 4.628704,
+  "growth_rate_net_income": 6.574610
+}

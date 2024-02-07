@@ -1,0 +1,14 @@
+{
+  "ticker": "HTZWW",
+  "valuation": {
+    "PE_valuation": -10.824522, 
+    "DFC_valuation": -1797.698753
+  },
+  "ratios": {
+    "ROIC": 8.608078,
+    "PB": 2.205221
+  },
+  "ownerEarnings": 12874000000,
+  "growth_rate_revenue": 9.564630,
+  "growth_rate_net_income": -222.543624
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ISIG",
+  "valuation": {
+    "PE_valuation": -44.404144, 
+    "DFC_valuation": 9674.853249
+  },
+  "ratios": {
+    "ROIC": -17.876416,
+    "PB": 1.043781
+  },
+  "ownerEarnings": -26492000,
+  "growth_rate_revenue": 184.924194,
+  "growth_rate_net_income": -114.425991
+}

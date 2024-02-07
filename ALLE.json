@@ -1,0 +1,14 @@
+{
+  "ticker": "ALLE",
+  "valuation": {
+    "PE_valuation": 111.610247, 
+    "DFC_valuation": 280.155170
+  },
+  "ratios": {
+    "ROIC": 17.188095,
+    "PB": 9.807178
+  },
+  "ownerEarnings": 751100000,
+  "growth_rate_revenue": 2.650886,
+  "growth_rate_net_income": 104.217043
+}

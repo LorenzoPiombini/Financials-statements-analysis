@@ -1,0 +1,14 @@
+{
+  "ticker": "ROSEU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -1.719213,
+    "PB": 1.057917
+  },
+  "ownerEarnings": -6306492,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 34.434762
+}

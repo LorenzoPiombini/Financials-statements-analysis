@@ -1,0 +1,14 @@
+{
+  "ticker": "ETRN",
+  "valuation": {
+    "PE_valuation": 2.003893, 
+    "DFC_valuation": 64635.205524
+  },
+  "ratios": {
+    "ROIC": 4.957712,
+    "PB": 1.813429
+  },
+  "ownerEarnings": 1771363000,
+  "growth_rate_revenue": 26.663256,
+  "growth_rate_net_income": -580.125899
+}

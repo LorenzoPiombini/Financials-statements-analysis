@@ -1,0 +1,14 @@
+{
+  "ticker": "GM",
+  "valuation": {
+    "PE_valuation": 40.302921, 
+    "DFC_valuation": 243.755949
+  },
+  "ratios": {
+    "ROIC": 13.680742,
+    "PB": 0.762139
+  },
+  "ownerEarnings": 21270000000,
+  "growth_rate_revenue": 3.519088,
+  "growth_rate_net_income": -132.560417
+}

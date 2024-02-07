@@ -1,0 +1,14 @@
+{
+  "ticker": "TTEC",
+  "valuation": {
+    "PE_valuation": 226.591001, 
+    "DFC_valuation": 902.583584
+  },
+  "ratios": {
+    "ROIC": 7.915392,
+    "PB": 3.713880
+  },
+  "ownerEarnings": 382599000,
+  "growth_rate_revenue": 53.647216,
+  "growth_rate_net_income": 36.066477
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "QK",
+  "valuation": {
+    "PE_valuation": -9.482421, 
+    "DFC_valuation": -0.124958
+  },
+  "ratios": {
+    "ROIC": 54.554775,
+    "PB": -8.816372
+  },
+  "ownerEarnings": -1244900000,
+  "growth_rate_revenue": 13.881211,
+  "growth_rate_net_income": 1.036936
+}

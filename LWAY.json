@@ -1,0 +1,14 @@
+{
+  "ticker": "LWAY",
+  "valuation": {
+    "PE_valuation": 25.241096, 
+    "DFC_valuation": 2169.948854
+  },
+  "ratios": {
+    "ROIC": 2.166340,
+    "PB": 1.796254
+  },
+  "ownerEarnings": 7252000,
+  "growth_rate_revenue": 34.507576,
+  "growth_rate_net_income": 0.0
+}

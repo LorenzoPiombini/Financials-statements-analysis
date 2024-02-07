@@ -1,0 +1,14 @@
+{
+  "ticker": "JHX",
+  "valuation": {
+    "PE_valuation": 64.895472, 
+    "DFC_valuation": -2.133674
+  },
+  "ratios": {
+    "ROIC": 18.518541,
+    "PB": 5.980151
+  },
+  "ownerEarnings": 1360600000,
+  "growth_rate_revenue": 29.040271,
+  "growth_rate_net_income": -16.886096
+}

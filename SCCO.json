@@ -1,0 +1,14 @@
+{
+  "ticker": "SCCO",
+  "valuation": {
+    "PE_valuation": 176.976445, 
+    "DFC_valuation": 1077.496145
+  },
+  "ratios": {
+    "ROIC": 17.283511,
+    "PB": 5.775155
+  },
+  "ownerEarnings": 4908500000,
+  "growth_rate_revenue": -4.735315,
+  "growth_rate_net_income": 21.261929
+}

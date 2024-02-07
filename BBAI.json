@@ -1,0 +1,14 @@
+{
+  "ticker": "BBAI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -35.570625
+  },
+  "ratios": {
+    "ROIC": -29.397811,
+    "PB": -2.271611
+  },
+  "ownerEarnings": 22401000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

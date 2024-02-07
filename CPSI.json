@@ -1,0 +1,14 @@
+{
+  "ticker": "CPSI",
+  "valuation": {
+    "PE_valuation": 53.648310, 
+    "DFC_valuation": 172.931701
+  },
+  "ratios": {
+    "ROIC": 5.226418,
+    "PB": 1.686456
+  },
+  "ownerEarnings": 63973000,
+  "growth_rate_revenue": 22.096316,
+  "growth_rate_net_income": 44.192877
+}

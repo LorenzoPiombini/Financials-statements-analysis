@@ -1,0 +1,14 @@
+{
+  "ticker": "CPLP",
+  "valuation": {
+    "PE_valuation": 60.104455, 
+    "DFC_valuation": 2225.407972
+  },
+  "ratios": {
+    "ROIC": 9.541483,
+    "PB": 0.413183
+  },
+  "ownerEarnings": 407713000,
+  "growth_rate_revenue": 115.456813,
+  "growth_rate_net_income": 221.182883
+}

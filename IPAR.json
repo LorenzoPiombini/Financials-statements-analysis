@@ -1,0 +1,14 @@
+{
+  "ticker": "IPAR",
+  "valuation": {
+    "PE_valuation": 4487.053492, 
+    "DFC_valuation": -195085.888899
+  },
+  "ratios": {
+    "ROIC": 17.650388,
+    "PB": 4.985604
+  },
+  "ownerEarnings": 293868000,
+  "growth_rate_revenue": 95.549476,
+  "growth_rate_net_income": 79.356725
+}

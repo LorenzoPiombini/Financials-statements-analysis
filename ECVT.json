@@ -1,0 +1,14 @@
+{
+  "ticker": "ECVT",
+  "valuation": {
+    "PE_valuation": 19.107872, 
+    "DFC_valuation": 70.881192
+  },
+  "ratios": {
+    "ROIC": 4.696053,
+    "PB": 1.673558
+  },
+  "ownerEarnings": 234100000,
+  "growth_rate_revenue": 37.580645,
+  "growth_rate_net_income": -241.061786
+}

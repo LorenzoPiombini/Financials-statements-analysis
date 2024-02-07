@@ -1,0 +1,14 @@
+{
+  "ticker": "VBNK",
+  "valuation": {
+    "PE_valuation": 33.172395, 
+    "DFC_valuation": 6755.071727
+  },
+  "ratios": {
+    "ROIC": 8.577357,
+    "PB": 0.739588
+  },
+  "ownerEarnings": 43406000,
+  "growth_rate_revenue": 8.684644,
+  "growth_rate_net_income": 41.566276
+}

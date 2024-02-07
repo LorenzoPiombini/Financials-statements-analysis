@@ -1,0 +1,14 @@
+{
+  "ticker": "ZLAB",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -40.490859,
+    "PB": 2.813007
+  },
+  "ownerEarnings": -423201000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 103.236150
+}

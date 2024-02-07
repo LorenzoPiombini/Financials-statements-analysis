@@ -1,0 +1,14 @@
+{
+  "ticker": "MAN",
+  "valuation": {
+    "PE_valuation": 50.219755, 
+    "DFC_valuation": 2482.586494
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 238100000,
+  "growth_rate_revenue": 17.006683,
+  "growth_rate_net_income": -65.469540
+}

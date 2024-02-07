@@ -1,0 +1,14 @@
+{
+  "ticker": "EJH",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -184.690588
+  },
+  "ratios": {
+    "ROIC": -20.857258,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 17593896,
+  "growth_rate_revenue": 19.392429,
+  "growth_rate_net_income": -47.525056
+}

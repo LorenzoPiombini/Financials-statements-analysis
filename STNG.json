@@ -1,0 +1,14 @@
+{
+  "ticker": "STNG",
+  "valuation": {
+    "PE_valuation": -318.252627, 
+    "DFC_valuation": 116068.319087
+  },
+  "ratios": {
+    "ROIC": 12.022049,
+    "PB": 1.173694
+  },
+  "ownerEarnings": 1208816000,
+  "growth_rate_revenue": 48.124566,
+  "growth_rate_net_income": 627.511137
+}

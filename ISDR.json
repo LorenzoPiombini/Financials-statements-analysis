@@ -1,0 +1,14 @@
+{
+  "ticker": "ISDR",
+  "valuation": {
+    "PE_valuation": 24.841382, 
+    "DFC_valuation": 72.930463
+  },
+  "ratios": {
+    "ROIC": 3.354007,
+    "PB": 2.803744
+  },
+  "ownerEarnings": 2292000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -80.283420
+}

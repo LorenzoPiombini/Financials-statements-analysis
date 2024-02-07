@@ -1,0 +1,14 @@
+{
+  "ticker": "JCI",
+  "valuation": {
+    "PE_valuation": 290.579398, 
+    "DFC_valuation": 2076.956367
+  },
+  "ratios": {
+    "ROIC": 13.062655,
+    "PB": 2.210732
+  },
+  "ownerEarnings": 2635000000,
+  "growth_rate_revenue": 26.506214,
+  "growth_rate_net_income": 5.098457
+}

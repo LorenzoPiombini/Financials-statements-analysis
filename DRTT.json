@@ -1,0 +1,14 @@
+{
+  "ticker": "DRTT",
+  "valuation": {
+    "PE_valuation": 1.665710, 
+    "DFC_valuation": -33.418701
+  },
+  "ratios": {
+    "ROIC": -25.175151,
+    "PB": 2.582307
+  },
+  "ownerEarnings": -19933000,
+  "growth_rate_revenue": 18.691971,
+  "growth_rate_net_income": -96.440049
+}

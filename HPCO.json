@@ -1,0 +1,14 @@
+{
+  "ticker": "HPCO",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -80.295802
+  },
+  "ratios": {
+    "ROIC": -60.436390,
+    "PB": 2.288735
+  },
+  "ownerEarnings": -3509821,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

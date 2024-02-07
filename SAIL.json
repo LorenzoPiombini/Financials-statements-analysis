@@ -1,0 +1,14 @@
+{
+  "ticker": "SAIL",
+  "valuation": {
+    "PE_valuation": 112.468522, 
+    "DFC_valuation": -10.661481
+  },
+  "ratios": {
+    "ROIC": -20.948981,
+    "PB": 11.081013
+  },
+  "ownerEarnings": -81595000,
+  "growth_rate_revenue": 38.916488,
+  "growth_rate_net_income": -96.173757
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SACH",
+  "valuation": {
+    "PE_valuation": 2.235079, 
+    "DFC_valuation": 9.174873
+  },
+  "ratios": {
+    "ROIC": 8.241708,
+    "PB": 0.572087
+  },
+  "ownerEarnings": 42137753,
+  "growth_rate_revenue": 36.088733,
+  "growth_rate_net_income": 28.861421
+}

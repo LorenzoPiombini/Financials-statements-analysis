@@ -1,0 +1,14 @@
+{
+  "ticker": "MSGM",
+  "valuation": {
+    "PE_valuation": 26.787979, 
+    "DFC_valuation": -445.301296
+  },
+  "ratios": {
+    "ROIC": -926.731049,
+    "PB": 3.169431
+  },
+  "ownerEarnings": -25227793,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

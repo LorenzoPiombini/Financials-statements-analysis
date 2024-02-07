@@ -1,0 +1,14 @@
+{
+  "ticker": "RITM-PC",
+  "valuation": {
+    "PE_valuation": 117.660648, 
+    "DFC_valuation": 441691.546528
+  },
+  "ratios": {
+    "ROIC": 4.752556,
+    "PB": 0.531028
+  },
+  "ownerEarnings": -91064221000,
+  "growth_rate_revenue": 222.923975,
+  "growth_rate_net_income": 182.796069
+}

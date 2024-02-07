@@ -1,0 +1,14 @@
+{
+  "ticker": "INST",
+  "valuation": {
+    "PE_valuation": 6.171655, 
+    "DFC_valuation": 55.389299
+  },
+  "ratios": {
+    "ROIC": -0.791903,
+    "PB": 2.604869
+  },
+  "ownerEarnings": 128892000,
+  "growth_rate_revenue": 20.268318,
+  "growth_rate_net_income": 6.383675
+}

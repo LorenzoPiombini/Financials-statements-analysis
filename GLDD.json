@@ -1,0 +1,14 @@
+{
+  "ticker": "GLDD",
+  "valuation": {
+    "PE_valuation": -6.726459, 
+    "DFC_valuation": -170.243105
+  },
+  "ratios": {
+    "ROIC": -1.790964,
+    "PB": 1.067306
+  },
+  "ownerEarnings": 150034000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -7448.437664
+}

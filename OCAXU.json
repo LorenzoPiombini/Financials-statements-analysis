@@ -1,0 +1,14 @@
+{
+  "ticker": "OCAXU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.803464,
+    "PB": 1.317182
+  },
+  "ownerEarnings": -17502785,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

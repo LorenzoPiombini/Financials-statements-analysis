@@ -1,0 +1,14 @@
+{
+  "ticker": "NSTC-WT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.201452,
+    "PB": 1.271330
+  },
+  "ownerEarnings": -34817894,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FGH",
+  "valuation": {
+    "PE_valuation": 1.401023, 
+    "DFC_valuation": -17.201906
+  },
+  "ratios": {
+    "ROIC": -3.560431,
+    "PB": 1.082437
+  },
+  "ownerEarnings": 512000,
+  "growth_rate_revenue": 11.853051,
+  "growth_rate_net_income": -6.974357
+}

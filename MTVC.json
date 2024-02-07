@@ -1,0 +1,14 @@
+{
+  "ticker": "MTVC",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.851557,
+    "PB": 1.043507
+  },
+  "ownerEarnings": -5716719,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

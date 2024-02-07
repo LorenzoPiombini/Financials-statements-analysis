@@ -1,0 +1,14 @@
+{
+  "ticker": "LIFW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -910.619861
+  },
+  "ratios": {
+    "ROIC": -36.396956,
+    "PB": 0.901849
+  },
+  "ownerEarnings": 81330000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

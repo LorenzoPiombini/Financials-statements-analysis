@@ -1,0 +1,14 @@
+{
+  "ticker": "NVCR",
+  "valuation": {
+    "PE_valuation": 621.562261, 
+    "DFC_valuation": 871.738650
+  },
+  "ratios": {
+    "ROIC": -9.054845,
+    "PB": 17.401106
+  },
+  "ownerEarnings": -182861000,
+  "growth_rate_revenue": 116.838341,
+  "growth_rate_net_income": 2.645949
+}

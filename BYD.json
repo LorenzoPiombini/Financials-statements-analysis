@@ -1,0 +1,14 @@
+{
+  "ticker": "BYD",
+  "valuation": {
+    "PE_valuation": 219.503019, 
+    "DFC_valuation": 1705.681272
+  },
+  "ratios": {
+    "ROIC": 11.949845,
+    "PB": 3.732809
+  },
+  "ownerEarnings": 1496902000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

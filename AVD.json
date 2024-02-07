@@ -1,0 +1,14 @@
+{
+  "ticker": "AVD",
+  "valuation": {
+    "PE_valuation": 170.555614, 
+    "DFC_valuation": 7779.505060
+  },
+  "ratios": {
+    "ROIC": 6.576367,
+    "PB": 1.715422
+  },
+  "ownerEarnings": 67784000,
+  "growth_rate_revenue": 17.120182,
+  "growth_rate_net_income": -62.529762
+}

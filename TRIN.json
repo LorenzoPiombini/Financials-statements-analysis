@@ -1,0 +1,14 @@
+{
+  "ticker": "TRIN",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -442.665532
+  },
+  "ratios": {
+    "ROIC": 10.493296,
+    "PB": 0.753131
+  },
+  "ownerEarnings": 370789000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

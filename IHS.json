@@ -1,0 +1,14 @@
+{
+  "ticker": "IHS",
+  "valuation": {
+    "PE_valuation": 34.976552, 
+    "DFC_valuation": 98.875766
+  },
+  "ratios": {
+    "ROIC": -2.146346,
+    "PB": 1.798954
+  },
+  "ownerEarnings": 1350516000,
+  "growth_rate_revenue": 29.425172,
+  "growth_rate_net_income": 32.340141
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NATI",
+  "valuation": {
+    "PE_valuation": 113.335233, 
+    "DFC_valuation": -35.787667
+  },
+  "ratios": {
+    "ROIC": 5.675219,
+    "PB": 4.204681
+  },
+  "ownerEarnings": 109717000,
+  "growth_rate_revenue": 25.069920,
+  "growth_rate_net_income": 33.127582
+}

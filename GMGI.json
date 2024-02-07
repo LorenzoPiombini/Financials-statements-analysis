@@ -1,0 +1,14 @@
+{
+  "ticker": "GMGI",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 0.067516,
+    "PB": 2.616111
+  },
+  "ownerEarnings": -2581377,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1531.152280
+}

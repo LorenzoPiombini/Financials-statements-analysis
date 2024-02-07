@@ -1,0 +1,14 @@
+{
+  "ticker": "VTVT",
+  "valuation": {
+    "PE_valuation": 73.173134, 
+    "DFC_valuation": -15.354105
+  },
+  "ratios": {
+    "ROIC": 238.368031,
+    "PB": -116.396421
+  },
+  "ownerEarnings": -23976000,
+  "growth_rate_revenue": 1033.280947,
+  "growth_rate_net_income": -35.434958
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CVGI",
+  "valuation": {
+    "PE_valuation": -4.050771, 
+    "DFC_valuation": 165.314353
+  },
+  "ratios": {
+    "ROIC": -53.662344,
+    "PB": 1.834343
+  },
+  "ownerEarnings": -4751000,
+  "growth_rate_revenue": 36.933589,
+  "growth_rate_net_income": 676.098882
+}

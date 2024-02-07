@@ -1,0 +1,14 @@
+{
+  "ticker": "EQC-PD",
+  "valuation": {
+    "PE_valuation": 64.869853, 
+    "DFC_valuation": 207729.255319
+  },
+  "ratios": {
+    "ROIC": -0.327255,
+    "PB": 0.990049
+  },
+  "ownerEarnings": -51050000,
+  "growth_rate_revenue": 1368.173092,
+  "growth_rate_net_income": 778.596256
+}

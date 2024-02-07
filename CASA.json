@@ -1,0 +1,14 @@
+{
+  "ticker": "CASA",
+  "valuation": {
+    "PE_valuation": -10.096152, 
+    "DFC_valuation": -11.268541
+  },
+  "ratios": {
+    "ROIC": -24.175892,
+    "PB": 5.061782
+  },
+  "ownerEarnings": -51422000,
+  "growth_rate_revenue": 8.929935,
+  "growth_rate_net_income": -34.856487
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RDFN",
+  "valuation": {
+    "PE_valuation": 364.000469, 
+    "DFC_valuation": 204.958335
+  },
+  "ratios": {
+    "ROIC": -21.406445,
+    "PB": 4.405754
+  },
+  "ownerEarnings": -303785000,
+  "growth_rate_revenue": 55.572172,
+  "growth_rate_net_income": 63.994627
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CHNR",
+  "valuation": {
+    "PE_valuation": 2.157670, 
+    "DFC_valuation": -22.680278
+  },
+  "ratios": {
+    "ROIC": -13.935536,
+    "PB": 0.316725
+  },
+  "ownerEarnings": -16970000,
+  "growth_rate_revenue": -53.195347,
+  "growth_rate_net_income": -55.999650
+}

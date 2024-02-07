@@ -1,0 +1,14 @@
+{
+  "ticker": "CET",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -13.970692,
+    "PB": 0.751122
+  },
+  "ownerEarnings": -158663326,
+  "growth_rate_revenue": 0.723162,
+  "growth_rate_net_income": -34.556360
+}

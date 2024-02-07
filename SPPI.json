@@ -1,0 +1,14 @@
+{
+  "ticker": "SPPI",
+  "valuation": {
+    "PE_valuation": 14.466488, 
+    "DFC_valuation": -17377.005294
+  },
+  "ratios": {
+    "ROIC": -125.249399,
+    "PB": 2.421217
+  },
+  "ownerEarnings": -79962000,
+  "growth_rate_revenue": 1027775.000250,
+  "growth_rate_net_income": 192.434276
+}

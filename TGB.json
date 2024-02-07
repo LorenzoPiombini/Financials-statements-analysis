@@ -1,0 +1,14 @@
+{
+  "ticker": "TGB",
+  "valuation": {
+    "PE_valuation": 65.802520, 
+    "DFC_valuation": 317142.894992
+  },
+  "ratios": {
+    "ROIC": 4.613667,
+    "PB": 1.598260
+  },
+  "ownerEarnings": 205381000,
+  "growth_rate_revenue": 3.909448,
+  "growth_rate_net_income": 99.553601
+}

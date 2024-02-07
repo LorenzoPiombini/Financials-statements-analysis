@@ -1,0 +1,14 @@
+{
+  "ticker": "CMPR",
+  "valuation": {
+    "PE_valuation": 2558.361342, 
+    "DFC_valuation": 626803.265554
+  },
+  "ratios": {
+    "ROIC": 28.110597,
+    "PB": -2.505870
+  },
+  "ownerEarnings": 157785000,
+  "growth_rate_revenue": 118.382881,
+  "growth_rate_net_income": 16.570268
+}

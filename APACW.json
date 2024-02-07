@@ -1,0 +1,14 @@
+{
+  "ticker": "APACW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 1.302095,
+    "PB": 1.317687
+  },
+  "ownerEarnings": -12741460,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

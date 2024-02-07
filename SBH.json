@@ -1,0 +1,14 @@
+{
+  "ticker": "SBH",
+  "valuation": {
+    "PE_valuation": 14.821656, 
+    "DFC_valuation": 221.211183
+  },
+  "ratios": {
+    "ROIC": 8.532754,
+    "PB": 1.767956
+  },
+  "ownerEarnings": 276127000,
+  "growth_rate_revenue": 12.831557,
+  "growth_rate_net_income": 5.655289
+}

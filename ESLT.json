@@ -1,0 +1,14 @@
+{
+  "ticker": "ESLT",
+  "valuation": {
+    "PE_valuation": 673.753292, 
+    "DFC_valuation": 88.441724
+  },
+  "ratios": {
+    "ROIC": 7.568850,
+    "PB": 2.638838
+  },
+  "ownerEarnings": 750654000,
+  "growth_rate_revenue": 25.626130,
+  "growth_rate_net_income": -101.165873
+}

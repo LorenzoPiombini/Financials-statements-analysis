@@ -1,0 +1,14 @@
+{
+  "ticker": "SAY",
+  "valuation": {
+    "PE_valuation": 37.950364, 
+    "DFC_valuation": -1996.675906
+  },
+  "ratios": {
+    "ROIC": 6.688557,
+    "PB": 0.872030
+  },
+  "ownerEarnings": 44206433,
+  "growth_rate_revenue": 22.690389,
+  "growth_rate_net_income": 12.219432
+}

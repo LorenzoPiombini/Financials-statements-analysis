@@ -1,0 +1,14 @@
+{
+  "ticker": "SIRI",
+  "valuation": {
+    "PE_valuation": 13942.295582, 
+    "DFC_valuation": 8271230694.880079
+  },
+  "ratios": {
+    "ROIC": 31.197741,
+    "PB": -8.227392
+  },
+  "ownerEarnings": 3654000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 535.038403
+}

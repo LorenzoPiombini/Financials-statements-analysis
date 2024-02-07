@@ -1,0 +1,14 @@
+{
+  "ticker": "EVC",
+  "valuation": {
+    "PE_valuation": 19.171525, 
+    "DFC_valuation": 1460.560219
+  },
+  "ratios": {
+    "ROIC": 6.802695,
+    "PB": 1.515696
+  },
+  "ownerEarnings": 97640000,
+  "growth_rate_revenue": 60.565893,
+  "growth_rate_net_income": 219.099135
+}

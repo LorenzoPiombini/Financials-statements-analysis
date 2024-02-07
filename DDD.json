@@ -1,0 +1,14 @@
+{
+  "ticker": "DDD",
+  "valuation": {
+    "PE_valuation": 119.061989, 
+    "DFC_valuation": -33896.023293
+  },
+  "ratios": {
+    "ROIC": -9.140494,
+    "PB": 1.261232
+  },
+  "ownerEarnings": -96599000,
+  "growth_rate_revenue": 88.560161,
+  "growth_rate_net_income": 19.733319
+}

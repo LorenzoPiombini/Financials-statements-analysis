@@ -1,0 +1,14 @@
+{
+  "ticker": "DASH",
+  "valuation": {
+    "PE_valuation": 1424.364865, 
+    "DFC_valuation": 107.439002
+  },
+  "ratios": {
+    "ROIC": -12.977524,
+    "PB": 2.684688
+  },
+  "ownerEarnings": -1081000000,
+  "growth_rate_revenue": 108.567884,
+  "growth_rate_net_income": 72.475589
+}

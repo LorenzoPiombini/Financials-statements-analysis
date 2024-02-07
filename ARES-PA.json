@@ -1,0 +1,14 @@
+{
+  "ticker": "ARES-PA",
+  "valuation": {
+    "PE_valuation": 62.596513, 
+    "DFC_valuation": -3723.940345
+  },
+  "ratios": {
+    "ROIC": 5.204220,
+    "PB": 7.558315
+  },
+  "ownerEarnings": 1424859000,
+  "growth_rate_revenue": 53.241187,
+  "growth_rate_net_income": 370.886671
+}

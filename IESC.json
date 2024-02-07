@@ -1,0 +1,14 @@
+{
+  "ticker": "IESC",
+  "valuation": {
+    "PE_valuation": 416.290700, 
+    "DFC_valuation": 13811.576939
+  },
+  "ratios": {
+    "ROIC": 21.060794,
+    "PB": 2.956469
+  },
+  "ownerEarnings": 148061000,
+  "growth_rate_revenue": 135.051101,
+  "growth_rate_net_income": -23183.795948
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CNTG",
+  "valuation": {
+    "PE_valuation": 9.191583, 
+    "DFC_valuation": -74.940735
+  },
+  "ratios": {
+    "ROIC": -44.134841,
+    "PB": 3.151155
+  },
+  "ownerEarnings": -21920000,
+  "growth_rate_revenue": 68.473665,
+  "growth_rate_net_income": 78.709707
+}

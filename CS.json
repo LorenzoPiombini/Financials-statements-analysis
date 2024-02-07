@@ -1,0 +1,14 @@
+{
+  "ticker": "CS",
+  "valuation": {
+    "PE_valuation": -7.482892, 
+    "DFC_valuation": 202.488171
+  },
+  "ratios": {
+    "ROIC": 1.968664,
+    "PB": 0.161849
+  },
+  "ownerEarnings": 5462000000,
+  "growth_rate_revenue": -0.743184,
+  "growth_rate_net_income": 34.437070
+}

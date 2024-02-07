@@ -1,0 +1,14 @@
+{
+  "ticker": "VALE",
+  "valuation": {
+    "PE_valuation": 50.739764, 
+    "DFC_valuation": 596.758732
+  },
+  "ratios": {
+    "ROIC": 27.677583,
+    "PB": 2.194311
+  },
+  "ownerEarnings": 21521000000,
+  "growth_rate_revenue": 41.407924,
+  "growth_rate_net_income": 59.733259
+}

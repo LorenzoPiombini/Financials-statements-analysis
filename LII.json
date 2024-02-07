@@ -1,0 +1,14 @@
+{
+  "ticker": "LII",
+  "valuation": {
+    "PE_valuation": 521.262769, 
+    "DFC_valuation": 3638.567339
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 915400000,
+  "growth_rate_revenue": 15.538803,
+  "growth_rate_net_income": 13.282028
+}

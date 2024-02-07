@@ -1,0 +1,14 @@
+{
+  "ticker": "ADI",
+  "valuation": {
+    "PE_valuation": 1345.153179, 
+    "DFC_valuation": 38308.079098
+  },
+  "ratios": {
+    "ROIC": 8.236207,
+    "PB": 2.267485
+  },
+  "ownerEarnings": 6936896000,
+  "growth_rate_revenue": 10.827244,
+  "growth_rate_net_income": -27.726135
+}

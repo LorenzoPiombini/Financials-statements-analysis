@@ -1,0 +1,14 @@
+{
+  "ticker": "KE",
+  "valuation": {
+    "PE_valuation": 33.688016, 
+    "DFC_valuation": -378.441604
+  },
+  "ratios": {
+    "ROIC": 8.135884,
+    "PB": 1.313178
+  },
+  "ownerEarnings": 151422000,
+  "growth_rate_revenue": 4.556093,
+  "growth_rate_net_income": 109.669146
+}

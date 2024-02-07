@@ -1,0 +1,14 @@
+{
+  "ticker": "KBNT",
+  "valuation": {
+    "PE_valuation": 17.560666, 
+    "DFC_valuation": -1261.308548
+  },
+  "ratios": {
+    "ROIC": -105.401034,
+    "PB": 0.715146
+  },
+  "ownerEarnings": -11715089,
+  "growth_rate_revenue": 370.421282,
+  "growth_rate_net_income": 11.978340
+}

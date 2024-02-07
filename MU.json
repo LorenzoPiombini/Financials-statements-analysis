@@ -1,0 +1,14 @@
+{
+  "ticker": "MU",
+  "valuation": {
+    "PE_valuation": -944.845708, 
+    "DFC_valuation": -825988.327354
+  },
+  "ratios": {
+    "ROIC": -10.100794,
+    "PB": 1.732648
+  },
+  "ownerEarnings": 9078000000,
+  "growth_rate_revenue": 75.910488,
+  "growth_rate_net_income": -4424.378096
+}

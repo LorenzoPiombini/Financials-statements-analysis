@@ -1,0 +1,14 @@
+{
+  "ticker": "FIX",
+  "valuation": {
+    "PE_valuation": 443.182898, 
+    "DFC_valuation": 8071.011170
+  },
+  "ratios": {
+    "ROIC": 12.840874,
+    "PB": 4.135373
+  },
+  "ownerEarnings": 235507000,
+  "growth_rate_revenue": 71.500857,
+  "growth_rate_net_income": -834.992424
+}

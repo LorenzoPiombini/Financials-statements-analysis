@@ -1,0 +1,14 @@
+{
+  "ticker": "AUGX",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -38.151027
+  },
+  "ratios": {
+    "ROIC": -105.248391,
+    "PB": 39.817737
+  },
+  "ownerEarnings": -22219000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

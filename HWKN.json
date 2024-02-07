@@ -1,0 +1,14 @@
+{
+  "ticker": "HWKN",
+  "valuation": {
+    "PE_valuation": 274.395975, 
+    "DFC_valuation": 4677.347571
+  },
+  "ratios": {
+    "ROIC": 13.378841,
+    "PB": 2.628525
+  },
+  "ownerEarnings": 137879000,
+  "growth_rate_revenue": 18.891630,
+  "growth_rate_net_income": 25.693655
+}

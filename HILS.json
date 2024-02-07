@@ -1,0 +1,14 @@
+{
+  "ticker": "HILS",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -124.140806,
+    "PB": 0.790214
+  },
+  "ownerEarnings": -6091390,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

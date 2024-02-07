@@ -1,0 +1,14 @@
+{
+  "ticker": "APTV-PA",
+  "valuation": {
+    "PE_valuation": 206.228763, 
+    "DFC_valuation": 731.548682
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 759000000,
+  "growth_rate_revenue": 2.852935,
+  "growth_rate_net_income": 26.712627
+}

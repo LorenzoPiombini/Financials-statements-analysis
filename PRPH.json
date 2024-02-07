@@ -1,0 +1,14 @@
+{
+  "ticker": "PRPH",
+  "valuation": {
+    "PE_valuation": -161.450793, 
+    "DFC_valuation": 119809.881507
+  },
+  "ratios": {
+    "ROIC": 25.304649,
+    "PB": 2.398003
+  },
+  "ownerEarnings": 24984000,
+  "growth_rate_revenue": 2150.115884,
+  "growth_rate_net_income": -852.453545
+}

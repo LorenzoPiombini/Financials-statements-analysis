@@ -1,0 +1,14 @@
+{
+  "ticker": "FRPT",
+  "valuation": {
+    "PE_valuation": 879.259878, 
+    "DFC_valuation": -4064.775883
+  },
+  "ratios": {
+    "ROIC": -5.009374,
+    "PB": 2.362905
+  },
+  "ownerEarnings": 191477000,
+  "growth_rate_revenue": 37.115072,
+  "growth_rate_net_income": 4.595995
+}

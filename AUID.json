@@ -1,0 +1,14 @@
+{
+  "ticker": "AUID",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -274.185643,
+    "PB": 50.055849
+  },
+  "ownerEarnings": -27923244,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 14878.847563
+}

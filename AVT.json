@@ -1,0 +1,14 @@
+{
+  "ticker": "AVT",
+  "valuation": {
+    "PE_valuation": 213.617452, 
+    "DFC_valuation": -13211.367956
+  },
+  "ratios": {
+    "ROIC": 11.220482,
+    "PB": 0.977250
+  },
+  "ownerEarnings": 1254743000,
+  "growth_rate_revenue": 5.763327,
+  "growth_rate_net_income": 35.362328
+}

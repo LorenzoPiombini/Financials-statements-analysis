@@ -1,0 +1,14 @@
+{
+  "ticker": "SDH",
+  "valuation": {
+    "PE_valuation": -5.216633, 
+    "DFC_valuation": -54.200874
+  },
+  "ratios": {
+    "ROIC": -27.284947,
+    "PB": 0.482508
+  },
+  "ownerEarnings": 1306489,
+  "growth_rate_revenue": 96.409352,
+  "growth_rate_net_income": -366.362172
+}

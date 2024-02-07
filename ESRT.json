@@ -1,0 +1,14 @@
+{
+  "ticker": "ESRT",
+  "valuation": {
+    "PE_valuation": 8.009630, 
+    "DFC_valuation": 101.595311
+  },
+  "ratios": {
+    "ROIC": 3.110329,
+    "PB": 0.660905
+  },
+  "ownerEarnings": 388583000,
+  "growth_rate_revenue": 5.056537,
+  "growth_rate_net_income": 17.654965
+}

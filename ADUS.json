@@ -1,0 +1,14 @@
+{
+  "ticker": "ADUS",
+  "valuation": {
+    "PE_valuation": 253.220180, 
+    "DFC_valuation": 853.012241
+  },
+  "ratios": {
+    "ROIC": 6.206937,
+    "PB": 2.532713
+  },
+  "ownerEarnings": 74892000,
+  "growth_rate_revenue": 6.485184,
+  "growth_rate_net_income": 345.185978
+}

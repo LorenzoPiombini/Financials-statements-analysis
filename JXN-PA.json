@@ -1,0 +1,14 @@
+{
+  "ticker": "JXN-PA",
+  "valuation": {
+    "PE_valuation": 16.985979, 
+    "DFC_valuation": 352.629719
+  },
+  "ratios": {
+    "ROIC": 48.406762,
+    "PB": 0.353202
+  },
+  "ownerEarnings": 6238000000,
+  "growth_rate_revenue": 0.623319,
+  "growth_rate_net_income": -37.989969
+}

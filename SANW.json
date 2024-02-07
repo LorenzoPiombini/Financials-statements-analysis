@@ -1,0 +1,14 @@
+{
+  "ticker": "SANW",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -15.378024,
+    "PB": 0.758597
+  },
+  "ownerEarnings": -50853056,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

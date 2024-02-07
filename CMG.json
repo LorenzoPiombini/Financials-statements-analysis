@@ -1,0 +1,14 @@
+{
+  "ticker": "CMG",
+  "valuation": {
+    "PE_valuation": 22014.618943, 
+    "DFC_valuation": 476114.211096
+  },
+  "ratios": {
+    "ROIC": 8.982174,
+    "PB": 16.318669
+  },
+  "ownerEarnings": 1567083000,
+  "growth_rate_revenue": 55.831719,
+  "growth_rate_net_income": 65.618209
+}

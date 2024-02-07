@@ -1,0 +1,14 @@
+{
+  "ticker": "ZM",
+  "valuation": {
+    "PE_valuation": 804.648596, 
+    "DFC_valuation": 89607.480399
+  },
+  "ratios": {
+    "ROIC": 1.601288,
+    "PB": 3.583607
+  },
+  "ownerEarnings": -954749000,
+  "growth_rate_revenue": 184.025536,
+  "growth_rate_net_income": 7449.173807
+}

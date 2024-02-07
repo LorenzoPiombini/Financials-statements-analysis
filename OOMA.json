@@ -1,0 +1,14 @@
+{
+  "ticker": "OOMA",
+  "valuation": {
+    "PE_valuation": 27.250030, 
+    "DFC_valuation": 67.413325
+  },
+  "ratios": {
+    "ROIC": -4.427059,
+    "PB": 5.577074
+  },
+  "ownerEarnings": -3977000,
+  "growth_rate_revenue": 30.388983,
+  "growth_rate_net_income": 71.949724
+}

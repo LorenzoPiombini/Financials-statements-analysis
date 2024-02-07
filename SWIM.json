@@ -1,0 +1,14 @@
+{
+  "ticker": "SWIM",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -8.983962
+  },
+  "ratios": {
+    "ROIC": -1.608381,
+    "PB": 0.952612
+  },
+  "ownerEarnings": 57038000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "PFMT",
+  "valuation": {
+    "PE_valuation": 0.766111, 
+    "DFC_valuation": -5.514648
+  },
+  "ratios": {
+    "ROIC": -6.504897,
+    "PB": 3.116560
+  },
+  "ownerEarnings": -1276000,
+  "growth_rate_revenue": 10.119049,
+  "growth_rate_net_income": -6.339394
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CBT",
+  "valuation": {
+    "PE_valuation": 111.975694, 
+    "DFC_valuation": 533.809576
+  },
+  "ratios": {
+    "ROIC": 21.994343,
+    "PB": 3.027483
+  },
+  "ownerEarnings": 941000000,
+  "growth_rate_revenue": 5.348756,
+  "growth_rate_net_income": -317.109240
+}

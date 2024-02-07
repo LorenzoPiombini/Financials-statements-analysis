@@ -1,0 +1,14 @@
+{
+  "ticker": "W",
+  "valuation": {
+    "PE_valuation": 475.653119, 
+    "DFC_valuation": -20739.905690
+  },
+  "ratios": {
+    "ROIC": -53.080645,
+    "PB": -1.367192
+  },
+  "ownerEarnings": -1009000000,
+  "growth_rate_revenue": 64.219565,
+  "growth_rate_net_income": 239.185085
+}

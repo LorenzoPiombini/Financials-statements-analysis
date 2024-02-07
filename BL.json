@@ -1,0 +1,14 @@
+{
+  "ticker": "BL",
+  "valuation": {
+    "PE_valuation": 141.925951, 
+    "DFC_valuation": 145.925369
+  },
+  "ratios": {
+    "ROIC": -1.762102,
+    "PB": 35.802808
+  },
+  "ownerEarnings": -17395000,
+  "growth_rate_revenue": 52.092139,
+  "growth_rate_net_income": 22.958058
+}

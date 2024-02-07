@@ -1,0 +1,14 @@
+{
+  "ticker": "BLI",
+  "valuation": {
+    "PE_valuation": 108.877822, 
+    "DFC_valuation": -64.398080
+  },
+  "ratios": {
+    "ROIC": -220.302457,
+    "PB": 1.299270
+  },
+  "ownerEarnings": -104336000,
+  "growth_rate_revenue": 4.847845,
+  "growth_rate_net_income": 28.701352
+}

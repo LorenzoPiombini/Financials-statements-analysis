@@ -1,0 +1,14 @@
+{
+  "ticker": "UGRO",
+  "valuation": {
+    "PE_valuation": 3.698748, 
+    "DFC_valuation": -124.612674
+  },
+  "ratios": {
+    "ROIC": -28.220018,
+    "PB": 0.830982
+  },
+  "ownerEarnings": -10094135,
+  "growth_rate_revenue": 18.647933,
+  "growth_rate_net_income": 165.360884
+}

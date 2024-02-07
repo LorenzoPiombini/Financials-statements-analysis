@@ -1,0 +1,14 @@
+{
+  "ticker": "OFG",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 16.816543,
+    "PB": 1.269937
+  },
+  "ownerEarnings": 284351000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CNQ",
+  "valuation": {
+    "PE_valuation": 2391.858031, 
+    "DFC_valuation": 6374092.975020
+  },
+  "ratios": {
+    "ROIC": 23.739986,
+    "PB": 2.235032
+  },
+  "ownerEarnings": 24701000000,
+  "growth_rate_revenue": 59.752479,
+  "growth_rate_net_income": 32.608148
+}

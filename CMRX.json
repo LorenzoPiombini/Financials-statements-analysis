@@ -1,0 +1,14 @@
+{
+  "ticker": "CMRX",
+  "valuation": {
+    "PE_valuation": -15.526170, 
+    "DFC_valuation": -776.681971
+  },
+  "ratios": {
+    "ROIC": -23.154184,
+    "PB": 0.634020
+  },
+  "ownerEarnings": -537895000,
+  "growth_rate_revenue": 214.011661,
+  "growth_rate_net_income": 201.384336
+}

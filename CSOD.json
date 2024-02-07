@@ -1,0 +1,14 @@
+{
+  "ticker": "CSOD",
+  "valuation": {
+    "PE_valuation": 301.823745, 
+    "DFC_valuation": 5126.058898
+  },
+  "ratios": {
+    "ROIC": 0.625814,
+    "PB": 10.600269
+  },
+  "ownerEarnings": 257732000,
+  "growth_rate_revenue": 71.001287,
+  "growth_rate_net_income": 117.202669
+}

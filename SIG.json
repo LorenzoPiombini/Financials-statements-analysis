@@ -1,0 +1,14 @@
+{
+  "ticker": "SIG",
+  "valuation": {
+    "PE_valuation": 264.892689, 
+    "DFC_valuation": 57608.192113
+  },
+  "ratios": {
+    "ROIC": 10.641895,
+    "PB": 1.586454
+  },
+  "ownerEarnings": 828000000,
+  "growth_rate_revenue": 77.970907,
+  "growth_rate_net_income": 8.485626
+}

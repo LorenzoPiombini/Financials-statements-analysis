@@ -1,0 +1,14 @@
+{
+  "ticker": "MEDS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -88.569976,
+    "PB": 67.171937
+  },
+  "ownerEarnings": -1335870,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 25602.691848
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "JBSS",
+  "valuation": {
+    "PE_valuation": 193.569683, 
+    "DFC_valuation": 2198.536553
+  },
+  "ratios": {
+    "ROIC": 21.447643,
+    "PB": 4.726475
+  },
+  "ownerEarnings": 110285000,
+  "growth_rate_revenue": 2.154745,
+  "growth_rate_net_income": -30.734016
+}

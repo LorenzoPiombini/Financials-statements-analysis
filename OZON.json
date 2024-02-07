@@ -1,0 +1,14 @@
+{
+  "ticker": "OZON",
+  "valuation": {
+    "PE_valuation": 189.737158, 
+    "DFC_valuation": -777.708820
+  },
+  "ratios": {
+    "ROIC": -0.201365,
+    "PB": -1.046891
+  },
+  "ownerEarnings": 450757829,
+  "growth_rate_revenue": 2775.473626,
+  "growth_rate_net_income": 5962.652449
+}

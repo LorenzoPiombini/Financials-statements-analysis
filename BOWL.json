@@ -1,0 +1,14 @@
+{
+  "ticker": "BOWL",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 27.897092
+  },
+  "ratios": {
+    "ROIC": -204.919993,
+    "PB": 6.260109
+  },
+  "ownerEarnings": 502706000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

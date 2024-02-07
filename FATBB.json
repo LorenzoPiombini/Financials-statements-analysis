@@ -1,0 +1,14 @@
+{
+  "ticker": "FATBB",
+  "valuation": {
+    "PE_valuation": 377.763053, 
+    "DFC_valuation": -49072.211469
+  },
+  "ratios": {
+    "ROIC": 0.662533,
+    "PB": -0.571360
+  },
+  "ownerEarnings": 143199000,
+  "growth_rate_revenue": 171.560317,
+  "growth_rate_net_income": 356.290741
+}

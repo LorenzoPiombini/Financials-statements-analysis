@@ -1,0 +1,14 @@
+{
+  "ticker": "TATT",
+  "valuation": {
+    "PE_valuation": 10.341983, 
+    "DFC_valuation": -3015.191526
+  },
+  "ratios": {
+    "ROIC": 0.952049,
+    "PB": 0.624999
+  },
+  "ownerEarnings": 23189000,
+  "growth_rate_revenue": 331.049954,
+  "growth_rate_net_income": -131.796537
+}

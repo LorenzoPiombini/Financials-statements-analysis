@@ -1,0 +1,14 @@
+{
+  "ticker": "AVA",
+  "valuation": {
+    "PE_valuation": 63.844347, 
+    "DFC_valuation": -553.408093
+  },
+  "ratios": {
+    "ROIC": 3.982230,
+    "PB": 1.386207
+  },
+  "ownerEarnings": 963631000,
+  "growth_rate_revenue": 6.473396,
+  "growth_rate_net_income": 3.279305
+}

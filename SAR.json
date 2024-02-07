@@ -1,0 +1,14 @@
+{
+  "ticker": "SAR",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 0.011482,
+    "PB": 0.949957
+  },
+  "ownerEarnings": 91672741,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 1012.375944
+}

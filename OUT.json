@@ -1,0 +1,14 @@
+{
+  "ticker": "OUT",
+  "valuation": {
+    "PE_valuation": 16.058121, 
+    "DFC_valuation": 35.370711
+  },
+  "ratios": {
+    "ROIC": 3.864298,
+    "PB": 2.179727
+  },
+  "ownerEarnings": 623800000,
+  "growth_rate_revenue": 5.736989,
+  "growth_rate_net_income": 21.730967
+}

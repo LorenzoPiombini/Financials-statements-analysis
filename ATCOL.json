@@ -1,0 +1,14 @@
+{
+  "ticker": "ATCOL",
+  "valuation": {
+    "PE_valuation": 461.856275, 
+    "DFC_valuation": -583710.368162
+  },
+  "ratios": {
+    "ROIC": 7.062378,
+    "PB": 0.992528
+  },
+  "ownerEarnings": 2520300000,
+  "growth_rate_revenue": 153.785941,
+  "growth_rate_net_income": -6.063782
+}

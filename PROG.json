@@ -1,0 +1,14 @@
+{
+  "ticker": "PROG",
+  "valuation": {
+    "PE_valuation": 0.236624, 
+    "DFC_valuation": -356.469260
+  },
+  "ratios": {
+    "ROIC": -231.873932,
+    "PB": -0.246325
+  },
+  "ownerEarnings": -78287000,
+  "growth_rate_revenue": -77.435125,
+  "growth_rate_net_income": -33.801416
+}

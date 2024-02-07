@@ -1,0 +1,14 @@
+{
+  "ticker": "TBBK",
+  "valuation": {
+    "PE_valuation": 889.295557, 
+    "DFC_valuation": 769422.467512
+  },
+  "ratios": {
+    "ROIC": 21.436282,
+    "PB": 2.350226
+  },
+  "ownerEarnings": 253523000,
+  "growth_rate_revenue": 245.480472,
+  "growth_rate_net_income": 3028.763031
+}

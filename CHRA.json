@@ -1,0 +1,14 @@
+{
+  "ticker": "CHRA",
+  "valuation": {
+    "PE_valuation": 48.259788, 
+    "DFC_valuation": -1653.681864
+  },
+  "ratios": {
+    "ROIC": -46.954923,
+    "PB": -0.265078
+  },
+  "ownerEarnings": -13163000,
+  "growth_rate_revenue": 19.424194,
+  "growth_rate_net_income": 37.664908
+}

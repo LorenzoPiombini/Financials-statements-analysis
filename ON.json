@@ -1,0 +1,14 @@
+{
+  "ticker": "ON",
+  "valuation": {
+    "PE_valuation": 193.408232, 
+    "DFC_valuation": 431.973795
+  },
+  "ratios": {
+    "ROIC": 20.113647,
+    "PB": 4.365950
+  },
+  "ownerEarnings": 3828300000,
+  "growth_rate_revenue": -8.890275,
+  "growth_rate_net_income": -385.478724
+}

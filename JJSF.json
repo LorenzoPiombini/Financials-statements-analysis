@@ -1,0 +1,14 @@
+{
+  "ticker": "JJSF",
+  "valuation": {
+    "PE_valuation": 2543.774604, 
+    "DFC_valuation": 86436.641433
+  },
+  "ratios": {
+    "ROIC": 7.123465,
+    "PB": 3.457319
+  },
+  "ownerEarnings": 242405000,
+  "growth_rate_revenue": 51.278148,
+  "growth_rate_net_income": 37.642633
+}

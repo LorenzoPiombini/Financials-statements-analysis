@@ -1,0 +1,14 @@
+{
+  "ticker": "MURFW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 39.176791,
+    "PB": -74.321910
+  },
+  "ownerEarnings": 294000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MODD",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -169.964519,
+    "PB": 3.108124
+  },
+  "ownerEarnings": -14814784,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 27.223037
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BWSN",
+  "valuation": {
+    "PE_valuation": 0.105966, 
+    "DFC_valuation": -40.752760
+  },
+  "ratios": {
+    "ROIC": 10.666244,
+    "PB": -195.860431
+  },
+  "ownerEarnings": 89800000,
+  "growth_rate_revenue": -6.081447,
+  "growth_rate_net_income": -184.682058
+}

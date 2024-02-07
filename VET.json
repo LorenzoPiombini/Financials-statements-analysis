@@ -1,0 +1,14 @@
+{
+  "ticker": "VET",
+  "valuation": {
+    "PE_valuation": 2608.820354, 
+    "DFC_valuation": 1147602541.194699
+  },
+  "ratios": {
+    "ROIC": 26.194139,
+    "PB": 1.151867
+  },
+  "ownerEarnings": 2047875000,
+  "growth_rate_revenue": 258.771113,
+  "growth_rate_net_income": 493.826214
+}

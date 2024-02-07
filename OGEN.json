@@ -1,0 +1,14 @@
+{
+  "ticker": "OGEN",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -102.119563,
+    "PB": 0.973936
+  },
+  "ownerEarnings": -14843303,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 54.785041
+}

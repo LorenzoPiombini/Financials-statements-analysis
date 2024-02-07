@@ -1,0 +1,14 @@
+{
+  "ticker": "DAO",
+  "valuation": {
+    "PE_valuation": 216.359742, 
+    "DFC_valuation": -2547.072150
+  },
+  "ratios": {
+    "ROIC": 1662.917841,
+    "PB": -2.728176
+  },
+  "ownerEarnings": -743869000,
+  "growth_rate_revenue": 83.312167,
+  "growth_rate_net_income": 92.068854
+}

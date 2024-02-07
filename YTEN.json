@@ -1,0 +1,14 @@
+{
+  "ticker": "YTEN",
+  "valuation": {
+    "PE_valuation": 0.683381, 
+    "DFC_valuation": -143.172119
+  },
+  "ratios": {
+    "ROIC": -140.283268,
+    "PB": 1.865301
+  },
+  "ownerEarnings": -15134000,
+  "growth_rate_revenue": 12.870061,
+  "growth_rate_net_income": 59.789442
+}

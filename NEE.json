@@ -1,0 +1,14 @@
+{
+  "ticker": "NEE",
+  "valuation": {
+    "PE_valuation": 144.253786, 
+    "DFC_valuation": -160.227904
+  },
+  "ratios": {
+    "ROIC": 3.317743,
+    "PB": 4.234449
+  },
+  "ownerEarnings": 18359000000,
+  "growth_rate_revenue": 10.445591,
+  "growth_rate_net_income": -46.017815
+}

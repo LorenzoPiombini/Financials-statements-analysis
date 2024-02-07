@@ -1,0 +1,14 @@
+{
+  "ticker": "DISCB",
+  "valuation": {
+    "PE_valuation": -766.585254, 
+    "DFC_valuation": 63810.501995
+  },
+  "ratios": {
+    "ROIC": -3.035748,
+    "PB": 0.390513
+  },
+  "ownerEarnings": 25388000000,
+  "growth_rate_revenue": 30.004161,
+  "growth_rate_net_income": -78.452675
+}

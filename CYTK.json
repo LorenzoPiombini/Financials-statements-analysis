@@ -1,0 +1,14 @@
+{
+  "ticker": "CYTK",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -42.953147,
+    "PB": -38.144407
+  },
+  "ownerEarnings": -298222000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 33.943887
+}

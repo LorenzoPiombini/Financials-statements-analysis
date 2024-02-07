@@ -1,7 +1,10 @@
 #include "Keyratios.h"
+#include "Logger.h"
 #include <iostream>
 #include <sstream>
 #include <fstream>
+#include <vector>
+#include <cstring>
 
 
 // Implementations of getters for std::string members
@@ -127,8 +130,8 @@ void Key_ratios::deserialize(std::string &json_string){
          if(key == "netIncomePerShare"&& value != "null"){ netIncomePerShare= std::stod(value);}
          if(key == "operatingCashFlowPerShare"&& value != "null"){ operatingCashFlowPerShare= std::stod(value);}
          if(key == "freeCashFlowPerShare"&& value != "null"){freeCashFlowPerShare = std::stod(value);}
-         if(key == "cashPerShare" && value != "null"){ cashPerShare= std::stod(value);} else {cashPerShare = 0.0;}
-         if(key == "bookValuePerShare"&& value != "null"){bookValuePerShare = std::stod(value);} else {bookValuePerShare =0.0;}
+         if(key == "cashPerShare" && value != "null"){ cashPerShare= std::stod(value);} //else {cashPerShare = 0.0;}
+         if(key == "bookValuePerShare"&& value != "null"){bookValuePerShare = std::stod(value);} //else {bookValuePerShare =0.0;}
          if(key == "tangibleBookValuePerShare" && value != "null"){ tangibleBookValuePerShare = std::stod(value);}
          if(key == "shareholdersEquityPerShare"&& value != "null"){ shareholdersEquityPerShare= std::stod(value);}
          if(key == "interestDebtPerShare"&& value != "null"){ interestDebtPerShare= std::stod(value);}
@@ -164,14 +167,13 @@ void Key_ratios::deserialize(std::string &json_string){
          if(key == "roic"&& value != "null"){ roic= std::stod(value);}
          if(key == "returnOnTangibleAssets"&& value != "null"){ returnOnTangibleAssets= std::stod(value);}
          if(key == "grahamNetNet"&& value != "null"){ grahamNetNet = std::stod(value);}
-         //std::cout<< "I am here man\n";
-         if(key == "workingCapital" && value!= "null"){ workingCapital= std::stoll(value);} else {workingCapital = 0;}
+         if(key == "workingCapital" && value!= "null"){ workingCapital= std::stoll(value);} //else {workingCapital = 0;}
          if(key == "tangibleAssetValue"&& value != "null"){tangibleAssetValue = std::stoll(value);}
          if(key == "netCurrentAssetValue"&& value != "null"){ netCurrentAssetValue= std::stoll(value);}
          if(key == "investedCapital"&& value != "null"){ investedCapital= std::stod(value);}
-         if(key == "averageReceivables" && value != "null"){averageReceivables = std::stoll(value);} else {averageReceivables = 0ll;}
-         if(key == "averagePayables" && value != "null" ){ averagePayables= std::stoll(value);} else {averagePayables = 0;}
-         if(key == "averageInventory" && value != "null" ){ averageInventory= std::stoll(value);} else {averageInventory = 0;}
+         if(key == "averageReceivables" && value != "null"){averageReceivables = std::stoll(value);} //else {averageReceivables = 0ll;}
+         if(key == "averagePayables" && value != "null" ){ averagePayables= std::stoll(value);} //else {averagePayables = 0;}
+         if(key == "averageInventory" && value != "null" ){ averageInventory= std::stoll(value);}// else {averageInventory = 0;}
          if(key == "daysSalesOutstanding"&& value != "null"){daysSalesOutstanding = std::stod(value);}
          if(key == "daysPayablesOutstanding"&& value != "null"){daysPayablesOutstanding = std::stod(value);}
          if(key == "daysOfInventoryOnHand"&& value != "null"){ daysOfInventoryOnHand= std::stod(value);}
@@ -179,82 +181,13 @@ void Key_ratios::deserialize(std::string &json_string){
          if(key == "payablesTurnover"&& value != "null"){ payablesTurnover= std::stod(value);}
          if(key == "inventoryTurnover"&& value != "null"){inventoryTurnover = std::stod(value);}
          if(key == "roe"&& value != "null"){ roe= std::stod(value);}
-         if(key == "capexPerShare" && value != "null"){ capexPerShare = std::stod(value);} else {capexPerShare = 0.0;}
+         if(key == "capexPerShare" && value != "null"){ capexPerShare = std::stod(value);}// else {capexPerShare = 0.0;}
         
          
          
     }
     
 }
-// from_json implementation
-//
-//void from_json(const nlohmann::json &j, Key_ratios& k) {
-    // Parsing std::string members with check
-    //k.symbol = j.contains("symbol") && !j["symbol"].empty() ? j["symbol"].get<std::string>() : "none";
-    //k.date = j.contains("date") && !j["date"].empty() ? j["date"].get<std::string>() : "none";
-    //k.calendarYear = j.contains("calendarYear") && !j["calendarYear"].empty() ? j["calendarYear"].get<std::string>() : "none";
-    //k.period = j.contains("period") && !j["period"].empty() ? j["period"].get<std::string>() : "none";
-
-    // Parsing double members with check
-    //k.revenuePerShare = j.contains("revenuePerShare") ? j["revenuePerShare"].get<double>() : 0.0;
-    //k.netIncomePerShare = j.contains("netIncomePerShare") ? j["netIncomePerShare"].get<double>() : 0.0;
-    //k.operatingCashFlowPerShare = j.contains("operatingCashFlowPerShare") ? j["operatingCashFlowPerShare"].get<double>() : 0.0;
-    //k.freeCashFlowPerShare = j.contains("freeCashFlowPerShare") ? j["freeCashFlowPerShare"].get<double>() : 0.0;
-    //k.cashPerShare = j.contains("cashPerShare") ? j["cashPerShare"].get<double>() : 0.0;
-    //k.bookValuePerShare = j.contains("bookValuePerShare") ? j["bookValuePerShare"].get<double>() : 0.0;
-    //k.tangibleBookValuePerShare = j.contains("tangibleBookValuePerShare") ? j["tangibleBookValuePerShare"].get<double>() : 0.0;
-    //k.shareholdersEquityPerShare = j.contains("shareholdersEquityPerShare") ? j["shareholdersEquityPerShare"].get<double>() : 0.0;
-    //k.interestDebtPerShare = j.contains("interestDebtPerShare") ? j["interestDebtPerShare"].get<double>() : 0.0;
-    //k.marketCap = j.contains("marketCap") ? j["marketCap"].get<double>() : 0.0;
-    //k.enterpriseValue = j.contains("enterpriseValue") ? j["enterpriseValue"].get<double>() : 0.0;
-    //k.peRatio = j.contains("peRatio") ? j["peRatio"].get<double>() : 0.0;
-    //k.priceToSalesRatio = j.contains("priceToSalesRatio") ? j["priceToSalesRatio"].get<double>() : 0.0;
-    //k.pocfratio = j.contains("pocfratio") ? j["pocfratio"].get<double>() : 0.0;
-    //k.pfcfRatio = j.contains("pfcfRatio") ? j["pfcfRatio"].get<double>() : 0.0;
-    //k.pbRatio = j.contains("pbRatio") ? j["pbRatio"].get<double>() : 0.0;
-    //k.ptbRatio = j.contains("ptbRatio") ? j["ptbRatio"].get<double>() : 0.0;
-    //k.evToSales = j.contains("evToSales") ? j["evToSales"].get<double>() : 0.0;
-    //k.enterpriseValueOverEBITDA = j.contains("enterpriseValueOverEBITDA") ? j["enterpriseValueOverEBITDA"].get<double>() : 0.0;
-    //k.evToOperatingCashFlow = j.contains("evToOperatingCashFlow") ? j["evToOperatingCashFlow"].get<double>() : 0.0;
-    //k.evToFreeCashFlow = j.contains("evToFreeCashFlow") ? j["evToFreeCashFlow"].get<double>() : 0.0;
-    //k.earningsYield = j.contains("earningsYield") ? j["earningsYield"].get<double>() : 0.0;
-    //k.freeCashFlowYield = j.contains("freeCashFlowYield") ? j["freeCashFlowYield"].get<double>() : 0.0;
-    //k.debtToEquity = j.contains("debtToEquity") ? j["debtToEquity"].get<double>() : 0.0;
-    //k.debtToAssets = j.contains("debtToAssets") ? j["debtToAssets"].get<double>() : 0.0;
-    //k.netDebtToEBITDA = j.contains("netDebtToEBITDA") ? j["netDebtToEBITDA"].get<double>() : 0.0;
-    //k.currentRatio = j.contains("currentRatio") ? j["currentRatio"].get<double>() : 0.0;
-    //k.interestCoverage = j.contains("interestCoverage") ? j["interestCoverage"].get<double>() : 0.0;
-    //k.incomeQuality = j.contains("incomeQuality") ? j["incomeQuality"].get<double>() : 0.0;
-    //k.dividendYield = j.contains("dividendYield") ? j["dividendYield"].get<double>() : 0.0;
-    //k.payoutRatio = j.contains("payoutRatio") ? j["payoutRatio"].get<double>() : 0.0;
-    //k.salesGeneralAndAdministrativeToRevenue = j.contains("salesGeneralAndAdministrativeToRevenue") ? j["salesGeneralAndAdministrativeToRevenue"].get<double>() : 0.0;
-    //k.researchAndDdevelopementToRevenue = j.contains("researchAndDdevelopementToRevenue") ? j["researchAndDdevelopementToRevenue"].get<double>() : 0.0;
-    //k.intangiblesToTotalAssets = j.contains("intangiblesToTotalAssets") ? j["intangiblesToTotalAssets"].get<double>() : 0.0;
-    //k.capexToOperatingCashFlow = j.contains("capexToOperatingCashFlow") ? j["capexToOperatingCashFlow"].get<double>() : 0.0;
-    //k.capexToRevenue = j.contains("capexToRevenue") ? j["capexToRevenue"].get<double>() : 0.0;
-    //k.capexToDepreciation = j.contains("capexToDepreciation") ? j["capexToDepreciation"].get<double>() : 0.0;
-    //k.stockBasedCompensationToRevenue = j.contains("stockBasedCompensationToRevenue") ? j["stockBasedCompensationToRevenue"].get<double>() : 0.0;
-    //k.grahamNumber = j.contains("grahamNumber") ? j["grahamNumber"].get<double>() : 0.0;
-    //k.roic = j.contains("roic") ? j["roic"].get<double>() : 0.0;
-    //k.returnOnTangibleAssets = j.contains("returnOnTangibleAssets") ? j["returnOnTangibleAssets"].get<double>() : 0.0;
-    //k.grahamNetNet = j.contains("grahamNetNet") ? j["grahamNetNet"].get<double>() : 0.0;
-  //  k.workingCapital = (j.contains("workingCapital") && !j["workingCapital"].empty()) ? j["workingCapital"].get<double>() : 0.0;
-    //k.tangibleAssetValue = j.contains("tangibleAssetValue") ? j["tangibleAssetValue"].get<double>() : 0.0;
-    //k.netCurrentAssetValue = j.contains("netCurrentAssetValue") ? j["netCurrentAssetValue"].get<double>() : 0.0;
-    //k.investedCapital = j.contains("investedCapital") ? j["investedCapital"].get<double>() : 0.0;
-    //k.averageReceivables = j.contains("averageReceivables") ? j["averageReceivables"].get<double>() : 0.0;
-    //k.averagePayables = j.contains("averagePayables") ? j["averagePayables"].get<double>() : 0.0;
-    //k.averageInventory = j.contains("averageInventory") ? j["averageInventory"].get<double>() : 0.0;
-   // k.daysSalesOutstanding = j.contains("daysSalesOutstanding") ? j["daysSalesOutstanding"].get<double>() : 0.0;
-    //k.daysPayablesOutstanding = j.contains("daysPayablesOutstanding") ? j["daysPayablesOutstanding"].get<double>() : 0.0;
-    //k.daysOfInventoryOnHand = j.contains("daysOfInventoryOnHand") ? j["daysOfInventoryOnHand"].get<double>() : 0.0;
-    //k.receivablesTurnover = j.contains("receivablesTurnover") ? j["receivablesTurnover"].get<double>() : 0.0;
-    //k.payablesTurnover = j.contains("payablesTurnover") ? j["payablesTurnover"].get<double>() : 0.0;
-    //k.inventoryTurnover = j.contains("inventoryTurnover") ? j["inventoryTurnover"].get<double>() : 0.0;
-    //k.roe = j.contains("roe") ? j["roe"].get<double>() : 0.0;
-    //k.capexPerShare = j.contains("capexPerShare") ? j["capexPerShare"].get<double>() : 0.0;
-//}
-
 
 std::string Key_ratios::create_file_name(std::string ticker)const{
        if(ticker.size()==0){
@@ -401,9 +334,10 @@ bool read_number_values_from_buffer_ratios(std::vector<char> &buffer, size_t &po
        
 
 bool Key_ratios::read_from_file(std::ifstream &in,std::vector<Key_ratios*> &ratios){
-     
+      Logger logger("read_kr_f.log");
+      
       if (!in){
-      std::cerr<< "IO stream it is not open or some error with it inside " + get_class_name() + ".\n";
+      logger.log("IO stream it is not open or some error with it inside " + get_class_name(), Logger::Level::Error);
       return false;   
     }
     
@@ -416,7 +350,7 @@ bool Key_ratios::read_from_file(std::ifstream &in,std::vector<Key_ratios*> &rati
         if(in.eof()){
             break;
         }  
-        std::cerr<< "Couldn't read object size from the file regrading class "<< get_class_name()<<"\n";
+        logger.log("Couldn't read object size from the file regrading class "+ get_class_name(),Logger::Level::Error);
         return false;
     }
     
@@ -425,7 +359,7 @@ bool Key_ratios::read_from_file(std::ifstream &in,std::vector<Key_ratios*> &rati
      std::vector<char> buffer(obj_size);
      
      if(!in.read(buffer.data(),obj_size)){
-         std::cerr<< "failed to read object data from file class "<< get_class_name()<<"\n";
+         logger.log("failed to read object data from file class " + get_class_name(),Logger::Level::Error);
          return false;
       }
        
@@ -440,210 +374,210 @@ bool Key_ratios::read_from_file(std::ifstream &in,std::vector<Key_ratios*> &rati
         
        
         if(!reading_string_from_buffer_ratios(buffer, pos,ratio ->symbol)){
-            std::cerr << "Error reading 'symbol' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'symbol' in "  + get_class_name(), Logger::Level::Error);
             }
          if(!reading_string_from_buffer_ratios(buffer, pos,ratio ->date)){
-            std::cerr << "Error reading 'date' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'date' in " + get_class_name(), Logger::Level::Error);
             }
          if(!reading_string_from_buffer_ratios(buffer, pos,ratio ->calendarYear)){
-            std::cerr << "Error reading 'calendarYear' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'calendarYear' in " + get_class_name(), Logger::Level::Error);
             }
           if(!reading_string_from_buffer_ratios(buffer, pos,ratio ->period)){
-            std::cerr << "Error reading 'period' in " << get_class_name() << std::endl;
+            logger.log("Error reading 'period' in " + get_class_name(), Logger::Level::Error);
             }
     
 
            if(!read_number_values_from_buffer_ratios(buffer, pos, ratio -> revenuePerShare)){
-                std::cerr << "Error reading 'revenuePerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'revenuePerShare' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->netIncomePerShare)){
-                std::cerr << "Error reading 'netIncomePerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'netIncomePerShare' in " + get_class_name(), Logger::Level::Error);
                }
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->operatingCashFlowPerShare)){
-                std::cerr << "Error reading 'operatingCashFlowPerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'operatingCashFlowPerShare' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->freeCashFlowPerShare)){
-                std::cerr << "Error reading 'freeCashFlowPerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'freeCashFlowPerShare' in " + get_class_name(), Logger::Level::Error);
                }
                
               if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->cashPerShare)){
-                std::cerr << "Error reading 'cashPerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'cashPerShare' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->bookValuePerShare)){
-                std::cerr << "Error reading 'bookValuePerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'bookValuePerShare' in " + get_class_name(), Logger::Level::Error);
                }
 
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->tangibleBookValuePerShare)){
-                std::cerr << "Error reading 'tangibleBookValuePerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'tangibleBookValuePerShare' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->shareholdersEquityPerShare)){
-                std::cerr << "Error reading 'shareholdersEquityPerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'shareholdersEquityPerShare' in " + get_class_name(), Logger::Level::Error);
                }  
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio -> interestDebtPerShare)){
-                std::cerr << "Error reading 'interestDebtPerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'interestDebtPerShare' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->marketCap)){
-                std::cerr << "Error reading 'marketCap' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'marketCap' in " + get_class_name(), Logger::Level::Error);
                }
                
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->enterpriseValue)){
-                std::cerr << "Error reading 'enterpriseValue' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'enterpriseValue' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->peRatio)){
-                std::cerr << "Error reading 'peRatio' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'peRatio' in " + get_class_name(), Logger::Level::Error);
                }
                
               if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->priceToSalesRatio)){
-                std::cerr << "Error reading 'priceToSalesRatio' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'priceToSalesRatio' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->pocfratio)){
-                std::cerr << "Error reading 'pocfratio' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'pocfratio' in " + get_class_name(), Logger::Level::Error);
                }
                
                if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->pfcfRatio)){
-                std::cerr << "Error reading 'pocfratio' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'pocfratio' in " + get_class_name(), Logger::Level::Error);
                }
 
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->pbRatio)){
-                std::cerr << "Error reading 'pbRatio' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'pbRatio' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->ptbRatio)){
-                std::cerr << "Error reading 'ptbRatio' in " << get_class_name() << std::endl;
+               logger.log("Error reading 'ptbRatio' in " + get_class_name(), Logger::Level::Error);
                }  
                
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->evToSales)){
-                std::cerr << "Error reading 'evToSales' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'evToSales' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->enterpriseValueOverEBITDA)){
-                std::cerr << "Error reading 'enterpriseValueOverEBITDA' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'enterpriseValueOverEBITDA' in " + get_class_name(), Logger::Level::Error);
                }
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->evToOperatingCashFlow)){
-                std::cerr << "Error reading 'evToOperatingCashFlow' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'evToOperatingCashFlow' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->evToFreeCashFlow)){
-                std::cerr << "Error reading 'evToFreeCashFlow' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'evToFreeCashFlow' in " + get_class_name(), Logger::Level::Error);
                }
                
               if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->earningsYield)){
-                std::cerr << "Error reading 'earningsYield' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'earningsYield' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->freeCashFlowYield)){
-                std::cerr << "Error reading 'freeCashFlowYield' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'freeCashFlowYield' in " + get_class_name(), Logger::Level::Error);
                }
                
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->debtToEquity)){
-                std::cerr << "Error reading 'debtToEquity' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'debtToEquity' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->debtToAssets)){
-                std::cerr << "Error reading 'debtToAssets' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'debtToAssets' in " + get_class_name(), Logger::Level::Error);
                }    
             
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->netDebtToEBITDA)){
-                std::cerr << "Error reading 'netDebtToEBITDA' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'netDebtToEBITDA' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->currentRatio)){
-                std::cerr << "Error reading 'currentRatio' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'currentRatio' in " + get_class_name(), Logger::Level::Error);
                }
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->interestCoverage)){
-                std::cerr << "Error reading 'interestCoverage' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'interestCoverage' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->incomeQuality)){
-                std::cerr << "Error reading 'incomeQuality' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'incomeQuality' in " + get_class_name(), Logger::Level::Error);
                }    
             
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->dividendYield)){
-                std::cerr << "Error reading 'dividendYield' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'dividendYield' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->payoutRatio)){
-                std::cerr << "Error reading 'payoutRatio' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'payoutRatio' in "  + get_class_name(), Logger::Level::Error);
                }    
                
 \
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->salesGeneralAndAdministrativeToRevenue)){
-                std::cerr << "Error reading 'salesGeneralAndAdministrativeToRevenue' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'salesGeneralAndAdministrativeToRevenue' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->researchAndDdevelopementToRevenue)){
-                std::cerr << "Error reading 'researchAndDdevelopementToRevenue' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'researchAndDdevelopementToRevenue' in " + get_class_name(), Logger::Level::Error);
                }    
             
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->intangiblesToTotalAssets)){
-                std::cerr << "Error reading 'intangiblesToTotalAssets' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'intangiblesToTotalAssets' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->capexToOperatingCashFlow)){
-                std::cerr << "Error reading 'capexToOperatingCashFlow' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'capexToOperatingCashFlow' in " + get_class_name(), Logger::Level::Error);
                }
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->capexToRevenue)){
-                std::cerr << "Error reading 'capexToRevenue' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'capexToRevenue' in " + get_class_name(), Logger::Level::Error);
                } 
                     if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->capexToDepreciation)){
-                std::cerr << "Error reading 'capexToRevenue' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'capexToRevenue' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->stockBasedCompensationToRevenue)){
-                std::cerr << "Error reading 'stockBasedCompensationToRevenue' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'stockBasedCompensationToRevenue' in " + get_class_name(), Logger::Level::Error);
                }    
             
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->grahamNumber)){
-                std::cerr << "Error reading 'grahamNumber' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'grahamNumber' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->roic)){
-                std::cerr << "Error reading 'roic' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'roic' in " + get_class_name(), Logger::Level::Error);
                }    
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->returnOnTangibleAssets)){
-                std::cerr << "Error reading 'returnOnTangibleAssets' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'returnOnTangibleAssets' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->grahamNetNet)){
-                std::cerr << "Error reading 'grahamNetNet' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'grahamNetNet' in " + get_class_name(), Logger::Level::Error);
                }    
             
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio -> workingCapital)){
-                std::cerr << "Error reading 'workingCapital' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'workingCapital' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->tangibleAssetValue)){
-                std::cerr << "Error reading 'tangibleAssetValue' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'tangibleAssetValue' in " + get_class_name(), Logger::Level::Error);
                }
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->netCurrentAssetValue)){
-                std::cerr << "Error reading 'netCurrentAssetValue' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'netCurrentAssetValue' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->investedCapital)){
-                std::cerr << "Error reading 'investedCapital' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'investedCapital' in " + get_class_name(), Logger::Level::Error);
                }    
             
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->averageReceivables)){
-                std::cerr << "Error reading 'averageReceivables' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'averageReceivables' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio -> averagePayables)){
-                std::cerr << "Error reading 'averagePayables' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'averagePayables' in " + get_class_name(), Logger::Level::Error);
                }    
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->averageInventory)){
-                std::cerr << "Error reading 'averageInventory' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'averageInventory' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->daysSalesOutstanding)){
-                std::cerr << "Error reading 'daysSalesOutstanding' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'daysSalesOutstanding' in " + get_class_name(), Logger::Level::Error);
                }    
             
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->daysPayablesOutstanding)){
-                std::cerr << "Error reading 'daysPayablesOutstanding' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'daysPayablesOutstanding' in " + get_class_name(), Logger::Level::Error);
                } 
 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio -> daysOfInventoryOnHand)){
-                std::cerr << "Error reading 'daysOfInventoryOnHand' in " << get_class_name() << std::endl;
+               logger.log("Error reading 'daysOfInventoryOnHand' in " + get_class_name(), Logger::Level::Error);
                }
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->receivablesTurnover)){
-                std::cerr << "Error reading 'receivablesTurnover' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'receivablesTurnover' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->payablesTurnover)){
-                std::cerr << "Error reading 'payablesTurnover' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'payablesTurnover' in " + get_class_name(), Logger::Level::Error);
                }    
             
              if(!read_number_values_from_buffer_ratios(buffer, pos, ratio ->inventoryTurnover)){
-                std::cerr << "Error reading '' in " << get_class_name() << std::endl;
+                logger.log("Error reading '' in " + get_class_name(), Logger::Level::Error);
                } 
             if(!read_number_values_from_buffer_ratios(buffer, pos, ratio -> roe)){
-                std::cerr << "Error reading 'roe' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'roe' in " + get_class_name(), Logger::Level::Error);
                }  
 
               if(!read_number_values_from_buffer_ratios(buffer, pos, ratio -> capexPerShare)){
-                std::cerr << "Error reading 'capexPerShare' in " << get_class_name() << std::endl;
+                logger.log("Error reading 'capexPerShare' in " + get_class_name(), Logger::Level::Error);
                }    
                
 //               std::cout<<"Hey till here seems everything fine\n ";
@@ -653,7 +587,7 @@ bool Key_ratios::read_from_file(std::ifstream &in,std::vector<Key_ratios*> &rati
            
            // Check if entire object was read
         if (pos != obj_size) {
-            std::cerr << "Mismatch in object size and bytes read for " << get_class_name() << std::endl;
+            logger.log("Mismatch in object size and bytes read for " + get_class_name(), Logger::Level::Error);
             delete ratio;
             return false;
         }

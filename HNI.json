@@ -1,0 +1,14 @@
+{
+  "ticker": "HNI",
+  "valuation": {
+    "PE_valuation": 82.922427, 
+    "DFC_valuation": 26.776471
+  },
+  "ratios": {
+    "ROIC": 9.181137,
+    "PB": 2.003151
+  },
+  "ownerEarnings": 197700000,
+  "growth_rate_revenue": 8.974670,
+  "growth_rate_net_income": 18.666812
+}

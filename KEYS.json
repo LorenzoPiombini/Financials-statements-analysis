@@ -1,0 +1,14 @@
+{
+  "ticker": "KEYS",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 15.303515,
+    "PB": 4.668006
+  },
+  "ownerEarnings": 1356000000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -13.034121
+}

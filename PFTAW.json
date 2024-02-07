@@ -1,0 +1,14 @@
+{
+  "ticker": "PFTAW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -2.457501,
+    "PB": 1.012463
+  },
+  "ownerEarnings": -9877792,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MANT",
+  "valuation": {
+    "PE_valuation": 189.813814, 
+    "DFC_valuation": 1299.287133
+  },
+  "ratios": {
+    "ROIC": 5.864601,
+    "PB": 1.769812
+  },
+  "ownerEarnings": 258698000,
+  "growth_rate_revenue": 24.299137,
+  "growth_rate_net_income": 562.812065
+}

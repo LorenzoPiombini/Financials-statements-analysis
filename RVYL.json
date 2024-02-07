@@ -1,0 +1,14 @@
+{
+  "ticker": "RVYL",
+  "valuation": {
+    "PE_valuation": 421.158949, 
+    "DFC_valuation": -681.242516
+  },
+  "ratios": {
+    "ROIC": -60.726366,
+    "PB": -10.901523
+  },
+  "ownerEarnings": -12409113,
+  "growth_rate_revenue": 177.337416,
+  "growth_rate_net_income": 51.782397
+}

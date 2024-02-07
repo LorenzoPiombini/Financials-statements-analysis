@@ -1,0 +1,14 @@
+{
+  "ticker": "BODY-WT",
+  "valuation": {
+    "PE_valuation": 15.752301, 
+    "DFC_valuation": -27.929610
+  },
+  "ratios": {
+    "ROIC": -64.723368,
+    "PB": 38.228629
+  },
+  "ownerEarnings": -61429000,
+  "growth_rate_revenue": -27.426629,
+  "growth_rate_net_income": 7106.198916
+}

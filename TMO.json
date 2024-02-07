@@ -1,0 +1,14 @@
+{
+  "ticker": "TMO",
+  "valuation": {
+    "PE_valuation": 9128.542404, 
+    "DFC_valuation": 12599453.873459
+  },
+  "ratios": {
+    "ROIC": 7.111612,
+    "PB": 4.902582
+  },
+  "ownerEarnings": 9183000000,
+  "growth_rate_revenue": 27.233309,
+  "growth_rate_net_income": 36.693605
+}

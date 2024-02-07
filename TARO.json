@@ -1,0 +1,14 @@
+{
+  "ticker": "TARO",
+  "valuation": {
+    "PE_valuation": 102.125050, 
+    "DFC_valuation": 5671.528948
+  },
+  "ratios": {
+    "ROIC": 0.681222,
+    "PB": 0.528099
+  },
+  "ownerEarnings": 37234000,
+  "growth_rate_revenue": 32.261546,
+  "growth_rate_net_income": inf
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RAD",
+  "valuation": {
+    "PE_valuation": 78.232332, 
+    "DFC_valuation": -4932.976969
+  },
+  "ratios": {
+    "ROIC": -1.206446,
+    "PB": -0.306766
+  },
+  "ownerEarnings": 1079307000,
+  "growth_rate_revenue": 22.121104,
+  "growth_rate_net_income": 21.336905
+}

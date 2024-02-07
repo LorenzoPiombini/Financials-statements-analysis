@@ -1,0 +1,14 @@
+{
+  "ticker": "ARGUW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.750023
+  },
+  "ratios": {
+    "ROIC": -0.161101,
+    "PB": -16.341506
+  },
+  "ownerEarnings": 7327600,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MDGL",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -120.021270,
+    "PB": 25.199340
+  },
+  "ownerEarnings": -324979000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 2366.049548
+}

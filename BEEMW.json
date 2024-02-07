@@ -1,0 +1,14 @@
+{
+  "ticker": "BEEMW",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -74.119474,
+    "PB": 7.459397
+  },
+  "ownerEarnings": -19634000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 21641.947038
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "GPRO",
+  "valuation": {
+    "PE_valuation": -1.654514, 
+    "DFC_valuation": 3.909846
+  },
+  "ratios": {
+    "ROIC": 3.889515,
+    "PB": 1.271801
+  },
+  "ownerEarnings": 12617000,
+  "growth_rate_revenue": 60.692920,
+  "growth_rate_net_income": -275.293736
+}

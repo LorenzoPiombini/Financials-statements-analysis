@@ -1,0 +1,14 @@
+{
+  "ticker": "TCX",
+  "valuation": {
+    "PE_valuation": -2657.752796, 
+    "DFC_valuation": -2017189.340663
+  },
+  "ratios": {
+    "ROIC": -8.420072,
+    "PB": 3.779281
+  },
+  "ownerEarnings": 134723000,
+  "growth_rate_revenue": 172.920062,
+  "growth_rate_net_income": -95.046815
+}

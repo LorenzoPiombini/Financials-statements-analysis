@@ -1,0 +1,14 @@
+{
+  "ticker": "KRNT",
+  "valuation": {
+    "PE_valuation": -180.954915, 
+    "DFC_valuation": -519.687216
+  },
+  "ratios": {
+    "ROIC": -10.619470,
+    "PB": 1.316397
+  },
+  "ownerEarnings": -96563000,
+  "growth_rate_revenue": 30.356154,
+  "growth_rate_net_income": -63.486864
+}

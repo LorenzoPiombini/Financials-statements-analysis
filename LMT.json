@@ -1,0 +1,14 @@
+{
+  "ticker": "LMT",
+  "valuation": {
+    "PE_valuation": 682.625072, 
+    "DFC_valuation": 3005.102179
+  },
+  "ratios": {
+    "ROIC": 40.110712,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 11520000000,
+  "growth_rate_revenue": 15.950688,
+  "growth_rate_net_income": -61.457284
+}

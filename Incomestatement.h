@@ -4,6 +4,7 @@
 
 #include <string>
 #include <fstream>
+#include <vector>
 
 class Income_statement{
  
@@ -44,6 +45,7 @@ class Income_statement{
 		 double epsdiluted;
 		 long long weightedAverageShsOut;
 		 long long  weightedAverageShsOutDil;
+         double outstanding_share_from_sec;
 		 std::string link;
 		 std::string finalLink;
      
@@ -84,6 +86,8 @@ class Income_statement{
 		 double get_eps_diluted()const;
 		 long long get_weighted_average_shs_out()const;
 		 long long  get_weighted_average_dhs_out_dil()const;
+         long long get_outstanding_share_from_sec()const;
+         void set_outstanding_share_from_sec(long long shares_outstanding );
 		 std::string get_link()const;
 		 std::string get_finalLink()const;
          std::string get_class_name()const;

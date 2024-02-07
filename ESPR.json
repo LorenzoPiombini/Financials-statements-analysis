@@ -1,0 +1,14 @@
+{
+  "ticker": "ESPR",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 20.510032,
+    "PB": -0.308736
+  },
+  "ownerEarnings": -192064000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 27.568145
+}

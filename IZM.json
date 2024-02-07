@@ -1,0 +1,14 @@
+{
+  "ticker": "IZM",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -1.109738
+  },
+  "ratios": {
+    "ROIC": 11.539397,
+    "PB": 2.049055
+  },
+  "ownerEarnings": 3053795,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

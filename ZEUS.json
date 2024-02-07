@@ -1,0 +1,14 @@
+{
+  "ticker": "ZEUS",
+  "valuation": {
+    "PE_valuation": 71.889748, 
+    "DFC_valuation": 3108.461371
+  },
+  "ratios": {
+    "ROIC": 13.310006,
+    "PB": 0.751757
+  },
+  "ownerEarnings": 149431000,
+  "growth_rate_revenue": 10.152133,
+  "growth_rate_net_income": 95.938442
+}

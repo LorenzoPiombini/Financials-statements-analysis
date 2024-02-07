@@ -1,0 +1,14 @@
+{
+  "ticker": "BMR",
+  "valuation": {
+    "PE_valuation": 0.643405, 
+    "DFC_valuation": -4.250584
+  },
+  "ratios": {
+    "ROIC": -418.609372,
+    "PB": -20.461900
+  },
+  "ownerEarnings": -1109999,
+  "growth_rate_revenue": 127.329662,
+  "growth_rate_net_income": 141.048599
+}

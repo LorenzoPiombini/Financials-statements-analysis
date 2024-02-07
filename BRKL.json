@@ -1,0 +1,14 @@
+{
+  "ticker": "BRKL",
+  "valuation": {
+    "PE_valuation": 531.535835, 
+    "DFC_valuation": 356666.374195
+  },
+  "ratios": {
+    "ROIC": 6.091675,
+    "PB": 1.099329
+  },
+  "ownerEarnings": 217092000,
+  "growth_rate_revenue": 828.727802,
+  "growth_rate_net_income": 13.748526
+}

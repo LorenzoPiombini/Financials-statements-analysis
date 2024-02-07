@@ -1,0 +1,14 @@
+{
+  "ticker": "IO",
+  "valuation": {
+    "PE_valuation": 4.389738, 
+    "DFC_valuation": -175.470928
+  },
+  "ratios": {
+    "ROIC": -15.813175,
+    "PB": -0.477029
+  },
+  "ownerEarnings": 42893000,
+  "growth_rate_revenue": 46.966991,
+  "growth_rate_net_income": 59.392692
+}

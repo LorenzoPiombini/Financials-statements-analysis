@@ -1,0 +1,14 @@
+{
+  "ticker": "PEP",
+  "valuation": {
+    "PE_valuation": 526.257190, 
+    "DFC_valuation": 1761.650076
+  },
+  "ratios": {
+    "ROIC": 17.026982,
+    "PB": 14.537921
+  },
+  "ownerEarnings": 18713000000,
+  "growth_rate_revenue": 21.542550,
+  "growth_rate_net_income": 20.000782
+}

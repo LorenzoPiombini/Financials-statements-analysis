@@ -1,0 +1,14 @@
+{
+  "ticker": "SWAV",
+  "valuation": {
+    "PE_valuation": -3521.183390, 
+    "DFC_valuation": 724255.285248
+  },
+  "ratios": {
+    "ROIC": 36.502125,
+    "PB": 14.436377
+  },
+  "ownerEarnings": 201424000,
+  "growth_rate_revenue": 319.422651,
+  "growth_rate_net_income": -615.793887
+}

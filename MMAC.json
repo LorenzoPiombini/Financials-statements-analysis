@@ -1,0 +1,14 @@
+{
+  "ticker": "MMAC",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 107.160525
+  },
+  "ratios": {
+    "ROIC": 0.000030,
+    "PB": 0.493894
+  },
+  "ownerEarnings": -9570989,
+  "growth_rate_revenue": 35.217966,
+  "growth_rate_net_income": 257.851675
+}

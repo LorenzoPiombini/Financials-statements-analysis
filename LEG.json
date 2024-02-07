@@ -1,0 +1,14 @@
+{
+  "ticker": "LEG",
+  "valuation": {
+    "PE_valuation": 104.305335, 
+    "DFC_valuation": 1123.700730
+  },
+  "ratios": {
+    "ROIC": 9.014382,
+    "PB": 2.676343
+  },
+  "ownerEarnings": 722700000,
+  "growth_rate_revenue": 22.528354,
+  "growth_rate_net_income": 9.721113
+}

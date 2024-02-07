@@ -1,0 +1,14 @@
+{
+  "ticker": "SLCA",
+  "valuation": {
+    "PE_valuation": -9.656998, 
+    "DFC_valuation": 727.189639
+  },
+  "ratios": {
+    "ROIC": 6.656698,
+    "PB": 1.354845
+  },
+  "ownerEarnings": 397757000,
+  "growth_rate_revenue": 45.533684,
+  "growth_rate_net_income": 122.362528
+}

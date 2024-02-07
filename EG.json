@@ -1,0 +1,14 @@
+{
+  "ticker": "EG",
+  "valuation": {
+    "PE_valuation": 899.345610, 
+    "DFC_valuation": 6327.292246
+  },
+  "ratios": {
+    "ROIC": 6.069813,
+    "PB": 1.530569
+  },
+  "ownerEarnings": 754000000,
+  "growth_rate_revenue": 36.995326,
+  "growth_rate_net_income": 10961.697855
+}

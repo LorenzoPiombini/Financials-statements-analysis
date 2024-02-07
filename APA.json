@@ -1,0 +1,14 @@
+{
+  "ticker": "APA",
+  "valuation": {
+    "PE_valuation": 576.641045, 
+    "DFC_valuation": 218707.773916
+  },
+  "ratios": {
+    "ROIC": 47.086549,
+    "PB": 36.637730
+  },
+  "ownerEarnings": 4239000000,
+  "growth_rate_revenue": 29.541936,
+  "growth_rate_net_income": 138.235335
+}

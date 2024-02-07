@@ -1,0 +1,14 @@
+{
+  "ticker": "TDW-WT",
+  "valuation": {
+    "PE_valuation": 0.812074, 
+    "DFC_valuation": 23.977708
+  },
+  "ratios": {
+    "ROIC": 24.823771,
+    "PB": 1.877973
+  },
+  "ownerEarnings": 119321000,
+  "growth_rate_revenue": 0.681764,
+  "growth_rate_net_income": 11.874953
+}

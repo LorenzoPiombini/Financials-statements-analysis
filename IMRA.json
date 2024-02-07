@@ -1,0 +1,14 @@
+{
+  "ticker": "IMRA",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.814838,
+    "PB": 0.298225
+  },
+  "ownerEarnings": -71825000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 0.633303
+}

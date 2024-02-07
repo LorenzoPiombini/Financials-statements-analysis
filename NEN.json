@@ -1,0 +1,14 @@
+{
+  "ticker": "NEN",
+  "valuation": {
+    "PE_valuation": 161.537330, 
+    "DFC_valuation": 80941.698547
+  },
+  "ratios": {
+    "ROIC": -13.877901,
+    "PB": 888.207398
+  },
+  "ownerEarnings": 35142179,
+  "growth_rate_revenue": 5.892580,
+  "growth_rate_net_income": -358.779762
+}

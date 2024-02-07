@@ -1,0 +1,14 @@
+{
+  "ticker": "LTHM",
+  "valuation": {
+    "PE_valuation": 28.880473, 
+    "DFC_valuation": 60.316161
+  },
+  "ratios": {
+    "ROIC": 15.239244,
+    "PB": 2.365673
+  },
+  "ownerEarnings": 592500000,
+  "growth_rate_revenue": 16.690664,
+  "growth_rate_net_income": -28.150640
+}

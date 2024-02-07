@@ -1,0 +1,14 @@
+{
+  "ticker": "ZKIN",
+  "valuation": {
+    "PE_valuation": 1.057182, 
+    "DFC_valuation": -13.921989
+  },
+  "ratios": {
+    "ROIC": 2.061901,
+    "PB": 0.288826
+  },
+  "ownerEarnings": 7630425,
+  "growth_rate_revenue": 25.442952,
+  "growth_rate_net_income": -14.657432
+}

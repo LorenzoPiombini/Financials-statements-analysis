@@ -1,0 +1,14 @@
+{
+  "ticker": "MINM",
+  "valuation": {
+    "PE_valuation": 166.052094, 
+    "DFC_valuation": -29.082542
+  },
+  "ratios": {
+    "ROIC": -67.509270,
+    "PB": 0.539393
+  },
+  "ownerEarnings": -14232290,
+  "growth_rate_revenue": -3.540859,
+  "growth_rate_net_income": -135.816567
+}

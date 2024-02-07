@@ -1,0 +1,14 @@
+{
+  "ticker": "LKQ",
+  "valuation": {
+    "PE_valuation": 2525.032032, 
+    "DFC_valuation": 2291649.982340
+  },
+  "ratios": {
+    "ROIC": 11.062358,
+    "PB": 2.714086
+  },
+  "ownerEarnings": 1583000000,
+  "growth_rate_revenue": 135.217675,
+  "growth_rate_net_income": inf
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CNFRL",
+  "valuation": {
+    "PE_valuation": 8.250707, 
+    "DFC_valuation": -942.807754
+  },
+  "ratios": {
+    "ROIC": -17.556441,
+    "PB": 0.885835
+  },
+  "ownerEarnings": 26054000,
+  "growth_rate_revenue": 54.499601,
+  "growth_rate_net_income": -3832.752504
+}

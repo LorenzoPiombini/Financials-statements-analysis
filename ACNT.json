@@ -1,0 +1,14 @@
+{
+  "ticker": "ACNT",
+  "valuation": {
+    "PE_valuation": 13.164539, 
+    "DFC_valuation": 1.123443
+  },
+  "ratios": {
+    "ROIC": 9.223603,
+    "PB": 0.660619
+  },
+  "ownerEarnings": 43725000,
+  "growth_rate_revenue": 20.640386,
+  "growth_rate_net_income": 1232.706755
+}

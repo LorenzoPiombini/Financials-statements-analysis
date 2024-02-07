@@ -1,0 +1,14 @@
+{
+  "ticker": "PLAG",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -13.006157,
+    "PB": 0.908961
+  },
+  "ownerEarnings": 5754395,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -7672.641283
+}

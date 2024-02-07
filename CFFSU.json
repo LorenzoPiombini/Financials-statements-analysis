@@ -1,0 +1,14 @@
+{
+  "ticker": "CFFSU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.124280,
+    "PB": 0.278238
+  },
+  "ownerEarnings": -3657620,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

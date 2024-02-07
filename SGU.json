@@ -1,0 +1,14 @@
+{
+  "ticker": "SGU",
+  "valuation": {
+    "PE_valuation": 29.592054, 
+    "DFC_valuation": 3235.905511
+  },
+  "ratios": {
+    "ROIC": 7.023962,
+    "PB": 1.534121
+  },
+  "ownerEarnings": 140026000,
+  "growth_rate_revenue": 93.618055,
+  "growth_rate_net_income": 523.599858
+}

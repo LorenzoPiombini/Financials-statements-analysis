@@ -1,0 +1,14 @@
+{
+  "ticker": "GLTO",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -97.254113,
+    "PB": 0.473183
+  },
+  "ownerEarnings": -64953000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 24.796623
+}

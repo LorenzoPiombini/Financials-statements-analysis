@@ -1,0 +1,14 @@
+{
+  "ticker": "CCK",
+  "valuation": {
+    "PE_valuation": 208.687044, 
+    "DFC_valuation": -188.562516
+  },
+  "ratios": {
+    "ROIC": 11.354103,
+    "PB": 5.373662
+  },
+  "ownerEarnings": 2622000000,
+  "growth_rate_revenue": 21.682341,
+  "growth_rate_net_income": 10.568706
+}

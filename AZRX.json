@@ -1,0 +1,14 @@
+{
+  "ticker": "AZRX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 683419189166.548950,
+    "PB": -20.330908
+  },
+  "ownerEarnings": -19795986480169,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 53814979.654887
+}

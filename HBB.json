@@ -1,0 +1,14 @@
+{
+  "ticker": "HBB",
+  "valuation": {
+    "PE_valuation": 10.493096, 
+    "DFC_valuation": -60.433789
+  },
+  "ratios": {
+    "ROIC": 8.869708,
+    "PB": 1.389888
+  },
+  "ownerEarnings": 39959000,
+  "growth_rate_revenue": -5.562114,
+  "growth_rate_net_income": 8.490697
+}

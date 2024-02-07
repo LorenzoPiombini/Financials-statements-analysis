@@ -1,0 +1,14 @@
+{
+  "ticker": "SBRA",
+  "valuation": {
+    "PE_valuation": -37.916406, 
+    "DFC_valuation": 24871.334311
+  },
+  "ratios": {
+    "ROIC": 2.374485,
+    "PB": 0.939238
+  },
+  "ownerEarnings": 526594000,
+  "growth_rate_revenue": 244.138462,
+  "growth_rate_net_income": 76.796254
+}

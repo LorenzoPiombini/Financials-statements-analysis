@@ -1,0 +1,14 @@
+{
+  "ticker": "TGLS",
+  "valuation": {
+    "PE_valuation": 81.790553, 
+    "DFC_valuation": -44.813933
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 177486000,
+  "growth_rate_revenue": 25.019411,
+  "growth_rate_net_income": -382.939972
+}

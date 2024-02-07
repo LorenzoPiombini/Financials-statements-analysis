@@ -1,0 +1,14 @@
+{
+  "ticker": "UNB",
+  "valuation": {
+    "PE_valuation": 102.668782, 
+    "DFC_valuation": 5117.683478
+  },
+  "ratios": {
+    "ROIC": 13.901005,
+    "PB": 1.946746
+  },
+  "ownerEarnings": 24943000,
+  "growth_rate_revenue": 120.881939,
+  "growth_rate_net_income": 4.796449
+}

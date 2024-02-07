@@ -1,0 +1,14 @@
+{
+  "ticker": "WBA",
+  "valuation": {
+    "PE_valuation": -320.949125, 
+    "DFC_valuation": 1076.885909
+  },
+  "ratios": {
+    "ROIC": -5.795997,
+    "PB": 1.091234
+  },
+  "ownerEarnings": -3330000000,
+  "growth_rate_revenue": 17.342083,
+  "growth_rate_net_income": 16.810530
+}

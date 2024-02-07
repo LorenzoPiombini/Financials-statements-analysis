@@ -1,0 +1,14 @@
+{
+  "ticker": "AKU",
+  "valuation": {
+    "PE_valuation": 3.321313, 
+    "DFC_valuation": 375.727705
+  },
+  "ratios": {
+    "ROIC": 2.695275,
+    "PB": -1.334102
+  },
+  "ownerEarnings": 357810000,
+  "growth_rate_revenue": 66.978038,
+  "growth_rate_net_income": -44.573792
+}

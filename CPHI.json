@@ -1,0 +1,14 @@
+{
+  "ticker": "CPHI",
+  "valuation": {
+    "PE_valuation": 47.245455, 
+    "DFC_valuation": -15843.123244
+  },
+  "ratios": {
+    "ROIC": -69.768748,
+    "PB": 1.175135
+  },
+  "ownerEarnings": -6349680,
+  "growth_rate_revenue": 9354.224637,
+  "growth_rate_net_income": -158.717841
+}

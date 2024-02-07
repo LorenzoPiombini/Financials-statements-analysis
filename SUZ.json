@@ -1,0 +1,14 @@
+{
+  "ticker": "SUZ",
+  "valuation": {
+    "PE_valuation": 203.350513, 
+    "DFC_valuation": 5956.734089
+  },
+  "ratios": {
+    "ROIC": 15.119117,
+    "PB": 1.993528
+  },
+  "ownerEarnings": 33773505000,
+  "growth_rate_revenue": 12.966716,
+  "growth_rate_net_income": -120.063350
+}

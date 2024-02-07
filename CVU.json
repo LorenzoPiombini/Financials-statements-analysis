@@ -1,0 +1,14 @@
+{
+  "ticker": "CVU",
+  "valuation": {
+    "PE_valuation": 7.874760, 
+    "DFC_valuation": 16.728931
+  },
+  "ratios": {
+    "ROIC": 41.986236,
+    "PB": 9.297108
+  },
+  "ownerEarnings": 14091434,
+  "growth_rate_revenue": 18.206134,
+  "growth_rate_net_income": -213.636364
+}

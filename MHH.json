@@ -1,0 +1,14 @@
+{
+  "ticker": "MHH",
+  "valuation": {
+    "PE_valuation": 11.476524, 
+    "DFC_valuation": 77.436700
+  },
+  "ratios": {
+    "ROIC": 5.894980,
+    "PB": 1.483482
+  },
+  "ownerEarnings": 2543000,
+  "growth_rate_revenue": -3.672364,
+  "growth_rate_net_income": -25.468520
+}

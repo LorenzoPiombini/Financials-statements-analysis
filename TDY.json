@@ -1,0 +1,14 @@
+{
+  "ticker": "TDY",
+  "valuation": {
+    "PE_valuation": 1174.099612, 
+    "DFC_valuation": 1757.507140
+  },
+  "ratios": {
+    "ROIC": 6.990862,
+    "PB": 2.294108
+  },
+  "ownerEarnings": 1194300000,
+  "growth_rate_revenue": 2.035235,
+  "growth_rate_net_income": 47.186360
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BOH-PA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 12.032842,
+    "PB": 2.332173
+  },
+  "ownerEarnings": 318895000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 25.441778
+}

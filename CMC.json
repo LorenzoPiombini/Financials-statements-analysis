@@ -1,0 +1,14 @@
+{
+  "ticker": "CMC",
+  "valuation": {
+    "PE_valuation": 164.718972, 
+    "DFC_valuation": 1916.048633
+  },
+  "ratios": {
+    "ROIC": 6.949279,
+    "PB": 1.599249
+  },
+  "ownerEarnings": 987477000,
+  "growth_rate_revenue": 4.373698,
+  "growth_rate_net_income": 43.363240
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "WES",
+  "valuation": {
+    "PE_valuation": 112.379207, 
+    "DFC_valuation": 1941.039495
+  },
+  "ratios": {
+    "ROIC": 15.985311,
+    "PB": 3.411854
+  },
+  "ownerEarnings": 2876268000,
+  "growth_rate_revenue": 70.514087,
+  "growth_rate_net_income": 33.358589
+}

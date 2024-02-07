@@ -1,0 +1,14 @@
+{
+  "ticker": "LICY",
+  "valuation": {
+    "PE_valuation": 1371.248069, 
+    "DFC_valuation": -27712069.593103
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -18012692,
+  "growth_rate_revenue": 773.941151,
+  "growth_rate_net_income": 274.557122
+}

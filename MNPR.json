@@ -1,0 +1,14 @@
+{
+  "ticker": "MNPR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -104.048171,
+    "PB": 2.987423
+  },
+  "ownerEarnings": -12178140,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 335.093408
+}

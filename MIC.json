@@ -1,0 +1,14 @@
+{
+  "ticker": "MIC",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -65643.074428
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 5727457000,
+  "growth_rate_revenue": 323.368475,
+  "growth_rate_net_income": 1126.658577
+}

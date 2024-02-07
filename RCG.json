@@ -1,0 +1,14 @@
+{
+  "ticker": "RCG",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -28.542740,
+    "PB": 0.794813
+  },
+  "ownerEarnings": -4232376,
+  "growth_rate_revenue": -25.912693,
+  "growth_rate_net_income": 243.138841
+}

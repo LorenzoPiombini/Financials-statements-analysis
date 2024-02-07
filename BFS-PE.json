@@ -1,0 +1,14 @@
+{
+  "ticker": "BFS-PE",
+  "valuation": {
+    "PE_valuation": 198.988452, 
+    "DFC_valuation": 3905.455723
+  },
+  "ratios": {
+    "ROIC": 5.798443,
+    "PB": 3.378048
+  },
+  "ownerEarnings": 118837000,
+  "growth_rate_revenue": 57.879422,
+  "growth_rate_net_income": 196.046589
+}

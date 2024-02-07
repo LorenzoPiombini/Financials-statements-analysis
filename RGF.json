@@ -1,0 +1,14 @@
+{
+  "ticker": "RGF",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -948.011464
+  },
+  "ratios": {
+    "ROIC": -5.051463,
+    "PB": 1.168161
+  },
+  "ownerEarnings": 859000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

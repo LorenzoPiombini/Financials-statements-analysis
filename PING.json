@@ -1,0 +1,14 @@
+{
+  "ticker": "PING",
+  "valuation": {
+    "PE_valuation": 82.315166, 
+    "DFC_valuation": 13.046057
+  },
+  "ratios": {
+    "ROIC": -8.338220,
+    "PB": 2.539867
+  },
+  "ownerEarnings": -46637000,
+  "growth_rate_revenue": -9.863623,
+  "growth_rate_net_income": 193.101722
+}

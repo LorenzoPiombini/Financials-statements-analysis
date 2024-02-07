@@ -1,0 +1,14 @@
+{
+  "ticker": "OLIT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -3.780156,
+    "PB": 13.749171
+  },
+  "ownerEarnings": -3314487,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LGI",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -21.109478,
+    "PB": 0.727442
+  },
+  "ownerEarnings": -49013942,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

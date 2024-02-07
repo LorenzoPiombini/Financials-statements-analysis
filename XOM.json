@@ -1,0 +1,14 @@
+{
+  "ticker": "XOM",
+  "valuation": {
+    "PE_valuation": 128.316445, 
+    "DFC_valuation": 297.398803
+  },
+  "ratios": {
+    "ROIC": 22.130552,
+    "PB": 2.377143
+  },
+  "ownerEarnings": 83194000000,
+  "growth_rate_revenue": 6.194001,
+  "growth_rate_net_income": 4.625719
+}

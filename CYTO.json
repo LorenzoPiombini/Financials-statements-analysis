@@ -1,0 +1,14 @@
+{
+  "ticker": "CYTO",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 1716.264978,
+    "PB": -9.820161
+  },
+  "ownerEarnings": -23796026,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 73.347485
+}

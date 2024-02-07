@@ -1,0 +1,14 @@
+{
+  "ticker": "III",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 11.254092,
+    "PB": 2.206540
+  },
+  "ownerEarnings": 26842000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -1992.363874
+}

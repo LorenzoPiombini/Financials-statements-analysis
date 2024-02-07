@@ -1,0 +1,14 @@
+{
+  "ticker": "PRPO",
+  "valuation": {
+    "PE_valuation": 4.239459, 
+    "DFC_valuation": -21.558689
+  },
+  "ratios": {
+    "ROIC": -68.584643,
+    "PB": 0.768989
+  },
+  "ownerEarnings": -15445000,
+  "growth_rate_revenue": 12.140362,
+  "growth_rate_net_income": 54.859495
+}

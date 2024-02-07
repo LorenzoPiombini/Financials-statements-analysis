@@ -1,0 +1,14 @@
+{
+  "ticker": "MVIS",
+  "valuation": {
+    "PE_valuation": 5.079260, 
+    "DFC_valuation": -50.185926
+  },
+  "ratios": {
+    "ROIC": -43.818757,
+    "PB": 4.345854
+  },
+  "ownerEarnings": -62746000,
+  "growth_rate_revenue": 491.259790,
+  "growth_rate_net_income": 75.533421
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LIXT",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -132.140012,
+    "PB": 1.562022
+  },
+  "ownerEarnings": -7837451,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 394.641023
+}

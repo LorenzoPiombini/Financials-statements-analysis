@@ -1,0 +1,14 @@
+{
+  "ticker": "CNM",
+  "valuation": {
+    "PE_valuation": 376.872621, 
+    "DFC_valuation": 152.109292
+  },
+  "ratios": {
+    "ROIC": 17.859523,
+    "PB": 2.078995
+  },
+  "ownerEarnings": 875000000,
+  "growth_rate_revenue": -4.093277,
+  "growth_rate_net_income": 121.452992
+}

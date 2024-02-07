@@ -1,0 +1,14 @@
+{
+  "ticker": "SELF",
+  "valuation": {
+    "PE_valuation": 2.731343, 
+    "DFC_valuation": 64.070090
+  },
+  "ratios": {
+    "ROIC": 1.533369,
+    "PB": 1.006820
+  },
+  "ownerEarnings": 5085841,
+  "growth_rate_revenue": -9.328887,
+  "growth_rate_net_income": -236.109948
+}

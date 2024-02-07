@@ -1,0 +1,14 @@
+{
+  "ticker": "CERE",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -39.914958,
+    "PB": 9.153051
+  },
+  "ownerEarnings": -414428000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 65.279266
+}

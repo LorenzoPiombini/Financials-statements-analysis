@@ -1,0 +1,14 @@
+{
+  "ticker": "AMGN",
+  "valuation": {
+    "PE_valuation": 19008.171315, 
+    "DFC_valuation": 88077555.488934
+  },
+  "ratios": {
+    "ROIC": 11.168289,
+    "PB": 38.596099
+  },
+  "ownerEarnings": 6482000000,
+  "growth_rate_revenue": 144.154461,
+  "growth_rate_net_income": -82.553581
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "XEL",
+  "valuation": {
+    "PE_valuation": 182.015315, 
+    "DFC_valuation": -468.373839
+  },
+  "ratios": {
+    "ROIC": 5.988660,
+    "PB": 2.299860
+  },
+  "ownerEarnings": 10487000000,
+  "growth_rate_revenue": 3.808314,
+  "growth_rate_net_income": -0.016623
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CHCI",
+  "valuation": {
+    "PE_valuation": 3.036021, 
+    "DFC_valuation": 0.000000
+  },
+  "ratios": {
+    "ROIC": 17.510459,
+    "PB": 1.321810
+  },
+  "ownerEarnings": 8134000,
+  "growth_rate_revenue": 61.037213,
+  "growth_rate_net_income": 8.496482
+}

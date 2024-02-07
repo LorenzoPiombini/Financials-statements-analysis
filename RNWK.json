@@ -1,0 +1,14 @@
+{
+  "ticker": "RNWK",
+  "valuation": {
+    "PE_valuation": 2.677265, 
+    "DFC_valuation": -329.254638
+  },
+  "ratios": {
+    "ROIC": -170.626668,
+    "PB": 0.941798
+  },
+  "ownerEarnings": -25143000,
+  "growth_rate_revenue": 99.128503,
+  "growth_rate_net_income": -407.243149
+}

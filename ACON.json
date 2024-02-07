@@ -1,0 +1,14 @@
+{
+  "ticker": "ACON",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -55.632954
+  },
+  "ratios": {
+    "ROIC": -408.685641,
+    "PB": 31.693255
+  },
+  "ownerEarnings": -6982174,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

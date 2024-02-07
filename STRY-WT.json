@@ -1,0 +1,14 @@
+{
+  "ticker": "STRY-WT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -217.984954
+  },
+  "ratios": {
+    "ROIC": -82.175800,
+    "PB": -52.930963
+  },
+  "ownerEarnings": -44750000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

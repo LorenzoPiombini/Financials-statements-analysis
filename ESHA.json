@@ -1,0 +1,14 @@
+{
+  "ticker": "ESHA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -0.241028
+  },
+  "ratios": {
+    "ROIC": -7.657693,
+    "PB": 27559.447301
+  },
+  "ownerEarnings": -19468,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

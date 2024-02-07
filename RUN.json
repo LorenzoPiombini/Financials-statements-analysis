@@ -1,0 +1,14 @@
+{
+  "ticker": "RUN",
+  "valuation": {
+    "PE_valuation": 177.734857, 
+    "DFC_valuation": -87865.996764
+  },
+  "ratios": {
+    "ROIC": -2.552129,
+    "PB": 0.756777
+  },
+  "ownerEarnings": 2393472000,
+  "growth_rate_revenue": 106.330733,
+  "growth_rate_net_income": 1317.975978
+}

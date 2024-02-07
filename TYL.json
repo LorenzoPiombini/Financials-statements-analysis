@@ -1,0 +1,14 @@
+{
+  "ticker": "TYL",
+  "valuation": {
+    "PE_valuation": 916.067971, 
+    "DFC_valuation": 3246.042909
+  },
+  "ratios": {
+    "ROIC": 5.029771,
+    "PB": 5.103741
+  },
+  "ownerEarnings": 325513000,
+  "growth_rate_revenue": 12.278062,
+  "growth_rate_net_income": -2.016369
+}

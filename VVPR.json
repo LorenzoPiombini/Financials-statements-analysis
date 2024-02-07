@@ -1,0 +1,14 @@
+{
+  "ticker": "VVPR",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -30.234806,
+    "PB": 4.386426
+  },
+  "ownerEarnings": -1926000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -inf
+}

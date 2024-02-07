@@ -1,0 +1,14 @@
+{
+  "ticker": "MASS",
+  "valuation": {
+    "PE_valuation": 46.849196, 
+    "DFC_valuation": -50.944003
+  },
+  "ratios": {
+    "ROIC": -16.047386,
+    "PB": 1.259047
+  },
+  "ownerEarnings": -38930000,
+  "growth_rate_revenue": -0.230669,
+  "growth_rate_net_income": 52.440848
+}

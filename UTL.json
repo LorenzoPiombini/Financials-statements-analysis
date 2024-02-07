@@ -1,0 +1,14 @@
+{
+  "ticker": "UTL",
+  "valuation": {
+    "PE_valuation": 152.039808, 
+    "DFC_valuation": -706.479182
+  },
+  "ratios": {
+    "ROIC": 5.869864,
+    "PB": 1.757399
+  },
+  "ownerEarnings": 282300000,
+  "growth_rate_revenue": 12.905141,
+  "growth_rate_net_income": 0.263889
+}

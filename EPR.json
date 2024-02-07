@@ -1,0 +1,14 @@
+{
+  "ticker": "EPR",
+  "valuation": {
+    "PE_valuation": 972.678810, 
+    "DFC_valuation": 110060.367043
+  },
+  "ratios": {
+    "ROIC": 5.087161,
+    "PB": 1.115169
+  },
+  "ownerEarnings": 619762000,
+  "growth_rate_revenue": 275.216745,
+  "growth_rate_net_income": 331.536023
+}

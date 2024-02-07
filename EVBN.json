@@ -1,0 +1,14 @@
+{
+  "ticker": "EVBN",
+  "valuation": {
+    "PE_valuation": 500.189250, 
+    "DFC_valuation": 144609.757396
+  },
+  "ratios": {
+    "ROIC": 7.165293,
+    "PB": 1.344250
+  },
+  "ownerEarnings": 38139000,
+  "growth_rate_revenue": 158.352209,
+  "growth_rate_net_income": 15.805157
+}

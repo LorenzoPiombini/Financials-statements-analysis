@@ -1,0 +1,14 @@
+{
+  "ticker": "KOSS",
+  "valuation": {
+    "PE_valuation": 19.152320, 
+    "DFC_valuation": 71.853246
+  },
+  "ratios": {
+    "ROIC": -63.942041,
+    "PB": 1.081131
+  },
+  "ownerEarnings": -58179372,
+  "growth_rate_revenue": 17.672193,
+  "growth_rate_net_income": -8.364190
+}

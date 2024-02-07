@@ -1,0 +1,14 @@
+{
+  "ticker": "TROO",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -1.620622,
+    "PB": 3.560601
+  },
+  "ownerEarnings": 236000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1762.064075
+}

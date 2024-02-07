@@ -1,0 +1,14 @@
+{
+  "ticker": "FFBC",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 8.207257,
+    "PB": 1.155658
+  },
+  "ownerEarnings": 445641000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 10.953933
+}

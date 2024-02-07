@@ -1,0 +1,14 @@
+{
+  "ticker": "ICLR",
+  "valuation": {
+    "PE_valuation": 4014.738230, 
+    "DFC_valuation": 617408.514661
+  },
+  "ratios": {
+    "ROIC": 5.307586,
+    "PB": 1.863700
+  },
+  "ownerEarnings": 1677545000,
+  "growth_rate_revenue": 50.016127,
+  "growth_rate_net_income": 53.058443
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VBTX",
+  "valuation": {
+    "PE_valuation": 892.519429, 
+    "DFC_valuation": 5405064.953618
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 108261000,
+  "growth_rate_revenue": 159.295377,
+  "growth_rate_net_income": 350.624972
+}

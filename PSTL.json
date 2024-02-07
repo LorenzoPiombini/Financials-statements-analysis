@@ -1,0 +1,14 @@
+{
+  "ticker": "PSTL",
+  "valuation": {
+    "PE_valuation": 35.087250, 
+    "DFC_valuation": 274.684963
+  },
+  "ratios": {
+    "ROIC": 2.271821,
+    "PB": 1.175522
+  },
+  "ownerEarnings": 31762000,
+  "growth_rate_revenue": 68.776530,
+  "growth_rate_net_income": -154.617964
+}

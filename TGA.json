@@ -1,0 +1,14 @@
+{
+  "ticker": "TGA",
+  "valuation": {
+    "PE_valuation": -82.231372, 
+    "DFC_valuation": 38092770.016491
+  },
+  "ratios": {
+    "ROIC": 25.120086,
+    "PB": 1.222784
+  },
+  "ownerEarnings": 85306000,
+  "growth_rate_revenue": 50.000000,
+  "growth_rate_net_income": -inf
+}

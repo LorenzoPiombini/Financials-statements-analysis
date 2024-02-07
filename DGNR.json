@@ -1,0 +1,14 @@
+{
+  "ticker": "DGNR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -91.636784
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 220772000,
+  "growth_rate_revenue": 24.447919,
+  "growth_rate_net_income": 28.005246
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "LYLT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": 329.691080
+  },
+  "ratios": {
+    "ROIC": -0.387524,
+    "PB": 5.044015
+  },
+  "ownerEarnings": 257363000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

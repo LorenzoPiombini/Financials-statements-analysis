@@ -1,0 +1,14 @@
+{
+  "ticker": "NILE-PD",
+  "valuation": {
+    "PE_valuation": 3.944936, 
+    "DFC_valuation": -27.711879
+  },
+  "ratios": {
+    "ROIC": -117657.032413,
+    "PB": 0.129073
+  },
+  "ownerEarnings": 21190932,
+  "growth_rate_revenue": -1.940205,
+  "growth_rate_net_income": -1869.751660
+}

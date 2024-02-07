@@ -1,0 +1,14 @@
+{
+  "ticker": "IDXX",
+  "valuation": {
+    "PE_valuation": 6170.242103, 
+    "DFC_valuation": 207389.146215
+  },
+  "ratios": {
+    "ROIC": 34.141461,
+    "PB": 56.042000
+  },
+  "ownerEarnings": 967643000,
+  "growth_rate_revenue": 69.362404,
+  "growth_rate_net_income": 75.369907
+}

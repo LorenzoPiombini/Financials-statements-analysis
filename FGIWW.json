@@ -1,0 +1,14 @@
+{
+  "ticker": "FGIWW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.476093
+  },
+  "ratios": {
+    "ROIC": 8.041340,
+    "PB": 0.882484
+  },
+  "ownerEarnings": 5731459,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

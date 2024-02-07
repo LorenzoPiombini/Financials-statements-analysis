@@ -1,0 +1,14 @@
+{
+  "ticker": "DTP",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 3616.577554
+  },
+  "ratios": {
+    "ROIC": 1.340602,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 3901000000,
+  "growth_rate_revenue": 4.387571,
+  "growth_rate_net_income": -94.321995
+}

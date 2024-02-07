@@ -1,0 +1,14 @@
+{
+  "ticker": "AMRC",
+  "valuation": {
+    "PE_valuation": 95.967794, 
+    "DFC_valuation": -2718.594533
+  },
+  "ratios": {
+    "ROIC": 6.890386,
+    "PB": 3.594770
+  },
+  "ownerEarnings": 520226000,
+  "growth_rate_revenue": 11.988958,
+  "growth_rate_net_income": -14.962272
+}

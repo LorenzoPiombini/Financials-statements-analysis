@@ -1,0 +1,14 @@
+{
+  "ticker": "ZIMV",
+  "valuation": {
+    "PE_valuation": 5.822486, 
+    "DFC_valuation": -34.844593
+  },
+  "ratios": {
+    "ROIC": -2.197101,
+    "PB": 0.321024
+  },
+  "ownerEarnings": 173305000,
+  "growth_rate_revenue": -30.810568,
+  "growth_rate_net_income": 67.488676
+}

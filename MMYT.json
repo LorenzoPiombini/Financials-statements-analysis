@@ -1,0 +1,14 @@
+{
+  "ticker": "MMYT",
+  "valuation": {
+    "PE_valuation": 6.362995, 
+    "DFC_valuation": 204.299078
+  },
+  "ratios": {
+    "ROIC": -2.383797,
+    "PB": 3.254860
+  },
+  "ownerEarnings": 90950000,
+  "growth_rate_revenue": 56.003889,
+  "growth_rate_net_income": -174.971862
+}

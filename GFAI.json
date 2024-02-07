@@ -1,0 +1,14 @@
+{
+  "ticker": "GFAI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -1061.607598
+  },
+  "ratios": {
+    "ROIC": -24.299850,
+    "PB": 0.328153
+  },
+  "ownerEarnings": 7124691,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

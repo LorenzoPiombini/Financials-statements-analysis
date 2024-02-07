@@ -1,0 +1,14 @@
+{
+  "ticker": "SPOK",
+  "valuation": {
+    "PE_valuation": -2.055022, 
+    "DFC_valuation": 6.575729
+  },
+  "ratios": {
+    "ROIC": 160.482517,
+    "PB": 0.936303
+  },
+  "ownerEarnings": 53174000,
+  "growth_rate_revenue": -2.927668,
+  "growth_rate_net_income": 25.293643
+}

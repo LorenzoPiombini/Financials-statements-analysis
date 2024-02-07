@@ -1,0 +1,14 @@
+{
+  "ticker": "DPRO",
+  "valuation": {
+    "PE_valuation": 7.174301, 
+    "DFC_valuation": -1.899272
+  },
+  "ratios": {
+    "ROIC": -232.000988,
+    "PB": 3.085992
+  },
+  "ownerEarnings": -28605534,
+  "growth_rate_revenue": 15174968043562.146484,
+  "growth_rate_net_income": 454.367732
+}

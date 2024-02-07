@@ -1,0 +1,14 @@
+{
+  "ticker": "RNST",
+  "valuation": {
+    "PE_valuation": 162.291493, 
+    "DFC_valuation": 14946.042071
+  },
+  "ratios": {
+    "ROIC": 6.520142,
+    "PB": 0.981125
+  },
+  "ownerEarnings": 295547000,
+  "growth_rate_revenue": 11.176728,
+  "growth_rate_net_income": 8.908670
+}

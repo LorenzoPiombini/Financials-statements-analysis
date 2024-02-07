@@ -1,0 +1,14 @@
+{
+  "ticker": "AER",
+  "valuation": {
+    "PE_valuation": -110.590221, 
+    "DFC_valuation": 3505.108030
+  },
+  "ratios": {
+    "ROIC": 6.009440,
+    "PB": 0.529814
+  },
+  "ownerEarnings": 16367730000,
+  "growth_rate_revenue": 27.268240,
+  "growth_rate_net_income": -139.529612
+}

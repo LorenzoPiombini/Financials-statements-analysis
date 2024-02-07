@@ -1,0 +1,14 @@
+{
+  "ticker": "ZVIA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -34.737631
+  },
+  "ratios": {
+    "ROIC": -42.761018,
+    "PB": 1.616991
+  },
+  "ownerEarnings": -71159000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

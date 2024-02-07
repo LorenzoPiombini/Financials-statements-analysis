@@ -1,0 +1,14 @@
+{
+  "ticker": "PRSRU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -0.689119,
+    "PB": 1.229163
+  },
+  "ownerEarnings": -1000636,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SASR",
+  "valuation": {
+    "PE_valuation": 586.155651, 
+    "DFC_valuation": 217243.111271
+  },
+  "ratios": {
+    "ROIC": 9.053815,
+    "PB": 1.113646
+  },
+  "ownerEarnings": 316141000,
+  "growth_rate_revenue": 188.747024,
+  "growth_rate_net_income": 21.408502
+}

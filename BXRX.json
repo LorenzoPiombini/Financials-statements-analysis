@@ -1,0 +1,14 @@
+{
+  "ticker": "BXRX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 461.881148,
+    "PB": -0.043500
+  },
+  "ownerEarnings": -35127000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 97.783232
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "IAG",
+  "valuation": {
+    "PE_valuation": 219.317286, 
+    "DFC_valuation": -3854780053.666782
+  },
+  "ratios": {
+    "ROIC": -1.605412,
+    "PB": 0.579495
+  },
+  "ownerEarnings": 1015200000,
+  "growth_rate_revenue": 16983.205167,
+  "growth_rate_net_income": 29.568821
+}

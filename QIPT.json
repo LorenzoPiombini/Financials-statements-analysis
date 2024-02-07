@@ -1,0 +1,14 @@
+{
+  "ticker": "QIPT",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 14.007290,
+    "PB": 2.024731
+  },
+  "ownerEarnings": 73224000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 860.335632
+}

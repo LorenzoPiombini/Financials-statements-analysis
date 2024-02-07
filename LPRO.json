@@ -1,0 +1,14 @@
+{
+  "ticker": "LPRO",
+  "valuation": {
+    "PE_valuation": 11.439934, 
+    "DFC_valuation": 90.144142
+  },
+  "ratios": {
+    "ROIC": 18.870328,
+    "PB": 3.999696
+  },
+  "ownerEarnings": 73041000,
+  "growth_rate_revenue": 19.124859,
+  "growth_rate_net_income": -134.737454
+}

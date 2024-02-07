@@ -1,0 +1,14 @@
+{
+  "ticker": "APLD",
+  "valuation": {
+    "PE_valuation": 2110.379809, 
+    "DFC_valuation": -239179577.579207
+  },
+  "ratios": {
+    "ROIC": -26.126829,
+    "PB": 13.216074
+  },
+  "ownerEarnings": 65015000,
+  "growth_rate_revenue": 5001.649570,
+  "growth_rate_net_income": 1228.033128
+}

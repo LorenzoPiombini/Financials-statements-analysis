@@ -1,0 +1,14 @@
+{
+  "ticker": "ADEX-WT",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -288.757996
+  },
+  "ratios": {
+    "ROIC": 51.210418,
+    "PB": -7.315624
+  },
+  "ownerEarnings": 38966000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

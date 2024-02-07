@@ -1,0 +1,14 @@
+{
+  "ticker": "CMTL",
+  "valuation": {
+    "PE_valuation": 71.305644, 
+    "DFC_valuation": -7942.182664
+  },
+  "ratios": {
+    "ROIC": -1.567151,
+    "PB": 0.516794
+  },
+  "ownerEarnings": 36136000,
+  "growth_rate_revenue": 15.005772,
+  "growth_rate_net_income": -171.596660
+}

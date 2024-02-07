@@ -1,0 +1,14 @@
+{
+  "ticker": "VRNT",
+  "valuation": {
+    "PE_valuation": -24.924970, 
+    "DFC_valuation": 304.872496
+  },
+  "ratios": {
+    "ROIC": 0.916001,
+    "PB": 1.915175
+  },
+  "ownerEarnings": 53584000,
+  "growth_rate_revenue": 28.834268,
+  "growth_rate_net_income": -100.598146
+}

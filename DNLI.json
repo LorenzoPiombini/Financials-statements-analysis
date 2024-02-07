@@ -1,0 +1,14 @@
+{
+  "ticker": "DNLI",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -29.297323,
+    "PB": 3.348914
+  },
+  "ownerEarnings": -427170000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 167.078503
+}

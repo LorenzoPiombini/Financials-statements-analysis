@@ -1,0 +1,14 @@
+{
+  "ticker": "ARRY",
+  "valuation": {
+    "PE_valuation": -49.194062, 
+    "DFC_valuation": 139.222483
+  },
+  "ratios": {
+    "ROIC": 1.347914,
+    "PB": 6.832593
+  },
+  "ownerEarnings": 36746000,
+  "growth_rate_revenue": 36.797404,
+  "growth_rate_net_income": -127.723787
+}

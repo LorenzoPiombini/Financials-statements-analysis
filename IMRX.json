@@ -1,0 +1,14 @@
+{
+  "ticker": "IMRX",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -104.150595
+  },
+  "ratios": {
+    "ROIC": -42.233367,
+    "PB": 1.165007
+  },
+  "ownerEarnings": -55036307,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

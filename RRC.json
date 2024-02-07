@@ -1,0 +1,14 @@
+{
+  "ticker": "RRC",
+  "valuation": {
+    "PE_valuation": -280.514976, 
+    "DFC_valuation": 30316011.491544
+  },
+  "ratios": {
+    "ROIC": 50.269115,
+    "PB": 2.095360
+  },
+  "ownerEarnings": 4805901000,
+  "growth_rate_revenue": 65.146735,
+  "growth_rate_net_income": 123.511905
+}

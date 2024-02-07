@@ -1,0 +1,14 @@
+{
+  "ticker": "LIVKW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -0.111695
+  },
+  "ratios": {
+    "ROIC": -0.831783,
+    "PB": 1.267884
+  },
+  "ownerEarnings": -673625,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

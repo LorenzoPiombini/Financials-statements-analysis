@@ -1,0 +1,14 @@
+{
+  "ticker": "FBMS",
+  "valuation": {
+    "PE_valuation": 485.671502, 
+    "DFC_valuation": 75128.646348
+  },
+  "ratios": {
+    "ROIC": 9.240463,
+    "PB": 1.040357
+  },
+  "ownerEarnings": 140852000,
+  "growth_rate_revenue": 244.096255,
+  "growth_rate_net_income": -229.609494
+}

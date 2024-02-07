@@ -1,0 +1,14 @@
+{
+  "ticker": "MKC-V",
+  "valuation": {
+    "PE_valuation": 173.381940, 
+    "DFC_valuation": 4263.834958
+  },
+  "ratios": {
+    "ROIC": 7.654713,
+    "PB": 3.438333
+  },
+  "ownerEarnings": 889400000,
+  "growth_rate_revenue": 10.874492,
+  "growth_rate_net_income": 26.327715
+}

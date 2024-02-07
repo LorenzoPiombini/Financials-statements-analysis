@@ -1,0 +1,14 @@
+{
+  "ticker": "MIDD",
+  "valuation": {
+    "PE_valuation": 2516.719751, 
+    "DFC_valuation": 367475.858316
+  },
+  "ratios": {
+    "ROIC": 8.921519,
+    "PB": 2.588983
+  },
+  "ownerEarnings": 621605000,
+  "growth_rate_revenue": 47.982118,
+  "growth_rate_net_income": -276.731602
+}

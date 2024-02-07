@@ -1,0 +1,14 @@
+{
+  "ticker": "SBEV-WT",
+  "valuation": {
+    "PE_valuation": 8.903749, 
+    "DFC_valuation": -4305.731794
+  },
+  "ratios": {
+    "ROIC": -148.491150,
+    "PB": 3.856063
+  },
+  "ownerEarnings": -20148757,
+  "growth_rate_revenue": 32.696379,
+  "growth_rate_net_income": 109.278212
+}

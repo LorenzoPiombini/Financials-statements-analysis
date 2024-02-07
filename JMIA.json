@@ -1,0 +1,14 @@
+{
+  "ticker": "JMIA",
+  "valuation": {
+    "PE_valuation": 11.458434, 
+    "DFC_valuation": -93.549589
+  },
+  "ratios": {
+    "ROIC": -123.715803,
+    "PB": 1.830221
+  },
+  "ownerEarnings": -200533000,
+  "growth_rate_revenue": 19.494558,
+  "growth_rate_net_income": 7.091625
+}

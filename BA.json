@@ -1,0 +1,14 @@
+{
+  "ticker": "BA",
+  "valuation": {
+    "PE_valuation": 195.190701, 
+    "DFC_valuation": 147736.864722
+  },
+  "ratios": {
+    "ROIC": -1.897681,
+    "PB": -9.167645
+  },
+  "ownerEarnings": 6000000,
+  "growth_rate_revenue": 19.975898,
+  "growth_rate_net_income": 33.177081
+}

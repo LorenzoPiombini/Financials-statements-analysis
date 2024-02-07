@@ -1,0 +1,14 @@
+{
+  "ticker": "OCCI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -14.293873
+  },
+  "ratios": {
+    "ROIC": -1.571158,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -1888359,
+  "growth_rate_revenue": -944.632650,
+  "growth_rate_net_income": -950.343728
+}

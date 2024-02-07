@@ -1,0 +1,14 @@
+{
+  "ticker": "TRS",
+  "valuation": {
+    "PE_valuation": 27.536349, 
+    "DFC_valuation": 34.869925
+  },
+  "ratios": {
+    "ROIC": 6.529048,
+    "PB": 1.798006
+  },
+  "ownerEarnings": 159060000,
+  "growth_rate_revenue": 25851.168118,
+  "growth_rate_net_income": -6831.403222
+}

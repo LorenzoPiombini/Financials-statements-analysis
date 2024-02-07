@@ -1,0 +1,14 @@
+{
+  "ticker": "RSF",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 5.366722
+  },
+  "ratios": {
+    "ROIC": 4.965351,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 3365349,
+  "growth_rate_revenue": -214.584876,
+  "growth_rate_net_income": -1884.687221
+}

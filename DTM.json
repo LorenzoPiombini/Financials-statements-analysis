@@ -1,0 +1,14 @@
+{
+  "ticker": "DTM",
+  "valuation": {
+    "PE_valuation": 55.571878, 
+    "DFC_valuation": 243.582166
+  },
+  "ratios": {
+    "ROIC": 5.074067,
+    "PB": 1.333577
+  },
+  "ownerEarnings": 1002000000,
+  "growth_rate_revenue": -6.387414,
+  "growth_rate_net_income": -9.957132
+}

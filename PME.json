@@ -1,0 +1,14 @@
+{
+  "ticker": "PME",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 3.849099,
+    "PB": 0.638009
+  },
+  "ownerEarnings": 88119032,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 2107.822717
+}

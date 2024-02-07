@@ -1,0 +1,14 @@
+{
+  "ticker": "RMED",
+  "valuation": {
+    "PE_valuation": 0.244989, 
+    "DFC_valuation": -282.684635
+  },
+  "ratios": {
+    "ROIC": -283.582918,
+    "PB": 0.657695
+  },
+  "ownerEarnings": -18728000,
+  "growth_rate_revenue": -29.609323,
+  "growth_rate_net_income": 104.994513
+}

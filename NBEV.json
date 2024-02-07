@@ -1,0 +1,14 @@
+{
+  "ticker": "NBEV",
+  "valuation": {
+    "PE_valuation": 221.312439, 
+    "DFC_valuation": -79332.976359
+  },
+  "ratios": {
+    "ROIC": -12.272638,
+    "PB": 1.756591
+  },
+  "ownerEarnings": -23601000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -inf
+}

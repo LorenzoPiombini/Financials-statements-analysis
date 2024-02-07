@@ -1,0 +1,14 @@
+{
+  "ticker": "KEP",
+  "valuation": {
+    "PE_valuation": 91595.505171, 
+    "DFC_valuation": -8810186.248994
+  },
+  "ratios": {
+    "ROIC": -48.230887,
+    "PB": 0.347497
+  },
+  "ownerEarnings": 4920381000000,
+  "growth_rate_revenue": 14.568768,
+  "growth_rate_net_income": 25.273361
+}

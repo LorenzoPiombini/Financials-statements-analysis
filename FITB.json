@@ -1,0 +1,14 @@
+{
+  "ticker": "FITB",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 8.972993,
+    "PB": 1.303981
+  },
+  "ownerEarnings": 5145000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 28.407468
+}

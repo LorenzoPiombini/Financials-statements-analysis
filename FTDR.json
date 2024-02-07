@@ -1,0 +1,14 @@
+{
+  "ticker": "FTDR",
+  "valuation": {
+    "PE_valuation": 19.787689, 
+    "DFC_valuation": 80.791123
+  },
+  "ratios": {
+    "ROIC": 17.085504,
+    "PB": 27.892459
+  },
+  "ownerEarnings": 253000000,
+  "growth_rate_revenue": 12.489324,
+  "growth_rate_net_income": 1.523301
+}

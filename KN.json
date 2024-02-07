@@ -1,0 +1,14 @@
+{
+  "ticker": "KN",
+  "valuation": {
+    "PE_valuation": -46.452307, 
+    "DFC_valuation": 35.706942
+  },
+  "ratios": {
+    "ROIC": 6.368323,
+    "PB": 1.516481
+  },
+  "ownerEarnings": 596100000,
+  "growth_rate_revenue": -2.358997,
+  "growth_rate_net_income": -20.319911
+}

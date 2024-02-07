@@ -1,0 +1,14 @@
+{
+  "ticker": "DDF",
+  "valuation": {
+    "PE_valuation": -inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 0.361553,
+    "PB": 0.905154
+  },
+  "ownerEarnings": 954681,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

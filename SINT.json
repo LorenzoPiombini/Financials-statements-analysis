@@ -1,0 +1,14 @@
+{
+  "ticker": "SINT",
+  "valuation": {
+    "PE_valuation": 2.384294, 
+    "DFC_valuation": -187.512946
+  },
+  "ratios": {
+    "ROIC": -141.778804,
+    "PB": 0.460175
+  },
+  "ownerEarnings": -12677000,
+  "growth_rate_revenue": -5.918942,
+  "growth_rate_net_income": 51.794631
+}

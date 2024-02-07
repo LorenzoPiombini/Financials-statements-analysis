@@ -1,0 +1,14 @@
+{
+  "ticker": "AACIU",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": 15.599382,
+    "PB": 4.614841
+  },
+  "ownerEarnings": -6706924,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

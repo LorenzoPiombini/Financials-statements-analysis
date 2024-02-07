@@ -1,0 +1,14 @@
+{
+  "ticker": "PRLD",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -57.694016,
+    "PB": 1.464024
+  },
+  "ownerEarnings": -144341000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 37.908004
+}

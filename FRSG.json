@@ -1,0 +1,14 @@
+{
+  "ticker": "FRSG",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -6.467425
+  },
+  "ratios": {
+    "ROIC": 3.102074,
+    "PB": -13.264703
+  },
+  "ownerEarnings": -310323,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

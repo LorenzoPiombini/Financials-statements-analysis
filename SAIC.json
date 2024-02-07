@@ -1,0 +1,14 @@
+{
+  "ticker": "SAIC",
+  "valuation": {
+    "PE_valuation": 62.466579, 
+    "DFC_valuation": 518.054198
+  },
+  "ratios": {
+    "ROIC": 9.259103,
+    "PB": 3.397653
+  },
+  "ownerEarnings": 696000000,
+  "growth_rate_revenue": -15.800423,
+  "growth_rate_net_income": 180.369038
+}

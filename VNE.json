@@ -1,0 +1,14 @@
+{
+  "ticker": "VNE",
+  "valuation": {
+    "PE_valuation": 17.117907, 
+    "DFC_valuation": -202.629457
+  },
+  "ratios": {
+    "ROIC": -59.788070,
+    "PB": 4.640268
+  },
+  "ownerEarnings": -179000000,
+  "growth_rate_revenue": -0.545892,
+  "growth_rate_net_income": 125.812247
+}

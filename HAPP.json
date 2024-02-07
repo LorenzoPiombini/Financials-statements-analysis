@@ -1,0 +1,14 @@
+{
+  "ticker": "HAPP",
+  "valuation": {
+    "PE_valuation": -143.314462, 
+    "DFC_valuation": -32.045600
+  },
+  "ratios": {
+    "ROIC": -97.169171,
+    "PB": 0.152563
+  },
+  "ownerEarnings": -29945607,
+  "growth_rate_revenue": 14.206468,
+  "growth_rate_net_income": -2001.527679
+}

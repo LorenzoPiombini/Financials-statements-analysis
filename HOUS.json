@@ -1,0 +1,14 @@
+{
+  "ticker": "HOUS",
+  "valuation": {
+    "PE_valuation": 5.849132, 
+    "DFC_valuation": -170.581124
+  },
+  "ratios": {
+    "ROIC": 5.494255,
+    "PB": 0.412235
+  },
+  "ownerEarnings": 1494000000,
+  "growth_rate_revenue": 8.045370,
+  "growth_rate_net_income": 14.588869
+}

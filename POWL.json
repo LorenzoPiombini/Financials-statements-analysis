@@ -1,0 +1,14 @@
+{
+  "ticker": "POWL",
+  "valuation": {
+    "PE_valuation": 241.350051, 
+    "DFC_valuation": 6420.965555
+  },
+  "ratios": {
+    "ROIC": 14.211124,
+    "PB": 2.854188
+  },
+  "ownerEarnings": 44885000,
+  "growth_rate_revenue": 20.328544,
+  "growth_rate_net_income": 3.519814
+}

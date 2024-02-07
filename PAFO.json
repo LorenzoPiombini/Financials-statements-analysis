@@ -1,0 +1,14 @@
+{
+  "ticker": "PAFO",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -9.994147
+  },
+  "ratios": {
+    "ROIC": -0.384035,
+    "PB": 16.001494
+  },
+  "ownerEarnings": -221447,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

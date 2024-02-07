@@ -1,0 +1,14 @@
+{
+  "ticker": "PUYI",
+  "valuation": {
+    "PE_valuation": 21.072376, 
+    "DFC_valuation": -94.329273
+  },
+  "ratios": {
+    "ROIC": -29.772846,
+    "PB": 14.063346
+  },
+  "ownerEarnings": -65926000,
+  "growth_rate_revenue": 9.789558,
+  "growth_rate_net_income": -9.000723
+}

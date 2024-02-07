@@ -1,0 +1,14 @@
+{
+  "ticker": "PRMW",
+  "valuation": {
+    "PE_valuation": -11.933555, 
+    "DFC_valuation": 533.825038
+  },
+  "ratios": {
+    "ROIC": 2.387139,
+    "PB": 1.947351
+  },
+  "ownerEarnings": 634300000,
+  "growth_rate_revenue": 74.399743,
+  "growth_rate_net_income": -52.523727
+}

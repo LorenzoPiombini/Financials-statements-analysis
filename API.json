@@ -1,0 +1,14 @@
+{
+  "ticker": "API",
+  "valuation": {
+    "PE_valuation": 38.634670, 
+    "DFC_valuation": -79.242758
+  },
+  "ratios": {
+    "ROIC": -14.246016,
+    "PB": 0.599210
+  },
+  "ownerEarnings": 130823000,
+  "growth_rate_revenue": 19.075170,
+  "growth_rate_net_income": 102.017734
+}

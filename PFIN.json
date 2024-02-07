@@ -1,0 +1,14 @@
+{
+  "ticker": "PFIN",
+  "valuation": {
+    "PE_valuation": -1.983323, 
+    "DFC_valuation": 14.737605
+  },
+  "ratios": {
+    "ROIC": -1.872965,
+    "PB": 0.383480
+  },
+  "ownerEarnings": 4185000,
+  "growth_rate_revenue": 9.921328,
+  "growth_rate_net_income": 8.500458
+}

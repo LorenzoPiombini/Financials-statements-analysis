@@ -1,0 +1,14 @@
+{
+  "ticker": "INDO",
+  "valuation": {
+    "PE_valuation": -0.260688, 
+    "DFC_valuation": -19.897834
+  },
+  "ratios": {
+    "ROIC": 7.904852,
+    "PB": 2.390904
+  },
+  "ownerEarnings": -3840095,
+  "growth_rate_revenue": 16.945714,
+  "growth_rate_net_income": -306.245639
+}

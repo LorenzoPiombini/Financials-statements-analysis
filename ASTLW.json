@@ -1,0 +1,14 @@
+{
+  "ticker": "ASTLW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -54.587122
+  },
+  "ratios": {
+    "ROIC": 14.547396,
+    "PB": 0.917868
+  },
+  "ownerEarnings": 568800000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

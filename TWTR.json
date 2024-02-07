@@ -1,0 +1,14 @@
+{
+  "ticker": "TWTR",
+  "valuation": {
+    "PE_valuation": 214.919844, 
+    "DFC_valuation": -54094.131958
+  },
+  "ratios": {
+    "ROIC": -2.798298,
+    "PB": 4.659973
+  },
+  "ownerEarnings": 807456000,
+  "growth_rate_revenue": 188.240756,
+  "growth_rate_net_income": 186.232379
+}

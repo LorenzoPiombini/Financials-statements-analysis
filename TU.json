@@ -1,0 +1,14 @@
+{
+  "ticker": "TU",
+  "valuation": {
+    "PE_valuation": 38.782851, 
+    "DFC_valuation": 3669.811449
+  },
+  "ratios": {
+    "ROIC": 5.239999,
+    "PB": 2.011642
+  },
+  "ownerEarnings": 9871000000,
+  "growth_rate_revenue": 10.464942,
+  "growth_rate_net_income": 4.488911
+}

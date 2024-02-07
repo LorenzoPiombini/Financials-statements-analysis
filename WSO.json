@@ -1,0 +1,14 @@
+{
+  "ticker": "WSO",
+  "valuation": {
+    "PE_valuation": 19945.296895, 
+    "DFC_valuation": 20305796.304792
+  },
+  "ratios": {
+    "ROIC": 28.215422,
+    "PB": 4.694865
+  },
+  "ownerEarnings": 744677000,
+  "growth_rate_revenue": 171.669723,
+  "growth_rate_net_income": 33.535539
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AVCTW",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -309.567054,
+    "PB": 96.016412
+  },
+  "ownerEarnings": -59251000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 1617.595300
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FSSIW",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -2.249780
+  },
+  "ratios": {
+    "ROIC": -916.359406,
+    "PB": -14225.807121
+  },
+  "ownerEarnings": -660312,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

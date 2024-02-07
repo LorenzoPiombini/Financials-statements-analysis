@@ -1,0 +1,14 @@
+{
+  "ticker": "NRIM",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 14.063215,
+    "PB": 1.438971
+  },
+  "ownerEarnings": 52903000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 55.499084
+}

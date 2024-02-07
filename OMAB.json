@@ -1,0 +1,14 @@
+{
+  "ticker": "OMAB",
+  "valuation": {
+    "PE_valuation": 3458.600679, 
+    "DFC_valuation": 1767.928182
+  },
+  "ratios": {
+    "ROIC": 23.660695,
+    "PB": 6.946962
+  },
+  "ownerEarnings": 9088625000,
+  "growth_rate_revenue": 16.898411,
+  "growth_rate_net_income": 392.808963
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "RNLX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -137.495399,
+    "PB": 6.504101
+  },
+  "ownerEarnings": -38041000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -389728025147.814270
+}

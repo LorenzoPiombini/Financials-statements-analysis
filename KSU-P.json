@@ -1,0 +1,14 @@
+{
+  "ticker": "KSU-P",
+  "valuation": {
+    "PE_valuation": 237.862115, 
+    "DFC_valuation": 973.113419
+  },
+  "ratios": {
+    "ROIC": 8.258095,
+    "PB": 4.720670
+  },
+  "ownerEarnings": 1889800000,
+  "growth_rate_revenue": 2.739190,
+  "growth_rate_net_income": -223.105289
+}

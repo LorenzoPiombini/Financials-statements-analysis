@@ -1,0 +1,14 @@
+{
+  "ticker": "HHC",
+  "valuation": {
+    "PE_valuation": 835.569875, 
+    "DFC_valuation": 3370.885312
+  },
+  "ratios": {
+    "ROIC": 2.107497,
+    "PB": 1.090299
+  },
+  "ownerEarnings": 589805000,
+  "growth_rate_revenue": 48.545196,
+  "growth_rate_net_income": -174.967074
+}

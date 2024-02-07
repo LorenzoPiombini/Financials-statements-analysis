@@ -1,0 +1,14 @@
+{
+  "ticker": "INN",
+  "valuation": {
+    "PE_valuation": -3.142650, 
+    "DFC_valuation": 220.553964
+  },
+  "ratios": {
+    "ROIC": 0.638110,
+    "PB": 0.790910
+  },
+  "ownerEarnings": 262320000,
+  "growth_rate_revenue": 26.972390,
+  "growth_rate_net_income": -83.467295
+}

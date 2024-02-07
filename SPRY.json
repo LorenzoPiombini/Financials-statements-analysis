@@ -1,0 +1,14 @@
+{
+  "ticker": "SPRY",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -24.628168
+  },
+  "ratios": {
+    "ROIC": -12.709719,
+    "PB": 1.248965
+  },
+  "ownerEarnings": -40841000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

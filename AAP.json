@@ -1,0 +1,14 @@
+{
+  "ticker": "AAP",
+  "valuation": {
+    "PE_valuation": 474.040695, 
+    "DFC_valuation": 1533.148794
+  },
+  "ratios": {
+    "ROIC": 6.418528,
+    "PB": 3.514955
+  },
+  "ownerEarnings": 1284587000,
+  "growth_rate_revenue": 31.390534,
+  "growth_rate_net_income": 350.587337
+}

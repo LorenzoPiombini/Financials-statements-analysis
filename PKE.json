@@ -1,0 +1,14 @@
+{
+  "ticker": "PKE",
+  "valuation": {
+    "PE_valuation": 7.857021, 
+    "DFC_valuation": 19.715134
+  },
+  "ratios": {
+    "ROIC": 8.325519,
+    "PB": 2.868496
+  },
+  "ownerEarnings": 10389000,
+  "growth_rate_revenue": 17.045153,
+  "growth_rate_net_income": -7.822866
+}

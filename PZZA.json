@@ -1,0 +1,14 @@
+{
+  "ticker": "PZZA",
+  "valuation": {
+    "PE_valuation": 707.462476, 
+    "DFC_valuation": 7624.222235
+  },
+  "ratios": {
+    "ROIC": 12.346569,
+    "PB": -10.406428
+  },
+  "ownerEarnings": 243971000,
+  "growth_rate_revenue": 75.850019,
+  "growth_rate_net_income": 76.465099
+}

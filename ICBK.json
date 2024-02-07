@@ -1,0 +1,14 @@
+{
+  "ticker": "ICBK",
+  "valuation": {
+    "PE_valuation": 11.823058, 
+    "DFC_valuation": -349.068144
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.820897
+  },
+  "ownerEarnings": 46327000,
+  "growth_rate_revenue": 10.841275,
+  "growth_rate_net_income": 9.384146
+}

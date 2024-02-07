@@ -1,0 +1,14 @@
+{
+  "ticker": "CBAN",
+  "valuation": {
+    "PE_valuation": 91.590727, 
+    "DFC_valuation": 4648.919755
+  },
+  "ratios": {
+    "ROIC": 6.649430,
+    "PB": 0.947395
+  },
+  "ownerEarnings": 54053000,
+  "growth_rate_revenue": 86.380869,
+  "growth_rate_net_income": 20.828883
+}

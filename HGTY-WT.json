@@ -1,0 +1,14 @@
+{
+  "ticker": "HGTY-WT",
+  "valuation": {
+    "PE_valuation": 5.651494, 
+    "DFC_valuation": 1.470031
+  },
+  "ratios": {
+    "ROIC": 4.392141,
+    "PB": 11.742093
+  },
+  "ownerEarnings": 130266000,
+  "growth_rate_revenue": 4.177081,
+  "growth_rate_net_income": -204.704975
+}

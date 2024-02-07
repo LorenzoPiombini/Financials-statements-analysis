@@ -1,0 +1,14 @@
+{
+  "ticker": "ALXN",
+  "valuation": {
+    "PE_valuation": 22217.035285, 
+    "DFC_valuation": 245200858.793873
+  },
+  "ratios": {
+    "ROIC": 25.157198,
+    "PB": 2.938082
+  },
+  "ownerEarnings": 5340200000,
+  "growth_rate_revenue": 80.709683,
+  "growth_rate_net_income": 105.619509
+}

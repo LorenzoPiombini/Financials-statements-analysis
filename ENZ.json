@@ -1,0 +1,14 @@
+{
+  "ticker": "ENZ",
+  "valuation": {
+    "PE_valuation": 2.274267, 
+    "DFC_valuation": -97.514641
+  },
+  "ratios": {
+    "ROIC": -41.176812,
+    "PB": 0.927287
+  },
+  "ownerEarnings": -30381000,
+  "growth_rate_revenue": 29.783813,
+  "growth_rate_net_income": 23.160206
+}

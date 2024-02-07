@@ -1,0 +1,14 @@
+{
+  "ticker": "GTBP",
+  "valuation": {
+    "PE_valuation": 0.001625, 
+    "DFC_valuation": -25.918222
+  },
+  "ratios": {
+    "ROIC": -172.729640,
+    "PB": 2.406261
+  },
+  "ownerEarnings": -28603000,
+  "growth_rate_revenue": 1.776399,
+  "growth_rate_net_income": -49.940476
+}

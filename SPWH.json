@@ -1,0 +1,14 @@
+{
+  "ticker": "SPWH",
+  "valuation": {
+    "PE_valuation": 13.537267, 
+    "DFC_valuation": -64.266585
+  },
+  "ratios": {
+    "ROIC": 4.400321,
+    "PB": 1.295701
+  },
+  "ownerEarnings": 139522000,
+  "growth_rate_revenue": 20.515383,
+  "growth_rate_net_income": 8.119048
+}

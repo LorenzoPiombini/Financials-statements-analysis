@@ -1,0 +1,14 @@
+{
+  "ticker": "EXPE",
+  "valuation": {
+    "PE_valuation": 409.103305, 
+    "DFC_valuation": 33153.170474
+  },
+  "ratios": {
+    "ROIC": 6.022085,
+    "PB": 6.011593
+  },
+  "ownerEarnings": 2075000000,
+  "growth_rate_revenue": 58.710878,
+  "growth_rate_net_income": 225.202776
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "INVA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 13.350516,
+    "PB": 1.630970
+  },
+  "ownerEarnings": 64647000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 16.118299
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ES",
+  "valuation": {
+    "PE_valuation": 194.265672, 
+    "DFC_valuation": -642.967445
+  },
+  "ratios": {
+    "ROIC": 4.331412,
+    "PB": 1.879017
+  },
+  "ownerEarnings": 7507844000,
+  "growth_rate_revenue": 6.368877,
+  "growth_rate_net_income": -4.660663
+}

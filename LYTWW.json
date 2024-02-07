@@ -1,0 +1,14 @@
+{
+  "ticker": "LYTWW",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 12.140141,
+    "PB": 2.601703
+  },
+  "ownerEarnings": 13985472,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 9137.651343
+}

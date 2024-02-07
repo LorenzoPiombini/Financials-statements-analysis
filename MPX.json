@@ -1,0 +1,14 @@
+{
+  "ticker": "MPX",
+  "valuation": {
+    "PE_valuation": 29.351532, 
+    "DFC_valuation": 149.989860
+  },
+  "ratios": {
+    "ROIC": 32.227928,
+    "PB": 3.216615
+  },
+  "ownerEarnings": 41369000,
+  "growth_rate_revenue": 17.563577,
+  "growth_rate_net_income": 30.954648
+}

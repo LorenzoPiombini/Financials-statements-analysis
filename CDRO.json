@@ -1,0 +1,14 @@
+{
+  "ticker": "CDRO",
+  "valuation": {
+    "PE_valuation": 2.311356, 
+    "DFC_valuation": -68.209163
+  },
+  "ratios": {
+    "ROIC": -203.354825,
+    "PB": 4.468143
+  },
+  "ownerEarnings": -45480000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

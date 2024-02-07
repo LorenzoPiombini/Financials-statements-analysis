@@ -1,0 +1,14 @@
+{
+  "ticker": "NEW",
+  "valuation": {
+    "PE_valuation": 252.220906, 
+    "DFC_valuation": -2452.463764
+  },
+  "ratios": {
+    "ROIC": -5.210451,
+    "PB": 7.782357
+  },
+  "ownerEarnings": -177159000,
+  "growth_rate_revenue": 49.655667,
+  "growth_rate_net_income": 22.418050
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "VNRX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -891.659193,
+    "PB": -52.233765
+  },
+  "ownerEarnings": -31631838,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 15.745850
+}

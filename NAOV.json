@@ -1,0 +1,14 @@
+{
+  "ticker": "NAOV",
+  "valuation": {
+    "PE_valuation": 16.913829, 
+    "DFC_valuation": -1154.028232
+  },
+  "ratios": {
+    "ROIC": -145.121035,
+    "PB": 2.213157
+  },
+  "ownerEarnings": -5050000,
+  "growth_rate_revenue": 32.027204,
+  "growth_rate_net_income": 43.136576
+}

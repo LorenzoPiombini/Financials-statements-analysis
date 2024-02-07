@@ -1,0 +1,14 @@
+{
+  "ticker": "SREV",
+  "valuation": {
+    "PE_valuation": 1.229955, 
+    "DFC_valuation": -0.616250
+  },
+  "ratios": {
+    "ROIC": -17.295329,
+    "PB": 1.448210
+  },
+  "ownerEarnings": 8092000,
+  "growth_rate_revenue": 28.329949,
+  "growth_rate_net_income": -282.039156
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "OST",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 6.597669
+  },
+  "ratios": {
+    "ROIC": 0.244639,
+    "PB": 0.534381
+  },
+  "ownerEarnings": 10888323,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

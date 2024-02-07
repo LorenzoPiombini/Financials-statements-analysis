@@ -1,0 +1,14 @@
+{
+  "ticker": "DELL",
+  "valuation": {
+    "PE_valuation": 17.495232, 
+    "DFC_valuation": -170.332893
+  },
+  "ratios": {
+    "ROIC": 16.375976,
+    "PB": -9.930865
+  },
+  "ownerEarnings": 11520000000,
+  "growth_rate_revenue": 9.441244,
+  "growth_rate_net_income": -8.858473
+}

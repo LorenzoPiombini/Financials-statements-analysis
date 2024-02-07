@@ -1,0 +1,14 @@
+{
+  "ticker": "TORO",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 57.893878
+  },
+  "ratios": {
+    "ROIC": 32.962443,
+    "PB": 0.259258
+  },
+  "ownerEarnings": 55563185,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

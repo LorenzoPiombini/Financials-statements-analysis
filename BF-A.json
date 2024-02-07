@@ -1,0 +1,14 @@
+{
+  "ticker": "BF-A",
+  "valuation": {
+    "PE_valuation": 100.831153, 
+    "DFC_valuation": 312.334912
+  },
+  "ratios": {
+    "ROIC": 14.038024,
+    "PB": 9.567322
+  },
+  "ownerEarnings": 1139000000,
+  "growth_rate_revenue": 3.235170,
+  "growth_rate_net_income": 23.542165
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MDU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -74.597994
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 646334000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

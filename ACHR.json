@@ -1,0 +1,14 @@
+{
+  "ticker": "ACHR",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -66.222215,
+    "PB": 0.911599
+  },
+  "ownerEarnings": -449700000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

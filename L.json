@@ -1,0 +1,14 @@
+{
+  "ticker": "L",
+  "valuation": {
+    "PE_valuation": 61.806423, 
+    "DFC_valuation": 858.925785
+  },
+  "ratios": {
+    "ROIC": 2.204980,
+    "PB": 0.970289
+  },
+  "ownerEarnings": 814000000,
+  "growth_rate_revenue": 19.204445,
+  "growth_rate_net_income": 9.822980
+}

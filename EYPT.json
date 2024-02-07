@@ -1,0 +1,14 @@
+{
+  "ticker": "EYPT",
+  "valuation": {
+    "PE_valuation": 69.672007, 
+    "DFC_valuation": -45368.914312
+  },
+  "ratios": {
+    "ROIC": -64.893379,
+    "PB": 1.355320
+  },
+  "ownerEarnings": -85726000,
+  "growth_rate_revenue": 123.443799,
+  "growth_rate_net_income": 209.991989
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BGS",
+  "valuation": {
+    "PE_valuation": -6.788727, 
+    "DFC_valuation": -167.675875
+  },
+  "ratios": {
+    "ROIC": 3.636666,
+    "PB": 0.905032
+  },
+  "ownerEarnings": 476749000,
+  "growth_rate_revenue": 21.564760,
+  "growth_rate_net_income": -101.270924
+}

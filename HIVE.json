@@ -1,0 +1,14 @@
+{
+  "ticker": "HIVE",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -64.593901,
+    "PB": 1.832108
+  },
+  "ownerEarnings": 97240667,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 28.660924
+}

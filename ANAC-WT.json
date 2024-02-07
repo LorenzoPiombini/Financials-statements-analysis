@@ -1,0 +1,14 @@
+{
+  "ticker": "ANAC-WT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.495448
+  },
+  "ratios": {
+    "ROIC": -2.109730,
+    "PB": 1.161020
+  },
+  "ownerEarnings": -23558931,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -170.141128
+}

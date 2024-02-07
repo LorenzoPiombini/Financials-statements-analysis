@@ -1,0 +1,14 @@
+{
+  "ticker": "SNDA",
+  "valuation": {
+    "PE_valuation": 29.453371, 
+    "DFC_valuation": -1124.315376
+  },
+  "ratios": {
+    "ROIC": -3.115061,
+    "PB": -1.366610
+  },
+  "ownerEarnings": 74790000,
+  "growth_rate_revenue": 21.891178,
+  "growth_rate_net_income": 70.614541
+}

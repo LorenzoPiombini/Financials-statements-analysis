@@ -1,0 +1,14 @@
+{
+  "ticker": "BCO",
+  "valuation": {
+    "PE_valuation": 108.262144, 
+    "DFC_valuation": 367.331691
+  },
+  "ratios": {
+    "ROIC": 6.340602,
+    "PB": 4.455424
+  },
+  "ownerEarnings": 813800000,
+  "growth_rate_revenue": 44.886486,
+  "growth_rate_net_income": 20.359547
+}

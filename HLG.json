@@ -1,0 +1,14 @@
+{
+  "ticker": "HLG",
+  "valuation": {
+    "PE_valuation": 396.873192, 
+    "DFC_valuation": 216.646856
+  },
+  "ratios": {
+    "ROIC": 16.967626,
+    "PB": 3.060740
+  },
+  "ownerEarnings": 702986000,
+  "growth_rate_revenue": 24.913535,
+  "growth_rate_net_income": 25.504642
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "DNN",
+  "valuation": {
+    "PE_valuation": -1.196088, 
+    "DFC_valuation": -298.556113
+  },
+  "ratios": {
+    "ROIC": -10.699498,
+    "PB": 2.923991
+  },
+  "ownerEarnings": -76674000,
+  "growth_rate_revenue": 1919.740697,
+  "growth_rate_net_income": inf
+}

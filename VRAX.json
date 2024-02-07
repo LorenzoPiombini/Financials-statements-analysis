@@ -1,0 +1,14 @@
+{
+  "ticker": "VRAX",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -17.043932
+  },
+  "ratios": {
+    "ROIC": -58.530934,
+    "PB": 8.666655
+  },
+  "ownerEarnings": -6982756,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

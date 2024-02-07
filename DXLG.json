@@ -1,0 +1,14 @@
+{
+  "ticker": "DXLG",
+  "valuation": {
+    "PE_valuation": -3.882625, 
+    "DFC_valuation": 1105.280432
+  },
+  "ratios": {
+    "ROIC": 19.330223,
+    "PB": 3.369516
+  },
+  "ownerEarnings": 112445000,
+  "growth_rate_revenue": 49.825009,
+  "growth_rate_net_income": -82.221639
+}

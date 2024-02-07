@@ -1,0 +1,14 @@
+{
+  "ticker": "PDLB",
+  "valuation": {
+    "PE_valuation": -13.982883, 
+    "DFC_valuation": 32.653919
+  },
+  "ratios": {
+    "ROIC": -1.883496,
+    "PB": 0.429226
+  },
+  "ownerEarnings": -4416000,
+  "growth_rate_revenue": 13.979604,
+  "growth_rate_net_income": -269.728613
+}

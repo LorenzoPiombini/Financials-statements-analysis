@@ -1,0 +1,14 @@
+{
+  "ticker": "TDW-WTA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -1.731567,
+    "PB": 0.055549
+  },
+  "ownerEarnings": 2579000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -70.483423
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AFL",
+  "valuation": {
+    "PE_valuation": 318.926382, 
+    "DFC_valuation": 9409.355555
+  },
+  "ratios": {
+    "ROIC": 16.672315,
+    "PB": 2.267560
+  },
+  "ownerEarnings": 4605000000,
+  "growth_rate_revenue": 29.823188,
+  "growth_rate_net_income": 24.889045
+}

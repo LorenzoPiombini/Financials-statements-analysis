@@ -1,0 +1,14 @@
+{
+  "ticker": "TBLAW",
+  "valuation": {
+    "PE_valuation": 0.681134, 
+    "DFC_valuation": 2.491130
+  },
+  "ratios": {
+    "ROIC": -3.047910,
+    "PB": 0.938483
+  },
+  "ownerEarnings": 20813000,
+  "growth_rate_revenue": -13.354383,
+  "growth_rate_net_income": -259.731766
+}

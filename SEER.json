@@ -1,0 +1,14 @@
+{
+  "ticker": "SEER",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -18.307176,
+    "PB": 0.810113
+  },
+  "ownerEarnings": -116374000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": 74.520593
+}

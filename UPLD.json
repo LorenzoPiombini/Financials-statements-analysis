@@ -1,0 +1,14 @@
+{
+  "ticker": "UPLD",
+  "valuation": {
+    "PE_valuation": 136.984827, 
+    "DFC_valuation": 656.087372
+  },
+  "ratios": {
+    "ROIC": -0.711897,
+    "PB": 0.533765
+  },
+  "ownerEarnings": 73399000,
+  "growth_rate_revenue": 45.986237,
+  "growth_rate_net_income": 97.743752
+}

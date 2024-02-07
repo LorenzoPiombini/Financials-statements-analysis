@@ -1,0 +1,14 @@
+{
+  "ticker": "CHMG",
+  "valuation": {
+    "PE_valuation": 170.853685, 
+    "DFC_valuation": 1101.947127
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 25000000,
+  "growth_rate_revenue": 6.851832,
+  "growth_rate_net_income": 12.911760
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "MDWT",
+  "valuation": {
+    "PE_valuation": -1.495821, 
+    "DFC_valuation": 2465.830458
+  },
+  "ratios": {
+    "ROIC": 1.880098,
+    "PB": 1.991142
+  },
+  "ownerEarnings": 15633000,
+  "growth_rate_revenue": -5.726832,
+  "growth_rate_net_income": 20.297353
+}

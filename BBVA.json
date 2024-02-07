@@ -1,0 +1,14 @@
+{
+  "ticker": "BBVA",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 6.766132,
+    "PB": 0.990737
+  },
+  "ownerEarnings": 11467000000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -11.312340
+}

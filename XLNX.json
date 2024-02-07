@@ -1,0 +1,14 @@
+{
+  "ticker": "XLNX",
+  "valuation": {
+    "PE_valuation": 1287.998967, 
+    "DFC_valuation": 163088.000879
+  },
+  "ratios": {
+    "ROIC": 26.416022,
+    "PB": 10.986214
+  },
+  "ownerEarnings": 683379000,
+  "growth_rate_revenue": 68.498829,
+  "growth_rate_net_income": 96.125149
+}

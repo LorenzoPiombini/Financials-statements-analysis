@@ -1,0 +1,14 @@
+{
+  "ticker": "YETI",
+  "valuation": {
+    "PE_valuation": 162.268926, 
+    "DFC_valuation": 600.291228
+  },
+  "ratios": {
+    "ROIC": 12.865374,
+    "PB": 6.824726
+  },
+  "ownerEarnings": 183301000,
+  "growth_rate_revenue": 89.061516,
+  "growth_rate_net_income": 172.456526
+}

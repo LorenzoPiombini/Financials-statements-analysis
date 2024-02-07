@@ -1,0 +1,14 @@
+{
+  "ticker": "GOVX",
+  "valuation": {
+    "PE_valuation": 5.650237, 
+    "DFC_valuation": -44.854604
+  },
+  "ratios": {
+    "ROIC": -52.712621,
+    "PB": 6.029950
+  },
+  "ownerEarnings": -14740093,
+  "growth_rate_revenue": 746.865415,
+  "growth_rate_net_income": 9.923867
+}

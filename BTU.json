@@ -1,0 +1,14 @@
+{
+  "ticker": "BTU",
+  "valuation": {
+    "PE_valuation": 27.969968, 
+    "DFC_valuation": 510.661431
+  },
+  "ratios": {
+    "ROIC": 39.684581,
+    "PB": 1.161849
+  },
+  "ownerEarnings": 2136900000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

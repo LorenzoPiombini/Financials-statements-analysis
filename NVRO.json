@@ -1,0 +1,14 @@
+{
+  "ticker": "NVRO",
+  "valuation": {
+    "PE_valuation": -9.078243, 
+    "DFC_valuation": 898.669340
+  },
+  "ratios": {
+    "ROIC": -13.091685,
+    "PB": 4.264553
+  },
+  "ownerEarnings": -357455000,
+  "growth_rate_revenue": 113.255377,
+  "growth_rate_net_income": 34.340466
+}

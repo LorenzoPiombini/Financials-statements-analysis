@@ -1,0 +1,14 @@
+{
+  "ticker": "PGYWW",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -30.190455
+  },
+  "ratios": {
+    "ROIC": -40.528317,
+    "PB": 1.521940
+  },
+  "ownerEarnings": -588809000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

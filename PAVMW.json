@@ -1,0 +1,14 @@
+{
+  "ticker": "PAVMW",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -297.948835,
+    "PB": -66.248090
+  },
+  "ownerEarnings": -96539000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 119.858193
+}

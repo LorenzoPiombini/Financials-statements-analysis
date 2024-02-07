@@ -1,0 +1,14 @@
+{
+  "ticker": "CSX",
+  "valuation": {
+    "PE_valuation": 33.766571, 
+    "DFC_valuation": 114.038608
+  },
+  "ratios": {
+    "ROIC": 14.873611,
+    "PB": 5.241448
+  },
+  "ownerEarnings": 8912000000,
+  "growth_rate_revenue": 3.947198,
+  "growth_rate_net_income": -493.419602
+}

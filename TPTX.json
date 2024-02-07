@@ -1,0 +1,14 @@
+{
+  "ticker": "TPTX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -167.547818,
+    "PB": 2.041280
+  },
+  "ownerEarnings": -291612000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": 77.212781
+}

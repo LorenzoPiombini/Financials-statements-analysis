@@ -1,0 +1,14 @@
+{
+  "ticker": "TC",
+  "valuation": {
+    "PE_valuation": 318.926152, 
+    "DFC_valuation": -22.450433
+  },
+  "ratios": {
+    "ROIC": -67.178514,
+    "PB": 16.528544
+  },
+  "ownerEarnings": 58738000,
+  "growth_rate_revenue": 57.412189,
+  "growth_rate_net_income": 31.081565
+}

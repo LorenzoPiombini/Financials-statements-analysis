@@ -1,0 +1,14 @@
+{
+  "ticker": "ALRM",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": 34.025249
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": -24014000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

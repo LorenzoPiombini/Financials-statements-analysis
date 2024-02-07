@@ -1,0 +1,14 @@
+{
+  "ticker": "PHAR",
+  "valuation": {
+    "PE_valuation": 248.890985, 
+    "DFC_valuation": 20459.187920
+  },
+  "ratios": {
+    "ROIC": 4.111215,
+    "PB": 3.496368
+  },
+  "ownerEarnings": 30124000,
+  "growth_rate_revenue": 92.319718,
+  "growth_rate_net_income": 46.871380
+}

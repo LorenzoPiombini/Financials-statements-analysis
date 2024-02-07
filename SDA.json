@@ -1,0 +1,14 @@
+{
+  "ticker": "SDA",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -25.917693
+  },
+  "ratios": {
+    "ROIC": -18.356239,
+    "PB": -440.717260
+  },
+  "ownerEarnings": -9921000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

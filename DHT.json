@@ -1,0 +1,14 @@
+{
+  "ticker": "DHT",
+  "valuation": {
+    "PE_valuation": 3.635713, 
+    "DFC_valuation": 426.113351
+  },
+  "ratios": {
+    "ROIC": 3.659278,
+    "PB": 1.368745
+  },
+  "ownerEarnings": 174649000,
+  "growth_rate_revenue": 44.491799,
+  "growth_rate_net_income": -170.102860
+}

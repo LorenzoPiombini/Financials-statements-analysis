@@ -1,0 +1,14 @@
+{
+  "ticker": "IVR",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": -49.289699,
+    "PB": 0.540647
+  },
+  "ownerEarnings": -370459000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}

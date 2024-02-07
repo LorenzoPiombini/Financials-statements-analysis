@@ -1,0 +1,14 @@
+{
+  "ticker": "NWHM",
+  "valuation": {
+    "PE_valuation": 14.767469, 
+    "DFC_valuation": 2852.000889
+  },
+  "ratios": {
+    "ROIC": -3.315604,
+    "PB": 0.433078
+  },
+  "ownerEarnings": 59196000,
+  "growth_rate_revenue": 102.585746,
+  "growth_rate_net_income": -79.145954
+}

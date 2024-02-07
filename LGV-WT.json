@@ -1,0 +1,14 @@
+{
+  "ticker": "LGV-WT",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -3.743770
+  },
+  "ratios": {
+    "ROIC": -0.718535,
+    "PB": 1.073051
+  },
+  "ownerEarnings": 7699293,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

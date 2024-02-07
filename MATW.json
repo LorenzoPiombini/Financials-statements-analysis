@@ -1,0 +1,14 @@
+{
+  "ticker": "MATW",
+  "valuation": {
+    "PE_valuation": -28.086654, 
+    "DFC_valuation": 471.411931
+  },
+  "ratios": {
+    "ROIC": 6.066058,
+    "PB": 2.281128
+  },
+  "ownerEarnings": 218722000,
+  "growth_rate_revenue": 10.787596,
+  "growth_rate_net_income": 16.035195
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BRX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 2.420243,
+    "PB": 2.373323
+  },
+  "ownerEarnings": 656080000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -inf
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BMY",
+  "valuation": {
+    "PE_valuation": 114.898062, 
+    "DFC_valuation": 1039.305196
+  },
+  "ratios": {
+    "ROIC": 11.610791,
+    "PB": 4.987230
+  },
+  "ownerEarnings": 21831000000,
+  "growth_rate_revenue": 10.251924,
+  "growth_rate_net_income": 31.008985
+}

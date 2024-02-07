@@ -1,0 +1,14 @@
+{
+  "ticker": "TPR",
+  "valuation": {
+    "PE_valuation": 141.582204, 
+    "DFC_valuation": 2219.871300
+  },
+  "ratios": {
+    "ROIC": 13.331365,
+    "PB": 4.441970
+  },
+  "ownerEarnings": 1254600000,
+  "growth_rate_revenue": 17.140379,
+  "growth_rate_net_income": 70.648193
+}

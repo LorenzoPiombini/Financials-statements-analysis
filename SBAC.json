@@ -1,0 +1,14 @@
+{
+  "ticker": "SBAC",
+  "valuation": {
+    "PE_valuation": 5905.606444, 
+    "DFC_valuation": 73982.844914
+  },
+  "ratios": {
+    "ROIC": 6.633802,
+    "PB": -5.735334
+  },
+  "ownerEarnings": 2151772000,
+  "growth_rate_revenue": 43.488053,
+  "growth_rate_net_income": 117.821198
+}

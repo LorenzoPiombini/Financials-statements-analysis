@@ -1,0 +1,14 @@
+{
+  "ticker": "PRSO",
+  "valuation": {
+    "PE_valuation": 103.794625, 
+    "DFC_valuation": -75.174347
+  },
+  "ratios": {
+    "ROIC": -142.218188,
+    "PB": 38.468900
+  },
+  "ownerEarnings": -14866000,
+  "growth_rate_revenue": 18.756811,
+  "growth_rate_net_income": -102.593376
+}

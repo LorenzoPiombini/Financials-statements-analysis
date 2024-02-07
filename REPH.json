@@ -1,0 +1,14 @@
+{
+  "ticker": "REPH",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": 0.382196,
+    "PB": 2.090196
+  },
+  "ownerEarnings": -11960000,
+  "growth_rate_revenue": 0.0,
+  "growth_rate_net_income": -127.412543
+}

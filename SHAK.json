@@ -1,0 +1,14 @@
+{
+  "ticker": "SHAK",
+  "valuation": {
+    "PE_valuation": 160.151301, 
+    "DFC_valuation": -1603.776487
+  },
+  "ratios": {
+    "ROIC": -1.377830,
+    "PB": 4.225428
+  },
+  "ownerEarnings": 185448000,
+  "growth_rate_revenue": 55.905068,
+  "growth_rate_net_income": -226.025577
+}

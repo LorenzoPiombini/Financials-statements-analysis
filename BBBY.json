@@ -1,0 +1,14 @@
+{
+  "ticker": "BBBY",
+  "valuation": {
+    "PE_valuation": 628.340080, 
+    "DFC_valuation": -6731.697012
+  },
+  "ratios": {
+    "ROIC": -56.506028,
+    "PB": -0.053061
+  },
+  "ownerEarnings": 1985346000,
+  "growth_rate_revenue": 46.966261,
+  "growth_rate_net_income": 44.525452
+}

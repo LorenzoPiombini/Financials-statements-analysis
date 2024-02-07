@@ -1,0 +1,14 @@
+{
+  "ticker": "PD",
+  "valuation": {
+    "PE_valuation": 74.993503, 
+    "DFC_valuation": 9.476349
+  },
+  "ratios": {
+    "ROIC": -22.908924,
+    "PB": 10.967800
+  },
+  "ownerEarnings": -207110000,
+  "growth_rate_revenue": 45.265745,
+  "growth_rate_net_income": 35.860430
+}

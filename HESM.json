@@ -1,0 +1,14 @@
+{
+  "ticker": "HESM",
+  "valuation": {
+    "PE_valuation": 69.048318, 
+    "DFC_valuation": 3448.649474
+  },
+  "ratios": {
+    "ROIC": 17.276261,
+    "PB": 2.335909
+  },
+  "ownerEarnings": 974500000,
+  "growth_rate_revenue": 44.095868,
+  "growth_rate_net_income": 104.012096
+}

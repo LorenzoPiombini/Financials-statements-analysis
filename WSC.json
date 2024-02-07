@@ -1,0 +1,14 @@
+{
+  "ticker": "WSC",
+  "valuation": {
+    "PE_valuation": 77.286998, 
+    "DFC_valuation": 154.001428
+  },
+  "ratios": {
+    "ROIC": 7.615774,
+    "PB": 4.883490
+  },
+  "ownerEarnings": 1089545000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -6826.727603
+}

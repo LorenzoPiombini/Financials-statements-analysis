@@ -1,0 +1,14 @@
+{
+  "ticker": "CIG-C",
+  "valuation": {
+    "PE_valuation": 47.223923, 
+    "DFC_valuation": 2877.064926
+  },
+  "ratios": {
+    "ROIC": 17.087393,
+    "PB": 1.099572
+  },
+  "ownerEarnings": 9334000000,
+  "growth_rate_revenue": 19.865142,
+  "growth_rate_net_income": -3024.879233
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ACHC",
+  "valuation": {
+    "PE_valuation": 606.272841, 
+    "DFC_valuation": 5959.541201
+  },
+  "ratios": {
+    "ROIC": 7.409089,
+    "PB": 2.624662
+  },
+  "ownerEarnings": 803836000,
+  "growth_rate_revenue": 133.763149,
+  "growth_rate_net_income": -143.166580
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SMMF",
+  "valuation": {
+    "PE_valuation": 1112.522474, 
+    "DFC_valuation": 2017272.759696
+  },
+  "ratios": {
+    "ROIC": 10.900215,
+    "PB": 0.908140
+  },
+  "ownerEarnings": 114900000,
+  "growth_rate_revenue": 387.323092,
+  "growth_rate_net_income": 27.819697
+}

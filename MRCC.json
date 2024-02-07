@@ -1,0 +1,14 @@
+{
+  "ticker": "MRCC",
+  "valuation": {
+    "PE_valuation": -2.167471, 
+    "DFC_valuation": 70.578483
+  },
+  "ratios": {
+    "ROIC": 4.932490,
+    "PB": 0.822276
+  },
+  "ownerEarnings": 27122000,
+  "growth_rate_revenue": 244.582047,
+  "growth_rate_net_income": 246.277957
+}

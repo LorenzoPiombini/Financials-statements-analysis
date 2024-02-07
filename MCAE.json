@@ -1,0 +1,14 @@
+{
+  "ticker": "MCAE",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -2.545157
+  },
+  "ratios": {
+    "ROIC": 565.924004,
+    "PB": -42879.232664
+  },
+  "ownerEarnings": 751198,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

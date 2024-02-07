@@ -1,0 +1,14 @@
+{
+  "ticker": "SSSSL",
+  "valuation": {
+    "PE_valuation": -102.597523, 
+    "DFC_valuation": -6622.676275
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.543223
+  },
+  "ownerEarnings": -1903986468947,
+  "growth_rate_revenue": -2315.683778,
+  "growth_rate_net_income": -357.901123
+}

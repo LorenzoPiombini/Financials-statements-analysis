@@ -1,0 +1,14 @@
+{
+  "ticker": "SATLW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -84.633446,
+    "PB": 478.348780
+  },
+  "ownerEarnings": -118945000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

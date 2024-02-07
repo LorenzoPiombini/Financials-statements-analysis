@@ -1,0 +1,14 @@
+{
+  "ticker": "CACI",
+  "valuation": {
+    "PE_valuation": 0.036983, 
+    "DFC_valuation": 237180.048654
+  },
+  "ratios": {
+    "ROIC": 8.091245,
+    "PB": 2.452121
+  },
+  "ownerEarnings": 718095000,
+  "growth_rate_revenue": 8.919338,
+  "growth_rate_net_income": 29.802700
+}

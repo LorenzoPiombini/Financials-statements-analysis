@@ -1,0 +1,14 @@
+{
+  "ticker": "TAYD",
+  "valuation": {
+    "PE_valuation": 65.298986, 
+    "DFC_valuation": 370.736465
+  },
+  "ratios": {
+    "ROIC": 11.510129,
+    "PB": 1.298494
+  },
+  "ownerEarnings": 10087199,
+  "growth_rate_revenue": 5.046649,
+  "growth_rate_net_income": 0.0
+}

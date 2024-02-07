@@ -1,0 +1,14 @@
+{
+  "ticker": "ENJ",
+  "valuation": {
+    "PE_valuation": 160.118530, 
+    "DFC_valuation": -1809.442528
+  },
+  "ratios": {
+    "ROIC": 5.338393,
+    "PB": 1.773787
+  },
+  "ownerEarnings": 10320385000,
+  "growth_rate_revenue": 5.331886,
+  "growth_rate_net_income": -102.330728
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "BMRN",
+  "valuation": {
+    "PE_valuation": -15987.783975, 
+    "DFC_valuation": 2485226.329494
+  },
+  "ratios": {
+    "ROIC": 0.954321,
+    "PB": 4.165225
+  },
+  "ownerEarnings": -5298000,
+  "growth_rate_revenue": 139.711388,
+  "growth_rate_net_income": 63.674334
+}

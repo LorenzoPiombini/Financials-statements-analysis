@@ -1,0 +1,14 @@
+{
+  "ticker": "LITB",
+  "valuation": {
+    "PE_valuation": 1.732200, 
+    "DFC_valuation": 46.515077
+  },
+  "ratios": {
+    "ROIC": -43.046227,
+    "PB": 35.898578
+  },
+  "ownerEarnings": 55032000,
+  "growth_rate_revenue": 57.937129,
+  "growth_rate_net_income": 124.185916
+}

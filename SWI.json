@@ -1,0 +1,14 @@
+{
+  "ticker": "SWI",
+  "valuation": {
+    "PE_valuation": 6.041511, 
+    "DFC_valuation": 0.000000
+  },
+  "ratios": {
+    "ROIC": 2.500261,
+    "PB": 1.099163
+  },
+  "ownerEarnings": 1114518000,
+  "growth_rate_revenue": 1.569091,
+  "growth_rate_net_income": 463.618151
+}

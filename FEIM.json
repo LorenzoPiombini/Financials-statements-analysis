@@ -1,0 +1,14 @@
+{
+  "ticker": "FEIM",
+  "valuation": {
+    "PE_valuation": 4.047858, 
+    "DFC_valuation": -3.463390
+  },
+  "ratios": {
+    "ROIC": -9.833683,
+    "PB": 1.848321
+  },
+  "ownerEarnings": -836000,
+  "growth_rate_revenue": 18.295714,
+  "growth_rate_net_income": -103.847781
+}

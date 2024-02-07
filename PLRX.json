@@ -1,0 +1,14 @@
+{
+  "ticker": "PLRX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -37.404052,
+    "PB": 2.591952
+  },
+  "ownerEarnings": -145424000,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": -5315.211415
+}

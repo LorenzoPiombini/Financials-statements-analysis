@@ -1,0 +1,14 @@
+{
+  "ticker": "EQBK",
+  "valuation": {
+    "PE_valuation": 74.587298, 
+    "DFC_valuation": 957.038295
+  },
+  "ratios": {
+    "ROIC": 12.849755,
+    "PB": 1.291800
+  },
+  "ownerEarnings": 123380000,
+  "growth_rate_revenue": 38.896444,
+  "growth_rate_net_income": 61.618131
+}

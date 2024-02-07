@@ -1,0 +1,14 @@
+{
+  "ticker": "CCU",
+  "valuation": {
+    "PE_valuation": 29823.087769, 
+    "DFC_valuation": -86759.448517
+  },
+  "ratios": {
+    "ROIC": 8.003495,
+    "PB": 1.562626
+  },
+  "ownerEarnings": 528261660000,
+  "growth_rate_revenue": 7.604095,
+  "growth_rate_net_income": 29.099949
+}

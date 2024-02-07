@@ -1,0 +1,14 @@
+{
+  "ticker": "TKC",
+  "valuation": {
+    "PE_valuation": 547.372232, 
+    "DFC_valuation": 12181.797423
+  },
+  "ratios": {
+    "ROIC": 23.621291,
+    "PB": 2.530506
+  },
+  "ownerEarnings": 47638211000,
+  "growth_rate_revenue": 22.045049,
+  "growth_rate_net_income": 36.617170
+}

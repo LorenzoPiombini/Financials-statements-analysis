@@ -1,0 +1,14 @@
+{
+  "ticker": "FMX",
+  "valuation": {
+    "PE_valuation": 46875.901927, 
+    "DFC_valuation": 65718.329999
+  },
+  "ratios": {
+    "ROIC": 2.979591,
+    "PB": 8.038284
+  },
+  "ownerEarnings": 70324000000,
+  "growth_rate_revenue": 21.017940,
+  "growth_rate_net_income": 117.146891
+}

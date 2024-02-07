@@ -1,0 +1,14 @@
+{
+  "ticker": "CW",
+  "valuation": {
+    "PE_valuation": 551.358562, 
+    "DFC_valuation": 4724.578487
+  },
+  "ratios": {
+    "ROIC": 7.082474,
+    "PB": 3.217718
+  },
+  "ownerEarnings": 308416000,
+  "growth_rate_revenue": -3.158886,
+  "growth_rate_net_income": -105.802276
+}

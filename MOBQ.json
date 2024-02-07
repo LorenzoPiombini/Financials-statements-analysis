@@ -1,0 +1,14 @@
+{
+  "ticker": "MOBQ",
+  "valuation": {
+    "PE_valuation": 2.322445, 
+    "DFC_valuation": -23.623426
+  },
+  "ratios": {
+    "ROIC": 333.405671,
+    "PB": -6090.426648
+  },
+  "ownerEarnings": -6364210,
+  "growth_rate_revenue": 3.902124,
+  "growth_rate_net_income": 33.276878
+}

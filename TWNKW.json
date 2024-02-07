@@ -1,0 +1,14 @@
+{
+  "ticker": "TWNKW",
+  "valuation": {
+    "PE_valuation": 30.411932, 
+    "DFC_valuation": 61.135766
+  },
+  "ratios": {
+    "ROIC": 6.113536,
+    "PB": 1.707812
+  },
+  "ownerEarnings": 394272000,
+  "growth_rate_revenue": 13.023650,
+  "growth_rate_net_income": 56.062230
+}

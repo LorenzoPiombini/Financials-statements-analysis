@@ -1,0 +1,14 @@
+{
+  "ticker": "BCC",
+  "valuation": {
+    "PE_valuation": 371.488951, 
+    "DFC_valuation": 2926.290369
+  },
+  "ratios": {
+    "ROIC": 32.568425,
+    "PB": 1.318894
+  },
+  "ownerEarnings": 1098689000,
+  "growth_rate_revenue": 16.116224,
+  "growth_rate_net_income": -16.558761
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SGMS",
+  "valuation": {
+    "PE_valuation": -47.324404, 
+    "DFC_valuation": 1355387.164116
+  },
+  "ratios": {
+    "ROIC": -0.137957,
+    "PB": -3.046382
+  },
+  "ownerEarnings": 2243000000,
+  "growth_rate_revenue": 73.690988,
+  "growth_rate_net_income": -49.060315
+}

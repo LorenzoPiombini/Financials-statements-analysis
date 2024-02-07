@@ -1,0 +1,14 @@
+{
+  "ticker": "FTHM",
+  "valuation": {
+    "PE_valuation": 78.341022, 
+    "DFC_valuation": -96.163500
+  },
+  "ratios": {
+    "ROIC": -33.408458,
+    "PB": 1.096497
+  },
+  "ownerEarnings": -25548000,
+  "growth_rate_revenue": 28.730609,
+  "growth_rate_net_income": 232.933230
+}

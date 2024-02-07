@@ -1,0 +1,14 @@
+{
+  "ticker": "DCOM",
+  "valuation": {
+    "PE_valuation": 138.064571, 
+    "DFC_valuation": 355.685185
+  },
+  "ratios": {
+    "ROIC": 0.000000,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 96094000,
+  "growth_rate_revenue": 27.814942,
+  "growth_rate_net_income": 44.723057
+}

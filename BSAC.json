@@ -1,0 +1,14 @@
+{
+  "ticker": "BSAC",
+  "valuation": {
+    "PE_valuation": 49434.086480, 
+    "DFC_valuation": -1079.347945
+  },
+  "ratios": {
+    "ROIC": 19.575655,
+    "PB": 1.303215
+  },
+  "ownerEarnings": 6046443000000,
+  "growth_rate_revenue": 33.437374,
+  "growth_rate_net_income": 36.147568
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "JFBR",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -188.620667
+  },
+  "ratios": {
+    "ROIC": -34.132850,
+    "PB": 0.420162
+  },
+  "ownerEarnings": -6238000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

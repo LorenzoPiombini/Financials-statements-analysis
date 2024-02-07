@@ -1,0 +1,14 @@
+{
+  "ticker": "TSM",
+  "valuation": {
+    "PE_valuation": 43433.370578, 
+    "DFC_valuation": 193234.211551
+  },
+  "ratios": {
+    "ROIC": 25.793035,
+    "PB": 4.028663
+  },
+  "ownerEarnings": 2528896193000,
+  "growth_rate_revenue": 47.519481,
+  "growth_rate_net_income": 45.545195
+}

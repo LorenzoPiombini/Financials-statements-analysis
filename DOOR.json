@@ -1,0 +1,14 @@
+{
+  "ticker": "DOOR",
+  "valuation": {
+    "PE_valuation": 246.913018, 
+    "DFC_valuation": 22.140147
+  },
+  "ratios": {
+    "ROIC": 12.767770,
+    "PB": 2.661993
+  },
+  "ownerEarnings": 479690000,
+  "growth_rate_revenue": 1.702181,
+  "growth_rate_net_income": 6.737348
+}

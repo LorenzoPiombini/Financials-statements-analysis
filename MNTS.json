@@ -1,0 +1,14 @@
+{
+  "ticker": "MNTS",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -59.058292
+  },
+  "ratios": {
+    "ROIC": -141.746121,
+    "PB": 1.647535
+  },
+  "ownerEarnings": -99259000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

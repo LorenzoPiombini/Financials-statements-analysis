@@ -1,0 +1,14 @@
+{
+  "ticker": "INDI",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -86.798021
+  },
+  "ratios": {
+    "ROIC": -23.334237,
+    "PB": 2.255504
+  },
+  "ownerEarnings": -206946000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

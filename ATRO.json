@@ -1,0 +1,14 @@
+{
+  "ticker": "ATRO",
+  "valuation": {
+    "PE_valuation": 28.008879, 
+    "DFC_valuation": -6721.018503
+  },
+  "ratios": {
+    "ROIC": -8.617715,
+    "PB": 1.380832
+  },
+  "ownerEarnings": -8905000,
+  "growth_rate_revenue": 16.182016,
+  "growth_rate_net_income": -247.916667
+}

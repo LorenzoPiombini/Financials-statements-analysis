@@ -1,0 +1,14 @@
+{
+  "ticker": "CISO",
+  "valuation": {
+    "PE_valuation": 151.821491, 
+    "DFC_valuation": -1380.476444
+  },
+  "ratios": {
+    "ROIC": -36.192387,
+    "PB": 4.641108
+  },
+  "ownerEarnings": -46022529,
+  "growth_rate_revenue": 173.354184,
+  "growth_rate_net_income": 140.029644
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ALOHA",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -7.062993
+  },
+  "ratios": {
+    "ROIC": -0.854601,
+    "PB": 0.000000
+  },
+  "ownerEarnings": 1646522,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

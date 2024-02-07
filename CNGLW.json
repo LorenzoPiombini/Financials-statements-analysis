@@ -1,0 +1,14 @@
+{
+  "ticker": "CNGLW",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -7.374205,
+    "PB": 19.852280
+  },
+  "ownerEarnings": -4385708,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

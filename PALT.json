@@ -1,0 +1,14 @@
+{
+  "ticker": "PALT",
+  "valuation": {
+    "PE_valuation": 801.303924, 
+    "DFC_valuation": -12526426740.212734
+  },
+  "ratios": {
+    "ROIC": -230.167209,
+    "PB": 10.672471
+  },
+  "ownerEarnings": -3122906,
+  "growth_rate_revenue": 115504.750478,
+  "growth_rate_net_income": 139.974432
+}

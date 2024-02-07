@@ -1,0 +1,14 @@
+{
+  "ticker": "WIRE",
+  "valuation": {
+    "PE_valuation": 6586.365155, 
+    "DFC_valuation": 987012.162438
+  },
+  "ratios": {
+    "ROIC": 39.050494,
+    "PB": 1.449146
+  },
+  "ownerEarnings": 862067000,
+  "growth_rate_revenue": 56.591349,
+  "growth_rate_net_income": -361.495625
+}

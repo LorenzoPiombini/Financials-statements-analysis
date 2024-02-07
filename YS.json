@@ -1,0 +1,14 @@
+{
+  "ticker": "YS",
+  "valuation": {
+    "PE_valuation": -0.000000, 
+    "DFC_valuation": -230.987537
+  },
+  "ratios": {
+    "ROIC": -11.345384,
+    "PB": 1.404284
+  },
+  "ownerEarnings": -50105234,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

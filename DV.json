@@ -1,0 +1,14 @@
+{
+  "ticker": "DV",
+  "valuation": {
+    "PE_valuation": 100.828823, 
+    "DFC_valuation": 42.893827
+  },
+  "ratios": {
+    "ROIC": 4.118998,
+    "PB": 4.104250
+  },
+  "ownerEarnings": 75831000,
+  "growth_rate_revenue": 20.260540,
+  "growth_rate_net_income": 153.074450
+}

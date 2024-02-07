@@ -1,0 +1,14 @@
+{
+  "ticker": "NSSC",
+  "valuation": {
+    "PE_valuation": 74.355802, 
+    "DFC_valuation": 138.305378
+  },
+  "ratios": {
+    "ROIC": 17.382453,
+    "PB": 9.082434
+  },
+  "ownerEarnings": 28749000,
+  "growth_rate_revenue": 11.847220,
+  "growth_rate_net_income": -22.338358
+}

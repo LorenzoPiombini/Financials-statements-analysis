@@ -1,0 +1,14 @@
+{
+  "ticker": "UPS",
+  "valuation": {
+    "PE_valuation": 361.500926, 
+    "DFC_valuation": 248568.049650
+  },
+  "ratios": {
+    "ROIC": 21.624963,
+    "PB": 7.617471
+  },
+  "ownerEarnings": 16726000000,
+  "growth_rate_revenue": 7.810716,
+  "growth_rate_net_income": 47.118303
+}

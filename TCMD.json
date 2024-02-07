@@ -1,0 +1,14 @@
+{
+  "ticker": "TCMD",
+  "valuation": {
+    "PE_valuation": 24.420508, 
+    "DFC_valuation": 28.272965
+  },
+  "ratios": {
+    "ROIC": -2.444523,
+    "PB": 1.897696
+  },
+  "ownerEarnings": 2480000,
+  "growth_rate_revenue": 38.846219,
+  "growth_rate_net_income": 39.011624
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NEOG",
+  "valuation": {
+    "PE_valuation": -139.854403, 
+    "DFC_valuation": -11915.783398
+  },
+  "ratios": {
+    "ROIC": 0.964852,
+    "PB": 1.055295
+  },
+  "ownerEarnings": 240201000,
+  "growth_rate_revenue": 12.773094,
+  "growth_rate_net_income": 36.988636
+}

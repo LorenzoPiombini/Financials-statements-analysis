@@ -1,0 +1,14 @@
+{
+  "ticker": "EB",
+  "valuation": {
+    "PE_valuation": 6.476602, 
+    "DFC_valuation": 1.441597
+  },
+  "ratios": {
+    "ROIC": -8.765838,
+    "PB": 3.458721
+  },
+  "ownerEarnings": -69644000,
+  "growth_rate_revenue": 29.174257,
+  "growth_rate_net_income": 64.419581
+}

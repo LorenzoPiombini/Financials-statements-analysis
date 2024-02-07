@@ -1,0 +1,14 @@
+{
+  "ticker": "TENB",
+  "valuation": {
+    "PE_valuation": 71.927017, 
+    "DFC_valuation": 153.958626
+  },
+  "ratios": {
+    "ROIC": -9.780921,
+    "PB": 15.678956
+  },
+  "ownerEarnings": -135038000,
+  "growth_rate_revenue": 43.264672,
+  "growth_rate_net_income": 19.134597
+}

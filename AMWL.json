@@ -1,0 +1,14 @@
+{
+  "ticker": "AMWL",
+  "valuation": {
+    "PE_valuation": 12.168272, 
+    "DFC_valuation": -66.479826
+  },
+  "ratios": {
+    "ROIC": -25.231098,
+    "PB": 0.729527
+  },
+  "ownerEarnings": -313101000,
+  "growth_rate_revenue": 2.028452,
+  "growth_rate_net_income": 39.016132
+}

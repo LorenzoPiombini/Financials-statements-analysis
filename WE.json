@@ -1,0 +1,14 @@
+{
+  "ticker": "WE",
+  "valuation": {
+    "PE_valuation": 331.862210, 
+    "DFC_valuation": -124.021751
+  },
+  "ratios": {
+    "ROIC": -3.585403,
+    "PB": -11.873997
+  },
+  "ownerEarnings": 873000000,
+  "growth_rate_revenue": 11.563493,
+  "growth_rate_net_income": 21.365977
+}

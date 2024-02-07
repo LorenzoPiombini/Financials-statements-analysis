@@ -1,0 +1,14 @@
+{
+  "ticker": "BJDX",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": -inf
+  },
+  "ratios": {
+    "ROIC": -73.831886,
+    "PB": 0.663903
+  },
+  "ownerEarnings": -8245142,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

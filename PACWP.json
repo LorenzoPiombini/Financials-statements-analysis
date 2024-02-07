@@ -1,0 +1,14 @@
+{
+  "ticker": "PACWP",
+  "valuation": {
+    "PE_valuation": 1259.240385, 
+    "DFC_valuation": 3569726.290936
+  },
+  "ratios": {
+    "ROIC": 7.682400,
+    "PB": 0.681221
+  },
+  "ownerEarnings": 1090394000,
+  "growth_rate_revenue": 243.402795,
+  "growth_rate_net_income": 111.331947
+}

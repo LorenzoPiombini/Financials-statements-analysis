@@ -1,0 +1,14 @@
+{
+  "ticker": "MGY",
+  "valuation": {
+    "PE_valuation": 118.972426, 
+    "DFC_valuation": 3836.534702
+  },
+  "ratios": {
+    "ROIC": 54.262675,
+    "PB": 2.788801
+  },
+  "ownerEarnings": 1785567000,
+  "growth_rate_revenue": 111.816867,
+  "growth_rate_net_income": -424.752453
+}

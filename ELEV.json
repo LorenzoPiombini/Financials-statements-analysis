@@ -1,0 +1,14 @@
+{
+  "ticker": "ELEV",
+  "valuation": {
+    "PE_valuation": 0.0, 
+    "DFC_valuation": 0.0
+  },
+  "ratios": {
+    "ROIC": -120.526931,
+    "PB": 0.450803
+  },
+  "ownerEarnings": -97161000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

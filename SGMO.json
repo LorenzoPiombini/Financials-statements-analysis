@@ -1,0 +1,14 @@
+{
+  "ticker": "SGMO",
+  "valuation": {
+    "PE_valuation": 311.746233, 
+    "DFC_valuation": -159165.133839
+  },
+  "ratios": {
+    "ROIC": -52.923623,
+    "PB": 1.643093
+  },
+  "ownerEarnings": -202059000,
+  "growth_rate_revenue": 66.369499,
+  "growth_rate_net_income": 205.486669
+}

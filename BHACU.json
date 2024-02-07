@@ -1,0 +1,14 @@
+{
+  "ticker": "BHACU",
+  "valuation": {
+    "PE_valuation": -4.975608, 
+    "DFC_valuation": -42.699588
+  },
+  "ratios": {
+    "ROIC": -5.108127,
+    "PB": 6.791372
+  },
+  "ownerEarnings": -18920989,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

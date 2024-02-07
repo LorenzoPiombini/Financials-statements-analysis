@@ -1,0 +1,14 @@
+{
+  "ticker": "LL",
+  "valuation": {
+    "PE_valuation": -14.818198, 
+    "DFC_valuation": -2235.792949
+  },
+  "ratios": {
+    "ROIC": -1.756667,
+    "PB": 0.633367
+  },
+  "ownerEarnings": 28271000,
+  "growth_rate_revenue": 47.371270,
+  "growth_rate_net_income": 85.680788
+}

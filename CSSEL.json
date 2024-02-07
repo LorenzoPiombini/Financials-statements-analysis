@@ -1,0 +1,14 @@
+{
+  "ticker": "CSSEL",
+  "valuation": {
+    "PE_valuation": 145.591725, 
+    "DFC_valuation": -11374.477367
+  },
+  "ratios": {
+    "ROIC": -14.352595,
+    "PB": 1.114243
+  },
+  "ownerEarnings": -9864940,
+  "growth_rate_revenue": 93.912094,
+  "growth_rate_net_income": 1607.483234
+}

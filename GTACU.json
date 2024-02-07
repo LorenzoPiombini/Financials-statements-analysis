@@ -1,0 +1,14 @@
+{
+  "ticker": "GTACU",
+  "valuation": {
+    "PE_valuation": 0.000000, 
+    "DFC_valuation": -15.220943
+  },
+  "ratios": {
+    "ROIC": -0.696630,
+    "PB": 0.002949
+  },
+  "ownerEarnings": -7820000,
+  "growth_rate_revenue": 0.000000,
+  "growth_rate_net_income": 0.000000
+}

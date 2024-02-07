@@ -1,0 +1,14 @@
+{
+  "ticker": "HUDI",
+  "valuation": {
+    "PE_valuation": 2.419328, 
+    "DFC_valuation": 1.113441
+  },
+  "ratios": {
+    "ROIC": 4.843524,
+    "PB": 6.548159
+  },
+  "ownerEarnings": 6238488,
+  "growth_rate_revenue": 1510971175089.144531,
+  "growth_rate_net_income": 59955136897147.578125
+}

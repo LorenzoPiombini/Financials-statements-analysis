@@ -1,0 +1,14 @@
+{
+  "ticker": "BANX",
+  "valuation": {
+    "PE_valuation": inf, 
+    "DFC_valuation": inf
+  },
+  "ratios": {
+    "ROIC": 3.786247,
+    "PB": 0.825649
+  },
+  "ownerEarnings": 10025827,
+  "growth_rate_revenue": inf,
+  "growth_rate_net_income": inf
+}
