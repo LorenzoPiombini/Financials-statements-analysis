@@ -1,12 +1,12 @@
 #ifndef _INCOMESTATEMENT_H_
 #define _INCOMESTATEMENT_H_
 
-
+#include "FinancialDataInterface.h"
 #include <string>
 #include <fstream>
 #include <vector>
 
-class Income_statement{
+class Income_statement : public Financial_data_interface{
  
   private:
          std::string date;
@@ -50,14 +50,14 @@ class Income_statement{
 		 std::string finalLink;
      
     public:
-         std::string get_date() const;
-		 std::string get_symbol()const;
-		 std::string get_reported_currency()const;
-		 std::string get_cik()const;
-		 std::string get_filling_date()const;
-		 std::string get_accepted_date()const;
-		 std::string get_calendar_year()const;
-		 std::string get_period()const;
+         std::string get_date() const override;
+		 std::string get_symbol()const override;
+		 std::string get_reported_currency()const override;
+		 std::string get_cik()const override;
+		 std::string get_filling_date()const override;
+		 std::string get_accepted_date()const override;
+		 std::string get_calendar_year()const override;
+		 std::string get_period()const override;
 		 long long get_revenue()const; 
 		 long long get_cost_of_revenue()const;
 		 long long get_gross_profit()const;

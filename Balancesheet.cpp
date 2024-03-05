@@ -7,7 +7,7 @@
 #include "Logger.h"
 
 
-std::string Balancesheet::get_date() const{
+std::string Balancesheet::get_date() const {
     return date;
 }
 

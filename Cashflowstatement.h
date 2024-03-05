@@ -1,12 +1,12 @@
 #ifndef _CASHFLOWSTATEMENT_H_
 #define _CASHFLOWSTATEMENT_H_
 
-
+#include "FinancialDataInterface.h"
 #include <fstream>
 #include <string>
 #include <vector>
 
-class Cashflowstatement{
+class Cashflowstatement : public Financial_data_interface{
     
     private:
         std::string date;
@@ -51,14 +51,14 @@ class Cashflowstatement{
 		std::string finalLink;
  
     public:
-        std::string get_date() const;
-        std::string get_symbol() const;
-        std::string get_reported_currency() const;
-        std::string get_cik() const;
-        std::string get_filling_date() const;
-        std::string get_accepted_date() const;
-        std::string get_calendar_year() const;
-        std::string get_period() const;
+        std::string get_date() const override;
+        std::string get_symbol() const override;
+        std::string get_reported_currency() const override;
+        std::string get_cik() const override;
+        std::string get_filling_date() const override;
+        std::string get_accepted_date() const override;
+        std::string get_calendar_year() const override;
+        std::string get_period() const override;
         long long get_net_income() const;
         long long get_depreciation_and_amortization() const;
         long long get_deferred_income_tax() const;

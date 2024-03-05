@@ -12,6 +12,8 @@
 #include <curl/curl.h>
 #include <algorithm>
 #include "Logger.h"
+#include "DCF.h"
+
 
 
 
@@ -226,6 +228,59 @@ std::string get_general_news(){
     
     std::string url = base_url+api_key;
     return perform_get_request(url);
+}
+
+
+std::string get_dcf_from_api(std::string &ticker){
+    
+    std::string base_url ="https://financialmodelingprep.com/api/v3/discounted-cash-flow/";
+    std::string api_key = "?apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw"; 
+    
+    std::string url = base_url+ticker+api_key;
+    std::cout<<url<<std::endl;
+    return perform_get_request(url);
+}
+
+void get_dcf(std::string &ticker, DCF &dcf_obj){
+    
+    std::string dcf_response = get_dcf_from_api(ticker);
+    
+    //std::cout << dcf_response<<std::endl;
+    dcf_obj.deserialize(dcf_response);
+    
+}
+
+
+std::vector<std::string> get_exchange_symbols(std::string exc){
+    
+    std::string base_url ="https://financialmodelingprep.com/api/v3/symbol/";
+    std::string api_key = "?apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw"; 
+    
+    std::string url = base_url + exc + api_key; 
+    
+    std::string response = perform_get_request(url);
+    
+    return split_json_objects(response);
+
+}
+
+
+std::vector<std::string> get_sp500_m(){
+    std::string base_url = "https://financialmodelingprep.com/api/v3/sp500_constituent";
+    std::string api_key = "?apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw";
+    std::string url = base_url + api_key;
+    
+    std::string response = perform_get_request(url);
+    return split_json_objects(response);    
+}
+
+std::vector<std::string> get_snt_transactions(std::string &ticker){
+     std::string base_url ="https://financialmodelingprep.com/api/v4/senate-trading?symbol=";
+     std::string api_key = "&apikey=QF2iqVota4NgpfTScti1x5YrGdXIuaPw";
+     std::string url = base_url + ticker +api_key;
+     
+     std::string response = perform_get_request(url);
+     return split_json_objects(response);
 }
 
 

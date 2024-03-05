@@ -3,11 +3,21 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="Base64encoder.h"/>
+    <File Name="Senate.cpp"/>
+    <File Name="Senate.h"/>
+    <File Name="FinancialDataInterface.h"/>
+    <File Name="displayingFunctions.h"/>
+    <File Name="Exchange.cpp"/>
+    <File Name="Exchange.h"/>
+    <File Name="DCF.cpp"/>
+    <File Name="DCF.h"/>
+    <File Name="DatabaseConnector.h"/>
+    <File Name="LoadingSavingdataoperations.h"/>
     <File Name="Logger.h"/>
     <File Name="Ticker.cpp"/>
     <File Name="Ticker.h"/>
     <File Name="Trim.h"/>
-    <File Name="Savingdataoperations.h"/>
     <File Name="Sharesfloat.cpp"/>
     <File Name="Sharesfloat.h"/>
     <File Name="keyratios.cpp"/>

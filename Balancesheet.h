@@ -1,11 +1,12 @@
 #ifndef _BALANCESHEET_H_
 #define _BALANCESHEET_H_
 
+#include "FinancialDataInterface.h"
 #include <string>
 #include <fstream>
 #include <vector>
 
-class Balancesheet {
+class Balancesheet : public Financial_data_interface {
     private:
         std::string date;
         std::string symbol;
@@ -65,14 +66,14 @@ class Balancesheet {
     
      public:
         //Balancesheet();
-        std::string get_date() const;
-        std::string get_symbol() const;
-        std::string get_reported_currency() const;
-        std::string get_cik() const;
-        std::string get_filling_date() const;
-        std::string get_accepted_date() const;
-        std::string get_calendar_year() const;
-        std::string get_period() const;
+        std::string get_date() const override;
+        std::string get_symbol() const override;
+        std::string get_reported_currency() const override;
+        std::string get_cik() const override;
+        std::string get_filling_date() const override;
+        std::string get_accepted_date() const override;
+        std::string get_calendar_year() const override;
+        std::string get_period() const override;
 		long long get_cash_and_cash_equivalents() const;
 		long long get_short_term_investments() const;
 		long long get_cash_and_short_term_investments() const;

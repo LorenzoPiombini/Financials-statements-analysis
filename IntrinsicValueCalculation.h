@@ -16,6 +16,7 @@
 #include "Incomestatement.h"
 #include "Balancesheet.h"
 #include "Keyratios.h"
+#include "DCF.h"
 
 
 double calculateCAGR(const std::vector<Income_statement*> &i, int years) {
@@ -98,25 +99,7 @@ double median_historical_pe(std::vector<Key_ratios*> &ratios, int year){
         
 }
 
-/*
- * This function compute the avarage eps on the last 'period' years. 
- * period is an int.
- * 
- */
 
-double eps_average(std::vector<Income_statement*> &i, int period){
-     double total_eps{0.0};
-      
-       if(i.empty() ||(period > i.size())){
-             throw std::invalid_argument("period of years bigger than our records or empty Vector\n");
-           }
-       
-    
-       for(int j{0}; j < period; j++){
-               total_eps += i[j]->get_eps();
-           }
-    return total_eps / period;
-}
 
 double get_pe_evaluetion(const std::string &ticker, std::vector<Income_statement*> &i, std::vector<Key_ratios*> &ratios){
     Logger logger("pe_evaluation.log");
@@ -317,20 +300,20 @@ std::string formattig_result_into_json(std::string ticker, double pe_value_compa
                                         double dfc,
                                         double roic,
                                         double pb_ratio,
-                                        long long oe,
+                                        double cr,
                                         double growth_rate_revenue,
                                         double growth_rate_net_income){
               std::string json_string {"{\n"};
               json_string += "  \"ticker\": \"" + ticker + "\",\n";
               json_string += "  \"valuation\": {\n";
               json_string += "    \"PE_valuation\": " + (std::isnan(pe_value_company) ? "0.0" : std::to_string(pe_value_company)) +", \n";
-              json_string += "    \"DFC_valuation\": " + (std::isnan(dfc) ? "0.0" : std::to_string(dfc)) + "\n";
+              json_string += "    \"DCF_valuation\": " + (std::isnan(dfc) ? "0.0" : std::to_string(dfc)) + "\n";
               json_string += "  },\n";
               json_string += "  \"ratios\": {\n";
               json_string += "    \"ROIC\": " + std::to_string(roic) + ",\n";
-              json_string += "    \"PB\": " + std::to_string(pb_ratio) + "\n";
+              json_string += "    \"PB\": " + std::to_string(pb_ratio) + ",\n";
+              json_string += "    \"current_ratio\": " + std::to_string(cr)+"\n";
               json_string += "  },\n";
-              json_string += "  \"ownerEarnings\": " + std::to_string(oe)+",\n";
               json_string += "  \"growth_rate_revenue\": " + (std::isnan(growth_rate_revenue) ? "0.0" : std::to_string(growth_rate_revenue)) + ",\n";
               json_string += "  \"growth_rate_net_income\": " + (std::isnan(growth_rate_net_income) ? "0.0" : std::to_string(growth_rate_net_income)) + "\n";
               json_string += "}\n";
@@ -346,22 +329,18 @@ void create_json_result(
                 std::vector<Balancesheet*> &bs,
                 std::vector<Income_statement*> &is,
                 std::vector<Cashflowstatement*> &cfs,
-                std::vector<Key_ratios*> &ratios) {
+                std::vector<Key_ratios*> &ratios,
+                DCF &dcf_object) {
      
      Logger logger("create_json_result.log");               
      double pe_value_company = get_pe_evaluetion(ticker, is, ratios);  
-     double dfc {0.0};
-      
-     try{
-         dfc = get_dcf_model(ticker,cfs,bs,is);
-     } catch (const std::invalid_argument &e){
-         logger.log(e.what(),Logger::Level::Error);
-     } 
+     double dfc = dcf_object.get_dcf();
      
-     double roic = ratios[0]->get_roic() * 100;
+     
+     double roic = (ratios[0]->get_roic() == 0) ? get_ROIC(bs,is,cfs) : (ratios[0]->get_roic()  * 100);
      double pb_ratio = ratios[0]->get_pb_ratio(); 
-     long long oe = get_owner_earnings(bs,is,cfs);
-
+     double cr = ratios[0]->get_current_ratio();
+     
      
     double growth_rate_revenue{0.0};
     double growth_rate_net_income{0.0};
@@ -371,6 +350,7 @@ void create_json_result(
         int years = 5;
       char flag = 'r';
       growth_rate_revenue = get_growth_rate(is,flag,years);
+      std::cout<< growth_rate_revenue << std::endl;
       flag ='n';
       growth_rate_net_income = get_growth_rate(is,flag,years);
       
@@ -381,7 +361,7 @@ void create_json_result(
       
       
     
-    std::string jsonStr = formattig_result_into_json(ticker,pe_value_company,dfc,roic,pb_ratio,oe,growth_rate_revenue,growth_rate_net_income);
+    std::string jsonStr = formattig_result_into_json(ticker,pe_value_company,dfc,roic,pb_ratio,cr,growth_rate_revenue,growth_rate_net_income);
     
     std::string fileName = ticker + ".json"; 
     std::ofstream outFile(fileName);
