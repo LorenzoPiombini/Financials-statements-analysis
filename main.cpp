@@ -24,9 +24,7 @@
 #include "Senate.h"
 #include "Base64encoder.h"
 
-//      GGlinux2024$
-//      lorenzo
-//
+
 
 using std::cout;
 using std::cin;
